@@ -1,0 +1,24 @@
+---
+title: 'anonymous programming'
+date: '2003-11-16T22:45:23-08:00'
+status: publish
+permalink: /2003/11/anonymous-programming
+author: sarah
+excerpt: ''
+type: post
+id: 77
+category:
+    - Uncategorized
+tag:
+    - language
+post_format: []
+---
+I often think about programming as an exercise in naming. By naming functions and objects we can use them elsewhere. Defining a term gives you the power to create other more interesting verbs and nouns. Eventually we provide an end-user with a complex or simple vocabulary composed of mouse gestures or type-written characters.
+
+I’m used to object-oriented programming in C++ or Java. Both languages are driven by procedural code. Objects are created in a series of statements. Everything has a name, even temporary variables, loop iterators, and transient objects that are created to support other objects. I generally have a hatful of conventions which spares me from having to think too much about unimportant names.
+
+Lately I’ve been working with a declarative object-oriented language (LZX from Laszlo Systems). Objects are created within an XML hierarchy. Many objects that appear on the screen or control other objects are anonymous. I only create names for objects when I need to reference them. It turns out that most objects don’t need names.
+
+Since I have gotten used to this unusual declarative style of programming I have found it refreshingly easy to whip up a graphical user interface. Its not that I ever thought that Javascript or even C++ was that hard, despite some cumbersome or awkward aspects of each language. Sometimes, it can be challenging to create software. I didn’t ascribe that difficulty to the language itself, but rather to the solving of a particular problem.
+
+LZX allows you to mix in Javascript. Where it is more appropriate to solve a problem with procedural code, you can define methods or include a snippet of Javascript to handle an event. Recently I solved a few problems by writing quite a bit of Javascript. I reflected on why it feels so much easier to declare a program with XML tags, depite the seemingly verbose syntax. Part of the ease of declarative XML is that common patterns are encapsulated in tags, but I think there is more to it than that. It seems that there is a certain intellectual overhead in creating even boilerplate names for transient variables. For me this was an unexpected observation.

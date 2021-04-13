@@ -1,0 +1,29 @@
+---
+title: 'mobile phones are the new computer'
+date: '2009-11-01T21:13:49-08:00'
+status: publish
+permalink: /2009/11/mobile-phones-are-the-new-computer
+author: sarah
+excerpt: ''
+type: post
+id: 1834
+category:
+    - general
+tag: []
+post_format: []
+---
+The mobile phone is the new computer. The desktop computer is not going away, but the smartphone market is growing fast. Phones are being used as computers by more people and for more purposes. Just as we still have supercomputers today but most people use desktop computers everyday, soon desktop computers will be relegated to the specialist and elite professional, and most people will use their mobile phones for their computing needs.
+
+Already there are more mobile phones than computers connected to the internet. Smartphones are generally cheaper than computers. With their primary role as communication devices, they are often more useful. The smartphone of today will be the standard phone a few years from now. With profits from applications growing, we’ll see continued subsidies of the hardware and operating systems by manufacturers and carriers, keeping new phones cheap or free.
+
+We’re also seeing a change in how people use computers. More often applications we use are centered around communications (more commonly termed “workflow”) than the more traditional personal computer task of document creation. In the business world, we file expense reports, approve decisions, or comment on proposals. As consumers, we read reviews, send short notes to friends, and share photos. Email is the killer app of the late 20th century, rather than the word processor or spreadsheet.
+
+I’ve never been a gadget geek and have skirted getting into mobile application development before now. The actual engineering challenges of working with native code on a device doesn’t scare me, but just didn’t seem worth it. Developing apps for a phone typically meant that you were working for a carrier, directly or indirectly subjected to the whims of a monstrously large company, and often disconnected from the people actually using the application. Mobile development also seemed to attract the same style of engineer as game development: interested in the tech for itself, with less interest in the end result, and a feeling that the application is “cool” because it runs on a gadget, independent of its usefulness. Mobile apps weren’t attractive to me as a developer or someone who might use them. I always said that I would start using a PDA when they had the resolution and battery life of paper, and the phone was suited for direct communication with another human being via voice.
+
+Last year, I started to notice a change. App development on an iPhone seemed like a different thing. Applications ranged from useful to silly. Whether they were expressive or empowering, they were more about the people who they were built for, than about those who they were built by. I bought an iPhone and wrote a couple of toy apps in ObjectiveC, but more notably, I started using my phone as more than a phone: for email, finding directions, micro-blogging, and even the idle entertainment of web surfing.
+
+The iPhone has revitalized the landscape for mobile application development. However, with all due respect, the BlackBerry had pioneered the “phone as computer” experience, but its focus on business users and Microsoft compatibility has not drawn mass adoption (despite a large group of avid followers). What we’re seeing now is that BlackBerry’s cutting edge in the business world is complimented by the iPhone’s consumer appeal. Further, Palm has reinvented its mobile platform and seeks to bring the best of both with a dynamic consumer experience and more power for the applications. While the iPhone is growing, Symbian and RIM (BlackBerry) still [dominate the market](http://www.ibtimes.com/blogs/articles/1863/20090312/iphone-sales-soar-245-in-2008-nokia-still-dominates-smartphone-market.htm).
+
+[SmartPhone operating systems](http://en.wikipedia.org/wiki/Smartphone#Operating_systems) actively innovate to keep up with advances in hardware and ease development with improved tools and APIs. These innovations are not purely technical. The iPhone App Store reduced barriers to application development by providing easy access to distribution. Unsurprisingly, people will develop more apps when there is an accessible market and distribution channel. [Blackberry App World](http://na.blackberry.com/eng/services/appworld/?) and [Windows Marketplace for Mobile](http://windowsteamblog.com/blogs/windowsphone/archive/2009/07/14/get-ready-windows-marketplace-for-mobile-offers-millions-of-potential-new-customers.aspx) are likely to drive the success of existing applications for those operating systems and draw new developers as well. Also OS-independent frameworks, like [Rhomobile](http://www.rhomobile.com/) and [PhoneGap](http://phonegap.com/), allow developers to reach people on diverse phones with a single codebase.
+
+In a recent [article by Gary Kim](http://fixed-mobile-convergence.tmcnet.com/topics/mobile-communications/articles/66939-mobile-devices-replace-pcs.htm), Forrester analyst Julie Ask identifies three things as the killer advantages of mobile devices: “immediacy, simplicity, and context.” When those are combined with usefulness, we’re going to start to see a different flavor of software application emerge that will transform the way we use mobile phones. I do believe that referring to the use of software applications as “computing” will become archaic. The age of software as communications medium will have arrived.

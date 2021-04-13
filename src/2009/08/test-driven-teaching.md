@@ -1,0 +1,23 @@
+---
+title: 'test-driven teaching'
+date: '2009-08-16T19:47:01-07:00'
+status: publish
+permalink: /2009/08/test-driven-teaching
+author: sarah
+excerpt: ''
+type: post
+id: 1963
+category:
+    - general
+tag: []
+post_format: []
+---
+In preparing to teach a new class, [Ruby on Rails Fundamentals](http://www.jccsf.org/content_main.aspx?catid=686), I felt strongly that I wanted to teach test-driven development (TDD). Initially my motivation was that I found it hard to learn TDD when I learned Rails. I found little instructional material on the web and the variety of test frameworks was a bit overwhelming. As an experienced programmer, I understood the methodology (although I hadn’t practiced it much), but couldn’t find good resources to teach myself the basic syntax. I found cucumber quite approachable, but struggled with TestUnit and RSpec (which I eventually learned well through [pair programming](https://www.ultrasaurus.com/sarahblog/2009/07/pair-programming-velocity/)). I figured that if people didn’t learn TDD in an introductory class, how the heck were they to learn it at all? Also, the last thing I want is for graduates of my class to have experience building web applications in Ruby on Rails that have no tests.
+
+There were negative reactions from some folks via email and twitter, but I had just as many people encouraging the teaching of TDD, so I decided to move forward with my plan. [Wolfram Arnold](http://www.rubyfocus.biz/) is a big proponent of [throwing the newbies into the status quo](http://twitter.com/wolframarnold/status/3336210949). We should teach them the real thing, not yesterday’s news, and certainly not teach them practices that we would frown upon. I reflected on my own TDD experience and realized that one of the benefits of TDD and one of the things that makes it hard is that I really need to understand what my code is doing to test it. That might sound strange, but it is surprisingly easy to get an intended high-level effect you want without really understanding exactly what your code is doing, especially with Rails. If you force yourself to write a test, you are creating a detailed contract with yourself. It is a crystallization of your design that requires an understanding of the code. I thought that would be really good for the class. We could write tests that cover some important details that it is easy to gloss over as a newbie. In this way, TDD would start as a teaching/learning tool, rather than the design tool that it usually is in a typical development process.
+
+Today I met with another TDD teaching proponent, [Alex Chafee](http://alexch.github.com/). He had [twittered](http://twitter.com/alexch/status/3320883966) that he always teaches testing first, and I was intrigued. I joined his regular Sunday study group as a TA, where I had fun teaching about [nested routes](http://adam.blog.heroku.com/past/2007/12/20/nested_resources_in_rails_2/), debugging [collection\_select](http://apidock.com/rails/ActionView/Helpers/FormOptionsHelper/collection_select), and spreading the word about [nested attributes](http://guides.rubyonrails.org/2_3_release_notes.html#nested-attributes). After the class, a few students stayed late and joined me as I learned from Alex about his approach to teaching, which he calls test-driven teaching (TDT). He did this intially in teaching java and more recently teaching Ruby. For homework assignments he would give student tests and then they would write the code to make them pass. This is one of those ideas that I hadn’t thought of, but as soon as he told me about it, the idea seemed an obvious way to teach. What beter way to specify an assignment that to provide a test?
+
+What I’d ike to do for the class is to start with TDT and then shift to TDD once the students are familiar enough with the Ruby syntax and the Rails object model. It is perhaps aggressive for 6 2-hour classes, but with homework assignments between classes and students who are already programmers, it seems like it could fit into the time frame.
+
+My first challenge is to figure out what are the essential Ruby language constructs that people need to know for writing Rails applications, what would be good exercises for learning those skills, and then write the tests that would require that code to be written. It feels like a little bit ‘o Ruby jeopardy. Alex has promised to meet with me again to brainstorm and I’ll publish what we come up with, but if you are reading this and you write Rails applications, I would love your feedback on what are the essential Ruby skills for a Rails engineer (plus any Ruby, Rails or TDD teaching tips would be welcome).

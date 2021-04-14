@@ -1,0 +1,17 @@
+---
+layout: layouts/base.liquid
+---
+
+<h1>{{ title }}</h1>
+
+{{ content | safe }}
+
+{%- set next = collections.blog | getNextCollectionItem(page) %}
+{%- set prev = collections.blog | getPreviousCollectionItem(page) %}
+{%- if next or prev %}
+<hr>
+<ul>
+  {%- if next %}<li>Next: <a href="{{ next.url | url }}">{{ next.data.title }}</a></li>{% endif %}
+  {%- if prev %}<li>Previous: <a href="{{ prev.url | url }}">{{ prev.data.title }}</a></li>{% endif %}
+</ul>
+{%- endif %}

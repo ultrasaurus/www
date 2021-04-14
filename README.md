@@ -8,6 +8,7 @@ TODO
 1. don't show draft posts (maybe put in a folder with diff tag? or omit from
 1. collections.blog with code)
 1. do any posts not have title? (that aren't drafts)
+1. fix errors (attachment folder thing)
 1. don't forget to add back google analytics
 1. push to github pages (or something)
 1. check broken links -- did it get worse?

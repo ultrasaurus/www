@@ -1,0 +1,9 @@
+{
+    "name": "www-ultrasaurus",
+    "version": "3.0.0",
+    "description": "static site for my blog",
+    "author": "Sarah Allen <sarah@ultrasaurus.com>",
+    "dependencies": {
+        "@11ty/eleventy": "^0.12.1"
+    }
+}

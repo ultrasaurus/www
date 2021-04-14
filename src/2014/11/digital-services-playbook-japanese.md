@@ -2,7 +2,7 @@
 title: 'digital services playbook in japanese'
 date: '2014-11-16T17:34:11-08:00'
 status: publish
-permalink: /2014/11/digital-services-playbook-japanese
+exported_permalink: /2014/11/digital-services-playbook-japanese
 author: sarah
 excerpt: ''
 type: post

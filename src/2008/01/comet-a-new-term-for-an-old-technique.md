@@ -2,7 +2,7 @@
 title: 'Comet: a new term for an old technique'
 date: '2008-01-27T10:02:52-08:00'
 status: publish
-permalink: /2008/01/comet-a-new-term-for-an-old-technique
+exported_permalink: /2008/01/comet-a-new-term-for-an-old-technique
 author: sarah
 excerpt: ''
 type: post

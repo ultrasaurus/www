@@ -2,7 +2,7 @@
 title: 'when faces are like rocks'
 date: '2007-07-14T13:35:31-07:00'
 status: publish
-permalink: /2007/07/when-faces-are-like-rocks
+exported_permalink: /2007/07/when-faces-are-like-rocks
 author: sarah
 excerpt: ''
 type: post

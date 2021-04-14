@@ -2,7 +2,7 @@
 title: 'What&#8217;s that bug?'
 date: '2005-10-24T08:02:36-07:00'
 status: publish
-permalink: /2005/10/whats-that-bug
+exported_permalink: /2005/10/whats-that-bug
 author: sarah
 excerpt: ''
 type: post

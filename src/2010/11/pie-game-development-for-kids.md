@@ -2,7 +2,7 @@
 title: 'pie: game development for kids'
 date: '2010-11-13T13:22:15-08:00'
 status: publish
-permalink: /2010/11/pie-game-development-for-kids
+exported_permalink: /2010/11/pie-game-development-for-kids
 author: sarah
 excerpt: ''
 type: post

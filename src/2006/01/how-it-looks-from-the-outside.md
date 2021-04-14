@@ -2,7 +2,7 @@
 title: 'how it looks from the outside'
 date: '2006-01-18T07:35:40-08:00'
 status: publish
-permalink: /2006/01/how-it-looks-from-the-outside
+exported_permalink: /2006/01/how-it-looks-from-the-outside
 author: sarah
 excerpt: ''
 type: post

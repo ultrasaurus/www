@@ -2,7 +2,7 @@
 title: 'Declarative GUI comparison'
 date: '2004-05-17T09:38:07-07:00'
 status: publish
-permalink: /2004/05/declarative-gui-comparison
+exported_permalink: /2004/05/declarative-gui-comparison
 author: sarah
 excerpt: ''
 type: post

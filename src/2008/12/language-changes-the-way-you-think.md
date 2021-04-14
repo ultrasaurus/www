@@ -2,7 +2,7 @@
 title: 'language changes the way you think'
 date: '2008-12-20T10:23:16-08:00'
 status: publish
-permalink: /2008/12/language-changes-the-way-you-think
+exported_permalink: /2008/12/language-changes-the-way-you-think
 author: sarah
 excerpt: ''
 type: post

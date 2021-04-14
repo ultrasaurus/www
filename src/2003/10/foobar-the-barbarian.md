@@ -2,7 +2,7 @@
 title: 'Foobar the Barbarian'
 date: '2003-10-14T22:04:35-07:00'
 status: publish
-permalink: /2003/10/foobar-the-barbarian
+exported_permalink: /2003/10/foobar-the-barbarian
 author: sarah
 excerpt: ''
 type: post

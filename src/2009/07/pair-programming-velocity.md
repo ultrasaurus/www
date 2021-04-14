@@ -2,7 +2,7 @@
 title: 'pair programming velocity'
 date: '2009-07-25T12:44:30-07:00'
 status: publish
-permalink: /2009/07/pair-programming-velocity
+exported_permalink: /2009/07/pair-programming-velocity
 author: sarah
 excerpt: ''
 type: post

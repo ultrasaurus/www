@@ -2,7 +2,7 @@
 title: 'on fixing bugs&#8230;'
 date: '2010-10-16T17:13:53-07:00'
 status: publish
-permalink: /2010/10/on-fixing-bugs
+exported_permalink: /2010/10/on-fixing-bugs
 author: sarah
 excerpt: ''
 type: post

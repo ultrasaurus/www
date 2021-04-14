@@ -2,7 +2,7 @@
 title: 'on getting the details right&#8230;'
 date: '2008-09-14T09:46:21-07:00'
 status: publish
-permalink: /2008/09/on-getting-the-details-right
+exported_permalink: /2008/09/on-getting-the-details-right
 author: sarah
 excerpt: ''
 type: post

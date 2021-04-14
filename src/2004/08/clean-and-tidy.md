@@ -2,7 +2,7 @@
 title: 'clean and tidy'
 date: '2004-08-29T06:56:19-07:00'
 status: publish
-permalink: /2004/08/clean-and-tidy
+exported_permalink: /2004/08/clean-and-tidy
 author: sarah
 excerpt: ''
 type: post

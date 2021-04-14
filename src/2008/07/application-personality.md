@@ -2,7 +2,7 @@
 title: 'application personality'
 date: '2008-07-04T12:29:38-07:00'
 status: publish
-permalink: /2008/07/application-personality
+exported_permalink: /2008/07/application-personality
 author: sarah
 excerpt: ''
 type: post

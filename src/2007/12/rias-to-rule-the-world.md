@@ -2,7 +2,7 @@
 title: 'RIAs to rule the world'
 date: '2007-12-01T17:01:50-08:00'
 status: publish
-permalink: /2007/12/rias-to-rule-the-world
+exported_permalink: /2007/12/rias-to-rule-the-world
 author: sarah
 excerpt: ''
 type: post

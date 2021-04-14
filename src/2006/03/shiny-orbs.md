@@ -2,7 +2,7 @@
 title: 'shiny orbs'
 date: '2006-03-21T20:51:27-08:00'
 status: publish
-permalink: /2006/03/shiny-orbs
+exported_permalink: /2006/03/shiny-orbs
 author: sarah
 excerpt: ''
 type: post

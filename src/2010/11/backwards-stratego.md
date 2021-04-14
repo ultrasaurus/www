@@ -2,7 +2,7 @@
 title: 'backwards stratego'
 date: '2010-11-26T17:06:56-08:00'
 status: publish
-permalink: /2010/11/backwards-stratego
+exported_permalink: /2010/11/backwards-stratego
 author: sarah
 excerpt: ''
 type: post

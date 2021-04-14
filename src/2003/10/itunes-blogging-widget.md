@@ -2,7 +2,7 @@
 title: 'iTunes blogging widget'
 date: '2003-10-01T07:07:23-07:00'
 status: publish
-permalink: /2003/10/itunes-blogging-widget
+exported_permalink: /2003/10/itunes-blogging-widget
 author: sarah
 excerpt: ''
 type: post

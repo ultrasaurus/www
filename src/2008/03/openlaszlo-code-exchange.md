@@ -2,7 +2,7 @@
 title: 'OpenLaszlo code exchange'
 date: '2008-03-15T07:21:46-07:00'
 status: publish
-permalink: /2008/03/openlaszlo-code-exchange
+exported_permalink: /2008/03/openlaszlo-code-exchange
 author: sarah
 excerpt: ''
 type: post

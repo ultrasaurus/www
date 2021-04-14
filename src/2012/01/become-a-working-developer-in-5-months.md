@@ -2,7 +2,7 @@
 title: 'become a working developer in 5 months?'
 date: '2012-01-03T06:54:25-08:00'
 status: publish
-permalink: /2012/01/become-a-working-developer-in-5-months
+exported_permalink: /2012/01/become-a-working-developer-in-5-months
 author: sarah
 excerpt: ''
 type: post

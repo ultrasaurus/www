@@ -2,7 +2,7 @@
 title: 'videos make money with Revver'
 date: '2006-03-28T20:58:24-08:00'
 status: publish
-permalink: /2006/03/videos-make-money-with-revver
+exported_permalink: /2006/03/videos-make-money-with-revver
 author: sarah
 excerpt: ''
 type: post

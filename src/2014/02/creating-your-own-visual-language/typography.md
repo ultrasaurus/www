@@ -2,7 +2,7 @@
 title: typography
 date: '2014-02-07T08:23:46-08:00'
 status: publish
-permalink: /2014/02/creating-your-own-visual-language/typography
+exported_permalink: /2014/02/creating-your-own-visual-language/typography
 author: sarah
 excerpt: ''
 type: attachment

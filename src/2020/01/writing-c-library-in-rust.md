@@ -2,7 +2,7 @@
 title: 'writing c library in rust'
 date: '2020-01-15T22:36:12-08:00'
 status: publish
-permalink: /2020/01/writing-c-library-in-rust
+exported_permalink: /2020/01/writing-c-library-in-rust
 author: sarah
 excerpt: ''
 type: post

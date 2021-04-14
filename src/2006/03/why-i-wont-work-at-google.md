@@ -2,7 +2,7 @@
 title: 'Why I won&#8217;t work at Google'
 date: '2006-03-30T16:41:43-08:00'
 status: publish
-permalink: /2006/03/why-i-wont-work-at-google
+exported_permalink: /2006/03/why-i-wont-work-at-google
 author: sarah
 excerpt: ''
 type: post

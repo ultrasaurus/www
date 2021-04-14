@@ -2,7 +2,7 @@
 title: 'studies in color'
 date: '2003-10-30T11:02:15-08:00'
 status: publish
-permalink: /2003/10/studies-in-color
+exported_permalink: /2003/10/studies-in-color
 author: sarah
 excerpt: ''
 type: post

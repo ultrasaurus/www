@@ -2,7 +2,7 @@
 title: 'teaching kids to code: lesson #3'
 date: '2009-05-31T00:10:10-07:00'
 status: publish
-permalink: /2009/05/teaching-kids-to-code-lesson-3
+exported_permalink: /2009/05/teaching-kids-to-code-lesson-3
 author: sarah
 excerpt: ''
 type: post

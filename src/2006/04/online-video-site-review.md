@@ -2,7 +2,7 @@
 title: 'online video site review'
 date: '2006-04-01T20:37:51-08:00'
 status: publish
-permalink: /2006/04/online-video-site-review
+exported_permalink: /2006/04/online-video-site-review
 author: sarah
 excerpt: ''
 type: post

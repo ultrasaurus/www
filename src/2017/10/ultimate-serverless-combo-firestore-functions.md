@@ -2,7 +2,7 @@
 title: 'ultimate serverless combo: Firestore + Functions'
 date: '2017-10-03T10:07:27-07:00'
 status: publish
-permalink: /2017/10/ultimate-serverless-combo-firestore-functions
+exported_permalink: /2017/10/ultimate-serverless-combo-firestore-functions
 author: sarah
 excerpt: ''
 type: post

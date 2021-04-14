@@ -2,7 +2,7 @@
 title: 'not the person you were last year'
 date: '2015-04-11T11:12:27-07:00'
 status: publish
-permalink: /2015/04/person-last-year
+exported_permalink: /2015/04/person-last-year
 author: sarah
 excerpt: ''
 type: post

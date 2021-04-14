@@ -2,7 +2,7 @@
 title: 'analog video effects'
 date: '2007-09-02T12:33:41-07:00'
 status: publish
-permalink: /2007/09/analog-video-effects
+exported_permalink: /2007/09/analog-video-effects
 author: sarah
 excerpt: ''
 type: post

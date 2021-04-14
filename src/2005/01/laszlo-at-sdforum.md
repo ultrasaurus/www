@@ -2,7 +2,7 @@
 title: 'Laszlo at SDForum'
 date: '2005-01-10T22:42:47-08:00'
 status: publish
-permalink: /2005/01/laszlo-at-sdforum
+exported_permalink: /2005/01/laszlo-at-sdforum
 author: sarah
 excerpt: ''
 type: post

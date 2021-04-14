@@ -2,7 +2,7 @@
 title: 'dinosaurs and memory'
 date: '2004-09-23T22:24:21-07:00'
 status: publish
-permalink: /2004/09/dinosaurs-and-memory
+exported_permalink: /2004/09/dinosaurs-and-memory
 author: sarah
 excerpt: ''
 type: post

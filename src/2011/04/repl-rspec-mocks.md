@@ -2,7 +2,7 @@
 title: 'repl rspec mocks'
 date: '2011-04-04T17:59:19-07:00'
 status: publish
-permalink: /2011/04/repl-rspec-mocks
+exported_permalink: /2011/04/repl-rspec-mocks
 author: sarah
 excerpt: ''
 type: post

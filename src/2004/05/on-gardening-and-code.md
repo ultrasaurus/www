@@ -2,7 +2,7 @@
 title: 'on gardening and code'
 date: '2004-05-23T10:41:25-07:00'
 status: publish
-permalink: /2004/05/on-gardening-and-code
+exported_permalink: /2004/05/on-gardening-and-code
 author: sarah
 excerpt: ''
 type: post

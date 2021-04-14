@@ -2,7 +2,7 @@
 title: 'participatory geekiness'
 date: '2003-09-02T20:35:31-07:00'
 status: publish
-permalink: /2003/09/participatory-geekiness
+exported_permalink: /2003/09/participatory-geekiness
 author: sarah
 excerpt: ''
 type: post

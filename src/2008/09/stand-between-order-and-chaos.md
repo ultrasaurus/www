@@ -2,7 +2,7 @@
 title: 'stand between order and chaos'
 date: '2008-09-24T07:19:20-07:00'
 status: publish
-permalink: /2008/09/stand-between-order-and-chaos
+exported_permalink: /2008/09/stand-between-order-and-chaos
 author: sarah
 excerpt: ''
 type: post

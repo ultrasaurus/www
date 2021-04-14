@@ -2,7 +2,7 @@
 title: Enlightenment
 date: '2016-01-03T12:14:40-08:00'
 status: publish
-permalink: /2016/01/transparency-wins/enlightenment
+exported_permalink: /2016/01/transparency-wins/enlightenment
 author: sarah
 excerpt: ''
 type: attachment

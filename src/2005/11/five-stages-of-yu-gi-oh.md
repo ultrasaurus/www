@@ -2,7 +2,7 @@
 title: 'Five Stages of Yu-Gi-Oh'
 date: '2005-11-27T11:33:53-08:00'
 status: publish
-permalink: /2005/11/five-stages-of-yu-gi-oh
+exported_permalink: /2005/11/five-stages-of-yu-gi-oh
 author: sarah
 excerpt: ''
 type: post

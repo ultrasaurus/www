@@ -2,7 +2,7 @@
 title: 'web based GUI editor'
 date: '2004-10-25T07:30:36-07:00'
 status: publish
-permalink: /2004/10/web-based-gui-editor
+exported_permalink: /2004/10/web-based-gui-editor
 author: sarah
 excerpt: ''
 type: post

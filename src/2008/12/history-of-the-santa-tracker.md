@@ -2,7 +2,7 @@
 title: 'history of the Santa tracker'
 date: '2008-12-29T18:24:10-08:00'
 status: publish
-permalink: /2008/12/history-of-the-santa-tracker
+exported_permalink: /2008/12/history-of-the-santa-tracker
 author: sarah
 excerpt: ''
 type: post

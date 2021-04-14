@@ -2,7 +2,7 @@
 title: 'time as a design element'
 date: '2005-09-04T17:19:17-07:00'
 status: publish
-permalink: /2005/09/time-as-a-design-element
+exported_permalink: /2005/09/time-as-a-design-element
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'language is the vehicle of thought'
 date: '2003-10-06T20:52:55-07:00'
 status: publish
-permalink: /2003/10/language-is-the-vehicle-of-thought
+exported_permalink: /2003/10/language-is-the-vehicle-of-thought
 author: sarah
 excerpt: ''
 type: post

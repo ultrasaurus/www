@@ -2,7 +2,7 @@
 title: 'software has a voice'
 date: '2007-05-22T20:56:30-07:00'
 status: publish
-permalink: /2007/05/software-has-a-voice
+exported_permalink: /2007/05/software-has-a-voice
 author: sarah
 excerpt: ''
 type: post

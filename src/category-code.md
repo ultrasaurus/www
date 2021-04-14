@@ -2,7 +2,7 @@
 title: Code
 date: '2009-01-09T05:51:52-08:00'
 status: publish
-permalink: /category-code
+exported_permalink: /category-code
 author: sarah
 excerpt: ''
 type: page

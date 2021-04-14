@@ -2,7 +2,7 @@
 title: 'not so secret for success'
 date: '2008-08-25T08:10:55-07:00'
 status: publish
-permalink: /2008/08/not-so-secret-for-success
+exported_permalink: /2008/08/not-so-secret-for-success
 author: sarah
 excerpt: ''
 type: post

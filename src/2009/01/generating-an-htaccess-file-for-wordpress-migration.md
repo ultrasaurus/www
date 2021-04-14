@@ -2,7 +2,7 @@
 title: 'generating an .htaccess file for wordpress migration'
 date: '2009-01-11T07:24:46-08:00'
 status: publish
-permalink: /2009/01/generating-an-htaccess-file-for-wordpress-migration
+exported_permalink: /2009/01/generating-an-htaccess-file-for-wordpress-migration
 author: sarah
 excerpt: ''
 type: post

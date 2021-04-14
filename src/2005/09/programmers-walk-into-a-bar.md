@@ -2,7 +2,7 @@
 title: 'programmers walk into a bar&#8230;'
 date: '2005-09-11T20:25:27-07:00'
 status: publish
-permalink: /2005/09/programmers-walk-into-a-bar
+exported_permalink: /2005/09/programmers-walk-into-a-bar
 author: sarah
 excerpt: ''
 type: post

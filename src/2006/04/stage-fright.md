@@ -2,7 +2,7 @@
 title: 'stage fright'
 date: '2006-04-15T17:03:18-07:00'
 status: publish
-permalink: /2006/04/stage-fright
+exported_permalink: /2006/04/stage-fright
 author: sarah
 excerpt: ''
 type: post

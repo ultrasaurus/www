@@ -2,7 +2,7 @@
 title: 'on choosing RSpec as a test framework'
 date: '2011-04-01T06:42:18-07:00'
 status: publish
-permalink: /2011/04/on-choosing-rspec-as-a-test-framework
+exported_permalink: /2011/04/on-choosing-rspec-as-a-test-framework
 author: sarah
 excerpt: ''
 type: post

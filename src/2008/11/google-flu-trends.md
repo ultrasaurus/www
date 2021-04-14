@@ -2,7 +2,7 @@
 title: 'google flu trends'
 date: '2008-11-11T17:53:29-08:00'
 status: publish
-permalink: /2008/11/google-flu-trends
+exported_permalink: /2008/11/google-flu-trends
 author: sarah
 excerpt: ''
 type: post

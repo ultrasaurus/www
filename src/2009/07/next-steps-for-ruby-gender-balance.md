@@ -2,7 +2,7 @@
 title: 'next steps for ruby gender balance'
 date: '2009-07-08T03:48:43-07:00'
 status: publish
-permalink: /2009/07/next-steps-for-ruby-gender-balance
+exported_permalink: /2009/07/next-steps-for-ruby-gender-balance
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'seeking experienced Ruby on Rails developer'
 date: '2009-03-09T08:48:59-07:00'
 status: publish
-permalink: /2009/03/seeking-experienced-ruby-on-rails-developer
+exported_permalink: /2009/03/seeking-experienced-ruby-on-rails-developer
 author: sarah
 excerpt: ''
 type: post

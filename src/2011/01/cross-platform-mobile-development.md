@@ -2,7 +2,7 @@
 title: 'cross-platform smartphone development'
 date: '2011-01-01T12:23:06-08:00'
 status: publish
-permalink: /2011/01/cross-platform-mobile-development
+exported_permalink: /2011/01/cross-platform-mobile-development
 author: sarah
 excerpt: ''
 type: post

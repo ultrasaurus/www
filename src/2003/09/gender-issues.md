@@ -2,7 +2,7 @@
 title: 'gender issues'
 date: '2003-09-04T20:25:19-07:00'
 status: publish
-permalink: /2003/09/gender-issues
+exported_permalink: /2003/09/gender-issues
 author: sarah
 excerpt: ''
 type: post

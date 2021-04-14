@@ -2,7 +2,7 @@
 title: 'responsive design prototyping'
 date: '2013-07-26T11:49:25-07:00'
 status: publish
-permalink: /2013/07/responsive-design-prototyping
+exported_permalink: /2013/07/responsive-design-prototyping
 author: sarah
 excerpt: ''
 type: post

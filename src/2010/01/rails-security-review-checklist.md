@@ -2,7 +2,7 @@
 title: 'rails security review checklist'
 date: '2010-01-27T00:00:12-08:00'
 status: publish
-permalink: /2010/01/rails-security-review-checklist
+exported_permalink: /2010/01/rails-security-review-checklist
 author: sarah
 excerpt: ''
 type: post

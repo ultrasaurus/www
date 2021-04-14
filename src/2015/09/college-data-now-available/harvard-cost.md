@@ -2,7 +2,7 @@
 title: harvard-cost
 date: '2015-09-13T20:31:42-07:00'
 status: publish
-permalink: /2015/09/college-data-now-available/harvard-cost
+exported_permalink: /2015/09/college-data-now-available/harvard-cost
 author: sarah
 excerpt: ''
 type: attachment

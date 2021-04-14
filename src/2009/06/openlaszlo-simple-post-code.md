@@ -2,7 +2,7 @@
 title: 'openlaszlo simple post code'
 date: '2009-06-21T21:43:00-07:00'
 status: publish
-permalink: /2009/06/openlaszlo-simple-post-code
+exported_permalink: /2009/06/openlaszlo-simple-post-code
 author: sarah
 excerpt: ''
 type: post

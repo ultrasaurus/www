@@ -2,7 +2,7 @@
 title: unfortunate-assumption
 date: '2015-12-31T15:07:49-08:00'
 status: publish
-permalink: /2015/12/computer-security-primer/unfortunate-assumption
+exported_permalink: /2015/12/computer-security-primer/unfortunate-assumption
 author: sarah
 excerpt: ''
 type: attachment

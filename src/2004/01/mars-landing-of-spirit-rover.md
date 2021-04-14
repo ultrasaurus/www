@@ -2,7 +2,7 @@
 title: 'Mars landing of &#8220;Spirit&#8221; Rover'
 date: '2004-01-04T21:30:27-08:00'
 status: publish
-permalink: /2004/01/mars-landing-of-spirit-rover
+exported_permalink: /2004/01/mars-landing-of-spirit-rover
 author: sarah
 excerpt: ''
 type: post

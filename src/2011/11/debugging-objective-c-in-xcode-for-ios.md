@@ -2,7 +2,7 @@
 title: 'debugging objective-c in xcode for iOS'
 date: '2011-11-02T06:40:59-07:00'
 status: publish
-permalink: /2011/11/debugging-objective-c-in-xcode-for-ios
+exported_permalink: /2011/11/debugging-objective-c-in-xcode-for-ios
 author: sarah
 excerpt: ''
 type: post

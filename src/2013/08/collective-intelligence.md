@@ -2,7 +2,7 @@
 title: 'collective intelligence'
 date: '2013-08-23T05:22:54-07:00'
 status: publish
-permalink: /2013/08/collective-intelligence
+exported_permalink: /2013/08/collective-intelligence
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'rust on heroku with hyper http'
 date: '2020-01-05T18:39:54-08:00'
 status: publish
-permalink: /2020/01/rust-on-heroku-with-hyper-http
+exported_permalink: /2020/01/rust-on-heroku-with-hyper-http
 author: sarah
 excerpt: ''
 type: post

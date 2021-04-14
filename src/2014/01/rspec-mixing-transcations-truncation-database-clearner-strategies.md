@@ -2,7 +2,7 @@
 title: 'rspec: mixing transcations and truncation database clearner strategies'
 date: '2014-01-18T11:23:46-08:00'
 status: publish
-permalink: /2014/01/rspec-mixing-transcations-truncation-database-clearner-strategies
+exported_permalink: /2014/01/rspec-mixing-transcations-truncation-database-clearner-strategies
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'freedom in ruby and code'
 date: '2010-11-16T06:37:52-08:00'
 status: publish
-permalink: /2010/11/freedom-in-ruby-and-code
+exported_permalink: /2010/11/freedom-in-ruby-and-code
 author: sarah
 excerpt: ''
 type: post

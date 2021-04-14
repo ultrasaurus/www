@@ -2,7 +2,7 @@
 title: 'rubyconf hallway track'
 date: '2009-11-28T11:44:39-08:00'
 status: publish
-permalink: /2009/11/rubyconf-hallway-track
+exported_permalink: /2009/11/rubyconf-hallway-track
 author: sarah
 excerpt: ''
 type: post

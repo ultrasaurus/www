@@ -2,7 +2,7 @@
 title: 'Mockup of Doris Cochran Page'
 date: '2014-09-03T17:54:29-07:00'
 status: publish
-permalink: /2014/09/linking-people-through-history/linkingpeople
+exported_permalink: /2014/09/linking-people-through-history/linkingpeople
 author: sarah
 excerpt: ''
 type: attachment

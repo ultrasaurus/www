@@ -2,7 +2,7 @@
 title: ostp-working
 date: '2014-03-24T06:32:37-07:00'
 status: publish
-permalink: /2014/03/day-day-life-presidential-innovation-fellow/ostp-working
+exported_permalink: /2014/03/day-day-life-presidential-innovation-fellow/ostp-working
 author: sarah
 excerpt: ''
 type: attachment

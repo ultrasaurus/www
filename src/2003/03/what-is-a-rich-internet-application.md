@@ -2,7 +2,7 @@
 title: 'what is a &#8220;Rich Internet Application?&#8221;'
 date: '2003-03-29T05:59:13-08:00'
 status: publish
-permalink: /2003/03/what-is-a-rich-internet-application
+exported_permalink: /2003/03/what-is-a-rich-internet-application
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'H&amp;R Block home page in OpenLaszlo'
 date: '2006-12-04T01:54:55-08:00'
 status: publish
-permalink: /2006/12/hr-block-home-page-in-openlaszlo
+exported_permalink: /2006/12/hr-block-home-page-in-openlaszlo
 author: sarah
 excerpt: ''
 type: post

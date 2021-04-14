@@ -2,7 +2,7 @@
 title: filtered-search-college-scorecard
 date: '2015-09-13T20:08:23-07:00'
 status: publish
-permalink: /2015/09/college-data-now-available/filtered-search-college-scorecard
+exported_permalink: /2015/09/college-data-now-available/filtered-search-college-scorecard
 author: sarah
 excerpt: ''
 type: attachment

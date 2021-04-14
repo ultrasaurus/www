@@ -2,7 +2,7 @@
 title: 'Laszlo Mail'
 date: '2005-11-09T06:15:19-08:00'
 status: publish
-permalink: /2005/11/laszlo-mail
+exported_permalink: /2005/11/laszlo-mail
 author: sarah
 excerpt: ''
 type: post

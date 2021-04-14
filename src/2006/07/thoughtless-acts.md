@@ -2,7 +2,7 @@
 title: 'thoughtless acts?'
 date: '2006-07-07T06:30:39-07:00'
 status: publish
-permalink: /2006/07/thoughtless-acts
+exported_permalink: /2006/07/thoughtless-acts
 author: sarah
 excerpt: ''
 type: post

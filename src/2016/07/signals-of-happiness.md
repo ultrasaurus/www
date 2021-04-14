@@ -2,7 +2,7 @@
 title: 'signals of happiness'
 date: '2016-07-05T21:15:08-07:00'
 status: publish
-permalink: /2016/07/signals-of-happiness
+exported_permalink: /2016/07/signals-of-happiness
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'cross-platform mobile apps with rhomobile'
 date: '2009-07-10T07:00:18-07:00'
 status: publish
-permalink: /2009/07/cross-platform-mobile-apps-with-rhomobile
+exported_permalink: /2009/07/cross-platform-mobile-apps-with-rhomobile
 author: sarah
 excerpt: ''
 type: post

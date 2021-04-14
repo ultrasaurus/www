@@ -2,7 +2,7 @@
 title: 'must we be arrogant jerks?'
 date: '2010-01-16T20:13:03-08:00'
 status: publish
-permalink: /2010/01/must-we-be-arrogant-jerks
+exported_permalink: /2010/01/must-we-be-arrogant-jerks
 author: sarah
 excerpt: ''
 type: post

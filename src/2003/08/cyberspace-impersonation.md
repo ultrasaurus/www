@@ -2,7 +2,7 @@
 title: 'cyberspace impersonation'
 date: '2003-08-01T06:32:18-07:00'
 status: publish
-permalink: /2003/08/cyberspace-impersonation
+exported_permalink: /2003/08/cyberspace-impersonation
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'people love Ruby&#8230; is that appropriate?'
 date: '2009-06-30T23:38:04-07:00'
 status: publish
-permalink: /2009/06/people-love-ruby-is-that-appropriate
+exported_permalink: /2009/06/people-love-ruby-is-that-appropriate
 author: sarah
 excerpt: ''
 type: post

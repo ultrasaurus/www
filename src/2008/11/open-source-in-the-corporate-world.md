@@ -2,7 +2,7 @@
 title: 'open source in the corporate world'
 date: '2008-11-28T10:43:44-08:00'
 status: publish
-permalink: /2008/11/open-source-in-the-corporate-world
+exported_permalink: /2008/11/open-source-in-the-corporate-world
 author: sarah
 excerpt: ''
 type: post

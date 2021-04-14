@@ -2,7 +2,7 @@
 title: 'declining number of women studying computer science'
 date: '2008-11-20T06:58:58-08:00'
 status: publish
-permalink: /2008/11/declining-number-of-women-studying-computer-science
+exported_permalink: /2008/11/declining-number-of-women-studying-computer-science
 author: sarah
 excerpt: ''
 type: post

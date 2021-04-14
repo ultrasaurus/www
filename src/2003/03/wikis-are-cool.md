@@ -2,7 +2,7 @@
 title: 'wikis are cool'
 date: '2003-03-13T08:42:42-08:00'
 status: publish
-permalink: /2003/03/wikis-are-cool
+exported_permalink: /2003/03/wikis-are-cool
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'kids track at RubyConf details'
 date: '2010-11-06T12:43:01-07:00'
 status: publish
-permalink: /2010/11/kids-track-at-rubyconf-details
+exported_permalink: /2010/11/kids-track-at-rubyconf-details
 author: sarah
 excerpt: ''
 type: post

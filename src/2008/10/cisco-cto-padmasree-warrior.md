@@ -2,7 +2,7 @@
 title: 'cisco CTO, padmasree warrior'
 date: '2008-10-19T17:32:56-07:00'
 status: publish
-permalink: /2008/10/cisco-cto-padmasree-warrior
+exported_permalink: /2008/10/cisco-cto-padmasree-warrior
 author: sarah
 excerpt: ''
 type: post

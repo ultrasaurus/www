@@ -2,7 +2,7 @@
 title: 'psychology of abundance'
 date: '2009-08-03T00:10:35-07:00'
 status: publish
-permalink: /2009/08/psychology-of-abundance
+exported_permalink: /2009/08/psychology-of-abundance
 author: sarah
 excerpt: ''
 type: post

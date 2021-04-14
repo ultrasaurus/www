@@ -2,7 +2,7 @@
 title: 'a glimpse of the semantic web'
 date: '2004-10-29T03:04:15-07:00'
 status: publish
-permalink: /2004/10/a-glimpse-of-the-semantic-web
+exported_permalink: /2004/10/a-glimpse-of-the-semantic-web
 author: sarah
 excerpt: ''
 type: post

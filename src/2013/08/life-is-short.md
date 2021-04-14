@@ -2,7 +2,7 @@
 title: 'learning photoshop'
 date: '2013-08-21T05:24:25-07:00'
 status: publish
-permalink: /2013/08/life-is-short
+exported_permalink: /2013/08/life-is-short
 author: sarah
 excerpt: ''
 type: post

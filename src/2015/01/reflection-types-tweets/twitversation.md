@@ -2,7 +2,7 @@
 title: twitversation
 date: '2015-01-04T12:06:46-08:00'
 status: publish
-permalink: /2015/01/reflection-types-tweets/twitversation
+exported_permalink: /2015/01/reflection-types-tweets/twitversation
 author: sarah
 excerpt: ''
 type: attachment

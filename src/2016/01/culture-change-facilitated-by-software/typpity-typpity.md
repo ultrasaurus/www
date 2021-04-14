@@ -2,7 +2,7 @@
 title: ''
 date: '2016-01-19T05:32:38-08:00'
 status: publish
-permalink: /2016/01/culture-change-facilitated-by-software/typpity-typpity
+exported_permalink: /2016/01/culture-change-facilitated-by-software/typpity-typpity
 author: sarah
 excerpt: ''
 type: attachment

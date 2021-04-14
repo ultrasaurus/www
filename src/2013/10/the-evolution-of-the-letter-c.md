@@ -2,7 +2,7 @@
 title: 'the evolution of the letter C'
 date: '2013-10-07T02:55:29-07:00'
 status: publish
-permalink: /2013/10/the-evolution-of-the-letter-c
+exported_permalink: /2013/10/the-evolution-of-the-letter-c
 author: sarah
 excerpt: ''
 type: post

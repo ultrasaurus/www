@@ -2,7 +2,7 @@
 title: 'Geek User Interface'
 date: '2005-06-18T11:01:02-07:00'
 status: publish
-permalink: /2005/06/geek-user-interface
+exported_permalink: /2005/06/geek-user-interface
 author: sarah
 excerpt: ''
 type: post

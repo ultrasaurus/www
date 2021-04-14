@@ -2,7 +2,7 @@
 title: 'Edward Tufte critiques the iPhone'
 date: '2008-02-03T10:18:40-08:00'
 status: publish
-permalink: /2008/02/edward-tufte-critiques-the-iphone
+exported_permalink: /2008/02/edward-tufte-critiques-the-iphone
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'how to write fast ruby code'
 date: '2009-04-17T16:22:57-07:00'
 status: publish
-permalink: /2009/04/how-to-write-fast-ruby-code
+exported_permalink: /2009/04/how-to-write-fast-ruby-code
 author: sarah
 excerpt: ''
 type: post

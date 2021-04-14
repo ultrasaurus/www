@@ -2,7 +2,7 @@
 title: 'why drupal for georgia.gov'
 date: '2013-07-26T11:01:58-07:00'
 status: publish
-permalink: /2013/07/why-drupal-for-georgia-gov
+exported_permalink: /2013/07/why-drupal-for-georgia-gov
 author: sarah
 excerpt: ''
 type: post

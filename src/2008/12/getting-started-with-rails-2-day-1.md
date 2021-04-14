@@ -2,7 +2,7 @@
 title: 'getting started with rails 2 &#8211; day 1'
 date: '2008-12-13T12:45:41-08:00'
 status: publish
-permalink: /2008/12/getting-started-with-rails-2-day-1
+exported_permalink: /2008/12/getting-started-with-rails-2-day-1
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'OpenLaszlo 3.0 released'
 date: '2005-04-27T10:38:50-07:00'
 status: publish
-permalink: /2005/04/openlaszlo-30-released
+exported_permalink: /2005/04/openlaszlo-30-released
 author: sarah
 excerpt: ''
 type: post

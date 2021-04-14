@@ -2,7 +2,7 @@
 title: 'Acts of the Apostles'
 date: '2003-08-28T19:18:16-07:00'
 status: publish
-permalink: /2003/08/acts-of-the-apostles
+exported_permalink: /2003/08/acts-of-the-apostles
 author: sarah
 excerpt: ''
 type: post

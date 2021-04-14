@@ -2,7 +2,7 @@
 title: 'perfection vs mastery'
 date: '2010-12-29T06:37:58-08:00'
 status: publish
-permalink: /2010/12/perfection-vs-mastery
+exported_permalink: /2010/12/perfection-vs-mastery
 author: sarah
 excerpt: ''
 type: post

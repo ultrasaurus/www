@@ -2,7 +2,7 @@
 title: 'using ruby to fight aids'
 date: '2009-04-18T14:29:29-07:00'
 status: publish
-permalink: /2009/04/using-ruby-to-fight-aids
+exported_permalink: /2009/04/using-ruby-to-fight-aids
 author: sarah
 excerpt: ''
 type: post

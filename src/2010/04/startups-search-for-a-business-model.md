@@ -2,7 +2,7 @@
 title: 'startups search for a business model'
 date: '2010-04-23T15:29:59-07:00'
 status: publish
-permalink: /2010/04/startups-search-for-a-business-model
+exported_permalink: /2010/04/startups-search-for-a-business-model
 author: sarah
 excerpt: ''
 type: post

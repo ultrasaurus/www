@@ -2,7 +2,7 @@
 title: 'full-stack bureaucrat: layers of rules'
 date: '2018-01-27T11:00:04-08:00'
 status: publish
-permalink: /2018/01/full-stack-bureaucrat-layers-of-rules
+exported_permalink: /2018/01/full-stack-bureaucrat-layers-of-rules
 author: sarah
 excerpt: ''
 type: post

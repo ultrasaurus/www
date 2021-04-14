@@ -2,7 +2,7 @@
 title: 'patterns of actions are a making'
 date: '2019-12-24T12:27:17-08:00'
 status: publish
-permalink: /2019/12/patterns-of-actions-are-a-making
+exported_permalink: /2019/12/patterns-of-actions-are-a-making
 author: sarah
 excerpt: ''
 type: post

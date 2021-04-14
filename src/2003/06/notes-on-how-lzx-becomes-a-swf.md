@@ -2,7 +2,7 @@
 title: 'Notes on how LZX becomes a SWF'
 date: '2003-06-18T06:19:38-07:00'
 status: publish
-permalink: /2003/06/notes-on-how-lzx-becomes-a-swf
+exported_permalink: /2003/06/notes-on-how-lzx-becomes-a-swf
 author: sarah
 excerpt: ''
 type: post

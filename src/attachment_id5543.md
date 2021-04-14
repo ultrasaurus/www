@@ -2,7 +2,7 @@
 title: 'Thinkup: lifetime tweets'
 date: '2015-05-11T03:03:18-07:00'
 status: draft
-permalink: '/?attachment_id=5543'
+exported_permalink: '/?attachment_id=5543'
 author: sarah
 excerpt: ''
 type: attachment

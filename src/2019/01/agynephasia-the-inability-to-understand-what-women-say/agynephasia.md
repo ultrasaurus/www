@@ -2,7 +2,7 @@
 title: agynephasia
 date: '2019-01-13T16:32:58-08:00'
 status: publish
-permalink: /2019/01/agynephasia-the-inability-to-understand-what-women-say/agynephasia
+exported_permalink: /2019/01/agynephasia-the-inability-to-understand-what-women-say/agynephasia
 author: sarah
 excerpt: ''
 type: attachment

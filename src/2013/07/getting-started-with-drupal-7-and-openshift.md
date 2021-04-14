@@ -2,7 +2,7 @@
 title: 'getting started with drupal 7 and openshift'
 date: '2013-07-04T10:07:03-07:00'
 status: publish
-permalink: /2013/07/getting-started-with-drupal-7-and-openshift
+exported_permalink: /2013/07/getting-started-with-drupal-7-and-openshift
 author: sarah
 excerpt: ''
 type: post

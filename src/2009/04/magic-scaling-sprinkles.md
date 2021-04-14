@@ -2,7 +2,7 @@
 title: 'magic scaling sprinkles'
 date: '2009-04-18T08:08:35-07:00'
 status: publish
-permalink: /2009/04/magic-scaling-sprinkles
+exported_permalink: /2009/04/magic-scaling-sprinkles
 author: sarah
 excerpt: ''
 type: post

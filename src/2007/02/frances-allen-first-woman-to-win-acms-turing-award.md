@@ -2,7 +2,7 @@
 title: 'Frances Allen: first woman to win ACM&#8217;s Turing award'
 date: '2007-02-25T12:13:01-08:00'
 status: publish
-permalink: /2007/02/frances-allen-first-woman-to-win-acms-turing-award
+exported_permalink: /2007/02/frances-allen-first-woman-to-win-acms-turing-award
 author: sarah
 excerpt: ''
 type: post

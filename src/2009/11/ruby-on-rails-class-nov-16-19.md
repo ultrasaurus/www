@@ -2,7 +2,7 @@
 title: 'ruby on rails class nov 16-19'
 date: '2009-11-05T15:49:52-08:00'
 status: publish
-permalink: /2009/11/ruby-on-rails-class-nov-16-19
+exported_permalink: /2009/11/ruby-on-rails-class-nov-16-19
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'John Perry Barlow'
 date: '2004-01-25T23:44:02-08:00'
 status: publish
-permalink: /2004/01/john-perry-barlow
+exported_permalink: /2004/01/john-perry-barlow
 author: sarah
 excerpt: ''
 type: post

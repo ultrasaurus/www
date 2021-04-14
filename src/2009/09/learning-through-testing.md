@@ -2,7 +2,7 @@
 title: 'learning through testing'
 date: '2009-09-05T09:02:52-07:00'
 status: publish
-permalink: /2009/09/learning-through-testing
+exported_permalink: /2009/09/learning-through-testing
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'dotsub translates obama video into 19 languages'
 date: '2008-10-30T07:52:35-07:00'
 status: publish
-permalink: /2008/10/dotsub-translates-obama-video-into-19-languages
+exported_permalink: /2008/10/dotsub-translates-obama-video-into-19-languages
 author: sarah
 excerpt: ''
 type: post

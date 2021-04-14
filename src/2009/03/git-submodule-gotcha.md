@@ -2,7 +2,7 @@
 title: 'git submodule gotcha'
 date: '2009-03-10T02:07:23-07:00'
 status: publish
-permalink: /2009/03/git-submodule-gotcha
+exported_permalink: /2009/03/git-submodule-gotcha
 author: sarah
 excerpt: ''
 type: post

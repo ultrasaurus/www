@@ -2,7 +2,7 @@
 title: 'wiki philosophy, reflections on the future'
 date: '2009-05-22T19:04:38-07:00'
 status: publish
-permalink: /2009/05/wiki-philosophy-reflections-on-the-future
+exported_permalink: /2009/05/wiki-philosophy-reflections-on-the-future
 author: sarah
 excerpt: ''
 type: post

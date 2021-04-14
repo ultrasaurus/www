@@ -2,7 +2,7 @@
 title: 'declarative eventing'
 date: '2018-02-22T05:47:14-08:00'
 status: publish
-permalink: /2018/02/declarative-eventing
+exported_permalink: /2018/02/declarative-eventing
 author: sarah
 excerpt: ''
 type: post

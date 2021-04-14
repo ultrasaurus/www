@@ -2,7 +2,7 @@
 title: 'Laszlo blog fun'
 date: '2003-09-08T19:28:47-07:00'
 status: publish
-permalink: /2003/09/laszlo-blog-fun
+exported_permalink: /2003/09/laszlo-blog-fun
 author: sarah
 excerpt: ''
 type: post

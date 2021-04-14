@@ -2,7 +2,7 @@
 title: ''
 date: '2018-02-12T04:56:43-08:00'
 status: publish
-permalink: /2018/02/to-be-recognized/marie-van-brittan-brown-error
+exported_permalink: /2018/02/to-be-recognized/marie-van-brittan-brown-error
 author: sarah
 excerpt: ''
 type: attachment

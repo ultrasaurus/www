@@ -2,7 +2,7 @@
 title: 'I&#8217;m not a feminist, but&#8230;'
 date: '2004-06-27T17:27:53-07:00'
 status: publish
-permalink: /2004/06/im-not-a-feminist-but
+exported_permalink: /2004/06/im-not-a-feminist-but
 author: sarah
 excerpt: ''
 type: post

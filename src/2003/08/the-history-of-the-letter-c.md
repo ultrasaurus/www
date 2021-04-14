@@ -2,7 +2,7 @@
 title: 'the history of the letter &#8216;C&#8217;'
 date: '2003-08-03T12:47:17-07:00'
 status: publish
-permalink: /2003/08/the-history-of-the-letter-c
+exported_permalink: /2003/08/the-history-of-the-letter-c
 author: sarah
 excerpt: ''
 type: post

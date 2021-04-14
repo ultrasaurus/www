@@ -2,7 +2,7 @@
 title: 'is software engineering?'
 date: '2006-03-06T09:00:24-08:00'
 status: publish
-permalink: /2006/03/is-software-engineering
+exported_permalink: /2006/03/is-software-engineering
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'non-violent resistance and bright-eyed wisdom #mlk'
 date: '2018-01-15T12:52:23-08:00'
 status: publish
-permalink: /2018/01/non-violent-resistance-and-bright-eyed-wisdom-mlk
+exported_permalink: /2018/01/non-violent-resistance-and-bright-eyed-wisdom-mlk
 author: sarah
 excerpt: ''
 type: post

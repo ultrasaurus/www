@@ -2,7 +2,7 @@
 title: 'innovation can only come from the bottom'
 date: '2006-05-27T21:21:22-07:00'
 status: publish
-permalink: /2006/05/innovation-can-only-come-from-the-bottom
+exported_permalink: /2006/05/innovation-can-only-come-from-the-bottom
 author: sarah
 excerpt: ''
 type: post

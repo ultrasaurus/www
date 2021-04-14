@@ -2,7 +2,7 @@
 title: 'what is a &#8220;normal&#8221; age?'
 date: '2007-07-01T11:52:30-07:00'
 status: publish
-permalink: /2007/07/what-is-a-normal-age
+exported_permalink: /2007/07/what-is-a-normal-age
 author: sarah
 excerpt: ''
 type: post

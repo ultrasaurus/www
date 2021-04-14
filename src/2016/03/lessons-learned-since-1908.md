@@ -2,7 +2,7 @@
 title: 'lessons learned since 1908'
 date: '2016-03-29T18:21:53-07:00'
 status: publish
-permalink: /2016/03/lessons-learned-since-1908
+exported_permalink: /2016/03/lessons-learned-since-1908
 author: sarah
 excerpt: ''
 type: post

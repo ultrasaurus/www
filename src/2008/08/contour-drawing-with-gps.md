@@ -2,7 +2,7 @@
 title: 'contour drawing with GPS'
 date: '2008-08-04T07:25:09-07:00'
 status: publish
-permalink: /2008/08/contour-drawing-with-gps
+exported_permalink: /2008/08/contour-drawing-with-gps
 author: sarah
 excerpt: ''
 type: post

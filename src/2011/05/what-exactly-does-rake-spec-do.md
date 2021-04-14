@@ -2,7 +2,7 @@
 title: 'what exactly does rake spec do?'
 date: '2011-05-08T13:41:35-07:00'
 status: publish
-permalink: /2011/05/what-exactly-does-rake-spec-do
+exported_permalink: /2011/05/what-exactly-does-rake-spec-do
 author: sarah
 excerpt: ''
 type: post

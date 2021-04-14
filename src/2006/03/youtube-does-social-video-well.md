@@ -2,7 +2,7 @@
 title: 'YouTube does social video well'
 date: '2006-03-27T22:05:08-08:00'
 status: publish
-permalink: /2006/03/youtube-does-social-video-well
+exported_permalink: /2006/03/youtube-does-social-video-well
 author: sarah
 excerpt: ''
 type: post

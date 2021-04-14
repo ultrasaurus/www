@@ -2,7 +2,7 @@
 title: 'why I love working in tech'
 date: '2015-04-02T18:10:38-07:00'
 status: publish
-permalink: /2015/04/why-i-love-working-in-tech
+exported_permalink: /2015/04/why-i-love-working-in-tech
 author: sarah
 excerpt: ''
 type: post

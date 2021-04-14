@@ -2,7 +2,7 @@
 title: 'cucumber and custom rspec matchers with rails 3.1'
 date: '2012-01-22T08:40:52-08:00'
 status: publish
-permalink: /2012/01/cucumber-and-custom-rspec-matchers-with-rails-3-1
+exported_permalink: /2012/01/cucumber-and-custom-rspec-matchers-with-rails-3-1
 author: sarah
 excerpt: ''
 type: post

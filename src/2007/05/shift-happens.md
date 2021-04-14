@@ -2,7 +2,7 @@
 title: 'shift happens'
 date: '2007-05-20T21:20:09-07:00'
 status: publish
-permalink: /2007/05/shift-happens
+exported_permalink: /2007/05/shift-happens
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'rails 2 day 4: rcov and more behavior-driven development'
 date: '2008-12-29T09:39:07-08:00'
 status: publish
-permalink: /2008/12/rails-2-day-4-rcov-and-more-behavior-driven-development
+exported_permalink: /2008/12/rails-2-day-4-rcov-and-more-behavior-driven-development
 author: sarah
 excerpt: ''
 type: post

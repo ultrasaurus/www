@@ -2,7 +2,7 @@
 title: sea-squirts
 date: '2016-05-29T09:09:14-07:00'
 status: publish
-permalink: /2016/05/a-new-chapter/sea-squirts
+exported_permalink: /2016/05/a-new-chapter/sea-squirts
 author: sarah
 excerpt: ''
 type: attachment

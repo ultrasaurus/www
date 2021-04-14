@@ -2,7 +2,7 @@
 title: 'iPhone&#8217;s cinematic UI'
 date: '2007-07-02T22:44:11-07:00'
 status: publish
-permalink: /2007/07/iphones-cinematic-ui
+exported_permalink: /2007/07/iphones-cinematic-ui
 author: sarah
 excerpt: ''
 type: post

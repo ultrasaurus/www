@@ -2,7 +2,7 @@
 title: 'linking people through history'
 date: '2014-09-08T04:14:45-07:00'
 status: publish
-permalink: /2014/09/linking-people-through-history
+exported_permalink: /2014/09/linking-people-through-history
 author: sarah
 excerpt: ''
 type: post

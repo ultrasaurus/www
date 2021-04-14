@@ -2,7 +2,7 @@
 title: 'leapmotion tracks all ten fingers'
 date: '2013-03-15T08:41:40-07:00'
 status: publish
-permalink: /2013/03/leapmotion-tracks-all-ten-fingers
+exported_permalink: /2013/03/leapmotion-tracks-all-ten-fingers
 author: sarah
 excerpt: ''
 type: post

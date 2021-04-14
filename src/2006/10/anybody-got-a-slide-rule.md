@@ -2,7 +2,7 @@
 title: 'anybody got a slide rule?'
 date: '2006-10-24T23:02:41-07:00'
 status: publish
-permalink: /2006/10/anybody-got-a-slide-rule
+exported_permalink: /2006/10/anybody-got-a-slide-rule
 author: sarah
 excerpt: ''
 type: post

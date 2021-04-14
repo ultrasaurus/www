@@ -2,7 +2,7 @@
 title: 'Are blogs the vanity press of the Internet?'
 date: '2003-03-03T15:17:38-08:00'
 status: publish
-permalink: /2003/03/are-blogs-the-vanity-press-of-the-internet
+exported_permalink: /2003/03/are-blogs-the-vanity-press-of-the-internet
 author: sarah
 excerpt: ''
 type: post

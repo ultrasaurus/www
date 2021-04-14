@@ -2,7 +2,7 @@
 title: 'remembering Claiborne Pell'
 date: '2009-01-01T19:19:54-08:00'
 status: publish
-permalink: /2009/01/remembering-claiborne-pell
+exported_permalink: /2009/01/remembering-claiborne-pell
 author: sarah
 excerpt: ''
 type: post

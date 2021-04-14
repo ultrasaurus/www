@@ -2,7 +2,7 @@
 title: 'design is easy&#8230;'
 date: '2008-07-28T07:23:16-07:00'
 status: publish
-permalink: /2008/07/design-is-easy
+exported_permalink: /2008/07/design-is-easy
 author: sarah
 excerpt: ''
 type: post

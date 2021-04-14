@@ -2,7 +2,7 @@
 title: history-of-assumptions
 date: '2015-12-31T15:07:40-08:00'
 status: publish
-permalink: /2015/12/computer-security-primer/history-of-assumptions
+exported_permalink: /2015/12/computer-security-primer/history-of-assumptions
 author: sarah
 excerpt: ''
 type: attachment

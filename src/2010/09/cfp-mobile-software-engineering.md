@@ -2,7 +2,7 @@
 title: 'CFP: mobile software engineering'
 date: '2010-09-12T16:58:30-07:00'
 status: publish
-permalink: /2010/09/cfp-mobile-software-engineering
+exported_permalink: /2010/09/cfp-mobile-software-engineering
 author: sarah
 excerpt: ''
 type: post

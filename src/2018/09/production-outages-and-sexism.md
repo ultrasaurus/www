@@ -2,7 +2,7 @@
 title: 'production outages are like sexism'
 date: '2018-09-16T07:12:23-07:00'
 status: publish
-permalink: /2018/09/production-outages-and-sexism
+exported_permalink: /2018/09/production-outages-and-sexism
 author: sarah
 excerpt: ''
 type: post

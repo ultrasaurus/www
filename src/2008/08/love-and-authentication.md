@@ -2,7 +2,7 @@
 title: 'love and authentication'
 date: '2008-08-31T10:57:51-07:00'
 status: publish
-permalink: /2008/08/love-and-authentication
+exported_permalink: /2008/08/love-and-authentication
 author: sarah
 excerpt: ''
 type: post

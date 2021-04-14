@@ -2,7 +2,7 @@
 title: 'snaptell identifies media from captured images'
 date: '2008-12-01T21:07:24-08:00'
 status: publish
-permalink: /2008/12/snaptell-identifies-media-from-captured-images
+exported_permalink: /2008/12/snaptell-identifies-media-from-captured-images
 author: sarah
 excerpt: ''
 type: post

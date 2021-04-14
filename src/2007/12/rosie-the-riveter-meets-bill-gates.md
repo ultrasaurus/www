@@ -2,7 +2,7 @@
 title: 'Rosie the Riveter meets Bill Gates'
 date: '2007-12-05T07:32:24-08:00'
 status: publish
-permalink: /2007/12/rosie-the-riveter-meets-bill-gates
+exported_permalink: /2007/12/rosie-the-riveter-meets-bill-gates
 author: sarah
 excerpt: ''
 type: post

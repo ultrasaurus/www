@@ -2,7 +2,7 @@
 title: 'Laszlo is XML tech&#8230;'
 date: '2004-04-02T01:28:09-08:00'
 status: publish
-permalink: /2004/04/laszlo-is-xml-tech
+exported_permalink: /2004/04/laszlo-is-xml-tech
 author: sarah
 excerpt: ''
 type: post

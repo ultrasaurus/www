@@ -2,7 +2,7 @@
 title: 'brief history of rtmp + future thoughts'
 date: '2019-12-16T17:47:02-08:00'
 status: publish
-permalink: /2019/12/brief-history-of-rtmp-future-thoughts
+exported_permalink: /2019/12/brief-history-of-rtmp-future-thoughts
 author: sarah
 excerpt: ''
 type: post

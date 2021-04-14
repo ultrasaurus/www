@@ -2,7 +2,7 @@
 title: 'learning from the Pirahã language'
 date: '2009-03-21T07:30:14-07:00'
 status: publish
-permalink: /2009/03/learning-from-the-piraha-language
+exported_permalink: /2009/03/learning-from-the-piraha-language
 author: sarah
 excerpt: ''
 type: post

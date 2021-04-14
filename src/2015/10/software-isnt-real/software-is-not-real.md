@@ -2,7 +2,7 @@
 title: software-is-not-real
 date: '2015-10-10T05:24:21-07:00'
 status: publish
-permalink: /2015/10/software-isnt-real/software-is-not-real
+exported_permalink: /2015/10/software-isnt-real/software-is-not-real
 author: sarah
 excerpt: ''
 type: attachment

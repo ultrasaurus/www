@@ -2,7 +2,7 @@
 title: 'information is oxygen'
 date: '2013-09-29T12:37:22-07:00'
 status: publish
-permalink: /2013/09/information-is-oxygen
+exported_permalink: /2013/09/information-is-oxygen
 author: sarah
 excerpt: ''
 type: post

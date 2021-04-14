@@ -2,7 +2,7 @@
 title: 'esther dyson&#8217;s lessons learned'
 date: '2008-11-12T21:46:13-08:00'
 status: publish
-permalink: /2008/11/esther-dysons-lessons-learned
+exported_permalink: /2008/11/esther-dysons-lessons-learned
 author: sarah
 excerpt: ''
 type: post

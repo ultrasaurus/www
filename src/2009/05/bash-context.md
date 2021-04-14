@@ -2,7 +2,7 @@
 title: 'bash context'
 date: '2009-05-18T08:23:32-07:00'
 status: publish
-permalink: /2009/05/bash-context
+exported_permalink: /2009/05/bash-context
 author: sarah
 excerpt: ''
 type: post

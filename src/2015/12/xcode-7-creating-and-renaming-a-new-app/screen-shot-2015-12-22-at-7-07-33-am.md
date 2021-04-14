@@ -2,7 +2,7 @@
 title: 'Rename the App'
 date: '2015-12-22T07:07:58-08:00'
 status: publish
-permalink: /2015/12/xcode-7-creating-and-renaming-a-new-app/screen-shot-2015-12-22-at-7-07-33-am
+exported_permalink: /2015/12/xcode-7-creating-and-renaming-a-new-app/screen-shot-2015-12-22-at-7-07-33-am
 author: sarah
 excerpt: ''
 type: attachment

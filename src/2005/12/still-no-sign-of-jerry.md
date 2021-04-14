@@ -2,7 +2,7 @@
 title: 'still no sign of Jerry'
 date: '2005-12-23T14:59:40-08:00'
 status: publish
-permalink: /2005/12/still-no-sign-of-jerry
+exported_permalink: /2005/12/still-no-sign-of-jerry
 author: sarah
 excerpt: ''
 type: post

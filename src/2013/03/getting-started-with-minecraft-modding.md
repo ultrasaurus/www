@@ -2,7 +2,7 @@
 title: 'getting started with minecraft modding'
 date: '2013-03-31T17:41:11-07:00'
 status: publish
-permalink: /2013/03/getting-started-with-minecraft-modding
+exported_permalink: /2013/03/getting-started-with-minecraft-modding
 author: sarah
 excerpt: ''
 type: post

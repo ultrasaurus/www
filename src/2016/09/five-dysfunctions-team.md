@@ -2,7 +2,7 @@
 title: 'five dysfunctions of a team'
 date: '2016-09-09T06:10:09-07:00'
 status: publish
-permalink: /2016/09/five-dysfunctions-team
+exported_permalink: /2016/09/five-dysfunctions-team
 author: sarah
 excerpt: ''
 type: post

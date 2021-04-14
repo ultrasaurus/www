@@ -2,7 +2,7 @@
 title: 'getting started with docker'
 date: '2017-10-09T07:17:24-07:00'
 status: publish
-permalink: /2017/10/getting-started-with-docker
+exported_permalink: /2017/10/getting-started-with-docker
 author: sarah
 excerpt: ''
 type: post

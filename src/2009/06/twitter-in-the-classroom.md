@@ -2,7 +2,7 @@
 title: 'twitter in the classroom'
 date: '2009-06-09T08:17:09-07:00'
 status: publish
-permalink: /2009/06/twitter-in-the-classroom
+exported_permalink: /2009/06/twitter-in-the-classroom
 author: sarah
 excerpt: ''
 type: post

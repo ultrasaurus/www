@@ -2,7 +2,7 @@
 title: 'finding my voice'
 date: '2007-08-04T09:50:51-07:00'
 status: publish
-permalink: /2007/08/finding-my-voice
+exported_permalink: /2007/08/finding-my-voice
 author: sarah
 excerpt: ''
 type: post

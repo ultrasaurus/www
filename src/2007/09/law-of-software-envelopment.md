@@ -2,7 +2,7 @@
 title: 'Law of Software Envelopment'
 date: '2007-09-24T15:31:20-07:00'
 status: publish
-permalink: /2007/09/law-of-software-envelopment
+exported_permalink: /2007/09/law-of-software-envelopment
 author: sarah
 excerpt: ''
 type: post

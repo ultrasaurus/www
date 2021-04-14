@@ -2,7 +2,7 @@
 title: Faces
 date: '2014-02-07T08:16:17-08:00'
 status: publish
-permalink: /2014/02/creating-your-own-visual-language/faces
+exported_permalink: /2014/02/creating-your-own-visual-language/faces
 author: sarah
 excerpt: 'We learned simple techniques to produce faces that convey emotion.'
 type: attachment

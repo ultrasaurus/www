@@ -2,7 +2,7 @@
 title: 'interactive multi-touch scholarship'
 date: '2010-05-30T01:54:30-07:00'
 status: publish
-permalink: /2010/05/interactive-multi-touch-scholarship
+exported_permalink: /2010/05/interactive-multi-touch-scholarship
 author: sarah
 excerpt: ''
 type: post

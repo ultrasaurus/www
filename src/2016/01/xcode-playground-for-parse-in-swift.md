@@ -2,7 +2,7 @@
 title: 'xcode playground for parse in swift'
 date: '2016-01-02T23:46:40-08:00'
 status: publish
-permalink: /2016/01/xcode-playground-for-parse-in-swift
+exported_permalink: /2016/01/xcode-playground-for-parse-in-swift
 author: sarah
 excerpt: ''
 type: post

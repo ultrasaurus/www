@@ -2,7 +2,7 @@
 title: 'loosely connected collaboration'
 date: '2003-09-19T03:23:20-07:00'
 status: publish
-permalink: /2003/09/loosely-connected-collaboration
+exported_permalink: /2003/09/loosely-connected-collaboration
 author: sarah
 excerpt: ''
 type: post

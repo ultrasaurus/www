@@ -2,7 +2,7 @@
 title: 'exploring ghostscript API in C'
 date: '2017-11-24T06:56:21-08:00'
 status: publish
-permalink: /2017/11/getting-started-with-ghostscript-api-in-c
+exported_permalink: /2017/11/getting-started-with-ghostscript-api-in-c
 author: sarah
 excerpt: ''
 type: post

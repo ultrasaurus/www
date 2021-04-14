@@ -2,7 +2,7 @@
 title: 'why diversity in computing?'
 date: '2015-03-22T18:55:28-07:00'
 status: publish
-permalink: /2015/03/why-diversity-in-computing
+exported_permalink: /2015/03/why-diversity-in-computing
 author: sarah
 excerpt: ''
 type: post

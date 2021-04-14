@@ -2,7 +2,7 @@
 title: 'better UI for big screens'
 date: '2004-03-08T09:43:10-08:00'
 status: publish
-permalink: /2004/03/better-ui-for-big-screens
+exported_permalink: /2004/03/better-ui-for-big-screens
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: doodling-helps-you-remember
 date: '2014-02-07T07:09:45-08:00'
 status: publish
-permalink: /2014/02/creating-your-own-visual-language/doodling-helps-you-remember
+exported_permalink: /2014/02/creating-your-own-visual-language/doodling-helps-you-remember
 author: sarah
 excerpt: 'Research shows that doodling actually helps you remember what you hear.'
 type: attachment

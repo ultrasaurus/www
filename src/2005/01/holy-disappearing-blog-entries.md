@@ -2,7 +2,7 @@
 title: 'holy disappearing blog entries'
 date: '2005-01-04T02:45:50-08:00'
 status: publish
-permalink: /2005/01/holy-disappearing-blog-entries
+exported_permalink: /2005/01/holy-disappearing-blog-entries
 author: sarah
 excerpt: ''
 type: post

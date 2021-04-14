@@ -2,7 +2,7 @@
 title: 'rails 3: can we get back to 6 steps?'
 date: '2010-09-22T02:54:03-07:00'
 status: publish
-permalink: /2010/09/rails-3-can-we-get-back-to-6-steps
+exported_permalink: /2010/09/rails-3-can-we-get-back-to-6-steps
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'sandbox for ruby code'
 date: '2009-04-17T11:08:13-07:00'
 status: publish
-permalink: /2009/04/sandbox-for-ruby-code
+exported_permalink: /2009/04/sandbox-for-ruby-code
 author: sarah
 excerpt: ''
 type: post

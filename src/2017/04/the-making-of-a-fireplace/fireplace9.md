@@ -2,7 +2,7 @@
 title: Fireplace
 date: '2017-04-11T06:25:11-07:00'
 status: publish
-permalink: /2017/04/the-making-of-a-fireplace/fireplace9
+exported_permalink: /2017/04/the-making-of-a-fireplace/fireplace9
 author: sarah
 excerpt: ''
 type: attachment

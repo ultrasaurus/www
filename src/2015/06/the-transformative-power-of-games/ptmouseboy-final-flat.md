@@ -2,7 +2,7 @@
 title: ''
 date: '2015-06-07T15:19:10-07:00'
 status: publish
-permalink: /2015/06/the-transformative-power-of-games/ptmouseboy-final-flat
+exported_permalink: /2015/06/the-transformative-power-of-games/ptmouseboy-final-flat
 author: sarah
 excerpt: ''
 type: attachment

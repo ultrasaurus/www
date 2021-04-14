@@ -2,7 +2,7 @@
 title: 'give them what they need, not what they want'
 date: '2008-05-02T05:34:47-07:00'
 status: publish
-permalink: /2008/05/give-them-what-they-need-not-what-they-want
+exported_permalink: /2008/05/give-them-what-they-need-not-what-they-want
 author: sarah
 excerpt: ''
 type: post

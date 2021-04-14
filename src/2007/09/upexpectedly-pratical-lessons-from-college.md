@@ -2,7 +2,7 @@
 title: 'upexpectedly pratical lessons from college'
 date: '2007-09-22T20:15:27-07:00'
 status: publish
-permalink: /2007/09/upexpectedly-pratical-lessons-from-college
+exported_permalink: /2007/09/upexpectedly-pratical-lessons-from-college
 author: sarah
 excerpt: ''
 type: post

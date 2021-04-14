@@ -2,7 +2,7 @@
 title: 'Twitter Stats'
 date: '2015-05-11T02:49:38-07:00'
 status: publish
-permalink: /2015/05/distribution-of-twitter-followers/screen-shot-2015-05-11-at-2-49-02-am
+exported_permalink: /2015/05/distribution-of-twitter-followers/screen-shot-2015-05-11-at-2-49-02-am
 author: sarah
 excerpt: ''
 type: attachment

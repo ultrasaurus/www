@@ -2,7 +2,7 @@
 title: 'making of esther music video'
 date: '2018-02-03T14:29:49-08:00'
 status: publish
-permalink: /2018/02/making-of-esther-music-video
+exported_permalink: /2018/02/making-of-esther-music-video
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: tyra
 date: '2015-10-08T05:54:02-07:00'
 status: publish
-permalink: /2015/10/best-corporate-policy-ever/tyra
+exported_permalink: /2015/10/best-corporate-policy-ever/tyra
 author: sarah
 excerpt: ''
 type: attachment

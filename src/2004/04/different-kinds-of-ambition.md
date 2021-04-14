@@ -2,7 +2,7 @@
 title: 'different kinds of ambition'
 date: '2004-04-30T09:45:41-07:00'
 status: publish
-permalink: /2004/04/different-kinds-of-ambition
+exported_permalink: /2004/04/different-kinds-of-ambition
 author: sarah
 excerpt: ''
 type: post

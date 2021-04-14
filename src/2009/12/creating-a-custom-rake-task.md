@@ -2,7 +2,7 @@
 title: 'creating a custom rake task'
 date: '2009-12-20T09:30:51-08:00'
 status: publish
-permalink: /2009/12/creating-a-custom-rake-task
+exported_permalink: /2009/12/creating-a-custom-rake-task
 author: sarah
 excerpt: ''
 type: post

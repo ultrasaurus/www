@@ -2,7 +2,7 @@
 title: 2019-scala-face-drawing-mouth-centered
 date: '2019-05-16T22:26:37-07:00'
 status: publish
-permalink: /2019/05/learning-scala-with-graphics/2019-scala-face-drawing-mouth-centered
+exported_permalink: /2019/05/learning-scala-with-graphics/2019-scala-face-drawing-mouth-centered
 author: sarah
 excerpt: ''
 type: attachment

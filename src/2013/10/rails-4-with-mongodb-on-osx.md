@@ -2,7 +2,7 @@
 title: 'rails 4 with mongodb on osx'
 date: '2013-10-13T11:25:19-07:00'
 status: publish
-permalink: /2013/10/rails-4-with-mongodb-on-osx
+exported_permalink: /2013/10/rails-4-with-mongodb-on-osx
 author: sarah
 excerpt: ''
 type: post

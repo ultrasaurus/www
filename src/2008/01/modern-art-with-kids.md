@@ -2,7 +2,7 @@
 title: 'modern art with kids'
 date: '2008-01-28T04:57:02-08:00'
 status: publish
-permalink: /2008/01/modern-art-with-kids
+exported_permalink: /2008/01/modern-art-with-kids
 author: sarah
 excerpt: ''
 type: post

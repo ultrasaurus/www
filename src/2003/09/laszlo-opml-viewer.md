@@ -2,7 +2,7 @@
 title: 'Laszlo OPML viewer'
 date: '2003-09-09T01:04:26-07:00'
 status: publish
-permalink: /2003/09/laszlo-opml-viewer
+exported_permalink: /2003/09/laszlo-opml-viewer
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'ruby meetup in tokyo: asakusa.rb'
 date: '2010-08-24T14:05:53-07:00'
 status: publish
-permalink: /2010/08/ruby-meetup-in-tokyo-asakusa-rb
+exported_permalink: /2010/08/ruby-meetup-in-tokyo-asakusa-rb
 author: sarah
 excerpt: ''
 type: post

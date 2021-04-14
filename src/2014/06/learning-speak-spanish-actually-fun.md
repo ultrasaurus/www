@@ -2,7 +2,7 @@
 title: 'could learning to speak spanish be actually fun?'
 date: '2014-06-14T08:55:55-07:00'
 status: publish
-permalink: /2014/06/learning-speak-spanish-actually-fun
+exported_permalink: /2014/06/learning-speak-spanish-actually-fun
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'personal online security'
 date: '2016-11-19T16:04:59-08:00'
 status: publish
-permalink: /2016/11/personal-online-security
+exported_permalink: /2016/11/personal-online-security
 author: sarah
 excerpt: ''
 type: post

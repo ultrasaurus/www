@@ -2,7 +2,7 @@
 title: 'kid track at rubyconf?'
 date: '2010-10-07T09:31:35-07:00'
 status: publish
-permalink: /2010/10/kid-track-at-rubyconf
+exported_permalink: /2010/10/kid-track-at-rubyconf
 author: sarah
 excerpt: ''
 type: post

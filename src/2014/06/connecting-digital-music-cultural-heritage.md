@@ -2,7 +2,7 @@
 title: 'connecting digital music to cultural heritage'
 date: '2014-06-18T07:08:39-07:00'
 status: publish
-permalink: /2014/06/connecting-digital-music-cultural-heritage
+exported_permalink: /2014/06/connecting-digital-music-cultural-heritage
 author: sarah
 excerpt: ''
 type: post

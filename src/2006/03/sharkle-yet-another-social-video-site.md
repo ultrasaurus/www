@@ -2,7 +2,7 @@
 title: 'Sharkle: yet another social video site'
 date: '2006-03-29T21:44:08-08:00'
 status: publish
-permalink: /2006/03/sharkle-yet-another-social-video-site
+exported_permalink: /2006/03/sharkle-yet-another-social-video-site
 author: sarah
 excerpt: ''
 type: post

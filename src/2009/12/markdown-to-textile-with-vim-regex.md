@@ -2,7 +2,7 @@
 title: 'markdown to textile with vim regex'
 date: '2009-12-30T00:36:20-08:00'
 status: publish
-permalink: /2009/12/markdown-to-textile-with-vim-regex
+exported_permalink: /2009/12/markdown-to-textile-with-vim-regex
 author: sarah
 excerpt: ''
 type: post

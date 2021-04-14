@@ -2,7 +2,7 @@
 title: 'stone soup workshop'
 date: '2009-10-19T13:28:21-07:00'
 status: publish
-permalink: /2009/10/stone-soup-workshop
+exported_permalink: /2009/10/stone-soup-workshop
 author: sarah
 excerpt: ''
 type: post

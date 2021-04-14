@@ -2,7 +2,7 @@
 title: 'San Francisco rent'
 date: '2007-07-31T09:22:17-07:00'
 status: publish
-permalink: /2007/07/san-francisco-rent
+exported_permalink: /2007/07/san-francisco-rent
 author: sarah
 excerpt: ''
 type: post

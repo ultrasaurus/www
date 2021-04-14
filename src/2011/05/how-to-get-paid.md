@@ -2,7 +2,7 @@
 title: 'how to get paid'
 date: '2011-05-28T19:42:38-07:00'
 status: publish
-permalink: /2011/05/how-to-get-paid
+exported_permalink: /2011/05/how-to-get-paid
 author: sarah
 excerpt: ''
 type: post

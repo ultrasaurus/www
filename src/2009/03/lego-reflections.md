@@ -2,7 +2,7 @@
 title: 'lego reflections'
 date: '2009-03-07T06:55:12-08:00'
 status: publish
-permalink: /2009/03/lego-reflections
+exported_permalink: /2009/03/lego-reflections
 author: sarah
 excerpt: ''
 type: post

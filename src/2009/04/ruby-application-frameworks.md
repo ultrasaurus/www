@@ -2,7 +2,7 @@
 title: 'ruby application frameworks'
 date: '2009-04-17T15:47:41-07:00'
 status: publish
-permalink: /2009/04/ruby-application-frameworks
+exported_permalink: /2009/04/ruby-application-frameworks
 author: sarah
 excerpt: ''
 type: post

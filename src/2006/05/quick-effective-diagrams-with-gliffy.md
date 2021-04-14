@@ -2,7 +2,7 @@
 title: 'quick, effective diagrams with Gliffy'
 date: '2006-05-29T07:34:48-07:00'
 status: publish
-permalink: /2006/05/quick-effective-diagrams-with-gliffy
+exported_permalink: /2006/05/quick-effective-diagrams-with-gliffy
 author: sarah
 excerpt: ''
 type: post

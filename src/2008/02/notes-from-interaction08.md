@@ -2,7 +2,7 @@
 title: 'notes from Interaction08'
 date: '2008-02-16T08:55:11-08:00'
 status: publish
-permalink: /2008/02/notes-from-interaction08
+exported_permalink: /2008/02/notes-from-interaction08
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'beyond agile development'
 date: '2010-04-23T10:08:01-07:00'
 status: publish
-permalink: /2010/04/beyond-agile-development
+exported_permalink: /2010/04/beyond-agile-development
 author: sarah
 excerpt: ''
 type: post

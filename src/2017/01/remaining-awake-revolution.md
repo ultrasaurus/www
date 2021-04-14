@@ -2,7 +2,7 @@
 title: 'remaining awake through a revolution'
 date: '2017-01-16T17:23:12-08:00'
 status: publish
-permalink: /2017/01/remaining-awake-revolution
+exported_permalink: /2017/01/remaining-awake-revolution
 author: sarah
 excerpt: ''
 type: post

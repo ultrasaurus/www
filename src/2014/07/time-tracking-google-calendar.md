@@ -2,7 +2,7 @@
 title: 'time tracking with google calendar'
 date: '2014-07-27T18:53:01-07:00'
 status: publish
-permalink: /2014/07/time-tracking-google-calendar
+exported_permalink: /2014/07/time-tracking-google-calendar
 author: sarah
 excerpt: ''
 type: post

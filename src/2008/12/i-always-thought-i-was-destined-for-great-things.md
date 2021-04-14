@@ -2,7 +2,7 @@
 title: 'i always thought i was destined for great things&#8230;'
 date: '2008-12-08T20:14:34-08:00'
 status: publish
-permalink: /2008/12/i-always-thought-i-was-destined-for-great-things
+exported_permalink: /2008/12/i-always-thought-i-was-destined-for-great-things
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'art walking on the beach'
 date: '2004-09-25T18:49:09-07:00'
 status: publish
-permalink: /2004/09/art-walking-on-the-beach
+exported_permalink: /2004/09/art-walking-on-the-beach
 author: sarah
 excerpt: ''
 type: post

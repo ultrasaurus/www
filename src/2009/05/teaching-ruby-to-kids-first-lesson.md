@@ -2,7 +2,7 @@
 title: 'teaching kids to code: first lesson'
 date: '2009-05-20T21:27:21-07:00'
 status: publish
-permalink: /2009/05/teaching-ruby-to-kids-first-lesson
+exported_permalink: /2009/05/teaching-ruby-to-kids-first-lesson
 author: sarah
 excerpt: ''
 type: post

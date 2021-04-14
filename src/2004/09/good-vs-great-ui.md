@@ -2,7 +2,7 @@
 title: 'good vs. great UI'
 date: '2004-09-14T20:05:47-07:00'
 status: publish
-permalink: /2004/09/good-vs-great-ui
+exported_permalink: /2004/09/good-vs-great-ui
 author: sarah
 excerpt: ''
 type: post

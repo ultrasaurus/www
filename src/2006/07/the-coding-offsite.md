@@ -2,7 +2,7 @@
 title: 'the coding offsite'
 date: '2006-07-31T20:39:12-07:00'
 status: publish
-permalink: /2006/07/the-coding-offsite
+exported_permalink: /2006/07/the-coding-offsite
 author: sarah
 excerpt: ''
 type: post

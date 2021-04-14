@@ -2,7 +2,7 @@
 title: '2 horses + 3 cows = ?'
 date: '2003-05-30T08:14:17-07:00'
 status: publish
-permalink: /2003/05/2-horses-3-cows
+exported_permalink: /2003/05/2-horses-3-cows
 author: sarah
 excerpt: ''
 type: post

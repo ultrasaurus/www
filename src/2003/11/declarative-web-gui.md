@@ -2,7 +2,7 @@
 title: 'declarative web GUI'
 date: '2003-11-19T10:10:20-08:00'
 status: publish
-permalink: /2003/11/declarative-web-gui
+exported_permalink: /2003/11/declarative-web-gui
 author: sarah
 excerpt: ''
 type: post

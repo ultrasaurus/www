@@ -2,7 +2,7 @@
 title: 'the power of an open source community'
 date: '2009-05-04T05:19:05-07:00'
 status: publish
-permalink: /2009/05/the-power-of-an-open-source-community
+exported_permalink: /2009/05/the-power-of-an-open-source-community
 author: sarah
 excerpt: ''
 type: post

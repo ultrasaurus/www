@@ -2,7 +2,7 @@
 title: 'The Line Between the Desktop and the Browser has Blurred'
 date: '2007-04-15T12:28:42-07:00'
 status: publish
-permalink: /2007/04/the-line-between-the-desktop-and-the-browser-has-blurred
+exported_permalink: /2007/04/the-line-between-the-desktop-and-the-browser-has-blurred
 author: sarah
 excerpt: ''
 type: post

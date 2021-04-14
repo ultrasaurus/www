@@ -2,7 +2,7 @@
 title: ''
 date: '2014-09-08T04:08:35-07:00'
 status: publish
-permalink: /2014/09/linking-people-through-history/linkedjazz-sarahvaughan-2
+exported_permalink: /2014/09/linking-people-through-history/linkedjazz-sarahvaughan-2
 author: sarah
 excerpt: 'Sarah Vaughan''s social graph at LinkedJazz created by volunteers annotating transcripts of oral histories.'
 type: attachment

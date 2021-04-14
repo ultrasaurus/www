@@ -2,7 +2,7 @@
 title: 'rspec 3 upgrade: conversion of should to expect'
 date: '2014-08-09T18:22:38-07:00'
 status: publish
-permalink: /2014/08/rspec-3-upgrade-conversion-expect
+exported_permalink: /2014/08/rspec-3-upgrade-conversion-expect
 author: sarah
 excerpt: ''
 type: post

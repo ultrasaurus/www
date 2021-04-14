@@ -2,7 +2,7 @@
 title: 'the decline of women in CS from 1940-1982'
 date: '2008-12-16T08:00:45-08:00'
 status: publish
-permalink: /2008/12/the-decline-of-women-in-cs-from-1940-1982
+exported_permalink: /2008/12/the-decline-of-women-in-cs-from-1940-1982
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'the vision thing'
 date: '2017-02-19T20:12:35-08:00'
 status: publish
-permalink: /2017/02/the-vision-thing
+exported_permalink: /2017/02/the-vision-thing
 author: sarah
 excerpt: ''
 type: post

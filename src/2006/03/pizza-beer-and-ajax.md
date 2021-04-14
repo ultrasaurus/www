@@ -2,7 +2,7 @@
 title: 'Pizza, Beer and AJAX'
 date: '2006-03-05T08:29:31-08:00'
 status: publish
-permalink: /2006/03/pizza-beer-and-ajax
+exported_permalink: /2006/03/pizza-beer-and-ajax
 author: sarah
 excerpt: ''
 type: post

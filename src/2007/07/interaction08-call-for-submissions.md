@@ -2,7 +2,7 @@
 title: 'Interaction08 call for submissions'
 date: '2007-07-28T17:05:37-07:00'
 status: publish
-permalink: /2007/07/interaction08-call-for-submissions
+exported_permalink: /2007/07/interaction08-call-for-submissions
 author: sarah
 excerpt: ''
 type: post

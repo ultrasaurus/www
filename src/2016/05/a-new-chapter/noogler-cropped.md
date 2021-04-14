@@ -2,7 +2,7 @@
 title: 'noogler shadow'
 date: '2016-05-29T21:15:07-07:00'
 status: publish
-permalink: /2016/05/a-new-chapter/noogler-cropped
+exported_permalink: /2016/05/a-new-chapter/noogler-cropped
 author: sarah
 excerpt: ''
 type: attachment

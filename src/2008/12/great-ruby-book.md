@@ -2,7 +2,7 @@
 title: 'great ruby book'
 date: '2008-12-12T19:01:38-08:00'
 status: publish
-permalink: /2008/12/great-ruby-book
+exported_permalink: /2008/12/great-ruby-book
 author: sarah
 excerpt: ''
 type: post

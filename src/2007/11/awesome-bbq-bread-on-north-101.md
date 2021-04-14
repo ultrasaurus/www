@@ -2,7 +2,7 @@
 title: 'awesome bbq &amp; bread on north 101'
 date: '2007-11-25T18:08:12-08:00'
 status: publish
-permalink: /2007/11/awesome-bbq-bread-on-north-101
+exported_permalink: /2007/11/awesome-bbq-bread-on-north-101
 author: sarah
 excerpt: ''
 type: post

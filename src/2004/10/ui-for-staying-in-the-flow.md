@@ -2,7 +2,7 @@
 title: 'UI for staying in the flow'
 date: '2004-10-11T20:56:17-07:00'
 status: publish
-permalink: /2004/10/ui-for-staying-in-the-flow
+exported_permalink: /2004/10/ui-for-staying-in-the-flow
 author: sarah
 excerpt: ''
 type: post

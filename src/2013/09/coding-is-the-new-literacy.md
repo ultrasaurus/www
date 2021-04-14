@@ -2,7 +2,7 @@
 title: 'coding is the new literacy'
 date: '2013-09-05T18:01:30-07:00'
 status: publish
-permalink: /2013/09/coding-is-the-new-literacy
+exported_permalink: /2013/09/coding-is-the-new-literacy
 author: sarah
 excerpt: ''
 type: post

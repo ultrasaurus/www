@@ -2,7 +2,7 @@
 title: 'pipes, redirects and awk -v'
 date: '2008-06-15T11:00:24-07:00'
 status: publish
-permalink: /2008/06/pipes-redirects-and-awk-v
+exported_permalink: /2008/06/pipes-redirects-and-awk-v
 author: sarah
 excerpt: ''
 type: post

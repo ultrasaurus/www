@@ -2,7 +2,7 @@
 title: 'Scaffolds != Rails'
 date: '2009-01-01T20:03:00-08:00'
 status: publish
-permalink: /2009/01/scaffolds-rails
+exported_permalink: /2009/01/scaffolds-rails
 author: sarah
 excerpt: ''
 type: post

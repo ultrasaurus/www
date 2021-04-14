@@ -2,7 +2,7 @@
 title: convergence
 date: '2007-08-20T09:42:57-07:00'
 status: publish
-permalink: /2007/08/convergence
+exported_permalink: /2007/08/convergence
 author: sarah
 excerpt: ''
 type: post

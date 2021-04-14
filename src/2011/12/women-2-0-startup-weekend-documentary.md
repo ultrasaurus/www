@@ -2,7 +2,7 @@
 title: 'women 2.0 startup weekend documentary'
 date: '2011-12-14T07:33:00-08:00'
 status: publish
-permalink: /2011/12/women-2-0-startup-weekend-documentary
+exported_permalink: /2011/12/women-2-0-startup-weekend-documentary
 author: sarah
 excerpt: ''
 type: post

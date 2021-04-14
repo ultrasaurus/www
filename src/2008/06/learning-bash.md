@@ -2,7 +2,7 @@
 title: 'learning bash'
 date: '2008-06-14T12:37:04-07:00'
 status: publish
-permalink: /2008/06/learning-bash
+exported_permalink: /2008/06/learning-bash
 author: sarah
 excerpt: ''
 type: post

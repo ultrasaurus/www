@@ -2,7 +2,7 @@
 title: 'Twitter followers &#8211; lower 90% by number of followers'
 date: '2015-05-11T02:28:04-07:00'
 status: publish
-permalink: /2015/05/distribution-of-twitter-followers/screen-shot-2015-05-11-at-2-25-27-am
+exported_permalink: /2015/05/distribution-of-twitter-followers/screen-shot-2015-05-11-at-2-25-27-am
 author: sarah
 excerpt: ''
 type: attachment

@@ -2,7 +2,7 @@
 title: 'design is the art of making choices'
 date: '2004-07-19T21:20:36-07:00'
 status: publish
-permalink: /2004/07/design-is-the-art-of-making-choices
+exported_permalink: /2004/07/design-is-the-art-of-making-choices
 author: sarah
 excerpt: ''
 type: post

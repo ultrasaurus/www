@@ -2,7 +2,7 @@
 title: car-loc
 date: '2015-12-31T15:07:37-08:00'
 status: publish
-permalink: /2015/12/computer-security-primer/car-loc
+exported_permalink: /2015/12/computer-security-primer/car-loc
 author: sarah
 excerpt: ''
 type: attachment

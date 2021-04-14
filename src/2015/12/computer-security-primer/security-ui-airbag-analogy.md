@@ -2,7 +2,7 @@
 title: security-ui-airbag-analogy
 date: '2015-12-31T15:07:47-08:00'
 status: publish
-permalink: /2015/12/computer-security-primer/security-ui-airbag-analogy
+exported_permalink: /2015/12/computer-security-primer/security-ui-airbag-analogy
 author: sarah
 excerpt: ''
 type: attachment

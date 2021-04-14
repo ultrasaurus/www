@@ -2,7 +2,7 @@
 title: 'introducing Laszlo Calendar&#8230;'
 date: '2008-05-06T06:18:09-07:00'
 status: publish
-permalink: /2008/05/introducing-laszlo-calendar
+exported_permalink: /2008/05/introducing-laszlo-calendar
 author: sarah
 excerpt: ''
 type: post

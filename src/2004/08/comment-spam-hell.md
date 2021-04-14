@@ -2,7 +2,7 @@
 title: 'comment spam hell'
 date: '2004-08-07T11:17:56-07:00'
 status: publish
-permalink: /2004/08/comment-spam-hell
+exported_permalink: /2004/08/comment-spam-hell
 author: sarah
 excerpt: ''
 type: post

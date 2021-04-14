@@ -2,7 +2,7 @@
 title: 'the allen rule'
 date: '2013-04-30T20:03:50-07:00'
 status: publish
-permalink: /2013/04/the-allen-rule
+exported_permalink: /2013/04/the-allen-rule
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'paint-on computing'
 date: '2005-01-23T13:30:03-08:00'
 status: publish
-permalink: /2005/01/paint-on-computing
+exported_permalink: /2005/01/paint-on-computing
 author: sarah
 excerpt: ''
 type: post

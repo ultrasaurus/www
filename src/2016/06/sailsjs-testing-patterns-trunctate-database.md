@@ -2,7 +2,7 @@
 title: 'sailsjs testing: how to truncate the database'
 date: '2016-06-11T19:10:00-07:00'
 status: publish
-permalink: /2016/06/sailsjs-testing-patterns-trunctate-database
+exported_permalink: /2016/06/sailsjs-testing-patterns-trunctate-database
 author: sarah
 excerpt: ''
 type: post

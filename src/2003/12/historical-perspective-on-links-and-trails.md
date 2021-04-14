@@ -2,7 +2,7 @@
 title: 'historical perspective on links and trails'
 date: '2003-12-28T19:25:37-08:00'
 status: publish
-permalink: /2003/12/historical-perspective-on-links-and-trails
+exported_permalink: /2003/12/historical-perspective-on-links-and-trails
 author: sarah
 excerpt: ''
 type: post

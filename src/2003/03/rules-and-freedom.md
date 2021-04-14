@@ -2,7 +2,7 @@
 title: 'rules and freedom'
 date: '2003-03-07T20:17:29-08:00'
 status: publish
-permalink: /2003/03/rules-and-freedom
+exported_permalink: /2003/03/rules-and-freedom
 author: sarah
 excerpt: 'Rules provide freedom. The really fun toys give you just enough constraints to inspire creativity and make it easy to create great stuff.'
 type: post

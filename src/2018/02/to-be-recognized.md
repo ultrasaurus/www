@@ -2,7 +2,7 @@
 title: 'to be recognized'
 date: '2018-02-12T05:49:10-08:00'
 status: publish
-permalink: /2018/02/to-be-recognized
+exported_permalink: /2018/02/to-be-recognized
 author: sarah
 excerpt: ''
 type: post

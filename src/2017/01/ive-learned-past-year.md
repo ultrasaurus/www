@@ -2,7 +2,7 @@
 title: 'what i&#8217;ve learned in the past year'
 date: '2017-01-07T10:31:26-08:00'
 status: publish
-permalink: /2017/01/ive-learned-past-year
+exported_permalink: /2017/01/ive-learned-past-year
 author: sarah
 excerpt: ''
 type: post

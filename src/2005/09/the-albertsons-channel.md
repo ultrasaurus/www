@@ -2,7 +2,7 @@
 title: 'the Albertson&#8217;s channel'
 date: '2005-09-26T00:05:33-07:00'
 status: publish
-permalink: /2005/09/the-albertsons-channel
+exported_permalink: /2005/09/the-albertsons-channel
 author: sarah
 excerpt: ''
 type: post

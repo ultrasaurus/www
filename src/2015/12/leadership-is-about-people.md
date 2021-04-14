@@ -2,7 +2,7 @@
 title: 'leadership is about people'
 date: '2015-12-19T10:57:25-08:00'
 status: publish
-permalink: /2015/12/leadership-is-about-people
+exported_permalink: /2015/12/leadership-is-about-people
 author: sarah
 excerpt: ''
 type: post

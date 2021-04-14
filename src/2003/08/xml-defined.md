@@ -2,7 +2,7 @@
 title: 'XML defined'
 date: '2003-08-31T21:44:02-07:00'
 status: publish
-permalink: /2003/08/xml-defined
+exported_permalink: /2003/08/xml-defined
 author: sarah
 excerpt: ''
 type: post

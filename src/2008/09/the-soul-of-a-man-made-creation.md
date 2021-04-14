@@ -2,7 +2,7 @@
 title: 'the soul of a man-made creation'
 date: '2008-09-15T05:56:38-07:00'
 status: publish
-permalink: /2008/09/the-soul-of-a-man-made-creation
+exported_permalink: /2008/09/the-soul-of-a-man-made-creation
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'one year of sf ruby'
 date: '2010-04-03T21:25:56-07:00'
 status: publish
-permalink: /2010/04/one-year-of-sf-ruby
+exported_permalink: /2010/04/one-year-of-sf-ruby
 author: sarah
 excerpt: ''
 type: post

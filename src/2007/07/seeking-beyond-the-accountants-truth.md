@@ -2,7 +2,7 @@
 title: 'seeking beyond the accountant&#8217;s truth'
 date: '2007-07-15T20:23:07-07:00'
 status: publish
-permalink: /2007/07/seeking-beyond-the-accountants-truth
+exported_permalink: /2007/07/seeking-beyond-the-accountants-truth
 author: sarah
 excerpt: ''
 type: post

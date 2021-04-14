@@ -2,7 +2,7 @@
 title: 'Laszlo inspector'
 date: '2004-03-16T20:08:06-08:00'
 status: publish
-permalink: /2004/03/laszlo-inspector
+exported_permalink: /2004/03/laszlo-inspector
 author: sarah
 excerpt: ''
 type: post

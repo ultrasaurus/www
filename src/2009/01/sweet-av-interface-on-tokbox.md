@@ -2,7 +2,7 @@
 title: 'sweet a/v interface on tokbox'
 date: '2009-01-28T20:49:58-08:00'
 status: publish
-permalink: /2009/01/sweet-av-interface-on-tokbox
+exported_permalink: /2009/01/sweet-av-interface-on-tokbox
 author: sarah
 excerpt: ''
 type: post

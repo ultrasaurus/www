@@ -2,7 +2,7 @@
 title: 'fortune cookie spammers'
 date: '2004-02-12T20:44:02-08:00'
 status: publish
-permalink: /2004/02/fortune-cookie-spammers
+exported_permalink: /2004/02/fortune-cookie-spammers
 author: sarah
 excerpt: ''
 type: post

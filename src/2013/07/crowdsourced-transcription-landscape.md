@@ -2,7 +2,7 @@
 title: 'crowdsourced transcription landscape'
 date: '2013-07-23T02:00:05-07:00'
 status: publish
-permalink: /2013/07/crowdsourced-transcription-landscape
+exported_permalink: /2013/07/crowdsourced-transcription-landscape
 author: sarah
 excerpt: ''
 type: post

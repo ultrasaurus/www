@@ -2,7 +2,7 @@
 title: 'little rules for working life'
 date: '2013-09-22T09:09:47-07:00'
 status: publish
-permalink: /2013/09/little-rules-for-working-life
+exported_permalink: /2013/09/little-rules-for-working-life
 author: sarah
 excerpt: ''
 type: post

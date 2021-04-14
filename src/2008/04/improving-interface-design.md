@@ -2,7 +2,7 @@
 title: 'improving interface design'
 date: '2008-04-13T17:18:06-07:00'
 status: publish
-permalink: /2008/04/improving-interface-design
+exported_permalink: /2008/04/improving-interface-design
 author: sarah
 excerpt: ''
 type: post

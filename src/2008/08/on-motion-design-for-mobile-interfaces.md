@@ -2,7 +2,7 @@
 title: 'on motion design for mobile interfaces'
 date: '2008-08-30T07:51:15-07:00'
 status: publish
-permalink: /2008/08/on-motion-design-for-mobile-interfaces
+exported_permalink: /2008/08/on-motion-design-for-mobile-interfaces
 author: sarah
 excerpt: ''
 type: post

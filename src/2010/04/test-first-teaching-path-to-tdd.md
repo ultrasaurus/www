@@ -2,7 +2,7 @@
 title: 'test first teaching, path to TDD'
 date: '2010-04-20T22:23:52-07:00'
 status: publish
-permalink: /2010/04/test-first-teaching-path-to-tdd
+exported_permalink: /2010/04/test-first-teaching-path-to-tdd
 author: sarah
 excerpt: ''
 type: post

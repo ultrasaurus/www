@@ -2,7 +2,7 @@
 title: 'learning TDD through test-first teaching'
 date: '2010-06-14T20:16:55-07:00'
 status: publish
-permalink: /2010/06/learning-tdd-through-test-first-teaching
+exported_permalink: /2010/06/learning-tdd-through-test-first-teaching
 author: sarah
 excerpt: ''
 type: post

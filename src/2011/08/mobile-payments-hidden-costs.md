@@ -2,7 +2,7 @@
 title: 'mobile payments hidden costs'
 date: '2011-08-25T15:10:59-07:00'
 status: publish
-permalink: /2011/08/mobile-payments-hidden-costs
+exported_permalink: /2011/08/mobile-payments-hidden-costs
 author: sarah
 excerpt: ''
 type: post

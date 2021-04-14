@@ -2,7 +2,7 @@
 title: 'Brand New Weblog'
 date: '2003-03-03T12:50:34-08:00'
 status: publish
-permalink: /2003/03/brand-new-weblog
+exported_permalink: /2003/03/brand-new-weblog
 author: sarah
 excerpt: ''
 type: post

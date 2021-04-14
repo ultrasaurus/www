@@ -2,7 +2,7 @@
 title: 'golden gate ruby conference'
 date: '2009-04-27T07:02:04-07:00'
 status: publish
-permalink: /2009/04/golden-gate-ruby-conference
+exported_permalink: /2009/04/golden-gate-ruby-conference
 author: sarah
 excerpt: ''
 type: post

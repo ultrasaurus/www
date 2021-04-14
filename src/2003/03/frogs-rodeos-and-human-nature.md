@@ -2,7 +2,7 @@
 title: 'frogs, rodeos and human nature'
 date: '2003-03-12T10:26:48-08:00'
 status: publish
-permalink: /2003/03/frogs-rodeos-and-human-nature
+exported_permalink: /2003/03/frogs-rodeos-and-human-nature
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'firefox is now the dominant browser'
 date: '2008-09-16T06:30:55-07:00'
 status: publish
-permalink: /2008/09/firefox-is-now-the-dominant-browser
+exported_permalink: /2008/09/firefox-is-now-the-dominant-browser
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'other blog widgets'
 date: '2003-09-24T07:21:28-07:00'
 status: publish
-permalink: /2003/09/other-blog-widgets
+exported_permalink: /2003/09/other-blog-widgets
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'subverting Sauron&#8217;s business model'
 date: '2019-04-14T22:20:13-07:00'
 status: publish
-permalink: /2019/04/subverting-saurons-business-model
+exported_permalink: /2019/04/subverting-saurons-business-model
 author: sarah
 excerpt: ''
 type: post

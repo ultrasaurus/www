@@ -2,7 +2,7 @@
 title: 'my virtual reality'
 date: '2009-07-09T09:33:17-07:00'
 status: publish
-permalink: /2009/07/my-virtual-reality
+exported_permalink: /2009/07/my-virtual-reality
 author: sarah
 excerpt: ''
 type: post

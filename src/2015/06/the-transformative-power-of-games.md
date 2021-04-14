@@ -2,7 +2,7 @@
 title: 'the transformative power of games'
 date: '2015-06-07T15:36:26-07:00'
 status: publish
-permalink: /2015/06/the-transformative-power-of-games
+exported_permalink: /2015/06/the-transformative-power-of-games
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: Home
 date: '2009-01-09T05:45:55-08:00'
 status: publish
-permalink: /home
+exported_permalink: /home
 author: sarah
 excerpt: ''
 type: page

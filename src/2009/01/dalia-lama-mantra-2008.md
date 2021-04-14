@@ -2,7 +2,7 @@
 title: 'dalia lama mantra 2008'
 date: '2009-01-14T04:38:38-08:00'
 status: publish
-permalink: /2009/01/dalia-lama-mantra-2008
+exported_permalink: /2009/01/dalia-lama-mantra-2008
 author: sarah
 excerpt: ''
 type: post

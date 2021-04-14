@@ -2,7 +2,7 @@
 title: 'difference engine no. 2 in action'
 date: '2008-05-25T16:58:16-07:00'
 status: publish
-permalink: /2008/05/difference-engine-no-2-in-action
+exported_permalink: /2008/05/difference-engine-no-2-in-action
 author: sarah
 excerpt: ''
 type: post

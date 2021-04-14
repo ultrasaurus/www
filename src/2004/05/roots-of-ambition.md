@@ -2,7 +2,7 @@
 title: 'roots of ambition'
 date: '2004-05-04T09:00:00-07:00'
 status: publish
-permalink: /2004/05/roots-of-ambition
+exported_permalink: /2004/05/roots-of-ambition
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'Ease at Work (Kent Beck)'
 date: '2006-05-19T19:59:19-07:00'
 status: publish
-permalink: /2006/05/ease-at-work-kent-beck
+exported_permalink: /2006/05/ease-at-work-kent-beck
 author: sarah
 excerpt: ''
 type: post

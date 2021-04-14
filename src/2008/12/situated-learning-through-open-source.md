@@ -2,7 +2,7 @@
 title: 'situated learning through open source'
 date: '2008-12-26T07:31:25-08:00'
 status: publish
-permalink: /2008/12/situated-learning-through-open-source
+exported_permalink: /2008/12/situated-learning-through-open-source
 author: sarah
 excerpt: ''
 type: post

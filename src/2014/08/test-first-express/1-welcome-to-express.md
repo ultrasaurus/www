@@ -2,7 +2,7 @@
 title: ''
 date: '2014-08-27T18:07:07-07:00'
 status: publish
-permalink: /2014/08/test-first-express/1-welcome-to-express
+exported_permalink: /2014/08/test-first-express/1-welcome-to-express
 author: sarah
 excerpt: ''
 type: attachment

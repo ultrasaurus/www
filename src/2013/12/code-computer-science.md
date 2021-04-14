@@ -2,7 +2,7 @@
 title: 'code != computer science'
 date: '2013-12-23T16:17:13-08:00'
 status: publish
-permalink: /2013/12/code-computer-science
+exported_permalink: /2013/12/code-computer-science
 author: sarah
 excerpt: ''
 type: post

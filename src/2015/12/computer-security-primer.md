@@ -2,7 +2,7 @@
 title: 'computer security primer'
 date: '2015-12-31T15:17:47-08:00'
 status: publish
-permalink: /2015/12/computer-security-primer
+exported_permalink: /2015/12/computer-security-primer
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'the screen as a genuine biological extension'
 date: '2016-07-09T04:35:04-07:00'
 status: publish
-permalink: /2016/07/the-screen-as-a
+exported_permalink: /2016/07/the-screen-as-a
 author: sarah
 excerpt: ''
 type: post

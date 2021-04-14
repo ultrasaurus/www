@@ -2,7 +2,7 @@
 title: 'how to get a Rails job'
 date: '2010-11-18T05:53:20-08:00'
 status: publish
-permalink: /2010/11/how-to-get-a-rails-job
+exported_permalink: /2010/11/how-to-get-a-rails-job
 author: sarah
 excerpt: ''
 type: post

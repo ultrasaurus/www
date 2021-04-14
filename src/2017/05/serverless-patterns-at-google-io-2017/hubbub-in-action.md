@@ -2,7 +2,7 @@
 title: hubbub-in-action
 date: '2017-05-20T09:45:13-07:00'
 status: publish
-permalink: /2017/05/serverless-patterns-at-google-io-2017/hubbub-in-action
+exported_permalink: /2017/05/serverless-patterns-at-google-io-2017/hubbub-in-action
 author: sarah
 excerpt: ''
 type: attachment

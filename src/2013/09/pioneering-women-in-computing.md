@@ -2,7 +2,7 @@
 title: 'pioneering women in computing'
 date: '2013-09-14T10:59:43-07:00'
 status: publish
-permalink: /2013/09/pioneering-women-in-computing
+exported_permalink: /2013/09/pioneering-women-in-computing
 author: sarah
 excerpt: ''
 type: post

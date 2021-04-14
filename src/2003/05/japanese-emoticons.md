@@ -2,7 +2,7 @@
 title: 'Japanese Emoticons'
 date: '2003-05-11T16:36:10-07:00'
 status: publish
-permalink: /2003/05/japanese-emoticons
+exported_permalink: /2003/05/japanese-emoticons
 author: sarah
 excerpt: ''
 type: post

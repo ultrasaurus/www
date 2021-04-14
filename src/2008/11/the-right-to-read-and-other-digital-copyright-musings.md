@@ -2,7 +2,7 @@
 title: 'the &#8220;right to read&#8221; and other digital copyright musings'
 date: '2008-11-21T19:42:52-08:00'
 status: publish
-permalink: /2008/11/the-right-to-read-and-other-digital-copyright-musings
+exported_permalink: /2008/11/the-right-to-read-and-other-digital-copyright-musings
 author: sarah
 excerpt: ''
 type: post

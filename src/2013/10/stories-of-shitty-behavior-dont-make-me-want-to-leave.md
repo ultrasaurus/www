@@ -2,7 +2,7 @@
 title: 'stories of shitty behavior don&#8217;t make me want to leave&#8230;'
 date: '2013-10-12T12:58:42-07:00'
 status: publish
-permalink: /2013/10/stories-of-shitty-behavior-dont-make-me-want-to-leave
+exported_permalink: /2013/10/stories-of-shitty-behavior-dont-make-me-want-to-leave
 author: sarah
 excerpt: ''
 type: post

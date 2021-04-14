@@ -2,7 +2,7 @@
 title: 'evolving development style'
 date: '2005-12-29T14:37:32-08:00'
 status: publish
-permalink: /2005/12/evolving-development-style
+exported_permalink: /2005/12/evolving-development-style
 author: sarah
 excerpt: ''
 type: post

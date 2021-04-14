@@ -2,7 +2,7 @@
 title: 'the stealthy openness of the us digital services'
 date: '2015-07-04T10:58:41-07:00'
 status: publish
-permalink: /2015/07/the-stealthy-openness-of-the-us-digital-services
+exported_permalink: /2015/07/the-stealthy-openness-of-the-us-digital-services
 author: sarah
 excerpt: ''
 type: post

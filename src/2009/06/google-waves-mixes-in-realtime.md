@@ -2,7 +2,7 @@
 title: 'google waves mixes in realtime'
 date: '2009-06-01T19:30:38-07:00'
 status: publish
-permalink: /2009/06/google-waves-mixes-in-realtime
+exported_permalink: /2009/06/google-waves-mixes-in-realtime
 author: sarah
 excerpt: ''
 type: post

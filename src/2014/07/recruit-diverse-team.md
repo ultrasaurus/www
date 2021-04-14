@@ -2,7 +2,7 @@
 title: 'how to recruit a diverse team'
 date: '2014-07-16T05:57:27-07:00'
 status: publish
-permalink: /2014/07/recruit-diverse-team
+exported_permalink: /2014/07/recruit-diverse-team
 author: sarah
 excerpt: ''
 type: post

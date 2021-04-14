@@ -2,7 +2,7 @@
 title: 'sillicon valley love notes'
 date: '2011-12-23T11:29:39-08:00'
 status: publish
-permalink: /2011/12/sillicon-valley-love-notes
+exported_permalink: /2011/12/sillicon-valley-love-notes
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'BayCHI talk'
 date: '2004-07-02T15:31:37-07:00'
 status: publish
-permalink: /2004/07/baychi-talk
+exported_permalink: /2004/07/baychi-talk
 author: sarah
 excerpt: ''
 type: post

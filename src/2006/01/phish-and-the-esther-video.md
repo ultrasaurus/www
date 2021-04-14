@@ -2,7 +2,7 @@
 title: 'Phish and the Esther video'
 date: '2006-01-19T05:58:35-08:00'
 status: publish
-permalink: /2006/01/phish-and-the-esther-video
+exported_permalink: /2006/01/phish-and-the-esther-video
 author: sarah
 excerpt: ''
 type: post

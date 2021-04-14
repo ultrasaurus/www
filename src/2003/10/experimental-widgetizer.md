@@ -2,7 +2,7 @@
 title: 'experimental widgetizer'
 date: '2003-10-04T05:43:00-07:00'
 status: publish
-permalink: /2003/10/experimental-widgetizer
+exported_permalink: /2003/10/experimental-widgetizer
 author: sarah
 excerpt: ''
 type: post

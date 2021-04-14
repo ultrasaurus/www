@@ -2,7 +2,7 @@
 title: ''
 date: '2018-02-12T04:45:51-08:00'
 status: publish
-permalink: /2018/02/to-be-recognized/bessie-blount-griffin
+exported_permalink: /2018/02/to-be-recognized/bessie-blount-griffin
 author: sarah
 excerpt: ''
 type: attachment

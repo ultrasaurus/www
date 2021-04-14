@@ -2,7 +2,7 @@
 title: 'story about making a difference'
 date: '2009-06-19T20:45:07-07:00'
 status: publish
-permalink: /2009/06/story-about-making-a-difference
+exported_permalink: /2009/06/story-about-making-a-difference
 author: sarah
 excerpt: ''
 type: post

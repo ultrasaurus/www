@@ -2,7 +2,7 @@
 title: ''
 date: '2015-09-13T20:10:03-07:00'
 status: publish
-permalink: /2015/09/college-data-now-available/screen-shot-2015-09-13-at-7-36-42-pm
+exported_permalink: /2015/09/college-data-now-available/screen-shot-2015-09-13-at-7-36-42-pm
 author: sarah
 excerpt: ''
 type: attachment

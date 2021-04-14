@@ -2,7 +2,7 @@
 title: vehicle-loc
 date: '2015-12-31T15:07:50-08:00'
 status: publish
-permalink: /2015/12/computer-security-primer/vehicle-loc
+exported_permalink: /2015/12/computer-security-primer/vehicle-loc
 author: sarah
 excerpt: ''
 type: attachment

@@ -2,7 +2,7 @@
 title: 'blogs and gutters'
 date: '2003-06-20T08:54:54-07:00'
 status: publish
-permalink: /2003/06/blogs-and-gutters
+exported_permalink: /2003/06/blogs-and-gutters
 author: sarah
 excerpt: ''
 type: post

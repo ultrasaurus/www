@@ -2,7 +2,7 @@
 title: 'command line happiness'
 date: '2009-02-28T12:53:20-08:00'
 status: publish
-permalink: /2009/02/command-line-happiness
+exported_permalink: /2009/02/command-line-happiness
 author: sarah
 excerpt: ''
 type: post

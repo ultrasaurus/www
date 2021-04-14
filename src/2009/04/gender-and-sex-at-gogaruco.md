@@ -2,7 +2,7 @@
 title: 'gender and sex at gogaruco'
 date: '2009-04-20T17:05:58-07:00'
 status: publish
-permalink: /2009/04/gender-and-sex-at-gogaruco
+exported_permalink: /2009/04/gender-and-sex-at-gogaruco
 author: sarah
 excerpt: ''
 type: post

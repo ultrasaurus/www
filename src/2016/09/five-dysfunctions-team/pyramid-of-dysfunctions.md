@@ -2,7 +2,7 @@
 title: 'Pyramid of Dysfunctions'
 date: '2016-09-09T05:28:58-07:00'
 status: publish
-permalink: /2016/09/five-dysfunctions-team/pyramid-of-dysfunctions
+exported_permalink: /2016/09/five-dysfunctions-team/pyramid-of-dysfunctions
 author: sarah
 excerpt: ''
 type: attachment

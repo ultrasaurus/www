@@ -2,7 +2,7 @@
 title: 'eggs that advertise their shelf life'
 date: '2008-12-08T06:59:30-08:00'
 status: publish
-permalink: /2008/12/eggs-that-advertise-their-shelf-life
+exported_permalink: /2008/12/eggs-that-advertise-their-shelf-life
 author: sarah
 excerpt: ''
 type: post

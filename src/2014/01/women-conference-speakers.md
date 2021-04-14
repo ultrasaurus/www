@@ -2,7 +2,7 @@
 title: 'why more women conference speakers?'
 date: '2014-01-12T14:49:38-08:00'
 status: publish
-permalink: /2014/01/women-conference-speakers
+exported_permalink: /2014/01/women-conference-speakers
 author: sarah
 excerpt: ''
 type: post

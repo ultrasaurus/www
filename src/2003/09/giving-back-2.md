@@ -2,7 +2,7 @@
 title: 'giving back'
 date: '2003-09-29T20:52:52-07:00'
 status: publish
-permalink: /2003/09/giving-back-2
+exported_permalink: /2003/09/giving-back-2
 author: sarah
 excerpt: ''
 type: post

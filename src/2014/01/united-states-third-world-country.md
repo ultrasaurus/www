@@ -2,7 +2,7 @@
 title: 'living in the third world'
 date: '2014-01-10T06:32:10-08:00'
 status: publish
-permalink: /2014/01/united-states-third-world-country
+exported_permalink: /2014/01/united-states-third-world-country
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'ffmpeg on osx lion'
 date: '2012-01-07T21:40:37-08:00'
 status: publish
-permalink: /2012/01/ffmpeg-on-osx-lion
+exported_permalink: /2012/01/ffmpeg-on-osx-lion
 author: sarah
 excerpt: ''
 type: post

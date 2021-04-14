@@ -2,7 +2,7 @@
 title: 'civic love'
 date: '2015-03-23T00:08:30-07:00'
 status: publish
-permalink: /2015/03/civic-love
+exported_permalink: /2015/03/civic-love
 author: sarah
 excerpt: ''
 type: post

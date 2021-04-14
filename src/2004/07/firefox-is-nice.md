@@ -2,7 +2,7 @@
 title: 'Firefox is nice'
 date: '2004-07-01T06:36:37-07:00'
 status: publish
-permalink: /2004/07/firefox-is-nice
+exported_permalink: /2004/07/firefox-is-nice
 author: sarah
 excerpt: ''
 type: post

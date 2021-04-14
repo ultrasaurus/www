@@ -2,7 +2,7 @@
 title: 'rails 3 vs. rails 2 validation errors'
 date: '2010-09-07T02:14:06-07:00'
 status: publish
-permalink: /2010/09/rails-3-vs-rails-2-validation-errors
+exported_permalink: /2010/09/rails-3-vs-rails-2-validation-errors
 author: sarah
 excerpt: ''
 type: post

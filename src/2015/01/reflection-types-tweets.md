@@ -2,7 +2,7 @@
 title: 'reflection on types of tweets'
 date: '2015-01-04T12:11:17-08:00'
 status: publish
-permalink: /2015/01/reflection-types-tweets
+exported_permalink: /2015/01/reflection-types-tweets
 author: sarah
 excerpt: ''
 type: post

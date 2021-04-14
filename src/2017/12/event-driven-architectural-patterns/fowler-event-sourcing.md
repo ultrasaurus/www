@@ -2,7 +2,7 @@
 title: fowler-event-sourcing
 date: '2017-12-30T16:38:26-08:00'
 status: publish
-permalink: /2017/12/event-driven-architectural-patterns/fowler-event-sourcing
+exported_permalink: /2017/12/event-driven-architectural-patterns/fowler-event-sourcing
 author: sarah
 excerpt: ''
 type: attachment

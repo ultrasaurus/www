@@ -2,7 +2,7 @@
 title: 'work as play'
 date: '2004-07-20T08:06:36-07:00'
 status: publish
-permalink: /2004/07/work-as-play
+exported_permalink: /2004/07/work-as-play
 author: sarah
 excerpt: ''
 type: post

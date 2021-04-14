@@ -2,7 +2,7 @@
 title: 'Language for Math'
 date: '2004-01-18T13:54:50-08:00'
 status: publish
-permalink: /2004/01/language-for-math
+exported_permalink: /2004/01/language-for-math
 author: sarah
 excerpt: ''
 type: post

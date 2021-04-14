@@ -2,7 +2,7 @@
 title: 'Behr paint color browser'
 date: '2003-06-06T20:23:53-07:00'
 status: publish
-permalink: /2003/06/behr-paint-color-browser
+exported_permalink: /2003/06/behr-paint-color-browser
 author: sarah
 excerpt: ''
 type: post

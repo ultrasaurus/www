@@ -2,7 +2,7 @@
 title: 'knowledge is the asset of the future'
 date: '2004-02-11T18:06:28-08:00'
 status: publish
-permalink: /2004/02/knowledge-is-the-asset-of-the-future
+exported_permalink: /2004/02/knowledge-is-the-asset-of-the-future
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'emerging trend: offline web applications'
 date: '2008-02-23T10:28:01-08:00'
 status: publish
-permalink: /2008/02/emerging-trend-offline-web-applications
+exported_permalink: /2008/02/emerging-trend-offline-web-applications
 author: sarah
 excerpt: ''
 type: post

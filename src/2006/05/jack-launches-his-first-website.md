@@ -2,7 +2,7 @@
 title: 'Jack launches his first website'
 date: '2006-05-09T18:59:53-07:00'
 status: publish
-permalink: /2006/05/jack-launches-his-first-website
+exported_permalink: /2006/05/jack-launches-his-first-website
 author: sarah
 excerpt: ''
 type: post

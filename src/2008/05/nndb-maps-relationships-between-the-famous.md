@@ -2,7 +2,7 @@
 title: 'NNDB maps relationships between the famous'
 date: '2008-05-18T06:45:13-07:00'
 status: publish
-permalink: /2008/05/nndb-maps-relationships-between-the-famous
+exported_permalink: /2008/05/nndb-maps-relationships-between-the-famous
 author: sarah
 excerpt: ''
 type: post

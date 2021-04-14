@@ -2,7 +2,7 @@
 title: 'ZDNet on Laszlo Webtop'
 date: '2007-11-11T17:57:44-08:00'
 status: publish
-permalink: /2007/11/zdnet-on-laszlo-webtop
+exported_permalink: /2007/11/zdnet-on-laszlo-webtop
 author: sarah
 excerpt: ''
 type: post

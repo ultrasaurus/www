@@ -2,7 +2,7 @@
 title: 'designing for fun @altconf 2015'
 date: '2015-08-17T05:01:00-07:00'
 status: publish
-permalink: /2015/08/designing-for-fun
+exported_permalink: /2015/08/designing-for-fun
 author: sarah
 excerpt: ''
 type: post

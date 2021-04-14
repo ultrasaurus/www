@@ -2,7 +2,7 @@
 title: 'Working at the White House'
 date: '2014-03-24T06:32:09-07:00'
 status: publish
-permalink: /2014/03/day-day-life-presidential-innovation-fellow/ostp-working-small
+exported_permalink: /2014/03/day-day-life-presidential-innovation-fellow/ostp-working-small
 author: sarah
 excerpt: ''
 type: attachment

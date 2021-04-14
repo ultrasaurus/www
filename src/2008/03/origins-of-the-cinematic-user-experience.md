@@ -2,7 +2,7 @@
 title: 'origins of the cinematic user experience'
 date: '2008-03-15T10:06:39-07:00'
 status: publish
-permalink: /2008/03/origins-of-the-cinematic-user-experience
+exported_permalink: /2008/03/origins-of-the-cinematic-user-experience
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'animated sorting algorithms'
 date: '2008-11-16T10:57:32-08:00'
 status: publish
-permalink: /2008/11/animated-sorting-algorithms
+exported_permalink: /2008/11/animated-sorting-algorithms
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'tagging brand associations'
 date: '2008-09-02T12:03:27-07:00'
 status: publish
-permalink: /2008/09/tagging-brand-associations
+exported_permalink: /2008/09/tagging-brand-associations
 author: sarah
 excerpt: ''
 type: post

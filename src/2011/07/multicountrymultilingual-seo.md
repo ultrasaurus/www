@@ -2,7 +2,7 @@
 title: 'multicountry/multilingual seo'
 date: '2011-07-08T19:53:30-07:00'
 status: publish
-permalink: /2011/07/multicountrymultilingual-seo
+exported_permalink: /2011/07/multicountrymultilingual-seo
 author: sarah
 excerpt: ''
 type: post

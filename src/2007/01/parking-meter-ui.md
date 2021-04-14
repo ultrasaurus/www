@@ -2,7 +2,7 @@
 title: 'parking meter UI'
 date: '2007-01-14T10:47:57-08:00'
 status: publish
-permalink: /2007/01/parking-meter-ui
+exported_permalink: /2007/01/parking-meter-ui
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'digital identity: how to verify trust?'
 date: '2019-06-16T05:56:27-07:00'
 status: publish
-permalink: /2019/06/digital-identity-how-to-verify-trust
+exported_permalink: /2019/06/digital-identity-how-to-verify-trust
 author: sarah
 excerpt: ''
 type: post

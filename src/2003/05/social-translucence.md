@@ -2,7 +2,7 @@
 title: 'Social Translucence'
 date: '2003-05-26T07:55:26-07:00'
 status: publish
-permalink: /2003/05/social-translucence
+exported_permalink: /2003/05/social-translucence
 author: sarah
 excerpt: ''
 type: post

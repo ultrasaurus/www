@@ -2,7 +2,7 @@
 title: 'strong statements about testing'
 date: '2010-04-21T22:22:39-07:00'
 status: publish
-permalink: /2010/04/strong-statements-about-testing
+exported_permalink: /2010/04/strong-statements-about-testing
 author: sarah
 excerpt: ''
 type: post

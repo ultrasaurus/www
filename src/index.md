@@ -4,6 +4,8 @@ tags: []
 title: Welcome to my blog
 ---
 
+[About](/about) [Speaking](/speaking) [Contact](/contact) [What is an ultrasaurus?](/ultrasaurus)
+
 Here are all the posts:
 
 {% for post in collections.blog %}

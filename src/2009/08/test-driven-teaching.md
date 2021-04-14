@@ -2,7 +2,7 @@
 title: 'test-driven teaching'
 date: '2009-08-16T19:47:01-07:00'
 status: publish
-permalink: /2009/08/test-driven-teaching
+exported_permalink: /2009/08/test-driven-teaching
 author: sarah
 excerpt: ''
 type: post

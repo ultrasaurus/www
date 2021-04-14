@@ -2,7 +2,7 @@
 title: 'fork is the new friend'
 date: '2009-05-16T16:37:40-07:00'
 status: publish
-permalink: /2009/05/fork-is-the-new-friend
+exported_permalink: /2009/05/fork-is-the-new-friend
 author: sarah
 excerpt: ''
 type: post

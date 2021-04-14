@@ -2,7 +2,7 @@
 title: 'surfing lessons'
 date: '2003-06-21T21:47:33-07:00'
 status: publish
-permalink: /2003/06/surfing-lessons
+exported_permalink: /2003/06/surfing-lessons
 author: sarah
 excerpt: ''
 type: post

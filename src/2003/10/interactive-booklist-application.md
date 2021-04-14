@@ -2,7 +2,7 @@
 title: 'interactive booklist application'
 date: '2003-10-04T18:59:03-07:00'
 status: publish
-permalink: /2003/10/interactive-booklist-application
+exported_permalink: /2003/10/interactive-booklist-application
 author: sarah
 excerpt: ''
 type: post

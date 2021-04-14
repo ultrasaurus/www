@@ -2,7 +2,7 @@
 title: 'r: functions and avoiding loops'
 date: '2015-04-07T18:30:22-07:00'
 status: publish
-permalink: /2015/04/r-functions-and-avoiding-loops
+exported_permalink: /2015/04/r-functions-and-avoiding-loops
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'Laszlo Mail available for your own server'
 date: '2006-01-20T10:48:26-08:00'
 status: publish
-permalink: /2006/01/laszlo-mail-available-for-your-own-server
+exported_permalink: /2006/01/laszlo-mail-available-for-your-own-server
 author: sarah
 excerpt: ''
 type: post

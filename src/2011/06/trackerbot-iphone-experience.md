@@ -2,7 +2,7 @@
 title: 'trackerbot iphone experience'
 date: '2011-06-13T18:05:42-07:00'
 status: publish
-permalink: /2011/06/trackerbot-iphone-experience
+exported_permalink: /2011/06/trackerbot-iphone-experience
 author: sarah
 excerpt: ''
 type: post

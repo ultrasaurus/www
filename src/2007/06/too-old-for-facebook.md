@@ -2,7 +2,7 @@
 title: 'too old for Facebook?'
 date: '2007-06-30T09:36:14-07:00'
 status: publish
-permalink: /2007/06/too-old-for-facebook
+exported_permalink: /2007/06/too-old-for-facebook
 author: sarah
 excerpt: ''
 type: post

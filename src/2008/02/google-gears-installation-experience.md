@@ -2,7 +2,7 @@
 title: 'google gears installation experience'
 date: '2008-02-23T20:24:57-08:00'
 status: publish
-permalink: /2008/02/google-gears-installation-experience
+exported_permalink: /2008/02/google-gears-installation-experience
 author: sarah
 excerpt: ''
 type: post

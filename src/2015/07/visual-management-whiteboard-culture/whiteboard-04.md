@@ -2,7 +2,7 @@
 title: whiteboard-04
 date: '2015-07-29T04:53:58-07:00'
 status: publish
-permalink: /2015/07/visual-management-whiteboard-culture/whiteboard-04
+exported_permalink: /2015/07/visual-management-whiteboard-culture/whiteboard-04
 author: sarah
 excerpt: ''
 type: attachment

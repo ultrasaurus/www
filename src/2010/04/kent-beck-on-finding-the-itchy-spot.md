@@ -2,7 +2,7 @@
 title: 'kent beck on finding the itchy spot'
 date: '2010-04-24T19:26:47-07:00'
 status: publish
-permalink: /2010/04/kent-beck-on-finding-the-itchy-spot
+exported_permalink: /2010/04/kent-beck-on-finding-the-itchy-spot
 author: sarah
 excerpt: ''
 type: post

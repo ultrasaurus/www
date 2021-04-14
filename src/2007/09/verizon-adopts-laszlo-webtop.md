@@ -2,7 +2,7 @@
 title: 'Verizon adopts Laszlo Webtop'
 date: '2007-09-08T08:46:39-07:00'
 status: publish
-permalink: /2007/09/verizon-adopts-laszlo-webtop
+exported_permalink: /2007/09/verizon-adopts-laszlo-webtop
 author: sarah
 excerpt: ''
 type: post

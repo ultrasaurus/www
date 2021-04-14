@@ -2,7 +2,7 @@
 title: 'developing in the open'
 date: '2014-08-07T09:57:47-07:00'
 status: publish
-permalink: /2014/08/developing-open
+exported_permalink: /2014/08/developing-open
 author: sarah
 excerpt: ''
 type: post

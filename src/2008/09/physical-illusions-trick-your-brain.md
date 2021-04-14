@@ -2,7 +2,7 @@
 title: 'physical illusions trick your brain'
 date: '2008-09-03T07:54:09-07:00'
 status: publish
-permalink: /2008/09/physical-illusions-trick-your-brain
+exported_permalink: /2008/09/physical-illusions-trick-your-brain
 author: sarah
 excerpt: ''
 type: post

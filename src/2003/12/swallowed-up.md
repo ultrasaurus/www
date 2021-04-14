@@ -2,7 +2,7 @@
 title: 'swallowed up'
 date: '2003-12-18T20:35:49-08:00'
 status: publish
-permalink: /2003/12/swallowed-up
+exported_permalink: /2003/12/swallowed-up
 author: sarah
 excerpt: ''
 type: post

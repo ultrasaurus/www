@@ -2,7 +2,7 @@
 title: 'Simpsons&#8217; power of ten'
 date: '2007-07-03T23:30:19-07:00'
 status: publish
-permalink: /2007/07/simpsons-power-of-ten
+exported_permalink: /2007/07/simpsons-power-of-ten
 author: sarah
 excerpt: ''
 type: post

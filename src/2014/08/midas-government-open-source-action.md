@@ -2,7 +2,7 @@
 title: 'midas: government open source in action'
 date: '2014-08-10T05:54:41-07:00'
 status: publish
-permalink: /2014/08/midas-government-open-source-action
+exported_permalink: /2014/08/midas-government-open-source-action
 author: sarah
 excerpt: ''
 type: post

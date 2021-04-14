@@ -2,7 +2,7 @@
 title: 'visualization of word frequency'
 date: '2007-07-29T23:38:16-07:00'
 status: publish
-permalink: /2007/07/visualization-of-word-frequency
+exported_permalink: /2007/07/visualization-of-word-frequency
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'not all data is interesting'
 date: '2008-12-31T11:43:19-08:00'
 status: publish
-permalink: /2008/12/not-all-data-is-interesting
+exported_permalink: /2008/12/not-all-data-is-interesting
 author: sarah
 excerpt: ''
 type: post

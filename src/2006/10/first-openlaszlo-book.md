@@ -2,7 +2,7 @@
 title: 'first OpenLaszlo book'
 date: '2006-10-07T21:27:26-07:00'
 status: publish
-permalink: /2006/10/first-openlaszlo-book
+exported_permalink: /2006/10/first-openlaszlo-book
 author: sarah
 excerpt: ''
 type: post

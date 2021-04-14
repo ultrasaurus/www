@@ -2,7 +2,7 @@
 title: 'obama on journalism and his next hundred days'
 date: '2009-05-10T18:02:52-07:00'
 status: publish
-permalink: /2009/05/obama-on-journalism-and-his-next-hundred-days
+exported_permalink: /2009/05/obama-on-journalism-and-his-next-hundred-days
 author: sarah
 excerpt: ''
 type: post

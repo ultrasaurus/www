@@ -2,7 +2,7 @@
 title: 'tesseract html page with text overlay'
 date: '2013-07-13T16:52:45-07:00'
 status: publish
-permalink: /2013/07/tesseract-html-page-with-text-overlay
+exported_permalink: /2013/07/tesseract-html-page-with-text-overlay
 author: sarah
 excerpt: ''
 type: post

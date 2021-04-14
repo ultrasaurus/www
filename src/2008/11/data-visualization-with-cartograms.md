@@ -2,7 +2,7 @@
 title: 'data visualization with cartograms'
 date: '2008-11-30T11:50:57-08:00'
 status: publish
-permalink: /2008/11/data-visualization-with-cartograms
+exported_permalink: /2008/11/data-visualization-with-cartograms
 author: sarah
 excerpt: ''
 type: post

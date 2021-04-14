@@ -2,7 +2,7 @@
 title: 'conversation with David Temkin'
 date: '2005-09-25T14:41:26-07:00'
 status: publish
-permalink: /2005/09/conversation-with-david-temkin
+exported_permalink: /2005/09/conversation-with-david-temkin
 author: sarah
 excerpt: ''
 type: post

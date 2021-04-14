@@ -2,7 +2,7 @@
 title: 'what if internet kills the movie?'
 date: '2009-07-11T07:04:00-07:00'
 status: publish
-permalink: /2009/07/what-if-internet-kills-the-movie
+exported_permalink: /2009/07/what-if-internet-kills-the-movie
 author: sarah
 excerpt: ''
 type: post

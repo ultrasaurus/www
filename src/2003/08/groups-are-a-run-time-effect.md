@@ -2,7 +2,7 @@
 title: 'groups are a run-time effect'
 date: '2003-08-21T07:37:46-07:00'
 status: publish
-permalink: /2003/08/groups-are-a-run-time-effect
+exported_permalink: /2003/08/groups-are-a-run-time-effect
 author: sarah
 excerpt: ''
 type: post

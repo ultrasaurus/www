@@ -2,7 +2,7 @@
 title: 'test- and behavior-driven development'
 date: '2008-12-21T09:36:41-08:00'
 status: publish
-permalink: /2008/12/test-and-behavior-driven-development
+exported_permalink: /2008/12/test-and-behavior-driven-development
 author: sarah
 excerpt: ''
 type: post

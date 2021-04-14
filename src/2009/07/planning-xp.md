@@ -2,7 +2,7 @@
 title: 'planning xp'
 date: '2009-07-28T14:02:37-07:00'
 status: publish
-permalink: /2009/07/planning-xp
+exported_permalink: /2009/07/planning-xp
 author: sarah
 excerpt: ''
 type: post

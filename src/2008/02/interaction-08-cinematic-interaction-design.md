@@ -2,7 +2,7 @@
 title: 'Interaction 08: Cinematic Interaction Design'
 date: '2008-02-12T21:55:23-08:00'
 status: publish
-permalink: /2008/02/interaction-08-cinematic-interaction-design
+exported_permalink: /2008/02/interaction-08-cinematic-interaction-design
 author: sarah
 excerpt: ''
 type: post

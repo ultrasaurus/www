@@ -2,7 +2,7 @@
 title: 'snap shots'
 date: '2007-08-03T21:05:40-07:00'
 status: publish
-permalink: /2007/08/snap-shots
+exported_permalink: /2007/08/snap-shots
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: ''
 date: '2016-06-05T15:53:51-07:00'
 status: publish
-permalink: /2016/06/serving-served-us/piff-logo
+exported_permalink: /2016/06/serving-served-us/piff-logo
 author: sarah
 excerpt: 'Presidential Innovation Fellows Foundation'
 type: attachment

@@ -2,7 +2,7 @@
 title: 'lean startup keynote'
 date: '2010-04-23T08:36:08-07:00'
 status: publish
-permalink: /2010/04/lean-startup-keynote
+exported_permalink: /2010/04/lean-startup-keynote
 author: sarah
 excerpt: ''
 type: post

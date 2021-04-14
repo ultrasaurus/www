@@ -2,7 +2,7 @@
 title: 'fixing brew install opencv on osx'
 date: '2012-03-30T03:46:27-07:00'
 status: publish
-permalink: /2012/03/fixing-brew-install-opencv
+exported_permalink: /2012/03/fixing-brew-install-opencv
 author: sarah
 excerpt: ''
 type: post

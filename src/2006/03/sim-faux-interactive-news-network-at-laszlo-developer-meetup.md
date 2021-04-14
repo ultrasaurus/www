@@ -2,7 +2,7 @@
 title: 'Sim Faux: interactive news network at Laszlo Developer Meetup'
 date: '2006-03-18T15:23:54-08:00'
 status: publish
-permalink: /2006/03/sim-faux-interactive-news-network-at-laszlo-developer-meetup
+exported_permalink: /2006/03/sim-faux-interactive-news-network-at-laszlo-developer-meetup
 author: sarah
 excerpt: ''
 type: post

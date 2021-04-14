@@ -2,7 +2,7 @@
 title: 'design for the expression on someone&#8217;s face'
 date: '2008-06-16T18:20:57-07:00'
 status: publish
-permalink: /2008/06/design-for-the-expression-on-someones-face
+exported_permalink: /2008/06/design-for-the-expression-on-someones-face
 author: sarah
 excerpt: ''
 type: post

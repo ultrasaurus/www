@@ -2,7 +2,7 @@
 title: '26 countries'
 date: '2004-02-15T11:42:13-08:00'
 status: publish
-permalink: /2004/02/26-countries
+exported_permalink: /2004/02/26-countries
 author: sarah
 excerpt: ''
 type: post

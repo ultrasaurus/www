@@ -2,7 +2,7 @@
 title: 'college data now available'
 date: '2015-09-13T20:44:34-07:00'
 status: publish
-permalink: /2015/09/college-data-now-available
+exported_permalink: /2015/09/college-data-now-available
 author: sarah
 excerpt: ''
 type: post

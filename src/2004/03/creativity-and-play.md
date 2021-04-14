@@ -2,7 +2,7 @@
 title: 'creativity and play'
 date: '2004-03-27T18:54:33-08:00'
 status: publish
-permalink: /2004/03/creativity-and-play
+exported_permalink: /2004/03/creativity-and-play
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'Laszlo Mugs'
 date: '2004-02-26T21:50:50-08:00'
 status: publish
-permalink: /2004/02/laszlo-mugs
+exported_permalink: /2004/02/laszlo-mugs
 author: sarah
 excerpt: ''
 type: post

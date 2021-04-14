@@ -2,7 +2,7 @@
 title: 'web video interviews from bloggingheads.tv'
 date: '2008-11-19T19:07:35-08:00'
 status: publish
-permalink: /2008/11/web-video-interviews-from-bloggingheadstv
+exported_permalink: /2008/11/web-video-interviews-from-bloggingheadstv
 author: sarah
 excerpt: ''
 type: post

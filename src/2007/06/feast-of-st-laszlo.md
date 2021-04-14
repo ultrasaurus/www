@@ -2,7 +2,7 @@
 title: 'feast of St. Laszlo'
 date: '2007-06-27T23:15:01-07:00'
 status: publish
-permalink: /2007/06/feast-of-st-laszlo
+exported_permalink: /2007/06/feast-of-st-laszlo
 author: sarah
 excerpt: ''
 type: post

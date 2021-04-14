@@ -2,7 +2,7 @@
 title: 'a first conference talk pitch'
 date: '2014-03-11T12:03:36-07:00'
 status: publish
-permalink: /2014/03/pitching-first-conference-talk
+exported_permalink: /2014/03/pitching-first-conference-talk
 author: sarah
 excerpt: ''
 type: post

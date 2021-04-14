@@ -2,7 +2,7 @@
 title: 'http/3 starter notes, rust quiche'
 date: '2019-10-28T06:08:24-07:00'
 status: publish
-permalink: /2019/10/http-3-starter-notes-rust-quiche
+exported_permalink: /2019/10/http-3-starter-notes-rust-quiche
 author: sarah
 excerpt: ''
 type: post

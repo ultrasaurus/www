@@ -2,7 +2,7 @@
 title: 'gears installation experience (part 3)'
 date: '2008-02-24T16:08:14-08:00'
 status: publish
-permalink: /2008/02/gears-installation-experience-part-3
+exported_permalink: /2008/02/gears-installation-experience-part-3
 author: sarah
 excerpt: ''
 type: post

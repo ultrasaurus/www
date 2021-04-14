@@ -2,7 +2,7 @@
 title: 'incidental learning'
 date: '2008-05-20T05:18:26-07:00'
 status: publish
-permalink: /2008/05/incidental-learning
+exported_permalink: /2008/05/incidental-learning
 author: sarah
 excerpt: ''
 type: post

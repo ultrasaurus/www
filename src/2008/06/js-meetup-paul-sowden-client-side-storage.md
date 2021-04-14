@@ -2,7 +2,7 @@
 title: 'js meetup, paul sowden, client-side storage'
 date: '2008-06-06T06:11:58-07:00'
 status: publish
-permalink: /2008/06/js-meetup-paul-sowden-client-side-storage
+exported_permalink: /2008/06/js-meetup-paul-sowden-client-side-storage
 author: sarah
 excerpt: ''
 type: post

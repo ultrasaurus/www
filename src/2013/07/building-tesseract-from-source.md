@@ -2,7 +2,7 @@
 title: 'building tesseract from source'
 date: '2013-07-15T02:39:42-07:00'
 status: publish
-permalink: /2013/07/building-tesseract-from-source
+exported_permalink: /2013/07/building-tesseract-from-source
 author: sarah
 excerpt: ''
 type: post

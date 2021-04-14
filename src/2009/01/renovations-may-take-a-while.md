@@ -2,7 +2,7 @@
 title: 'renovations may take a while'
 date: '2009-01-03T08:37:54-08:00'
 status: publish
-permalink: /2009/01/renovations-may-take-a-while
+exported_permalink: /2009/01/renovations-may-take-a-while
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'ignite talk on mobile applications'
 date: '2009-12-10T09:02:12-08:00'
 status: publish
-permalink: /2009/12/ignite-talk-on-mobile-applications
+exported_permalink: /2009/12/ignite-talk-on-mobile-applications
 author: sarah
 excerpt: ''
 type: post

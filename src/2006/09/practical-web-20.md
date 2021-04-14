@@ -2,7 +2,7 @@
 title: 'practical web 2.0'
 date: '2006-09-18T22:36:07-07:00'
 status: publish
-permalink: /2006/09/practical-web-20
+exported_permalink: /2006/09/practical-web-20
 author: sarah
 excerpt: ''
 type: post

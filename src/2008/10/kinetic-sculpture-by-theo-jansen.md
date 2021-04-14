@@ -2,7 +2,7 @@
 title: 'kinetic sculpture by theo jansen'
 date: '2008-10-07T04:31:39-07:00'
 status: publish
-permalink: /2008/10/kinetic-sculpture-by-theo-jansen
+exported_permalink: /2008/10/kinetic-sculpture-by-theo-jansen
 author: sarah
 excerpt: ''
 type: post

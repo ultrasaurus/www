@@ -2,7 +2,7 @@
 title: dragon-collage
 date: '2017-09-23T08:50:29-07:00'
 status: publish
-permalink: /2017/09/memories-of-dragons/dragon-collage
+exported_permalink: /2017/09/memories-of-dragons/dragon-collage
 author: sarah
 excerpt: ''
 type: attachment

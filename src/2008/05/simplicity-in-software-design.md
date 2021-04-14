@@ -2,7 +2,7 @@
 title: 'simplicity in software design'
 date: '2008-05-09T06:13:27-07:00'
 status: publish
-permalink: /2008/05/simplicity-in-software-design
+exported_permalink: /2008/05/simplicity-in-software-design
 author: sarah
 excerpt: ''
 type: post

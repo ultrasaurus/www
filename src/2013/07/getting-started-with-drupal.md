@@ -2,7 +2,7 @@
 title: 'getting started with drupal'
 date: '2013-07-27T02:38:56-07:00'
 status: publish
-permalink: /2013/07/getting-started-with-drupal
+exported_permalink: /2013/07/getting-started-with-drupal
 author: sarah
 excerpt: ''
 type: post

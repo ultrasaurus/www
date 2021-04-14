@@ -2,7 +2,7 @@
 title: 'search, urls, and the evolution of language'
 date: '2016-02-04T06:53:02-08:00'
 status: publish
-permalink: /2016/02/search-urls-and-the-evolution-of-language
+exported_permalink: /2016/02/search-urls-and-the-evolution-of-language
 author: sarah
 excerpt: ''
 type: post

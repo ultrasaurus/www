@@ -2,7 +2,7 @@
 title: 'mobile panel: cross-platform frameworks'
 date: '2011-04-17T06:46:47-07:00'
 status: publish
-permalink: /2011/04/cross-platform-frameworks-mobile-panel
+exported_permalink: /2011/04/cross-platform-frameworks-mobile-panel
 author: sarah
 excerpt: ''
 type: post

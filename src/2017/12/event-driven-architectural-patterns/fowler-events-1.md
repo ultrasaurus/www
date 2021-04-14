@@ -2,7 +2,7 @@
 title: ''
 date: '2017-06-06T05:27:12-07:00'
 status: publish
-permalink: /2017/12/event-driven-architectural-patterns/fowler-events-1
+exported_permalink: /2017/12/event-driven-architectural-patterns/fowler-events-1
 author: sarah
 excerpt: ''
 type: attachment

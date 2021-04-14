@@ -2,7 +2,7 @@
 title: 'seek to inspire'
 date: '2010-11-15T09:35:18-08:00'
 status: publish
-permalink: /2010/11/seek-to-inspire
+exported_permalink: /2010/11/seek-to-inspire
 author: sarah
 excerpt: ''
 type: post

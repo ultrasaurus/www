@@ -2,7 +2,7 @@
 title: 'staking a claim in cyberspace'
 date: '2007-07-05T09:53:32-07:00'
 status: publish
-permalink: /2007/07/staking-a-claim-in-cyberspace
+exported_permalink: /2007/07/staking-a-claim-in-cyberspace
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'data mining for oil sources'
 date: '2008-11-17T05:08:43-08:00'
 status: publish
-permalink: /2008/11/data-mining-for-oil-sources
+exported_permalink: /2008/11/data-mining-for-oil-sources
 author: sarah
 excerpt: ''
 type: post

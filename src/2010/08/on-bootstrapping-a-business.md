@@ -2,7 +2,7 @@
 title: 'on bootstrapping a business'
 date: '2010-08-31T13:06:56-07:00'
 status: publish
-permalink: /2010/08/on-bootstrapping-a-business
+exported_permalink: /2010/08/on-bootstrapping-a-business
 author: sarah
 excerpt: ''
 type: post

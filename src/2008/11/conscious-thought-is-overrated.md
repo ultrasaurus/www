@@ -2,7 +2,7 @@
 title: 'conscious thought is overrated'
 date: '2008-11-27T06:24:55-08:00'
 status: publish
-permalink: /2008/11/conscious-thought-is-overrated
+exported_permalink: /2008/11/conscious-thought-is-overrated
 author: sarah
 excerpt: ''
 type: post

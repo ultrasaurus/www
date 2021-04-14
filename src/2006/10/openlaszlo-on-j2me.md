@@ -2,7 +2,7 @@
 title: 'OpenLaszlo on J2ME'
 date: '2006-10-10T10:24:10-07:00'
 status: publish
-permalink: /2006/10/openlaszlo-on-j2me
+exported_permalink: /2006/10/openlaszlo-on-j2me
 author: sarah
 excerpt: ''
 type: post

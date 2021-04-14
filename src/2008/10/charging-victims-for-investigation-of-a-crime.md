@@ -2,7 +2,7 @@
 title: 'charging victims for investigation of a crime'
 date: '2008-10-15T21:35:35-07:00'
 status: publish
-permalink: /2008/10/charging-victims-for-investigation-of-a-crime
+exported_permalink: /2008/10/charging-victims-for-investigation-of-a-crime
 author: sarah
 excerpt: ''
 type: post

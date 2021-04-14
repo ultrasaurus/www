@@ -2,7 +2,7 @@
 title: 'start learning ruby on rails tomorrow night 1/25'
 date: '2011-01-24T21:25:09-08:00'
 status: publish
-permalink: /2011/01/start-learning-ruby-on-rails-tomorrow-night-125
+exported_permalink: /2011/01/start-learning-ruby-on-rails-tomorrow-night-125
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'jruby on google app engine'
 date: '2010-05-04T22:26:33-07:00'
 status: publish
-permalink: /2010/05/jruby-on-google-app-engine
+exported_permalink: /2010/05/jruby-on-google-app-engine
 author: sarah
 excerpt: ''
 type: post

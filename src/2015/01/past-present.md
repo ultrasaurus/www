@@ -2,7 +2,7 @@
 title: 'the past is present'
 date: '2015-01-20T05:59:43-08:00'
 status: publish
-permalink: /2015/01/past-present
+exported_permalink: /2015/01/past-present
 author: sarah
 excerpt: ''
 type: post

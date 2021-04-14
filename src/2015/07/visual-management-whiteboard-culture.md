@@ -2,7 +2,7 @@
 title: 'visual management: whiteboard culture'
 date: '2015-07-29T06:01:19-07:00'
 status: publish
-permalink: /2015/07/visual-management-whiteboard-culture
+exported_permalink: /2015/07/visual-management-whiteboard-culture
 author: sarah
 excerpt: ''
 type: post

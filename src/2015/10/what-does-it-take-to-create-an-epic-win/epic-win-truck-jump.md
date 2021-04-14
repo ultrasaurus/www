@@ -2,7 +2,7 @@
 title: epic-win-truck-jump
 date: '2015-10-09T06:31:38-07:00'
 status: publish
-permalink: /2015/10/what-does-it-take-to-create-an-epic-win/epic-win-truck-jump
+exported_permalink: /2015/10/what-does-it-take-to-create-an-epic-win/epic-win-truck-jump
 author: sarah
 excerpt: ''
 type: attachment

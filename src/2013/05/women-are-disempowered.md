@@ -2,7 +2,7 @@
 title: 'women are disempowered?'
 date: '2013-05-16T16:02:18-07:00'
 status: publish
-permalink: /2013/05/women-are-disempowered
+exported_permalink: /2013/05/women-are-disempowered
 author: sarah
 excerpt: ''
 type: post

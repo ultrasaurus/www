@@ -2,7 +2,7 @@
 title: 'mogulus live web video shows'
 date: '2009-02-06T07:38:23-08:00'
 status: publish
-permalink: /2009/02/mogulus-live-web-video-shows
+exported_permalink: /2009/02/mogulus-live-web-video-shows
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'less grammar, more play'
 date: '2005-03-11T02:29:52-08:00'
 status: publish
-permalink: /2005/03/less-grammar-more-play
+exported_permalink: /2005/03/less-grammar-more-play
 author: sarah
 excerpt: ''
 type: post

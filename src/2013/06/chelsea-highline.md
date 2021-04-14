@@ -2,7 +2,7 @@
 title: 'chelsea highline'
 date: '2013-06-05T16:13:13-07:00'
 status: publish
-permalink: /2013/06/chelsea-highline
+exported_permalink: /2013/06/chelsea-highline
 author: sarah
 excerpt: ''
 type: post

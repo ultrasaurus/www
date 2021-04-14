@@ -2,7 +2,7 @@
 title: 'wiki interface for public domain video'
 date: '2007-12-19T08:25:32-08:00'
 status: publish
-permalink: /2007/12/wiki-interface-for-public-domain-video
+exported_permalink: /2007/12/wiki-interface-for-public-domain-video
 author: sarah
 excerpt: ''
 type: post

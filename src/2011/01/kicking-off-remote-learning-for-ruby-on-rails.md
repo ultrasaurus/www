@@ -2,7 +2,7 @@
 title: 'kicking off remote learning for ruby on rails'
 date: '2011-01-30T08:32:11-08:00'
 status: publish
-permalink: /2011/01/kicking-off-remote-learning-for-ruby-on-rails
+exported_permalink: /2011/01/kicking-off-remote-learning-for-ruby-on-rails
 author: sarah
 excerpt: ''
 type: post

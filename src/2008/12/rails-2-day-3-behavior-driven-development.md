@@ -2,7 +2,7 @@
 title: 'rails 2 day 3: behavior-driven development'
 date: '2008-12-22T00:42:19-08:00'
 status: publish
-permalink: /2008/12/rails-2-day-3-behavior-driven-development
+exported_permalink: /2008/12/rails-2-day-3-behavior-driven-development
 author: sarah
 excerpt: ''
 type: post

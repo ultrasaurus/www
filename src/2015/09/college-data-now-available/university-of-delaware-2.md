@@ -2,7 +2,7 @@
 title: university-of-delaware
 date: '2015-09-15T03:45:04-07:00'
 status: publish
-permalink: /2015/09/college-data-now-available/university-of-delaware-2
+exported_permalink: /2015/09/college-data-now-available/university-of-delaware-2
 author: sarah
 excerpt: ''
 type: attachment

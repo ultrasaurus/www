@@ -2,7 +2,7 @@
 title: 'memory enhanced by experience'
 date: '2006-01-01T12:48:28-08:00'
 status: publish
-permalink: /2006/01/memory-enhanced-by-experience
+exported_permalink: /2006/01/memory-enhanced-by-experience
 author: sarah
 excerpt: ''
 type: post

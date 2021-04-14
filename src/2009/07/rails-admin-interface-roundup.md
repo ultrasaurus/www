@@ -2,7 +2,7 @@
 title: 'rails admin interface roundup'
 date: '2009-07-05T07:23:32-07:00'
 status: publish
-permalink: /2009/07/rails-admin-interface-roundup
+exported_permalink: /2009/07/rails-admin-interface-roundup
 author: sarah
 excerpt: ''
 type: post

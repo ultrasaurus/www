@@ -2,7 +2,7 @@
 title: 'Thinkup: first insights'
 date: '2015-05-11T03:02:46-07:00'
 status: draft
-permalink: '/?attachment_id=5542'
+exported_permalink: '/?attachment_id=5542'
 author: sarah
 excerpt: ''
 type: attachment

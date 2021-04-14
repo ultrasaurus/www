@@ -2,7 +2,7 @@
 title: 'ffmpeg for ogg and webm'
 date: '2013-06-06T23:05:13-07:00'
 status: publish
-permalink: /2013/06/ffmpeg-for-ogg-and-webm
+exported_permalink: /2013/06/ffmpeg-for-ogg-and-webm
 author: sarah
 excerpt: ''
 type: post

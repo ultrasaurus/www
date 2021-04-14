@@ -2,7 +2,7 @@
 title: Archives
 date: '2009-01-09T07:18:00-08:00'
 status: publish
-permalink: /archives
+exported_permalink: /archives
 author: sarah
 excerpt: ''
 type: page

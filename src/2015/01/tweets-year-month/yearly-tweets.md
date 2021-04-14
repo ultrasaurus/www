@@ -2,7 +2,7 @@
 title: yearly-tweets
 date: '2015-01-03T23:51:57-08:00'
 status: publish
-permalink: /2015/01/tweets-year-month/yearly-tweets
+exported_permalink: /2015/01/tweets-year-month/yearly-tweets
 author: sarah
 excerpt: ''
 type: attachment

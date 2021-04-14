@@ -2,7 +2,7 @@
 title: 'emotional design of the iPhone'
 date: '2007-07-18T04:16:48-07:00'
 status: publish
-permalink: /2007/07/emotional-design-of-the-iphone
+exported_permalink: /2007/07/emotional-design-of-the-iphone
 author: sarah
 excerpt: ''
 type: post

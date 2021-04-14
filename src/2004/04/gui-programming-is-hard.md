@@ -2,7 +2,7 @@
 title: 'GUI Programming is Hard'
 date: '2004-04-06T03:47:49-07:00'
 status: publish
-permalink: /2004/04/gui-programming-is-hard
+exported_permalink: /2004/04/gui-programming-is-hard
 author: sarah
 excerpt: ''
 type: post

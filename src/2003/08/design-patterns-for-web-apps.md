@@ -2,7 +2,7 @@
 title: 'design patterns for web apps'
 date: '2003-08-08T05:48:23-07:00'
 status: publish
-permalink: /2003/08/design-patterns-for-web-apps
+exported_permalink: /2003/08/design-patterns-for-web-apps
 author: sarah
 excerpt: ''
 type: post

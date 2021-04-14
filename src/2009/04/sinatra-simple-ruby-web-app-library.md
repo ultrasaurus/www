@@ -2,7 +2,7 @@
 title: 'sinatra: simple ruby web app library'
 date: '2009-04-17T10:05:24-07:00'
 status: publish
-permalink: /2009/04/sinatra-simple-ruby-web-app-library
+exported_permalink: /2009/04/sinatra-simple-ruby-web-app-library
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'imperfection is the price of admission'
 date: '2003-07-10T06:29:58-07:00'
 status: publish
-permalink: /2003/07/imperfection-is-the-price-of-admission
+exported_permalink: /2003/07/imperfection-is-the-price-of-admission
 author: sarah
 excerpt: ''
 type: post

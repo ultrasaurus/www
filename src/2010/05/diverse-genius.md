@@ -2,7 +2,7 @@
 title: 'diverse genius'
 date: '2010-05-02T07:27:23-07:00'
 status: publish
-permalink: /2010/05/diverse-genius
+exported_permalink: /2010/05/diverse-genius
 author: sarah
 excerpt: ''
 type: post

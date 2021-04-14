@@ -2,7 +2,7 @@
 title: 'inspiring student films'
 date: '2014-03-03T17:33:07-08:00'
 status: publish
-permalink: /2014/03/inspiring-student-films
+exported_permalink: /2014/03/inspiring-student-films
 author: sarah
 excerpt: ''
 type: post

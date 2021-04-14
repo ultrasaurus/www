@@ -2,7 +2,7 @@
 title: 'serving those who served us'
 date: '2016-06-05T16:42:34-07:00'
 status: publish
-permalink: /2016/06/serving-served-us
+exported_permalink: /2016/06/serving-served-us
 author: sarah
 excerpt: ''
 type: post

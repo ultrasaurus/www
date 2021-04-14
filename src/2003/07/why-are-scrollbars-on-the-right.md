@@ -2,7 +2,7 @@
 title: 'why are scrollbars on the right?'
 date: '2003-07-15T20:52:40-07:00'
 status: publish
-permalink: /2003/07/why-are-scrollbars-on-the-right
+exported_permalink: /2003/07/why-are-scrollbars-on-the-right
 author: sarah
 excerpt: ''
 type: post

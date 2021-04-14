@@ -2,7 +2,7 @@
 title: 'golang philosophy'
 date: '2019-01-18T08:16:43-08:00'
 status: publish
-permalink: /2019/01/golang-philosophy
+exported_permalink: /2019/01/golang-philosophy
 author: sarah
 excerpt: ''
 type: post

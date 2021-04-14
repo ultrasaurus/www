@@ -2,7 +2,7 @@
 title: 'wanna work with me at Laszlo?'
 date: '2005-09-08T17:30:30-07:00'
 status: publish
-permalink: /2005/09/wanna-work-with-me-at-laszlo
+exported_permalink: /2005/09/wanna-work-with-me-at-laszlo
 author: sarah
 excerpt: ''
 type: post

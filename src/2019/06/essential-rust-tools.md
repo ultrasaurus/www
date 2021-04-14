@@ -2,7 +2,7 @@
 title: 'essential rust tools'
 date: '2019-06-03T07:19:23-07:00'
 status: publish
-permalink: /2019/06/essential-rust-tools
+exported_permalink: /2019/06/essential-rust-tools
 author: sarah
 excerpt: ''
 type: post

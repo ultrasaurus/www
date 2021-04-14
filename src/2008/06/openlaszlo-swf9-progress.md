@@ -2,7 +2,7 @@
 title: 'OpenLaszlo SWF9 progress'
 date: '2008-06-08T09:54:25-07:00'
 status: publish
-permalink: /2008/06/openlaszlo-swf9-progress
+exported_permalink: /2008/06/openlaszlo-swf9-progress
 author: sarah
 excerpt: ''
 type: post

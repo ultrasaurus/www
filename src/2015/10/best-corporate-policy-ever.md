@@ -2,7 +2,7 @@
 title: 'best corporate policy ever'
 date: '2015-10-08T06:01:56-07:00'
 status: publish
-permalink: /2015/10/best-corporate-policy-ever
+exported_permalink: /2015/10/best-corporate-policy-ever
 author: sarah
 excerpt: ''
 type: post

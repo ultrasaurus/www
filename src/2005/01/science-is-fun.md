@@ -2,7 +2,7 @@
 title: 'science is fun'
 date: '2005-01-22T19:36:08-08:00'
 status: publish
-permalink: /2005/01/science-is-fun
+exported_permalink: /2005/01/science-is-fun
 author: sarah
 excerpt: ''
 type: post

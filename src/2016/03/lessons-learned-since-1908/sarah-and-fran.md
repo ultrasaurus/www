@@ -2,7 +2,7 @@
 title: sarah-and-fran
 date: '2016-03-29T17:26:51-07:00'
 status: publish
-permalink: /2016/03/lessons-learned-since-1908/sarah-and-fran
+exported_permalink: /2016/03/lessons-learned-since-1908/sarah-and-fran
 author: sarah
 excerpt: ''
 type: attachment

@@ -2,7 +2,7 @@
 title: 'Gender Diversity in Web Conferences'
 date: '2008-05-17T08:44:53-07:00'
 status: publish
-permalink: /2008/05/gender-diversity-in-web-conferences
+exported_permalink: /2008/05/gender-diversity-in-web-conferences
 author: sarah
 excerpt: ''
 type: post

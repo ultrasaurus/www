@@ -2,7 +2,7 @@
 title: 'Bruce Sterling on Story Telling and Game Design'
 date: '2006-07-05T09:11:06-07:00'
 status: publish
-permalink: /2006/07/bruce-sterling-on-story-telling-and-game-design
+exported_permalink: /2006/07/bruce-sterling-on-story-telling-and-game-design
 author: sarah
 excerpt: ''
 type: post

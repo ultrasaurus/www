@@ -2,7 +2,7 @@
 title: 'Dean for America RIA'
 date: '2003-11-11T05:00:13-08:00'
 status: publish
-permalink: /2003/11/dean-for-america-ria
+exported_permalink: /2003/11/dean-for-america-ria
 author: sarah
 excerpt: ''
 type: post

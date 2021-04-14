@@ -2,7 +2,7 @@
 title: 'go language philosphy thorugh proverbs'
 date: '2016-07-02T11:52:08-07:00'
 status: publish
-permalink: /2016/07/go-language-philosphy-thorugh-proverbs
+exported_permalink: /2016/07/go-language-philosphy-thorugh-proverbs
 author: sarah
 excerpt: ''
 type: post

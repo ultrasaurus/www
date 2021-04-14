@@ -2,7 +2,7 @@
 title: 'fewer women undergrads in computer science'
 date: '2005-09-05T12:57:38-07:00'
 status: publish
-permalink: /2005/09/fewer-women-undergrads-in-computer-science
+exported_permalink: /2005/09/fewer-women-undergrads-in-computer-science
 author: sarah
 excerpt: ''
 type: post

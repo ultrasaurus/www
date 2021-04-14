@@ -2,7 +2,7 @@
 title: 'OpenLaszlo and the iPhone'
 date: '2007-07-10T07:48:52-07:00'
 status: publish
-permalink: /2007/07/openlaszlo-and-the-iphone
+exported_permalink: /2007/07/openlaszlo-and-the-iphone
 author: sarah
 excerpt: ''
 type: post

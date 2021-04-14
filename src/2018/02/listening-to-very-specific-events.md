@@ -2,7 +2,7 @@
 title: 'listening to very specific events'
 date: '2018-02-25T08:05:01-08:00'
 status: publish
-permalink: /2018/02/listening-to-very-specific-events
+exported_permalink: /2018/02/listening-to-very-specific-events
 author: sarah
 excerpt: ''
 type: post

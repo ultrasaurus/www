@@ -2,7 +2,7 @@
 title: 'Don&#8217;t Worry Your Pretty Little Head'
 date: '2005-01-30T20:18:16-08:00'
 status: publish
-permalink: /2005/01/dont-worry-your-pretty-little-head
+exported_permalink: /2005/01/dont-worry-your-pretty-little-head
 author: sarah
 excerpt: ''
 type: post

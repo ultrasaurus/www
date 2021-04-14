@@ -2,7 +2,7 @@
 title: bmuredraws-dot-com
 date: '2019-12-24T12:20:52-08:00'
 status: publish
-permalink: /2019/12/patterns-of-actions-are-a-making/bmuredraws-dot-com
+exported_permalink: /2019/12/patterns-of-actions-are-a-making/bmuredraws-dot-com
 author: sarah
 excerpt: ''
 type: attachment

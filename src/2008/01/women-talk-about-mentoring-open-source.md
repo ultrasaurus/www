@@ -2,7 +2,7 @@
 title: 'women talk about mentoring open source'
 date: '2008-01-16T06:42:15-08:00'
 status: publish
-permalink: /2008/01/women-talk-about-mentoring-open-source
+exported_permalink: /2008/01/women-talk-about-mentoring-open-source
 author: sarah
 excerpt: ''
 type: post

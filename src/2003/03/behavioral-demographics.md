@@ -2,7 +2,7 @@
 title: 'behavioral demographics'
 date: '2003-03-05T10:32:57-08:00'
 status: publish
-permalink: /2003/03/behavioral-demographics
+exported_permalink: /2003/03/behavioral-demographics
 author: sarah
 excerpt: ''
 type: post

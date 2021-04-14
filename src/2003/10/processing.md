@@ -2,7 +2,7 @@
 title: processing
 date: '2003-10-13T22:40:12-07:00'
 status: publish
-permalink: /2003/10/processing
+exported_permalink: /2003/10/processing
 author: sarah
 excerpt: ''
 type: post

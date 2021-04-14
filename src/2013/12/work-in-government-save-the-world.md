@@ -2,7 +2,7 @@
 title: 'work in government, save the world?'
 date: '2013-12-04T06:45:04-08:00'
 status: publish
-permalink: /2013/12/work-in-government-save-the-world
+exported_permalink: /2013/12/work-in-government-save-the-world
 author: sarah
 excerpt: ''
 type: post

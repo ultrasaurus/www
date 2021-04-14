@@ -2,7 +2,7 @@
 title: 'RIA panel'
 date: '2004-08-08T18:02:25-07:00'
 status: publish
-permalink: /2004/08/ria-panel
+exported_permalink: /2004/08/ria-panel
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'designs for search'
 date: '2008-02-02T18:22:38-08:00'
 status: publish
-permalink: /2008/02/designs-for-search
+exported_permalink: /2008/02/designs-for-search
 author: sarah
 excerpt: ''
 type: post

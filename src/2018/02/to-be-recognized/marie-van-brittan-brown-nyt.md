@@ -2,7 +2,7 @@
 title: ''
 date: '2018-02-12T05:00:08-08:00'
 status: publish
-permalink: /2018/02/to-be-recognized/marie-van-brittan-brown-nyt
+exported_permalink: /2018/02/to-be-recognized/marie-van-brittan-brown-nyt
 author: sarah
 excerpt: ''
 type: attachment

@@ -2,7 +2,7 @@
 title: 'self-evident truths'
 date: '2016-11-15T08:08:33-08:00'
 status: publish
-permalink: /2016/11/self-evident-truths
+exported_permalink: /2016/11/self-evident-truths
 author: sarah
 excerpt: ''
 type: post

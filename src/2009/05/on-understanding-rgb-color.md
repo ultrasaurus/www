@@ -2,7 +2,7 @@
 title: 'on understanding rgb color'
 date: '2009-05-29T04:34:57-07:00'
 status: publish
-permalink: /2009/05/on-understanding-rgb-color
+exported_permalink: /2009/05/on-understanding-rgb-color
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'words, bullet points, semantic capitalism'
 date: '2004-09-02T07:30:01-07:00'
 status: publish
-permalink: /2004/09/words-bullet-points-semantic-capitalism
+exported_permalink: /2004/09/words-bullet-points-semantic-capitalism
 author: sarah
 excerpt: ''
 type: post

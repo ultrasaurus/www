@@ -2,7 +2,7 @@
 title: 'when coding is like the ephemeral art of rock balancing'
 date: '2008-12-07T10:36:11-08:00'
 status: publish
-permalink: /2008/12/when-coding-is-like-the-ephemeral-art-of-rock-balancing
+exported_permalink: /2008/12/when-coding-is-like-the-ephemeral-art-of-rock-balancing
 author: sarah
 excerpt: ''
 type: post

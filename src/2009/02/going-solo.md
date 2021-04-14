@@ -2,7 +2,7 @@
 title: 'going solo'
 date: '2009-02-05T01:22:02-08:00'
 status: publish
-permalink: /2009/02/going-solo
+exported_permalink: /2009/02/going-solo
 author: sarah
 excerpt: ''
 type: post

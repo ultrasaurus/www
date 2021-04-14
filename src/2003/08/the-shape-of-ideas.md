@@ -2,7 +2,7 @@
 title: 'the shape of ideas'
 date: '2003-08-17T13:58:12-07:00'
 status: publish
-permalink: /2003/08/the-shape-of-ideas
+exported_permalink: /2003/08/the-shape-of-ideas
 author: sarah
 excerpt: ''
 type: post

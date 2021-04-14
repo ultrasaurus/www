@@ -2,7 +2,7 @@
 title: 'great ideas from awesome women'
 date: '2010-04-10T00:23:43-07:00'
 status: publish
-permalink: /2010/04/great-ideas-from-awesome-women
+exported_permalink: /2010/04/great-ideas-from-awesome-women
 author: sarah
 excerpt: ''
 type: post

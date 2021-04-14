@@ -2,7 +2,7 @@
 title: 'Laszlo Systems named &#8220;Cool Vendor&#8221;'
 date: '2007-04-03T07:25:50-07:00'
 status: publish
-permalink: /2007/04/laszlo-systems-named-cool-vendor
+exported_permalink: /2007/04/laszlo-systems-named-cool-vendor
 author: sarah
 excerpt: ''
 type: post

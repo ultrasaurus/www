@@ -2,7 +2,7 @@
 title: 'extreme programming vs. interaction design?'
 date: '2008-05-05T06:31:27-07:00'
 status: publish
-permalink: /2008/05/extreme-programming-vs-interaction-design
+exported_permalink: /2008/05/extreme-programming-vs-interaction-design
 author: sarah
 excerpt: ''
 type: post

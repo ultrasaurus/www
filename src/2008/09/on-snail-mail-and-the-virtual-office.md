@@ -2,7 +2,7 @@
 title: 'on snail mail and the virtual office'
 date: '2008-09-04T05:45:27-07:00'
 status: publish
-permalink: /2008/09/on-snail-mail-and-the-virtual-office
+exported_permalink: /2008/09/on-snail-mail-and-the-virtual-office
 author: sarah
 excerpt: ''
 type: post

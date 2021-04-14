@@ -2,7 +2,7 @@
 title: 'Putting the Fun in Functional'
 date: '2006-04-13T09:27:12-07:00'
 status: publish
-permalink: /2006/04/putting-the-fun-in-functional
+exported_permalink: /2006/04/putting-the-fun-in-functional
 author: sarah
 excerpt: ''
 type: post

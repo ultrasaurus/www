@@ -2,7 +2,7 @@
 title: 'optimize for results, not optics'
 date: '2018-07-04T11:45:07-07:00'
 status: publish
-permalink: /2018/07/optimize-for-results-not-optics
+exported_permalink: /2018/07/optimize-for-results-not-optics
 author: sarah
 excerpt: ''
 type: post

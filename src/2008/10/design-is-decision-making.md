@@ -2,7 +2,7 @@
 title: 'design is decision making'
 date: '2008-10-12T11:48:42-07:00'
 status: publish
-permalink: /2008/10/design-is-decision-making
+exported_permalink: /2008/10/design-is-decision-making
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'another way to beat the creative block'
 date: '2008-11-29T07:27:14-08:00'
 status: publish
-permalink: /2008/11/another-way-to-beat-the-creative-block
+exported_permalink: /2008/11/another-way-to-beat-the-creative-block
 author: sarah
 excerpt: ''
 type: post

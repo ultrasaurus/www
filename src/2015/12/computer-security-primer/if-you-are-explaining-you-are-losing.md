@@ -2,7 +2,7 @@
 title: if-you-are-explaining-you-are-losing
 date: '2015-12-31T15:07:42-08:00'
 status: publish
-permalink: /2015/12/computer-security-primer/if-you-are-explaining-you-are-losing
+exported_permalink: /2015/12/computer-security-primer/if-you-are-explaining-you-are-losing
 author: sarah
 excerpt: ''
 type: attachment

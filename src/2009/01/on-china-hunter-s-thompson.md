@@ -2,7 +2,7 @@
 title: 'on china, hunter s. thompson and john lennon'
 date: '2009-01-16T09:11:39-08:00'
 status: publish
-permalink: /2009/01/on-china-hunter-s-thompson
+exported_permalink: /2009/01/on-china-hunter-s-thompson
 author: sarah
 excerpt: ''
 type: post

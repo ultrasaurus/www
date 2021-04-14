@@ -2,7 +2,7 @@
 title: 'ruby unit test frameworks'
 date: '2009-08-31T06:59:46-07:00'
 status: publish
-permalink: /2009/08/ruby-unit-test-frameworks
+exported_permalink: /2009/08/ruby-unit-test-frameworks
 author: sarah
 excerpt: ''
 type: post

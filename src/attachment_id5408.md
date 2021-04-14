@@ -2,7 +2,7 @@
 title: 'Screen Shot 2014-12-27 at 4.07.02 PM'
 date: '2014-12-27T16:11:04-08:00'
 status: draft
-permalink: '/?attachment_id=5408'
+exported_permalink: '/?attachment_id=5408'
 author: sarah
 excerpt: ''
 type: attachment

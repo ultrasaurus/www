@@ -2,7 +2,7 @@
 title: 'creating your own visual language'
 date: '2014-02-07T10:36:35-08:00'
 status: publish
-permalink: /2014/02/creating-your-own-visual-language
+exported_permalink: /2014/02/creating-your-own-visual-language
 author: sarah
 excerpt: ''
 type: post

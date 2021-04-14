@@ -2,7 +2,7 @@
 title: 'seeking innovative and passionate engineers&#8230;'
 date: '2007-01-04T11:02:39-08:00'
 status: publish
-permalink: /2007/01/seeking-innovative-and-passionate-engineers
+exported_permalink: /2007/01/seeking-innovative-and-passionate-engineers
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'simple test first express setup &amp; tutorial'
 date: '2014-08-27T21:11:19-07:00'
 status: publish
-permalink: /2014/08/test-first-express
+exported_permalink: /2014/08/test-first-express
 author: sarah
 excerpt: ''
 type: post

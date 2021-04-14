@@ -2,7 +2,7 @@
 title: 'pictures of algebra'
 date: '2004-12-09T20:42:40-08:00'
 status: publish
-permalink: /2004/12/pictures-of-algebra
+exported_permalink: /2004/12/pictures-of-algebra
 author: sarah
 excerpt: ''
 type: post

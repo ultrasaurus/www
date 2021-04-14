@@ -2,7 +2,7 @@
 title: 'Job Opening: Serverless Events @Google'
 date: '2018-01-30T05:29:06-08:00'
 status: publish
-permalink: /job-opening-serverless-events-google
+exported_permalink: /job-opening-serverless-events-google
 author: sarah
 excerpt: ''
 type: page

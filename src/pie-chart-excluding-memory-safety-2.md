@@ -2,7 +2,7 @@
 title: pie-chart-excluding-memory-safety
 date: '2019-12-22T13:48:59-08:00'
 status: publish
-permalink: /pie-chart-excluding-memory-safety-2
+exported_permalink: /pie-chart-excluding-memory-safety-2
 author: sarah
 excerpt: ''
 type: attachment

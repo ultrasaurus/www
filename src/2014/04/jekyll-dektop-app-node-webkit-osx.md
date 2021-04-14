@@ -2,7 +2,7 @@
 title: 'jekyll dektop app with node-webkit on osx'
 date: '2014-04-26T08:24:30-07:00'
 status: publish
-permalink: /2014/04/jekyll-dektop-app-node-webkit-osx
+exported_permalink: /2014/04/jekyll-dektop-app-node-webkit-osx
 author: sarah
 excerpt: ''
 type: post

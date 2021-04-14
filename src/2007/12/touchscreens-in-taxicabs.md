@@ -2,7 +2,7 @@
 title: 'touchscreens in taxicabs'
 date: '2007-12-29T17:33:07-08:00'
 status: publish
-permalink: /2007/12/touchscreens-in-taxicabs
+exported_permalink: /2007/12/touchscreens-in-taxicabs
 author: sarah
 excerpt: ''
 type: post

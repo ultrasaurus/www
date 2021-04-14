@@ -2,7 +2,7 @@
 title: 'wireframe (really)'
 date: '2007-10-05T20:50:01-07:00'
 status: publish
-permalink: /2007/10/wireframe-really
+exported_permalink: /2007/10/wireframe-really
 author: sarah
 excerpt: ''
 type: post

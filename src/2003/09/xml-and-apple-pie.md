@@ -2,7 +2,7 @@
 title: 'XML and apple pie'
 date: '2003-09-14T18:37:56-07:00'
 status: publish
-permalink: /2003/09/xml-and-apple-pie
+exported_permalink: /2003/09/xml-and-apple-pie
 author: sarah
 excerpt: ''
 type: post

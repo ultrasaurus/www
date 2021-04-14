@@ -2,7 +2,7 @@
 title: 'Earthlink Personal Start Page'
 date: '2003-11-23T20:51:25-08:00'
 status: publish
-permalink: /2003/11/earthlink-personal-start-page
+exported_permalink: /2003/11/earthlink-personal-start-page
 author: sarah
 excerpt: ''
 type: post

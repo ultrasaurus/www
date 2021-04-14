@@ -2,11 +2,12 @@
 title: Speaking
 date: '2018-04-03T05:31:37-07:00'
 status: publish
-permalink: /speaking
+exported_permalink: /speaking
 author: sarah
 excerpt: ''
 type: page
 id: 6553
+tags: ['page']
 ---
 History of speaking engagements
 

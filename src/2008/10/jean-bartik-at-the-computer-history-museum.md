@@ -2,7 +2,7 @@
 title: 'jean bartik at the computer history museum'
 date: '2008-10-25T18:39:54-07:00'
 status: publish
-permalink: /2008/10/jean-bartik-at-the-computer-history-museum
+exported_permalink: /2008/10/jean-bartik-at-the-computer-history-museum
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'web page presence'
 date: '2003-03-07T19:08:31-08:00'
 status: publish
-permalink: /2003/03/web-page-presence
+exported_permalink: /2003/03/web-page-presence
 author: sarah
 excerpt: ''
 type: post

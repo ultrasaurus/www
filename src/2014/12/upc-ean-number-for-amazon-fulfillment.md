@@ -2,7 +2,7 @@
 title: 'upc/ean number for amazon fulfillment'
 date: '2014-12-09T04:18:00-08:00'
 status: publish
-permalink: /2014/12/upc-ean-number-for-amazon-fulfillment
+exported_permalink: /2014/12/upc-ean-number-for-amazon-fulfillment
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'glass box voting'
 date: '2009-06-25T05:02:59-07:00'
 status: publish
-permalink: /2009/06/glass-box-voting
+exported_permalink: /2009/06/glass-box-voting
 author: sarah
 excerpt: ''
 type: post

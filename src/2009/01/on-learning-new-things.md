@@ -2,7 +2,7 @@
 title: 'on learning new things'
 date: '2009-01-13T20:30:48-08:00'
 status: publish
-permalink: /2009/01/on-learning-new-things
+exported_permalink: /2009/01/on-learning-new-things
 author: sarah
 excerpt: ''
 type: post

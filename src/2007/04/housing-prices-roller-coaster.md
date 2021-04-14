@@ -2,7 +2,7 @@
 title: 'housing prices roller coaster'
 date: '2007-04-05T08:38:54-07:00'
 status: publish
-permalink: /2007/04/housing-prices-roller-coaster
+exported_permalink: /2007/04/housing-prices-roller-coaster
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'lessons learned and future thoughts'
 date: '2013-09-01T05:20:47-07:00'
 status: publish
-permalink: /2013/09/lessons-learned-and-future-thoughts
+exported_permalink: /2013/09/lessons-learned-and-future-thoughts
 author: sarah
 excerpt: ''
 type: post

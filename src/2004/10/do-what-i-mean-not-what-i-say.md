@@ -2,7 +2,7 @@
 title: 'do what I mean, not what I say'
 date: '2004-10-17T09:47:51-07:00'
 status: publish
-permalink: /2004/10/do-what-i-mean-not-what-i-say
+exported_permalink: /2004/10/do-what-i-mean-not-what-i-say
 author: sarah
 excerpt: ''
 type: post

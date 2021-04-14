@@ -2,7 +2,7 @@
 title: 'minority report commercials'
 date: '2009-02-15T08:11:56-08:00'
 status: publish
-permalink: /2009/02/minority-report-commercials
+exported_permalink: /2009/02/minority-report-commercials
 author: sarah
 excerpt: ''
 type: post

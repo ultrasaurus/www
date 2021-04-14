@@ -2,7 +2,7 @@
 title: 'role models'
 date: '2005-05-29T18:45:20-07:00'
 status: publish
-permalink: /2005/05/role-models
+exported_permalink: /2005/05/role-models
 author: sarah
 excerpt: ''
 type: post

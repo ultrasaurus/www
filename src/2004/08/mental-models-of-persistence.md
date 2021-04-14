@@ -2,7 +2,7 @@
 title: 'mental models of persistence'
 date: '2004-08-03T09:04:15-07:00'
 status: publish
-permalink: /2004/08/mental-models-of-persistence
+exported_permalink: /2004/08/mental-models-of-persistence
 author: sarah
 excerpt: ''
 type: post

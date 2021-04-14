@@ -2,7 +2,7 @@
 title: 'simple web services with rails'
 date: '2009-06-21T10:05:23-07:00'
 status: publish
-permalink: /2009/06/simple-web-services-with-rails
+exported_permalink: /2009/06/simple-web-services-with-rails
 author: sarah
 excerpt: ''
 type: post

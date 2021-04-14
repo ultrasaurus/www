@@ -2,7 +2,7 @@
 title: 'video game play: danger or not?'
 date: '2008-06-30T00:23:09-07:00'
 status: publish
-permalink: /2008/06/video-game-play-danger-or-not
+exported_permalink: /2008/06/video-game-play-danger-or-not
 author: sarah
 excerpt: ''
 type: post

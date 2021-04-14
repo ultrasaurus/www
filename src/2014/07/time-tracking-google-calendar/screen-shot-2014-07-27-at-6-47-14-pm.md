@@ -2,7 +2,7 @@
 title: 'Screen Shot 2014-07-27 at 6.47.14 PM'
 date: '2014-07-27T18:48:02-07:00'
 status: publish
-permalink: /2014/07/time-tracking-google-calendar/screen-shot-2014-07-27-at-6-47-14-pm
+exported_permalink: /2014/07/time-tracking-google-calendar/screen-shot-2014-07-27-at-6-47-14-pm
 author: sarah
 excerpt: ''
 type: attachment

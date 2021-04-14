@@ -2,7 +2,7 @@
 title: 'meevee video browser'
 date: '2007-11-05T18:42:26-08:00'
 status: publish
-permalink: /2007/11/meevee-video-browser
+exported_permalink: /2007/11/meevee-video-browser
 author: sarah
 excerpt: ''
 type: post

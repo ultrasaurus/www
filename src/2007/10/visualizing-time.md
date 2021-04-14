@@ -2,7 +2,7 @@
 title: 'visualizing time'
 date: '2007-10-23T21:24:22-07:00'
 status: publish
-permalink: /2007/10/visualizing-time
+exported_permalink: /2007/10/visualizing-time
 author: sarah
 excerpt: ''
 type: post

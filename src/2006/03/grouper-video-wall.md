@@ -2,7 +2,7 @@
 title: 'Grouper Video Wall'
 date: '2006-03-26T11:47:47-08:00'
 status: publish
-permalink: /2006/03/grouper-video-wall
+exported_permalink: /2006/03/grouper-video-wall
 author: sarah
 excerpt: ''
 type: post

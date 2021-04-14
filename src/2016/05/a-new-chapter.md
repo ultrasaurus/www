@@ -2,7 +2,7 @@
 title: 'a new chapter'
 date: '2016-05-29T12:51:00-07:00'
 status: publish
-permalink: /2016/05/a-new-chapter
+exported_permalink: /2016/05/a-new-chapter
 author: sarah
 excerpt: ''
 type: post

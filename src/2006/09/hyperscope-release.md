@@ -2,7 +2,7 @@
 title: 'HyperScope release'
 date: '2006-09-05T10:06:34-07:00'
 status: publish
-permalink: /2006/09/hyperscope-release
+exported_permalink: /2006/09/hyperscope-release
 author: sarah
 excerpt: ''
 type: post

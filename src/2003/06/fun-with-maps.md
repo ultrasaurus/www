@@ -2,7 +2,7 @@
 title: 'fun with maps'
 date: '2003-06-01T17:44:13-07:00'
 status: publish
-permalink: /2003/06/fun-with-maps
+exported_permalink: /2003/06/fun-with-maps
 author: sarah
 excerpt: ''
 type: post

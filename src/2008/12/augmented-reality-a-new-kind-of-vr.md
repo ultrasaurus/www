@@ -2,7 +2,7 @@
 title: 'augmented reality: a new kind of VR'
 date: '2008-12-01T08:18:00-08:00'
 status: publish
-permalink: /2008/12/augmented-reality-a-new-kind-of-vr
+exported_permalink: /2008/12/augmented-reality-a-new-kind-of-vr
 author: sarah
 excerpt: ''
 type: post

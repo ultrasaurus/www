@@ -2,7 +2,7 @@
 title: 'linguistic profiling'
 date: '2005-08-20T09:27:54-07:00'
 status: publish
-permalink: /2005/08/linguistic-profiling
+exported_permalink: /2005/08/linguistic-profiling
 author: sarah
 excerpt: ''
 type: post

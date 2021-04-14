@@ -2,7 +2,7 @@
 title: 'what does it take to create an epic win?'
 date: '2015-10-09T18:26:55-07:00'
 status: publish
-permalink: /2015/10/what-does-it-take-to-create-an-epic-win
+exported_permalink: /2015/10/what-does-it-take-to-create-an-epic-win
 author: sarah
 excerpt: ''
 type: post

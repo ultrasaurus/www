@@ -2,7 +2,7 @@
 title: 'Trust your DNA'
 date: '2007-07-07T13:39:52-07:00'
 status: publish
-permalink: /2007/07/trust-your-dna
+exported_permalink: /2007/07/trust-your-dna
 author: sarah
 excerpt: ''
 type: post

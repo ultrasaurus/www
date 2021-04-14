@@ -2,7 +2,7 @@
 title: 'information foraging'
 date: '2003-09-05T19:26:54-07:00'
 status: publish
-permalink: /2003/09/information-foraging
+exported_permalink: /2003/09/information-foraging
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'lean startup methodology'
 date: '2010-04-22T07:49:22-07:00'
 status: publish
-permalink: /2010/04/lean-startup-methodology
+exported_permalink: /2010/04/lean-startup-methodology
 author: sarah
 excerpt: ''
 type: post

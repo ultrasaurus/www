@@ -2,7 +2,7 @@
 title: 'make stuff, be nice'
 date: '2014-01-01T13:06:42-08:00'
 status: publish
-permalink: /2014/01/things-remember-2014
+exported_permalink: /2014/01/things-remember-2014
 author: sarah
 excerpt: ''
 type: post

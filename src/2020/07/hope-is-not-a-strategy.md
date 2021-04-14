@@ -2,7 +2,7 @@
 title: 'hope is not a strategy'
 date: '2020-07-04T03:46:13-07:00'
 status: publish
-permalink: /2020/07/hope-is-not-a-strategy
+exported_permalink: /2020/07/hope-is-not-a-strategy
 author: sarah
 excerpt: ''
 type: post

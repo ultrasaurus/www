@@ -2,7 +2,7 @@
 title: 'Laszlo app development'
 date: '2003-08-04T19:02:51-07:00'
 status: publish
-permalink: /2003/08/laszlo-app-development
+exported_permalink: /2003/08/laszlo-app-development
 author: sarah
 excerpt: ''
 type: post

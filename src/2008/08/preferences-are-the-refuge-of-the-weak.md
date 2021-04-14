@@ -2,7 +2,7 @@
 title: 'preferences are the refuge of the weak'
 date: '2008-08-03T10:44:49-07:00'
 status: publish
-permalink: /2008/08/preferences-are-the-refuge-of-the-weak
+exported_permalink: /2008/08/preferences-are-the-refuge-of-the-weak
 author: sarah
 excerpt: ''
 type: post

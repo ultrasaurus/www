@@ -2,7 +2,7 @@
 title: ''
 date: '2018-02-12T05:09:16-08:00'
 status: publish
-permalink: /2018/02/to-be-recognized/bessie-blount-griffen-google-knowledge-card
+exported_permalink: /2018/02/to-be-recognized/bessie-blount-griffen-google-knowledge-card
 author: sarah
 excerpt: ''
 type: attachment

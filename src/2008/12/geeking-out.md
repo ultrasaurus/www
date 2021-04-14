@@ -2,7 +2,7 @@
 title: 'geeking out'
 date: '2008-12-14T09:01:43-08:00'
 status: publish
-permalink: /2008/12/geeking-out
+exported_permalink: /2008/12/geeking-out
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'something new about goats'
 date: '2009-03-16T07:17:33-07:00'
 status: publish
-permalink: /2009/03/something-new-about-goats
+exported_permalink: /2009/03/something-new-about-goats
 author: sarah
 excerpt: ''
 type: post

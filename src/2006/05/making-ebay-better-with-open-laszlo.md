@@ -2,7 +2,7 @@
 title: 'Making eBay Better with Open Laszlo'
 date: '2006-05-24T19:50:11-07:00'
 status: publish
-permalink: /2006/05/making-ebay-better-with-open-laszlo
+exported_permalink: /2006/05/making-ebay-better-with-open-laszlo
 author: sarah
 excerpt: ''
 type: post

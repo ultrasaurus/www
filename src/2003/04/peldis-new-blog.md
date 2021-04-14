@@ -2,7 +2,7 @@
 title: 'Peldi&#8217;s new blog'
 date: '2003-04-29T05:49:36-07:00'
 status: publish
-permalink: /2003/04/peldis-new-blog
+exported_permalink: /2003/04/peldis-new-blog
 author: sarah
 excerpt: ''
 type: post

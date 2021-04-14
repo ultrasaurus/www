@@ -2,7 +2,7 @@
 title: 'becoming a technical leader'
 date: '2016-02-22T11:37:24-08:00'
 status: publish
-permalink: /2016/02/becoming-a-technical-leader
+exported_permalink: /2016/02/becoming-a-technical-leader
 author: sarah
 excerpt: ''
 type: post

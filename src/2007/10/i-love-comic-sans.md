@@ -2,7 +2,7 @@
 title: 'i love comic sans'
 date: '2007-10-28T19:13:19-07:00'
 status: publish
-permalink: /2007/10/i-love-comic-sans
+exported_permalink: /2007/10/i-love-comic-sans
 author: sarah
 excerpt: ''
 type: post

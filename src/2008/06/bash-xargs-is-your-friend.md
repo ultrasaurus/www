@@ -2,7 +2,7 @@
 title: 'bash: xargs is your friend'
 date: '2008-06-14T12:17:18-07:00'
 status: publish
-permalink: /2008/06/bash-xargs-is-your-friend
+exported_permalink: /2008/06/bash-xargs-is-your-friend
 author: sarah
 excerpt: ''
 type: post

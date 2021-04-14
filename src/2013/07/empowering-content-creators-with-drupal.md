@@ -2,7 +2,7 @@
 title: 'empowering content creators with drupal'
 date: '2013-07-27T05:59:16-07:00'
 status: publish
-permalink: /2013/07/empowering-content-creators-with-drupal
+exported_permalink: /2013/07/empowering-content-creators-with-drupal
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'high resolution, dynamic displays invade elevators'
 date: '2009-02-18T19:58:51-08:00'
 status: publish
-permalink: /2009/02/high-resolution-dynamic-displays-invade-elevators
+exported_permalink: /2009/02/high-resolution-dynamic-displays-invade-elevators
 author: sarah
 excerpt: ''
 type: post

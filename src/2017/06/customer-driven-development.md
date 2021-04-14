@@ -2,7 +2,7 @@
 title: 'customer-driven development'
 date: '2017-06-19T06:08:36-07:00'
 status: publish
-permalink: /2017/06/customer-driven-development
+exported_permalink: /2017/06/customer-driven-development
 author: sarah
 excerpt: ''
 type: post

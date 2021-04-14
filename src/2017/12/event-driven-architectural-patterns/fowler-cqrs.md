@@ -2,7 +2,7 @@
 title: fowler-cqrs
 date: '2017-12-30T16:37:54-08:00'
 status: publish
-permalink: /2017/12/event-driven-architectural-patterns/fowler-cqrs
+exported_permalink: /2017/12/event-driven-architectural-patterns/fowler-cqrs
 author: sarah
 excerpt: ''
 type: attachment

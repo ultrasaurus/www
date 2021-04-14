@@ -2,7 +2,7 @@
 title: 'gas station error UI'
 date: '2007-10-20T14:38:10-07:00'
 status: publish
-permalink: /2007/10/gas-station-error-ui
+exported_permalink: /2007/10/gas-station-error-ui
 author: sarah
 excerpt: ''
 type: post

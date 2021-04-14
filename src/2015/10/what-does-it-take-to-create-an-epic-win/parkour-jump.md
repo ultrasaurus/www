@@ -2,7 +2,7 @@
 title: parkour-jump
 date: '2015-10-09T17:58:56-07:00'
 status: publish
-permalink: /2015/10/what-does-it-take-to-create-an-epic-win/parkour-jump
+exported_permalink: /2015/10/what-does-it-take-to-create-an-epic-win/parkour-jump
 author: sarah
 excerpt: ''
 type: attachment

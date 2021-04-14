@@ -2,7 +2,7 @@
 title: 'sudden spike in evolution?'
 date: '2006-10-06T20:31:25-07:00'
 status: publish
-permalink: /2006/10/sudden-spike-in-evolution
+exported_permalink: /2006/10/sudden-spike-in-evolution
 author: sarah
 excerpt: ''
 type: post

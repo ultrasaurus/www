@@ -2,7 +2,7 @@
 title: 'moveabletype 4 and dealing with comment spam'
 date: '2008-05-04T18:25:47-07:00'
 status: publish
-permalink: /2008/05/moveabletype-4-and-dealing-with-comment-spam
+exported_permalink: /2008/05/moveabletype-4-and-dealing-with-comment-spam
 author: sarah
 excerpt: ''
 type: post

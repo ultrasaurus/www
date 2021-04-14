@@ -2,7 +2,7 @@
 title: 'what is big data?'
 date: '2013-12-27T10:15:42-08:00'
 status: publish
-permalink: /2013/12/big-data
+exported_permalink: /2013/12/big-data
 author: sarah
 excerpt: ''
 type: post

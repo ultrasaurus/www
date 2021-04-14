@@ -2,7 +2,7 @@
 title: 'd3.js experiments in the console'
 date: '2012-03-30T12:39:44-07:00'
 status: publish
-permalink: /2012/03/d3-js-experiments-in-the-console
+exported_permalink: /2012/03/d3-js-experiments-in-the-console
 author: sarah
 excerpt: ''
 type: post

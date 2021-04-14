@@ -2,7 +2,7 @@
 title: 'rails 4 twitter omniauth with mongodb'
 date: '2013-10-19T19:41:18-07:00'
 status: publish
-permalink: /2013/10/rails-4-twitter-omniauth-with-mongodb
+exported_permalink: /2013/10/rails-4-twitter-omniauth-with-mongodb
 author: sarah
 excerpt: ''
 type: post

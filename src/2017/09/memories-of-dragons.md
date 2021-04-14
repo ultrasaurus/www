@@ -2,7 +2,7 @@
 title: 'memories of dragons'
 date: '2017-09-23T08:52:20-07:00'
 status: publish
-permalink: /2017/09/memories-of-dragons
+exported_permalink: /2017/09/memories-of-dragons
 author: sarah
 excerpt: ''
 type: post

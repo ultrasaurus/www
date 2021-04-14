@@ -2,7 +2,7 @@
 title: 'quick videos with stupeflix'
 date: '2009-05-08T05:04:39-07:00'
 status: publish
-permalink: /2009/05/quick-videos-with-stupeflix
+exported_permalink: /2009/05/quick-videos-with-stupeflix
 author: sarah
 excerpt: ''
 type: post

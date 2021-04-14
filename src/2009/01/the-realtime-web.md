@@ -2,7 +2,7 @@
 title: 'the realtime web'
 date: '2009-01-04T09:36:23-08:00'
 status: publish
-permalink: /2009/01/the-realtime-web
+exported_permalink: /2009/01/the-realtime-web
 author: sarah
 excerpt: ''
 type: post

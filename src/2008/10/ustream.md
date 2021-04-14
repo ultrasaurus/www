@@ -2,7 +2,7 @@
 title: ustream
 date: '2008-10-11T18:31:34-07:00'
 status: publish
-permalink: /2008/10/ustream
+exported_permalink: /2008/10/ustream
 author: sarah
 excerpt: ''
 type: post

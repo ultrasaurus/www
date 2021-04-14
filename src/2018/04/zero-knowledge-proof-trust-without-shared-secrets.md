@@ -2,7 +2,7 @@
 title: 'zero-knowledge proof: trust without shared secrets'
 date: '2018-04-07T10:52:58-07:00'
 status: publish
-permalink: /2018/04/zero-knowledge-proof-trust-without-shared-secrets
+exported_permalink: /2018/04/zero-knowledge-proof-trust-without-shared-secrets
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'open source in the public schools'
 date: '2013-06-22T16:06:03-07:00'
 status: publish
-permalink: /2013/06/open-source-in-the-public-schools
+exported_permalink: /2013/06/open-source-in-the-public-schools
 author: sarah
 excerpt: ''
 type: post

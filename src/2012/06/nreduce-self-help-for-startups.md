@@ -2,7 +2,7 @@
 title: 'nreduce: self help for startups?'
 date: '2012-06-03T08:05:41-07:00'
 status: publish
-permalink: /2012/06/nreduce-self-help-for-startups
+exported_permalink: /2012/06/nreduce-self-help-for-startups
 author: sarah
 excerpt: ''
 type: post

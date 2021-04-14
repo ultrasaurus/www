@@ -2,7 +2,7 @@
 title: 'regular expressions are cool'
 date: '2007-08-23T13:29:45-07:00'
 status: publish
-permalink: /2007/08/regular-expressions-are-cool
+exported_permalink: /2007/08/regular-expressions-are-cool
 author: sarah
 excerpt: ''
 type: post

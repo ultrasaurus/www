@@ -2,7 +2,7 @@
 title: 'writing more, learning more'
 date: '2005-03-12T19:59:34-08:00'
 status: publish
-permalink: /2005/03/writing-more-learning-more
+exported_permalink: /2005/03/writing-more-learning-more
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'upgrading pie from rails 3.0 to 3.1'
 date: '2011-09-13T08:23:59-07:00'
 status: publish
-permalink: /2011/09/upgrading-pie-from-rails-3-0-to-3-1
+exported_permalink: /2011/09/upgrading-pie-from-rails-3-0-to-3-1
 author: sarah
 excerpt: ''
 type: post

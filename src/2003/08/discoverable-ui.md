@@ -2,7 +2,7 @@
 title: 'discoverable ui'
 date: '2003-08-18T20:06:19-07:00'
 status: publish
-permalink: /2003/08/discoverable-ui
+exported_permalink: /2003/08/discoverable-ui
 author: sarah
 excerpt: ''
 type: post

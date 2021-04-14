@@ -2,7 +2,7 @@
 title: 'your audience is part of your UX'
 date: '2013-08-29T18:52:07-07:00'
 status: publish
-permalink: /2013/08/your-audience-is-part-of-your-ux
+exported_permalink: /2013/08/your-audience-is-part-of-your-ux
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'language transformation'
 date: '2004-06-14T23:07:46-07:00'
 status: publish
-permalink: /2004/06/language-transformation
+exported_permalink: /2004/06/language-transformation
 author: sarah
 excerpt: ''
 type: post

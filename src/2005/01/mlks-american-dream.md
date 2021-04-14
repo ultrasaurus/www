@@ -2,7 +2,7 @@
 title: 'MLK&#8217;s American Dream'
 date: '2005-01-17T15:38:07-08:00'
 status: publish
-permalink: /2005/01/mlks-american-dream
+exported_permalink: /2005/01/mlks-american-dream
 author: sarah
 excerpt: ''
 type: post

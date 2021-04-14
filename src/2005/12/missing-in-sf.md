@@ -2,7 +2,7 @@
 title: 'Missing in SF'
 date: '2005-12-01T10:54:16-08:00'
 status: publish
-permalink: /2005/12/missing-in-sf
+exported_permalink: /2005/12/missing-in-sf
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'cross-platform mobile frameworks and the future'
 date: '2011-05-21T22:47:13-07:00'
 status: publish
-permalink: /2011/05/cross-platform-mobile-frameworks-and-the-future
+exported_permalink: /2011/05/cross-platform-mobile-frameworks-and-the-future
 author: sarah
 excerpt: ''
 type: post

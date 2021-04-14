@@ -2,7 +2,7 @@
 title: blogher
 date: '2005-07-24T23:24:54-07:00'
 status: publish
-permalink: /2005/07/blogher
+exported_permalink: /2005/07/blogher
 author: sarah
 excerpt: ''
 type: post

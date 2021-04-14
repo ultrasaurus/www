@@ -2,7 +2,7 @@
 title: 'diversity in open source'
 date: '2009-08-06T05:44:27-07:00'
 status: publish
-permalink: /2009/08/diversity-in-open-source
+exported_permalink: /2009/08/diversity-in-open-source
 author: sarah
 excerpt: ''
 type: post

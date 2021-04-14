@@ -2,7 +2,7 @@
 title: 'new technical trends which have no future'
 date: '2008-02-04T05:10:11-08:00'
 status: publish
-permalink: /2008/02/new-technical-trends-which-have-no-future
+exported_permalink: /2008/02/new-technical-trends-which-have-no-future
 author: sarah
 excerpt: ''
 type: post

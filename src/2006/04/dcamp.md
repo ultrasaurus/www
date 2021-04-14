@@ -2,7 +2,7 @@
 title: DCamp
 date: '2006-04-11T18:06:10-07:00'
 status: publish
-permalink: /2006/04/dcamp
+exported_permalink: /2006/04/dcamp
 author: sarah
 excerpt: ''
 type: post

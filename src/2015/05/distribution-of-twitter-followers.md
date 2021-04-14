@@ -2,7 +2,7 @@
 title: 'distribution of twitter followers'
 date: '2015-05-10T23:53:12-07:00'
 status: publish
-permalink: /2015/05/distribution-of-twitter-followers
+exported_permalink: /2015/05/distribution-of-twitter-followers
 author: sarah
 excerpt: ''
 type: post

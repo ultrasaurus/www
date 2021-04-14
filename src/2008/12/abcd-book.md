@@ -2,7 +2,7 @@
 title: 'ABCD book'
 date: '2008-12-25T18:26:48-08:00'
 status: publish
-permalink: /2008/12/abcd-book
+exported_permalink: /2008/12/abcd-book
 author: sarah
 excerpt: ''
 type: post

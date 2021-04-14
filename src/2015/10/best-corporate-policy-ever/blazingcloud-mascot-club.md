@@ -2,7 +2,7 @@
 title: blazingcloud-mascot-club
 date: '2015-10-08T05:08:15-07:00'
 status: publish
-permalink: /2015/10/best-corporate-policy-ever/blazingcloud-mascot-club
+exported_permalink: /2015/10/best-corporate-policy-ever/blazingcloud-mascot-club
 author: sarah
 excerpt: ''
 type: attachment

@@ -2,7 +2,7 @@
 title: 'when reality is broken, change the rules'
 date: '2019-04-28T06:14:33-07:00'
 status: publish
-permalink: /2019/04/when-reality-is-broken-change-the-rules
+exported_permalink: /2019/04/when-reality-is-broken-change-the-rules
 author: sarah
 excerpt: ''
 type: post

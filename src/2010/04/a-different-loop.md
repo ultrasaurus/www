@@ -2,7 +2,7 @@
 title: 'a different loop'
 date: '2010-04-25T09:21:25-07:00'
 status: publish
-permalink: /2010/04/a-different-loop
+exported_permalink: /2010/04/a-different-loop
 author: sarah
 excerpt: ''
 type: post

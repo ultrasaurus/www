@@ -2,7 +2,7 @@
 title: 'origins of the smithsonian'
 date: '2013-12-21T11:49:47-08:00'
 status: publish
-permalink: /2013/12/origins-smithsonian
+exported_permalink: /2013/12/origins-smithsonian
 author: sarah
 excerpt: ''
 type: post

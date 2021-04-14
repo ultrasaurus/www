@@ -2,7 +2,7 @@
 title: 'IntelliJ&#8230;not just for Java'
 date: '2003-04-15T19:45:06-07:00'
 status: publish
-permalink: /2003/04/intellijnot-just-for-java
+exported_permalink: /2003/04/intellijnot-just-for-java
 author: sarah
 excerpt: ''
 type: post

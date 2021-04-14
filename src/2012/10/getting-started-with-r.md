@@ -2,7 +2,7 @@
 title: 'getting started with r'
 date: '2012-10-23T01:02:12-07:00'
 status: publish
-permalink: /2012/10/getting-started-with-r
+exported_permalink: /2012/10/getting-started-with-r
 author: sarah
 excerpt: ''
 type: post

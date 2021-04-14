@@ -2,7 +2,7 @@
 title: 'the future of mobile software engineering'
 date: '2010-10-31T06:13:11-07:00'
 status: publish
-permalink: /2010/10/the-future-of-mobile-software-engineering
+exported_permalink: /2010/10/the-future-of-mobile-software-engineering
 author: sarah
 excerpt: ''
 type: post

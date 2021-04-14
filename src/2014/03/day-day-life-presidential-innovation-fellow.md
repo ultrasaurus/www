@@ -2,7 +2,7 @@
 title: 'day-to-day life of a presidential innovation fellow'
 date: '2014-03-24T06:18:57-07:00'
 status: publish
-permalink: /2014/03/day-day-life-presidential-innovation-fellow
+exported_permalink: /2014/03/day-day-life-presidential-innovation-fellow
 author: sarah
 excerpt: ''
 type: post

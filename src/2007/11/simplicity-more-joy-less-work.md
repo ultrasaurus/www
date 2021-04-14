@@ -2,7 +2,7 @@
 title: 'simplicity = more joy + less work'
 date: '2007-11-05T06:44:05-08:00'
 status: publish
-permalink: /2007/11/simplicity-more-joy-less-work
+exported_permalink: /2007/11/simplicity-more-joy-less-work
 author: sarah
 excerpt: ''
 type: post

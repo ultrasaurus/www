@@ -2,7 +2,7 @@
 title: 'smart meet beautiful'
 date: '2007-07-23T07:41:45-07:00'
 status: publish
-permalink: /2007/07/smart-meet-beautiful
+exported_permalink: /2007/07/smart-meet-beautiful
 author: sarah
 excerpt: ''
 type: post

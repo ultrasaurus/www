@@ -2,7 +2,7 @@
 title: 'marking the passage of time'
 date: '2003-12-24T13:06:13-08:00'
 status: publish
-permalink: /2003/12/marking-the-passage-of-time
+exported_permalink: /2003/12/marking-the-passage-of-time
 author: sarah
 excerpt: ''
 type: post

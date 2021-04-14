@@ -2,7 +2,7 @@
 title: 'gratuitous animation vs. meaningful motion'
 date: '2011-07-17T20:22:29-07:00'
 status: publish
-permalink: /2011/07/gratuitous-animation-vs-meaningful-motion
+exported_permalink: /2011/07/gratuitous-animation-vs-meaningful-motion
 author: sarah
 excerpt: ''
 type: post

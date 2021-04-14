@@ -2,7 +2,7 @@
 title: 'truths about starting a company'
 date: '2011-06-29T07:29:37-07:00'
 status: publish
-permalink: /2011/06/truths-about-starting-a-company
+exported_permalink: /2011/06/truths-about-starting-a-company
 author: sarah
 excerpt: ''
 type: post

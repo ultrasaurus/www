@@ -2,7 +2,7 @@
 title: 'optimize world-class vortals'
 date: '2003-04-19T16:47:51-07:00'
 status: publish
-permalink: /2003/04/optimize-world-class-vortals
+exported_permalink: /2003/04/optimize-world-class-vortals
 author: sarah
 excerpt: ''
 type: post

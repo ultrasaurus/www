@@ -2,7 +2,7 @@
 title: 'draw your own comics'
 date: '2006-01-10T04:59:20-08:00'
 status: publish
-permalink: /2006/01/draw-your-own-comics
+exported_permalink: /2006/01/draw-your-own-comics
 author: sarah
 excerpt: ''
 type: post

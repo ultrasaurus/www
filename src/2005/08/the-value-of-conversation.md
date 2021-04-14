@@ -2,7 +2,7 @@
 title: 'the value of conversation'
 date: '2005-08-14T11:03:45-07:00'
 status: publish
-permalink: /2005/08/the-value-of-conversation
+exported_permalink: /2005/08/the-value-of-conversation
 author: sarah
 excerpt: ''
 type: post

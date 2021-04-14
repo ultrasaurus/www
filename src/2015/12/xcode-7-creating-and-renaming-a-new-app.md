@@ -2,7 +2,7 @@
 title: 'xcode 7: creating and renaming a new app'
 date: '2015-12-22T06:52:40-08:00'
 status: publish
-permalink: /2015/12/xcode-7-creating-and-renaming-a-new-app
+exported_permalink: /2015/12/xcode-7-creating-and-renaming-a-new-app
 author: sarah
 excerpt: ''
 type: post

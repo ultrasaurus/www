@@ -2,7 +2,7 @@
 title: 'Japanese geek speak'
 date: '2009-12-26T13:34:20-08:00'
 status: publish
-permalink: /2009/12/japanese-geek-speak
+exported_permalink: /2009/12/japanese-geek-speak
 author: sarah
 excerpt: ''
 type: post

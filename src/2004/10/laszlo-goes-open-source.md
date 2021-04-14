@@ -2,7 +2,7 @@
 title: 'Laszlo goes open source'
 date: '2004-10-05T06:01:18-07:00'
 status: publish
-permalink: /2004/10/laszlo-goes-open-source
+exported_permalink: /2004/10/laszlo-goes-open-source
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'sf ruby meetup'
 date: '2009-04-03T20:00:49-07:00'
 status: publish
-permalink: /2009/04/sf-ruby-meetup
+exported_permalink: /2009/04/sf-ruby-meetup
 author: sarah
 excerpt: ''
 type: post

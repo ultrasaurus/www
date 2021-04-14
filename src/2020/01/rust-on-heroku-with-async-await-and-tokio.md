@@ -2,7 +2,7 @@
 title: 'rust on heroku with async/await and tokio'
 date: '2020-01-04T20:27:25-08:00'
 status: publish
-permalink: /2020/01/rust-on-heroku-with-async-await-and-tokio
+exported_permalink: /2020/01/rust-on-heroku-with-async-await-and-tokio
 author: sarah
 excerpt: ''
 type: post

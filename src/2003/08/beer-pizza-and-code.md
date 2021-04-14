@@ -2,7 +2,7 @@
 title: 'beer, pizza, and code'
 date: '2003-08-07T20:21:23-07:00'
 status: publish
-permalink: /2003/08/beer-pizza-and-code
+exported_permalink: /2003/08/beer-pizza-and-code
 author: sarah
 excerpt: ''
 type: post

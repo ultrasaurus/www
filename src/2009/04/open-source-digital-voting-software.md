@@ -2,7 +2,7 @@
 title: 'open source digital voting software'
 date: '2009-04-19T06:40:09-07:00'
 status: publish
-permalink: /2009/04/open-source-digital-voting-software
+exported_permalink: /2009/04/open-source-digital-voting-software
 author: sarah
 excerpt: ''
 type: post

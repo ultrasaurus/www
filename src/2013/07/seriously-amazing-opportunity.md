@@ -2,7 +2,7 @@
 title: 'seriously amazing opportunity'
 date: '2013-07-01T04:34:08-07:00'
 status: publish
-permalink: /2013/07/seriously-amazing-opportunity
+exported_permalink: /2013/07/seriously-amazing-opportunity
 author: sarah
 excerpt: ''
 type: post

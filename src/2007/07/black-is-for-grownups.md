@@ -2,7 +2,7 @@
 title: 'black is for grownups'
 date: '2007-07-25T06:10:04-07:00'
 status: publish
-permalink: /2007/07/black-is-for-grownups
+exported_permalink: /2007/07/black-is-for-grownups
 author: sarah
 excerpt: ''
 type: post

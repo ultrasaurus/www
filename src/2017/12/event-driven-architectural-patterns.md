@@ -2,7 +2,7 @@
 title: 'event-driven architectural patterns'
 date: '2017-12-30T16:50:03-08:00'
 status: publish
-permalink: /2017/12/event-driven-architectural-patterns
+exported_permalink: /2017/12/event-driven-architectural-patterns
 author: sarah
 excerpt: ''
 type: post

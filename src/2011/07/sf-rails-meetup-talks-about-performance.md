@@ -2,7 +2,7 @@
 title: 'sf rails meetup talks about performance'
 date: '2011-07-02T11:15:02-07:00'
 status: publish
-permalink: /2011/07/sf-rails-meetup-talks-about-performance
+exported_permalink: /2011/07/sf-rails-meetup-talks-about-performance
 author: sarah
 excerpt: ''
 type: post

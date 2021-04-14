@@ -2,7 +2,7 @@
 title: 'why women aren&#8217;t interested in computer science'
 date: '2007-04-23T06:34:21-07:00'
 status: publish
-permalink: /2007/04/why-women-arent-interested-in-computer-science
+exported_permalink: /2007/04/why-women-arent-interested-in-computer-science
 author: sarah
 excerpt: ''
 type: post

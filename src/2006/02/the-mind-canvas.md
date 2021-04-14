@@ -2,7 +2,7 @@
 title: 'The Mind Canvas'
 date: '2006-02-23T10:03:25-08:00'
 status: publish
-permalink: /2006/02/the-mind-canvas
+exported_permalink: /2006/02/the-mind-canvas
 author: sarah
 excerpt: ''
 type: post

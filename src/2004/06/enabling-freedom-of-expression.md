@@ -2,7 +2,7 @@
 title: 'enabling freedom of expression'
 date: '2004-06-02T09:44:57-07:00'
 status: publish
-permalink: /2004/06/enabling-freedom-of-expression
+exported_permalink: /2004/06/enabling-freedom-of-expression
 author: sarah
 excerpt: ''
 type: post

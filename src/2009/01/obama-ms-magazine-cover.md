@@ -2,7 +2,7 @@
 title: 'obama Ms. magazine cover'
 date: '2009-01-27T19:41:38-08:00'
 status: publish
-permalink: /2009/01/obama-ms-magazine-cover
+exported_permalink: /2009/01/obama-ms-magazine-cover
 author: sarah
 excerpt: ''
 type: post

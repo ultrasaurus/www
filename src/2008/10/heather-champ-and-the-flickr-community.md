@@ -2,7 +2,7 @@
 title: 'heather champ and the flickr community'
 date: '2008-10-18T09:43:06-07:00'
 status: publish
-permalink: /2008/10/heather-champ-and-the-flickr-community
+exported_permalink: /2008/10/heather-champ-and-the-flickr-community
 author: sarah
 excerpt: ''
 type: post

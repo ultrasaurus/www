@@ -2,7 +2,7 @@
 title: 'mobile phones are the new computer'
 date: '2009-11-01T21:13:49-08:00'
 status: publish
-permalink: /2009/11/mobile-phones-are-the-new-computer
+exported_permalink: /2009/11/mobile-phones-are-the-new-computer
 author: sarah
 excerpt: ''
 type: post

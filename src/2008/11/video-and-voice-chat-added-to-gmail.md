@@ -2,7 +2,7 @@
 title: 'video and voice chat added to gmail'
 date: '2008-11-14T06:24:07-08:00'
 status: publish
-permalink: /2008/11/video-and-voice-chat-added-to-gmail
+exported_permalink: /2008/11/video-and-voice-chat-added-to-gmail
 author: sarah
 excerpt: ''
 type: post

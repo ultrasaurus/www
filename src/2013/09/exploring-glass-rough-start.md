@@ -2,7 +2,7 @@
 title: 'exploring glass, rough start'
 date: '2013-09-06T20:29:44-07:00'
 status: publish
-permalink: /2013/09/exploring-glass-rough-start
+exported_permalink: /2013/09/exploring-glass-rough-start
 author: sarah
 excerpt: ''
 type: post

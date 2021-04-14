@@ -2,7 +2,7 @@
 title: 'the truth about mobile development'
 date: '2010-02-21T08:56:26-08:00'
 status: publish
-permalink: /2010/02/the-truth-about-mobile-development
+exported_permalink: /2010/02/the-truth-about-mobile-development
 author: sarah
 excerpt: ''
 type: post

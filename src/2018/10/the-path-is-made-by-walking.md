@@ -2,7 +2,7 @@
 title: 'the path is made by walking'
 date: '2018-10-14T15:24:17-07:00'
 status: publish
-permalink: /2018/10/the-path-is-made-by-walking
+exported_permalink: /2018/10/the-path-is-made-by-walking
 author: sarah
 excerpt: ''
 type: post

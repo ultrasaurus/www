@@ -2,7 +2,7 @@
 title: 'ruby to find latitude/longitude for a list of cities'
 date: '2014-01-19T19:08:17-08:00'
 status: publish
-permalink: /2014/01/ruby-find-latitudelongitude-list-cities
+exported_permalink: /2014/01/ruby-find-latitudelongitude-list-cities
 author: sarah
 excerpt: ''
 type: post

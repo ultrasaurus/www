@@ -2,7 +2,7 @@
 title: 'civic hacking at the smithsonian'
 date: '2013-11-30T11:26:26-08:00'
 status: publish
-permalink: /2013/11/civic-hacking-with-smithsonian-american-art
+exported_permalink: /2013/11/civic-hacking-with-smithsonian-american-art
 author: sarah
 excerpt: ''
 type: post

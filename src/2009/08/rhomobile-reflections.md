@@ -2,7 +2,7 @@
 title: 'rhomobile reflections'
 date: '2009-08-15T09:31:12-07:00'
 status: publish
-permalink: /2009/08/rhomobile-reflections
+exported_permalink: /2009/08/rhomobile-reflections
 author: sarah
 excerpt: ''
 type: post

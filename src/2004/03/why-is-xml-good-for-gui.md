@@ -2,7 +2,7 @@
 title: 'why is XML good for GUI?'
 date: '2004-03-25T16:55:51-08:00'
 status: publish
-permalink: /2004/03/why-is-xml-good-for-gui
+exported_permalink: /2004/03/why-is-xml-good-for-gui
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'who cares if languages become extinct?'
 date: '2009-02-19T18:49:31-08:00'
 status: publish
-permalink: /2009/02/who-cares-if-languages-become-extinct
+exported_permalink: /2009/02/who-cares-if-languages-become-extinct
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'beyond desktop ui'
 date: '2003-07-27T13:07:46-07:00'
 status: publish
-permalink: /2003/07/beyond-desktop-ui
+exported_permalink: /2003/07/beyond-desktop-ui
 author: sarah
 excerpt: ''
 type: post

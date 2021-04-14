@@ -2,7 +2,7 @@
 title: 'minority report interface'
 date: '2007-07-06T21:00:22-07:00'
 status: publish
-permalink: /2007/07/minority-report-interface
+exported_permalink: /2007/07/minority-report-interface
 author: sarah
 excerpt: ''
 type: post

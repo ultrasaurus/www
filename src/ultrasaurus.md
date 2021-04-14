@@ -2,11 +2,12 @@
 title: 'What is an ultrasaurus?'
 date: '2013-11-23T02:21:43-08:00'
 status: publish
-permalink: /ultrasaurus
+exported_permalink: /ultrasaurus
 author: maiki
 excerpt: ''
 type: page
 id: 4690
+tags: ['page']
 ---
 There are more dinosaurs today than there were when I was a kid. A new species is discovered about every six weeks. In the tradition of paleontology, whoever finds the bones for the first time names the new species. This may sound easy, but often, the dinosaur must be named when only a single bone has been found, and the name is only valid if the bone really does not belong to an already known dinosaur and if the name is original.
 

@@ -2,7 +2,7 @@
 title: 'Feminist hip-hop blogger'
 date: '2005-08-05T08:40:07-07:00'
 status: publish
-permalink: /2005/08/feminist-hip-hop-blogger
+exported_permalink: /2005/08/feminist-hip-hop-blogger
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'learning scala with graphics'
 date: '2019-05-16T22:34:53-07:00'
 status: publish
-permalink: /2019/05/learning-scala-with-graphics
+exported_permalink: /2019/05/learning-scala-with-graphics
 author: sarah
 excerpt: ''
 type: post

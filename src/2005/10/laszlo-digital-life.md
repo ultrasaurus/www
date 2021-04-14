@@ -2,7 +2,7 @@
 title: 'Laszlo Digital Life'
 date: '2005-10-30T07:21:01-08:00'
 status: publish
-permalink: /2005/10/laszlo-digital-life
+exported_permalink: /2005/10/laszlo-digital-life
 author: sarah
 excerpt: ''
 type: post

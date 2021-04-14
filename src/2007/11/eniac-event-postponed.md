@@ -2,7 +2,7 @@
 title: 'ENIAC event postponed'
 date: '2007-11-07T07:50:54-08:00'
 status: publish
-permalink: /2007/11/eniac-event-postponed
+exported_permalink: /2007/11/eniac-event-postponed
 author: sarah
 excerpt: ''
 type: post

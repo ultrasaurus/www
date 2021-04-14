@@ -2,7 +2,7 @@
 title: 'animated napkin sketch'
 date: '2003-06-08T11:12:26-07:00'
 status: publish
-permalink: /2003/06/animated-napkin-sketch
+exported_permalink: /2003/06/animated-napkin-sketch
 author: sarah
 excerpt: ''
 type: post

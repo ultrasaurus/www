@@ -2,7 +2,7 @@
 title: 'small gesture, big impact'
 date: '2013-02-14T07:29:33-08:00'
 status: publish
-permalink: /2013/02/small-gesture-big-impact
+exported_permalink: /2013/02/small-gesture-big-impact
 author: sarah
 excerpt: ''
 type: post

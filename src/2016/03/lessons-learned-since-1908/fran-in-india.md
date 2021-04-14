@@ -2,7 +2,7 @@
 title: fran-in-india
 date: '2016-03-29T17:26:49-07:00'
 status: publish
-permalink: /2016/03/lessons-learned-since-1908/fran-in-india
+exported_permalink: /2016/03/lessons-learned-since-1908/fran-in-india
 author: sarah
 excerpt: ''
 type: attachment

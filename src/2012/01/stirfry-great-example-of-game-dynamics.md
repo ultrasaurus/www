@@ -2,7 +2,7 @@
 title: 'stir fry: great example of game dynamics'
 date: '2012-01-30T09:49:39-08:00'
 status: publish
-permalink: /2012/01/stirfry-great-example-of-game-dynamics
+exported_permalink: /2012/01/stirfry-great-example-of-game-dynamics
 author: sarah
 excerpt: ''
 type: post

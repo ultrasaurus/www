@@ -2,7 +2,7 @@
 title: design-brainstorm
 date: '2015-01-05T21:07:39-08:00'
 status: publish
-permalink: /2015/01/approach-design-session/design-brainstorm
+exported_permalink: /2015/01/approach-design-session/design-brainstorm
 author: sarah
 excerpt: ''
 type: attachment

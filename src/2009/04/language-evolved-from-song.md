@@ -2,7 +2,7 @@
 title: 'language evolved from song?'
 date: '2009-04-04T08:59:18-07:00'
 status: publish
-permalink: /2009/04/language-evolved-from-song
+exported_permalink: /2009/04/language-evolved-from-song
 author: sarah
 excerpt: ''
 type: post

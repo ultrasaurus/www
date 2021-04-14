@@ -2,7 +2,7 @@
 title: 'nut loaf with red pepper sauce'
 date: '2019-11-29T18:27:36-08:00'
 status: publish
-permalink: /2019/11/nut-loaf-with-red-pepper-sauce
+exported_permalink: /2019/11/nut-loaf-with-red-pepper-sauce
 author: sarah
 excerpt: ''
 type: post

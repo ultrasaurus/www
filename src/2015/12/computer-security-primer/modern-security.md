@@ -2,7 +2,7 @@
 title: modern-security
 date: '2015-12-31T15:07:45-08:00'
 status: publish
-permalink: /2015/12/computer-security-primer/modern-security
+exported_permalink: /2015/12/computer-security-primer/modern-security
 author: sarah
 excerpt: ''
 type: attachment

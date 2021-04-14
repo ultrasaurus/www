@@ -2,7 +2,7 @@
 title: 'rails 3.0 and rake 0.9.2'
 date: '2011-09-11T08:37:17-07:00'
 status: publish
-permalink: /2011/09/rails-3-0-and-rake-0-9-2
+exported_permalink: /2011/09/rails-3-0-and-rake-0-9-2
 author: sarah
 excerpt: ''
 type: post

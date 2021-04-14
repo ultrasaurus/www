@@ -2,7 +2,7 @@
 title: gs1-pricing
 date: '2014-12-08T17:26:50-08:00'
 status: publish
-permalink: /2014/12/upc-ean-number-for-amazon-fulfillment/gs1-pricing
+exported_permalink: /2014/12/upc-ean-number-for-amazon-fulfillment/gs1-pricing
 author: sarah
 excerpt: ''
 type: attachment

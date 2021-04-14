@@ -2,7 +2,7 @@
 title: 'adventures in technicolor'
 date: '2008-07-06T03:44:36-07:00'
 status: publish
-permalink: /2008/07/adventures-in-technicolor
+exported_permalink: /2008/07/adventures-in-technicolor
 author: sarah
 excerpt: ''
 type: post

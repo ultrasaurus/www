@@ -2,7 +2,7 @@
 title: 'Why Flash Lost but HTML Still Sucks'
 date: '2011-11-09T16:42:51-08:00'
 status: publish
-permalink: /2011/11/why-flash-lost-but-html-still-sucks
+exported_permalink: /2011/11/why-flash-lost-but-html-still-sucks
 author: sarah
 excerpt: ''
 type: post

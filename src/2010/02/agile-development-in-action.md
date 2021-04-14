@@ -2,7 +2,7 @@
 title: 'agile development in action'
 date: '2010-02-06T09:41:30-08:00'
 status: publish
-permalink: /2010/02/agile-development-in-action
+exported_permalink: /2010/02/agile-development-in-action
 author: sarah
 excerpt: ''
 type: post

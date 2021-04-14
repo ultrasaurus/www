@@ -2,7 +2,7 @@
 title: 'xo collaborative features'
 date: '2008-05-26T09:14:30-07:00'
 status: publish
-permalink: /2008/05/xo-collaborative-features
+exported_permalink: /2008/05/xo-collaborative-features
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'transparency wins'
 date: '2016-01-03T12:17:08-08:00'
 status: publish
-permalink: /2016/01/transparency-wins
+exported_permalink: /2016/01/transparency-wins
 author: sarah
 excerpt: ''
 type: post

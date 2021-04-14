@@ -2,7 +2,7 @@
 title: 'the people don&#8217;t want war'
 date: '2003-03-21T01:52:51-08:00'
 status: publish
-permalink: /2003/03/the-people-dont-want-war
+exported_permalink: /2003/03/the-people-dont-want-war
 author: sarah
 excerpt: ''
 type: post

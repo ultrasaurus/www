@@ -2,7 +2,7 @@
 title: 'Victor Laszlo Moholy'
 date: '2004-01-29T20:44:05-08:00'
 status: publish
-permalink: /2004/01/victor-laszlo-moholy
+exported_permalink: /2004/01/victor-laszlo-moholy
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'anonymous programming'
 date: '2003-11-16T22:45:23-08:00'
 status: publish
-permalink: /2003/11/anonymous-programming
+exported_permalink: /2003/11/anonymous-programming
 author: sarah
 excerpt: ''
 type: post

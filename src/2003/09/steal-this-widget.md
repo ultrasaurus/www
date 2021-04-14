@@ -2,7 +2,7 @@
 title: 'steal this widget'
 date: '2003-09-18T17:32:59-07:00'
 status: publish
-permalink: /2003/09/steal-this-widget
+exported_permalink: /2003/09/steal-this-widget
 author: sarah
 excerpt: ''
 type: post

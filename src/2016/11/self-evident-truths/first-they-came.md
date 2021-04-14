@@ -2,7 +2,7 @@
 title: first-they-came
 date: '2016-11-15T08:09:22-08:00'
 status: publish
-permalink: /2016/11/self-evident-truths/first-they-came
+exported_permalink: /2016/11/self-evident-truths/first-they-came
 author: sarah
 excerpt: ''
 type: attachment

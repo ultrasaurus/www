@@ -2,7 +2,7 @@
 title: 'remembering doug engelbart'
 date: '2013-07-06T05:57:27-07:00'
 status: publish
-permalink: /2013/07/remembering-doug-engelbart
+exported_permalink: /2013/07/remembering-doug-engelbart
 author: sarah
 excerpt: ''
 type: post

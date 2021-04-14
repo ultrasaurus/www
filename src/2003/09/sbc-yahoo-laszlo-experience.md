@@ -2,7 +2,7 @@
 title: 'SBC Yahoo Laszlo experience'
 date: '2003-09-16T21:27:31-07:00'
 status: publish
-permalink: /2003/09/sbc-yahoo-laszlo-experience
+exported_permalink: /2003/09/sbc-yahoo-laszlo-experience
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'checkboxes: legacy or innovation?'
 date: '2008-07-23T19:44:22-07:00'
 status: publish
-permalink: /2008/07/checkboxes-legacy-or-innovation
+exported_permalink: /2008/07/checkboxes-legacy-or-innovation
 author: sarah
 excerpt: ''
 type: post

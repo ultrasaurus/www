@@ -2,7 +2,7 @@
 title: 'javascript and ruby classes'
 date: '2011-05-12T21:42:23-07:00'
 status: publish
-permalink: /2011/05/javascript-and-ruby-classes
+exported_permalink: /2011/05/javascript-and-ruby-classes
 author: sarah
 excerpt: ''
 type: post

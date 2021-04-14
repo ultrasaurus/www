@@ -2,7 +2,7 @@
 title: '[rust] what&#8217;s a tuple variant?'
 date: '2019-10-13T08:17:17-07:00'
 status: publish
-permalink: /2019/10/rust-whats-a-tuple-variant
+exported_permalink: /2019/10/rust-whats-a-tuple-variant
 author: sarah
 excerpt: ''
 type: post

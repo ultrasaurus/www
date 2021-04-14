@@ -2,7 +2,7 @@
 title: 'anyone up for a squishee?'
 date: '2007-08-02T21:10:54-07:00'
 status: publish
-permalink: /2007/08/anyone-up-for-a-squishee
+exported_permalink: /2007/08/anyone-up-for-a-squishee
 author: sarah
 excerpt: ''
 type: post

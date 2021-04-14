@@ -2,7 +2,7 @@
 title: 'the danger of a single story'
 date: '2017-01-08T16:06:27-08:00'
 status: publish
-permalink: /2017/01/danger-single-story
+exported_permalink: /2017/01/danger-single-story
 author: sarah
 excerpt: ''
 type: post

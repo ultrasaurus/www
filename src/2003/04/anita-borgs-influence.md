@@ -2,7 +2,7 @@
 title: 'Anita Borg&#8217;s influence&#8230;'
 date: '2003-04-14T01:19:27-07:00'
 status: publish
-permalink: /2003/04/anita-borgs-influence
+exported_permalink: /2003/04/anita-borgs-influence
 author: sarah
 excerpt: ''
 type: post

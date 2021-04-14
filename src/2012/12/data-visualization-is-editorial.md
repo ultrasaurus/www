@@ -2,7 +2,7 @@
 title: 'data visualization is editorial'
 date: '2012-12-27T10:55:42-08:00'
 status: publish
-permalink: /2012/12/data-visualization-is-editorial
+exported_permalink: /2012/12/data-visualization-is-editorial
 author: sarah
 excerpt: ''
 type: post

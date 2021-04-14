@@ -2,7 +2,7 @@
 title: 'firebase auth migration from rails/devise'
 date: '2019-02-02T17:53:44-08:00'
 status: publish
-permalink: /2019/02/firebase-auth-migration-from-rails-and-devise
+exported_permalink: /2019/02/firebase-auth-migration-from-rails-and-devise
 author: sarah
 excerpt: ''
 type: post

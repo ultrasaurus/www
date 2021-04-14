@@ -2,7 +2,7 @@
 title: 'full text search on app engine'
 date: '2010-06-10T07:03:00-07:00'
 status: publish
-permalink: /2010/06/full-text-search-on-app-engine
+exported_permalink: /2010/06/full-text-search-on-app-engine
 author: sarah
 excerpt: ''
 type: post

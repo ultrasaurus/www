@@ -2,7 +2,7 @@
 title: what-works
 date: '2015-12-31T15:07:53-08:00'
 status: publish
-permalink: /2015/12/computer-security-primer/what-works
+exported_permalink: /2015/12/computer-security-primer/what-works
 author: sarah
 excerpt: ''
 type: attachment

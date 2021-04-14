@@ -2,7 +2,7 @@
 title: 'hacker love songs'
 date: '2009-08-04T04:30:38-07:00'
 status: publish
-permalink: /2009/08/hacker-love-songs
+exported_permalink: /2009/08/hacker-love-songs
 author: sarah
 excerpt: ''
 type: post

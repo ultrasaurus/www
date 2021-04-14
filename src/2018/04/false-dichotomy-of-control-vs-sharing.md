@@ -2,7 +2,7 @@
 title: 'false dichotomy of control vs sharing'
 date: '2018-04-20T05:57:24-07:00'
 status: publish
-permalink: /2018/04/false-dichotomy-of-control-vs-sharing
+exported_permalink: /2018/04/false-dichotomy-of-control-vs-sharing
 author: sarah
 excerpt: ''
 type: post

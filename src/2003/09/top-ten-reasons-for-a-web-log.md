@@ -2,7 +2,7 @@
 title: 'top ten reasons for a web log'
 date: '2003-09-02T20:25:09-07:00'
 status: publish
-permalink: /2003/09/top-ten-reasons-for-a-web-log
+exported_permalink: /2003/09/top-ten-reasons-for-a-web-log
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'how to approach a design session'
 date: '2015-01-05T21:41:46-08:00'
 status: publish
-permalink: /2015/01/approach-design-session
+exported_permalink: /2015/01/approach-design-session
 author: sarah
 excerpt: ''
 type: post

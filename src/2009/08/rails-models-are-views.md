@@ -2,7 +2,7 @@
 title: 'rails models are views?'
 date: '2009-08-31T19:07:10-07:00'
 status: publish
-permalink: /2009/08/rails-models-are-views
+exported_permalink: /2009/08/rails-models-are-views
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'serverless patterns at google i/o 2017'
 date: '2017-05-20T10:01:27-07:00'
 status: publish
-permalink: /2017/05/serverless-patterns-at-google-io-2017
+exported_permalink: /2017/05/serverless-patterns-at-google-io-2017
 author: sarah
 excerpt: ''
 type: post

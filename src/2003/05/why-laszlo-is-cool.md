@@ -2,7 +2,7 @@
 title: 'why Laszlo is cool'
 date: '2003-05-05T19:40:49-07:00'
 status: publish
-permalink: /2003/05/why-laszlo-is-cool
+exported_permalink: /2003/05/why-laszlo-is-cool
 author: sarah
 excerpt: ''
 type: post

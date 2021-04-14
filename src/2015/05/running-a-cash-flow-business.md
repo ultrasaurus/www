@@ -2,7 +2,7 @@
 title: 'running a cash flow business'
 date: '2015-05-04T19:31:39-07:00'
 status: publish
-permalink: /2015/05/running-a-cash-flow-business
+exported_permalink: /2015/05/running-a-cash-flow-business
 author: sarah
 excerpt: ''
 type: post

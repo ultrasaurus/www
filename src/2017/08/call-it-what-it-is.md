@@ -2,7 +2,7 @@
 title: 'call it what it is'
 date: '2017-08-13T15:05:44-07:00'
 status: publish
-permalink: /2017/08/call-it-what-it-is
+exported_permalink: /2017/08/call-it-what-it-is
 author: sarah
 excerpt: ''
 type: post

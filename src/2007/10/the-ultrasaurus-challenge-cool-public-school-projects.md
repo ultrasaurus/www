@@ -2,7 +2,7 @@
 title: 'the ultrasaurus challenge: cool public school projects'
 date: '2007-10-21T18:15:55-07:00'
 status: publish
-permalink: /2007/10/the-ultrasaurus-challenge-cool-public-school-projects
+exported_permalink: /2007/10/the-ultrasaurus-challenge-cool-public-school-projects
 author: sarah
 excerpt: ''
 type: post

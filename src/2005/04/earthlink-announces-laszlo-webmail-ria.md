@@ -2,7 +2,7 @@
 title: 'EarthLink announces Laszlo Webmail RIA'
 date: '2005-04-17T20:08:01-07:00'
 status: publish
-permalink: /2005/04/earthlink-announces-laszlo-webmail-ria
+exported_permalink: /2005/04/earthlink-announces-laszlo-webmail-ria
 author: sarah
 excerpt: ''
 type: post

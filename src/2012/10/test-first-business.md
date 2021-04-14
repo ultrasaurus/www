@@ -2,7 +2,7 @@
 title: 'test-first business'
 date: '2012-10-06T11:04:07-07:00'
 status: publish
-permalink: /2012/10/test-first-business
+exported_permalink: /2012/10/test-first-business
 author: sarah
 excerpt: ''
 type: post

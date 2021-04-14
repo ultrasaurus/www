@@ -2,7 +2,7 @@
 title: frances-bragg
 date: '2016-03-29T17:26:45-07:00'
 status: publish
-permalink: /2016/03/lessons-learned-since-1908/frances-bragg
+exported_permalink: /2016/03/lessons-learned-since-1908/frances-bragg
 author: sarah
 excerpt: ''
 type: attachment

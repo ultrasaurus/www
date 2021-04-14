@@ -2,7 +2,7 @@
 title: 'easy drupal install on mac osx lion'
 date: '2013-07-08T13:18:20-07:00'
 status: publish
-permalink: /2013/07/easy-drupal-install-on-mac-osx-lion
+exported_permalink: /2013/07/easy-drupal-install-on-mac-osx-lion
 author: sarah
 excerpt: ''
 type: post

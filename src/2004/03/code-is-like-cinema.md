@@ -2,7 +2,7 @@
 title: 'code is like cinema?'
 date: '2004-03-14T10:44:29-08:00'
 status: publish
-permalink: /2004/03/code-is-like-cinema
+exported_permalink: /2004/03/code-is-like-cinema
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'change is inevitable'
 date: '2004-10-07T21:47:37-07:00'
 status: publish
-permalink: /2004/10/change-is-inevitable
+exported_permalink: /2004/10/change-is-inevitable
 author: sarah
 excerpt: ''
 type: post

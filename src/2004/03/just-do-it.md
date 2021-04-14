@@ -2,7 +2,7 @@
 title: 'just do it'
 date: '2004-03-13T07:44:41-08:00'
 status: publish
-permalink: /2004/03/just-do-it
+exported_permalink: /2004/03/just-do-it
 author: sarah
 excerpt: ''
 type: post

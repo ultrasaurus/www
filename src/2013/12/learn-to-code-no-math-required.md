@@ -2,7 +2,7 @@
 title: 'learn to code: no math required'
 date: '2013-12-11T03:12:21-08:00'
 status: publish
-permalink: /2013/12/learn-to-code-no-math-required
+exported_permalink: /2013/12/learn-to-code-no-math-required
 author: sarah
 excerpt: ''
 type: post

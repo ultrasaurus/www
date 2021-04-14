@@ -2,7 +2,7 @@
 title: 'tweets by year and by month'
 date: '2015-01-03T11:56:00-08:00'
 status: publish
-permalink: /2015/01/tweets-year-month
+exported_permalink: /2015/01/tweets-year-month
 author: sarah
 excerpt: ''
 type: post

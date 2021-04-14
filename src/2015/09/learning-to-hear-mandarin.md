@@ -2,7 +2,7 @@
 title: 'Learning to hear Mandarin'
 date: '2015-09-09T01:41:57-07:00'
 status: publish
-permalink: /2015/09/learning-to-hear-mandarin
+exported_permalink: /2015/09/learning-to-hear-mandarin
 author: sarah
 excerpt: ''
 type: post

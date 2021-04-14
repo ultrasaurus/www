@@ -2,7 +2,7 @@
 title: 'the value of consistency'
 date: '2005-09-20T23:35:49-07:00'
 status: publish
-permalink: /2005/09/the-value-of-consistency
+exported_permalink: /2005/09/the-value-of-consistency
 author: sarah
 excerpt: ''
 type: post

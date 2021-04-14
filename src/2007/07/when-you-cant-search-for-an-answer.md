@@ -2,7 +2,7 @@
 title: 'when you can&#8217;t search for an answer&#8230;'
 date: '2007-07-05T08:09:04-07:00'
 status: publish
-permalink: /2007/07/when-you-cant-search-for-an-answer
+exported_permalink: /2007/07/when-you-cant-search-for-an-answer
 author: sarah
 excerpt: ''
 type: post

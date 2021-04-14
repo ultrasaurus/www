@@ -2,7 +2,7 @@
 title: 'lucene/solr meetup, july 28'
 date: '2010-07-30T20:34:43-07:00'
 status: publish
-permalink: /2010/07/lucenesolr-meetup-july-28
+exported_permalink: /2010/07/lucenesolr-meetup-july-28
 author: sarah
 excerpt: ''
 type: post

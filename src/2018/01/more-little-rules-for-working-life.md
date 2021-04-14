@@ -2,7 +2,7 @@
 title: 'more little rules for working life'
 date: '2018-01-14T11:35:38-08:00'
 status: publish
-permalink: /2018/01/more-little-rules-for-working-life
+exported_permalink: /2018/01/more-little-rules-for-working-life
 author: sarah
 excerpt: ''
 type: post

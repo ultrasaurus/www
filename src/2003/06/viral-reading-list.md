@@ -2,7 +2,7 @@
 title: 'viral reading list'
 date: '2003-06-22T10:41:03-07:00'
 status: publish
-permalink: /2003/06/viral-reading-list
+exported_permalink: /2003/06/viral-reading-list
 author: sarah
 excerpt: ''
 type: post

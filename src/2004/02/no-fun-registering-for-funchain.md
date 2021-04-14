@@ -2,7 +2,7 @@
 title: 'no fun registering for funchain'
 date: '2004-02-25T06:07:10-08:00'
 status: publish
-permalink: /2004/02/no-fun-registering-for-funchain
+exported_permalink: /2004/02/no-fun-registering-for-funchain
 author: sarah
 excerpt: ''
 type: post

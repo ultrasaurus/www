@@ -2,7 +2,7 @@
 title: 'dinosaurs that don&#8217;t pee?'
 date: '2008-01-06T09:48:31-08:00'
 status: publish
-permalink: /2008/01/dinosaurs-that-dont-pee
+exported_permalink: /2008/01/dinosaurs-that-dont-pee
 author: sarah
 excerpt: ''
 type: post

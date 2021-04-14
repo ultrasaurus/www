@@ -2,7 +2,7 @@
 title: 'sketching in air'
 date: '2008-05-10T19:29:02-07:00'
 status: publish
-permalink: /2008/05/sketching-in-air
+exported_permalink: /2008/05/sketching-in-air
 author: sarah
 excerpt: ''
 type: post

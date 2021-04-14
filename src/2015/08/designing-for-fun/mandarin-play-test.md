@@ -2,7 +2,7 @@
 title: mandarin-play-test
 date: '2015-08-16T17:03:34-07:00'
 status: publish
-permalink: /2015/08/designing-for-fun/mandarin-play-test
+exported_permalink: /2015/08/designing-for-fun/mandarin-play-test
 author: sarah
 excerpt: ''
 type: attachment

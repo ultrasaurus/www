@@ -2,7 +2,7 @@
 title: 'getting started with sailsjs'
 date: '2015-01-11T11:24:11-08:00'
 status: publish
-permalink: /2015/01/getting-started-sailsjs
+exported_permalink: /2015/01/getting-started-sailsjs
 author: sarah
 excerpt: ''
 type: post

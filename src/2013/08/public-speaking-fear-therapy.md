@@ -2,7 +2,7 @@
 title: 'public speaking: fear therapy'
 date: '2013-08-25T08:12:11-07:00'
 status: publish
-permalink: /2013/08/public-speaking-fear-therapy
+exported_permalink: /2013/08/public-speaking-fear-therapy
 author: sarah
 excerpt: ''
 type: post

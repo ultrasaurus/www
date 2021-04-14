@@ -2,7 +2,7 @@
 title: 'Glass Wall o&#8217; Sticky Notes'
 date: '2015-07-29T04:53:55-07:00'
 status: publish
-permalink: /2015/07/visual-management-whiteboard-culture/whiteboard-03
+exported_permalink: /2015/07/visual-management-whiteboard-culture/whiteboard-03
 author: sarah
 excerpt: ''
 type: attachment

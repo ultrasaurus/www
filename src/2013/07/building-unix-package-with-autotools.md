@@ -2,7 +2,7 @@
 title: 'building unix package with autotools'
 date: '2013-07-14T12:41:52-07:00'
 status: publish
-permalink: /2013/07/building-unix-package-with-autotools
+exported_permalink: /2013/07/building-unix-package-with-autotools
 author: sarah
 excerpt: ''
 type: post

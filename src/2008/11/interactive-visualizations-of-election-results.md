@@ -2,7 +2,7 @@
 title: 'interactive visualizations of election results'
 date: '2008-11-05T07:56:53-08:00'
 status: publish
-permalink: /2008/11/interactive-visualizations-of-election-results
+exported_permalink: /2008/11/interactive-visualizations-of-election-results
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'blogging is social'
 date: '2003-05-27T06:13:56-07:00'
 status: publish
-permalink: /2003/05/blogging-is-social
+exported_permalink: /2003/05/blogging-is-social
 author: sarah
 excerpt: ''
 type: post

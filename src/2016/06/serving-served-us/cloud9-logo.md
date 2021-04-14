@@ -2,7 +2,7 @@
 title: ''
 date: '2016-06-05T16:02:01-07:00'
 status: publish
-permalink: /2016/06/serving-served-us/cloud9-logo
+exported_permalink: /2016/06/serving-served-us/cloud9-logo
 author: sarah
 excerpt: 'Cloud9 IDE'
 type: attachment

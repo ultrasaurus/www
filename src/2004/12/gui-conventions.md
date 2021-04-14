@@ -2,7 +2,7 @@
 title: 'GUI conventions'
 date: '2004-12-26T14:15:08-08:00'
 status: publish
-permalink: /2004/12/gui-conventions
+exported_permalink: /2004/12/gui-conventions
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'extreme learning: overcoming the spacing effect'
 date: '2008-05-19T20:49:43-07:00'
 status: publish
-permalink: /2008/05/extreme-learning-overcoming-the-spacing-effect
+exported_permalink: /2008/05/extreme-learning-overcoming-the-spacing-effect
 author: sarah
 excerpt: ''
 type: post

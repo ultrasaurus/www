@@ -2,7 +2,7 @@
 title: 'XCode Single View Application'
 date: '2015-12-22T06:17:43-08:00'
 status: publish
-permalink: /2015/12/xcode-7-creating-and-renaming-a-new-app/screen-shot-2015-12-22-at-6-07-37-am
+exported_permalink: /2015/12/xcode-7-creating-and-renaming-a-new-app/screen-shot-2015-12-22-at-6-07-37-am
 author: sarah
 excerpt: 'Create a Single View Application'
 type: attachment

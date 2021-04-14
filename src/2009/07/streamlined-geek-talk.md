@@ -2,7 +2,7 @@
 title: 'streamlined geek talk'
 date: '2009-07-16T05:01:07-07:00'
 status: publish
-permalink: /2009/07/streamlined-geek-talk
+exported_permalink: /2009/07/streamlined-geek-talk
 author: sarah
 excerpt: ''
 type: post

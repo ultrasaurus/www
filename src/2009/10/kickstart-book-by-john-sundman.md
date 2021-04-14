@@ -2,7 +2,7 @@
 title: 'kickstart book by john sundman'
 date: '2009-10-31T07:15:47-07:00'
 status: publish
-permalink: /2009/10/kickstart-book-by-john-sundman
+exported_permalink: /2009/10/kickstart-book-by-john-sundman
 author: sarah
 excerpt: ''
 type: post

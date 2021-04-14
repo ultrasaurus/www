@@ -2,7 +2,7 @@
 title: 'puppylike accessibility'
 date: '2006-04-28T18:46:13-07:00'
 status: publish
-permalink: /2006/04/puppylike-accessibility
+exported_permalink: /2006/04/puppylike-accessibility
 author: sarah
 excerpt: ''
 type: post

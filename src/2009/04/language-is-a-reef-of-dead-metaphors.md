@@ -2,7 +2,7 @@
 title: 'language is a reef of dead metaphors'
 date: '2009-04-12T14:51:22-07:00'
 status: publish
-permalink: /2009/04/language-is-a-reef-of-dead-metaphors
+exported_permalink: /2009/04/language-is-a-reef-of-dead-metaphors
 author: sarah
 excerpt: ''
 type: post

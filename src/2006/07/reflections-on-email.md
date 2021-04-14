@@ -2,7 +2,7 @@
 title: 'reflections on email'
 date: '2006-07-21T07:02:48-07:00'
 status: publish
-permalink: /2006/07/reflections-on-email
+exported_permalink: /2006/07/reflections-on-email
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'Charles Babbage&#8217;s Difference Engine running today!'
 date: '2008-05-25T08:23:59-07:00'
 status: publish
-permalink: /2008/05/charles-babbages-difference-engine-running-today
+exported_permalink: /2008/05/charles-babbages-difference-engine-running-today
 author: sarah
 excerpt: ''
 type: post

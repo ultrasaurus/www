@@ -2,7 +2,7 @@
 title: 'on being an ally'
 date: '2015-01-19T19:52:29-08:00'
 status: publish
-permalink: /2015/01/on-being-an-ally
+exported_permalink: /2015/01/on-being-an-ally
 author: sarah
 excerpt: ''
 type: post

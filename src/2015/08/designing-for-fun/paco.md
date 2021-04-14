@@ -2,7 +2,7 @@
 title: 'PACo Producer Screenshot'
 date: '2015-08-16T17:38:56-07:00'
 status: publish
-permalink: /2015/08/designing-for-fun/paco
+exported_permalink: /2015/08/designing-for-fun/paco
 author: sarah
 excerpt: ''
 type: attachment

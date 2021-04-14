@@ -2,7 +2,7 @@
 title: 'La Quinta mapping application'
 date: '2004-05-08T20:22:27-07:00'
 status: publish
-permalink: /2004/05/la-quinta-mapping-application
+exported_permalink: /2004/05/la-quinta-mapping-application
 author: sarah
 excerpt: ''
 type: post

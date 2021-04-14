@@ -2,7 +2,7 @@
 title: 'memory safety: necessary, not sufficient'
 date: '2019-12-22T14:33:28-08:00'
 status: publish
-permalink: /2019/12/memory-safety-necessary-not-sufficient
+exported_permalink: /2019/12/memory-safety-necessary-not-sufficient
 author: sarah
 excerpt: ''
 type: post

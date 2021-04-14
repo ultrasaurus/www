@@ -2,7 +2,7 @@
 title: example.dot
 date: '2019-08-17T16:26:49-07:00'
 status: publish
-permalink: /2019/08/graph-in-rust-using-petgraph/example-dot
+exported_permalink: /2019/08/graph-in-rust-using-petgraph/example-dot
 author: sarah
 excerpt: ''
 type: attachment

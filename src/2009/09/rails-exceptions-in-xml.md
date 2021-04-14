@@ -2,7 +2,7 @@
 title: 'rails exceptions in xml'
 date: '2009-09-13T10:13:57-07:00'
 status: publish
-permalink: /2009/09/rails-exceptions-in-xml
+exported_permalink: /2009/09/rails-exceptions-in-xml
 author: sarah
 excerpt: ''
 type: post

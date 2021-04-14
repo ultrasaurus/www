@@ -2,7 +2,7 @@
 title: 'ClipShack: hot coffee dance'
 date: '2006-03-25T08:56:22-08:00'
 status: publish
-permalink: /2006/03/clipshack-hot-coffee-dance
+exported_permalink: /2006/03/clipshack-hot-coffee-dance
 author: sarah
 excerpt: ''
 type: post

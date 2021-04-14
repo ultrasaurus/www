@@ -2,7 +2,7 @@
 title: 'getting started with activescaffold'
 date: '2009-07-01T22:32:09-07:00'
 status: publish
-permalink: /2009/07/getting-started-with-activescaffold
+exported_permalink: /2009/07/getting-started-with-activescaffold
 author: sarah
 excerpt: ''
 type: post

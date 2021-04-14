@@ -2,7 +2,7 @@
 title: 'parrots and abstract thought'
 date: '2003-10-27T19:52:45-08:00'
 status: publish
-permalink: /2003/10/parrots-and-abstract-thought
+exported_permalink: /2003/10/parrots-and-abstract-thought
 author: sarah
 excerpt: ''
 type: post

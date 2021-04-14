@@ -2,7 +2,7 @@
 title: ''
 date: '2016-09-09T04:55:27-07:00'
 status: publish
-permalink: /2016/09/five-dysfunctions-team/healthy-team
+exported_permalink: /2016/09/five-dysfunctions-team/healthy-team
 author: sarah
 excerpt: 'Psychological Safety and Vulnerability, Healthy Conflict and Speaking Up, Shared Decisions with Buy In, Accountability supported by collaboration, Alignment of key results, shared goal and a shared understanding of reality'
 type: attachment

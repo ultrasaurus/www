@@ -2,7 +2,7 @@
 title: 'More Interaction Equals More Value'
 date: '2004-01-05T10:47:24-08:00'
 status: publish
-permalink: /2004/01/more-interaction-equals-more-value
+exported_permalink: /2004/01/more-interaction-equals-more-value
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'pink and princesses'
 date: '2011-07-16T18:27:44-07:00'
 status: publish
-permalink: /2011/07/pink-and-princesses
+exported_permalink: /2011/07/pink-and-princesses
 author: sarah
 excerpt: ''
 type: post

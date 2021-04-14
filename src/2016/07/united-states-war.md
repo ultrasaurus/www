@@ -2,7 +2,7 @@
 title: 'on the brink of war'
 date: '2016-07-06T23:33:04-07:00'
 status: publish
-permalink: /2016/07/united-states-war
+exported_permalink: /2016/07/united-states-war
 author: sarah
 excerpt: ''
 type: post

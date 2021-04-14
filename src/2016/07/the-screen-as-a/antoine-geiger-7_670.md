@@ -2,7 +2,7 @@
 title: ''
 date: '2016-07-09T04:16:06-07:00'
 status: publish
-permalink: /2016/07/the-screen-as-a/antoine-geiger-7_670
+exported_permalink: /2016/07/the-screen-as-a/antoine-geiger-7_670
 author: sarah
 excerpt: ''
 type: attachment

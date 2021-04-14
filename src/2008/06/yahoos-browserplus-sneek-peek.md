@@ -2,7 +2,7 @@
 title: 'Yahoo&#8217;s BrowserPlus sneek peek'
 date: '2008-06-07T20:12:10-07:00'
 status: publish
-permalink: /2008/06/yahoos-browserplus-sneek-peek
+exported_permalink: /2008/06/yahoos-browserplus-sneek-peek
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'diversity is a means not an end'
 date: '2012-12-15T09:47:51-08:00'
 status: publish
-permalink: /2012/12/diversity-is-a-means-not-an-end
+exported_permalink: /2012/12/diversity-is-a-means-not-an-end
 author: sarah
 excerpt: ''
 type: post

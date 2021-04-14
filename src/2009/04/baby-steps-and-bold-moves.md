@@ -2,7 +2,7 @@
 title: 'baby steps and bold moves'
 date: '2009-04-29T18:36:45-07:00'
 status: publish
-permalink: /2009/04/baby-steps-and-bold-moves
+exported_permalink: /2009/04/baby-steps-and-bold-moves
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'moving from svn to git'
 date: '2009-02-12T04:17:26-08:00'
 status: publish
-permalink: /2009/02/moving-from-svn-to-git
+exported_permalink: /2009/02/moving-from-svn-to-git
 author: sarah
 excerpt: ''
 type: post

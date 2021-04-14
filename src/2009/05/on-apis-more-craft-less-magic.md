@@ -2,7 +2,7 @@
 title: 'on APIs: more craft, less magic'
 date: '2009-05-06T09:00:00-07:00'
 status: publish
-permalink: /2009/05/on-apis-more-craft-less-magic
+exported_permalink: /2009/05/on-apis-more-craft-less-magic
 author: sarah
 excerpt: ''
 type: post

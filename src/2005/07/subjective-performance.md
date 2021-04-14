@@ -2,7 +2,7 @@
 title: 'subjective performance'
 date: '2005-07-03T14:50:27-07:00'
 status: publish
-permalink: /2005/07/subjective-performance
+exported_permalink: /2005/07/subjective-performance
 author: sarah
 excerpt: ''
 type: post

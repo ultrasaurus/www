@@ -2,7 +2,7 @@
 title: 'open source workshop'
 date: '2009-06-17T21:02:42-07:00'
 status: publish
-permalink: /2009/06/open-source-workshop
+exported_permalink: /2009/06/open-source-workshop
 author: sarah
 excerpt: ''
 type: post

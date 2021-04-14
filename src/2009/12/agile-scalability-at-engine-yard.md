@@ -2,7 +2,7 @@
 title: 'agile scalability at engine yard'
 date: '2009-12-13T11:46:41-08:00'
 status: publish
-permalink: /2009/12/agile-scalability-at-engine-yard
+exported_permalink: /2009/12/agile-scalability-at-engine-yard
 author: sarah
 excerpt: ''
 type: post

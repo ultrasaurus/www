@@ -2,7 +2,7 @@
 title: 'legacy testing with capybara/mechanize'
 date: '2011-02-15T23:11:00-08:00'
 status: publish
-permalink: /2011/02/legacy-testing-with-capybaramechanize
+exported_permalink: /2011/02/legacy-testing-with-capybaramechanize
 author: sarah
 excerpt: ''
 type: post

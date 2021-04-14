@@ -2,7 +2,7 @@
 title: 'js meetup, jon boutelle: Flash or Ajax?'
 date: '2008-06-06T05:50:26-07:00'
 status: publish
-permalink: /2008/06/js-meetup-jon-boutelle-flash-or-ajax
+exported_permalink: /2008/06/js-meetup-jon-boutelle-flash-or-ajax
 author: sarah
 excerpt: ''
 type: post

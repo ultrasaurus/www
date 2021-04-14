@@ -2,7 +2,7 @@
 title: 'いろは (iroha) hiragana basics'
 date: '2014-10-26T16:18:47-07:00'
 status: publish
-permalink: /2014/10/iroha-hiragana-basics
+exported_permalink: /2014/10/iroha-hiragana-basics
 author: sarah
 excerpt: ''
 type: post

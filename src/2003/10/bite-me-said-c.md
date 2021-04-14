@@ -2,7 +2,7 @@
 title: 'Bite me! said C'
 date: '2003-10-10T21:32:43-07:00'
 status: publish
-permalink: /2003/10/bite-me-said-c
+exported_permalink: /2003/10/bite-me-said-c
 author: sarah
 excerpt: ''
 type: post

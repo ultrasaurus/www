@@ -2,7 +2,7 @@
 title: 'understanding engineers'
 date: '2007-07-19T00:53:46-07:00'
 status: publish
-permalink: /2007/07/understanding-engineers
+exported_permalink: /2007/07/understanding-engineers
 author: sarah
 excerpt: ''
 type: post

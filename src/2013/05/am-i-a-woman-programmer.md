@@ -2,7 +2,7 @@
 title: 'am I a woman programmer?'
 date: '2013-05-21T21:10:36-07:00'
 status: publish
-permalink: /2013/05/am-i-a-woman-programmer
+exported_permalink: /2013/05/am-i-a-woman-programmer
 author: sarah
 excerpt: ''
 type: post

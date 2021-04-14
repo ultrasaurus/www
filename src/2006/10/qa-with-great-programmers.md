@@ -2,7 +2,7 @@
 title: 'Q&amp;A with great programmers'
 date: '2006-10-13T02:27:41-07:00'
 status: publish
-permalink: /2006/10/qa-with-great-programmers
+exported_permalink: /2006/10/qa-with-great-programmers
 author: sarah
 excerpt: ''
 type: post

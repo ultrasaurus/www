@@ -2,7 +2,7 @@
 title: 'reverse search engine'
 date: '2003-09-28T21:07:53-07:00'
 status: publish
-permalink: /2003/09/reverse-search-engine
+exported_permalink: /2003/09/reverse-search-engine
 author: sarah
 excerpt: ''
 type: post

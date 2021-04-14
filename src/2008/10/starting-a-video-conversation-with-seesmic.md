@@ -2,7 +2,7 @@
 title: 'starting a video conversation with seesmic'
 date: '2008-10-29T06:49:05-07:00'
 status: publish
-permalink: /2008/10/starting-a-video-conversation-with-seesmic
+exported_permalink: /2008/10/starting-a-video-conversation-with-seesmic
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'graph in rust using petgraph'
 date: '2019-08-17T16:36:04-07:00'
 status: publish
-permalink: /2019/08/graph-in-rust-using-petgraph
+exported_permalink: /2019/08/graph-in-rust-using-petgraph
 author: sarah
 excerpt: ''
 type: post

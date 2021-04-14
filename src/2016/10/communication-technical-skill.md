@@ -2,7 +2,7 @@
 title: 'communication is a technical skill'
 date: '2016-10-04T20:57:54-07:00'
 status: publish
-permalink: /2016/10/communication-technical-skill
+exported_permalink: /2016/10/communication-technical-skill
 author: sarah
 excerpt: ''
 type: post

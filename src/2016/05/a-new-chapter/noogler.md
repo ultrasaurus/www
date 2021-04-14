@@ -2,7 +2,7 @@
 title: noogler
 date: '2016-05-29T12:29:45-07:00'
 status: publish
-permalink: /2016/05/a-new-chapter/noogler
+exported_permalink: /2016/05/a-new-chapter/noogler
 author: sarah
 excerpt: ''
 type: attachment

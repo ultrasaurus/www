@@ -2,7 +2,7 @@
 title: 'play is an essential curriculum'
 date: '2009-02-25T23:22:50-08:00'
 status: publish
-permalink: /2009/02/play-is-an-essential-curriculum
+exported_permalink: /2009/02/play-is-an-essential-curriculum
 author: sarah
 excerpt: ''
 type: post

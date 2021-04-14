@@ -2,7 +2,7 @@
 title: 'js meetup: keyboard shortcuts'
 date: '2008-06-06T06:20:52-07:00'
 status: publish
-permalink: /2008/06/js-meetup-keyboard-shortcuts
+exported_permalink: /2008/06/js-meetup-keyboard-shortcuts
 author: sarah
 excerpt: ''
 type: post

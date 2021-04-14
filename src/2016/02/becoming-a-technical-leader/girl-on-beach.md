@@ -2,7 +2,7 @@
 title: 'from Kids on a Beach'
 date: '2016-02-23T00:24:31-08:00'
 status: publish
-permalink: /2016/02/becoming-a-technical-leader/girl-on-beach
+exported_permalink: /2016/02/becoming-a-technical-leader/girl-on-beach
 author: sarah
 excerpt: ''
 type: attachment

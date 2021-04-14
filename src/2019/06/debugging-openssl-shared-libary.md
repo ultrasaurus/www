@@ -2,7 +2,7 @@
 title: 'debugging openssl shared libary'
 date: '2019-06-17T21:49:03-07:00'
 status: publish
-permalink: /2019/06/debugging-openssl-shared-libary
+exported_permalink: /2019/06/debugging-openssl-shared-libary
 author: sarah
 excerpt: ''
 type: post

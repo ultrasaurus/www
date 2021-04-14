@@ -2,11 +2,12 @@
 title: About
 date: '2009-01-09T05:21:00-08:00'
 status: publish
-permalink: /about
+exported_permalink: /about
 author: sarah
 excerpt: ''
 type: page
 id: 578
+tags: ['page']
 ---
 Sarah Allen is a technical leader and open source contributor. She founded Blazing Cloud, a mobile development firm, and Bridge Foundry, a diversity and inclusion nonprofit. She previously served as Presidential Innovation Fellow in the Obama Administration at the Smithsonian Institution, and was an early engineer on After Effects, Shockwave, and Flash video. She also led infrastructure teams on Google Cloud Platform and Firebase working on server-side events and security policy.
 

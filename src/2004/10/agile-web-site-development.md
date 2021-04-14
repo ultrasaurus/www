@@ -2,7 +2,7 @@
 title: 'agile web site development'
 date: '2004-10-06T07:30:16-07:00'
 status: publish
-permalink: /2004/10/agile-web-site-development
+exported_permalink: /2004/10/agile-web-site-development
 author: sarah
 excerpt: ''
 type: post

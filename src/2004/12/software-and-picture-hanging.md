@@ -2,7 +2,7 @@
 title: 'Software and Picture Hanging'
 date: '2004-12-05T11:02:37-08:00'
 status: publish
-permalink: /2004/12/software-and-picture-hanging
+exported_permalink: /2004/12/software-and-picture-hanging
 author: sarah
 excerpt: ''
 type: post

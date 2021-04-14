@@ -2,7 +2,7 @@
 title: 'tangible time tracking with legos'
 date: '2008-09-01T08:48:41-07:00'
 status: publish
-permalink: /2008/09/tangible-time-tracking-with-legos
+exported_permalink: /2008/09/tangible-time-tracking-with-legos
 author: sarah
 excerpt: ''
 type: post

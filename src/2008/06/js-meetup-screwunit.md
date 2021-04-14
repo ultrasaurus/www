@@ -2,7 +2,7 @@
 title: 'js meetup: ScrewUnit'
 date: '2008-06-06T06:27:22-07:00'
 status: publish
-permalink: /2008/06/js-meetup-screwunit
+exported_permalink: /2008/06/js-meetup-screwunit
 author: sarah
 excerpt: ''
 type: post

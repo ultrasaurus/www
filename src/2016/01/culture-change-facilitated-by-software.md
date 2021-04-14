@@ -2,7 +2,7 @@
 title: 'culture change facilitated by software'
 date: '2016-01-18T23:14:28-08:00'
 status: publish
-permalink: /2016/01/culture-change-facilitated-by-software
+exported_permalink: /2016/01/culture-change-facilitated-by-software
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'on localization and translation'
 date: '2011-07-04T09:22:25-07:00'
 status: publish
-permalink: /2011/07/on-localization-and-translation
+exported_permalink: /2011/07/on-localization-and-translation
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: 'meaningful to humans and computers alike'
 date: '2008-05-03T19:16:09-07:00'
 status: publish
-permalink: /2008/05/meaningful-to-humans-and-computers-alike
+exported_permalink: /2008/05/meaningful-to-humans-and-computers-alike
 author: sarah
 excerpt: ''
 type: post

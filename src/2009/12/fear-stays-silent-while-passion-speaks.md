@@ -2,7 +2,7 @@
 title: 'fear stays silent while passion speaks'
 date: '2009-12-27T23:43:12-08:00'
 status: publish
-permalink: /2009/12/fear-stays-silent-while-passion-speaks
+exported_permalink: /2009/12/fear-stays-silent-while-passion-speaks
 author: sarah
 excerpt: ''
 type: post

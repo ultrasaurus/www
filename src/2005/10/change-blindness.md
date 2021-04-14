@@ -2,7 +2,7 @@
 title: 'change blindness'
 date: '2005-10-23T16:31:00-07:00'
 status: publish
-permalink: /2005/10/change-blindness
+exported_permalink: /2005/10/change-blindness
 author: sarah
 excerpt: ''
 type: post

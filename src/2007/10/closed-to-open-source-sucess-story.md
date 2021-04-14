@@ -2,7 +2,7 @@
 title: 'closed-to-open source sucess story'
 date: '2007-10-24T06:58:06-07:00'
 status: publish
-permalink: /2007/10/closed-to-open-source-sucess-story
+exported_permalink: /2007/10/closed-to-open-source-sucess-story
 author: sarah
 excerpt: ''
 type: post

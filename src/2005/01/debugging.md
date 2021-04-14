@@ -2,7 +2,7 @@
 title: debugging
 date: '2005-01-09T17:56:06-08:00'
 status: publish
-permalink: /2005/01/debugging
+exported_permalink: /2005/01/debugging
 author: sarah
 excerpt: ''
 type: post

@@ -2,7 +2,7 @@
 title: Geekcorps
 date: '2006-04-15T14:19:49-07:00'
 status: publish
-permalink: /2006/04/geekcorps
+exported_permalink: /2006/04/geekcorps
 author: sarah
 excerpt: ''
 type: post

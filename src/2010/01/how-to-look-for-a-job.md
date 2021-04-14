@@ -2,7 +2,7 @@
 title: 'how to look for a job'
 date: '2010-01-09T15:47:16-08:00'
 status: publish
-permalink: /2010/01/how-to-look-for-a-job
+exported_permalink: /2010/01/how-to-look-for-a-job
 author: sarah
 excerpt: ''
 type: post

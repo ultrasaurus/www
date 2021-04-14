@@ -2,7 +2,7 @@
 title: 'Name Your Project'
 date: '2015-12-22T06:20:53-08:00'
 status: publish
-permalink: /2015/12/xcode-7-creating-and-renaming-a-new-app/screen-shot-2015-12-22-at-6-12-22-am
+exported_permalink: /2015/12/xcode-7-creating-and-renaming-a-new-app/screen-shot-2015-12-22-at-6-12-22-am
 author: sarah
 excerpt: ''
 type: attachment

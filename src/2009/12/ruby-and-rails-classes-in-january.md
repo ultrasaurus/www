@@ -2,7 +2,7 @@
 title: 'ruby and rails classes in january'
 date: '2009-12-28T22:43:42-08:00'
 status: publish
-permalink: /2009/12/ruby-and-rails-classes-in-january
+exported_permalink: /2009/12/ruby-and-rails-classes-in-january
 author: sarah
 excerpt: ''
 type: post

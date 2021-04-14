@@ -2,7 +2,7 @@
 title: 'impact matters more than intent'
 date: '2017-08-06T22:42:29-07:00'
 status: publish
-permalink: /2017/08/impact-matters-more-than-intent
+exported_permalink: /2017/08/impact-matters-more-than-intent
 author: sarah
 excerpt: ''
 type: post

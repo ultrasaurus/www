@@ -2,7 +2,7 @@
 title: 'a new kind of radio station'
 date: '2005-09-14T07:04:31-07:00'
 status: publish
-permalink: /2005/09/a-new-kind-of-radio-station
+exported_permalink: /2005/09/a-new-kind-of-radio-station
 author: sarah
 excerpt: ''
 type: post

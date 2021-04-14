@@ -2,7 +2,7 @@
 title: 'Negotiation and the Gender Divide'
 date: '2004-02-19T06:56:23-08:00'
 status: publish
-permalink: /2004/02/negotiation-and-the-gender-divide
+exported_permalink: /2004/02/negotiation-and-the-gender-divide
 author: sarah
 excerpt: ''
 type: post

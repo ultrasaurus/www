@@ -2,7 +2,7 @@
 title: 'MacRuby and Hot Cocoa'
 date: '2009-04-17T09:31:16-07:00'
 status: publish
-permalink: /2009/04/macruby-and-hot-cocoa
+exported_permalink: /2009/04/macruby-and-hot-cocoa
 author: sarah
 excerpt: ''
 type: post

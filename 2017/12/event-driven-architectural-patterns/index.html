@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>event-driven architectural patterns</title>
+    </head>
+    <body>
+        
+<h1>event-driven architectural patterns</h1>
+
+<p>Martin Fowler’s talk “The Many Meanings of Event-Driven Architecture” at GOTO2017 provides a good overview of different patterns that all are described as “event-driven” systems. At the end of the talk, he references to an earlier <a href="https://martinfowler.com/articles/201701-event-driven.html">event-driven article</a>, which offers a good prose description of these different patterns that folks are calling event-driven programming. In this talk, he covers specific examples that illustrate the patterns, grounding them in specific applications.</p>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="433" loading="lazy" src="https://www.youtube.com/embed/STKCRSUsyP0?feature=oembed" title="GOTO 2017 • The Many Meanings of Event-Driven Architecture • Martin Fowler" width="770"></iframe>
+<h2>Event Notification</h2>
+<p><img src="../../../uploads/2017/06/fowler-events-1.png" alt="Person -&gt; CRM -&gt; Insurance Quoting -&gt; Communications">For example: address changed</p>
+<p>Scenario: CRM system stores information about people. An insurance quoting system generates insurance rates based on demographics and address. When someone’s address changes, we need to calculate a new value for the cost of insurance.</p>
+<p>We often don’t want these systems to be coupled, instead we want a reversal of dependencies. This patterns is used in relatively large scale systems, and also a long-established client-side pattern to separate GUIs and the rest of your code.</p>
+<p>The change becomes a first class notion. We bundle the notification + data about the change.</p>
+<p>Events OR Commands<br>
+* Commands enforce the coupling, it’s very different from an event, it conveys intent<br>
+* Naming makes all the diffrence</p>
+<p>Additional property → easy to add systems without modifying the original system</p>
+<p>Martin notes “the dark side of event notification” where your system quickly becomes hard to reason about because there is not statement of overall behavior.</p>
+<h2>Event-Carried State Transfer</h2>
+<p>Named in contrast to REST (Representational State Transfer), the event carries ALL of the data needed about the event, which completely de-couples the target system from the system that originates the event.</p>
+<p>Of course, this introduces data replication and eventual consistency (which can be good for some use cases); however, this is a less common pattern since this lack of consistency can actually make the system more complex.</p>
+<h2>Event Sourcing</h2>
+<p>This is one of my favorite patterns which Martin explains nicely in the talk with two examples:</p>
+<ul>
+<li>Version control is an event source system for code.</li>
+<li>Accounting ledgers track every credit or debit, which are the source records (events), and the balance is calculated from those records.</li>
+</ul>
+<p>Benefits</p>
+<ul>
+<li>auditing: natural part of the system</li>
+<li>debugging: easy to replay a subset of events locally</li>
+<li>historic state: time travel!</li>
+<li>alternative state: branching, correcting errors</li>
+<li>memory image: application state can be volatile (since persistence is achieved with event log, processing can happen quickly in memory based on recent events that can quickly regenerate state based on recent snapshots)</li>
+</ul>
+<p>Drawbacks</p>
+<ul>
+<li>unfamiliar</li>
+<li>external systems: everything needs to be an event</li>
+<li>event schema: what happens when your data types change?</li>
+<li>identifiers: how to create identifiers to reliably replay events</li>
+</ul>
+<p>Common (Related) Challenges</p>
+<ul>
+<li>**asynchronous processing** can be hard to reason about. This isn’t required for an event sourcing system, yet it is easy to add and needed in most server-side systems. Useful to remember that this is distinct from the core event sourcing pattern.</li>
+<li>**versioning** is another option that is quite useful, yet also adds complexity. Greg Young’s advice: don’t have any business logic between the event and the internal representation of a record.</li>
+</ul>
+<p><img src="../../../uploads/2017/12/fowler-event-sourcing.png" alt=""></p>
+<p>Martin talks about the difference between input event (the intention) and the output event (the effect). In deciding what to store think about how we would fix a bug. The key thing is to be clear about what you are storing, and probably most of the time you want to store both.</p>
+<h2>CQRS</h2>
+<p>Coined by Greg Young, <strong>Command Query Responsibility Segregation,</strong> is where your write model is different from your read model. Two software components: one for updating the current model (the command component), and one for reading the state (the query component).</p>
+<p><img src="../../../uploads/2017/12/fowler-cqrs.png" alt=""></p>
+<p>Martin suggests that we need to be wary of this approach. A good pattern when used appropriately (which you could say of any model). But isn’t Event Sourcing just a special case of this? Maybe the special case is what provides a structure that make it easier to reason about.</p>
+
+<hr>
+<ul><li>Next: <a href="/2018/01/more-little-rules-for-working-life/">more little rules for working life</a></li><li>Previous: <a href="/2017/11/getting-started-with-ghostscript-api-in-c/">exploring ghostscript API in C</a></li>
+</ul>
+
+    </body>
+</html>

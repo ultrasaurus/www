@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>repl rspec mocks</title>
+    </head>
+    <body>
+        
+<h1>repl rspec mocks</h1>
+
+<p><a href="http://en.wikipedia.org/wiki/Read-eval-print_loop">REPL</a> (Read-Eval-Print-Loop) is a great way to learn. With Ruby, the experience is enabled with irb. Sometimes, to do this we need to peek into the innards of things, which I find to be an extremely effective way to explain mocks and stubs. It’s a regular part of my Ruby curriculum, even though I have needed to figure out the syntax three times in the last couple of years. (Many thanks to Jen-Mei Wu for the most recent iteration.) I still think it is worth it, even though it seems to change with crazy frequency.</p>
+<p>Just in case anyone else ever wants to do this with current or previous versions of RSpec, I thought I would write it down before old versions become lost in the mists of time:</p>
+<h2>RSpec 2.9</h2>
+<p>[update for <a href="http://blog.blazingcloud.net/2012/04/14/repl-mocks-in-rspec-2-9/">repl mocks for RSpec 2.9 by Curtis Schofield</a>]</p>
+<pre><code>
+&gt;&gt; require 'rspec/mocks/standalone'
+&gt;&gt;Time.stub(:now).and_return(10,20)
+&gt;&gt;Time.now
+10
+&gt;&gt;Time.now
+20
+&gt;&gt;Time.now
+20
+ 
+</code></pre>
+<h2>RSpec 2.5</h2>
+<pre><code>
+&gt;&gt; require 'rspec/mocks'
+&gt;&gt; include RSpec::Mocks::Methods
+&gt;&gt;Time.stub(:now).and_return(10,20)
+&gt;&gt;Time.now
+10
+&gt;&gt;Time.now
+20
+&gt;&gt;Time.now
+20
+</code></pre>
+<h2>RSpec 2.0</h2>
+<pre><code>
+&gt;&gt; require 'rspec/mocks'
+&gt;&gt; require 'rspec/mocks/extensions/object'
+&gt;&gt;Time.stub(:now).and_return(10,20)
+&gt;&gt;Time.now
+10
+&gt;&gt;Time.now
+20
+&gt;&gt;Time.now
+20
+</code></pre>
+<h2>RSpec 1.3</h2>
+<pre><code>
+&gt;&gt; require 'spec'
+&gt;&gt; require 'spec/mocks'
+&gt;&gt;Time.stub(:now).and_return(10,20)
+&gt;&gt;Time.now
+10
+&gt;&gt;Time.now
+20
+&gt;&gt;Time.now
+20
+</code></pre>
+
+<hr>
+<ul><li>Next: <a href="/2011/04/cross-platform-frameworks-mobile-panel/">mobile panel: cross-platform frameworks</a></li><li>Previous: <a href="/2011/04/on-choosing-rspec-as-a-test-framework/">on choosing RSpec as a test framework</a></li>
+</ul>
+
+    </body>
+</html>

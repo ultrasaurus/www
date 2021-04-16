@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>ruby proxies</title>
+    </head>
+    <body>
+        
+<h1>ruby proxies</h1>
+
+<p><a href="http://www.igvita.com/">Ilya Grigorik</a>, gave a very informative talk “Ruby Proxies for Scale, Performance, and Monitoring”</p>
+<p>Ilya describes a proxy server as his new favorite hammer. I can think of lots of cases where having an easy way to write a proxy server would come in handy. Mostly what we think of when we think of proxy servers is a “transparent, cut-through proxy,” but proxies can be useful for other purposes.</p>
+<p>The problem that led Ilya to write a proxy server was benchmarking and performance testing. He started with HTTPPerf is good tool for simulating load, but it is only good for a single run. <a href="http://github.com/igrigorik/autoperf/">autoperf</a> will make multiple runs and simulate more users.</p>
+<p><a href="http://github.com/igrigorik/em-proxy/">em-proxy</a> Very simple syntax to send traffic to both the production server and benchmark server (and only the response is returned from production). Real-time benchmarking against production traffic and user sees no performance hit. Only about 300 lines of code, shows the pattern for how to build a proxy server.</p>
+<p>Ilya walked us through using <a href="http://rubyeventmachine.com/">EventMachine</a> which has very concise, easy-to-read syntax for implementing proxy servers. This does not need to be restricted to http, but can work with any protocol.</p>
+<p>Ilya described an interesting use case in detail. They created a proxy server which works with Beanstalkd, a distributed in-member work queue, where jobs are stored in MySql when they don’t need to be in memory.</p>
+<p>Slides from the talk:</p>
+<div id="__ss_1307248" style="width:425px;text-align:left">[Ruby Proxies for Scale, Performance, and Monitoring – GoGaRuCo – igvita.com](http://www.slideshare.net/igrigorik/ruby-proxies-for-scale-performance-and-monitoring-gogaruco-igvitacom?type=presentation "Ruby Proxies for Scale, Performance, and Monitoring - GoGaRuCo - igvita.com")<div style="font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px">View more [presentations](http://www.slideshare.net/) from [Ilya Grigorik](http://www.slideshare.net/igrigorik).</div></div>
+<hr>
+<ul><li>Next: <a href="/2009/04/ruby-application-frameworks/">ruby application frameworks</a></li><li>Previous: <a href="/2009/04/sandbox-for-ruby-code/">sandbox for ruby code</a></li>
+</ul>
+
+    </body>
+</html>

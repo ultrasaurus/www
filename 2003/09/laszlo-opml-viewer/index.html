@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Laszlo OPML viewer</title>
+    </head>
+    <body>
+        
+<h1>Laszlo OPML viewer</h1>
+
+<p>Inspired by Mark Davis’ <a href="http://drdreff.blogspot.com/2003_09_07_drdreff_archive.html#106305830618139273">Laszlo link viewer</a>, I created a little <a href="http://host2.ultrasaurus.com:8080/lps/my-apps/opml/opml.xml">OPML file</a> with some of my collected links and modified his LZX file to read the data from the there. [Moved this version of the app into this blog entry, since I am going to update my gutter]</p>
+<p>The new app is only 60 lines of <a href="http://host2.ultrasaurus.com:8080/lps/my-apps/opml/opmlviewer.lzx?lzt=source">code</a>. LZX is fun!</p>
+<p>It took me about two hours, from inspiration to deployment. Here’s what I did:</p>
+<ol>
+<li>I read a bit about OPML. I ended up snagging the OPML file from <a href="http://www.blogrolling.com/">blogrolling.com</a> and then hand-edited to create some categories. I wonder if I upgrade my account and have multiple blogrolls, does it generates a single hierarchical OPML? … that would be nice.</li>
+<li>I borrowed the code and art assets — thanks Mark</li>
+<li>I modified the LZX:</li>
+</ol>
+<ul>
+<li>added a dataset that references opml.xml</li>
+<li>added datapaths to various views</li>
+<li>changed color definitions to canvas attributes (although I probably should have left these as parameters)</li>
+<li>added rollover feedback for links</li>
+</ul>
+<ol start="4">
+<li>created a 2 frame Flash movie for the link icon, drawing two icons by hand (a little rough, but I like to have some feedback that a new window will be opened)</li>
+<li>uploaded the files to the <a href="http://www.laszlosystems.com">Laszlo Presentation Server</a> that I recently set up at <a href="http://www.mediatemple.net">mediatemple</a></li>
+<li>updated my MoveableType default template</li>
+</ol>
+
+<hr>
+<ul><li>Next: <a href="/2003/09/xml-and-apple-pie/">XML and apple pie</a></li><li>Previous: <a href="/2003/09/laszlo-blog-fun/">Laszlo blog fun</a></li>
+</ul>
+
+    </body>
+</html>

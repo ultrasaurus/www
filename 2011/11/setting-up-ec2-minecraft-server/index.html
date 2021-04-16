@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>setting up ec2 minecraft server</title>
+    </head>
+    <body>
+        
+<h1>setting up ec2 minecraft server</h1>
+
+<p>Goal: set up a minecraft server using free EC2 account from OSX<br>
+[update: FAIL — game play doesn’t work on a micro instance, if we want to use EC2 it looks like we need to use at least a small one. so be careful to adjust the steps below to pick a small instance if you want to play.]</p>
+<p>I learned that there are a lot of minecraft server implementations. I decided to use Craftbukkit server largely because I saw it referenced from a <a href="http://confreaks.net/videos/696-rubyconf2011-be-a-minecraft-modman-with-purugin">RubyConf talk</a> by <a href="http://blog.enebo.com/">Tom Enebo</a> — might be fun to mod it someday :)</p>
+<p>I pieced together information from some helpful tutorials from <a href="https://help.ubuntu.com/community/EC2StartersGuide">Ubuntu</a> and <a href="http://www.robertsosinski.com/2008/01/26/starting-amazon-ec2-with-mac-os-x/">Robert Sosinski</a>.</p>
+<ol>
+<li>Sign-up for an AWS account (1 year free for new AWS accounts, but you need a credit card)</li>
+<li>Go to <a href="https://console.aws.amazon.com/ec2/home">AWS Management Console</a></li>
+<li>Create a Private Key</li>
+</ol>
+<ul>
+<li>Select EC2 tab, click on “0 Key Pairs” on the right side</li>
+<li>name it ec2.pem (or anything you want, but I’ll use ec2 in the rest of this tutorial)</li>
+<li>save it to ~/.ec2/ec2.pem</li>
+</ul>
+<ol start="4">
+<li>Create a Certificate</li>
+</ol>
+<ul>
+<li>Under your name in the top right corner, select “Security Credentials”</li>
+<li>Download the private key and certificate and save them in ~/.ec2</li>
+</ul>
+<ol start="5">
+<li>Make your credential files private. In your local terminal, type:</li>
+</ol>
+<ul>
+<li>cd ~/.ec2</li>
+<li>chmod go-rwx ~/.ec2/*.pem</li>
+</ul>
+<ol start="6">
+<li>Download <a href="http://aws.amazon.com/developertools/351">EC2 API Tools</a></li>
+</ol>
+<ul>
+<li>Unzip the Amazon EC2 Command-Line Tools</li>
+<li>Move both the bin and lib directory into your ~/.ec2 directory</li>
+</ul>
+<ol start="7">
+<li>Your ~/.ec2 directory should have:</li>
+</ol>
+<ul>
+<li>The cert-xxxxxxx.pem file</li>
+<li>The pk-xxxxxxx.pem file</li>
+<li>The bin directory</li>
+<li>The lib directory</li>
+<li>ec2.pem</li>
+</ul>
+<ol start="8">
+<li>Set up EC2 Command-line Tools</li>
+</ol>
+<ul>
+<li>Put the following into your ~/.bash_profile:<br>
+<code># Setup Amazon EC2 Command-Line Tools&lt;br&gt;&lt;/br&gt;export EC2_HOME=~/.ec2&lt;br&gt;&lt;/br&gt;export PATH=$PATH:$EC2_HOME/bin&lt;br&gt;&lt;/br&gt;export EC2_PRIVATE_KEY=</code>ls $EC2_HOME/pk-<em>.pem<code>&lt;br&gt;&lt;/br&gt;export EC2_CERT=</code>ls $EC2_HOME/cert-</em>.pem<code>&lt;br&gt;&lt;/br&gt;export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home/</code></li>
+<li>On the command-line, type:<br>
+<code>source ~/.bash_profile</code></li>
+</ul>
+<ol start="9">
+<li>Startup a server</li>
+</ol>
+<ul>
+<li>[Update] We want to be careful to choose an AMI that works with the micro instance, which is what we get for free. Ubuntu takes up too much disk space by default to fit into a micro instance, so you need to use one of the <a href="http://cloud.ubuntu.com/2010/11/using-ubuntu-images-on-aws-free-tier/">micro Ubuntu AMIs</a> they created for this purpose. I’m going to use Maverick 10-10 — it’s the most recent version that has a micro version.</li>
+<li>[Update] I picked one in us-east, since that’s where Amazon started my account by default and it seems that it needs to be in the same region matching the one set for my key:<br>
+ec2-run-instances ami-cf33fea6 –instance-type t1.micro –region us-east-1 –key ec2</li>
+<li>check to see if it is running, by typing:<br>
+<code>ec2-describe-instances</code></li>
+<li>make a note of your hostname! It should look something like:</li>
+</ul>
+<pre><code>ec2-###-##-##-##.compute-1.amazonaws.com
+</code></pre>
+<ol start="10">
+<li>Open relevant ports (22 for ssh, 80 for http, 25565 for minecraft):<code>&lt;br&gt;&lt;/br&gt;ec2-authorize default -p 22&lt;br&gt;&lt;/br&gt;ec2-authorize default -p 80&lt;br&gt;&lt;/br&gt;ec2-authorize default -p 25565&lt;br&gt;&lt;/br&gt;</code></li>
+<li>ssh into your new instance<br>
+<code>ssh -i ec2.pem ubuntu@ec2-###-##-##-##.compute-1.amazonaws.com</code></li>
+<li>Install Java (<a href="http://ubuntu-for-humans.blogspot.com/2011/04/installing-java-on-ubuntu-server-1010.html">nice Ubuntu instructions</a>)<br>
+Note: to accept the license, use tab to get to the OK “button” then hit return, then arrow to get to “Yes” and hit return again.<br>
+To verify installation:<br>
+$ java -version<br>
+java version “1.6.0_26”<br>
+Java(TM) SE Runtime Environment (build 1.6.0_26-b03)<br>
+Java HotSpot(TM) Client VM (build 20.1-b02, mixed mode, sharing)</li>
+<li>See <a href="http://wiki.bukkit.org/Setting_up_a_remote_Linux_server">this tutorial for setting up minecraft</a>, but if you are playing with the Minecraft 1.0 client (at least of today) you’ll need to install a dev build which you can find on the <a href="http://ci.bukkit.org/job/dev-CraftBukkit/">ci server</a>. I found that I needed to run the server, stop it and run it again to get it to start without errors.</li>
+</ol>
+<ul>
+<li>
+<p>get the latest dev build (I’m running 1502): ```</p>
+<p>wget http://ci.bukkit.org/job/dev-CraftBukkit/lastSuccessfulBuild/artifact/target/craftbukkit-1.0.0-SNAPSHOT.jar</p>
+<pre><code></code></pre>
+</li>
+<li>
+<p>create a file called “start.sh” with the following contents: ```</p>
+<p>#!/bin/sh
+java -Xmx613M -Xincgc -jar craftbukkit-1.0.0-SNAPSHOT.jar</p>
+<pre><code></code></pre>
+</li>
+<li>
+<p>run the server in screen: ```</p>
+<p>screen
+./start.sh</p>
+<pre><code>
+</code></pre>
+</li>
+</ul>
+<p>[Update] By tweaking the memory allocation, we can get it to work (most of the time) with a single player. I found that I can raise the memory allocation for java and use virtual memory, but that it sometimes maxes out the CPU.</p>
+<p>Here’s the setting where the game couldn’t be failed (couldn’t fight monsters or build things):</p>
+<pre><code>#!/bin/sh
+java -Xmx613M -Xincgc -jar craftbukkit-1.0.0-SNAPSHOT.jar
+
+$top
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND                                                                 
+ 1642 ubuntu    20   0  978m 300m  10m S 12.3 50.7 100:44.96 java                                                                     
+</code></pre>
+<p>Note:<br>
+VIRT – 978M of virtual memory<br>
+RES – 300m resident (physical) memory</p>
+<hr>
+<p>With this it sometimes works:</p>
+<pre><code>
+#!/bin/sh
+java -Xmx1024M -Xincgc -jar craftbukkit-1.0.0-SNAPSHOT.jar
+
+ 2829 ubuntu    20   0 1336m 271m  10m S 14.0 45.8   0:18.76 java                                                                     
+</code></pre>
+<hr>
+<p>With this works almost all the time (but we’ve only tested one player):</p>
+<pre><code>
+#!/bin/sh
+java -Xmx2048M -Xincgc -jar craftbukkit-1.0.0-SNAPSHOT.jar
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND                                                                 
+ 2893 ubuntu    20   0 2499m 341m  10m S 99.8 57.6   0:27.68 java                                                                     
+
+ 2893 ubuntu    20   0 2499m 341m  10m S 18.2 57.7   1:27.30 java                     
+</code></pre>
+<p>when the CPU maxes out, I see this in the game console:<br>
+<code>22:39:19 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?</code></p>
+
+<hr>
+<ul><li>Next: <a href="/2011/12/a-founders-manifesto/">a founder&amp;#8217;s manifesto</a></li><li>Previous: <a href="/2011/11/why-flash-lost-but-html-still-sucks/">Why Flash Lost but HTML Still Sucks</a></li>
+</ul>
+
+    </body>
+</html>

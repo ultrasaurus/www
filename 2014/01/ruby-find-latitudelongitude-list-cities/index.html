@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>ruby to find latitude/longitude for a list of cities</title>
+    </head>
+    <body>
+        
+<h1>ruby to find latitude/longitude for a list of cities</h1>
+
+<p>I have a relatively short list of cities which I want to plot on a world map. The list is a little too long for a manual lookup, but I don’t know exactly how I’ll use it in an app, so I figured out how to do it with some simple ruby in irb using the lovely <a href="http://www.rubygeocoder.com/">geocoder gem</a>.</p>
+<p>I had my cities in a spreadsheet. Selected a few cells, and was able to simply paste into irb and split the string on newlines to get an array of the cities.</p>
+<pre><code>
+
+gem install geocoder
+irb
+&gt;&gt; require 'geocoder
+&gt;&gt; a = &quot;Honolulu, HI
+&gt;&gt; Boston, MA
+&gt;&gt; New York, NY&quot;.split(&quot;\n&quot;)
+ =&gt; [&quot;Honolulu, HI&quot;, &quot;Boston, MA&quot;, &quot;New York, NY&quot;] 
+
+&gt;&gt;a.map do |city| 
+    d = Geocoder.search(city)
+    ll = d[0].data[&quot;geometry&quot;][&quot;location&quot;]
+    puts &quot;#{city}\t#{ll['lat']}\t#{ll['lng']}&quot; 
+end
+
+Honolulu, HI    21.3069444  -157.8583333
+Boston, MA  42.3584308  -71.0597732
+New York, NY    40.7143528  -74.00597309999999
+
+</code></pre>
+<p>Then I could copy/paste the irb output back into my spreadsheet. Ta Da!</p>
+<p>It appears that the free Google API has some kind of throttling, so this is only good for short lists of &lt;20 cities.</p>
+
+<hr>
+<ul><li>Next: <a href="/2014/02/creating-your-own-visual-language/">creating your own visual language</a></li><li>Previous: <a href="/2014/01/rspec-mixing-transcations-truncation-database-clearner-strategies/">rspec: mixing transcations and truncation database clearner strategies</a></li>
+</ul>
+
+    </body>
+</html>

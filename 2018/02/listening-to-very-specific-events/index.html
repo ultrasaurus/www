@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>listening to very specific events</title>
+    </head>
+    <body>
+        
+<h1>listening to very specific events</h1>
+
+<p>The model of <a href="https://www.ultrasaurus.com/2018/02/declarative-eventing/">declarative eventing</a> allows for listening to very specific events and then triggering specific actions. This model simplifies the developer experience, as well as optimizing the system by reducing network traffic.</p>
+<h3>AWS S3 bucket trigger</h3>
+<p>In looking AWS to explain changes in S3 can trigger Lambda functions, I found that the AWS product docs focus on the GUI configuration experience. This probably makes it easy for new folks to write a specific Lambda function; however, it a little harder to see the system patterns before gaining a lot of hands-on experience.</p>
+<p>The trigger-action association can be seen more clearly in a <a href="https://www.terraform.io/docs/providers/aws/r/s3_bucket_notification.html">Terraform configuration</a>. Under the hood, Teraform must be using AWS APIs for setting up the trigger). The configuration below specifies that whenever a json file is uploaded to a specific bucket with the path prefix “content-packages” then a specific Lambda function will be executed:</p>
+<pre><code>resource &quot;aws_s3_bucket_notification&quot; &quot;bucket_terraform_notification&quot; {
+    bucket = &quot;${aws_s3_bucket.terraform_bucket.id}&quot;
+    lambda_function {
+        lambda_function_arn = &quot;${aws_lambda_function.terraform_func.arn}&quot;
+        events = [&quot;s3:ObjectCreated:*&quot;]
+        filter_prefix = &quot;content-packages/&quot;
+        filter_suffix = &quot;.json&quot;
+    }
+}
+
+</code></pre>
+<p>— via <a href="https://gist.github.com/justinsoliz/8fe711039a76d8261c15f9199c0b29ea">justinsoliz’ github gist</a></p>
+<h3>Google Cloud events</h3>
+<p>To illustrate an alternate developer experience, the examples below are shown with <strong>Firebase JavaScript SDK for Google Cloud Functions</strong>, which is idiomatic for JavaScript developers using the <a href="https://www.martinfowler.com/bliki/FluentInterface.html">Fluent API style</a>, popularized by jQuery. The same functionality is available via command line options using <code>gcloud</code>, the Google Cloud CLI.</p>
+<p>** Cloud Storage trigger**</p>
+<p>Below is an example of specifying a trigger for a change to a Google Cloud Storage object in a specific bucket:</p>
+<pre><code>exports.generateThumbnail = functions.storage.bucket('my-bucket').object().onChange((event) =&gt; {
+  // ...
+});
+
+</code></pre>
+<h3>Cloud Firestore trigger</h3>
+<p>This approach to filtering events at their source is very powerful when applied to database operations, where a developer can listen to a specific database path, such as with <a href="https://firebase.google.com/docs/functions/firestore-events">Cloud Firestore events</a>:</p>
+<pre><code>exports.createProduct = functions.firestore
+  .document('products/{productId}')
+  .onCreate(event =&gt; {
+    // Get an object representing the document
+    // e.g. {'name': 'Wooden Doll', 'description': '...}
+    var newValue = event.data.data();
+
+    // access a particular field as you would any JS property
+    var name = newValue.name;
+
+    // perform desired operations ...
+});
+
+</code></pre>
+
+<hr>
+<ul><li>Next: <a href="/2018/04/zero-knowledge-proof-trust-without-shared-secrets/">zero-knowledge proof: trust without shared secrets</a></li><li>Previous: <a href="/2018/02/declarative-eventing/">declarative eventing</a></li>
+</ul>
+
+    </body>
+</html>

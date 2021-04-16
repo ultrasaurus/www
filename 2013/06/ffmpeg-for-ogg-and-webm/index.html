@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>ffmpeg for ogg and webm</title>
+    </head>
+    <body>
+        
+<h1>ffmpeg for ogg and webm</h1>
+
+<p>I wanted to experiment with Ogg and WebM and the &lt;video&gt; tag, and I thought the easiest way would be with my favorite command-line transcoder, ffmpeg. It’s fabulous support for just about every audio and video file format makes it fabulous for hacking.</p>
+<p>Sadly “brew install ffmpeg” doesn’t support the new file formats and codecs, so I had to compile it myself, as well as the codec libraries. Here’s what worked (on MacOSX Mountain Lion):</p>
+<p>0. <strong>Clone from git and use a stable branch</strong><br>
+Check the bottom of the <a href="http://www.ffmpeg.org/download.html">download page</a> for descriptions of latest stable versons.</p>
+<pre><code>git clone git://source.ffmpeg.org/ffmpeg.git ffmpeg
+</code></pre>
+<p>Look for the version tag you want with: <code>git tag -l</code><br>
+I picked 1.2.1 “Magic”</p>
+<pre><code>git checkout -b n1.2.1
+</code></pre>
+<p>1. <strong>Install Xcode, Homebrew, then and Remaining Dependendencies</strong><br>
+following <a href="http://ffmpeg.org/trac/ffmpeg/wiki/MacOSXCompilationGuide">MacOSXCompilationGuide</a> instructions.</p>
+<p>2. Compile libvpx (needed for WebM)<br>
+I took these instructions from the <a href="http://ffmpeg.org/trac/ffmpeg/wiki/UbuntuCompilationGuide">UbuntuCompilationGuide</a>, and swapped out the prefix to be what the Mac instructions told me to do:<br>
+<code>&lt;br&gt;&lt;/br&gt; git clone --depth 1 http://git.chromium.org/webm/libvpx.git&lt;br&gt;&lt;/br&gt;cd libvpx&lt;br&gt;&lt;/br&gt;./configure --prefix=/usr/local --disable-examples&lt;br&gt;&lt;/br&gt;make&lt;br&gt;&lt;/br&gt;sudo make install&lt;br&gt;&lt;/br&gt;make clean&lt;br&gt;&lt;/br&gt;cd ..&lt;br&gt;&lt;/br&gt;</code></p>
+<p>3. Configure &amp; build ffmpeg<br>
+I picked just the libraries I needed plus whatever didn’t require extra dependencies:</p>
+<pre><code>
+./configure --enable-gpl --enable-version3 --enable-nonfree --enable-postproc --enable-libaacplus --enable-libcelt --enable-libfaac --enable-libfdk-aac --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-openssl --enable-libopus --enable-libschroedinger --enable-libspeex --enable-libtheora --enable-libvo-aacenc --en
+make &amp;&amp; make install
+</code></pre>
+<h2>Ready to Make Movies!</h2>
+<h3>Ogg Theora/Vorbis</h3>
+<p>I just followed the instructions on the <a href="http://ffmpeg.org/trac/ffmpeg/wiki/TheoraVorbisEncodingGuide">ffmpeg wiki</a> I used lower video and audio quality since the wiki recommendations ended up creating a huge file.</p>
+<pre><code>ffmpeg -i mymovie.mov -codec:v libtheora -qscale:v 3 -codec:a libvorbis -qscale:a 3 mymovie.ogv
+</code></pre>
+<h3>WebM</h3>
+<pre><code>ffmpeg -i mymovie.mov -vcodec libvpx -acodec libvorbis mymovie.webm
+</code></pre>
+<p>size chart</p>
+<pre><code>
+ 2788953  pool-480p.mov
+19459157  pool.mov
+ 2870873  pool.mp4
+  833597  pool.webm
+ 3022359  pool3v3a.ogv
+ 4398308  pool4v3a.ogv
+ 5755066  pool5v5a.ogv
+ 7767888  pool6v5a.ogv
+11424378  pool7v5a.ogv
+</code></pre>
+
+<hr>
+<ul><li>Next: <a href="/2013/06/open-source-in-the-public-schools/">open source in the public schools</a></li><li>Previous: <a href="/2013/06/chelsea-highline/">chelsea highline</a></li>
+</ul>
+
+    </body>
+</html>

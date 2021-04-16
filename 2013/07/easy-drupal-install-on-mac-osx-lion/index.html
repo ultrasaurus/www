@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>easy drupal install on mac osx lion</title>
+    </head>
+    <body>
+        
+<h1>easy drupal install on mac osx lion</h1>
+
+<p>Lion comes with Apache and PHP installed. We just need to enable PHP, install MySql and create a database, then download drupal.</p>
+<h2>Enable PHP</h2>
+<p>My new laptop which came with Lion has PHP 5.3.15, using the test page we’ll build below you can verify you’ve got a <a href="https://drupal.org/requirements">good version of PHP</a> to go with the Drupal you need:</p>
+<ul>
+<li>Drupal 6: PHP 4.4.0 or higher (5.2 recommended).</li>
+<li>Drupal 7: PHP 5.2.5 or higher (5.3 recommended).</li>
+<li>Drupal 8: PHP 5.3.10 or higher.</li>
+</ul>
+<p>Commands below use vi (of course, you should use your editor of choice). (thank you <a href="http://stackoverflow.com/questions/6790568/how-do-you-get-php-working-on-mac-os-x-lion-10-7">stackoverflow</a>)</p>
+<p>You’ll need <code>sudo</code> to edit the Apache config file:</p>
+<pre><code> 
+sudo vi /etc/apache2/httpd.conf
+</code></pre>
+<p>uncomment the following line:</p>
+<pre><code>
+LoadModule php5_module libexec/apache2/libphp5.so
+</code></pre>
+<p>On the following line change <code>_www</code> to the username you log in with:</p>
+<pre><code>
+User _www
+</code></pre>
+<p>By default, Apache only loads index.html, so update that line to:</p>
+<pre><code>
+DirectoryIndex index.html index.php index.htm
+</code></pre>
+<p>Restart apache on the command line</p>
+<pre><code>
+sudo apachectl restart
+</code></pre>
+<p>Now, let’s make a test file:</p>
+<pre><code>
+cd ~/Sites
+mkdir php-test
+cd php-test/
+vi index.php
+</code></pre>
+<p>Then paste in this <a href="https://gist.github.com/ultrasaurus/5943921">test file</a> and browse to <code>http://localhost/~yourusername/php-test/</code></p>
+<h2>Install MySql</h2>
+<p>I like to install everything with <a href="http://mxcl.github.io/homebrew/">homebrew</a> which is my favorite package manager for osx. It keeps everything in <code>/usr/local/</code> by default, and then I don’t have to remember where GUI installers put everything.</p>
+<pre><code> 
+brew install mysql
+</code></pre>
+<p>I like to have MySql always start up, so I use a Launch Agent, which homebrew describes how to do after the install:</p>
+<pre><code>
+To have launchd start mysql at login:
+    ln -sfv /usr/local/opt/mysql/*.plist ~/Library/LaunchAgents
+Then to load mysql now:
+    launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
+Or, if you don't want/need launchctl, you can just run:
+    mysql.server start
+</code></pre>
+<p>Now make a database:</p>
+<pre><code>
+mysqladmin -uroot create drupal_dev
+</code></pre>
+<p>The default way this is set up is for a dev environment, so there’s no password and root has full access. You can see this in the mysql console:</p>
+<pre><code>
+mysql -uroot
+show databases;
+show grants;
+</code></pre>
+<p>Now we need to fix the PHP configuration to refer to mysql correctly so we don’t get PDO errors (thanks <a href="http://blog.hiraash.org/2012/09/17/pdo-for-the-default-installation-of-php-on-mac-osx/">Hiraash</a>):</p>
+<pre><code>
+sudo cp /etc/php.ini.default /etc/php.ini
+vi /etc/php.ini
+</code></pre>
+<p>replace all instances of <code>/var/mysql/mysql.sock</code> with <code>/tmp/mysql.sock</code><br>
+and restart apache</p>
+<pre><code>
+sudo apachectl restart
+</code></pre>
+<h2>Download Drupal</h2>
+<p>I followed the <a href="https://drupal.org/documentation/install/download">drupal.org instructions</a>, but you need to go find the <a href="https://drupal.org/project/Drupal">right version</a>. As of this writing, 7.22 is the recommended v7 release, which is what I’ll be working with.</p>
+<pre><code>
+cd ~/Sites
+wget http://ftp.drupal.org/files/projects/drupal-7.22.tar.gz
+tar -xzvf drupal-7.22.tar.gz
+rm drupal-7.22.tar.gz
+</code></pre>
+<p>Now, I’ll just rename it to be the same name as the database we set up:</p>
+<pre><code>
+mv drupal-7.22 drupal_dev
+</code></pre>
+<p>browse to <code>http://localhost/~yourusername/drupal-dev</code> and proceed with the install wizard</p>
+<p><img src="http://monosnap.com/image/ocxB8VYvpm1SC0HafuKPcSXfp.png" alt=""></p>
+<p>step through the wizard and drupal sets itself up.</p>
+
+<hr>
+<ul><li>Next: <a href="/2013/07/tesseract-html-page-with-text-overlay/">tesseract html page with text overlay</a></li><li>Previous: <a href="/2013/07/remembering-doug-engelbart/">remembering doug engelbart</a></li>
+</ul>
+
+    </body>
+</html>

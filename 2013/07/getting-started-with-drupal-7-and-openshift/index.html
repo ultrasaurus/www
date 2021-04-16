@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>getting started with drupal 7 and openshift</title>
+    </head>
+    <body>
+        
+<h1>getting started with drupal 7 and openshift</h1>
+
+<p>When learning a new web technology, I believe it is important to have hands-on experience from development to deployment. I chose <a href="https://openshift.redhat.com">Open Shift</a>, one of the <a href="https://drupal.org/node/1860868">recommended cloud deployment options for Drupal 7</a>. It’s free for 3 small instances, which seems perfect for experimentation.</p>
+<p>I used the very simple web UI to create a Drupal 7 instance:<br>
+<a href="http://monosnap.com/image/I2Mf4bHlPrhNUWMKcnaudyjiU.png"><img src="http://monosnap.com/image/I2Mf4bHlPrhNUWMKcnaudyjiU.png" alt=""></a><br>
+Note: Just like Heroku, you can’t write to the file system with open shift, so by default the Drupal install is “not scalable.” However, there’s documentation about how to configure it so that it would be scalable if you don’t need file upload — not sure why they wouldn’t just do that by default.</p>
+<p><a href="http://monosnap.com/image/eE7LvM8oTHb7D2N4Oqnazw7kt.png"><img src="http://monosnap.com/image/eE7LvM8oTHb7D2N4Oqnazw7kt.png" alt=""></a></p>
+<p>Next there’s a screen that provide credentials for the app, and a link to my new instance:<br>
+<a href="http://monosnap.com/image/0ceVNMU9XgdB0YJNrbzXamOuE.png"><img src="http://monosnap.com/image/0ceVNMU9XgdB0YJNrbzXamOuE.png" alt=""></a></p>
+<p>Woo hoo! I can log in with the default credentials (admin / openshift_changeme ) and see the default Drupal admin UI:<br>
+<a href="http://monosnap.com/image/aqSYRkRIr3KHbTJYgH7gyrQ0S.png"><img src="http://monosnap.com/image/aqSYRkRIr3KHbTJYgH7gyrQ0S.png" alt=""></a></p>
+<p>If you go to “People,” you can find your admin user and change the password. Of course, I’ve done this on my instance, so you can’t log in — you should go make your own!</p>
+<h2>Dev Setup?</h2>
+<p>I already had an account that I had experimented with for Ruby, but it was some time ago, so I needed to <a href="https://www.openshift.com/developers/rhc-client-tools-install">reinstall the local tools and setup</a>:</p>
+<p>1. requires git and ruby (since its “rhc” tool is a gem) — I’m using rvm with ruby 1.9.2<br>
+2. to setup client tools, as well as ssh key and a token locally for automagic auth:</p>
+<pre><code>
+rhc setup 
+</code></pre>
+<p>3. clone the repo</p>
+<pre><code>
+git clone ssh://51d..183@drupal7-ultrasaurus.rhcloud.com/~/git/drupal7.git/ openshift-drupal7
+cd openshift-drupal7 
+</code></pre>
+<p>Not clear what to do from here. The <a href="https://www.openshift.com/forums/openshift/git-clone-repo-success-what-next#comment-32050">OpenShift forums</a> provides the hint that I can take a snapshot of files with</p>
+<pre><code>rhc snapshot save -a {appname}
+</code></pre>
+<p>but that doesn’t hint at a dev workflow.</p>
+<p>I do want to figure out a nice workflow to develop locally and deploy on a free cloud. I’ve played with Acquia Desktop. <a href="http://www.mamp.info/en/index.html">MAMP</a> has been recommended. I’d be more comfortable with “brew install …”</p>
+<p>I will post this for now, in case any of you readers can clue me in or point me to some good install docs. I’ll update this post once I figure out something I like. Thanks in advance.</p>
+
+<hr>
+<ul><li>Next: <a href="/2013/07/remembering-doug-engelbart/">remembering doug engelbart</a></li><li>Previous: <a href="/2013/07/seriously-amazing-opportunity/">seriously amazing opportunity</a></li>
+</ul>
+
+    </body>
+</html>

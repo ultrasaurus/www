@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>cucumber and custom rspec matchers with rails 3.1</title>
+    </head>
+    <body>
+        
+<h1>cucumber and custom rspec matchers with rails 3.1</h1>
+
+<p>I’m working my way through an epic Rails 3.1 upgrade and some of my cucumber features were failing because I was using a custom RSpec matcher and the method wasn’t found.</p>
+<p>My custom matcher looks something like this:</p>
+<pre><code>
+module CustomMatchers
+
+  class XmlSubsetMatcher
+      :
+  end
+
+  def be_xml_subset_of(expected)
+    XmlSubsetMatcher.new(expected)
+  end
+</code></pre>
+<p>and when I ran my feature I was getting this failure:<br>
+<code>&lt;br&gt;&lt;/br&gt;      undefined method </code>xml_subset_of?' for # (NoMethodError)<br></br>`</p>
+<p>As it turns out, in my zeal to make sure everything was using the latest and great new stuff, I had forgotten to move over this critical configuration line in cucumbers env.rb:</p>
+<p><code>&lt;br&gt;&lt;/br&gt;World(CustomMatchers)&lt;br&gt;&lt;/br&gt;</code></p>
+<p>Now, my cucumber feature is happily failing cuz my code doesn’t work. Whew. I couldn’t find this documented anywhere and I’m not even sure where this documentation would belong. I found a hint on the <a href="https://github.com/cucumber/cucumber/wiki/RSpec-Expectations">cucumber wiki rspec expectations page</a>, but none of the code on that page is actually needed when using cucumber with Rails, so I decided not to touch it and just write this blog post.</p>
+
+<hr>
+<ul><li>Next: <a href="/2012/01/stirfry-great-example-of-game-dynamics/">stir fry: great example of game dynamics</a></li><li>Previous: <a href="/2012/01/ffmpeg-on-osx-lion/">ffmpeg on osx lion</a></li>
+</ul>
+
+    </body>
+</html>

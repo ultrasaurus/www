@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>getting started with activescaffold</title>
+    </head>
+    <body>
+        
+<h1>getting started with activescaffold</h1>
+
+<p>The <a href="http://activescaffold.com/">ActiveScafold</a> plugin for Rails promises to be a huge time saver. In just a few easy steps, you can create a full web interface for your database, complete with inline editing and fold out panels. Of course, it helps to have some grasp about what it is doing or you can get <a href="http://groups.google.com/group/activescaffold/browse_thread/thread/bb541afdf9acda3">stuck like I did</a> this morning. I’m no expert (yet), but since it is so very cool, I wanted to share what I’ve learned (with the help of Sean Dick and Ivan Storck at tonight’s SFRuby Hack session).</p>
+<p>After installing the plugin, there are just 3 lines of code that magically generate the HTML pages, but the trick is knowing where to put them. There’s a <a href="http://wiki.github.com/activescaffold/active_scaffold/how-to-approach-active-scaffold-use-cases-benefits">nice intro</a> on the github wiki that outlines common use cases:</p>
+<ul>
+<li>Prototyping</li>
+<li>Admin Interfaces</li>
+<li>Embedded, Widget-Style</li>
+<li>Data-Heavy Applications</li>
+</ul>
+<p>The use case that led me to ActiveScaffold today was the creation of an admin interface. I’m working on a website and the end user stuff is pretty nice, but there are a bunch of tables where the data needs a little love… no one wants to launch the site without at least a few corrections in the data and it is crazy to either delay the launch while we build an admin interface or have an engineer make corrections with sql updates. Enter ActiveScaffold: a way to allow admins to make the changes they need with very little software development. (Later I expect we’ll need to add some fancy bits to the admin interface, but ActiveScaffold promises to be configurable and extensible enough when the time comes and the key point is that I don’t expect to need those features this week.)</p>
+<h2>ActiveScaffold for Admin</h2>
+<p>Make a little app for this experiment:<br>
+<code>&lt;br&gt;&lt;/br&gt;rails active_scaffold&lt;br&gt;&lt;/br&gt;cd active_scaffold&lt;br&gt;&lt;/br&gt;./script/generate scaffold Task title:string notes:text  complete:boolean&lt;br&gt;&lt;/br&gt;rake db:migrate&lt;br&gt;&lt;/br&gt;</code><br>
+Install the plugin, which is compatible with Rails 2.3.2 (yay!) and previous versions of rails (if you <a href="http://wiki.github.com/activescaffold/active_scaffold/getting-started">install a specific revision</a>)<br>
+<code>&lt;br&gt;&lt;/br&gt;./script/plugin install git://github.com/activescaffold/active_scaffold.git&lt;br&gt;&lt;/br&gt;</code><br>
+Now we have an app that lets you create, view, edit and delete tasks. This is the end-user app, you could edit the views and remove controller actions to prevent editing, deleting and/or creation. We want to leave this interface as is, but create a separate set of pages to allow an administrator to view, create, modify and delete tasks.</p>
+<p>Sean came up with the idea of using routes with a namespace to facilitate this. Here’s what we came up with:</p>
+<p>In config/routes.rb add the following code:<br>
+<code>&lt;br&gt;&lt;/br&gt;  map.namespace :admin do |admin|&lt;br&gt;&lt;/br&gt;   admin.resources :tasks&lt;br&gt;&lt;/br&gt;  end&lt;br&gt;&lt;/br&gt;</code></p>
+<p>Create a copy of /app/views/layouts/tasks.html.erb and call it admin.html.erb (in same folder), then add the following lines inside the &lt;head&gt; tag:<br>
+``</p>
+<p>Create app/controllers/task_controller.rb:<br>
+<code>&lt;br&gt;&lt;/br&gt;class Admin::TasksController &lt; TasksController&lt;br&gt;&lt;/br&gt;   layout &quot;admin&quot;&lt;br&gt;&lt;/br&gt;   active_scaffold :task&lt;br&gt;&lt;/br&gt;end&lt;br&gt;&lt;/br&gt;</code></p>
+<p>Check it out:<br>
+<code>&lt;br&gt;&lt;/br&gt;http://localhost:3000/admin/tasks&lt;br&gt;&lt;/br&gt;</code><br>
+<img src="http://img.skitch.com/20090702-tgy9a9y5g981xf589k6b3txjym.jpg" alt=""><br>
+and when you click edit:<br>
+<img src="http://img.skitch.com/20090702-mm8tr6jceckp7y78kbc495nwnq.jpg" alt=""></p>
+
+<hr>
+<ul><li>Next: <a href="/2009/07/rails-admin-interface-roundup/">rails admin interface roundup</a></li><li>Previous: <a href="/2009/06/people-love-ruby-is-that-appropriate/">people love Ruby&amp;#8230; is that appropriate?</a></li>
+</ul>
+
+    </body>
+</html>

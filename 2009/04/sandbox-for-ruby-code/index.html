@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>sandbox for ruby code</title>
+    </head>
+    <body>
+        
+<h1>sandbox for ruby code</h1>
+
+<p>David Stevenson, <a href="http://flouri.sh/">flouri.sh</a>, talk “Playing With Fire: Running Uploaded Ruby Code in a Sandbox” at <a href="http://gogaruco.com/">Golden Gate Ruby Conference</a></p>
+<p>A sandbox needs to:</p>
+<ul>
+<li>Limit functionality</li>
+<li>Make it so code can’t break out</li>
+<li>Separate code space</li>
+<li>Bounded execution time</li>
+</ul>
+<p><strong>Sandbox gems</strong></p>
+<ul>
+<li>Freaky-freaky sandbox gem (MRI Ruby): it’s a gem, but you can’t use gem install. No support for 1.8.7 and later.</li>
+<li>JavaSand gem (JRuby): same API as the freaky-freaky sandbox, more actively maintained</li>
+<li>Rubinious has SubVMs, David doesn’t have experience with it</li>
+</ul>
+<p><strong>acts_as_runnable_code</strong> is a sandbox helper:<br>
+set up sandbox easily with referenced classes<br>
+pass in top-level binding</p>
+<p>Built an example in just a few minutes that allowed people to enter experession to be evaluated and opened to the audience (offering cupcakes to anyone who broke it!). Here’s some of the first experiments from the audience:</p>
+<p><img src="http://img.skitch.com/20090417-bb68kd3qyyn3yrimx2htyc1bna.jpg" alt="Exprs: index"></p>
+
+<hr>
+<ul><li>Next: <a href="/2009/04/ruby-proxies/">ruby proxies</a></li><li>Previous: <a href="/2009/04/sinatra-simple-ruby-web-app-library/">sinatra: simple ruby web app library</a></li>
+</ul>
+
+    </body>
+</html>

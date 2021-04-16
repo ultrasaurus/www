@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>rails admin interface roundup</title>
+    </head>
+    <body>
+        
+<h1>rails admin interface roundup</h1>
+
+<p>After my recent <a href="https://www.ultrasaurus.com/sarahblog/2009/07/getting-started-with-activescaffold/">ActiveScaffold post</a>, I heard about several newer alternatives from <a href="https://www.ultrasaurus.com/sarahblog/2009/07/getting-started-with-activescaffold/#comment-781">Jaime Flournoy</a>, <a href="http://twitter.com/MikeG1/status/2442160429">Mike Gunderloy</a>, and some more <a href="http://ruby-toolbox.com/categories/rails_admin_interfaces.html">web surfing</a>. I evaluated four plugins for admin UI, using the following methodology:</p>
+<p><code>&lt;br&gt;&lt;/br&gt;rails xxx_simple&lt;br&gt;&lt;/br&gt;cd xxx_simple/&lt;br&gt;&lt;/br&gt;./script/generate scaffold Task title:string notes:text  complete:boolean&lt;br&gt;&lt;/br&gt;rake db:migrate&lt;br&gt;&lt;/br&gt;</code></p>
+<p>plus whatever annotations to the code the plugin needed. Then I ran a little script to generate 500 records:</p>
+<p><code> 500.times do |counter|&lt;br&gt;&lt;/br&gt;  </code>curl -X POST -d &quot;Another thing #{counter}More text with #{counter} thing&quot; -H &quot;Content-Type: application/xml&quot; http://localhost:3000/tasks.xml<code>&lt;br&gt;&lt;/br&gt;end&lt;br&gt;&lt;/br&gt;</code><br>
+They all support related models, but I only have screen shots from my simple test. I’ve listed them below with the ones I liked best at the top.</p>
+<h2>typus</h2>
+<p><a href="http://github.com/fesplugas/typus/tree/master">Typus</a> is the one I’m moving forward with. It has a clean interface and has nice configuration options. You can configure which columns are displayed and which are searched (with a nice UI touch of displaying the search criteria under the search box). It is actively maintained with quite a few contributors and a responsive <a href="http://groups.google.com/group/typus">google group</a>. I really like how relationships are displayed (for which I don’t have a picture, sorry). The only drawback (for me) is that it has its own auth and I don’t really want to introduce a separate set of admin users for the project I am working on, and I’ll be looking into making a change to support my own auth. By default, it adds it’s own typus_users table, but this could be a plus for some.</p>
+<p>`<br></br>script/plugin install git://github.com/fesplugas/typus.git<br></br>script/generate typus<br></br>rake db:migrate<br></br>./script/server<br></br>```</p>
+<p>Now visit http://localhost:3000/admin and you will be prompted for your email address, from which it will automatically create the first admin user (pretty slick). The default UI looks like this:</p>
+<p><img src="http://img.skitch.com/20090705-fkut2mh3se18h2acxbfh1msgg4.jpg" alt=""><br>
+<img src="http://img.skitch.com/20090705-qxnawftfwf9na6m4eacejxy41h.jpg" alt=""> I ran into just one glitch where Rails reported &quot;A copy of ApplicationController has been removed from the module tree but is still active!&quot; but it was <a href="http://groups.google.com/group/typus/browse_thread/thread/70fba777518e26e">easily fixed</a>. The error didn't happen in my simple project, but did in my real app. Francesc Esplugas has looked into it and so far <a href="http://groups.google.es/group/typus/msg/051eff4f5089c5f9?hl=en">can't reproduce it</a>.</p>
+<h2>admin_data</h2>
+<p>I really liked <a href="http://github.com/neerajdotname/admin_data/tree/master">admin_data</a>. The simplicity of the install was breath-taking:<br>
+<code>&lt;br&gt;&lt;/br&gt;ruby script/plugin install git://github.com/neerajdotname/admin_data.git&lt;br&gt;&lt;/br&gt;sudo gem install will_paginate&lt;br&gt;&lt;/br&gt;./script/server&lt;br&gt;&lt;/br&gt;</code></p>
+<p>that's it. Now visit http://localhost:3000/admin_data and you'll see the following interface:</p>
+<p><img src="http://img.skitch.com/20090705-gs9rwj23bdn6au6d9ahekca3te.jpg" alt=""><br>
+<img src="http://img.skitch.com/20090705-cj86eyr95cjnbw1gn7k1b3taq8.jpg" alt=""></p>
+<p>I didn't try it, but I really like the admin_data approach to integrating with the application's authentication: Add the following lines of code in an initializer at ~/config/initializers/admin_data.rb</p>
+<p><code>&lt;br&gt;&lt;/br&gt;# authorization check to see if the data should be shown to the user&lt;br&gt;&lt;/br&gt;ADMIN_DATA_VIEW_AUTHORIZATION = Proc.new { |controller|&lt;br&gt;&lt;/br&gt;   controller.send(&quot;admin_logged_in?&quot;) }&lt;br&gt;&lt;/br&gt;# authorization check to see if the user should be allowed to update the data&lt;br&gt;&lt;/br&gt;ADMIN_DATA_UPDATE_AUTHORIZATION    = Proc.new { |controller| return false }&lt;br&gt;&lt;/br&gt;</code></p>
+<h2>streamlined</h2>
+<p><a href="http://streamlinedframework.org/">Streamlined</a> is nice, but not as pretty as ActiveScaffold. Not compatible with Rails 2.3. This and active_scaffold seem to be a little older than typus and admin_data and require you to modify your code similarly. I thought it nice that it provided its own admin layout. In my simple test I applied the series of steps and nested route as with <a href="//www.ultrasaurus.com/sarahblog/2009/07/getting-started-with-activescaffold/">active_scaffold</a>.<br>
+<code>&lt;br&gt;&lt;/br&gt;  class MyNiftyController &lt; ApplicationController&lt;br&gt;&lt;/br&gt;  layout 'streamlined'&lt;br&gt;&lt;/br&gt;  acts_as_streamlined</code></p>
+<p>...[anything else you want to do]<br>
+end</p>
+<p><img src="http://img.skitch.com/20090702-n3wgfmeh4wiq1k7bhfpj3fw79a.jpg" alt=""><br>
+<img src="http://img.skitch.com/20090702-q77sif7axcu6f15ardfiy7panx.jpg" alt=""></p>
+<h2>active_scaffold</h2>
+<p>See my <a href="https://www.ultrasaurus.com/sarahblog/2009/07/getting-started-with-activescaffold/">previous post</a> for details. This seems to be the grand-daddy of this genre of plugins and has a very active <a href="http://groups.google.com/group/activescaffold">google group</a>. I liked this plugin when I first tried it, but it hung when I applied it to my real app. Also, <a href="http://twitter.com/jamieflournoy/status/2445545932">@jamieflournoy notes</a> that he didn't like the UI for editing related models as much as he did Streamlined.</p>
+
+<hr>
+<ul><li>Next: <a href="/2009/07/next-steps-for-ruby-gender-balance/">next steps for ruby gender balance</a></li><li>Previous: <a href="/2009/07/getting-started-with-activescaffold/">getting started with activescaffold</a></li>
+</ul>
+
+    </body>
+</html>

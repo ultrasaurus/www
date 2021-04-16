@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>rails models are views?</title>
+    </head>
+    <body>
+        
+<h1>rails models are views?</h1>
+
+<p>Rails appears pretty strict about separation of the abstraction layers that make up its notion of a web application: models, view and controllers. If you were to suggest calling a presentation method, such as url_for, in your model, the stoic Rails advocate will have an allergic reaction. However, Rails thinks nothing of rendering a model directly as a view, such as:</p>
+<pre><code>
+format.json { render :json =&gt; @products }
+</code></pre>
+<p>Now, one might argue that this is controller code and the controller is allowed to interpret the model as a view. The controller’s job is to mediate this interaction. However, I feel that it is a dangerous shortcut, made even more so by how hard to seems to be to override. Perhaps the json implementation is simply incomplete.</p>
+<p>In xml, this strange controller pattern is easily corrected by <a href="http://danengle.us/2009/05/generating-custom-xml-for-your-rails-app/">providing an xml view</a>. The xml builder syntax is particularly readable, and it is easy to design your XML API effectively.</p>
+<p>I haven’t found an equivalent for json. I tried to use a JSON API today to no avail. My model included image data which breaks when auto-rendered in JSON. What I really wanted was to include a URL instead of the image data, which I implement neatly in my xml.builder view:</p>
+<pre><code>
+xml.instruct!
+xml.products(&quot;type&quot;=&gt;&quot;array&quot;) do
+  @products.each do |product|
+    xml.product do
+      xml.sku product.sku
+      xml.name product.name
+      xml.brand product.brand
+      xml.img_url url_for(:controller =&gt; :products, :action =&gt; :show, :format=&gt;:png, :id =&gt; product.id, :only_path =&gt; false)
+    end
+  end
+end
+</code></pre>
+<p>The problem is that I want a similar view in JSON. The to_json API leads me to put this logic in my model (gasp!). In fact, the ActiveRecord::Serialization docs give an example of providing a method to generate JSON instead of a literal attribute. The example is of a “permalink” which seem suspiciously like something that belongs is the view layer.</p>
+<pre><code>
+  konata.to_json(:methods =&gt; :permalink)
+  # =&gt; {&quot;id&quot;: 1, &quot;name&quot;: &quot;Konata Izumi&quot;, &quot;age&quot;: 16,
+        &quot;created_at&quot;: &quot;2006/08/01&quot;, &quot;awesome&quot;: true,
+        &quot;permalink&quot;: &quot;1-konata-izumi&quot;}
+</code></pre>
+<p>Today’s solution was to go back to using my comfortable old XML API, but I would prefer to consume JSON from the other side. I wonder if anyone is working on a JSON builder or if there is some clear solution that I haven’t yet stumbled upon.</p>
+
+<hr>
+<ul><li>Next: <a href="/2009/09/learning-through-testing/">learning through testing</a></li><li>Previous: <a href="/2009/08/ruby-unit-test-frameworks/">ruby unit test frameworks</a></li>
+</ul>
+
+    </body>
+</html>

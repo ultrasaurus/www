@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>debugging objective-c in xcode for iOS</title>
+    </head>
+    <body>
+        
+<h1>debugging objective-c in xcode for iOS</h1>
+
+<p>I’m coding again in native Objective-C coding for iOS with the lovely XCode. It has been a while so I’ve been reading up on debugging tricks. Sadly, it still feels a bit like debugging in Macsbug in 1990…</p>
+<p>The graphical display of object values is fairly useless, but in gdb, we can use the <strong>po</strong> command to get a pretty printing of the object if it comes with a built in description (for details see <a href="http://cocoawithlove.com/2008/10/debugging-tips-for-objective-c.html">nice writeup from cocoa with love</a>).</p>
+<p>For our own objects, we can define a debugDescription method. For example, if I have a Thing class which is a subclass of NSObject and just has a title and subtitle:</p>
+<blockquote>
+<pre><code>@implementation Thing
+
+@synthesize title;
+@synthesize subtitle;
+
+- (NSString *)debugDescription { return [NSString stringWithFormat:@&quot;title: %@n subtitle: %@&quot;, title, subtitle]; }
+
+@end
+</code></pre>
+</blockquote>
+<p>Then if I find myself at a breakpoint with an instance of Thing in scope, called “thing”:</p>
+<blockquote>
+<pre><code>(gdb) po thing
+title: Another
+subtitle: Another example
+</code></pre>
+</blockquote>
+<p>Or if I have an array of Thing instances, called “things”:</p>
+<blockquote>
+<pre><code>(gdb) po things
+&lt;__NSArrayM 0x6a157a0&gt;(
+title: Basic
+subtitle: My Thing,
+title: Something
+subtitle: Example of something,
+title: Another
+subtitle: Another example
+)
+</code></pre>
+</blockquote>
+<p><a href="http://iphonedevelopertips.com/cocoa/overriding-nsobject-description-method.html">iphonedevelopertips illustrates</a> this nicely in more detail with the description method which will do the same thing for any subclass of NSObject.</p>
+<p><strong>Note:</strong> <code>print-object</code> actually calls the <code>debugDescription</code> method of the specified object. <code>NSObject</code> implements this method by calling through to the <code>description</code> method. Thus, by default, an object’s debug description is the same as its description. However, you can override <code>debugDescription</code> if you want to decouple these; many Cocoa objects do this. (via <a href="http://developer.apple.com/library/mac/#technotes/tn2124/_index.html">Apple Tech Note 2124</a>)</p>
+<h2>Update: LLVM Debugger sucks less</h2>
+<p>If you <a href="http://developer.apple.com/library/mac/#documentation/IDEs/Conceptual/Xcode4TransitionGuide/Debugging/Debugging.html">choose the LLVM Debugger</a>, instead of gdb, you can see properties on an object without defining a description or debugDescription method:</p>
+<blockquote>
+<pre><code>
+(lldb) po thing
+(Thing *) $8 = 0x06a487d0 
+(lldb) po thing.title
+(NSString *) $9 = 0x00005984 Another
+(lldb) po thing.subtitle
+(NSString *) $10 = 0x00005994 Another example
+</code></pre>
+</blockquote>
+<p>…but still no love for Arrays:</p>
+<blockquote>
+<pre><code>
+(lldb) po things
+(NSMutableArray *) $11 = 0x06a0b6a0 (
+,
+,
+
+)
+</code></pre>
+</blockquote>
+<p>…just for fun, let’s see how to look at a property of the first object in an array:</p>
+<blockquote>
+<pre><code>
+(lldb) po [things objectAtIndex:0]
+(id) $12 = 0x06a44d20 
+(lldb) po [things objectAtIndex:0].title
+error: warning: instance method '-objectAtIndex:' not found (return type defaults to 'id')
+error: property 'title' not found on object of type 'id'
+error: 1 errors parsing expression
+(lldb) po (Thing*)[things objectAtIndex:0].title
+error: warning: instance method '-objectAtIndex:' not found (return type defaults to 'id')
+error: property 'title' not found on object of type 'id'
+error: 1 errors parsing expression
+(lldb) po ((Thing*)[things objectAtIndex:0]).title
+(NSString *) $14 = 0x00005944 Basic
+(lldb) po [[things objectAtIndex:0] valueForKey:@&quot;title&quot;]
+(id) $15 = 0x00005944 Basic
+</code></pre>
+</blockquote>
+<p>Whew!</p>
+
+<hr>
+<ul><li>Next: <a href="/2011/11/why-flash-lost-but-html-still-sucks/">Why Flash Lost but HTML Still Sucks</a></li><li>Previous: <a href="/2011/09/upgrading-pie-from-rails-3-0-to-3-1/">upgrading pie from rails 3.0 to 3.1</a></li>
+</ul>
+
+    </body>
+</html>

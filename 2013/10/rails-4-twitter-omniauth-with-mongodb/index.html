@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>rails 4 twitter omniauth with mongodb</title>
+    </head>
+    <body>
+        
+<h1>rails 4 twitter omniauth with mongodb</h1>
+
+<p>If you are brand new to MongoDB and Rails 4, take a quick look at my very basic <a href="https://www.ultrasaurus.com/sarahblog/code/">rails 4 mongodb tutorial</a> before diving into this one.</p>
+<p>Gems: <a href="http://mongoid.org">mongoid</a>, <a href="http://www.omniauth.org/">omniauth</a>, <a href="https://github.com/laserlemon/figaro">figaro</a></p>
+<h2>Let’s get started</h2>
+<p>Make sure you have Rails 4 (rails -v). We’ll make a Rails app skipping test-unit (-T), since I prefer RSpec, and omitting ActiveRecord (-O) since we’ll be using MongoDB.</p>
+<pre><code>
+rails new parakeet -T -O
+cd parakeet
+</code></pre>
+<p>Add the following to the Gemfile</p>
+<pre><code>
+gem &quot;mongoid&quot;, git: 'git://github.com/mongoid/mongoid.git'
+gem &quot;omniauth-twitter&quot;
+gem &quot;figaro&quot;    # key configuration using ENV 
+</code></pre>
+<p>Now some auto-code generation for quick setup:</p>
+<pre><code>
+rails g mongoid:config
+#      create  config/mongoid.yml
+
+rails generate figaro:install
+#      create  config/application.yml
+#      append  .gitignore
+</code></pre>
+<p>I’ve decided to use figaro which allows me to easily configure my API keys without committing them to my source repo, which is very helpful when posting open source code. We need to set up the app for an API key in order to auth with Twitter.</p>
+<h2>Get Developer Key from Twitter</h2>
+<p>Sign in using your regular Twitter account at: <a href="https://dev.twitter.com/">https://dev.twitter.com/</a></p>
+<p>Then in the upper-right, select “my applications”<br>
+<img src="https://www.monosnap.com/image/GagljLkbhcGSDhZNnegf0246b.png" alt=""></p>
+<p>Click “Create a new application” and fill in the form. I called my app blue-parakeet for uniqueness — you’ll have to make up your own name.<br>
+<img src="https://www.monosnap.com/image/CUWsk5qmrLGsoOBZxmqvldb8x.png" alt=""><br>
+Make sure you put in a callback URL, even though you won’t use it for development (since omniauth tells twitter the callback URL to override this setting) — if you don’t supply one you will get a 401 unauthorized error.</p>
+<p>Read and Accept the Terms, then click “Create Your Twitter Application”</p>
+<p>Now you have a “key” and “secret” (called “consumer key” and “consumer secret”) which you will need to configure your rails app.</p>
+<h2>Using Figaro gem for Configuring API keys</h2>
+<p>Edit <strong>config/application.yml</strong></p>
+<pre><code>
+# config via Figaro gem, see: https://github.com/laserlemon/figaro
+# rake figaro:heroku to push these to Heroku
+TWITTER_KEY: ABCLConsumerKeyCopiedFromTwitterDevPortal
+TWITTER_SECRET: XYZConsumerSecretCopiedFromTwitterDevPortal
+</code></pre>
+<h2>Configuring Omniauth</h2>
+<p>Edit <strong>config/initializers/omniauth.rb</strong></p>
+<pre><code>
+Rails.application.config.middleware.use OmniAuth::Builder do
+  provider :twitter, ENV['TWITTER_KEY'], ENV['TWITTER_SECRET']
+end
+</code></pre>
+<p>Now Omniauth is already setup to auth with twitter. Let’s run the server. Install mongo with <code>brew install mongodb</code> if you haven’t already. Also, if you don’t have mongo set up to run automatically at startup, then run Mongo:</p>
+<pre><code>
+mongod
+</code></pre>
+<p>Then run Rails server:</p>
+<pre><code>
+rails s
+</code></pre>
+<p>Go to <a href="http://localhost:3000/auth/twitter">http://localhost:3000/auth/twitter</a> and you’ll be presented with twitter auth<br>
+<img src="https://www.monosnap.com/image/OBdV4vFem0tOo4Nzn3lFpEjeB.png" alt=""></p>
+<p>However, when we authenticate, we get an error, since we have’t configured our routes yet:<br>
+<img src="https://www.monosnap.com/image/g0cDeKYAWVglRMuFtkcP5PKMU.png" alt=""></p>
+<h2>Create a Sessions Controller, Add Routes</h2>
+<p>Next step is a sessions controller and a route for the OAuth callback. We’ll make a placeholder create action that just reports the auth info we get back from Twitter.</p>
+<p>On the command line:</p>
+<pre><code>
+rails generate controller sessions
+</code></pre>
+<p>Edit the newly created file, <strong>app/controllers/sessions_controller.rb</strong></p>
+<pre><code>
+require 'json'
+class SessionsController  request.env[&quot;omniauth.auth&quot;]
+  end
+end
+</code></pre>
+<p>add the following to <strong>config/routes.rb</strong></p>
+<pre><code>
+get '/auth/:provider/callback' =&gt; 'sessions#create'
+get '/auth/failure' =&gt; 'sessions#failure'
+get '/signout' =&gt; 'sessions#destroy', :as =&gt; :signout
+root :to =&gt; redirect(&quot;/auth/twitter&quot;)  # for convenience
+</code></pre>
+<p>Now go to <a href="http://localhost:3000/auth/twitter">http://localhost:3000/auth/twitter</a> — after authenticating with Twitter, you will see the user info that Twitter sends to the app from the authentication request (see <a href="https://dev.twitter.com/docs/platform-objects/users">docs for explanation of each field</a>). The general stuff which is more consistent across providers is in the ‘info’ section, and most of the interesting twitter-specific info is in the “extra” section:<br>
+<img src="https://www.monosnap.com/image/4YQsosoWhSxJgZh8bLG5N0xgc.png" alt=""></p>
+<h2>User Registration</h2>
+<p>For this app, we’ll use a simple user model, just to show that there’s no magic here — we’re only using Twitter auth not storing our own passwords, so we don’t really need the full features of the lovely Devise gem.</p>
+<pre><code>
+rails generate scaffold user provider:string uid:string name:string
+</code></pre>
+<p>Add to <strong>app/models/user.rb</strong></p>
+<pre><code>
+  def self.create_with_omniauth(auth)
+    create! do |user|
+      user.provider = auth['provider']
+      user.uid = auth['uid']
+      if auth['info']
+        user.name = auth['info']['name'] || &quot;&quot;
+      end
+    end
+  end
+</code></pre>
+<p>With Rails 4 the recommended pattern to lock down model attributes that we don’t want changed from form submits (or malicious attacks) is in the controller. In <strong>app/controllers/users_controller.rb</strong> change:</p>
+<pre><code>
+    def user_params
+      params.require(:user).permit(:provider, :uid, :name)
+    end
+</code></pre>
+<p>to:</p>
+<pre><code>
+    def user_params
+      params.require(:user).permit(:name)
+    end
+</code></pre>
+<p>and then remove the corresponding fields from <strong>app/views/users/_form.html.erb</strong></p>
+<p>Finally, the real create action for the sessions controller, plus a destroy action for the /signout url we defined earlier:</p>
+<pre><code>
+  def create
+    auth = request.env[&quot;omniauth.auth&quot;]
+    user = User.where(:provider =&gt; auth['provider'],
+                      :uid =&gt; auth['uid']).first || User.create_with_omniauth(auth)
+    session[:user_id] = user.id
+    redirect_to user_path(user), :notice =&gt; &quot;Signed in!&quot;
+  end
+
+  def destroy
+    reset_session
+    redirect_to root_url
+  end
+</code></pre>
+<p>With this app, we’ve got a basic understanding to Twitter OAuth using Rails 4 and the OmniAuth gem. We didn’t actually do anything specific to MongoDB and no testing yet. It is important to understand the technology we’re working with before testing or even writing production code.</p>
+<p>Special thanks to <a href="http://twitter.com/railsapps">Daniel Kehoe</a> of RailsApps. His <a href="http://railsapps.github.io/tutorial-rails-mongoid-omniauth.html">Rails 3 OmniAuth Mongoid</a> tutorial provided a helpful foundation.</p>
+
+<hr>
+<ul><li>Next: <a href="/2013/11/civic-hacking-with-smithsonian-american-art/">civic hacking at the smithsonian</a></li><li>Previous: <a href="/2013/10/rails-4-with-mongodb-on-osx/">rails 4 with mongodb on osx</a></li>
+</ul>
+
+    </body>
+</html>

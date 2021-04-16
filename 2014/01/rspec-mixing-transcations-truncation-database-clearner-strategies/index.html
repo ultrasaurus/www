@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>rspec: mixing transcations and truncation database clearner strategies</title>
+    </head>
+    <body>
+        
+<h1>rspec: mixing transcations and truncation database clearner strategies</h1>
+
+<p>I’m using capybara-webkit for integration testing with rspec, which is awesome, because it is faster than other full-browser testing solutions, like Selenium, but it is slower than RackTest (default for RSpec testing). RSpec provides a nice way to specify an alternate driver when running Javascript tests, but configuration can be a little tricky. I got this working via this <a href="http://www.livinginthepast.org/2013/11/24/today-we-went-to-the-bad-place.html">excellent blog post</a> via <a href="https://twitter.com/sarahmei">Sarah Mei</a>, who was pairing with me for the day.</p>
+<p>I think it is important to actually understand the code that I copy/paste, so I took a little time to read up on the details which I’ve summarized below.</p>
+<h2>Favorite Testing Gems</h2>
+<p>I won’t elaborate on RSpec, the concepts in this post likely applies to test-unit as well. I written before about why <a href="https://www.ultrasaurus.com/2011/04/on-choosing-rspec-as-a-test-framework/">RSpec is my favorite</a>.</p>
+<h3>Rack::Test</h3>
+<p>When using RSpec in Rails, we use the rspec-rails gem, which configures a bunch of stuff that makes it easy to get started. By default, integration tests will use <a href="https://github.com/brynary/rack-test">rack-test</a>, a lovely little gem that supports methods like get, post, put and delete and handles the rack request and response objects. (via <a href="http://blog.plataformatec.com.br/2012/06/improving-the-integration-between-capybara-and-rspec/">platformatec</a>) It maintains cookies and follows re-directs, but is far from a full-browser, most notably, pages won’t execute Javascript. Rack::Test is quite lightweight, with tests running in the same process as your Rails code. Its speed is a huge advantage and worth retaining for your tests that don’t need more.</p>
+<h3>Capybara</h3>
+<p>Capybara is the world’s largest rodent, and the Ruby community is also the name of a <a href="https://github.com/jnicklas/capybara">favorite gem</a> for testing the content of web pages. (A successor to <a href="https://twitter.com/brynary">Bryan Helnkamp</a>‘s WebRAT, so named for Ruby Acceptance Testing, which instigated the rodent naming theme) Capybara is wonderful with its support for many “drivers” which allow for a consistent API across different solutions that offer different levels of browser support, with different performance characteristics.</p>
+<h3>Capybara::Webkit</h3>
+<p>Thoughtbot kindly created the <a href="https://github.com/thoughtbot/capybara-webkit">capybara-webkit</a> gem a few years ago, which I’ve found to be more reliable and performant than Selenium, and is my favorite choice for testing pages that need Javascript.</p>
+<p>One of its creators, Joe Ferris, explains how it works (via <a href="http://stackoverflow.com/questions/15945349/database-cleaner-issue-with-capybara-webkit">stackoverflow</a>)</p>
+<ol>
+<li>Capybara boots up your rack application using webrick or thin in a background thread.</li>
+<li>The main thread sets up the driver, providing the port the rack application is running on.</li>
+<li>Your tests ask the driver to interact with the application, which causes the fake web browser to perform requests against your application.</li>
+</ol>
+<h3>Database Cleaner</h3>
+<p>The <a href="https://github.com/bmabey/database_cleaner">DatabaseCleaner</a> gem is super helpful for our typical Rails app that relies on a database. We always want a “clean slate” when we start our tests and this nifty gem gives us a bunch of options with a consistent interface for various database choices.</p>
+<h2>Configuration</h2>
+<p>To configure these solutions correctly, it is critical to understand that with Capybara::Webkit our target app code is running in a separate process from our tests. This means that when we set up our test data RSpec is running in one process and needs to actually write to the database, then our app code reads from the database from another process. Wheras with Rack::Test, the tests and the target code runs in the same process. That’s why we can’t use a “transaction” strategy to reset our test environment with Capybara::Webkit. Instead we use the “truncation” strategy, which simple blows away all of the data after each test run.</p>
+<h3>Why bother with transactions?</h3>
+<p>Truncation will work just as well with Rack::Test as transcations, so why introduce the complexity of two different configurations? The <a href="https://github.com/bmabey/database_cleaner">Database Cleaner README</a> explains: “For the SQL libraries the fastest option will be to use :transaction as transactions are simply rolled back.” Sarah Mei elaborated on this by reminding me that the commit to the database is what takes the most time, and the transaction is never committed, it is simply rolled back at the end of your test. Transactions are pretty speedy, so we want to only use the truncation method when absolutely necessary.</p>
+<h3>Just Show me the Code</h3>
+<p>Here’s the configuration that was <a href="http://www.livinginthepast.org/2013/11/24/today-we-went-to-the-bad-place.html">documented by Eric Saxby</a> from Wanelo, which worked for me as well:<br>
+``</p>
+<pre><code>config.use_transactional_fixtures = true
+
+config.before(:each, js: true) do
+  self.use_transactional_fixtures = false
+  ActiveRecord::Base.establish_connection
+  DatabaseCleaner.strategy = :truncation
+  DatabaseCleaner.start
+end
+
+config.after(:each, js: true) do
+  DatabaseCleaner.clean
+  ActiveRecord::Base.establish_connection
+  self.use_transactional_fixtures = true
+end
+
+</code></pre>
+<h3>How does this work exactly?</h3>
+<p>We are set up to use <a href="https://relishapp.com/rspec/rspec-rails/docs/transactions">transactions</a> by default, which is built into rspec-rails and does not rely on DatabaseCleaner. Then, for our JS tests, we tell RSpec not to use transactions and instead instruct DatabaseCleaner to set up before each test runs with <code>DatabaseCleaner.start</code> and then clean up after with <code>DatabaseCleaner.clean</code>.</p>
+<p>I have no idea why <code>ActiveRecord::Base.establish_connection</code> is needed, but if we don’t do that, then <code>rake spec</code> hangs after my first JS test with this ominous warning:</p>
+<p>``</p>
+<p>WARNING: there is already a transaction in progress</p>
+<p>Perhaps someone reading this can explain this detail, but happy to have a configuration that works and hope this helps other folks who want fast tests that run reliably.</p>
+
+<hr>
+<ul><li>Next: <a href="/2014/01/ruby-find-latitudelongitude-list-cities/">ruby to find latitude/longitude for a list of cities</a></li><li>Previous: <a href="/2014/01/women-conference-speakers/">why more women conference speakers?</a></li>
+</ul>
+
+    </body>
+</html>

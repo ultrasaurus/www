@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>r: functions and avoiding loops</title>
+    </head>
+    <body>
+        
+<h1>r: functions and avoiding loops</h1>
+
+<p>After <a href="https://www.ultrasaurus.com/2012/10/getting-started-with-r/">getting started</a> with the basic syntax and some frequently used functions, I needed to learn to write some code.</p>
+<p>I enjoyed this nice <a href="http://www.statmethods.net/management/userfunctions.html">intro to functions</a>.</p>
+<pre><code>
+myfunction &lt;- function(arg1, arg2, ... ) {
+   statements
+   return(object)
+}
+</code></pre>
+<p>We can put functions (or any code) in a text file and load it from the R command line:</p>
+<pre><code>
+source(&quot;mycode.R&quot;)
+</code></pre>
+<p>where mycode.R is in the same directory as where I’m running R or a full path to the script.</p>
+<p>But then I got stuck in how to transform my data table. As much as I wanted to iterate using loops, I felt that was a very un-R-like solution. I found some good patterns in <a href="https://twitter.com/xieyihui">@xieyihui</a>‘s <a href="http://yihui.name/en/2010/10/on-the-gory-loops-in-r/">gory loops</a> post.</p>
+<p>If you need to make a string, you can use <code>paste</code> like Ruby’s join method:</p>
+<pre><code>
+&gt; words  words
+[1] &quot;one&quot;   &quot;two&quot;   &quot;three&quot;
+
+&gt; paste(words)
+[1] &quot;one&quot;   &quot;two&quot;   &quot;three&quot;
+
+&gt; paste(words, collapse=&quot;&quot;)
+[1] &quot;onetwothree&quot;
+
+&gt; paste(words, collapse=&quot;,&quot;)
+[1] &quot;one,two,three&quot;
+
+&gt; paste(words, collapse=&quot;, &quot;)
+[1] &quot;one, two, three&quot;
+</code></pre>
+
+<hr>
+<ul><li>Next: <a href="/2015/04/person-last-year/">not the person you were last year</a></li><li>Previous: <a href="/2015/04/why-i-love-working-in-tech/">why I love working in tech</a></li>
+</ul>
+
+    </body>
+</html>

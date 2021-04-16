@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>command line happiness</title>
+    </head>
+    <body>
+        
+<h1>command line happiness</h1>
+
+<p>How could I have lived for so long without knowing that I could set up my command line with vi key bindings? Well, for anyone else who uses vi and bash, here’s the secret…</p>
+<p>Create ~/.inputrc</p>
+<pre><code>
+set meta-flag on
+set input-meta on
+set output-meta on
+set convert-meta off
+</code></pre>
+<p>add this to your .bashrc</p>
+<pre><code>
+set -o vi
+</code></pre>
+<p>Thanks <a href="http://elasticprocess.com/blogs/adam">Adam</a>!</p>
+
+<hr>
+<ul><li>Next: <a href="/2009/03/892/">rails routes</a></li><li>Previous: <a href="/2009/02/play-is-an-essential-curriculum/">play is an essential curriculum</a></li>
+</ul>
+
+    </body>
+</html>

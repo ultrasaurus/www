@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>jruby on google app engine</title>
+    </head>
+    <body>
+        
+<h1>jruby on google app engine</h1>
+
+<p><img src="http://rails-depot.appspot.com/images/appengine_ruby.png" alt="app engine logo">John Woodell (<a href="http://twitter.com/johnwoodell">@johnwoodell</a>) gave an excellent talk at the <a href="http://www.meetup.com/appengine/calendar/13303709/">App Engine Meetup</a> this evening on using Ruby on Google’s AppEngine. After some highlights of App Engine and a tour of three real-world use cases, John gave a series of quick demos of what seem to be very well-documented resources for getting started. I built the simple “hello” Sinatra app during his talk which was pretty satisfying. I was distracted by my success with the first app, so I missed some of his Rails presentation, but it looks like the docs go through what he demo’d.</p>
+<h2>Overview</h2>
+<p>Key Features</p>
+<ul>
+<li>No need to install or maintain your own stack</li>
+<li>“We do the scaling for you” -&gt; Google services via standard APIs</li>
+<li>Charge only for actual usage – Always free to get started</li>
+<li>Built-in application management console (pretty sweet)</li>
+</ul>
+<p>Gotchas</p>
+<ul>
+<li>no native code</li>
+<li>no sockets or thread</li>
+<li>no writing to the files system</li>
+<li>30 seconds to do your work, then the request times out (issues with initialization in Rails, but they’ve developed a “deferred dispatch” workaround)</li>
+<li>takes several seconds to “spin up” a new JRuby instance when your app first starts or your load spikes</li>
+</ul>
+<p>Good things to know</p>
+<ul>
+<li>AppEngine datastore has no schema.</li>
+<li>Reads are always the same speed no matter how big your data store, writes are slower</li>
+<li>You use <strong>DataMapper</strong> rather than ActiveRecord.</li>
+<li>memcache API is available</li>
+<li>URL Fetch API is a drop-in replacement for Net::HTTP</li>
+<li>as of today, there will be a release where openssl “just works” for the first time</li>
+</ul>
+<p>Matthew Blain, the engineer for the main bulkloader tool, gave a short talk about it. Bulkloader lets you put data into the AppEngine data store. You can use it to import data or to move from one AppEngine app to another. It currently supports limited input: csv and simple xml. It also supports “simple text” for output. You can write any connector you want.</p>
+<p>Some real world references to people using Ruby on App Engine:</p>
+<ul>
+<li><a href="http://azazeal.xelixis.net/post/Starting-your-business-in-less-than-a-week-with-Rails-on-Google-App-Engine.aspx">real world app using JRuby, Rails and App Engine</a> (<a href="http://twitter.com/@azazeal">azazeal</a>)</li>
+<li><a href="http://www.codingforrent.com/">http://www.codingforrent.com/</a></li>
+<li>iPhone / iPad app with JSON interface: <a href="http://www.johntwang.com/blog/2010/04/23/json-with-ruby-on-rails-on-google-appengine/">blog post</a> and <a href="http://gist.github.com/377353">gist</a> by John Wang<br>
+[update from John Woodell’s comment]</li>
+</ul>
+<p>Very nice <a href="http://code.google.com/p/appengine-jruby/wiki/GettingStarted">getting started guide</a>, which I followed to build a Sinatra app in about 5 minutes.</p>
+<pre><code>sudo gem install google-appengine
+appcfg.rb generate_app hello
+dev_appserver.rb hello
+</code></pre>
+<p>After this I had an app running locally at http://localhost:8080/ — I find it unsettling to hear that the dev app is running on whatever Ruby I have, but when I deploy it is JRuby. John reassures me that the only real glitch that I’ll run into is if I have a gem with native code, for which there aren’t also java extensions (or an alternate pure Ruby implementation).</p>
+<p>Installation notes: hasn’t been tested with rvm, the env is there, so you don’t need it. gems are stored in a jar file, kept in .gems/bundler_gems in your app directory</p>
+<p>Then to deploy my app on App Engine, I needed to use my Google account to register an app. I picked the name “hello-sarah” which I then added to my config.ru. I also added a little snippet of Ruby code to the Rack app to report the current time, so I could tell it was mine.</p>
+<p><img src="http://img.skitch.com/20100505-kfetd3f8wsex4mradgc94s8m56.png" alt=""></p>
+<p>Then I typed some magic words into my local command line:</p>
+<pre><code>cd hello/
+appcfg.rb update .
+</code></pre>
+<p>Then my app was live at: <a href="http://hello-sarah.appspot.com/">http://hello-sarah.appspot.com/</a></p>
+<p>Since I tweeted it, I got a chance to see how the application dashboard works. Here’s what it looks like for this app which was first deployed a few hours ago:<br>
+<img src="http://img.skitch.com/20100505-fcre698bqgtxrw6bf2p298htwe.png" alt="dashboard"></p>
+
+<hr>
+<ul><li>Next: <a href="/2010/05/interactive-multi-touch-scholarship/">interactive multi-touch scholarship</a></li><li>Previous: <a href="/2010/05/diverse-genius/">diverse genius</a></li>
+</ul>
+
+    </body>
+</html>

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>http/3 starter notes, rust quiche</title>
+    </head>
+    <body>
+        
+<h1>http/3 starter notes, rust quiche</h1>
+
+<p>Learning about HTTP/3… Here are some starter notes</p>
+<ul>
+<li>Talk by Lucas Pardue at Demuxed 2019 — seek to 08:51:02 in <a href="https://www.twitch.tv/demuxed/video/498918740">twitch video</a></li>
+<li>Another good overview: https://curl.haxx.se/video/curlup-2019/2019-03-31-Robin-Marx-QUIC-details.pdf</li>
+</ul>
+<p>Good to know that they are going through a real IETF process so QUIC is evolving. CloudFlare makes it available, and will track the standard, so could be breaking changes ahead!</p>
+<p><strong>Rust implementation “Quiche”</strong></p>
+<p>uses Rust nightly, here’s a cheat sheet to getting set up..</p>
+<pre><code>git clone --recursive git@github.com:cloudflare/quiche.git
+
+# git submodule update --init --recursive
+
+cargo +nightly build --examples
+cargo +nightly test
+
+</code></pre>
+<p>or if you don’t want to keep writing <code>+nightly</code> then:</p>
+<pre><code>rustup override set nightly
+
+</code></pre>
+
+<hr>
+<ul><li>Next: <a href="/2019/11/nut-loaf-with-red-pepper-sauce/">nut loaf with red pepper sauce</a></li><li>Previous: <a href="/2019/10/rust-whats-a-tuple-variant/">[rust] what&amp;#8217;s a tuple variant?</a></li>
+</ul>
+
+    </body>
+</html>

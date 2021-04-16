@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>using ruby to fight aids</title>
+    </head>
+    <body>
+        
+<h1>using ruby to fight aids</h1>
+
+<p>We just heard a fantastic talk by Jacqui Maher about her work on the <a href="http://www.baobabhealth.org/">Boabab project</a>, fighting AIDS in Malawi, Africa.</p>
+<p>First, she gave us an overview of the AIDS epidemic, especially in Africa:</p>
+<ul>
+<li>Africa has 12% of the world’s population, but 60% of the people with AIDs</li>
+<li>In Malawi
+<ul>
+<li>14% of adults have AIDS</li>
+<li>8 people die every hour from aids</li>
+<li>there are 280 doctors</li>
+<li>3500 HIV/AIDS patients per doctor</li>
+</ul>
+</li>
+</ul>
+<p>When she arrived, patients would wait in long lines to see a doctor and patient intake would typically take 15 minutes. It was all paper-based an error-prone. In Malawi, they have a national id program where every ID card has a bar code. This could be used for easy patient intake. After they developed the hardware/software solution, it would take less than 1 minute to register new patients and less than 10 seconds for returning patients to get through the intake process.</p>
+<p>The solution was designed to help in a number of areas:</p>
+<ul>
+<li>Patient Registration: entering new patient data, generate national id bar code, or scan an existing one</li>
+<li>Encounters: any patient interaction</li>
+<li>Observations: diagnosis, progression, vitals, patients complaints, drug regimen</li>
+<li>Prescriptions: drugs, ingredients, inventory, etc.</li>
+</ul>
+<p>They overcame challenges with spotty internet connections and low bandwidth. They use a wireless mesh network, which is self-healing. The portable computer they used was based on the I-Opener (initially bought from the US on eBay, then 2000 were donated) which was hacked to include a touchscreen, ethernet, PoE (power over ethernet) and a bar code scanner. The software is Ubunto, Ruby on Rails, and MySQL.</p>
+<p>More details on the software:</p>
+<ul>
+<li>BART – Baobab Anti-Retroviral Treatment</li>
+<li>OpenMRS Data model</li>
+<li>templating using ERB</li>
+<li>App calls via AJAX</li>
+<li>Rspec tests</li>
+</ul>
+<p>Jacqui told a great story about Gem the Janitor (yes, that is his real name) who just picked up the device during a busy time when all of the nurses were busy, figured out the interface quickly and started helping register people. Now he runs the whole intake process.</p>
+<p>Why RoR?</p>
+<ul>
+<li>great community</li>
+<li>common consensus on best practices</li>
+<li>active contributions to OSS</li>
+<li>very accessible information on every part of the stack</li>
+<li>supurb interactive tutorials like peepcode</li>
+<li>Ruby is easier to learn offline that other languages, comes with documentation</li>
+<li>ActiveRecord: makes complex data models easier</li>
+</ul>
+<p>Now 265 of the 280 doctors are using this app. The data collection enables extensive reporting, enables agencies to use the data to focus research &amp; funding, and influence policy decisions.</p>
+<p>You can help!</p>
+<ul>
+<li><a href="http://github.com/baobab/">http://github.com/baobab/</a></li>
+<li>the developers are on IRC: freenode #baobab</li>
+<li>more info: <a href="http://www.baobabhealth.org/">www.baobabhealth.org</a></li>
+</ul>
+
+<hr>
+<ul><li>Next: <a href="/2009/04/open-source-digital-voting-software/">open source digital voting software</a></li><li>Previous: <a href="/2009/04/magic-scaling-sprinkles/">magic scaling sprinkles</a></li>
+</ul>
+
+    </body>
+</html>

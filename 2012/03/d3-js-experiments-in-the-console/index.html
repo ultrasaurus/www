@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>d3.js experiments in the console</title>
+    </head>
+    <body>
+        
+<h1>d3.js experiments in the console</h1>
+
+<p>d3 (aka Data-Driven Documents) is a great little JavaScript framework for data visualization. It’s got a nice declarative syntax for DOM manipulation that’s quite readable, but takes a bit of effort to understand exactly what it’s doing.</p>
+<p>Favorite links:</p>
+<ul>
+<li>UPDATE: <a href="http://www.dashingd3js.com/">Dashing D3.js</a> is an amazing series of tutorials with great conceptual grounding</li>
+<li><a href="http://mbostock.github.com/d3/api/">d3 tutorials</a> provide a great conceptual foundation</li>
+<li><a href="http://bost.ocks.org/mike/join/">Thinking with Joins</a> by d3 creator, Mike Bostick, helps explain the syntax for chaining methods</li>
+<li><a href="http://alignedleft.com/tutorials/d3/">Scott Murray’s d3 tutorial</a> offers a very nice step-by-step, covering a lot of the same ground as my little tutorial below with excellent discussions of the fundamentals.</li>
+</ul>
+<p>I like to understand stuff by playing with it interactively, so I created a skeleton index.html which just includes d3.js and a style a div where I’ll display some data.</p>
+<p>UPDATE: blank file below posted <a href="http://ultrasaurus.github.com/d3js-examples/simple-div.html">here</a></p>
+<pre><code>
+&lt;html&gt;&lt;br&gt;&lt;/br&gt;  &lt;head&gt;&lt;br&gt;&lt;/br&gt;    &lt;title&gt;d3 experiment&lt;/title&gt;&lt;br&gt;&lt;/br&gt;    &lt;script type=&quot;text/javascript&quot;&lt;br&gt;&lt;/br&gt;            src=&quot;https://raw.github.com/mbostock/d3/master/d3.js&quot;&gt;&lt;br&gt;&lt;/br&gt;    &lt;/script&gt;&lt;br&gt;&lt;/br&gt;    &lt;style type=&quot;text/css&quot;&gt;&lt;br&gt;&lt;/br&gt;      .box {&lt;br&gt;&lt;/br&gt;        background-color: skyblue;&lt;br&gt;&lt;/br&gt;        width: 24px;&lt;br&gt;&lt;/br&gt;        height: 18px;&lt;br&gt;&lt;/br&gt;        padding: 4px;&lt;br&gt;&lt;/br&gt;        margin: 1px;&lt;br&gt;&lt;/br&gt;      }&lt;br&gt;&lt;/br&gt;    &lt;/style&gt;&lt;br&gt;&lt;/br&gt;  &lt;/head&gt;&lt;br&gt;&lt;/br&gt;  &lt;body&gt;&lt;br&gt;&lt;/br&gt;  &lt;/body&gt;&lt;br&gt;&lt;/br&gt;&lt;/html&gt;&lt;br&gt;&lt;/br&gt;&lt;br&gt;&lt;/br&gt;&lt;br&gt;&lt;/br&gt;&lt;br&gt;&lt;/br&gt;
+</code></pre>
+<p>Then in the FireBug console, we can interact with d3, the top-level object that allows us to access all of d3’s goodness.</p>
+<pre><code>
+&gt;&gt;&gt; d3
+Object { version=&quot;3.0.1&quot;, random={...}, ns={...}, more...}
+&gt;&gt;&gt;  body = d3.select(&quot;body&quot;)
+[[body]]
+</code></pre>
+<p>Like jQuery, d3 let’s us “select” one or more DOM elements to operate on them. I only have one body tag, so I just get one element in an array — not yet sure why it needs a nested array. Now I can manipulate the DOM:</p>
+<pre><code>
+&gt;&gt;&gt;  body.append('p').text('Hello d3!')
+[[p]]
+</code></pre>
+<p>and “Hello d3!” appears at the top of my page. Yay! Of course that could have been written in a single line like:</p>
+<pre><code>
+d3.select(&quot;body&quot;).append('p').text('Hello d3!')
+</code></pre>
+<p>and if I want to change the text, I can use a regular old css selector to grab the paragraph element I just created:</p>
+<pre><code>
+d3.select(&quot;body p&quot;).text(&quot;Welcome to d3&quot;)
+</code></pre>
+<p>or, using the reference to the ‘body’ variable I created above:</p>
+<pre><code>
+body.select(&quot;p&quot;).text(&quot;d3 is cool&quot;)
+</code></pre>
+<h2>Data-driven Boxes</h2>
+<p>Ok, now that we understand the basics, let’s put some boxes on the page:</p>
+<pre><code>
+body.append('div').attr('class','box')
+</code></pre>
+<p>and let’s add a couple with text in them:</p>
+<pre><code> 
+body.append('div').attr('class','box').text('hi')
+body.append('div').attr('class','box').text('foo')
+</code></pre>
+<p>With my set of boxes, I can select one or all of them:</p>
+<pre><code>
+&gt;&gt;&gt; d3.select('.box')
+[[div.box]]
+&gt;&gt;&gt; d3.selectAll('.box')
+[[div.box, div.box, div.box]]
+</code></pre>
+<p>Then I can specify data to <em>bind</em> to each box and display it. I’ve read that d3 can deal with all sorts of data (like json, csv, etc.) but we’ll start with an array of numbers.</p>
+<pre><code>
+&gt;&gt;&gt; my_data = [20, 7, 32]
+[20, 7, 32]
+&gt;&gt;&gt; d3.selectAll('.box').data(my_data).text( function(d) { return d } )
+[[div.box, div.box, div.box]]
+</code></pre>
+<p><img src="https://img.skitch.com/20120330-jb12cx9qa7p16diptgy6kqjq6c.png" alt=""><br>
+<img src="https://img.skitch.com/20120330-qhkt419gnaqh2d9f5s53xns6nh.png" alt=""></p>
+<p>We can see that our data is associated with the DOM element and we can get at it via JavaScript in the console. (Of course, we should only do that for debugging. I would guess that __data__ is the private implementation of d3’s data binding.)</p>
+<pre><code>
+&gt;&gt;&gt; d3.select('.box')[0][0].__data__
+20
+</code></pre>
+<p>We can change the data like this:</p>
+<pre><code>
+&gt;&gt;&gt; new_data = [10, 50, 25]
+[10, 50, 25]
+&gt;&gt;&gt; d3.selectAll('.box').data(new_data)
+</code></pre>
+<p>You’ll see that the page doesn’t change visually, but in the console, you can see that the data does:<br>
+<img src="https://img.skitch.com/20120330-kwnsfr1kiuaskauqeruib7in3d.png" alt=""></p>
+<p>We need to explicitly tell d3 to do something with the data like this:</p>
+<pre><code>
+d3.selectAll('.box').text( function(d) { return d } )
+</code></pre>
+<p>We can also use this handy shortcut:</p>
+<pre><code>
+d3.selectAll('.box').text( String )
+</code></pre>
+</body></html>
+<hr>
+<ul><li>Next: <a href="/2012/06/nreduce-self-help-for-startups/">nreduce: self help for startups?</a></li><li>Previous: <a href="/2012/03/fixing-brew-install-opencv/">fixing brew install opencv on osx</a></li>
+</ul>
+
+    </body>
+</html>

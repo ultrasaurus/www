@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>sailsjs testing: how to truncate the database</title>
+    </head>
+    <body>
+        
+<h1>sailsjs testing: how to truncate the database</h1>
+
+<p>SailsJS is a NodeJS MVC framework that we use for the <a href="https://github.com/openopps/openopps-platform">OpenOpps Platform</a>. Sails has some basic <a href="http://sailsjs.org/documentation/concepts/testing">testing docs</a>, but it doesn’t explain how to set up the framework nicely where the database is dropped in between tests. I find myself always re-figuring out these patterns when I write experimental apps.</p>
+<p>With an in-memory database, this bootstrap.test.js will drop the database between tests:</p>
+<pre><code>
+var sails = require('sails');
+
+before(function(done) {
+  sails.lift({
+    // test config
+    environment: 'test',
+    port: 9999,   // so we can run the app and tests at the same time
+    hostName: 'localhost:9999',
+    connections: {
+      testDB: {
+        adapter: 'sails-memory'
+      }
+    },
+    models: {
+      connection: 'testDB'
+    },
+  }, function(err, server) {
+    if (err) return done(err);
+    done(err, sails);
+  });
+});
+
+after(function(done) {
+  sails.lower(done);
+});
+
+beforeEach(function(done) {
+  // Drops database between each test.  This works because we use
+  // the memory database
+  sails.once('hook:orm:reloaded', done);
+  sails.emit('hook:orm:reload');
+});
+</code></pre>
+<p>When I need to use postgres, Waterline doesn’t expose SQL truncate which would be much faster, instead this bootstrap.test.js will destroy all the models:</p>
+<pre><code>
+var async = require('async');
+var sails = require('sails');
+
+before(function(done) {
+  sails.lift({
+    // test config
+    environment: 'test',
+    port: 9999,   // so we can run the app and tests at the same time
+    hostName: 'localhost:9999',
+    models: {
+      connection: 'postgresql'
+    },
+  }, function(err, server) {
+    if (err) return done(err);
+    done(err, sails);
+  });
+});
+
+afterEach(function(done) {
+  destroyFuncs = [];
+  for (modelName in sails.models) {
+    destroyFuncs.push(function(callback) {
+      sails.models[modelName].destroy({})
+      .exec(function(err) {
+        callback(null, err)
+      });
+    })
+  }
+  async.parallel(destroyFuncs, function(err, results) {
+    done(err);
+  })
+});
+
+after(function(done) {
+  sails.lower(done);
+})
+
+</code></pre>
+
+<hr>
+<ul><li>Next: <a href="/2016/07/go-language-philosphy-thorugh-proverbs/">go language philosphy thorugh proverbs</a></li><li>Previous: <a href="/2016/06/serving-served-us/">serving those who served us</a></li>
+</ul>
+
+    </body>
+</html>

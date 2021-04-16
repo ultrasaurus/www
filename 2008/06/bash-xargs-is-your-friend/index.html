@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>bash: xargs is your friend</title>
+    </head>
+    <body>
+        
+<h1>bash: xargs is your friend</h1>
+
+<p>For some reason, since I set up my new machine, when I p4 sync I would get directories that aren’t writeable. This means that lzx files won’t compile since the swf needs to be written into the directory.</p>
+<p>To work-around this, I tried to just set permissions on all the directories. My first attempt (below), didn’t work…. anyone know why? the second one is more verbose and did work.</p>
+<p>$ find * -type d | chmod a+w<br>
+chmod: missing operand after <code>a+w’   Try </code>chmod –help’ for more information.</p>
+<p>Verbose work-around:<br>
+$ for i in * ; do if [ -d $i ]; then chmod a+w $i ; fi ; done</p>
+<p><strong>A better answer</strong>: the chmod command does not accept arguments on stdin, so you can’t just pipe a file list to it:</p>
+<p>$ find . -type d -print0 | xargs -0 chmod a+w</p>
+<p><a href="http://en.wikipedia.org/wiki/Xargs">xargs</a> is your friend</p>
+
+<hr>
+<ul><li>Next: <a href="/2008/06/learning-bash/">learning bash</a></li><li>Previous: <a href="/2008/06/openlaszlo-swf9-progress/">OpenLaszlo SWF9 progress</a></li>
+</ul>
+
+    </body>
+</html>

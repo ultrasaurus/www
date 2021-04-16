@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>[rust] what&#8217;s a tuple variant?</title>
+    </head>
+    <body>
+        
+<h1>[rust] what&amp;#8217;s a tuple variant?</h1>
+
+<p>Learning Rust, like with any new programming language, requires learning the language of compiler error messages, which is partly about the Rust language itself and partly how Rust programmers talk about the language. One of the first error messages that tripped me up was when I was attempting to return a <code>Result</code>.</p>
+<p>I wrote a function that had a syntax error like this one:</p>
+<pre><code>fn get_num() -&gt; Result&lt;i32, &amp;'static str&gt; {
+  let result = 4;
+  OK(result);
+}
+
+</code></pre>
+<p>Which generates this error:</p>
+<pre><code>   |
+11 | fn get_num() -&gt; Result&lt;i32, &amp;'static str&gt; {
+   |    -------      ^^^^^^^^^^^^^^^^^^^^^^^^^ expected enum `std::result::Result`, found ()
+   |    |
+   |    implicitly returns `()` as its body has no tail or `return` expression
+12 |   let result = 4;
+13 |   OK(result);
+   |             - help: consider removing this semicolon
+   |
+   = note: expected type `std::result::Result&lt;i32, &amp;'static str&gt;`
+              found type `()`
+
+</code></pre>
+<p>So, of course, I remove the semicolon, which leads to this error:</p>
+<pre><code>error[E0425]: cannot find function `OK` in this scope
+  --&gt; examples/tuple.rs:13:3
+   |
+13 |   OK(result)
+   |   ^^ help: a tuple variant with a similar name exists: `Ok`
+
+</code></pre>
+<p>The compiler doesn’t know what I’m attempting to do, so it gives me two possibilities:</p>
+<ol>
+<li>cannot find function <code>OK</code></li>
+<li>a tuple variant with a similar name exists: <code>Ok</code></li>
+</ol>
+<p>When I first saw this error, I thought the second part was simply pointing out the location of the error and giving me more detail. I spent a few hours trying to figure out where I had created a conflicting tuple variant… and what the heck was a tuple variant? I copy/pasted seemingly identical code and somehow the problem went away but I didn’t know what I had fixed. When I hit this error a second time, I isolated a small test case, wrote a <a href="https://stackoverflow.com/questions/55800693/whats-a-a-tuple-variant-understanding-compiler-error-message/55802994#55802994">StackOverflow post</a> and some helpful person pointed out that <code>Ok</code> in Rust has a lower-case <code>k</code>.</p>
+<p>For some reason my fingers really want to type <code>OK</code> and my eyes really want to see that as a correct formation of the syntax, so I get this error now and then. “Hello, tuple variant my old friend!” says the voice in my head that anthropomorphizes my code. Then as my fingers automatically fix the typo and recompile, I reflect on Rust tuples and wonder about tuple variants.</p>
+<h2>So, what’s a tuple?</h2>
+<p>A tuple is a “finite heterogeneous sequence,” and one of Rust’s primitive type (see <a href="https://doc.rust-lang.org/std/primitive.tuple.html">doc</a>).</p>
+<p>The <a href="https://doc.rust-lang.org/std/keyword.enum.html">enum keyword</a> allows us to express a type which has multiple <em>variants</em> which from context must be <em>tuple variants</em>, though I was never able to find a reference to this in the docs.</p>
+<p><strong>Update</strong>:<br>
+– <a href="https://twitter.com/ultrasaurus/status/1183402662340907008">discussion on twitter</a><br>
+– bug filed with suggestions from twitter thread: https://github.com/rust-lang/rust/issues/65386<br>
+– there are some very awesome people developing the Rust language (and surrounding ecosystem of tools and docs)</p>
+
+<hr>
+<ul><li>Next: <a href="/2019/10/http-3-starter-notes-rust-quiche/">http/3 starter notes, rust quiche</a></li><li>Previous: <a href="/2019/08/graph-in-rust-using-petgraph/">graph in rust using petgraph</a></li>
+</ul>
+
+    </body>
+</html>

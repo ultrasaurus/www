@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>time tracking with google calendar</title>
+    </head>
+    <body>
+        
+<h1>time tracking with google calendar</h1>
+
+<p>I just created a very lightweight time tracking system where we can use a Google Calendar to track who does what when and then get a spreadsheet that shows all of the hours worked by individuals.</p>
+<p>It goes with a spreadsheet where the first row has a header like this:<br>
+Date Meeting Sarah Paul Glen</p>
+<p><a href="https://www.ultrasaurus.com/wp-content/uploads/2014/07/Screen-Shot-2014-07-27-at-6.47.14-PM.png"><img src="../../../uploads/2014/07/Screen-Shot-2014-07-27-at-6.47.14-PM.png" alt="Screen Shot 2014-07-27 at 6.47.14 PM"></a></p>
+<p>The we just make events on Google calendar and invite whoever is working together at that time — could be a team meeting or one of us working on our own. Time will be tracked by first name of email address<br>
+(paul@whatever.com and paul@yahoo.com would all get tracked in the “Paul” column). Currently the script doesn’t support two different people who share the same email name before ‘@’.</p>
+<p>You just have to fill in your calendar id, which you can find if you choose Calendar Settings and scroll to the bottom of the first page (in Calendar Address section).</p>
+<pre><code>
+// add menu
+function onOpen() {
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var menuEntries = [{name:&quot;Calculate Hours&quot;, functionName: &quot;calculateHours&quot;}];
+  ss.addMenu(&quot;Hours&quot;, menuEntries);
+  // calcular al iniciar
+  calculateHours();
+}
+ 
+
+function meetingSummary(cal_id){
+  var hours = 0;
+  var cal = CalendarApp.getCalendarById(cal_id);
+  Logger.log(cal);
+  Logger.log('The calendar is named &quot;%s&quot;.', cal.getName());
+
+  var this_year = new Date(2013,0,1);
+  var now = new Date()
+  var events = cal.getEvents(this_year, now);
+  var results = []
+  
+  for ( i = 0 ; i &lt; events.length ; i++){
+    var event = events[i];
+    title = event.getTitle();
+    Logger.log(title);
+    var start = event.getStartTime() ;
+    var end =  event.getEndTime();
+    start = new Date(start);
+    end = new Date(end);
+    hours = ( end - start ) / ( 1000 * 60 * 60 );
+    guests = event.getGuestList();
+    
+    data = {meeting:title};
+    for (g in guests) {
+      var email = guests[g].getEmail();
+      var name = email.split('@')[0];
+      Logger.log(email, name);
+      data[name] = hours;
+    }
+    data['date'] = start.toDateString();
+    results.push(data)
+  }
+  
+  Logger.log(results);
+  return results;
+}
+
+function calculateHours(){
+  Logger.clear();
+  Logger.log(&quot;calculateHours&quot;);
+  var cal_id = &quot;put your cal id here&quot;;
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var s = ss.getSheets()[0];
+  var headerValues = s.getRange(&quot;A1:F1&quot;).getValues();
+  Logger.log(headerValues[0].length);
+  var columns = {}
+  var num_columns = headerValues[0].length;
+  for (i=0; i &lt; num_columns; i++) {
+    columns[headerValues[0][i].toLowerCase()] = i+1;
+  }
+  Logger.log(columns);
+  //{'glen':5, 'paul':4, 'description':6, 'meeting':2, 'sarah':3, 'date':1}
+  var title_column = 2;
+  
+  // from second row
+  var results = meetingSummary(cal_id);
+  Logger.log(&quot;results.length=&quot;+results.length);
+
+  for ( var row_number = 1; row_number &lt; results.length+1 ; row_number ++){
+    var result = results[row_number-1];
+    Logger.log(&quot;row_number=&quot;+row_number);
+    Logger.log(result);
+    for (name in columns) {
+      Logger.log(&quot;...&quot;+name+&quot;   &quot;+result[name]);
+      if (typeof result[name] == 'undefined') result[name] = &quot;&quot;;
+      s.getRange(row_number+1, columns[name]).setValue(result[name]);
+    }
+  }
+}
+</code></pre>
+
+<hr>
+<ul><li>Next: <a href="/2014/08/developing-open/">developing in the open</a></li><li>Previous: <a href="/2014/07/recruit-diverse-team/">how to recruit a diverse team</a></li>
+</ul>
+
+    </body>
+</html>

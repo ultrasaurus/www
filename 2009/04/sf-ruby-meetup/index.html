@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>sf ruby meetup</title>
+    </head>
+    <body>
+        
+<h1>sf ruby meetup</h1>
+
+<p>Last week I attended the <a href="http://www.meetup.com/sfruby/calendar/9781300/">March SF Ruby Meetup</a>. (Some day I hope to attend a meetup where I don’t personally double the number of women, but at least I wasn’t all alone, and the guys treated me as more of a geek than a girl, which is always a good sign.) I found the talks engaging and learned a few things.</p>
+<p>There were three short talks (see notes below):</p>
+<ul>
+<li><a href="#cellguided">CellGuided</a></li>
+<li><a href="#heroku">Heroku</a></li>
+<li><a href="#github">GitHub</a></li>
+<li><a href="#announce">Announcements</a></li>
+</ul>
+<a name="cellguided">  
+</a>
+<h2><a name="cellguided">CellGuided</a></h2>
+<p>Rajiv Aggarwal has created a treasure hunt application <a href="http://www.cellguided.com/">Cell Guided</a>. Rajiv generously shared details about what it took to build it and highlighted the various libraries and APIs he used for mapping and geo-coding.</p>
+<p>Geocoding using <a href="http://geokit.rubyforge.org/">GeoKit</a> (requires Google API Key)</p>
+<ul>
+<li>from street address: GeoKit::Geocoders::Muitgeocoder.geocode</li>
+<li>from ip address: GeoKit::Geocoders::IpGeocoder.geocode</li>
+</ul>
+<p>extends ActiveRecord</p>
+<pre><code>Whatever.find(:all, :origin =&gt; [37.39, -122.39], :within =&gt; 50)
+Whatever.find(:all, :origin=&gt;'100 Spear st, San Francisco, CA', :within=&gt;10)
+</code></pre>
+<p>Maps using <a href="http://ym4r.rubyforge.org/">ym4r</a></p>
+<p>Displays static or dynamic maps that you can interact with. For printing, couldn’t use the same API (since sometimes the Javascript wasn’t done by the time the print happened, sometimes the map would be blank), instead using the static map API worked.</p>
+<p>They use a ‘QR code’ on the flyer to encode the URL of the website. Pretty cool. Aside from an audience member: McDonalds in Thailand uses it on the packaging to tell you how many calories are in that food item!</p>
+<p>Q: How much Javascript did you have to write? “about a page”</p>
+<a name="heroku">  
+</a>
+<h2><a name="heroku">Heroku</a></h2>
+<p>Adam Wiggins, one of the co-founders of Heroku, demonstrated how easy it is to deploy a Ruby on Rails app to Heroku and talked about some additional neat features, as well as their (not yet final) plans for pricing the service.</p>
+<ul>
+<li>instant Ruby deployment</li>
+<li>deply integrated thru Ruby gem &amp; git</li>
+</ul>
+<p>how to:</p>
+<ol>
+<li>get heroku account</li>
+<li>sudo gem install heroku</li>
+<li>automatically adds a git remote</li>
+</ol>
+<p>you can use your own URL if you like, but by default it will make one up for youto make it easy to experiment. memcahce in beta right now. ‘heroku console’ will give you access to the console. The severs are locked down at the Unix level: filesystem is read-only now and git submodule hacks won’t work anymore.</p>
+<p>gem support?</p>
+<ul>
+<li>can vendor rails, but doesn’t work with binary gems</li>
+<li>create a .gems manifest</li>
+<li>coming from rubyforget, just add the name of the gem</li>
+</ul>
+<p>What if RubyForge doesn’t have it yet?<br>
+my-gem –source http://mygem.myserver.com</p>
+<p>Rmagick? all installed, other gems that depend on OS binaries: email us</p>
+<p>Q: how do you get your data in and out? A: taps .. streaming database import/export</p>
+<p>How to move data from your database to heroku…</p>
+<p>heroku db:push</p>
+<p>you can also do:<br>
+heroku db:pull</p>
+<p>backup? EC2 – tripple re-dundant. You should keep your own backups, of course. They provide some tools. Also heroku bundle:capture</p>
+<p>They have tested high traffic, easy to scale, built into the architecture. You’ll be sharing a db on the free apps.<br>
+You would pay to have a dedicated database. You get 1-2 mogrel/thins for free, higher for pay. You could crank it up to 8 just for a day, easy command line control. Can you specify limits? analogy to google ad words, set a budget… still working out the details, which is one of the reasons we aren’t publicly posting pricing.</p>
+<p>All 2.0 series of Rails are installed. If you want something else you can always vendor it.</p>
+<p>Uses postgres.. not mySql</p>
+<h2><a name="github">GitHub</a></h2>
+<p>Chris Wanstrath from <a href="https://github.com/">GitHub</a> gave an entertaining and detailed talk about the lesser known features of github. I was one of 2-3 people in the audience (of about 60-70) who raised their hands in answer to the question “who doesn’t have a github account?” Sitting near the front Chris challenged me to tell him what I didn’t like about GitHub. I had no gripes about the site, but hadn’t seen a reason to use github and had merely set up a remote repository on a dev server when needed to collaborate. Of course later in the week I realized I did have a GitHub account, I just wasn’t using it for posting. There’s probably no way you can write Ruby on Rails code for even just a few months and not have *some* reason to have an account on GitHub. After hearing Chris’ talk, I did have second thoughts about not using GitHub for my shared git repository. GitHub seems well-worth the price of admission with cool features for collaborating on shared code. Here are some highlights:</p>
+<p>Cool visualizations<br>
+(click on the images to link to the live graphs)</p>
+<p>“Punch Card” graph, commit activity by day and hour:<br>
+<a href="http://github.com/defunkt/github-gem/graphs/punch_card"><img src="http://img.skitch.com/20090404-cinaf3y46et54prptu47gkcngn.jpg" alt=""></a></p>
+<p>Blocks represent “impact”. Impact is (lines added + lines deleted) for all non-merge commits during a week period.<br>
+<a href="http://github.com/defunkt/github-gem/graphs/impact"><img src="http://img.skitch.com/20090404-fd8as1kwuc214fn7ff7e27mt7f.jpg" alt=""></a></p>
+<p>Network Graph Viewer<br>
+<a href="http://github.com/defunkt/github-gem/network"><img src="http://img.skitch.com/20090404-6uwjqc9cspcrxg36yk7yxpjji.jpg" alt="The github-gem Network - GitHub"></a></p>
+<p>They also use rubanalytics to create a <a href="http://github.com/defunkt/github-gem/graphs/traffic">view of page traffic</a> (based on the google analytics they were already using for githb).</p>
+<p>Looking at source code…<br>
+shift-select – highlight a section of code and send a URL<br>
+l &amp; h, key nav for pagination<br>
+on commits page, j &amp; k, c for commit</p>
+<p>on a commit… on the URL, add .patch or .diff<br>
+can wget the .patch, can apply it</p>
+<p>Fork Queue — I guess only admins have it</p>
+<p>They have a bug tracker in development. Lightweight, simple priority, modeled after gmail, same keyboard shortcuts.</p>
+<p>Chris talked in detail about various implementations of a “job queue,” apiece of work that can be done in the background by a persistent worker. Nice presso, sorry no notes. Heroku doesn’t support this yet… working on it. Noted “workling” an emerging Rails plugin.</p>
+<p>Odd langugage quote of the evening “We didn’t have to tie up the mongrel” (to a different audience this would mean something quite different!)</p>
+<h2><a name="announce">Announcements</a></h2>
+<p><a href="http://www.codecon.org/2009/">CodeCon</a> – unconference, for hackers by hackers<br>
+April 17-18</p>
+
+<hr>
+<ul><li>Next: <a href="/2009/04/language-evolved-from-song/">language evolved from song?</a></li><li>Previous: <a href="/2009/03/learning-from-the-piraha-language/">learning from the Pirahã language</a></li>
+</ul>
+
+    </body>
+</html>

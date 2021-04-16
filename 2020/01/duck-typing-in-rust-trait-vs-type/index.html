@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>duck typing in rust: trait vs type</title>
+    </head>
+    <body>
+        
+<h1>duck typing in rust: trait vs type</h1>
+
+<p>A <code>Trait</code> in the Rust programming language enables what today’s coders commonly call “duck-typing” (walks like a duck and quacks like a duck).</p>
+<p>In Rust, <code>type</code> refers to concrete types — the type of a value; whereas, a <code>Trait</code> refers to an abstract or generic type. Here the English word <em>type</em> lacks the specificity we need to describe these concepts, so we need adjectives to differentiate.</p>
+<h2>TLDR: traits vs types</h2>
+<p>The <code>type</code> keyword lets us define a type alias, like:</p>
+<pre><code>type Population = i32;
+
+</code></pre>
+<p>This is useful if I’m often passing around specific variables for a Population, and I have function that takes multiple numbers, then the compiler will be able to catch certain classes of errors:</p>
+<pre><code>fn report(p: Population, num: i32)
+
+</code></pre>
+<p>A Trait is a collection of functions that can be applied to a type (a built-in type, like <code>i32</code> or a type that we have defined with a struct, enum or type alias). A good example of a Trait is <a href="https://doc.rust-lang.org/std/string/trait.ToString.html#tymethod.to_string">ToString</a> which is part of the Rust standard library:</p>
+<pre><code>pub trait ToString {
+    fn to_string(&amp;self) -&gt; String;
+}
+
+</code></pre>
+<p>Here’s a naive approach to implementing ToString on a custom struct:</p>
+<pre><code>struct Monster {
+  eyeball_count: i32,
+}
+
+impl ToString for Monster {
+  fn to_string(&amp;self) -&gt; String {
+    format!(&quot;{}-eyed {}&quot;, self.eyeball_count, &quot;monster&quot;)
+  }
+}
+
+fn main() {
+  let m = Monster { eyeball_count: 3 };
+  println!(&quot;We just created a {}!&quot;, m.to_string())
+}
+
+</code></pre>
+<p>Experienced Rustaceans would rarely implement the above code, instead they might implement <a href="https://doc.rust-lang.org/std/fmt/trait.Display.html">std::fmt::Display</a> which provides additional functionality we probably want, so if I write this instead of <code>impl ToString for Monster</code>:</p>
+<pre><code>impl fmt::Display for Monster {
+  fn fmt(&amp;self, f: &amp;mut fmt::Formatter&lt;'_&gt;) -&gt; fmt::Result {
+    write!(f, &quot;{}-eyed {}&quot;, self.eyeball_count, &quot;monster&quot;)
+  }
+}
+
+</code></pre>
+<p>Then our code that calls <code>to_string</code> will still work, but we can also provide the variable directly to println! (or format!) and it will also work:</p>
+<pre><code>  println!(&quot;We just created a {}!&quot;, m);
+
+</code></pre>
+<p>This is because Rust allows for implementing functions on Traits in terms of a generic type.</p>
+<h2>Traits in context</h2>
+<p>Traits help break down what’s needed and make our code reusable and easier to maintain. Most libraries will use many Traits from the std libary, as well as their own Traits, which can make the learning curve a bit steep, but very flexible once you understand what they do.</p>
+<p>So, as I’m learning, it helps me to spell everything out, but then I end up with code that was a bit hard to read. Check out this beauty that I wrote yesterday:</p>
+<pre><code>async fn read_some&lt;R: AsyncRead + Send + Unpin&gt;(mut reader: R) -&gt; Result&lt;(), std::io::Error&gt;
+
+</code></pre>
+<p>I’m using Rust 1.39 with built-in <code>async fn</code> which means that the compiler will build me a future and I can declare as the return value to be whatever type that Future will ultimately produce (or simply what my function returns). In this case, I want to be able to pass in a <a href="https://docs.rs/tokio/0.2.10/tokio/net/struct.TcpStream.html">tokio::net::TcpStream</a> and also a “ReadHalf” that is returned from <a href="https://docs.rs/tokio/0.2.10/tokio/io/fn.split.html">split</a>.</p>
+<p>My first attempt at refactoring was to do this:</p>
+<pre><code>type Reader = AsyncRead + Send + Unpin;
+
+</code></pre>
+<p>The above code doesn’t do what I wanted. I’ve explained above that <code>type</code> creates an alias for a concrete type; however, when we provide Traits, it (unexpected for me) creates a “Trait object” which is not the abstract type I was looking for. What I wanted to do was to define a new Trait that composes the other traits, but has no implementation of its own. Here’s the syntax I was looking for:</p>
+<pre><code>trait Reader: AsyncRead + Send + Unpin { } 
+impl&lt;T: AsyncRead + Send + Unpin&gt; Reader for T {}
+
+</code></pre>
+<p>which I can then use like this:</p>
+<pre><code>async fn read_some&lt;R: Reader&gt;(mut reader: R) -&gt; Result&lt;(), std::io::Error&gt;
+
+</code></pre>
+<p>or in a slightly more readable form with <code>where</code>:</p>
+<pre><code>async fn read_some&lt;R&gt;(mut reader: R) -&gt; Result&lt;(), std::io::Error&gt;
+where R: AsyncReader  
+
+</code></pre>
+<p>If you want to see the working code, I have a few examples here: https://github.com/ultrasaurus/rust-tokio-proxy where each can be executed like this: <code>cargo run --example reader-type</code></p>
+<hr>
+<p>Many thanks to the Alice, David, Lucio and Jeb on Tokio discord who helped me understand types, traits and how they are used in tokio!</p>
+
+<hr>
+<ul><li>Next: <a href="/2020/07/hope-is-not-a-strategy/">hope is not a strategy</a></li><li>Previous: <a href="/2020/01/writing-c-library-in-rust/">writing c library in rust</a></li>
+</ul>
+
+    </body>
+</html>

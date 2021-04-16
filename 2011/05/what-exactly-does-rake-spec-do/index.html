@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>what exactly does rake spec do?</title>
+    </head>
+    <body>
+        
+<h1>what exactly does rake spec do?</h1>
+
+<p>$ rake spec<br>
+(in /Users/sarah/src/../my_app)<br>
+You have 1 pending migrations:<br>
+20110416135407 CreateCourses</p>
+<p>The rake spec command reminds us that we need to run our migration before running<br>
+our tests. In fact, it does a whole lot more than that. There are a whole bunch of best practices rolled in that one<br>
+command. To see exactly what is going on, we can run rake spec with the –trace<br>
+option:</p>
+<p><code>&lt;br&gt;&lt;/br&gt;$ rake spec --trace&lt;br&gt;&lt;/br&gt;(in /Users/sarah/src/tfr/svn/Book/code/class_app_new_source)&lt;br&gt;&lt;/br&gt;** Invoke spec (first_time)&lt;br&gt;&lt;/br&gt;** Invoke db:test:prepare (first_time)&lt;br&gt;&lt;/br&gt;** Invoke db:abort_if_pending_migrations (first_time)&lt;br&gt;&lt;/br&gt;** Invoke environment (first_time)&lt;br&gt;&lt;/br&gt;** Execute environment&lt;br&gt;&lt;/br&gt;** Execute db:abort_if_pending_migrations&lt;br&gt;&lt;/br&gt;** Execute db:test:prepare&lt;br&gt;&lt;/br&gt;** Invoke db:test:load (first_time)&lt;br&gt;&lt;/br&gt;** Invoke db:test:purge (first_time)&lt;br&gt;&lt;/br&gt;** Invoke environment&lt;br&gt;&lt;/br&gt;** Execute db:test:purge&lt;br&gt;&lt;/br&gt;** Execute db:test:load&lt;br&gt;&lt;/br&gt;** Invoke db:schema:load (first_time)&lt;br&gt;&lt;/br&gt;** Invoke environment&lt;br&gt;&lt;/br&gt;** Execute db:schema:load&lt;br&gt;&lt;/br&gt;** Execute spec&lt;br&gt;&lt;/br&gt;</code></p>
+<p>When it says invoke it is calling a particular rake task, but then it will call its dependencies. To really see what is happening in what order, check out the execute commands. The commands db:test:prepare and db:test:load don’t do much themselves, aside from setting up the environment and executing another task or two. We can see from the output that rake is actually executing the following steps:</p>
+<ol>
+<li>Don’t run the specs if there are pending migrations in the development database. (db:abort_if_pending_migrations)</li>
+<li>Drop the test database (db:test:purge)</li>
+<li>Load the schema into the test database (db:schema:load in environment “test”)</li>
+</ol>
+<p>These steps make sure that we are always testing in a clean environment, so we know exactly what we’re testing when we run our specs.</p>
+<p>The code that makes this happen in Rails 3, can now be found in <a href="https://github.com/rails/rails/blob/master/activerecord/lib/active_record/railties/databases.rake#L455">railties</a>. (Thanks to <a href="http://twitter.com/pixeltrix">@pixeltrix</a> for pointing me to it.)/62206174505873408</p>
+
+<hr>
+<ul><li>Next: <a href="/2011/05/javascript-and-ruby-classes/">javascript and ruby classes</a></li><li>Previous: <a href="/2011/04/cross-platform-frameworks-mobile-panel/">mobile panel: cross-platform frameworks</a></li>
+</ul>
+
+    </body>
+</html>

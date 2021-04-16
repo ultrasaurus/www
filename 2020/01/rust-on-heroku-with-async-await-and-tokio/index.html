@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>rust on heroku with async/await and tokio</title>
+    </head>
+    <body>
+        
+<h1>rust on heroku with async/await and tokio</h1>
+
+<p>In an effort to understand the new Rust async/await syntax, I made a super-simple app that simply responds to all HTTP requests with <strong>Hello!</strong> and deployed on <a href="https://www.heroku.com/">Heroku</a>.</p>
+<p>Update: If you just want to create a webservice in Rust and deploy on Heroku, I recommend next blog post: <a href="https://www.ultrasaurus.com/2020/01/rust-on-heroku-with-hyper-http/">rust on heroku with hyper http</a>. This blog post focuses on the details of how the underlying request and response is handled with async/await, on <a href="https://blog.rust-lang.org/2019/11/07/Async-await-stable.html">stable Rust since 11/2019</a>.</p>
+<p>The full source code and README instructions can be found on <a href="https://github.com/ultrasaurus/hello-heroku-rust/tree/tokio-only">github.com/ultrasaurus/hello-heroku-rust, tokio-only branch</a></p>
+<h2>Rust “hello world” app</h2>
+<p>Make a new project with cargo</p>
+<pre><code>cargo new hello_rust --bin
+cd hello_rust
+git init
+git add .
+git commit -m “cargo new hello_rust —bin”
+
+cargo run
+
+</code></pre>
+<p>output:</p>
+<pre><code>   Compiling hello_rust v0.1.0 (/Users/sallen/src/rust/hello_rust)
+    Finished dev [unoptimized + debuginfo] target(s) in 1.47s
+     Running `target/debug/hello_rust`
+Hello, world!
+
+</code></pre>
+<h2>Heroku setup</h2>
+<p>Rust isn’t officially supported by Heroku yet, but there are lots of “buildpacks” which help to deploy a Rust app. I picked <a href="https://github.com/emk/heroku-buildpack-rust">emk/heroku-buildpack-rust</a> — most stars, most forks &amp; recently updated!</p>
+<p>We need the <a href="https://devcenter.heroku.com/articles/heroku-cli">heroku CLI</a>. I already had it and just did <code>heroku update</code> to sync to latest version (<code>7.35.1</code>). Then to set up the app on heroku:</p>
+<pre><code>heroku create --buildpack emk/rust
+
+</code></pre>
+<p>output provides a unique hostname by default:</p>
+<pre><code>Creating app... done, ⬢ peaceful-gorge-05620
+Setting buildpack to emk/rust... done
+https://peaceful-gorge-05620.herokuapp.com/ | https://git.heroku.com/peaceful-gorge-05620.git
+
+</code></pre>
+<p>We need a Procfile so heroku knows our entrypoint</p>
+<pre><code>echo &quot;web: ./target/release/hello_rust&quot; &gt;&gt; Procfile
+
+</code></pre>
+<h2>Write the app</h2>
+<p>Add crate dependencies to <code>Cargo.toml</code> and add code to <code>main.rs</code> (and other files as with any Rust app). The <em>emk/rust buildpack</em> takes care of building everything as part of the heroku deploy.</p>
+<p>The following lines (in <code>Cargo.toml</code>) will add all of tokio features:</p>
+<pre><code>[dependencies]
+tokio = { version = &quot;0.2&quot;, features = [&quot;full&quot;] }
+
+</code></pre>
+<p>I’d rather specify only what’s needed, but ran into something I couldn’t debug myself (<a href="https://github.com/tokio-rs/tokio/issues/2050">issue#2050</a>)</p>
+<p>The core of the app accepts the sockets connections, but doesn’t read/write:</p>
+<pre><code>use std::env;
+use tokio::net::TcpListener;
+
+#[tokio::main]
+async fn main() {
+    // Get the port number to listen on (required for heroku deployment).
+    let port = env::var(&quot;PORT&quot;).unwrap_or_else(|_| &quot;1234&quot;.to_string());
+
+    let addr = format!(&quot;0.0.0.0:{}&quot;, port);
+    let mut listener = TcpListener::bind(addr).await.unwrap();
+
+    loop {
+        println!(&quot;listening on port {}...&quot;, port);
+        let result = listener.accept().await;
+        match result {
+            Err(e) =&gt; println!(&quot;listen.accept() failed, err: {:?}&quot;, e),
+            Ok(listen) =&gt; {
+                let (socket, addr) = listen;
+                println!(&quot;socket connection accepted, {}&quot;, addr);
+                println!(&quot;not doing anything yet&quot;);
+            }
+        }
+    }
+}
+
+</code></pre>
+<h2>Deploy on heroku</h2>
+<p>The above code will build and deploy, by simply pushing the code to heroku:</p>
+<pre><code>heroku push origin master
+
+</code></pre>
+<p>We can see what it is doing with <code>heroku logs --tail</code>:</p>
+<p>Here’s where it starts the build and then kills the old app:</p>
+<pre><code>2020-01-05T03:45:31.000000+00:00 app[api]: Build started by user ...
+2020-01-05T03:45:50.450898+00:00 heroku[web.1]: Restarting
+2020-01-05T03:45:50.454311+00:00 heroku[web.1]: State changed from up to starting
+2020-01-05T03:45:50.244579+00:00 app[api]: Deploy 399e1c85 by user ...
+2020-01-05T03:45:50.244579+00:00 app[api]: Release v24 created by user ...
+2020-01-05T03:45:50.701533+00:00 heroku[web.1]: Starting process with command `./target/release/hello_rust`
+2020-01-05T03:45:51.741040+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-01-05T03:45:51.819864+00:00 heroku[web.1]: Process exited with status 143
+
+</code></pre>
+<p>Oddly, it seems to start the app before “State changed from starting to up” but it will fail if we’re not listening on the right port, so maybe that is as expected:</p>
+<pre><code>2020-01-05T03:45:52.343368+00:00 app[web.1]: listening on port 49517...
+2020-01-05T03:45:53.322238+00:00 heroku[web.1]: State changed from starting to up
+2020-01-05T03:45:53.303486+00:00 app[web.1]: socket connection accepted, 10.171.202.59:17201
+2020-01-05T03:45:53.303545+00:00 app[web.1]: not doing anything yet
+2020-01-05T03:45:53.303619+00:00 app[web.1]: listening on port 49517...
+2020-01-05T03:45:53.313259+00:00 app[web.1]: socket connection accepted, 172.17.146.217:43686
+2020-01-05T03:45:53.313285+00:00 app[web.1]: not doing anything yet
+2020-01-05T03:45:53.313370+00:00 app[web.1]: listening on port 49517...
+2020-01-05T03:46:28.000000+00:00 app[api]: Build succeeded
+2020-01-05T03:46:48.251168+00:00 heroku[router]: at=error code=H13 desc=&quot;Connection closed without response&quot; method=GET path=&quot;/&quot; host=peaceful-gorge-05620.herokuapp.com request_id=a0d630d9-790a-47db-87af-67e680b27907 fwd=&quot;69.181.194.59&quot; dyno=web.1 connect=1ms service=1ms status=503 bytes=0 protocol=https
+
+</code></pre>
+<p>So, the first socket connection above is some internal heroku checker, then when I attempt to go to the app URL in the browser, it fails (as expected).</p>
+<h2>Async read and write</h2>
+<p>I tried to keep the code clear with as little <em>magic</em> as possible. It’s a bit verbose (without even handling HTTP in any general way), but I found it helpful to see the details of read and write.</p>
+<p>Note that adding <code>use tokio::prelude::*;</code> allows calling of <code>read_line</code> (defined in <code>tokio::io::AsyncBufReadExt</code>) and <code>write_all</code> (defined in <code>tokio::io::AsyncWriteExt</code>).<br>
+The additional code reads the bytes from the socket line by line until we get the the end of the HTTP Request (signalled by a blank line). So we look for two CLRFs (one at the end of the last header line and one for the blank line).</p>
+<p><code>tokio::spawn(async move</code> makes it so sure we can read/write from one socket while also listening for additional connections. <code>tokio::spawn</code> will allow the program execution to continue, while concurrently allowing our async function <code>process_socket</code> to read and write from the socket. Because we added <code>#[tokio::main]</code> above our <code>async fn main</code> entry point, tokio will set up an executor which will wait for all of our spawned tasks to complete before exiting.</p>
+<pre><code>use std::env;
+use tokio::net::TcpListener;
+use tokio::prelude::*;
+
+#[tokio::main]
+async fn main() {
+    // Get the port number to listen on (required for heroku deployment).
+    let port = env::var(&quot;PORT&quot;).unwrap_or_else(|_| &quot;1234&quot;.to_string());
+
+    let addr = format!(&quot;0.0.0.0:{}&quot;, port);
+    let mut listener = TcpListener::bind(addr).await.unwrap();
+
+    loop {
+        println!(&quot;listening on port {}...&quot;, port);
+        let result = listener.accept().await;
+        match result {
+            Err(e) =&gt; println!(&quot;listen.accept() failed, err: {:?}&quot;, e),
+            Ok(listen) =&gt; {
+                let (socket, addr) = listen;
+                println!(&quot;socket connection accepted, {}&quot;, addr);
+                // Process each socket concurrently.
+                tokio::spawn(async move {
+                    let mut buffed_socket = tokio::io::BufReader::new(socket);
+                    let mut request = String::new();
+                    let mut result;
+                    loop {
+                        result = buffed_socket.read_line(&amp;mut request).await;
+                        if let Ok(num_bytes) = result {
+                            if num_bytes &gt; 0 &amp;&amp; request.len() &gt;= 4 {
+                                let end_chars = &amp;request[request.len() - 4..];
+                                if end_chars == &quot;\r\n\r\n&quot; {
+                                    break;
+                                };
+                            }
+                        }
+                    }
+                    if let Err(e) = result {
+                        println!(&quot;failed to read from socket, err: {}&quot;, e);
+                        return;
+                    }
+                    let html = &quot;&lt;h1&gt;Hello!&lt;/h1&gt;&quot;;
+                    println!(&quot;request: {}&quot;, request);
+                    let response = format!(
+                        &quot;HTTP/1.1 200\r\nContent-Length: {}\r\n\r\n{}&quot;,
+                        html.len(),
+                        html
+                    );
+                    let write_result = buffed_socket.write_all(response.as_bytes()).await;
+                    if let Err(e) = write_result {
+                        println!(&quot;failed to write, err: {}&quot;, e);
+                    }
+                });
+            }
+        }
+    }
+}
+
+</code></pre>
+<h2>Background</h2>
+<p>Here’s my environment info (<code>rustup show</code>):</p>
+<pre><code>stable-x86_64-apple-darwin (default)
+rustc 1.39.0 (4560ea788 2019-11-04)
+
+</code></pre>
+<p>Reference docs</p>
+<ul>
+<li>https://docs.rs/tokio/0.2.6/tokio/net/struct.TcpListener.html</li>
+<li>https://docs.rs/tokio/0.2.6/tokio/net/struct.TcpStream.html</li>
+<li>https://docs.rs/tokio/0.2.6/tokio/task/fn.spawn.html</li>
+</ul>
+
+<hr>
+<ul><li>Next: <a href="/2020/01/rust-on-heroku-with-hyper-http/">rust on heroku with hyper http</a></li><li>Previous: <a href="/2019/12/patterns-of-actions-are-a-making/">patterns of actions are a making</a></li>
+</ul>
+
+    </body>
+</html>

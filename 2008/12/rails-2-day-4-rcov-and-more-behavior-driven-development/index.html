@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>rails 2 day 4: rcov and more behavior-driven development</title>
+    </head>
+    <body>
+        
+<h1>rails 2 day 4: rcov and more behavior-driven development</h1>
+
+<p>Today, we’ll follow modified steps, as recommended by <a href="http://blog.mattwynne.net/">Matt Wynne</a> who suggested <a href="http://www.ruby-forum.com/topic/174015#762387">refactoring to remove duplication</a> as an extremely important step:</p>
+<ol>
+<li>Describe a feature</li>
+<li>Execute the feature and Watch it fail</li>
+<li>Write the code to make it pass</li>
+<li>Refactor</li>
+<li>Go to step 2</li>
+</ol>
+<p>Also, since we’re using the generate scaffold command, we should remove unused code when refactoring as suggested in the original <a href="http://rails.homelinux.org/">Four Days on Rails</a> tutorial. I’ll also be using RCov to look at how much the feature description covers the code. I think this is a helpful way of digging into what the scaffold command actually did. This tutorial picks up where <a href="https://www.ultrasaurus.com/code/2008/12/rails-2-day-3.html">day 3</a> finished. You can skip day 1 or 2, if you already have installed Ruby on Rails and know a little bit about it.</p>
+<p>Today we will:</p>
+<ol>
+<li><a href="#install">Install RCov</a></li>
+<li><a href="#coverage">Look at Code Coverage</a></li>
+<li><a href="#more">Write more scenarios</a></li>
+<li><a href="#create">Create</a></li>
+<li><a href="#edit">Edit</a></li>
+<li><a href="#delete">Delete</a></li>
+<li><a href="#refactor">Refactor to remove duplication</a></li>
+<li><a href="#review">Review what we learned</a></li>
+</ol>
+<hr>
+<p><a name="install"></a></p>
+<h1>Install RCov</h1>
+<p>Elaborating slightly on the <a href="http://github.com/aslakhellesoy/cucumber/wikis/using-rcov-with-cucumber-and-rails">nice instructions</a> on the cucumber wiki, Aslak recommends that you use <a href="http://github.com/spicycode/rcov/tree/master">spicycode’s RCov</a> instead of the ‘official’ one, “as it currently segfaults too much for most people’s taste.”</p>
+<pre><code>&lt;pre class=&quot;code&quot;&gt;
+gem sources -a http://gems.github.com
+gem uninstall rcov
+gem install spicycode-rcov
+</code></pre>
+<p>Second, you’ll need to open up the cucumber generated task file and set the rcov config option (add one line in bold).</p>
+<p><code>&lt;strong&gt;in todolist/lib/tasks/cucumber.rake&lt;/strong&gt;</code></p>
+<blockquote>
+<p><code>&lt;br&gt;&lt;/br&gt;$:.unshift(RAILS_ROOT + '/vendor/plugins/cucumber/lib')&lt;br&gt;&lt;/br&gt;require 'cucumber/rake/task'&lt;br&gt;&lt;/br&gt;Cucumber::Rake::Task.new(:features) do |t|&lt;br&gt;&lt;/br&gt;  t.cucumber_opts = &quot;--format pretty&quot; &lt;br&gt;&lt;/br&gt;  &lt;strong&gt;t.rcov = true&lt;/strong&gt;&lt;br&gt;&lt;/br&gt;end&lt;br&gt;&lt;/br&gt;task :features =&gt; 'db:test:prepare'&lt;br&gt;&lt;/br&gt;</code></p>
+</blockquote>
+<p><a name="coverage"></a></p>
+<h1>Look at Code Coverage</h1>
+<p>Now when you run:</p>
+<pre><code>&lt;pre class=&quot;code&quot;&gt;
+rake features
+</code></pre>
+<p>And you point your browser at: <code>http://localhost/todolist/coverage/</code></p>
+<p>You’ll see:</p>
+<p><a href="http://farm4.static.flickr.com/3232/3145974854_02eb274fae_o.png"><img src="http://farm4.static.flickr.com/3232/3145974854_eecc2243ec.jpg" alt=""></a></p>
+<p>We can see that we don’t have complete coverage in two files: webrat.rb and tasks_controller.rb The first doesn’t matter, since it is part of the test framework (in fact there ought to be some way to exclude that), but we need to be concerned that half of our generated controller code is untested. By clicking on the filename, we can see the detailed coverage where the lines of code that are not covered are highlighted in red:</p>
+<p><a href="http://farm4.static.flickr.com/3093/3145974882_6c91b6a2a2_o.png"><img src="http://farm4.static.flickr.com/3093/3145974882_e734e02fd4.jpg" alt=""></a></p>
+<p>It is unsurprising that we’re covering just 40% of this file, since we’ve written just <a href="https://www.ultrasaurus.com/code/2008/12/rails-2-day-3.html">a single of scenario so far</a>.</p>
+<p><a name="more"></a></p>
+<h1>More Scenarios</h1>
+<p>Let’s look at what isn’t getting covered.</p>
+<ul>
+<li>show</li>
+<li>new</li>
+<li>edit</li>
+<li>update (called from edit)</li>
+<li>destroy</li>
+<li>create (called from new)</li>
+</ul>
+<p><a name="create"></a></p>
+<h2>Create</h2>
+<p>To create a task, we can leverage quite a bit of webrat, plus a step we wrote before. Add the following scenario to the feature file:</p>
+<p><strong><code>in features/tasklist.feature</code></strong></p>
+<pre><code>&lt;pre class=&quot;code&quot;&gt;
+Scenario: Add a Task
+When I go to the tasks page
+When I follow &quot;New task&quot;
+When I fill in &quot;description&quot; with &quot;go shopping&quot;
+And I press &quot;Create&quot;
+Then I should see &quot;Task was successfully created.&quot;
+And I should see &quot;go shopping&quot;
+</code></pre>
+<p>then run</p>
+<pre><code>&lt;pre class=&quot;code&quot;&gt;
+rake features
+</code></pre>
+<p><img src="http://farm4.static.flickr.com/3248/3146011820_a801cc35ac_o.png" alt=""></p>
+<p>You’ll see that all of the new steps that I just wrote for the “add a Task” scenario magically worked. What just happened? You can see from the output of “rake features” that the first step was already defined in tasklist_steps.rb (<a href="https://www.ultrasaurus.com/code/2008/12/rails-2-day-3.html">see day 3</a>), but each of the others is defined in webrat_steps.rb. With a little practice you’ll learn the webrat lingo, and it’ll save you a bunch of time. Pretty cool, huh?</p>
+<p>Now if we go back to look at our code coverage (http://localhost/todolist/coverage/), the tasks_controller.rb coverage is at 64.7%.<br>
+<a href="http://farm4.static.flickr.com/3098/3145039593_eafa164a16_o.png"><img src="http://farm4.static.flickr.com/3098/3145039593_9c48642385.jpg" alt=""></a><br>
+Clicking on the file, we can see the lines of code that are now tested. We’ve covered new and half of create. (Not quite sure what would cause that error condition, but we’ll move on for now.)</p>
+<p><a name="edit"></a></p>
+<h2>Edit</h2>
+<p>Now we’ll do some behavior-driven development, since the auto-generated task list and edit workflow isn’t exactly what I wanted. This is what I see after adding the “go shopping” task manually:</p>
+<p><img src="http://farm4.static.flickr.com/3089/3145209431_565cc149db_o.png" alt=""></p>
+<p>I don’t really need the “show” link (since my task only has its description as data and that’s shown in the list and since I’m removing that, I can just make the description itself as a link. So I want to add two scenarios to support my intended edit behavior:</p>
+<ul>
+<li>Clicking on the description link allows edit</li>
+<li>After Editing I return to the task list</li>
+</ul>
+<pre><code>&lt;pre class=&quot;code&quot;&gt;
+Scenario: Clicking on description link allows edit
+Given that I have created a task &quot;go shopping&quot;
+When I go to the tasks page
+When I follow &quot;Go Shopping&quot;
+Then I should see &quot;Editing Task&quot;
+</code></pre>
+<p><img src="http://farm4.static.flickr.com/3107/3145248655_c651d3f708_o.png" alt=""></p>
+<p>As expected, the new scenario fails. Time to write the code! The list of tasks can be found in app/views/tasks/index.html.erb</p>
+<p><img src="http://farm4.static.flickr.com/3098/3146118822_bbf8cd83db_o.png" alt=""></p>
+<p>As you can see that I’ve modified line 10 to link the description to the edit task page. Note that (h task.description) needs to be enclosed in parens. We want to keep the h, just to make sure that the description is properly escaped, in case it has special characters like ‘&lt;'. I also removed show and edit links. Now, when I run 'rake features' all of my steps pass. Yay!</p>
+<p>But wait! I still have the “show” method in my controller. What’s up with that? If I look at my coverage report, it shows that it is being called. In my controller, both create and update redirect to @task (which is the “show” page), like I did in <a href="https://www.ultrasaurus.com/code/2008/12/rails-day2.html#edit-controller">day 2</a>, I’ll modify those to redirect to index instead.</p>
+<p><code>in &lt;strong&gt;app/controllers/task_controller.rb&lt;/strong&gt;</code></p>
+<p>change:</p>
+<p><code>       format.html { redirect_to(@task) }</code></p>
+<p>to:</p>
+<p><code>format.html { redirect_to :action =&gt; &quot;index&quot;  } </code></p>
+<p>and remove the show method</p>
+<p>Rerun ‘rake features’ just to make sure all is good. And you can now see that the tasks_controller code coverage is at 62%. We’re calling edit, but not yet update… on to the next scenario.</p>
+<pre><code>&lt;pre class=&quot;code&quot;&gt;
+Scenario: After Editing I return to the task list
+Given that I have created a task &quot;go shopping&quot;
+When I go to the tasks page
+When I follow &quot;Go Shopping&quot;
+And I fill in &quot;description&quot; with &quot;buy bagels&quot;
+And I press &quot;Update&quot;
+Then I should see &quot;Task was successfully updated.&quot;
+And I should see &quot;Listing tasks&quot;
+And I should see &quot;buy bagels&quot;
+</code></pre>
+<p>When I run “rake features” the scenario passes. (Yay!) I don’t know how to hit the error condition in update either, but I’ll leave that for another day.</p>
+<p><a name="delete"></a></p>
+<h2>Delete</h2>
+<p>I left delete for last since it is a bit trickier. With the design of the app, there is a “destroy” link for each task in the list, so I have to figure out which one to click.</p>
+<p>I found this handy step definition in an <a href="http://github.com/aslakhellesoy/cucumber_rails/tree/master/features/step_definitions/lorry_steps.rb">example by Aslak</a>:</p>
+<pre><code>&lt;pre class=&quot;code&quot;&gt;
+When /^I delete the (d+)(?:st|nd|rd|th) lorry$/ do |pos|
+visit lorries_url
+within(&quot;table &gt; tr:nth-child(#{pos.to_i+1})&quot;) do
+click_link &quot;Destroy&quot;
+end
+end
+</code></pre>
+<p>When I first looked at that I thought <code>&gt; tr:nth-child</code> was some wild new Ruby syntax, but the kind folk on the RSpec list <a href="http://www.ruby-forum.com/topic/174063#new">answered my question</a> by pointing me to the <a href="http://www.w3.org/TR/CSS2/selector.html#child-selectors">CSS selector doc</a>. I had forgotten that &gt; was a CSS selector since I had never actually used that selector before. That hint combined with <a href="http://www.ruby-forum.com/topic/171269">a previous thread</a> and some digging around to brush up my Ruby and Rail skills led me to a solution. Here is my scenario for delete:</p>
+<pre><code>&lt;pre class=&quot;code&quot;&gt;
+Scenario: Delete a Task
+Given that I have created a task &quot;task 1&quot;
+When I go to the tasks page
+And I click &quot;delete&quot; for &quot;task 1&quot;
+Then I should see &quot;Listing tasks&quot;
+And I should not see &quot;task 1&quot;
+</code></pre>
+<p>To make this work, I can define a unique DOM id for each of my table row, then I can find the id for “task 1” and then click the link inside that table row.</p>
+<h3>1) Define a unique DOM id for each table row</h3>
+<p>In <code>app/views/tasks/index.html.erb</code>, we have some Ruby code which iterates through the list of tasks (@tasks) and for each ‘task’ there is a table row. To add a unique id for the table row, I insert a snippet of ruby code within &lt;% … %&gt; which evaluates to a unique string. In this case I use the string “task” plus to id of the task itself, generating task4, task5 or whatever.</p>
+<blockquote>
+<p><code>&lt;br&gt;&lt;/br&gt;&lt;% for task in @tasks %&gt;&lt;br&gt;&lt;/br&gt;  &lt;tr id=&quot;&lt;%=&quot;task&quot;+task.id.to_s%&gt;&quot;&gt;&lt;br&gt;&lt;/br&gt;</code></p>
+</blockquote>
+<h3>2) Find the id for “task 1”</h3>
+<p>Given the description of a task, I need to find its id. In the <a href="http://api.rubyonrails.org/classes/ActiveRecord/Base.html">ActiveRecord::Base API docs</a>, it describes some handy syntax for finding by attribute value. “Dynamic attribute-based finders are a cleaner way of getting (and/or creating) objects by simple queries without turning to SQL. They work by appending the name of an attribute to find_by_, find_last_by_, or find_all_by_.” Since the attribute I have is “description,” I can call</p>
+<pre><code>&lt;pre class=&quot;code&quot;&gt;
+task = Task.find_by_description(desc)
+</code></pre>
+<p>to get the task object where the description attribute matches the given parameter.</p>
+<h3>3) Click the link inside the table row</h3>
+<p>Putting it all together I can create a step definition like this:</p>
+<pre><code>
+When /^I click &quot;delete&quot; for &quot;(.*)&quot;$/ do |desc|
+task = Task.find_by_description(desc)
+within(&quot;table &gt; tr#task&quot;+task.id.to_s) do
+click_link &quot;Destroy&quot;
+end
+end
+</code></pre>
+<p>I run “rake features” and all is good. The only thing left to do is to rename the “Destroy” link to be “delete” as I described it and fix up the step to have a more general definition:</p>
+<pre><code>&lt;pre class=&quot;code&quot;&gt;
+When /^I click &quot;(.*)&quot; for &quot;(.*)&quot;$/ do |link, desc|
+task = Task.find_by_description(desc)
+within(&quot;table &gt; tr#task&quot;+task.id.to_s) do
+click_link link
+end
+end
+</code></pre>
+<p>I run “rake features” and see that 26 steps passed. Woo hoo! Code coverage shows 83.8% of the controller file (everything but those pesky error conditions.)</p>
+<p><a name="refactor"></a></p>
+<h1>Refactor to Remove Duplication</h1>
+<p>Now that the feature description roughly covers the functionality of our app, I sought to take Matt’s advice and look at the code and see if we need to remove some duplication.<br>
+I looked first at the controller and found something odd:</p>
+<p><code>in &lt;strong&gt;app/controllers/tasks_controllers.rb&lt;/strong&gt;:</code></p>
+<pre><code>&lt;pre class=&quot;code&quot;&gt;
+class TasksController  @tasks }
+end
+end
+
+# GET /tasks/new
+# GET /tasks/new.xml
+def new
+@task = Task.new
+
+respond_to do |format|
+format.html # new.html.erb
+format.xml  { render :xml =&gt; @task }
+end
+end
+
+# GET /tasks/1/edit
+def edit
+@task = Task.find(params[:id])
+end
+</code></pre>
+<p>The index and new methods repeat code, but the edit method, which I would expect to contain the same repeated 4 lines omits the code. In fact, if I remove those lines in index and new, the app works fine.</p>
+<pre><code>&lt;pre class=&quot;code&quot;&gt;
+class TasksController &lt; ApplicationController
+# GET /tasks
+# GET /tasks.xml
+def index
+@tasks = Task.find(:all)
+end
+
+# GET /tasks/new
+# GET /tasks/new.xml
+def new
+@task = Task.new
+end
+
+# GET /tasks/1/edit
+def edit
+@task = Task.find(params[:id])
+end
+</code></pre>
+<p>When I run ‘rake features’ all the steps pass and poking at the application also yields success. What’s going on? There must be something happening by default. At first I couldn’t figure out where ApplicationController was defined, but an answer to my <a href="http://www.ruby-forum.com/topic/174419#764163">question on the Rails list</a> pointed out that ApplicationController is one of the classes created by generate scaffold (defined in app/controllers/application.rb). Looking at the code (and comments) we can see that it simply sets some defaults for any controller in the application. ApplicationController is a subclass of ActionController::Base, which we can look up in the <a href="http://api.rubyonrails.org/">Rails API Doc</a>. The doc explains that “Actions, by default, render a template in the app/views directory corresponding to the name of the controller and action after executing code in the action.” I suppose the extra code is in there to facilitate modifying it, in case we wanted the action to do something special.</p>
+<p><a name="review"></a></p>
+<h1>What did we learn?</h1>
+<p>Today we learned about:</p>
+<ul>
+<li>installing and using RCov</li>
+<li>cucumber steps that can be quickly defined using webrat</li>
+<li>dynamic-attribute finders: find_by</li>
+<li>adding a unique DOM id to more easily test the app</li>
+</ul>
+<p>We also learned that you need to understand code in order to refactor it, but, of course, we already knew that :)</p>
+<p>There ends day 4, but I still haven’t completed all of the features of the Four Days on Rails tutorial. Topics yet to learn:</p>
+<ul>
+<li>Adding attributes and other models: do I scaffold again or just write code?</li>
+<li>Associated Models</li>
+<li>Pagination</li>
+<li>Updating multiple records</li>
+</ul>
+
+<hr>
+<ul><li>Next: <a href="/2008/12/history-of-the-santa-tracker/">history of the Santa tracker</a></li><li>Previous: <a href="/2008/12/situated-learning-through-open-source/">situated learning through open source</a></li>
+</ul>
+
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>rails 3 vs. rails 2 validation errors</title>
+    </head>
+    <body>
+        
+<h1>rails 3 vs. rails 2 validation errors</h1>
+
+<p>Not sure if this is a bug or a feature. I’d guess it is here for a reason, and maybe I’m late for noticing, but Rails 3 errors now provides an array for each attribute, whereas in Rails 2.3 it was just a string. Here’s the output from two almost identical applications…</p>
+<p>Loading development environment (Rails 2.3.8)<br>
+&gt;&gt; person = Person.new<br>
+=&gt; #&lt;Person id: nil, first_name: nil, last_name: nil, present: nil…<br>
+&gt;&gt; person.valid?<br>
+=&gt; false<br>
+&gt;&gt; person.errors<br>
+=&gt; #&lt;ActiveRecord::Errors:0x1034d8f10 @errors=#&lt;OrderedHash …<br>
+&gt;&gt; person.errors[:first_name]<br>
+=&gt; “can’t be blank”</p>
+<p>Loading development environment (Rails 3.0.0)<br>
+&gt;&gt; person = Person.new<br>
+=&gt; #&lt;Person id: nil, first_name: nil, last_name: nil, present: nil…<br>
+&gt;&gt; person.valid?<br>
+=&gt; false<br>
+&gt;&gt; person.errors<br>
+=&gt; {:first_name=&gt;[“can’t be blank”]}<br>
+&gt;&gt; person.errors.class<br>
+=&gt; ActiveModel::Errors<br>
+&gt;&gt; person.errors[:first_name]<br>
+=&gt; [“can’t be blank”]</p>
+<p>I didn’t see that in the release notes, but it failed my tests for ActiveRecord class. Someone else must have a list of these details, yes?</p>
+
+<hr>
+<ul><li>Next: <a href="/2010/09/cfp-mobile-software-engineering/">CFP: mobile software engineering</a></li><li>Previous: <a href="/2010/08/on-bootstrapping-a-business/">on bootstrapping a business</a></li>
+</ul>
+
+    </body>
+</html>

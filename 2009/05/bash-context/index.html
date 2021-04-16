@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>bash context</title>
+    </head>
+    <body>
+        
+<h1>bash context</h1>
+
+<p>Sometimes it takes quite an effort to be a “lazy programmer” (as in Larry Wall’s <a href="http://en.wikipedia.org/wiki/Larry_Wall#Virtues_of_a_programmer">virtues of a programmer</a>). I’ve been trying to optimize my workflow as I run into things that make for repetitive typing. I find when I can type less, I have more cycles to think. One of my favorite tools in laziness is bash scripting, but I’m still learning its ins and outs.</p>
+<p><strong>The problem</strong>: Lately I’ve been switching between subversion trees in OpenLaszlo. (Someday I want to convince the team to switch to git, but I’m not sure that would even solve the problem completely, since I also like having multiple webapps installed.) So I’ve got trunk checked out in different directories: a clean one for testing, one I keep for code reviews, a sandbox for whatever I’m working on at the moment, etc. Every time I switch OpenLaszlo contexts, I need to redefine $LPS_HOME environment variable and cd into that directory. Should be simple, huh?</p>
+<pre><code>
+BRANCH=&quot;trunk&quot;
+[ -n &quot;$1&quot; ] &amp;&amp; BRANCH=&quot;$BRANCH-$1&quot;
+
+echo &quot;BRANCH=$BRANCH&quot;
+
+export LPS_HOME=/Users/sarah/src/svn/openlaszlo/$BRANCH
+cd &quot;/Users/sarah/src/svn/openlaszlo/$BRANCH&quot;
+pwd
+</code></pre>
+<p>Except this didn’t work. It seemed that ‘cd’ had no effect and $LPS_HOME wasn’t modified. WTF? Lacking someone to look over my shoulder in my new solo work situation, I emailed my friend <a href="http://www.antisleep.com">Scott Evans</a> from whom I have learned much bash lore. He emailed me the following:</p>
+<p>1) use “.” to run the script, which runs it in your shell process instead<br>
+of in a child one.</p>
+<p>2) use a bash function instead — these run in your current environment.<br>
+try something like this in your bashrc/bash_profile:</p>
+<pre><code>
+trunk() {
+ echo &quot;dollar 1: ${1}&quot;
+ if [ -n &quot;${1}&quot; ] ; then
+   export LPS_HOME=/Users/sarah/src/svn/openlaszlo/trunk-${1}
+ else 
+   export LPS_HOME=/Users/sarah/src/svn/openlaszlo/trunk
+ fi
+
+ cd $LPS_HOME
+ pwd
+}
+</code></pre>
+<p>Note that I didn’t set something like $TRUNK there — since the thing is running in your shell environment, it’s good practice not to potentially step on existing variables, or leave any variables defined after the fact.</p>
+<p>Thanks Scott! Posting here so that I will always remember what I learned today and maybe some other folk will find it helpful.</p>
+
+<hr>
+<ul><li>Next: <a href="/2009/05/teaching-ruby-to-kids-first-lesson/">teaching kids to code: first lesson</a></li><li>Previous: <a href="/2009/05/fork-is-the-new-friend/">fork is the new friend</a></li>
+</ul>
+
+    </body>
+</html>

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>generating an .htaccess file for wordpress migration</title>
+    </head>
+    <body>
+        
+<h1>generating an .htaccess file for wordpress migration</h1>
+
+<p>So, I’ve been working to migrate my ultrasaurus weblog from Movable Type to WordPress (this one will come later). Since all the links were changing anyhow, I decided to move from ugly numbered permalinks to pretty links based on the title of the post. I only had a few hundred posts, but enough so I didn’t want to be doing it by hand. Since I’m learning Ruby and infatuated with it at the moment, I wrote a Ruby script to generate the .htaccess directives.</p>
+<p>In case this would be helpful to anyone else, here’s the code:</p>
+<p>[sourcecode language=’ruby’]<br>
+require ‘date’<br>
+require ‘find’</p>
+<p>Find.find(‘./archives/’) do |fname|<br>
+# puts fname<br>
+date_string = “”<br>
+title = “”<br>
+next if File.directory?(fname)<br>
+File.open(fname, “r”) do |f|<br>
+f.each_line do |line|<br>
+if m = line.match(“(</p>
+<h2>)(.*)(</h2>
+<p>)”) then<br>
+date_string = m.captures[1]<br>
+elsif m = line.match(“(</p>
+<h3>)(.*)(&lt;/h3)&quot;) then</h3>
+<p>title = m.captures[1].downcase<br>
+end<br>
+end<br>
+end</p>
+<p># for some reason my mt archives include some old drafts with no titles<br>
+next if title == &quot;&quot;</p>
+<p>oldfilename = File.basename(fname)</p>
+<p># 1) remove chars that I think wordpress removes<br>
+# 2) change spaces to dashes<br>
+# 3) handle this case to avoid —<br>
+# Emmy Award for Outstanding Lead Actress – Miniseries or Movie<br>
+# also avoid — which I saw in my data, but not sure why it was there<br>
+# 4) remove trailing dash if there is one<br>
+# Thank you ruby-talk http://www.ruby-forum.com/topic/167299<br>
+title = title.gsub(/[(,?!'&quot;:.+=/)]/, '').gsub(' ', '-').gsub('–','-').gsub(/-$/, '')</p>
+<p># get the new path to the entry, like &quot;/2003/03/brand-new-weblog/&quot;<br>
+date = Date.parse(date_string)<br>
+newpath = sprintf(&quot;%d/%02d/%s/&quot;, date.year.to_s, date.month.to_s, title);</p>
+<p># we want something like this:<br>
+# redirect 301 /old/old.htm http://www.you.com/new.htm</p>
+<p>output = &quot;redirect 301 /sarahblog/archives/&quot; + oldfilename + &quot; https://www.ultrasaurus.com/sarahblog/&quot; + newpath<br>
+puts output</p>
+<p>end # loop thru files in directory<br>
+[/sourcecode]</p>
+
+<hr>
+<ul><li>Next: <a href="/2009/01/on-learning-new-things/">on learning new things</a></li><li>Previous: <a href="/category-code/">Code</a></li>
+</ul>
+
+    </body>
+</html>

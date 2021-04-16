@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>teaching kids to code: lesson #3</title>
+    </head>
+    <body>
+        
+<h1>teaching kids to code: lesson #3</h1>
+
+<p>On the third (and final) class in my series of teaching Shoes and Ruby to 4th/5th graders, I decided to teach them to create a game. I met with my two fifth grade helpers the afternoon before the day of the class. I taught them how to create text and buttons and add a click method and showed them the Shoes manual, then let them experiment. This was a good experience for them, but we ended the day with a more complicated program than I felt we could do with the class and it incorporated internet images which wouldn’t work in the classroom since Internet connectivity isn’t working right now. I also ended up getting beyond my Shoes experience and had to ask help of the Shoes list. After some help from some kind souls, this was the app the kids wrote:</p>
+<pre><code>class OurApp &lt; Shoes
+ url '/',  :index
+
+ def index
+   clear
+   para &quot;Which is correct?&quot;
+   stack {
+     @correct = button &quot;A bed of clams&quot;
+     @wrong1 =button &quot;A coalition of cheetahs&quot;
+     @wrong2 =button &quot;A gulp of swallows&quot;
+   }
+
+   @correct.click {
+     clear
+     para &quot;Correct&quot;
+     image &quot;http://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Balloons-aj.svg/550px-Balloons-aj.svg.png&quot;
+     button &quot;Go Back&quot; do
+       visit &quot;/&quot;
+     end
+
+   }
+   @wrong1.click {
+     clear
+     para &quot;Wrong!&quot;
+     image &quot;http://icanhascheezburger.files.wordpress.com/2007/05/cheez_doing_it_wrong.jpg&quot;
+     button &quot;Go Back&quot; do
+       visit &quot;/&quot;
+     end
+   }
+   @wrong2.click {
+     clear
+     para &quot;Wrong, your consolation prize is...&quot;
+     image &quot;http://farm2.static.flickr.com/1166/1230713908_083d7f6c53_o.jpg&quot;,
+     :width =&gt; 500
+     button &quot;Go Back&quot; do
+       visit &quot;/&quot;
+     end
+   }
+
+ end  # this is the end of the index method, which lays out the &quot;/&quot; page
+
+end # this is the end of the subclass, which contains all the pages (well, one page)
+
+Shoes.app
+</code></pre>
+<p>I ended up teaching the class a much more simplified version. I think the initial session with two students worked well as a great approach to developing a lesson plan. I improved it even more in my live coding session where I built up the app in stages (with compile and demo between each of the steps below):</p>
+<ol>
+<li>Shoes app with para “Which is correct?”</li>
+<li>Add three buttons</li>
+<li>Add stack around the buttons</li>
+<li>Move the app into Game subclass, show that it has the same behavior</li>
+<li>Add ‘/correct’ url, button click action, and show_correct method</li>
+<li>Add ‘/wrong’ url, button click action, and show_correct method</li>
+</ol>
+<p>Then a student asked how to ask another question if after someone got the right answer. I just made another url and added a button with a visit action to the show_correct method.</p>
+<p>After the demonstration, I gave them a copy of the program for reference and told them <em>not</em> to copy it — they had to come up with their own questions and answers. Of course, then they typed in the whole program verbatim only substituting different editorial and ended up with dozens of syntax errors. I wish I had instructed them to do it just like I had and build up their app in several steps, and I did tell them to do that, after they started, but at first they were somehow convinced that all they needed to do was type it in to complete the assignment. Another approach would be to get them to follow along with me and get the whole class to complete each step before moving on the the next; however, once they have their hands on the keyboard it is really hard to get their attention. I also forgot to accidentally on-purpose type things wrong and demonstrate debugging. In any case, the students were engaged and reported having fun, even if most did not finish the game.</p>
+<p>Here’s my revised version of the app (improvements were to name the url and the method differently to make it clear that they were different things and to create just one “wrong” url and method to show reusing a method).</p>
+<pre><code>
+class Game &lt; Shoes
+  url '/',  :index
+  url '/correct',  :show_correct
+  url '/wrong',  :show_wrong
+
+  def index
+    clear
+    para &quot;Which is correct?&quot;
+    stack { 
+      @correct = button &quot;A bed of clams&quot; do
+        visit &quot;/correct&quot; 
+      end 
+
+      @wrong1 =button &quot;A coalition of cheetahs&quot; do
+        visit &quot;/wrong&quot; 
+      end
+
+      @wrong2 =button &quot;A gulp of swallows&quot;  do
+        visit &quot;/wrong&quot; 
+      end
+    }
+  end  # this is the end of the index method, which lays out the &quot;/&quot; page
+   
+  def show_correct
+    para &quot;Correct&quot;
+  end  # of the &quot;correct&quot; method, which lays out the &quot;/correct&quot; page
+    
+  def show_wrong
+    para &quot;Sorry, try again.&quot;
+  end  # of the &quot;wrong&quot; method, which lays out the &quot;/wrong2&quot; page
+
+end # this is the end of the &quot;Game&quot; subclass, which contains all pages
+
+Shoes.app 
+
+</code></pre>
+
+<hr>
+<ul><li>Next: <a href="/2009/06/google-waves-mixes-in-realtime/">google waves mixes in realtime</a></li><li>Previous: <a href="/2009/05/teaching-kids-to-code-lesson-2/">teaching kids to code: lesson #2</a></li>
+</ul>
+
+    </body>
+</html>

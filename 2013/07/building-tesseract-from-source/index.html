@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>building tesseract from source</title>
+    </head>
+    <body>
+        
+<h1>building tesseract from source</h1>
+
+<p>Thanks to the <a href="http://emop.tamu.edu/node/45">prior work of Matt Christy</a> at <a href="http://emop.tamu.edu/">eMOP</a>, I got started building <a href="https://code.google.com/p/tesseract-ocr/">Tesseract</a> from source (on Mac OSX 10.8.4).</p>
+<p>Here’s my slightly modified workflow:</p>
+<pre><code>
+svn checkout http://tesseract-ocr.googlecode.com/svn/trunk/ tesseract-ocr
+cd tesseract-ocr
+./autogen.sh
+mkdir build
+cd build
+../configure
+make
+make install
+</code></pre>
+<p>recently a makefile changed, and I need to regenerate them, starting at the source code root:</p>
+<pre><code>
+autoreconf --force --install
+cd build
+../configure
+make 
+make install
+</code></pre>
+<p>Making a “build” directory, makes it easier to keep track of source code changes with svn. I set up my global ignores to ignore the interim files and directories.</p>
+<pre><code>
+vi ~/.subversion/config
+</code></pre>
+<p>then I uncommented this line and added everything after .DS_Store</p>
+<pre><code>
+global-ignores = *.o *.lo *.la *.al .libs *.so *.so.[0-9]* *.a *.pyc *.pyo
+   *.rej *~ #*# .#* .*.swp .DS_Store *.in build config configure *.cache
+   aclocal.m4 m4
+</code></pre>
+<p>So then I only see source code files that are added or modified when I check</p>
+<pre><code>
+svn status
+</code></pre>
+
+<hr>
+<ul><li>Next: <a href="/2013/07/why-crowdsourced-transcription/">why crowdsourced transcription?</a></li><li>Previous: <a href="/2013/07/building-unix-package-with-autotools/">building unix package with autotools</a></li>
+</ul>
+
+    </body>
+</html>

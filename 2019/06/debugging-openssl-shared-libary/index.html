@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>debugging openssl shared libary</title>
+    </head>
+    <body>
+        
+<h1>debugging openssl shared libary</h1>
+
+<p>I’m debugging an issue where my app uses a library that requires me to dynamically link with an openssl library. What’s more I’m debugging it on an old linux version. Sigh.</p>
+<p><code>gdb</code> to the rescue!</p>
+<p>After figuring out how to build openssl from source, I stumbled upon a gdb trick… suppose you are using a fairly standard open source library (like openssl) and you want to debug something that uses it (some other library that doesn’t work over ssl), gdb will let you know if there’s an easy way to download the symbols! Just type <code>gdb</code> + <code>library name</code>.</p>
+<p>Here’s an example</p>
+<pre><code>gdb openssl
+GNU gdb (GDB) Red Hat Enterprise Linux (7.2-92.el6)
+Copyright (C) 2010 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later &lt;http://gnu.org/licenses/gpl.html&gt;
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type &quot;show copying&quot;
+and &quot;show warranty&quot; for details.
+This GDB was configured as &quot;x86_64-redhat-linux-gnu&quot;.
+For bug reporting instructions, please see:
+&lt;http://www.gnu.org/software/gdb/bugs/&gt;...
+Reading symbols from /usr/bin/openssl...(no debugging symbols found)...done.
+Missing separate debuginfos, use: debuginfo-install openssl-1.0.1e-57.el6.x86_64
+(gdb) quit
+
+</code></pre>
+<p>Now I can use this command to install the debug symbols for the specific version of openssl that is installed on this system:</p>
+<pre><code>debuginfo-install openssl-1.0.1e-57.el6.x86_64
+
+</code></pre>
+<p>then I can debug my app looking at how it calls openssl. In the gdb session below, I first set a breakpoint in main, and run to that point…</p>
+<pre><code>(gdb) b main
+(gdb) run
+Starting program: /home/builder/src/app 
+warning: no loadable sections found in added symbol-file system-supplied DSO at 0x7ffff7ffa000
+[Thread debugging using libthread_db enabled]
+
+Breakpoint 1, main (argc=4, argv=0x7fffffffe698) at sample.cpp:226
+226         LOG(&quot;Here I am in main!&quot;)
+
+</code></pre>
+<p>now the openssl library is loaded and I can set a breakpoint in it:</p>
+<pre><code>(gdb) b SSL_CTX_set_verify
+Breakpoint 2 at 0x7ffff7734bb0: file ssl_lib.c, line 2040.
+(gdb) c
+Continuing.
+Creating connection object
+[New Thread 0x7ffff4bd6700 (LWP 53)]
+Connecting to server/app URL: rtmps://live-api-s.facebook.com/rtmp/
+
+Breakpoint 2, SSL_CTX_set_verify (ctx=0x62efe0, mode=1, cb=0x7ffff7acb6c0 &lt;SecuredConnectionIO::VerifyCallback(int, x509_store_ctx_st*)&gt;)
+    at ssl_lib.c:2040
+2040        ctx-&gt;verify_mode=mode;
+
+</code></pre>
+<p>I can look at variables or all of the function arguments:</p>
+<pre><code>(gdb) p mode
+$1 = 1
+(gdb) info args
+ctx = 0x62efe0
+mode = 1
+cb = 0x7ffff7acb6c0 &lt;SecuredConnectionIO::VerifyCallback(int, x509_store_ctx_st*)&gt;
+
+</code></pre>
+<p>How cool is that?</p>
+
+<hr>
+<ul><li>Next: <a href="/2019/08/graph-in-rust-using-petgraph/">graph in rust using petgraph</a></li><li>Previous: <a href="/2019/06/digital-identity-how-to-verify-trust/">digital identity: how to verify trust?</a></li>
+</ul>
+
+    </body>
+</html>

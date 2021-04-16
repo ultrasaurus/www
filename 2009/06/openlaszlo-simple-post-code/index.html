@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>openlaszlo simple post code</title>
+    </head>
+    <body>
+        
+<h1>openlaszlo simple post code</h1>
+
+<p>Here’s a little form for sending an XML post in OpenLaszlo. This is a useful little snippet of code, since as if you get one little content header or something wrong, Rails will be unforgiving with its powerful, yet strict implementation of REST.</p>
+<p>What the app looks like (enter text in the top, click the button, response is printed in the lower box):</p>
+<p><img src="http://img.skitch.com/20090622-gts2h4rbw2pq7uwnpdq5e6ea2p.jpg" alt=""></p>
+<p>blockquote.code {<br>
+font-style: normal;<br>
+font-family: Monaco,monospace;<br>
+font-size: 10px;<br>
+border: solid 1px #aaa;<br>
+padding: 6px;<br>
+background-color: #eee;<br>
+color: inherit;<br>
+overflow:auto;<br>
+margin: 10px 0px;<br>
+}</p>
+<p>The code:</p>
+<blockquote>
+<p>&lt;canvas title=&quot;Test Post&quot; proxied=&quot;false&quot;&gt;<br>
+&lt;dataset src=&quot;http:/projects.xml&quot; name=&quot;ds&quot;<br>
+ondata=&quot;response.setAttribute('text'this.childNodes[0].serialize())&quot;/&gt;<br>
+&lt;simplelayout spacing=&quot;4&quot;/&gt;<br>
+&lt;edittext id=&quot;postdata&quot; multiline=&quot;true&quot; width=&quot;400&quot; height=&quot;200&quot;<br>
+text='&amp;lt;project&amp;gt; &amp;lt;title&amp;gt;XXX&amp;lt;/title&amp;gt; &amp;lt;/project&amp;gt;'/&gt;<br>
+&lt;button text=&quot;post&quot;&gt;<br>
+&lt;handler name=&quot;onclick&quot;&gt;<br>
+ds.setQueryParam(&quot;lzpostbody&quot;, postdata.text);<br>
+ds.setAttribute(&quot;querytype&quot;, &quot;POST&quot;);<br>
+ds.setHeader(&quot;Content-Type&quot;, &quot;application/xml&quot;)<br>
+ds.doRequest();<br>
+&lt;/handler&gt;<br>
+&lt;/button&gt;<br>
+&lt;edittext id=&quot;response&quot; multiline=&quot;true&quot; width=&quot;400&quot; height=&quot;280&quot;/&gt;<br>
+&lt;/canvas&gt;</p>
+</blockquote>
+
+<hr>
+<ul><li>Next: <a href="/2009/06/glass-box-voting/">glass box voting</a></li><li>Previous: <a href="/2009/06/simple-web-services-with-rails/">simple web services with rails</a></li>
+</ul>
+
+    </body>
+</html>

@@ -5,5 +5,10 @@
     "author": "Sarah Allen <sarah@ultrasaurus.com>",
     "dependencies": {
         "@11ty/eleventy": "^0.12.1"
+    },
+    "scripts": {
+        "build": "rm -rf _site/* && npx @11ty/eleventy",
+        "serve": "rm -rf _site/* && npx @11ty/eleventy --serve",
+        "debug": "rm -rf _site/* && DEBUG=* npx @11ty/eleventy"
     }
 }

@@ -1,7 +1,7 @@
 ---
 layout: base
 tags: []
-title: Welcome to my blog
+title: the evolving ultrasaurus
 ---
 
 *WIP - under construction* 

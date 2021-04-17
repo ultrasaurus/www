@@ -4,12 +4,7 @@ tags: []
 title: the evolving ultrasaurus
 ---
 
-*WIP - under construction* 
-
-Content should be all here, but no styles yet!
-
-
-[About](/about) [Speaking](/speaking) [Contact](/contact) [What is an ultrasaurus?](/ultrasaurus)
+*WIP - under construction*
 
 Here are all the posts:
 

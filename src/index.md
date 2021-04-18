@@ -4,16 +4,14 @@ tags: []
 title: the evolving ultrasaurus
 pagination:
   data: collections.blog
-  size: 3
+  size: 1
   reverse: true
-  alias: posts
 ---
 
 *WIP - under construction*
 
-Here are all the posts:
-
 {% for post in pagination.items %}
-{% include _postexcerpt %}
+
+{% include _post_highlight %}
 
 {% endfor %}

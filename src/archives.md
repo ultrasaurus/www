@@ -4,8 +4,6 @@ tags: []
 title: Archives
 ---
 
-[About](/about) [Speaking](/speaking) [Contact](/contact) [What is an ultrasaurus?](/ultrasaurus)
-
 Links to all of the posts:
 
 {% for post in collections.blog reversed %}

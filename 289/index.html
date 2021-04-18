@@ -1,0 +1,94 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2009/04/how-to-write-fast-ruby-code/">how to write fast ruby code</a></h3>
+<p><em>2009-04-17</em></p>
+<p>Carl Lerche talks about how to write fast ruby code. Yes, ruby is scalable. Scaling != speed. Focus of this talk is on speed. Ruby is fast enough for the vast majority of use cases.</p>
+<blockquote>
+<p>“Slow code is your fault.”</p>
+</blockquote>
+<p>How can I write fast code?<br>
+1. <strong>Write slow code</strong>: well-structured code that is easy to read. Don’t worry about performance the first time around. You can’t tell from the beginning what matters.<br>
+2. <strong>Use the scientific method</strong>.</p>
+<ol>
+<li>Define the question</li>
+<li>Gather information: where is time/memory being spent?</li>
+<li>Form Hypothesis: why is this chunk of code slow/memory hog</li>
+<li>Perform an experiment and collect data</li>
+<li>Publish results (restart if needed)</li>
+</ol>
+<p>Need questions like: “why is action X taking 600ms? ” why is 60% of a Merb dispatch cycle in content negotiation?” Why are my mongrel instances growing to 300MB of memory”</p>
+<p>Some useful tools:</p>
+<ul>
+<li><a href="http://github.com/somebee/rbench/tree/master">RBench</a></li>
+<li><a href="http://ruby-prof.rubyforge.org/">ruby-prof</a> to generate profile data / <a href="http://kcachegrind.sourceforge.net">kcachegrind</a>: for reading profile data</li>
+<li>explain analyze log files</li>
+<li>New Relix / five runs</li>
+<li>memory_usage_logger</li>
+<li>Bleak_house (memory leaks)</li>
+</ul>
+<p>Garbage collector is a conservative mark and sweep garbage collector. When it runs all your code stops. Each run can take 50-150ms. Triggers befre grabbing more system memory (every 8MB).</p>
+<p>Avoid creating unecessary objects. Understand the difference between Ruby methods (e.g. the difference between reverse! and reverse).</p>
+<p>DataMapper’s identity map is pretty awesome.</p>
+<p>Beware of modifying large strings.</p>
+<p>Don’t concat strings just to pretty print them across lines. Do this instead:</p>
+<pre><code>     s = &quot;Here is my long string&quot; 
+           &quot; that continues&quot;
+</code></pre>
+<p>Beware of closures.</p>
+<p>No code is the fastest code. Be lazy. Don’t run code till you have to.</p>
+<p>“Compiling your code.” Iterating is slow. Ruby’s AST is fast. (This is a little crazy, but sometimes you need it.)</p>
+<p>Make sure you have great tests, then when you optimize you can make sure you didn’t break anything.</p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

@@ -1,0 +1,180 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2020/01/writing-c-library-in-rust/">writing c library in rust</a></h3>
+<p><em>2020-01-16</em></p>
+<p>I want to write a library in Rust that can be called from C and just as easily called from Rust code. The tooling makes it pretty easy, but I had to look in a few places to figure how it is supposed to work and get tests running in both languages.</p>
+<h1>C library</h1>
+<p>To focus on the process of building and testing, the library will have a single function that adds two numbers. I wrote it in pure C first:</p>
+<p>lib.c</p>
+<pre><code>int add(int a, int b) {
+  return a + b;
+}
+<p></code></pre></p>
+<p>lib.h</p>
+<pre><code>int add(int a, int b);
+<p></code></pre></p>
+<p>main.c</p>
+<pre><code>#include &lt;stdio.h&gt;
+#include &quot;lib.h&quot;
+<p>int main() {
+int sum = add(1,2);
+printf(&quot;1 + 2 = %d\n&quot;, sum);
+}</p>
+<p></code></pre></p>
+<p>one-liner to compile and run the app</p>
+<pre><code>gcc *.c -o app &amp;&amp; ./app
+<p></code></pre></p>
+<p>output: <code>1 + 2 = 3</code></p>
+<p>then I wrote a simple automated test, based on <a href="https://eradman.com/posts/tdd-in-c.html">tdd blog post</a></p>
+<h1>Rust library</h1>
+<pre><code>cargo new add --lib
+<p></code></pre></p>
+<p>replace lib.rs with</p>
+<pre><code>#[no_mangle]
+pub extern &quot;C&quot; fn add(a: i32, b:i32) -&gt; i32 {
+    a + b
+}
+<p>#[cfg(test)]
+mod tests {
+#[test]
+fn it_works() {
+use crate::add;
+assert_eq!(add(2,2), 4);
+}
+}</p>
+<p></code></pre></p>
+<p>build and run with <code>cargo test</code><br>
+which should have output like</p>
+<pre><code>$ cargo test
+    Finished dev [unoptimized + debuginfo] target(s) in 0.01s
+     Running target/debug/deps/add-45abb08ccefdc53c
+<p>running 1 test
+test tests::it_works ... ok</p>
+<p>test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out</p>
+<p>Doc-tests add</p>
+<p>running 0 tests</p>
+<p>test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out</p>
+<p></code></pre></p>
+<h2>Compile as static library</h2>
+<p>Add to <code>Cargo.toml</code></p>
+<pre><code>[lib]
+name = &quot;add&quot;
+crate-type = [&quot;staticlib&quot;]  
+<p></code></pre></p>
+<p>Now <code>cargo build</code> generates a compiled library file: <code>target/debug/libadd.a</code>. I could have stopped there, but I expect to iterate on this a bit and I had read about a crate that generates the C header file…</p>
+<h2>Generate a header (command-line)</h2>
+<p>First, install the lovely <a href="https://github.com/eqrion/cbindgen">cbindgen</a> crate (using –force just to make sure everything is up to date with the latest):</p>
+<pre><code>cargo install --force cbindgen
+<p></code></pre></p>
+<p>the command-line tool is pretty neat:</p>
+<pre><code>touch cbindgen.toml    # can be empty for defaults
+cbindgen --config cbindgen.toml --crate add --output add.h
+<p></code></pre></p>
+<p>The above command will generate “add.h” file at the root of the crate.</p>
+<h2>Generate a header (cargo build)</h2>
+<p>I prefer to have the header generation integrated with cargo build (or at least I think I will). Here are the steps:</p>
+<p>Add to <code>Cargo.toml</code>:</p>
+<pre><code>[build-dependencies]
+cbindgen = &quot;0.12&quot;
+<p></code></pre></p>
+<p>By default, the header file is buried in <code>target/debug/build/add-...</code> with a bunch of intermediary build files. I find that it is nice to put it at the root of my crate where it is easy to find. Below is a custom build file that puts it in the crate root (aka <code>CARGO_MANIFEST_DIR</code>, the directory that <code>Cargo.toml</code> is in).</p>
+<p>build.rs:</p>
+<pre><code>extern crate cbindgen;
+<p>use std::env;
+use std::path::PathBuf;</p>
+<p>fn main() {
+let crate_dir = PathBuf::from(env::var(&quot;CARGO_MANIFEST_DIR&quot;)
+.expect(&quot;CARGO_MANIFEST_DIR env var is not defined&quot;));</p>
+<p>let config = cbindgen::Config::from_file(&quot;cbindgen.toml&quot;)
+.expect(&quot;Unable to find cbindgen.toml configuration file&quot;);</p>
+<p>cbindgen::generate_with_config(&amp;crate_dir, config)
+.expect(&quot;Unable to generate bindings&quot;)
+.write_to_file(crate_dir.join(&quot;add.h&quot;));
+}</p>
+<p></code></pre></p>
+<p>As mentioned above, <code>cbindgen.toml</code> may be empty, but here’s some settings I like:</p>
+<pre><code>include_guard = &quot;add_h&quot;
+autogen_warning = &quot;/* Warning, this file is autogenerated by cbindgen. Don't modify this manually. */&quot;
+language = &quot;C&quot;
+includes = []
+sys_includes = [&quot;stdint.h&quot;]
+no_includes = true   
+<p></code></pre></p>
+<p>Confusingly <code>no_includes</code> means no <em>extra</em> includes. I prefer to have only the ones that I know are needed, rather than some random list of “common” headers.</p>
+<p>Here’s my generated header:</p>
+<pre><code>#ifndef add_h
+#define add_h
+<p>/* Warning, this file is autogenerated by cbindgen. Don't modify this manually. */</p>
+<p>#include &lt;stdint.h&gt;</p>
+<p>int32_t add(int32_t a, int32_t b);</p>
+<p>#endif /* add_h */</p>
+<p></code></pre></p>
+<h2>Putting it all together</h2>
+<p>Example <code>main.c</code> in the root of the crate:</p>
+<pre><code>#include &lt;stdio.h&gt;
+#include &quot;add.h&quot;
+<p>int main() {
+int sum = add(1,2);
+printf(&quot;1 + 2 = %d\n&quot;, sum);
+}</p>
+<p></code></pre></p>
+<p>compile and run:</p>
+<pre><code>gcc main.c add/target/debug/libadd.a -o app &amp;&amp; ./app
+<p></code></pre></p>
+<p>outputs: <code>1 + 2 = 3</code></p>
+<p>This make me unreasonably happy. Rust syntax can be a bit finicky and certainly takes a bit of getting used, but this kind of tooling could more than make up for that in accelerating the dev cycle.</p>
+<p>For the full applications with a mini test suite in C, see <a href="https://github.com/ultrasaurus/rust-clib/tree/v0.1">github/ultrasaurus/rust-clib</a> — the v0.1 branch is from when this blog post was written.</p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

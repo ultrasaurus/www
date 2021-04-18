@@ -1,0 +1,143 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2015/01/getting-started-sailsjs/">getting started with sailsjs</a></h3>
+<p><em>2015-01-11</em></p>
+<p><a href="http://sailsjs.org/">Sails.js</a> is a <a href="http://nodejs.org/">Node.js</a> MVC framework. Rails developers will find the components quite similar, but I think Sails has done a really good job of leveraging libraries and frameworks that it integrates. In addition to Node, it sits on top of <a href="http://expressjs.com/">Express</a>, which handles HTTP requests. In fact every request object, is simply an Express request. Sails also nicely integrates <a href="http://socket.io/">socket.io</a>.</p>
+<h2>Install on OSX</h2>
+<pre><code>
+brew install node
+npm install sails -g
+sails -v
+</code></pre>
+<h2>Make a Project</h2>
+<pre><code>
+sails new testProject
+cd testProject
+sails lift
+</code></pre>
+<p>In your browser, go to: <a href="http://localhost:1337/">http://localhost:1337/</a> and there are some pointers to the docs and hints about what to do next.</p>
+<h2>Make a REST API</h2>
+<pre><code>
+sails generate api user
+sails lift
+</code></pre>
+<p>Now in the browser <a href="http://localhost:1337/user">http://localhost:1337/user</a> returns a JSON representation of our list of users, which is an empty array at this point.</p>
+<p>By default, your project is configured with a dynamic schema using the default disk databas, which lets us experiment by creating models using the browser:</p>
+<ul>
+<li><a href="http://localhost:1337/user/create?name=Tim">http://localhost:1337/user/create?name=Tim</a></li>
+<li><a href="http://localhost:1337/user/create?name=Judy">http://localhost:1337/user/create?name=Judy</a></li>
+<li><a href="http://localhost:1337/user/create?name=Lee">http://localhost:1337/user/create?name=Lee</a></li>
+<li><a href="http://localhost:1337/user/create?name=Maggie">http://localhost:1337/user/create?name=Maggie</a></li>
+</ul>
+<p>The default routes are configured in config/blueprints.js, so you can turnoff these “shortcut” routes if you want to only have the more standard REST-ful syntax generated for your APIs. If you are fond of it from Rails, you can also tell Sails to pluralize names in the same config file.</p>
+<p>Now if you go to: <a href="http://localhost:1337/user">http://localhost:1337/user</a></p>
+<p>You can see your users:</p>
+<pre><code>
+[
+  {
+    &quot;name&quot;: &quot;Tim&quot;,
+    &quot;createdAt&quot;: &quot;2014-12-21T18:20:19.382Z&quot;,
+    &quot;updatedAt&quot;: &quot;2014-12-21T18:20:19.382Z&quot;,
+    &quot;id&quot;: 1
+  },
+  {
+    &quot;name&quot;: &quot;Judy&quot;,
+    &quot;createdAt&quot;: &quot;2014-12-21T18:20:26.269Z&quot;,
+    &quot;updatedAt&quot;: &quot;2014-12-21T18:20:26.269Z&quot;,
+    &quot;id&quot;: 2
+  },
+  {
+    &quot;name&quot;: &quot;Lee&quot;,
+    &quot;createdAt&quot;: &quot;2014-12-21T18:20:29.338Z&quot;,
+    &quot;updatedAt&quot;: &quot;2014-12-21T18:20:29.338Z&quot;,
+    &quot;id&quot;: 3
+  },
+  {
+    &quot;name&quot;: &quot;Maggie&quot;,
+    &quot;createdAt&quot;: &quot;2014-12-21T18:20:32.879Z&quot;,
+    &quot;updatedAt&quot;: &quot;2014-12-21T18:20:32.879Z&quot;,
+    &quot;id&quot;: 4
+  }
+]
+</code></pre>
+<h2>Check Out Sockets</h2>
+<p>Open Javascript console in your browser, and you should see:</p>
+<pre><code>
+    |&gt;
+  \___/
+sails.io.js:200  `io.socket` connected successfully.
+</code></pre>
+<p>Try this at the console to see the list of users:</p>
+<pre><code>
+io.socket.get('/user', {}, function (users) {console.log(users)})
+</code></pre>
+<p>To listen for changes to any user model:</p>
+<pre><code>
+  io.socket.on('user', function messageReceived(event) {
+    console.log('New comet message received :: ', event);
+  });
+</code></pre>
+<p>Open another browser window, and create a user:</p>
+<pre><code>
+http://localhost:1337/user/create?name=Eva
+</code></pre>
+<p>then you’ll see the notification in your first browser window</p>
+<pre><code>
+New comet message received ::
+Object {model: &quot;user&quot;, verb: &quot;create&quot;, data: Object, id: 5}
+</code></pre>
+<p>The documentation is pretty good, but a lot of has changed for the recent 0.10 update, and their intro video is a couple of revisions behind. To get up to speed on the changes in the new release, I updated what that intro would be in the new syntax on <a href="https://github.com/ultrasaurus/sails-new">github ultrasaurus/sails-new</a>, which includes the above tutorial and a few other details.</p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

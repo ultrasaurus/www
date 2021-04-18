@@ -1,0 +1,110 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2019/12/rust-2020/">rust 2020: fulfill the promise</a></h3>
+<p><em>2019-12-01</em></p>
+<p>As a newcomer to Rust, my suggestion for 2020 theme is to fulfill the promise of “empowering everyone to build reliable and efficient software” by finishing what’s started (rather than adding new features), continuing the focus on good docs and good tools, and expanding to develop a coherent ecosystem.</p>
+<blockquote>
+<p>Rust empowers you to reach farther, to program with confidence in a wider variety of domains than you did before. — <a href="https://doc.rust-lang.org/book/foreword.html">Rust Language Book forward</a></p>
+</blockquote>
+<h2>Overview themes</h2>
+<p>2020 roadmap: finish what’s started, fulfill the promise</p>
+<p>2021 edition: scalability – Can newcomers to Rust create a real-world, complex system without recreating basic components or contributing to the language itself?</p>
+<ul>
+<li>more scalable systems written in Rust</li>
+<li>experienced C/C++ engineers can easily transition to Rust</li>
+<li>more scalable ecosystem
+<ul>
+<li>commonly needed libraries are available</li>
+<li>new engineers can easily become contributors</li>
+</ul>
+</li>
+</ul>
+<h2>Keep doing</h2>
+<ul>
+<li>Tooling is great! rustup toolchain, feature flags, online/offline docs make it easy to experiment with new Rust/crate features, even as a relatively new Rust programmer.</li>
+<li>Transparency (like this call for blog posts, RFC process including roadmap)</li>
+<li>Focus on good docs &amp; good error reporting is incredibly helpful. Keep iterating on this!</li>
+</ul>
+<h2>Feature requests</h2>
+<ul>
+<li>safety beyond memory safety and concurrency. For example: URL parsing should <strike>be in std</strike> have a shared implementation that supports common use cases — it’s risky for Internet apps to not have a stable, well vetted URL parser, why are there three? (That’s a rhetorical question. I know why, but don’t think there need to be. See <a href="https://twitter.com/NikolaiVazquez/status/1149063581226295297">twitter discussion</a> [Update 12/16/2019: I’d like to see convergence in URL parsers (or perhaps a shared common library) the way the community seems to be converging around <a href="https://serde.rs/">serde</a>.]</li>
+<li>async all the things! I think this is already the plan. I look forward to async I/O (network and files) to be supported in the std library. I appreciate the thoughtfulness about safety, factoring out useful core concepts (like Pin/Task), and ensuring compatibility with Futures and Tokio crates. Consider other async use cases: GPU, OpenGL</li>
+<li>lifetimes visualization would accelerate learning curve on resolving compiler errors, good ideas in <a href="https://twitter.com/ultrasaurus/status/1183136267208232961">this thread</a></li>
+</ul>
+<h2>Slow down to speed up</h2>
+<p>In my experience writing documentation often uncovers design issues and bugs. <a href="https://github.com/rust-lang/rfcs/blob/master/0000-template.md">RFC template</a> has a <strong>guide-level explanation</strong> section, which is great, and taking that one step further to writing baseline docs before declaring a feature “stable” would create positive pressure for community focus. Some ideas for process improvements…</p>
+<ul>
+<li>A crisp “definition of done” could help focus the community. Consider adding requirements to releasing ‘stable’
+<ul>
+<li>RFC updated to reflect what was completed and is still open</li>
+<li>stable reference docs are complete or include link to RFC</li>
+</ul>
+</li>
+<li>Consider WIP limits: <a href="https://leankit.com/learn/kanban/how-to-use-wip-limits-to-increase-speed/">how limiting work-in-progress increases speed</a></li>
+</ul>
+<p>It seems in keep with Rust values to create a strong incentive to support contributing writers who are working to take the feature over-the-line and encourage new engineers to contribute. It is easier for new contributors to work with APIs that are documented or clearly dive into a work-in-progress, aware that they are contributing to finishing something.</p>
+<h2>Other Improvements</h2>
+<ul>
+<li>Documentation shouldn’t require deep knowledge of Rust (example: https://stackoverflow.com/questions/56402818/how-do-i-interpret-the-signature-of-read-until-and-what-is-asyncread-bufread-i/56403568#56403568)</li>
+</ul>
+<h2>Background</h2>
+<p>The reason I’m learning Rust is that I am experienced engineer with a need to write performant, low-profile client/server code. I’m excited about the idea of writing one body of code that can (potentially) work across native desktop, mobile, servers… and with cross-compilation to WebAssembly (Wasm), also browsers and edge servers.</p>
+<p>Arguably, C works for all my needs, it even cross-compiles to Wasm. I want to like Rust better. I do in theory, but in practice, it’s got a lot of sharp edges (which is saying a lot when comparing it to C).</p>
+<hr>
+<p>Updated Dec 2019 to modify the introduction, so excerpt is useful (if <a href="https://readrust.net/rust-2020">rust2020 summary post</a> is ever updated. Original text below:</p>
+<p>answering the Rust programming language <a href="https://blog.rust-lang.org/2019/10/29/A-call-for-blogs-2020.html">call for blog posts</a> as input to the 2020 roadmap</p>
+<p><em>Caveat: I am new to Rust. There’s probably stuff I don’t even know about that is more important than anything here. This is just me doing my part to give back to the awesome Rust community.</em></p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

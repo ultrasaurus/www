@@ -1,0 +1,94 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2013/10/rails-4-with-mongodb-on-osx/">rails 4 with mongodb on osx</a></h3>
+<p><em>2013-10-13</em></p>
+<p>This post covers getting started with Rails 4 and Mongodb, using the Mongoid gem. As part of getting up to speed, I enjoyed reading <a href="http://blog.mongodb.org/post/53271876885/ruby-rails-mongodb-and-the-object-relational-mismatch">Rails + Mongo take on the object-relational mismatch</a> by Emily Stolfo from MongoDB.</p>
+<p>For starters, here’s a how to create a super simple toy app. I assume Ruby is installed via rvm, but you are new to Mongo.</p>
+<h2>Install Mongodb on Mac OSX</h2>
+<pre><code>brew update
+brew install mongodb
+</code></pre>
+<blockquote>
+<p>To have launchd start mongodb at login:<br>
+ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents<br>
+Then to load mongodb now:<br>
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist<br>
+Or, if you don’t want/need launchctl, you can just run:<br>
+mongod</p>
+</blockquote>
+<h2>Rails 4 with Mongoid</h2>
+<p>I chose Mongoid over MongoMapper (see <a href="http://www.quora.com/What-are-the-advantages-of-using-MongoMapper-versus-using-Mongoid">quora</a>, <a href="http://stackoverflow.com/questions/1958365/mongoid-or-mongomapper">stackoverflow</a>)<br>
+I used MRI 1.9.3 (at this writing, Mongoid supports HEAD but not 2.0)<br>
+rvmrc:<br>
+<code>&lt;br&gt;&lt;/br&gt;rvm use ruby-1.9.3-p429@rails4 --create&lt;br&gt;&lt;/br&gt;</code></p>
+<p>added to Gemfile:<br>
+<code>&lt;br&gt;&lt;/br&gt;gem &quot;mongoid&quot;, git: 'git://github.com/mongoid/mongoid.git'&lt;br&gt;&lt;/br&gt;</code></p>
+<p>on the command-line:<br>
+<code>&lt;br&gt;&lt;/br&gt;rails new mongo-people --skip-active-record&lt;br&gt;&lt;/br&gt;rails generate mongoid:config&lt;br&gt;&lt;/br&gt;rails generate scaffold person name street city state&lt;br&gt;&lt;/br&gt;rails s&lt;br&gt;&lt;/br&gt;</code></p>
+<p>Woo hoo! We’ve got an app — looks like a vanilla Rails app from the outside, but it is different on the inside:</p>
+<pre><code>
+class Person
+  include Mongoid::Document
+  field :name, type: String
+  field :street, type: String
+  field :city, type: String
+  field :state, type: String
+end
+</code></pre>
+<p>No database migrations needed. If we want a new field, we could just declare one in the model and add it to our views. I assume migrations could be used for data migration, but that would be a subject of another post.</p>
+<h2>References</h2>
+<p><a href="http://moredevideas.wordpress.com/2013/04/26/rails-4-with-mongodb/">Rails 4 with MongoDB Tutorial</a></p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

@@ -1,0 +1,74 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2019/10/http-3-starter-notes-rust-quiche/">http/3 starter notes, rust quiche</a></h3>
+<p><em>2019-10-28</em></p>
+<p>Learning about HTTP/3… Here are some starter notes</p>
+<ul>
+<li>Talk by Lucas Pardue at Demuxed 2019 — seek to 08:51:02 in <a href="https://www.twitch.tv/demuxed/video/498918740">twitch video</a></li>
+<li>Another good overview: https://curl.haxx.se/video/curlup-2019/2019-03-31-Robin-Marx-QUIC-details.pdf</li>
+</ul>
+<p>Good to know that they are going through a real IETF process so QUIC is evolving. CloudFlare makes it available, and will track the standard, so could be breaking changes ahead!</p>
+<p><strong>Rust implementation “Quiche”</strong></p>
+<p>uses Rust nightly, here’s a cheat sheet to getting set up..</p>
+<pre><code>git clone --recursive git@github.com:cloudflare/quiche.git
+<h1>git submodule update --init --recursive</h1>
+<p>cargo +nightly build --examples
+cargo +nightly test</p>
+<p></code></pre></p>
+<p>or if you don’t want to keep writing <code>+nightly</code> then:</p>
+<pre><code>rustup override set nightly
+<p></code></pre></p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

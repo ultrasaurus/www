@@ -1,0 +1,99 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2019/06/essential-rust-tools/">essential rust tools</a></h3>
+<p><em>2019-06-03</em></p>
+<p>Rust has a “community of developers empowered by their tools and each other” (via <a href="https://twitter.com/spacekookie">Katharina Fey</a> in “<a href="https://www.youtube.com/watch?v=K_wnB9ibCMg&amp;t=0m1s">An async story</a>“). The Rust community helps each other through effective narrative documentation and attention to error messages, and the robust tooling around Rust drives momentum, overcoming some of the natural hurdles when diving into a new language.</p>
+<p>Here’s my list of essential rust tools (so far):</p>
+<h2>The basics</h2>
+<h3>rustup</h3>
+<p>The default tool when you <a href="https://www.rust-lang.org/tools/install">install rust</a>.</p>
+<p>Rust has very good offline documentation (perfect for learning on long plane trips!). See <code>rustup doc help</code> for full list. Here are some highlights:</p>
+<pre><code>rustup doc --book              # Rust Programming Language book
+rustup doc --rust-by-example   # collection of runnable examples
+rustup doc --std               # Standard library API documentation
+<p></code></pre></p>
+<h3>cargo</h3>
+<p>Cargo packages Rust code into <em>crates</em>. You can find published libraries at <a href="https://crates.io/">crates.io</a>. After getting familiar with <code>cargo.toml</code> file which streamlines development and enables reproducible builds, I found command line management easier with <a href="https://github.com/killercup/cargo-edit">cargo-edit</a>:</p>
+<pre><code>cargo install cargo-edit
+cargo add &lt;crate&gt;         # also provides rm, upgrade
+<p></code></pre></p>
+<h2>Rust and Web Assembly</h2>
+<p>The Rust Wasm tooling has improved dramatically over the past year — <a href="https://rustwasm.github.io/">wasm-pack</a> is the “one-stop shop for building, testing, and publishing Rust-generated WebAssembly.” The <a href="https://rustwasm.github.io/docs/book/">rustwasm book</a> is very good.</p>
+<pre><code>cargo install wasm-pack
+<p></code></pre></p>
+<h3>rust-parcel</h3>
+<p>I’ve grown to dread building modern web apps with their complex JavaScript build tooling. In learning Rust, I discovered <a href="https://parceljs.org/">Parcel</a> which lets you <a href="https://parceljs.org/rust.html">import .rs files from JavaScript</a>. Under the hood, it compiles Rust to Web Assembly and hooks it all up into a tidy js src reference for my index.html. Simply breathtaking.</p>
+<p>Parcel tool chain is idiomatic for NodeJS folk. <code>npm run start</code> will run a local server and watch your files.</p>
+<pre><code>npm init rust-parcel hello-rust-parcel
+cd hello-rust-parcel
+<p></code></pre></p>
+<p>When you build your web app, it automatically prints out the kinds of things you should want to know. For many uses of Rust, compiled code size doesn’t matter, but for Web apps, it is important to keep an eye on download size:</p>
+<pre><code>npm run build
+<p>&gt; create-rust-parcel@0.0.2 build /Users/sallen/src/rust/hello-rust-parcel
+&gt; parcel build index.html</p>
+<p>✨  Built in 3.20s.</p>
+<p>dist/rust_parcel_bg.d1b79d09.wasm    67.63 KB     13ms
+dist/js.caa35af8.js.map              14.65 KB     11ms
+dist/js.caa35af8.js                   7.49 KB    2.58s
+dist/Cargo.8d29e058.toml              1.17 KB    1.16s
+dist/index.html                         228 B    999ms</p>
+<p></code></pre></p>
+<h3>wasm on the edge?</h3>
+<p>Interesting to note that Web Assembly isn’t just for client-side browser code. <a href="https://blog.cloudflare.com/webassembly-on-cloudflare-workers/">WebAssembly on Cloudflare Workers</a> creates potential for new edge capabilities.</p>
+<h2>TBD</h2>
+<p>I’m just scratching the surface as I learn Rust. My practical applications range from native client and server code, command-line tools along with my early Web app experiments. I don’t expect Rust to be my goto language for everything, but it’s fun to dive in and explore as I climb the steep learning curve of getting my code to reliably compile!</p>
+<p>For people ahead of me on your Rust adventures, what essential tools am I missing?</p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

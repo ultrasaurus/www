@@ -1,0 +1,76 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2010/01/rails-security-review-checklist/">rails security review checklist</a></h3>
+<p><em>2010-01-27</em></p>
+<p>I’m reviewing the security of a web app built with Ruby on Rails, so I put together a checklist for a security audit. This isn’t a bank or high security situation, but there were a number of engineers and quite a bit of open source code, so I thought a few checks were in order.</p>
+<p>Here’s the list I came up with that I thought other folks might appreciate as a starting point (special thanks to the sfruby list, <a href="http://afreshcup.com/">Mike Gunderloy</a>, and Scott Bronson for feedback):</p>
+<p>0) Make sure your Rails and gems are up to date for latest security patches (see <a href="http://groups.google.com/group/rubyonrails-security">rails security mailing list</a> for recent advisory notes)</p>
+<p>1) Active Record audit:<br>
+A) SQL injection:<br>
+(i) whole word search for “find”, “first”, and “all” then visually inspect all instances of ActiveRecord find calls for potential SQL injection vulnerability (also search for “sql” not whole work search to find find_by_sql and “execute” to find cases where raw sql is executed.<br>
+(ii) search your models for “named_scope” and check :conditions<br>
+B) check for <a href="http://railspikes.com/2008/9/22/is-your-rails-application-safe-from-mass-assignment">mass assignment</a> Either disable mass assignment as Eric suggests in his article, or audit its use. If doing an audit, check every model to make sure it declares which attributes are settable with attr_accessible. (While attr_protected may technically work, a white list approach is recommended by security experts and the <a href="http://groups.google.com/group/rubyonrails-security/browse_thread/thread/42c4d5d3b7354735">rails security advisory</a> on this topic)</p>
+<p>2) Scripting attack: search all eRB files for &lt;%= and ensure that if dynamically generated text was originally entered by the user, it is HTML escaped. Consider <a href="http://github.com/nzkoz/rails_xss">rails_xss</a></p>
+<p>3) Secure Access: If some of the site does not have public access, check controllers and ensure that public actions are specifically allowed and that protected access is the default</p>
+<p>4) search for “eval” (whole word) and verify that usages are safe</p>
+<p>5) search for “forgery” (not whole word), make sure that<br>
+config.action_controller.allow_forgery_protection = false<br>
+is only disabled in test config<br>
+protect_from_forgery should be in the ApplicationController, unless there is a good reason for it not to be</p>
+<p>6) check user auth and review that controller actions are limited to expected use</p>
+<p>7) passwords: not saved as clear-text in the db, not logged</p>
+<p>8) check that private data is not stored in cookies</p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

@@ -1,0 +1,91 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2013/07/responsive-design-prototyping/">responsive design prototyping</a></h3>
+<p><em>2013-07-26</em></p>
+<p><a href="http://capitalcamp.org/content/response-able-process-responsive-design">A Response-Able Process to Responsive Design</a> talk by Mal Jones (<a href="@skeletonjones">@skeletonjones</a>), Brian Verhoeven (<a href="https://twitter.com/beverhoeven">@beverhoeven</a>) and Corey Lafferty (<a href="https://twitter.com/coreylafferty">@coreylafferty</a>) introduced their agile process and a new open source prototyping tool that they built.</p>
+<p>In 2011, they made responsive default for advocacy sites and content sites. <strong>We’re no longer building cars, we’re building transformers</strong>. How did they change their process?</p>
+<p>Start with mobile story boards, then page description diagram. Pick three things on each page that are important, then three more, then the rest. Involve client in that prioritization — force them to choose.</p>
+<p>Agile process. Prototype the unknowns — in the browser. They needed to be able to experiment. They need to be able to see how it looked and felt like on a phone. They looked at a lot of tools, but nothing really met their needs:</p>
+<ul>
+<li>fast sketching of ideas</li>
+<li>how elements respond in an actual environment (the web)</li>
+<li>A/B testing</li>
+<li>supports iteration</li>
+</ul>
+<p>They ended up creating <a href="http://www.protytype.com/">Proty</a>, which can be used by coders and non-coders. If you are a coder, you can edit the HTML, but that isn’t required. Mobile first, breakpoints second (from sass). Each of the responsive sized gets its own file, but they aren’t mutually exclusive.</p>
+<ul>
+<li>Small gets loaded first</li>
+<li>Medium only what you need for the medium size that is not in the small (just the diffs)</li>
+<li>Large, same thing, just what you need in the desktop, that is not in medium + small.</li>
+</ul>
+<p>How do we use Proty? we use it first for creating wireframes that are live and responsive to different sizes. You can add notes to the page, for clients or other team members.</p>
+<p>We also use Proty for:</p>
+<ul>
+<li>technical tests / proof of concepts.</li>
+<li>style guides</li>
+</ul>
+<p>This process helped us transition designers to learning HTML and CSS. Also helps with the agile process where there is overlap between dev and design roles.</p>
+<p>Note: prototyping is not a magic way to create a web site once the design is complete. You still have to build a web site. If parts can be reused, great! but that’s not expected.</p>
+<p>Responsive design cannot be an afterthought. It not a feature — it is how you build every feature. Identify what works on mobile and what doesn’t. Be able to recognize challenges early with embedded content, such as large document files, large tables of numbers, video, etc.</p>
+<p>Brad Frost has a great list of <a href="http://bradfrost.github.io/this-is-responsive/patterns.html">responsive design patterns for navigation</a>. They like the “hamburger” menu (love that name for the icon with three little lines that typically triggers the main screen to reveal a side menu — see Path, Facebook, and many others now).</p>
+<p>Don’t do the “hide &amp; cry” — just because someone is on a mobile phone, they still deserve to see all of your content!</p>
+<p>Notes from the audience:</p>
+<ul>
+<li>checkout style_guide module.</li>
+<li>Canvas will be hosting a devicelab in DC in the next few months.</li>
+</ul>
+<p>For more info follow: <a href="https://twitter.com/forumone">@forumone</a> and <a href="https://twitter.com/protytype">@protytype</a></p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

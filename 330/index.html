@@ -1,0 +1,206 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2008/12/rails-2-day-3-behavior-driven-development/">rails 2 day 3: behavior-driven development</a></h3>
+<p><em>2008-12-22</em></p>
+<p>Now that we have learned some basic Ruby syntax and gained some understanding about what the Rails generate scaffold script does, it is high time we started using a more modern approach to coding. In fact, if you recall at the end of <a href="https://www.ultrasaurus.com/code/2008/12/rails-day2.html">day 2</a>, I realized with horror that we had actually modified code and added features without developing the tests first. This defied everything I had ever heard about good coding practices from the Ruby crowd and I set off to mend my ways.</p>
+<p><a href="http://www.ruby-forum.com/topic/94721#264483">Rick Denatale</a> describes the process of test-driven/behavior-driven development as:</p>
+<ol>
+<li>Write the test/spec</li>
+<li>Ensure that it FAILS</li>
+<li>Write the code to make it pass</li>
+<li>Goto step 1</li>
+</ol>
+<p>After <a href="https://www.ultrasaurus.com/sarahblog/archives/000543.html">reading a bit</a> about test- and behavior-driven development, I decided to use a relatively new framework called <a href="http://github.com/aslakhellesoy/cucumber/wikis">cucumber</a> which uses natural language to describe features.</p>
+<p>Today we will:</p>
+<ol>
+<li><a href="#install">Install cucumber</a></li>
+<li><a href="#setup">Set up the application</a></li>
+<li><a href="#spec">Describe a feature</a></li>
+<li><a href="#fail">Execute the feature and Watch it fail</a></li>
+<li><a href="#code">Write the code to make it pass</a></li>
+<li><a href="#review">Review what we learned</a></li>
+</ol>
+<hr>
+<p>h1 {font-size: 150%}<br>
+h1,h2 {font-style: bold}<br>
+img<br>
+{<br>
+border:2px solid silver;<br>
+margin:0px 0px 15px 20px;<br>
+}<br>
+blockquote, pre.code {<br>
+border: solid 1px #aaa;<br>
+padding: 6px;<br>
+background-color: #eee;<br>
+color: inherit;<br>
+overflow:auto;<br>
+margin: 10px 0px;<br>
+}</p>
+<p><a name="install"></a></p>
+<h1>Install Cucumber</h1>
+<p>Based on these <a href="http://github.com/aslakhellesoy/cucumber/wikis/ruby-on-rails">install instructions</a></p>
+<pre><code>&lt;pre class=&quot;code&quot;&gt;sudo gem install rspec rspec-rails cucumber webrat
+</code></pre>
+<p><strong>important</strong>: Cucumber 0.1.12 and up depends on Webrat 0.3.2.1 or higher, which as of this writing is not yet officially released to Rubyforge’s gem repository. In the meanwhile, install Bryan Helkamp’s snapshot gem:</p>
+<pre><code>&lt;pre class=&quot;code&quot;&gt;
+gem sources -a http://gems.github.com
+sudo gem install brynary-webrat
+</code></pre>
+<p>The plugins’ dependencies must be installed separately:</p>
+<pre><code>&lt;pre class=&quot;code&quot;&gt;
+gem install term-ansicolor treetop diff-lcs nokogiri
+</code></pre>
+<p><a name="setup"></a></p>
+<h1>Setup the Application</h1>
+<p>First we’ll create the Rails “to do list” application:</p>
+<pre><code>&lt;pre class=&quot;code&quot;&gt;
+cd $webroot
+rails -d mysql todolist
+cd todolist
+rake db:create:all
+rake db:migrate
+</code></pre>
+<p>Now we’ll set up cucumber for the project</p>
+<pre><code>&lt;pre class=&quot;code&quot;&gt;
+ruby script/generate cucumber
+create  features/step_definitions
+create  features/step_definitions/webrat_steps.rb
+create  features/support
+create  features/support/env.rb
+exists  lib/tasks
+create  lib/tasks/cucumber.rake
+create  script/cucumber
+</code></pre>
+<p>Just to make sure that everything is installed correctly:</p>
+<pre><code>&lt;pre class=&quot;code&quot;&gt;rake features
+</code></pre>
+<p>If that runs without errors you are ready to rock.</p>
+<p><a name="spec"></a></p>
+<h1>Describe a Feature</h1>
+<p>In the features directory that was auto-created for us with the cucumber script, we create a .feature file which starts with a description of the feature. The first section that describes the feature appears to be purely documentation; however the “scenario” sections will each become part of the executable feature definition. For starters we’ll do something simple.</p>
+<p><code>&lt;strong&gt;features/tasklist.feature&lt;/strong&gt;</code></p>
+<pre><code>&lt;pre class=&quot;code&quot;&gt;
+Feature: Tasks
+In order to keep track of tasks
+People should be able to
+Create a list of tasks
+<p>Scenario: List Tasks
+Given that I have created a task &quot;task 1&quot;
+When I go to the tasks page
+Then I should see &quot;task 1&quot;
+</code></pre></p>
+<p>We know we haven’t written any executable steps, but we’ll execute it anyhow:</p>
+<p><img src="http://farm4.static.flickr.com/3243/3126961149_b267e27c02_o.png" alt=""></p>
+<p>Note that one of the steps is already defined in webrat. Isn’t that cool? When we set up cucumber for the project, it automatically includes step_definitions/webrat_steps.rb which defines some common steps. As you get the hang of this, you reuse certain word patterns which map to specific tests. But we’re getting ahead of ourselves. We need to dive into the creation of “steps” which make up our executable spec. Cucumber gives a some handy snippets to get us started (in the output of “rake features” above). We’ll paste these into a new file that we’ll create in the “features/step_definitions” directory:</p>
+<p><code>&lt;strong&gt;features/step_definitions/tasklist_steps.rb&lt;/strong&gt;</code></p>
+<pre><code>&lt;pre class=&quot;code&quot;&gt;
+Given /^that I have created a task &quot;(.*)&quot;$/ do |desc|
+Task.create!(:description =&gt; desc)
+end
+<p>When /^I go to the tasks page$/ do
+visit &quot;/tasks&quot;
+end
+</code></pre></p>
+<p>Note that I touched up the first step to include a regular expression. This means I could add <code>Given that I have created a task &quot;foo&quot;</code> to another scenario and it would match this step.</p>
+<blockquote>
+<p><a name="syntax"></a></p>
+<h2>Short aside on task creation syntax</h2>
+<p>To create the task, I’m calling my Task model directly (since I’m new to Rails, I looked up the ActiveRecord::Base syntax in the<a href="http://api.rubyonrails.org/"> Rails Framework API docs</a>). In my first pass I wrote:</p>
+<pre><code>
+task = Task.new(:description =&gt; desc);
+task.save
+</code></pre>
+<p>However, Aslak Hellesøy <a href="http://www.ruby-forum.com/topic/174015#762400">kindly pointed out</a> that it would fail silently with that syntax, and instead I should call <code>task.save!</code> or the even simpler <code>Task.create!(:description =&gt; desc)</code>. I had missed create! in the documentation, since it is part of <a href="http://api.rubyonrails.org/classes/ActiveRecord/Validations/ClassMethods.html#M001902">ActiveRecord::Validations</a>. The API doc is a little confusing on this point, but looking at the source shows that <a href="http://www.ruby-forum.com/topic/174015#762531">ActiveRecord::Validations is included as a module</a>. <a href="http://www.ruby-forum.com/topic/174015#762550">Pat Maddox notes</a> that he uses the bang version (.save!) in tests, and the non-bang version (.save) in production code since validation errors aren’t exceptional.</p>
+</blockquote>
+<p><a name="step3"></a></p>
+<h2>Back to Step 3</h2>
+<p>Looking in <code>features/step_definitions/webrat_steps.rb</code>, you can see the definition of our third step:</p>
+<pre><code>&lt;pre class=&quot;code&quot;&gt;
+Then /^I should see &quot;(.*)&quot;$/ do |text|
+response.body.should =~ /#{text}/m
+end
+</code></pre>
+<p>Ok, now we have a simple spec. Is it time to write the code? No!</p>
+<p><a name="fail"></a></p>
+<h1>Execute the Feature and Watch it Fail</h1>
+<p><img src="http://farm4.static.flickr.com/3131/3127004017_c31be47724_o.png" alt=""></p>
+<p>As expected, we see errors on our first step, since we have not yet written any code for the application.</p>
+<p><a name="code"></a></p>
+<h1>Write the code to make it pass</h1>
+<p>Now, at last it is time to write code</p>
+<pre><code>&lt;pre class=&quot;code&quot;&gt;
+$ ./script/generate scaffold Task description:string
+$ rake db:migrate
+</code></pre>
+<p>Run the spec again..</p>
+<p><img src="http://farm4.static.flickr.com/3131/3127010689_8d6948843c_o.png" alt=""></p>
+<p>It passes, yay!</p>
+<p><a name="review"></a></p>
+<h1>What did we learn?</h1>
+<p>When we first set up our app, to setup cucumber:</p>
+<pre><code>&lt;pre class=&quot;code&quot;&gt;
+ruby script/generate cucumber
+</code></pre>
+<p>To describe our feature, we create two files:</p>
+<ul>
+<li>features/xxx.feature</li>
+<li>features/step_definitions/xxx_steps.rb</li>
+</ul>
+<p>To run the feature description:</p>
+<pre><code>&lt;pre class=&quot;code&quot;&gt;
+rake features
+</code></pre>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

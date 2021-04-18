@@ -1,0 +1,73 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2009/07/pair-programming-velocity/">pair programming velocity</a></h3>
+<p><em>2009-07-25</em></p>
+<p>I used to pair program now and then, but only for specific challenges. When I needed to implement a new feature in an unfamiliar area of the code, I might pair with the original author. I might collaborate on a particularly tricky algorithm or when we’re up against a tight deadline and it must absolutely be correct. And, of course, you put a team of engineers on it, when there’s that critical bug that happening to real people in production right now. A few months ago, I took a different approach. I started to pair program routinely. The experience changed my perspective entirely.</p>
+<h2>Background</h2>
+<p>I was working on a project where I wore two hats: product manager and engineer. In the engineering role, I had a small task to develop a Flash video client app and a Rails API that it would call. The other job was to write down requirements and work with the business owners to come up with a well-defined scope and project plan for the next iteration of the software. At the outset of the project, they gave me a demo. The site looked good and seemed to work well, it was just missing a few features and the application needed to be brought up to production readiness. After digging in a bit, I realized that the project needed more than one engineer to reach the desired launch date and ended up hiring <a href="http://www.rubyfocus.biz/">Wolfram Arnold</a> to work with me in building the Ruby on Rails web application and web services APIs. He asked me how I felt about pair programming and proposed that we pair about 2/3 of the time. Since I was relatively new to Rails and he was expert, plus he was new to the project and I knew the requirements inside and out, I felt this would strike a good balance. The business owners were unsure, but I argued that the easiest bug to fix is one that you don’t write. It was a relatively short 6 week contract, so we decided to give it a try. But first, we had to make sure that we had the right candidate for the job.</p>
+<h2>The Interview</h2>
+<p>I’m used to having a team of engineers at my disposal to vet a candidate, but in this case there was just me and a remote engineer to do a phone interview. I’ve always relied on seeing a candidate write code on the whiteboard to get a feel for how they think about code. However, I have always felt the whiteboard coding exercise to be a bit awkward, so we asked Wolf if he had any ideas about what we could do to affirm that he was the sharp engineer he seemed to be in conversation. Wolf suggested that we just pair on a real coding problem to complete the interview process. So we got together one afternoon and I picked a specific bug that I thought we could fix in about an hour. I was then introduced to a common pair programming setup that was nonetheless new to me: one computer, two keyboards, two mice. While unexpected at first, this was a very effective way to work. I found the switching to be naturally mediated by social convention. We discussed the problem, then dove in, taking turns, with me navigating to the right area of the code and us taking turns typing. We ended up spending a few hours together and fixed the bug (and wrote some tests and refactored code along the way), happily confirming that Wolf was as good as he seemed on paper and that we could easily work together.</p>
+<h2>Getting Started</h2>
+<p>The task at hand was a fairly tricky one. We were migrating a codebase from Rails 2.0.2, that relied heavily on the Globalize plugin for translation, to Rails 2.3 which includes built-in localization support. Additionally the plugin had been modified and the database had quite a bit of data which needed to be migrated forward. I immediately felt the speed of pair programming: I understood the database schema, product requirements and current feature set; Wolf could readily explain common Rails patterns (and the occasional anti-pattern) in the code and recommended good solutions. Together we were easily twice as fast as each of us individually. We found that there were a number of requirements that were unclear when we dug in and we spent about three weeks documenting these detailed requirements by writing tests for them. This was a critical step since we didn’t want to lose or break functionality when upgrading the code. My favorite time savings in this phase was that we never had to call a meeting, whenever we would need to meet, there we were.</p>
+<p><img src="http://img.skitch.com/20090727-r7mwy986dnd2qm9na53yc7qbj6.jpg" alt=""></p>
+<h2>Escape Velocity</h2>
+<p>When we felt we understood the detailed requirements and has a core set of the features working well with tests to prove it, we dove into the upgrade preparation which involved removing the modified Globalize plugin, a few huge database migrations and some other important details. I had never coded anything so risky, so fast. If anyone were to code such a change solo, it would require careful focus and iteration ensuring that every detail were taken care of. You would naturally go slowly as your mind searches for each dependency and where you miss aspects and see test failures, you go back and fix your code and run again. As a pair of programmers, who were now familiar with the codebase, schema, and requirements, we flew. We each had our own checklists in our heads, as one of us typed, one kept a list on paper. When making any change, before we even ran the tests once, the one not coding would remember dependencies, notice typos or test cases not written that needed to be handled. The iterations were fewer. Each of us had time to think when the other typed. While waiting for tests to run, we discussed what else could go wrong or what we might do to double-check that it had all gone right. We were now coding at three or four times the pace that either would have going solo. And more importantly, we caught bugs in our brainstorming that would otherwise have been caught in a longer deploy-test-report-fix-deploy-verify cycle that is several order of magnitudes slower than when a developer notices an issue in the middle of a coding session.</p>
+<p><img src="http://img.skitch.com/20090727-q9t9kd9juu2frkit1keea9983r.jpg" alt=""></p>
+<h2>Routine Speed</h2>
+<p>After we got through the most challenging and risky parts of the project, we continued to pair. Beyond my initial expectations that pairing would only accelerate the learning process, I found that even routine coding tasks and feature development were executed with breathtaking speed when we paired. While there were logistical reasons that we occasionally worked separately, the project moved forward most efficiently when we coded together. If anyone is starting a Ruby on Rails project, wants to adopt TDD or simply accelerate their development, I would recommend hiring <a href="http://www.rubyfocus.biz/">Wolf</a>. When we took the site live and moved on to work on separate projects, I found that I had grown used to the routine speed of pairing and missed the camaraderie as well. I wanted to achieve a similar acceleration on all of my projects, so I hired an intern, <a href="http://www.macboypro.com/">Lee Lundrigan</a>, to pair with me. Lee didn’t have as much domain expertise, but he’s a very sharp engineer and does have some experience that complements mine. It’s not as fast as when I pair with Wolf — a dozen years or so of experience makes a difference. I’m guessing that it only doubles my speed. I find the collaboration sharpens my attention and focus, in addition to bringing his perspective to the problem at hand. The extra pair of eyes catch bugs before the first test run reducing debugging time.</p>
+<h2>Conclusion</h2>
+<p>If you haven’t tried pairing and you work in a team, just do it. Give yourself a project for a couple of months to get a feel for it before you decide what you think. If you work solo, consider hiring someone who is experienced with pairing and agile development to work with you to give it a try. Take an opportunity when you are learning something new or have a big project you are taking on. I’d be interested in hearing other people’s pairing experiences.</p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

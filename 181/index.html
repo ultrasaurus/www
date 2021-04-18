@@ -1,0 +1,70 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2011/07/sf-rails-meetup-talks-about-performance/">sf rails meetup talks about performance</a></h3>
+<p><em>2011-07-02</em></p>
+<p>I attended the <a href="http://www.meetup.com/San-Francisco-Ruby-on-Rails-Group/events/22207811/">SF Ruby on Rails meetup</a> last week with two excellent talks on performance. The first talk, by Brian Doll (<a href="https://twitter.com/#!/briandoll">@briandoll</a>) of <a href="http://newrelic.com/">New Relic</a>, provided an overview of how to think about performance. In the second talk, Guillaume Luccisano (<a href="https://twitter.com/#!/luckwi">@luckwi</a>) of <a href="http://www.justin.tv/">justin.tv</a> shared his experience of optimizing their Rails app.</p>
+<h2>Performance is a Feature</h2>
+<p>Brian Doll points out that performance is not just about speed, it is about cost. The cloud allows us to add thousands of servers at the click of a button, but as a web app scales to dozens of virtual instances the infrastructure costs increase significantly. We also need to think about <strong>operational efficiency</strong>. Even if it significantly improves performance to create an alternate subsystem on a different server, that system will take effort to maintain and may scale differently from the rest of the system. A homogeneous architecture that is horizontally scalable allows us scale with little or no development costs. Being able to move quickly is the biggest factor in real life scalability.</p>
+<p>Martin Fowler’s technical debt quadrant from <a href="http://martinfowler.com/bliki/TechnicalDebtQuadrant.html">a 2009 article</a> illustrates a different aspect of cost. In thinking about performance, we often make debt tradeoffs. We need to think about the scalability of the system, not just the system in its current state.</p>
+<p><a href="http://martinfowler.com/bliki/TechnicalDebtQuadrant.html"><img src="http://martinfowler.com/bliki/images/techDebtQuadrant.png" alt=""></a></p>
+<p>Planning for scale doesn’t imply that we should build a very scalable solution before we need it, but we also don’t want to just rewrite everything because it fell over last night.</p>
+<p>Brian related thinking about performance to Kent Beck’s RailsConf talk about Agile, where he highlighted five attributes of agile development: Simplicity, Communication, Feedback, Respect and<br>
+Courage. “We can be courageous because of the tools we have.”</p>
+<h2>Performance Optimization in Rails</h2>
+<p>Guillaume Luccisano spent a couple of months optimizing justin.tv while also working on upgrading the site from Rails 2 to Rails 3. In case anyone wasn’t aware, Rails 3 is a little slower than Rails 2. Guillaume guesses about 20% slower.</p>
+<p>Guillaume did an amazing job of collecting details about what made a difference in performance optimization. He has shared his slides which report his findings:</p>
+<div id="__ss_8476299" style="width:425px"> **[Rails performance at Justin.tv – Guillaume Luccisano](http://www.slideshare.net/kwi/rails-performance-at-justintv-guillaume-luccisano "Rails performance at Justin.tv - Guillaume Luccisano")**<div style="padding:5px 0 12px"> View more [presentations](http://www.slideshare.net/) from [kwi](http://www.slideshare.net/kwi) </div></div>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

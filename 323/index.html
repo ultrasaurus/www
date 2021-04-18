@@ -1,0 +1,127 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2009/01/scaffolds-rails/">Scaffolds != Rails</a></h3>
+<p><em>2009-01-02</em></p>
+<p>In pretty much every blog tutorial generate scaffold plays a central role; however, the rails guides don’t say much about scaffolding. I wasn’t sure where to go next in my development, as I asked in my <a href="https://www.ultrasaurus.com/code/2008/12/rails-2-day-4-rcov-and-bdd.html#review">last post</a>: “Adding attributes and other models: do I scaffold again or just write code?”</p>
+<p>I’ve spent some time reading about scaffolding on the Rails lists, and have saved some enlightening posts from various folks. Most of the interesting discussion took place just a few months after the introduction of Rails 2 when the generated scaffold code apparently underwent significant changes to become more REST-like and the dynamic scaffold command was removed from the core of Rails (but is still available as a plugin).</p>
+<p>What was dynamic scaffolding?</p>
+<blockquote>
+<p>&gt; 1) In a controller class to bind controller to its respective model as in<br>
+&gt; class ContactController &lt; ApplicationController<br>
+&gt; scaffold contact # contact here is the name of the model called<br>
+&gt; contact<br>
+&gt; end</p>
+<p>This style of scaffolding has been removed from Rails 2.0. It used to be referred to as dynamic scaffolding, but it didn’t really help people learn about Rails or give them a way to modify the generated interface, so we killed it.<br>
+— nice <a href="http://www.ruby-forum.com/topic/151197#667127">response by DHH</a> to a new Rails developer</p>
+</blockquote>
+<p>Many of the Rails folks are clearly not fans of scaffolding at all and some argue that it is at best good marketing and at worst causes people to become rigid in their use of Rails. Rails is “opinionated,” but it is also designed to be flexible.</p>
+<h2>What is Scaffolding?</h2>
+<blockquote>
+<p>Scaffolds != Rails</p>
+<p>They’re a starting point, and as such just give you something to start with. Scaffolds aren’t meant to be your whole application, so the code is treated just like code that’s written independent of them: If your object model changes, then you need to change your views and controller logic to match. —<a href="http://www.ruby-forum.com/topic/137337#610859"> Jeremy McAnally</a></p>
+</blockquote>
+<blockquote>
+<p>Just look at the generator as a secretary who can type all the “vanilla” code for you, then edit the migration to add the specifics… I need longtext for my notes fields, but the scaffold just uses text… so I always edit the migrations after they’re generated.</p>
+<p>But listing your fields on the generate command does get those fields auto-populated into the views, letting the “secretary” do more of your typing for you.– <a href="http://www.ruby-forum.com/topic/155848#686755">Ar Chron</a></p>
+</blockquote>
+<blockquote>
+<p>it does what the name implies (“scaffold”, remember?), which is A Good Thing. In other news, the “preferred way of working” is still, after all those years, to actually writing code while knowing wtf is going on. — <a href="http://www.ruby-forum.com/topic/137337#612740">Johannes Holzer</a></p>
+</blockquote>
+<h2>What is Bad about Scaffolding</h2>
+<blockquote>
+<p>…scaffolding really is such an insignificant part of Rails that its flaws should have no bearing on your decision of whether or not to use Rails. Rails isn’t a visual toolkit, it’s a serious development framework. You just have to make it over two humps in the learning curve: the Rails API hump and then later the Dynamic Ruby hump and you’ll be golden. — <a href="http://www.ruby-forum.com/topic/137337#637101">dasil003</a></p>
+</blockquote>
+<blockquote>
+<p>my biggest problem with the new scaffolding is that it reinforces the notion that a “resource” is a controller/model stack. That, in turn, means that it discourages recognition of those cases where a resource might involve something other than a one-to-one<br>
+correspondence between a controller and a model.</p>
+<p>In REST, there’s nothing about the concept of “resource” that implies database persistence, or persistence at all for that matter. Of course, Rails is a database-centered technology, not an all-purpose embodiment of every nuance of “resource”. Still, I think the<br>
+scaffolding presents too monogamous a picture of controller/model relations, if I may put it that way. The result is that people worry that if they do something in one controller that involves two models, they’ve done something “unRESTful”. That’s a red herring. — <a href="http://www.ruby-forum.com/topic/137337#640861">David A. Black</a></p>
+</blockquote>
+<blockquote>
+<p>I was confused about it; Roy Fielding (I think it was) explained it like this: a resource is like your P. O. Box; you know where it is; it never changes; and the postal workers know where it is, it never changes. But, what you’ll find in there? Whatever the postal workers<br>
+think is appropriate. The analogy is imperfect, because you can’t do content negotiation at your P.O.Box. Imagine if you could say, “I only want first-class mail, please, no bulk mailings, English versions if available” and then the analogy is pretty good, I think.</p>
+<p>My very first ReST Web Service was written in Python, and serves geographic conversions for Northern Ohio. (GeoGeeks: available at http://uber.engineer.co.summit.oh.us/ws/spc3401/ ) There’s no real reason to expect anyone to request any given resource more than once, so it’s not a database, it’s just a calculation. It’s not very browser oriented. It also doesn’t do CRUD — just “R.” If I’d learned Rails 2.0 scaffolding first, I might have had even more “unlearning” to do<br>
+before I got straightened around.</p>
+<p>Rails 2.0 is “ReSTish” and that’s good, but it’s still browserfied. The adaptation of ReST to the browser by Rails is very, very clever, but perhaps a little distracting. Interested people might look at <a href="http://pragdave.pragprog.com/pragdave/2007/03/the_radar_archi.html">http://pragdave.pragprog.com/pragdave/2007/03/the_radar_archi.html</a> for an example of why providing a ReST Web Service shouldn’t be conflated (mentally) with manipulating it via the browser. — <a href="http://www.ruby-forum.com/topic/137337#640873">Ron Phillips</a></p>
+</blockquote>
+<blockquote>
+<p>&gt; However, as far as I could tell, Rails now makes it really hard to</p>
+<p>&gt; deviate from RESTful approach, and that forces me, the newbie, to</p>
+<p>&gt; stick to it.</p>
+<p>This just described why I think scaffolding is bad. It indirectly forces newcomers to do things a specific way. If you use the scaffolding, you start building controllers based off the code there. If you learned to create a controller and views without the scaffolding, you’d be more free to do things as you see fit.– <a href="http://www.ruby-forum.com/topic/137337#640864">Branko</a></p>
+</blockquote>
+<h2>Scaffold should not Substitute for Documentation</h2>
+<blockquote>
+<p>Railes substitues proper “getting started” documentation for scaffolded<br>
+code generation which makes it really tough on newcomers. People who’ve<br>
+been doing Rails as long as I have don’t really care because we don’t use scaffolding. However, I work with newbies all the time and it’s much easier to start them on Rails 1.x and move to Rails 2.0 and REST later. The original scaffold generator was very good for explaining how controllers work with models and views. link_to used a hash and not a named route. Named routes are cool, but they are confusing to a newbie. Same with<br>
+respond_to.</p>
+<p>The only upshot for Rails 2.0 scaffolding is that it’s much more production-ready. — <a href="http://www.ruby-forum.com/topic/137337#640912">Brian Hogan</a></p>
+</blockquote>
+<blockquote>
+<p>In training people in Rails, I definitely do not start with REST and resources. map.resources is essentially a macro that creates a bunch of named routes for you — so if you don’t know what a named route is, you can only do it in a black-box and parrot-like way. Learning named routes doesn’t make much sense until you understand routes, and routes don’t make sense until you know the basics of the request cycle… and so forth. So I would never introduce someone to Rails by telling them to write map.resources in routes.rb and trying to proceed from there. — <a href="http://www.ruby-forum.com/topic/137337#640955">David A. Black</a></p>
+</blockquote>
+<h2>Scaffold == Marketing</h2>
+<blockquote>
+<p>I think part of the problem is that “scaffolding” should not be part of any Rails developer’s vocabulary. Scaffolding is too limiting and “opinionated” to be useful in 99% of real-world applications. Not to mention all the RESTful issues that David A. Black has already<br>
+mentioned. You can’t really be RESTful AND be scaffolding.</p>
+<p>In my humble opinion, “scaffolding” is the marketing tool to convince people to check Rails out. I know it worked on me a few years back. But, for most, it will quickly become forgotten. —<a href="http://www.ruby-forum.com/topic/137337#640991">Fred</a></p>
+</blockquote>
+<h2>Scaffold has its Place</h2>
+<blockquote>
+<p>Philosophically, the name scaffold was chosen early on to suggest a temporary structure upon which you can lean as you start building but one which you intend to take down as the main structure begins to sustain itself. In that regard the 2.x implementation is more sound philosophically: the scaffold exists in the early stages of development in a way that will always go away over time. — <a href="http://www.ruby-forum.com/topic/137337#662790">AndyV</a></p>
+</blockquote>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

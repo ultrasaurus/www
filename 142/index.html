@@ -1,0 +1,98 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2013/07/tesseract-html-page-with-text-overlay/">tesseract html page with text overlay</a></h3>
+<p><em>2013-07-13</em></p>
+<p>I’m learning a bit about OCR, and wanted to get some hands on experience using the open source Tesseract to get a feel for how it works. I’m a long way from any reasonable visual or interaction design, but the result of today’s exploration is an html page where the original image is overlaid with machine generated text in roughly the right location. This page looks like crap, but it’s a neat first step (click on the image below to see the full html page):</p>
+<p><a href="http://ultrasaurus.github.io/hocr-javascript/letter.html"><img src="http://monosnap.com/image/gvFJZ4174Y8MQbqWvcewB3BVl.png" alt="">  </a></p>
+<h2>Tesseract</h2>
+<p><a href="https://code.google.com/p/tesseract-ocr/">Tesseract</a> is an open source OCR tool (Apache 2.0 license) that produces fairly accurate output (relative to its open source peers) for scanned, type-written documents in English and many other languages.</p>
+<p>On the Mac, we can easily install it with homebrew:</p>
+<pre><code>
+brew install tesseract
+</code></pre>
+<p>The latest version supports lots of different input image types, via <a href="https://code.google.com/p/leptonica/">Leptonica</a>, an open source C library for efficient image processing and image analysis operations.</p>
+<p>If you just want to get text from an image, check the <a href="https://code.google.com/p/tesseract-ocr/wiki/ReadMe">ReadMe file</a>. I wanted to display the generated text over the image, which Tesseract supports via the <a href="https://docs.google.com/document/d/1QQnIQtvdAC_8n92-LhwPcjtAUFwBlzE8EWnKAxlgVf0/preview">HOCR format</a>.</p>
+<p>Each word, line, and block of text, is annotated with an HTML tag. I look at just the word element, which is generated as a span tag with the attribute title:</p>
+<pre><code>
+&lt;span class=&quot;ocrx_word&quot; id=&quot;word_14&quot; title=&quot;bbox 398 506 471 527&quot; &gt;WHOM&lt;/span&gt;
+</code></pre>
+<p>I wrote a little javascript to create a style tag from the bbox attribute:</p>
+<pre><code>
+Manuscript.bboxToStyle = function(bbox_str) {
+  arr = bbox_str.split(&quot; &quot;);
+  left_pos = &quot;left:&quot;+arr[1]+&quot;px; &quot;;
+  top_pos = &quot;top:&quot;+arr[2]+&quot;px; &quot;;
+  right_pos = &quot;right:&quot;+arr[3]+&quot;px; &quot;;
+  bottom_pos = &quot;bottom:&quot;+arr[4]+&quot;px; &quot;;
+  return left_pos + top_pos + right_pos + bottom_pos;
+};
+</code></pre>
+<p>Then used jQuery to apply that to every word element:</p>
+<pre><code>
+$(document).ready(function() {
+    $(&quot;.ocrx_word&quot;).attr('style', function() {
+        return Manuscript.bboxToStyle(this.title);
+        });
+});
+</code></pre>
+<p>Resulting in word elements that are positioned roughly where they appear in the image:</p>
+<pre><code>
+&lt;span class=&quot;ocrx_word&quot; id=&quot;word_14&quot; title=&quot;bbox 398 506 471 527&quot; 
+style=&quot;left:398px; top:506px; right:471px; bottom:527px; &quot;&gt;WHOM&lt;/span&gt;
+</code></pre>
+<p>I tried to experiment with the background-color of the words, but that’s not working for some reason. <a href="https://github.com/ultrasaurus/hocr-javascript">Complete source on GitHub.</a></p>
+<p>Would love to hear about anyone else creating HTML UI for OCR results, either with Tesseract or other open source tools.</p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

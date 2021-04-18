@@ -1,0 +1,83 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2017/10/ultimate-serverless-combo-firestore-functions/">ultimate serverless combo: Firestore + Functions</a></h3>
+<p><em>2017-10-03</em></p>
+<p>Serverless development just got easier — today’s release of <a href="https://firebase.google.com/products/firestore/">Cloud Firestore</a> with event triggers for <a href="https://firebase.google.com/products/functions/">Cloud Functions</a> combine to offer significant developer velocity from idea to production to scale.</p>
+<p>I’ve worked on dozens of mobile and web apps and have always been dismayed by the amount of boilerplate code needed to shuffle data between client and server and implement small amounts of logic on the server-side. Serverless APIs + serverless compute reduce the amount of code needed to write an app, increasing velocity throughout the development cycle. Less code means fewer bugs.</p>
+<p>Cloud Firestore + Cloud Functions with direct-from-mobile access enabled by Firebase Auth and Firebase Rules combine to deliver something very new in this space. Unhosted Web apps are also enabled by Web SDKs.</p>
+<p>It is not a coincidence that I’ve worked on all of these technologies since joining Google last year. My first coding project at Google was developing the initial version of the Firestore UI in the Firebase Console. I then stepped into an engineering management role, leading the engineering teams that work on server-side code where Firebase enables access to Google Cloud.</p>
+<h3>Cloud Firestore</h3>
+<ul>
+<li><strong>Realtime sync across Web and mobile clients</strong>: This is not just about realtime apps. Building user interfaces is substantially easier: using reactive patterns and progressively filling in details allows apps to be ready for user interaction faster.</li>
+<li><strong>Scales with the size of the result set</strong>: Simple apps are simple. For complex apps, you still need to be thoughtful about modeling your data, and the reward is that anything that works for you and your co-workers will scale to everyone on the planet using your app. From my perspective, this is the most significant and exciting property of the Cloud Firestore.</li>
+<li><strong>iOS, Android and Web SDKs</strong></li>
+</ul>
+<h3>Cloud Functions</h3>
+<ul>
+<li><strong>Events</strong> for create, write, update, and delete (<a href="https://firebase.google.com/docs/firestore/extend-with-functions">learn how</a>)</li>
+<li>Write and deploy JavaScript functions that do exactly and only what you need</li>
+<li>You can also use <a href="https://github.com/firebase/functions-samples/tree/master/typescript-getting-started">TypeScript</a> (JS SDKs include typings)</li>
+</ul>
+<h3>All the Firebase things</h3>
+<ul>
+<li><strong>Free tier</strong> and when you exceed that, you only pay for what you use.</li>
+<li><strong>Zero to planet scale</strong>: no sharding your database, no calculating how many servers you need, focus on how your app works.</li>
+<li><strong>Secure data access with Firebase Rules</strong>: simple, yet powerful declarative syntax to specify what data can be accessed by client code. For example, some data may be read-only access for social sharing or public parts of an app, user data might be only written by that user, and some other data may be only written by server-code.</li>
+<li><strong>Firebase Auth</strong>: all the social logins, email/password, phone or you can write code for custom auth</li>
+<li><strong>Lots more</strong> <a href="https://firebase.google.com/products/">Firebase</a> things</li>
+</ul>
+<p>All this combines to allow developers to focus on building an app, writing new code that offers unique value. It’s been a while since I’ve been actually excited about new technology that has immediate and practical use cases. I’m so excited to be able to use this tech in the open for my side projects, and can’t wait to see the serious new apps…..</p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

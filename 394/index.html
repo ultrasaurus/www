@@ -1,0 +1,90 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2008/06/js-meetup-paul-sowden-client-side-storage/">js meetup, paul sowden, client-side storage</a></h3>
+<p><em>2008-06-06</em></p>
+<p>Paul Sowden of <a href="http://www.meebo.com/">meebo</a> talked about client-side storage options at the <a href="http://javascript.meetup.com/4/calendar/7922755/t/cr1p_grp/?">JS Meetup</a> last night.<br>
+Great info! Here are my notes:</p>
+<p><strong>Client-side storage… more options than cookies</strong><br>
+3 examples:</p>
+<ul>
+<li><a href="http://aaronboodman.com/halfnote/">halfnote</a> [Update: thanks Paul!]</li>
+<li>gmail</li>
+<li>sticky notes</li>
+</ul>
+<p>… not too exciting, but we could do more exciting stuff if we can tackle the x-browser issues. Technology is different per browser, standard has variants.</p>
+<ul>
+<li>Gears: sync’d db, SQL interface, search over the DB, unlimited storage (at least in the beta)</li>
+<li>WHATWG, fr HTML5: Safari 3.1+, WebKit, at least two MB, bit more code,</li>
+<li>FF2+ IE8, WHATWG Global Storage, when values change events are fired, in FF you get up to 5MB, in IE its XML, in FF its an SQLLite DB (allows potentially browser-desktop app) — pretty clean simple code</li>
+<li>userData HTML Behaviors in IE 5.5+, up to 1MB per domain — simplest code</li>
+<li>Flash Cookies, 100KB by default, but youcan ask the user for more (clunky little Flash interface), you’ll need to use SWF wrapper and Javascript bridge</li>
+</ul>
+<p>On meebo, they checked out how many people had which available</p>
+<ul>
+<li>87% Flash (they checked for v8, but this has been available since Flash Player 6, so ymmv)</li>
+<li>74% have native storage</li>
+<li>gears in the single digits</li>
+</ul>
+<p>Note: 97% have one of those, 96% had cookies enabled!</p>
+<p>Libraries available</p>
+<ul>
+<li>Dojo.storage</li>
+<li>Persist.js – normalize API, just key-value gears</li>
+</ul>
+<p>Note: global storage has widest adoption, but global storage actually has been taken out of the specification!<br>
+[Update: slides from this talk have been posted on <a href="http://www.slideshare.net/idontsmoke/client-side-storage/">slideshare</a>]</p>
+<div id="__ss_452242" style="width:425px;text-align:left"><div style="font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px">[![SlideShare](http://static.slideshare.net/swf/logo_embd.png)](http://www.slideshare.net/?src=embed) | [View](http://www.slideshare.net/idontsmoke/client-side-storage?src=embed "View Client Side Storage on SlideShare") | [Upload your own](http://www.slideshare.net/upload?src=embed)</div></div>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

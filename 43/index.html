@@ -1,0 +1,112 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2017/05/serverless-patterns-at-google-io-2017/">serverless patterns at google i/o 2017</a></h3>
+<p><em>2017-05-20</em></p>
+<p>At Google I/O last week, we presented <a href="https://events.google.com/io/schedule/?section=may-18&amp;sid=f2aa8aa1-e92d-4a64-a388-9d11956d3068&amp;gclid=Cj0KEQjw0v_IBRCEzKHK0KiCrKMBEiQA3--1NuaEJInrBDuS9pPgIgA3Icy3SabhPPzbcEgJzlmETb4aAmnv8P8HAQ">how to build robust mobile applications for the distributed cloud</a> about building mobile apps in this new world of “serverless development.” When people hear “serverless” sometimes they think we can write code on the server that is just like client-side code, but that’s not really the point.</p>
+<p>We have many of the same concerns in developing the code that we always have when we write client-server sofware — we just don’t need to manage servers directly, which drastically reduces operational challenges. In this talk we dive into some specific software development patterns that help us write robust code that scales well.</p>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="433" loading="lazy" src="https://www.youtube.com/embed/9Fmsw5yzW5I?feature=oembed" title="How to Build Robust Mobile Applications for the Distributed Cloud (Google I/O '17)" width="770"></iframe>
+<p>Speakers:</p>
+<ul>
+<li><strong>Sarah Allen</strong> (me!) I lead the engineering team that works at the intersection of <a href="https://firebase.google.com/">Firebase</a> and <a href="https://cloud.google.com">Google Cloud</a> on the server side.</li>
+<li><strong>Judy Tuan</strong> introduced me to Firebase over 5 years ago, when she led our team at AngelHack SF (on May 3, 2012) to build an iPhone app that would paint 3D shapes by waving your phone around using the accelerometer. That event happened to be Firebase’s first public launch, and she met Andrew Lee who convinced her to use Firebase in our app. She’s an independent software developer, and also working with <a href="https://techworkerscoalition.org/">Tech Workers Coalition</a>.</li>
+<li><strong>Jen-Mei Wu</strong> is a software architect at <a href="https://www.indiegogo.com">Indiegogo</a>, and also volunteers at <a href="https://oaklandmakerspace.wordpress.com/">Liberating Ourselves Locally</a>, a people-of-color-led, gender-diverse, queer and trans inclusive hacker/maker space in East Oakland.</li>
+</ul>
+<p>Jen-Mei kicked off the talk by introducing a use case for serverless development based on her work at the maker space, which often works to help non-profits. They are limited in their ability to deploy custom software because they work with small organizations who are staffed by non-technical folk. It doesn’t make sense to set them up with a need to devote resources to updating to the underlying software and operating systems needed to run a web application. With Firebase, the server software is automatically kept up to date with all the needed security patches for all of the required dependencies, it scales up when needed, and scales down to zero cost when not in active use.</p>
+<p>The primary use case that motivated the talk from my perspective is for businesses that need to get started quickly, then scale up as usage grows. I found it inspiring to hear about how Firebase supports very small organizations with the same products and infrastructure that auto-scale to a global, distributed network supporting businesses with billions of users.</p>
+<p>The concept for this talk was for some <em>real-world developers</em> (Judy and Jen-Mei) to envision an application that would illustrate common patterns in mobile application development, then I recruited a few Firebase engineers to join their open source team and we built the app together.</p>
+<h2>Severless Patterns</h2>
+<p>We identified some key needs that are common to mobile applications:</p>
+<ul>
+<li>People use the app</li>
+<li>The app stores data</li>
+<li>The app show the data to people</li>
+<li>There is some core business logic (“secret sauce”)</li>
+<li>People interact with each other in some way</li>
+</ul>
+<p>The talk details some of the core development patterns:</p>
+<ul>
+<li>Server-side “special sauce”</li>
+<li>Authentication &amp; access control</li>
+<li>Databinding to simplify UI development</li>
+</ul>
+<h2>The App: Hubbub</h2>
+<blockquote>
+<p>Ever go to a conference and feel like you haven’t connected to the people you would have liked to meet? This app seeks to solve that! Using your public GitHub data, we might be able to connect you with other people who share your technical interests. Maybe not, but at least you’ll have lunch with somebody.</p>
+</blockquote>
+<p>You authenticate with GitHub, then the app creates a profile for you by pulling a lot of data from the GitHub API. Your profile might include languages you code in, a list of connections based on your pull request history or the other committers on projects that you have contributed to. Then there’s a list of events, which have a time and place, which people can sign up for. Before the event, people will be placed in groups with a topic they might be interested in. They show up at the appointed time and place, and then to find their assigned group, they open a <em>beacon</em> screen in the app which shows an image that is unique to their group (a pattern of one or more hubbubs with their topic name) and they find each other by holding up their phones.</p>
+<p>We built most of the app, enough to really work through the key development patterns, but didn’t have time to hook up the profile generation data collection and implement a good matching algorithm. We ended up using a simple random grouping and were able to test the app at Google I/O for lunch on Friday. Some people showed up and it worked!</p>
+<p><a href="https://www.ultrasaurus.com/wp-content/uploads/2017/05/hubbub-in-action.jpg"><img src="../../../uploads/2017/05/hubbub-in-action.jpg" alt=""></a></p>
+<p>You can see the code at: <a href="https://github.com/all-the-hubbub">https://github.com/all-the-hubbub</a></p>
+<hr>
+<p>Many thanks to all the people who joined our open source team to develop the app:</p>
+<ul>
+<li><a href="https://twitter.com/berlinjohnson">Ali Berlin Johnson</a></li>
+<li><a href="https://twitter.com/justinrosenthal">Justin Rosenthal</a></li>
+<li><a href="https://twitter.com/thatgoldblatt">Susan Goldblatt</a></li>
+<li><a href="https://twitter.com/timstirrat">Tim Stirrat</a></li>
+<li><a href="https://github.com/mroswell">Margie Roswell</a></li>
+<li><a href="https://twitter.com/erikhaddad">Erik Haddad</a></li>
+<li><a href="https://twitter.com/ok">Brendan Lim</a></li>
+</ul>
+<p>and who helped with the presentation:</p>
+<ul>
+<li>Virginia Poltrack, graphics</li>
+<li>Yael Kazaz, public speaking, story-telling coach</li>
+<li><a href="https://twitter.com/puf">Puf</a> and <a href="https://twitter.com/mkrilanovich">Megan</a>, rehearsal feedback</li>
+<li><a href="https://twitter.com/ToddKerpelman">Todd Kerpelman</a> our Google I/O mentor</li>
+<li>Laura Nozay and all of the wonderful Google I/O staff who made the event possible</li>
+</ul>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

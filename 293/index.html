@@ -1,0 +1,66 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2009/04/sinatra-simple-ruby-web-app-library/">sinatra: simple ruby web app library</a></h3>
+<p><em>2009-04-17</em></p>
+<p>talk by Aaron Quint, <a href="http://www.quirkey.com/">quirkey.com</a>, at <a href="http://gogaruco.com/">Golden Gate Ruby Conference</a></p>
+<p>very simple framework, define a route, where it goes, return a string<br>
+Sinatra is not a framework, doesn’t dictate how to create your code. It is a library. A ruby library for making Web applications.</p>
+<p><strong>Why?</strong> HTTP as a language? with REST and other conventions, it is cool to think of it as a way of two apps speaking to each other. If your library needs to “speak HTTP,” Sinatra is a good way to do that. It’s a nice layer on top of rack.</p>
+<p>Aaron described a vision where all libraries would have web apps interfaces: to allow you to configure your library or inspect information. These are designed to be available on localhost, not designed for the “global web.”</p>
+<p>For example: Aaron wrote ‘<a href="http://code.quirkey.com/gembox/">gembox</a>‘ for Ruby Gems, which will display in a browser the list of installed gems. Simply calls the gem APIs, but provides a UI on it instead. The app is very little code, low effort for a significant return.</p>
+<p>Vegas: super simple Sinatra starter. Provides simple options for running the app (startup, saving pid, etc.) (this is a cool idea right now, just a simple class right now)</p>
+<p>Would be neat to be able to search for all gems that have Sinatra or Vegas interfaces. Question from the audience about security issues. This is still pretty early in development, but there are some neat ideas here and potentially useful tools.</p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

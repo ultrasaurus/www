@@ -1,0 +1,87 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2009/05/bash-context/">bash context</a></h3>
+<p><em>2009-05-18</em></p>
+<p>Sometimes it takes quite an effort to be a “lazy programmer” (as in Larry Wall’s <a href="http://en.wikipedia.org/wiki/Larry_Wall#Virtues_of_a_programmer">virtues of a programmer</a>). I’ve been trying to optimize my workflow as I run into things that make for repetitive typing. I find when I can type less, I have more cycles to think. One of my favorite tools in laziness is bash scripting, but I’m still learning its ins and outs.</p>
+<p><strong>The problem</strong>: Lately I’ve been switching between subversion trees in OpenLaszlo. (Someday I want to convince the team to switch to git, but I’m not sure that would even solve the problem completely, since I also like having multiple webapps installed.) So I’ve got trunk checked out in different directories: a clean one for testing, one I keep for code reviews, a sandbox for whatever I’m working on at the moment, etc. Every time I switch OpenLaszlo contexts, I need to redefine $LPS_HOME environment variable and cd into that directory. Should be simple, huh?</p>
+<pre><code>
+BRANCH=&quot;trunk&quot;
+[ -n &quot;$1&quot; ] &amp;&amp; BRANCH=&quot;$BRANCH-$1&quot;
+<p>echo &quot;BRANCH=$BRANCH&quot;</p>
+<p>export LPS_HOME=/Users/sarah/src/svn/openlaszlo/$BRANCH
+cd &quot;/Users/sarah/src/svn/openlaszlo/$BRANCH&quot;
+pwd
+</code></pre></p>
+<p>Except this didn’t work. It seemed that ‘cd’ had no effect and $LPS_HOME wasn’t modified. WTF? Lacking someone to look over my shoulder in my new solo work situation, I emailed my friend <a href="http://www.antisleep.com">Scott Evans</a> from whom I have learned much bash lore. He emailed me the following:</p>
+<p>1) use “.” to run the script, which runs it in your shell process instead<br>
+of in a child one.</p>
+<p>2) use a bash function instead — these run in your current environment.<br>
+try something like this in your bashrc/bash_profile:</p>
+<pre><code>
+trunk() {
+ echo &quot;dollar 1: ${1}&quot;
+ if [ -n &quot;${1}&quot; ] ; then
+   export LPS_HOME=/Users/sarah/src/svn/openlaszlo/trunk-${1}
+ else 
+   export LPS_HOME=/Users/sarah/src/svn/openlaszlo/trunk
+ fi
+<p>cd $LPS_HOME
+pwd
+}
+</code></pre></p>
+<p>Note that I didn’t set something like $TRUNK there — since the thing is running in your shell environment, it’s good practice not to potentially step on existing variables, or leave any variables defined after the fact.</p>
+<p>Thanks Scott! Posting here so that I will always remember what I learned today and maybe some other folk will find it helpful.</p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

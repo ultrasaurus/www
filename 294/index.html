@@ -1,0 +1,75 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2009/04/macruby-and-hot-cocoa/">MacRuby and Hot Cocoa</a></h3>
+<p><em>2009-04-17</em></p>
+<p>great session by<a href="http://gogaruco.com/speakers/index.html#kilmer"> Rich Kilmer</a> at Golden Gate Ruby Conference.</p>
+<p><a href="http://www.macruby.org/">MacRuby</a>, started toward the end of ’07. It has two ambitious goals:</p>
+<ul>
+<li>Make Mac OSX the best platform for Ruby developers</li>
+<li>Make Ruby the best Cocoa programming language on OSX</li>
+</ul>
+<p>Apple has the higher level APIs in Objective-C. RubyCocoa (2001) mostly written in C will bridge Ruby &amp; Objective-C. Quite verbose. Rich showed a “hello world” that was about a page of code in small type. Problem: it’s a bridge. Thereare holes, expensive (slow), messaging syntax is diferent. Ruby uses green threads (it is not re-entrant) — only one native thread can enter the Ruby runtime at any time. Tricky garbage collection, etc.</p>
+<p>The development of MacRuby leveraged the key observation that Ruby is actually similar to Objective-C. MacRuby replaced the Ruby 1.9 garbage collector with the Objective-C garbage collector. Ruby’s hash is actually an NsMetuable dictionary. Every Ruby class is an Objective-C class. You can use MacRuby, at runtime to add methods to an Objective-C object.</p>
+<p>MacRuby is 0.4. Syntax is better, but still a lot of code for “Hello World”</p>
+<p><strong>HotCocoa</strong><br>
+In the MacRuby “hello world” a lot of the code is in configuring, setting up the app, wiring things together. <a href="http://www.macruby.org/trac/wiki/HotCocoa">HotCocoa</a> is just a library that helps simplify this setup process.</p>
+<p>Much more concise, but it isn’t magic. ‘window’ returns an NSWindow, it isn’t obscured, just decorated. You have all the NSWindow methods available,</p>
+<p>Hello World turns into 7 lines of code! [update: <a href="http://pivotallabs.com/users/edward/blog/articles/779-gogaruco-talk-macruby-hotcocoa">nice post</a> with code snippets]</p>
+<p>hotcocoa &lt;app&gt; (similar to rails &lt;app&gt;) will generate all the files needs for a Mac application. Framework is dropped in there, so you can give the code to someone and they don’t need</p>
+<p>HotConsole: written in MacRuby and it is irb, but {}.methods(true,true) will show you all of the methods in an MSMutable dictionary, but otherwise {} behaves just like a Ruby hash. Also let you interactively create native Mac OS widgets (create a window, add a button, make it do something) all by typing in a few lines into this interactive console.</p>
+<p><strong>MacRuby Experimental</strong></p>
+<p>LLVM replaces yarv. In this, using MacRuby the jit generates machine code. This makes it 4-5x faster than 1.9 (which is 4-5 times faster than 1.8). Goal is to pass all of 1.9 Ruby specs, and it is well on its way to doing this. Also plans to make it reentrant. Goal is to automatically generate GrandCentral code hich allows the code to run across all the cores in the machine. Rich expects this to be complete by the end of the year. This could also be applied to compiling ahead of time which would enable running the code on a certain devices that don’t run Ruby, yet run OSX code :)</p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

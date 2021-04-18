@@ -1,0 +1,65 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2018/02/making-of-esther-music-video/">making of esther music video</a></h3>
+<p><em>2018-02-03</em></p>
+<p>In 1991, the Company of Science &amp; Art created a music video for Phish. It featured richly colored pastel drawings by Scott Nybakken with just a little bit of vector art and compositing that was likely done in Photoshop 1.0.</p>
+<p>The Esther animation (below) was recorded in real-time from Apple Macintosh IIfx running PACo a software-based animation engine developed by The Company of Science &amp; Art</p>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="578" loading="lazy" src="https://www.youtube.com/embed/XvVdFyiJkzY?feature=oembed" title="Original Phish Esther video by CoSA" width="770"></iframe>
+<p>At the time that this music video was made, CD-ROMs were new and Apple Macintosh computers had recently started supporting color monitors. The IIfx was the high-end of the Mac product line, and I remember that computer had 8MB of RAM, which was the most of any Mac in the office.</p>
+<p>The sound file had to be annotated with sync points, which were produced by importing the audio into SoundEdit and then adding labels using the graphical user interface and then I think the labels could be exported as its own file (or maybe it was embedded in the sound file, I don’t remember). We used HyperCard as the original user interface for PACo, so we could experiment with new features quickly. The software would combine the labels, audio and a folder full of images, and also allow you somehow to specify transition between the images.</p>
+<p>Images were 8-bit color, which means that each pixel was stored as a number which was an index into a color palette. Some of the color shifts in the Esther flying sequence were animated by a specific animation technique that was accomplished by rotating the color palette while leaving the pixels on the screen unchanged. This allowed for faster transitions and smoother animations than would otherwise have been possible. Even the fastest personal computer at that time was too slow to redraw the full screen at the framerate required for animation to look smooth. Notice that where elements are animated only a portion of the screen changes at any one time, such as with the church window sequence (2:07) and the spinning girl (3:40).</p>
+<p>It was really fun to work with Scott Nybakken and John Greene who created effects that seemed to stretch beyond what was possible with the software and hardware.</p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

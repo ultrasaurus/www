@@ -1,0 +1,70 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2007/10/closed-to-open-source-sucess-story/">closed-to-open source sucess story</a></h3>
+<p><em>2007-10-24</em></p>
+<p><a href="http://www.openlaszlo.org">OpenLaszlo </a>was recently named “Best of Open Source Software” by <a href="http://www.infoworld.com/article/07/09/10/37FE-boss-intro_1.html">InfoWorld</a>, which honors OpenLaszlo with a “Bossie” award.</p>
+<p>“The ever growing global OpenLaszlo community covering five continents gives proof not only to the technical maturity of OpenLaszlo as a platform but to the acceptance of OpenLaszlo as a true open source technology.” The <a href="http://weblog.openlaszlo.org/archives/2007/09/openlaszlo-wins-infoworld-bossie-award-for-best-of-open-source-in-software-development-2007/">OpenLaszlo blog</a> took the opportunity to thank the community and, appropriately, acknowledge that the project has grown well-beyond the the small group of coders and visionaries who work at <a href="http://www.laszlosystems.com/">Laszlo Systems</a>.</p>
+<p>Tom Yager notes that OpenLaszlo “may be the best closed-to-open success story.” As someone who has watched and participated in this transformation, I agree that it is a compelling story that merits telling. It’s easy to lose these reflections in the day-to-day. Success is made up of a hundred small decisions and a thousand small work items. While I believe this is true in general, it is even more true of an open source project.</p>
+<p>I’ve taken this moment, to write up some personal observation on the closed-to-open source story…</p>
+<p>Five years ago I worked at Macromedia. I knew little about open source and saw little need to. Every line of code or library that I touched was proprietary. I lived in a culture that was the same across all of the companies I had worked: CoSA, Apple, Aldus and Adobe, where anything you type or say at work is the intellectual property of the company. Ideas as translated into code have tangible value that translates into profits and stock price. I understood no other economic pattern for software development.</p>
+<p>I March ’03, I started a weblog. I wanted to go back to writing code for a while and get some practical experience with various web technologies. In setting up ultrasaurus with MySQL, PHP, perl and experimenting with wikis. I found the solutions to the inevitable technical glitches via google in the weblogs of strangers. I thought that was pretty neat and wanted to <a href="https://www.ultrasaurus.com/sarahblog/archives/000069.html">give back</a>. I started using open source software without really thinking about it, and reaped the benefit of the open source model without being aware of the bigger picture. This was just the beginning.</p>
+<p>When I started working on OpenLaszlo (then Laszlo Presentation Server), I entered a different coding culture. The use of open source libraries was commonplace, and the rules around modifying open source code and submitting changes back to the community was well-understood by my peers. It was pretty clear why we want to use open source software (who wants to write yet another XML parser?), and I could understand why we would contribute bug fixes (sometime we were obliged to and in other cases it would save us work since the next upgrade would include the fix we needed), but I was mystified as to why anyone would write open source software.</p>
+<p>With Laszlo’s decision to take its proprietary platform open source, I was immersed into this new world. I had seen how every sale of LPS required an extensive sales process. It’s a big deal to pick a platform and it is easy to lose years of development effort with a bad bet. At the same time, the IT infrastructure was moving to open source. In the mid-to-late 90’s, the majority of customers for server software that I was developing were running Solaris on Sun hardware. By the turn of the millennium, all but a few companies were switching to Linux, and even the conservative big companies were using Linux for some deployments. The landscape was changing. With Apache, Linux and MySql leading the way, open source was becoming a “safe choice.”</p>
+<p>Commercial companies were starting to build real businesses around open source, and, for Laszlo, the choice was a good one. Suddenly customers were paying for prototypes and proof-of-concept work. It transformed the way we did business. We also, quite intentionally, changed the way we developed the software.</p>
+<p>On Oct 5, 2004, with Laszlo’s open source announcement, we posted the source code as one big tar.gz and started two mailing lists: laszlo-dev and laszlo-user. Officially, we were open source. However, the reality was that if anyone had actually downloaded the source and tried to build it, they would have needed an awful lot of hand-holding. Some companies call a project open source and stop there, but the Laszlo team was dedicated to making it real and had plans for what was <a href="http://www.openlaszlo.org/pipermail/laszlo-dev/2004-October/000001.html">yet to come</a>. Our internal development mailing list was renamed “internal-dev” and <a href="http://osteele.com/">Oliver</a> routinely scolded those of us who asked questions or proposed ideas there that were about what was now OpenLaszlo. It felt weird to me. There were a few hundred people on the laszlo-dev mailing list in the weeks after we made the announcement. While there had been some introductions and a few random questions, there were a lot more subscribers than there were messages. Who were these people, really? Would they think less of us if someone (me) with a laszlosystems.com email address asked a dumb newbie question? Would they have strong opinions on some new feature we were planning or architectural change? I took a deep breath and dove in. My fears were groundless. My questions were routinely answered by other people who worked at Laszlo, and if external folks benefited from the answers, I usually didn’t hear of it. After my initial impression of coding in a fish bowl, I soon came to feel that the list was the same old crew. Of course, I was wrong.</p>
+<p>The open nature of our discussions on the list was critical in our becoming a real open source project. It allowed new folks to understand why certain architectural or feature design decision were made. It was almost two years later when my assumptions were challenged. (If I had been more actively working on OpenLaszlo, I’ll bet those incorrect assumptions would have been challenged sooner.) I was taking a break from application development to create new streaming audio-video features for OpenLaszlo with Red5 and Flash Media Server. I ran into an issue with the compiler, and sent a note out to laszlo-dev, fully expecting that Henry, who works for Laszlo Systems, would take a look at it in the morning and help me out. Much to my surprise, I received a quick note from <a href="http://www.donhopkins.com">Don Hopkins</a>, who had been experimenting with the same thing on his own with a work-around. As it turned out, there were a number of members of the community who were already working in this area. We were able to collaborate and accelerate development.</p>
+<p>Now we have a growing community of contributors and we hear about new OpenLaszlo applications every week. The <a href="http://www.openlaszlo.org/jira">open bug database</a> and <a href="http://svn.openlaszlo.org/">open source control system</a> are well-established. There is still a long way to go: we would like more contributors and the current contributors to take more active roles. I still frequently read someone new say “I can’t believe I’ve never heard of this before!” so we could do a better job of spreading the word. However, I’m proud of how far we have come and I’m honored to be a part of this evolving story.</p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

@@ -1,0 +1,71 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2019/06/digital-identity-how-to-verify-trust/">digital identity: how to verify trust?</a></h3>
+<p><em>2019-06-16</em></p>
+<p>How can we communicate with each other on the Internet so that we know each other when we want to be known, yet can have privacy or anonymity when appropriate? My brief notes from April 2018 Internet Identity Workshop (below) still feel relevant a year later.</p>
+<p>If we believe that a particular person is trust-worthy, to trust their digital representation, we somehow need to identify that some bits that travel across wires or air actually originate from that person.</p>
+<p>In today’s Web, we have a network of trusted authorities, typically my social network or email provider creates a relationship with me and I prove my identity with a password. The challenge is that they also house all of my personal data — could there be a way for me to identify myself without making myself vulnerable to the whims or errors of these companies? New models are emerging.</p>
+<ul>
+<li>Mobile Drivers License: British Columbia and U.S. Commerce Department’s National Institute of Standards and Technology (NIST) have funded development of a new kind of digital ID. Folks are working on ways to validate the identity and “claims” of an individual. This is not just for fraud detection. It also potentially protects the privacy of an individual, in contrast to a traditional drivers license, where I must reveal my home address while proving that I’m over 21.</li>
+<li>Decentralized Identifier (DID): a standard way for individuals and organizations to create permanent, globally unique, cryptographically verifiable identifiers entirely under the identity owner’s control. <a href="https://sovrin.org/wp-content/uploads/2018/03/Sovrin-Protocol-and-Token-White-Paper.pdf">Sovrin Foundation Whitepaper</a></li>
+<li>With blockchains, every public key can now have its own address, enabling a decentralized self-service registry for public keys.</li>
+<li>Trust without shared secrets. In cryptography we typically share a secret which allows us to decrypt future messages. But the best way to keep a secret is not to tell anyone. We can actually verify a secret without knowing it. <a href="https://www.ultrasaurus.com/2018/04/zero-knowledge-proof-trust-without-shared-secrets/">Zero-knowledge proof</a></li>
+<li>Object capabilities. In the real world we have physical objects that we can transfer for very specific authorization (e.g. a key to your car) whereas digital keys must be kept secret to avoid replication — what if authorization were couple with objects in the digital world. Some basic examples illustrate the framework, discussed further in <a href="https://www.ultrasaurus.com/2018/04/false-dichotomy-of-control-vs-sharing/">false dichotomy of control vs sharing</a>.</li>
+</ul>
+<p>Full notes from IIW 26: <a href="https://raw.githubusercontent.com/windley/IIW_homepage/gh-pages/assets/proceedings/IIWXXVI_Book_of_Proceedings.pdf">PDF Proceedings</a>, <a href="https://iiw.idcommons.net/IIW_26_Session_Notes">wiki</a></p>
+<p><em>More about IIW</em></p>
+<p>The Internet Identity Workshop (<a href="https://www.internetidentityworkshop.com/">IIW</a>) gathers experts across the industry to solve this particular question. People share their understanding of the problem and potential solutions in this unique unconference twice a year. I always learn unexpected and useful technical solutions, and more importantly gain a deeper understanding of this challenging problem of identity.</p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

@@ -1,0 +1,187 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2014/08/test-first-express/">simple test first express setup &amp; tutorial</a></h3>
+<p><em>2014-08-28</em></p>
+<p>It has been surprisingly hard to find a very simple tutorial to get started with Express, along with some common helpful tools, including tests!</p>
+<p>Here’s a little tutorial for Node.js v0.10 and Express 4. I’m learning Express, since I’m working on an app in SailsJS, so I will pick options that mirror choices made by the SailsJS framework.</p>
+<h3>Install Express</h3>
+<p>Express is a popular simple web app framework for Node (similar to Sinatra for Ruby), and is easily instally with the fabulous Node Package Manager, npm. I find the generators to be handy (at least for learning) and don’t ship with Express anymore, so you need to install them separately.</p>
+<pre><code>
+npm install -g express
+npm install -g express-generator
+</code></pre>
+<h3>Create an Express App</h3>
+<p>Let’s create an app named ‘test-app’ — this will create a new directory of that name with all the app files in it.</p>
+<pre><code>
+express test-app -e
+</code></pre>
+<p>The <code>-e</code> option tells express-generator to use ejs. (From the <a href="http://expressjs.com/guide.html">Express guide</a>: Jade is the default. Express-generator supports only a few template engines, whereas Express itself supports virtually any template engine built for node. For the complete list, see <code>express --help</code></p>
+<p>It shows you all the files it creates and even gives a hint about next steps:</p>
+<pre><code>
+cd test-app
+npm install
+</code></pre>
+<p><code>npm install</code> will download all of the dependencies specified in our “package.json” file and put them in the the node_modules directory. This directory will get big fast, so we probably want to add to .gitignore.</p>
+<h3>Run the App!</h3>
+<p>Start the server</p>
+<pre><code>
+npm start
+</code></pre>
+<p>Then go to <a href="http://localhost:3000/">http://localhost:3000/</a> and see:<br>
+<img src="../../../uploads/2014/08/1-welcome-to-express.png" alt="Browser with URL http://localhost:3000 shows Express in large letters, smaller letters below display &quot;Welcome to Express&quot;"></p>
+<p>Stop the server with ctrl-C.</p>
+<p>Take a moment to review the contents of the generated package.json, the <a href="https://www.npmjs.org/doc/files/package.json.html">npm docs</a> are a good reference for the defaults. All of the dependencies that we have right now are ones that express decided we should have. <a href="https://twitter.com/maxogden">Max Ogden</a> has some nice docs <a href="https://github.com/maxogden/art-of-node#modules">about Node modules</a>.</p>
+<p>Add a “devDependency” section to package.json:</p>
+<pre><code>
+  &quot;devDependencies&quot;: {
+    &quot;mocha&quot;: &quot;*&quot;,
+    &quot;chai&quot;: &quot;*&quot;,
+    &quot;supertest&quot;: &quot;*&quot;,
+    &quot;supervisor&quot;: &quot;*&quot;
+   }
+</code></pre>
+<p>We’re adding a set of tools that are installed with npm but only used for development and testing.</p>
+<p>Don’t forget to add a comma or we’ll get a scary looking error:</p>
+<pre><code>
+npm ERR! install Couldn't read dependencies
+npm ERR! Failed to parse json
+npm ERR! Unexpected string
+...
+</code></pre>
+<p>Also in “package.json,” change</p>
+<pre><code>
+  &quot;scripts&quot;: {
+    &quot;start&quot;: &quot;node ./bin/www&quot;
+  },
+</code></pre>
+<p>to</p>
+<pre><code>
+  &quot;scripts&quot;: {
+    &quot;start&quot;: &quot;supervisor ./bin/www&quot;,
+    &quot;test&quot;: &quot;./node_modules/.bin/mocha&quot;
+  },
+</code></pre>
+<p>the install the new packages with:</p>
+<pre><code>
+npm install
+</code></pre>
+<p>We’ve just added a set of development tools for rapid iteration and testing. The scripts section lets us create shortcuts for the npm command.</p>
+<h3>Supervisor Allows Fast Experimentation</h3>
+<p>Supervisor makes it so you can edit files and just refresh the page to see the change. Now that we have edited the npm ‘start’ script to use supervisor, we can:</p>
+<pre><code>
+npm start
+</code></pre>
+<p>We can view the main index page, by going to <a href="http://localhost:3000">http://localhost:3000</a>. Then without stopping the server, let’s edit</p>
+<pre><code>views/index.ejs
+</code></pre>
+<p>so the H1 text says “Hello!” instead of Express. We can refresh the page to see the update.</p>
+<h3>Mocha, Chai and Supertest for Testing</h3>
+<p><a href="http://visionmedia.github.io/mocha">Mocha</a> will serially run a set of tests and report failures nicely. It supports a number of different assertion libraries. <a href="http://chaijs.com/">Chai</a> is a single assertion library that supports the popular variants: assert, expect and should.</p>
+<p>You’ll need to create a test directory, empty for now. Let’s make sure we’re set up right:</p>
+<pre><code>
+mkdir test
+npm test
+</code></pre>
+<p>We should see:</p>
+<pre><code>
+  0 passing (2ms)
+</code></pre>
+<p>create the file</p>
+<pre><code>test/index.test.js
+</code></pre>
+<p>with a test</p>
+<pre><code>
+var request = require('supertest')
+  , express = require('express');
+<p>var app = require('../app');</p>
+<p>describe('Index Page', function() {
+it(&quot;renders successfully&quot;, function(done) {
+request(app).get('/').expect(200, done);<br>
+})
+})
+</code></pre></p>
+<p>run the test with</p>
+<pre><code>npm test
+</code></pre>
+<p>and it passes!</p>
+<h3>Adding New Behavior Test First</h3>
+<p>We can add expectations to our test. Let’s plan to add the text “Hello World to the index page. Supertest supports simple regex syntax for comparing text. The super test API cleverly supports concise testing by assuming a number as the first param is a status code, but a regex or a string wants to compare to the body.</p>
+<pre><code>
+  it(&quot;renders successfully&quot;, function(done) {
+    request(app).get('/')
+      .expect(200)
+      .expect(/Hello World/, done);    
+  })
+</code></pre>
+<p>This will fail</p>
+<pre><code>
+  1) Index Page renders successfully:
+     Error: expected body '\n\n  \n    &lt;title&gt;Express&lt;/title&gt;\n    \n  \n  \n    &lt;h1&gt;Hello!&lt;/h1&gt;\n    &lt;p&gt;Welcome to Express&lt;/p&gt;\n  \n\n' to match /Hello World/
+</code></pre>
+<p>Now we can edit the page in</p>
+<pre><code>views/index.ejs
+</code></pre>
+<p>and run the test again with</p>
+<pre><code>npm test
+</code></pre>
+<p>to see it pass!</p>
+<pre><code>
+  Index Page
+GET / 200 10ms - 211b
+    ✓ renders successfully 
+<p>1 passing (34ms)
+</code></pre></p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

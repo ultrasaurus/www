@@ -1,0 +1,63 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2009/07/cross-platform-mobile-apps-with-rhomobile/">cross-platform mobile apps with rhomobile</a></h3>
+<p><em>2009-07-10</em></p>
+<p><a href="http://www.rhomobile.com/">Rhomobile</a> offers an open-source, ruby application framework. On the client-side, Rhodes allows you to build mobile applications on iPhone, BlackBerry, Windows Mobile, Symbian and Android. The client app could be stand-alone or connected. On the server-side, enabling connected applications, RhoSync dramatically simplifies client-server data transfer.</p>
+<p>I spent some time experimenting with it last week. The docs were pretty raw, but these folks are moving fast and the doc issues that I ran into have been fixed already. They also have a responsive <a href="http://groups.google.com/group/rhomobile">google group</a>. I built an iPhone app with a <a href="http://www.heroku.com/">Heroku</a>-hosted Rails back-end in about a day. Now with <a href="http://www.rhohub.com/">Rhohub</a>, <a href="http://www.youtube.com/rhomobile#play/all/uploads-all/0/yTmdV4eC_7o">it appears</a> that I could have built that same app in about a minute. I’ve just been approved for the beta, and am looking forward to checking it out myself.</p>
+<p>A number of folks have asked me about my experience with Rhodes and are interested in learning about it, so I drew the diagram below in <a href="http://www.gliffy.com/">gliffy</a> this morning to outline how it works (<a href="http://www.gliffy.com/pubdoc/1759859/L.jpg">click</a> it for a larger image).</p>
+<p><a href="http://www.gliffy.com/pubdoc/1759859/L.jpg"><img src="http://www.gliffy.com/pubdoc/1759859/M.jpg" alt="rhomobile architecture"></a></p>
+<p>The green in the diagram represents Rhomobile framework code and the blue represents your code (where the blue cloud could be your web service or anything else you decide to connect to). You write your code in Ruby along with handy Rails-like generators. The UI is HTML and CSS, but it hooks into native controls. Very cool. I am intrigued to see just how the nuances of UI translate across all of the different client platforms using the framework. However, I don’t really need to worry about how much control I will have: the platform is open source, and if need be, I can always fall back to extending the platform with my own native code.</p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

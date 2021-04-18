@@ -1,0 +1,72 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2003/06/notes-on-how-lzx-becomes-a-swf/">Notes on how LZX becomes a SWF</a></h3>
+<p><em>2003-06-18</em></p>
+<p>Don Park recently spent some time with the <a href="http://www.laszlosystems.com/">Laszlo Presentation Server</a> and drew a nice architecture diagram in his <a href="http://www.docuverse.com/blog/donpark/2003/06/16.html#a596">blog</a>. Generating an LZX from a JSP is one way to create applications in Laszlo. A more common development pattern is to simply write an LZX file that references an XML data source. I’ve drawn a diagram with a similar structure to Don’s that shows the HTTP requests from the browser, to illustrate how this works.</p>
+<p><img src="/images/blog/lzx.gif" alt=""><br>
+1. The user goes to the web page “http://mysite.com/hello.html”<br>
+(a) the browser requests “hello.html” from mysite.com<br>
+(b)The web server sends that document it to the browser.</p>
+<p>2. The browser notices that “hello.html” references “http://mysite.com/hello.lzx”<br>
+(a) The browser requests “hello.lzx” from mysite.com<br>
+(b) The Laszlo Presentation (LPS) finds “hello.lzx,” creates a SWF and sends it to the browser.</p>
+<p>3. Your app has referenced a data source (an XML file on the server’s local file system, on any other server, or dynamically created XML develivered over HTTP)<br>
+(a) The LPS-generated SWF makes a native Flash call that causes the browser to send a request to LPS<br>
+(b) LPS fetches the data (which is in standard XML). It transforms the data into native Flash goop and sends it back to the browser.<br>
+(c) It appears in the SWF auto-magically datamapped to the appropriate view or whatever you asked it to do in your LZX file.</p>
+<p>What Laszlo has done is to normalize the Flash runtime for the creation of applications. It all ends up running in the Flash player, but there is a bunch of Laszlo magic that lets you focus on application development and interface design. Laszlo provides a framework, which includes a view system, data mapping, layouts, constraints and all sorts of useful stuff.</p>
+<p>One last technical note, LPS does a bunch of smart caching. If an LZX file or the data source hasn’t changed, LPS efficiently delivers the same bunch of bits it created for the previous request. Incremental compiles are achieved by breaking up your app into separate files, typically using the &lt;library&gt; tag. Then LPS only compiles the file that has changed.</p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

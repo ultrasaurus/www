@@ -1,0 +1,81 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2009/12/markdown-to-textile-with-vim-regex/">markdown to textile with vim regex</a></h3>
+<p><em>2009-12-30</em></p>
+<p>So, I needed to change markdown to textile and google didn’t yield any handy scripts, so I sharpened my vim fu with <a href="http://www.rubular.com/">Rubular</a>, my favorite regular expression tester and came up with a few substitutions that took care of everything but lists and code blocks.</p>
+<p>In vi, type ESC to go into command mode, then :%s/one/two/g will find every instance of “one” and replace it with “two”</p>
+<p>First the easy stuff, headers. ^ finds the beginning of the line.</p>
+<pre><code>
+:%s/^# /h1. /g
+:%s/^## /h2. /g
+:%s/^### /h3. /g
+</code></pre>
+<p>To replace images, I needed to replace ![alt-text](link) with !link! so I needed to capture text. I suppose I didn’t really need the first capture, but I was working on the replace expression for a regular link when I realized it would be easier to do the images first. To understand the expression below, you need to know that (stuff) captures some text which can be inserted in the replacement text with 1 and 2, etc. So to get everything between square brackets, I use [(.*)]</p>
+<pre><code>
+:%s/![(.*)]((.*))/!2!/g
+</code></pre>
+<p>All of my images appeared on a single line, so I didn’t catch a potential issue in the above expression until I got to replacing text links. I needed to use a non “greedy” capture so that I wouldn’t pull in text after the link that happened to include a parenthetical comment. Normally, in reg ex I would use (.*?) but in vim I needed to write (.{-}) …wtf?</p>
+<pre><code>
+:%s/[(.*)]((.{-}))/&quot;1&quot;:2/g
+</code></pre>
+<p>Special thanks to Adam Wolf’s tip via <a href="http://www.sharegrove.com">ShareGrove</a> which helped me document these steps.</p>
+<blockquote>
+<p>you can put VIM in a mode where the <a href="http://vimdoc.sourceforge.net/htmldoc/cmdline.html#Command-line">command history</a> is just like another buffer. Not in insert mode, try q:</p>
+</blockquote>
+<blockquote>
+<p>You should get a new buffer that you can edit with the command history in it, so “*yy would yank the current line into the system clipboard, etc.</p>
+</blockquote>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

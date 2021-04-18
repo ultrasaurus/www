@@ -1,0 +1,109 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2009/05/rails-plugin-view-helpers-and-rspec/">rails plugin view helpers and rspec</a></h3>
+<p><em>2009-05-25</em></p>
+<h1>RSpec for View Helpers</h1>
+<ul>
+<li>To test a view helper, you need to test the plugin in the context of a rails app</li>
+<li>To verify that you can put the following code into your spec_helper.rb (or just use <a href="http://wiki.github.com/pat-maddox/rspec-plugin-generator/installation-and-basic-use">rspec-plugin-generator</a> by <a href="http://www.patmaddox.com/blog/">Pat Maddox</a> which will generate this code for you) ```
+begin
+require File.dirname(<strong>FILE</strong>) + '/../../../../spec/spec_helper'
+rescue LoadError
+puts &quot;You need to install rspec in your base app&quot;
+exit
+end<pre><code></code></pre>
+</li>
+<li>By convention, helper examples live in spec/helpers/ then their dependencies will get magically included. <a href="http://www.ruby-forum.com/topic/187635#819442"><span class="name"> David Chelimsky notes</span></a>
+<blockquote>
+<p>All directories under spec/ are potentially magic – rspec will always<br>
+look at spec/:directory/:filename and see if it has an example group<br>
+type registered for whatever directory is. So if there *is* a foo<br>
+example group type, it will be used for any spec file in spec/foos</p>
+</blockquote>
+</li>
+<li>If you put helpers elsewhere, then you need to declare their type (or manually include dependencies) ```
+describe AppletHelper, :type =&gt; :helper do<pre><code></code></pre>
+</li>
+<li>To send params in your test, you can just define them before calling your view helper. For example: ```
+describe DogHelper do
+it &quot;should bark&quot; do
+params[:debug] = &quot;foo&quot;
+html = helper.bark
+html.should have_tag(&quot;script&quot;)
+end
+end<pre><code>
+</code></pre>
+</li>
+</ul>
+<h1>What do you do when some behavior depends on RAILS_ENV?</h1>
+<ul>
+<li>It’s not a good practice to switch around RAILS_ENV in the test framework</li>
+<li>Better idea is use a method to check it and then stub that out</li>
+<li>Here’s an outline: <a href="https://gist.github.com/71a30f8d26928dfe9663">gist from Zach</a></li>
+<li>Here’s what I did: <a href="http://github.com/ultrasaurus/openlaszlo_plugin/blob/112c83bd4bc2b9f877e1326862fdc74594970f04/lib/env_checker.rb">EnvChecker</a>, <a href="http://github.com/ultrasaurus/openlaszlo_plugin/blob/112c83bd4bc2b9f877e1326862fdc74594970f04/lib/applet_view_helper.rb#L44">code</a> and <a href="http://github.com/ultrasaurus/openlaszlo_plugin/blob/67cce59b77dc8352d032ae122e318bebf8879f04/spec/applet_view_helper_spec.rb">example</a></li>
+</ul>
+<h1>Stub tip</h1>
+<p>If you stub something and it appears not to be working, check when your module, class or method is loaded or created. Dynamic languages can be challenging. (<a href="http://www.ruby-forum.com/topic/187734#new">thanks David</a>)</p>
+<h1>References</h1>
+<p>For more information, see</p>
+<ul>
+<li><a href="http://www.pragprog.com/titles/achbd/the-rspec-book">The RSpec Book</a></li>
+<li><a href="http://rspec.rubyforge.org/rspec/1.2.6/">rspec doc</a></li>
+<li><a href="http://rspec.rubyforge.org/rspec-rails/1.2.6/">rspec-rails doc</a></li>
+<li><a href="http://wiki.railsbridge.org/projects/railsbridge/wiki/CodeReviewStudents">Zach’s code review recap</a></li>
+</ul>
+<p>These lessons learned while developing RSpec examples for a bug fix in <a href="http://github.com/ultrasaurus/openlaszlo_plugin/tree/master">openlaszlo_plugin</a> with help from <a href="http://simplechatter.com/">Zach Moazeni</a>, <a href="http://railsbridge.org/">RailsBridge</a> mentor, and <a href="http://blog.davidchelimsky.net/">David Chelmsky</a>, on the <a href="http://www.ruby-forum.com/forum/32">RSpec forum</a>.</p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

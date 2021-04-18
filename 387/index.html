@@ -1,0 +1,92 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2008/06/pipes-redirects-and-awk-v/">pipes, redirects and awk -v</a></h3>
+<p><em>2008-06-15</em></p>
+<p>I wanted to take the output of a command and put it in a temporary variable so I can append a string to it. (Trying to script perforce to append something to my client spec without interactive involvement.)</p>
+<p>First attempt:<br>
+$ p4 client -o &gt; $CLIENTSPEC<br>
+c:cygwinbinbash: $CLIENTSPEC: ambiguous redirect<br>
+I later learned that redirect is only for files.</p>
+<p>Next attempt:<br>
+$ TEST=<code>p4 client -o</code><br>
+$ echo $TEST<br>
+//depot/apps/diamond-calendar-preview/… //sallen-LENOVO/svn/openlaszlo/branches/pagan-deities/diamond-calen //depot/apps/diamond-amaranth-ms2/… //sallen-LENOVO/svn/openlaszlo/branches/pagan-deities/diamond-amaranth- //depot/sandbox/my-webtops/… //sallen-LENOVO/svn/openlaszlo/branches/wafflecone/diamond/client/my-webtops/. ..<br>
+which seems to have swallowed line endings and only provided the last few lines of output.</p>
+<p>My colleagues at Laszlo, Trebor Fenstermaker and <a href="http://www.samsarin.com/blog/">Chris Pettitt</a> and <a href="http://pt.withy.org/">ptw</a>, showed me the error of my ways and provided some good tips. Trebor noted that there is a length limit for shell variables and that line endings will get lost. Chris introduced a combination of pipe and awk -v which did the trick. At first I thought Tucker’s simple echo solution wasn’t working, but he pointed out that I just needed to properly parenthesize my commands.</p>
+<p><strong>What worked:</strong><br>
+p4 client -o | awk -v append=” //depot/apps/test/… //sallen-test/svn/openlaszlo/branches/pagan-deities/test/…” ‘{ print $0 } END { print append }’ | p4 client -i</p>
+<p><strong>Even simpler:</strong><br>
+(p4 client -o; echo ” //depot/apps/test/… //sallen-test/svn/openlaszlo/branches/pagan-deities/test/…” ) | p4 client -i</p>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>
+<p><a href="http://en.wikipedia.org/wiki/Redirection_%28Unix%29">Redirect</a> only works for files, there are lots of different types of redirects (&gt; is a simple redirect of stdout to a file, &gt;&gt; will append to a file, 2&gt; will redirect stderr)</p>
+</li>
+<li>
+<p>awk -v will define a variable which can then be used in the awk script</p>
+</li>
+<li>
+<p>You need to properly parenthesize your commands: ( p4 client -o; echo “Thing to append” ) | p4 client -i</p>
+<p>The parens will execute the p4 and echo commands in a sub-shell so the output of both will be piped to the next. Without the parens you have said:</p>
+<p>p4 client -o; ( echo “Thing to append” | p4 client -i )</p>
+<p>I.e., run the client command, then run echo to a pipe.</p>
+</li>
+<li>
+<p><a href="http://en.wikipedia.org/wiki/Pipe_%28Unix%29">Pipe</a> will let you take the stdout of one command and send it to the stdin of another:<br>
+<img src="http://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Pipeline.svg/280px-Pipeline.svg.png" alt=""></p>
+</li>
+</ul>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

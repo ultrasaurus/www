@@ -1,0 +1,131 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2009/06/simple-web-services-with-rails/">simple web services with rails</a></h3>
+<p><em>2009-06-21</em></p>
+<p>Rails enables web services by default, which is pretty awesome, and I’ve been relying on that for a while. It is pretty nifty how Rails will magically parse XML post parameters, create an in-memory object and then save that object to the database without your having to write one line of code. However, when the magic fails it can be pretty hard to debug. I found it useful to run basic tests on the command line using curl (hearing the voice of <a href="http://simplechatter.com/">Zach Moazeni</a> in my head saying: “test your assumptions.”)</p>
+<p>Below is a writeup of the set of curl commands and sample output for testing the default Rails XML REST APIs. This can serve as a cheat sheet for the experienced or an introduction for folks new to rails who want a basic understanding of the default webservice APIs.</p>
+<p>Create an app, by typing the following commands into your terminal:</p>
+<p><code>&lt;br&gt;&lt;/br&gt;$ rails basic_app&lt;br&gt;&lt;/br&gt;$ cd basic_app&lt;br&gt;&lt;/br&gt;$ ./script/generate scaffold  project title:string description:text&lt;br&gt;&lt;/br&gt;$ rake db:migrate&lt;br&gt;&lt;/br&gt;$ ./script/server&lt;br&gt;&lt;/br&gt;</code></p>
+<p>In Rails 2.3, you also need to added the following line to the top of app/controllers/projects_controller.rb (This will allow external access to the APIs.) You can make this change while the server is running, btw.</p>
+<p><code>&lt;br&gt;&lt;/br&gt;  skip_before_filter :verify_authenticity_token&lt;br&gt;&lt;/br&gt;</code></p>
+<p>Leave that window open where you can see it, since it will output useful stuff from the log. Then in another terminal window, experiment with the following commands to interact with your application APIs.</p>
+<p>blockquote.code {<br>
+font-style: normal;<br>
+font-family: Monaco,monospace;<br>
+font-size: 12px;<br>
+border: solid 1px #aaa;<br>
+padding: 6px;<br>
+background-color: #eee;<br>
+color: inherit;<br>
+overflow:auto;<br>
+margin: 10px 0px;<br>
+}</p>
+<h2>Create</h2>
+<p>POST /projects.xml</p>
+<p>Create a project object based on the XML representation given in the post body and save in the projects database table.</p>
+<blockquote>
+<p>$ curl -X POST -d &quot;&lt;project&gt;&lt;title&gt;Awesome&lt;/title&gt;&lt;description&gt;This is an awesome project.&lt;/description&gt;&lt;/project&gt;&quot; -H &quot;Content-Type: application/xml&quot; http://localhost:3000/projects.xml</p>
+<p>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;<br>
+&lt;project&gt;<br>
+&lt;created-at type=&quot;datetime&quot;&gt;2009-06-21T10:13:43-07:00&lt;/created-at&gt;<br>
+&lt;description&gt;This is an awesome project.&lt;/description&gt;<br>
+&lt;id type=&quot;integer&quot;&gt;6&lt;/id&gt;<br>
+&lt;title&gt;Awesome&lt;/title&gt;<br>
+&lt;updated-at type=&quot;datetime&quot;&gt;2009-06-21T10:13:43-07:00&lt;/updated-at&gt;<br>
+&lt;/project&gt;</p>
+</blockquote>
+<h2>Index</h2>
+<p>GET /projects.xml</p>
+<p>This returns a list of all of the projects in the database with an automatically generated XML representation.</p>
+<blockquote>
+<p>$ curl http://localhost:3000/projects.xml&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</p>
+<p>&lt;projects type=&quot;array&quot;&gt;<br>
+&lt;project&gt;<br>
+&lt;created-at type=&quot;datetime&quot;&gt;2009-06-21T10:13:19-07:00&lt;/created-at&gt;<br>
+&lt;description&gt;This is an awesome project.&lt;/description&gt;<br>
+&lt;id type=&quot;integer&quot;&gt;1&lt;/id&gt;<br>
+&lt;title&gt;Awesome&lt;/title&gt;<br>
+&lt;updated-at type=&quot;datetime&quot;&gt;2009-06-21T10:13:19-07:00&lt;/updated-at&gt;<br>
+&lt;/project&gt;<br>
+&lt;project&gt;<br>
+&lt;created-at type=&quot;datetime&quot;&gt;2009-06-21T10:13:43-07:00&lt;/created-at&gt;<br>
+&lt;description&gt;New information here&lt;/description&gt;<br>
+&lt;id type=&quot;integer&quot;&gt;2&lt;/id&gt;<br>
+&lt;title&gt;Awesome&lt;/title&gt;<br>
+&lt;updated-at type=&quot;datetime&quot;&gt;2009-06-21T10:49:21-07:00&lt;/updated-at&gt;<br>
+&lt;/project&gt;<br>
+&lt;/projects&gt;</p>
+</blockquote>
+<h2>Show</h2>
+<p>GET /projects/1.xml</p>
+<p>This returns an xml representation of the project with id #1</p>
+<blockquote>
+<p>$ curl http://localhost:3000/projects/1.xml&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</p>
+<p>&lt;project&gt;<br>
+&lt;created-at type=&quot;datetime&quot;&gt;2009-06-21T10:45:19-07:00&lt;/created-at&gt;<br>
+&lt;description&gt;This is an awesome project.&lt;/description&gt;<br>
+&lt;id type=&quot;integer&quot;&gt;8&lt;/id&gt;<br>
+&lt;title&gt;Awesome&lt;/title&gt;<br>
+&lt;updated-at type=&quot;datetime&quot;&gt;2009-06-21T10:45:19-07:00&lt;/updated-at&gt;<br>
+&lt;/project&gt;</p>
+</blockquote>
+<h2>Update</h2>
+<p>PUT /projects/1.xml</p>
+<p>This modifies the project with id #1</p>
+<blockquote>
+<p>curl -X PUT -d &quot;&lt;project&gt;&lt;description&gt;New information here&lt;/description&gt;&lt;/project&gt;&quot; -H &quot;Content-Type: application/xml&quot; http://localhost:3000/projects/1.xml</p>
+</blockquote>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

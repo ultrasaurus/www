@@ -1,0 +1,103 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2009/01/debugging-apple-mail-failure/">debugging Apple Mail failure</a></h3>
+<p><em>2009-01-23</em></p>
+<p>Just in case anyone was wondering how to tell what really happened when something goes wrong in Apple’s Mail application on Leopard (via <a href="http://www.dslreports.com/faq/14522">dslreports</a>)</p>
+<ol>
+<li>Quit Mail</li>
+<li>Open ” /Library/Scripts/Mail Scripts/Turn on Logging.scpt”</li>
+<li>Click Run</li>
+<li>It ask you if you want to turn on “secret logging” for Sending, Recieving or Both, then it will launch Mail</li>
+<li>Do the problematic action</li>
+<li>Open the Console and type: syslog -C</li>
+</ol>
+<p>Interesting, but not helpful this time. Why don’t they log timeouts? Turns out the port was blocked by Comcast. Ugh. Thanks <a href="http://www.blogarithms.com/index.php/archives/2008/01/17/blocked-by-comcast/">Doug</a>.</p>
+<p>Amazingly, the operator at Comcast who answered my live chat requesst was able to unblock my port. Here’s an excerpt of the conversation (slightly edited for brevity):</p>
+<blockquote>
+<p><strong>Gillema</strong>: Were you able to change the port number on smtp from 25 to port number 587 now?<br>
+<strong>Sarah</strong>: Well, I would like to use 25. That is what my smtp server listens on<br>
+<strong>Sarah</strong>: I can use the comcast one with a username/password, but I won’t be able to use that when I’m not at home<br>
+<strong>Gillema</strong>: Sarah, you may not use tb25 for this is more open to any viruses that may harm on your computer.<br>
+<strong>Sarah</strong>: I don’t accept incoming connections on 25, so my computer is not vulnerable<br>
+<strong>Sarah</strong>: Do you have any evidence of infection?<br>
+<strong>Sarah</strong>: I run two macs and a Windows machine where the anti-virus is typically kept up to date by my work IT department<br>
+<strong>Gillema</strong>: I see. May I ask what third party email client are you using? Is it outlook express or outlook2003?<br>
+<strong>Sarah</strong>: Apple Mail on the Macs and Thunderbird on Windows (or web mail)<br>
+<strong>Gillema</strong>: I see. Thank you for the information.<br>
+<strong>Gillema</strong>: So, Sarah! In using the TB25, are you able to send a message on both of your third party email clients?<br>
+<strong>Sarah</strong>: sending…<br>
+<strong>Sarah</strong>: that worked, you unblocked it?<br>
+<strong>Gillema</strong>: Yes. So, Sarah, was I able to resolve your issue issue today? Will there be anything else I can help you today?<br>
+<strong>Sarah</strong>: Yes, issue resolved. Thank you very much</p>
+</blockquote>
+<p>I was so shocked that Comcast was actually willing and able to resove my problem without a prolonged interaction with managerial escalataion that I exclaimed aloud to my family and a funny conversation ensued</p>
+<blockquote>
+<p><strong>Mommy</strong>: I can’t believe it. Comcast actually opened the port.<br>
+<strong>Son</strong>: What’s a port?<br>
+<strong>Daddy</strong>: It’s a harbor or bay where ships can dock. And the Comcast navy was blocking our ships from getting out of the harbor.</p>
+<p><strong>Son</strong>: I know *that* but really, what’s a port?<br>
+<strong>Mommy</strong>: you know how a lot of computer words are named after real world things, like the mouse, the web…<br>
+<strong>Son</strong>: spiders?<br>
+<em>[Intended as a joke, it of course led to a small digression on what a spider is — the computer program not the arachnid</em>]</p>
+<p><strong>Mommy</strong>: a port is a place (not a physical place, but rather a number) that is part of the network connection so multiple programs can communicate on the same time. Like for example, port 80 is for the Web…<br>
+<strong>Son</strong>: why port 80? the Web is really important. It should be number 1. What’s number 1?<br>
+<strong>Mommy</strong>: We can look that up. There’s an organization called the <a href="http://www.iana.org/">Internet Assigned Numbers Authority</a> which gives out numbers, we can look up the <a href="http://www.iana.org/assignments/port-numbers">list of ports</a> … number 1 is for the TCP Port Service Multiplexer. I’m not sure what that is, but it’s not number 1 because it is most important but instead because it was invented first.</p>
+<p>Son: They should renumber everything and make the Web number 1. <em>and there ensued a long conversation about how everything would break if we just rearranged all the numbers</em> <strong>Son</strong>: But number 8 isn’t being used. They could just chop off all the zeros and make the Web number 8. That’s what I think they should do.</p>
+<p>Mommy: did you know Mommy had a number on this list? I wonder if it still assigned to me. Let’s see 1935… Pritham has it registered now. <strong>Son</strong>: why didn’t they let you keep it? <strong>Mommy</strong>: because it didn’t really belong to me. It belongs to the software…<br>
+<em>[another digression about why the software needs it and I don’t. Of course, 1626 is still registered to me. I don’t know if anyone is still running the Shockave Multiuser Server, but the port is still there reserved just in case. Doesn’t it just make you sleep well at night knowing that there is someone out there keeping track of all the numbers and making sure that our netwrok protocols don’t collide?]</em></p>
+</blockquote>
+<p>Geek Mom strikes again.</p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

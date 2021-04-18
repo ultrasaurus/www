@@ -1,0 +1,77 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2009/12/agile-scalability-at-engine-yard/">agile scalability at engine yard</a></h3>
+<p><em>2009-12-13</em></p>
+<p>I attended the <a href="http://www.railsroadshow.com/">EngineYard Road Show</a> a couple of weeks ago. I had low expectations for a mid-week corporate-sponsored event, but I found it to be unexpectedly good. I took a few notes on some of the presentations, which I’ve collected below:</p>
+<h1>Why Performance Matters</h1>
+<p>Tom Mornini of EngineYard told us about a <a href="http://code.google.com/speed/files/delayexp.pdf">Google search latency experiment</a> which measured drop-off rates when response time was slow. It is awesome that Google also measured that the effects persisted even when the previous fast response time was restored. As humans, our behavior often reflects our expectations, rather than our immediate experience.<br>
+<a href="http://www.slideshare.net/engineyard/rail-performance-in-the-cloud-opening"><img src="http://img.skitch.com/20091213-xakamqiqfqhnd43dw8pmksj6w4.jpg" alt="" title="Google Search Latency Experiment"></a><br>
+I also enjoyed the four stages of performance which he defined as Delight, Satisfaction, Frustration and Abandonment. It is really easy to get bogged down in the wrong places and optimize things that don’t matter when working on performance. It was nice to see a clear presentation on how to prioritize (and why to prioritize) work on performance and scalability. (<a href="http://www.slideshare.net/engineyard/rail-performance-in-the-cloud-opening">Slides</a>)</p>
+<h1>Agile Deployment</h1>
+<p>Bill Lapcevic <a href="http://twitter.com/blap">(@blap</a>) from <a href="http://www.newrelic.com/">New Relic</a> challenged the audience to do “agile deployment.” <a href="http://www.aboutus.org/">AboutUs</a> often releases several times per day — averaging 10 per week. “Smaller deployments more often allow you to back out small pieces of code” says Ward Cunnigham of AboutUs. Instead of stress and load testing before you deploy, make it part of the culture of your development team to watch the performance effects of the live site right after deployment and make it easy to roll back and roll forward.</p>
+<h1>Engine Yard Cloud</h1>
+<p>Abheek Anand @abheek <a href="http://www.slideshare.net/engineyard/scaling-your-applications-with-engine-yard-cloud">presented</a> Engine Yard’s new Cloud product, which has a complete web UI for set up. There’s no command-line interface to it, which is weird, since it offers a deeply geeky array of options for you to tweak exactly how your stack is configured. This is the other end of the spectrum from Heroku. You even get ssh access!</p>
+<p>Abheek notes that Engine Yard sets everything up to be performant by default — 20% perf improvement out of the box, e.g. gzip’d content, correct load balance settings. He also adds this generally useful tip: measure everything, identify top ten, pick #1 and optimize.</p>
+<h1>More about Agile</h1>
+<p>Ian McFarland (<a href="http://twitter.com/imf">@imf</a>) talked about agile, rails and the cloud:</p>
+<ul>
+<li>specialization breeds efficiency: cloud allows you to focus on your key business value (not ops)</li>
+<li>increase your bus number: the number of people who would need to get hit by a bus before it would jeopardize your project</li>
+<li>shift from a technical decision about whether we can release to a business decision of whether you want to</li>
+<li><span><span>business driven is sadly, kind of a novelty in software</span></span></li>
+</ul>
+<p><span><span>Also there was an interesting talk on cloud testing by <a href="http://soasta.com/">soasta.com</a> — wish I had that the last time I had to build a load test lab! </span></span></p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

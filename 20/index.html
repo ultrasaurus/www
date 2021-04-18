@@ -1,0 +1,85 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2019/01/golang-philosophy/">golang philosophy</a></h3>
+<p><em>2019-01-18</em></p>
+<p>In learning a new programming language, it’s helpful to understand it’s philosophy. I seek to learn patterns that are idiomatic, and more importantly: why the syntax is the way it is. This allows me to write original code more quickly, gaining an intuition for simple things like when to look for a library and when to just write code.</p>
+<p>I rarely find good resources for learning a new language that are targeted at experienced programmers. So I’ve developed a habit of looking for language koans. Inspired by <a href="http://rubykoans.com/">Ruby Koans</a>, these are unit tests which guide a programmer through basic language constructs by presenting a failing test and let you write simple code to learn the syntax of a language. These tests typically include a bit of text that helps newcomers reflect on what is special and interesting about this particular programming language.</p>
+<p>In learning Go, I found <a href="https://github.com/cdarwin/go-koans">cdarwin/go-koans</a>, which helped me to reflect on the philosophy of golang, the Go programming language.</p>
+<p>The koans caused me to meditate on the basics, leading me to read more and reflect. While <a href="https://github.com/cdarwin/go-koans/blob/master/about_basics.go">about_basics.go</a> is quick to solve technically, it sparked my curiosity on two points.</p>
+<ol>
+<li>The uninitialized variable</li>
+</ol>
+<hr>
+<p>I really wanted the comments in the <code>go-koans</code> to be a bit more like Zen koans (or Ruby koans), so I wrote these:</p>
+<pre><code>// listen to the darkness of an unset variable
+// what is the code that is not written?
+// consider the emptiness of a string
+<p>// create meaning from emptiness
+// undefined structure isn't</p>
+<p></code></pre></p>
+<p>“Make the zero value useful” —<a href="https://go-proverbs.github.io/">Go Proverbs</a></p>
+<p>It reminds me of the <a href="http://bengtwendel.com/your-teacup-is-full-empty-your-cup/">Zen teacup parable</a>. An empty cup has utility, even before it is filled.</p>
+<ol start="2">
+<li>The implications of a string</li>
+</ol>
+<hr>
+<p>One of the most deceptively simple types in modern programming languages is the string. In Go, there is a <a href="https://golang.org/pkg/builtin/#string">built-in string type</a> with short, unsatisfying descriptive text.</p>
+<p><a href="https://blog.golang.org/strings">Strings, bytes, runes and characters in Go</a> explains that strings are a read-only slice of bytes (at runtime). Go source code is UTF-8, so string literals always contain UTF-8 text (except for <a href="https://golang.org/ref/spec#String_literals">byte-level escapes</a>.</p>
+<p>Strings always cause me to reflect on how memory management works in a language. In my search for basic answers about how and when memory happens in string operations, I read about <a href="https://segment.com/blog/allocation-efficiency-in-high-performance-go-services/">allocation efficiency in high-performance Go services</a> which includes a nice explanation of heap vs stack memory allocation in Go.</p>
+<h2>Reflections</h2>
+<p>At this point, I don’t know what I need to know about this new programming language. I just like to know what the code I’m typing actually does. Learning syntax is boring, so I need to occupy my mind with something more interesting while I practice typing unfamiliar sequences of text. To write good code, I need to know so much more than the syntax, but I need to be careful not get get too attached to certain details. For example, future compiler versions change the patterns of how code is transformed into machine operations. However, if I attach just a little deeper meaning to these syntax constructs and get a feel for what my code ends up doing under-the-hood, I can more quickly understand the implications of the code I write.</p>
+<p>When I emerge from these learning meditations and I can finally construct this new syntax without thinking and start to solve actual problems that matter to humans, then I will have created these little trails in my mind that lead to empty spaces, which have shape and meaning, like the Go zero value and the Zen teacup.</p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

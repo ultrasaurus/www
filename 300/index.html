@@ -1,0 +1,82 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2009/03/git-submodule-gotcha/">git submodule gotcha</a></h3>
+<p><em>2009-03-10</em></p>
+<p>I anticipate enjoying git submodules for all of the various and sundry dependencies for my project. However there is a bit of a gotcha with my specific use case. It’s seems I’m <a href="http://blog.buildingwebapps.com/2008/5/20/got-git-submodules-not-a-go-go">not alone</a>, but I thought I’d write this up for others who may into the same thing (and for my own future reference).</p>
+<p>The issue happens when you have a directory that is checked into git and you decide to delete the directory of checked in files and add a submodule instead. Seems like a common use case to me, but perhaps the creators of git submodules didn’t thinks so. This happened to me in the move from subversion to git. Initially, all of the plugins were accessed as svn externals; however they were not available via git and I wanted to do one migration at a time, so I just checked the source of all of them into vender/plugins. Later, I dug up references to various git repositories where the plugins are now available, and created subrepositories — awesome, right?</p>
+<p>The gotcha comes when I switch branches back and forth between the “master” (no submodules, but with checked in source) and “dev” (where my submodule work is). Here’s what happens:</p>
+<pre><code>
+$ git checkout master
+error: Untracked working tree file 'vendor/plugins/acts_as_list/lib/active_record/acts/list.rb' would be overwritten by merge.
+</code></pre>
+<p>Here’s my workaround…<br>
+<strong>To go back to a branch w/o submodules</strong></p>
+<pre><code>
+$ rm -rf vendor/plugins
+$ git checkout master
+$ git checkout vendor/plugins
+</code></pre>
+<p><strong>To go back to a branch w/ submodules</strong></p>
+<pre><code>
+git checkout dev
+git submodule update --init
+</code></pre>
+<p>Update: another gotcha, when I tried to merge dev into master I got “fatal: cannot read object… It is a submodule!” found the answer <a href="http://n2.nabble.com/git-submodule-merge-madness-td2135496.html">here</a> and it worked for me:</p>
+<pre><code>
+git merge -s  resolve
+</code></pre>
+<p>For the record, I’m working with git version 1.6.1</p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

@@ -1,0 +1,86 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2009/08/rails-models-are-views/">rails models are views?</a></h3>
+<p><em>2009-09-01</em></p>
+<p>Rails appears pretty strict about separation of the abstraction layers that make up its notion of a web application: models, view and controllers. If you were to suggest calling a presentation method, such as url_for, in your model, the stoic Rails advocate will have an allergic reaction. However, Rails thinks nothing of rendering a model directly as a view, such as:</p>
+<pre><code>
+format.json { render :json =&gt; @products }
+</code></pre>
+<p>Now, one might argue that this is controller code and the controller is allowed to interpret the model as a view. The controller’s job is to mediate this interaction. However, I feel that it is a dangerous shortcut, made even more so by how hard to seems to be to override. Perhaps the json implementation is simply incomplete.</p>
+<p>In xml, this strange controller pattern is easily corrected by <a href="http://danengle.us/2009/05/generating-custom-xml-for-your-rails-app/">providing an xml view</a>. The xml builder syntax is particularly readable, and it is easy to design your XML API effectively.</p>
+<p>I haven’t found an equivalent for json. I tried to use a JSON API today to no avail. My model included image data which breaks when auto-rendered in JSON. What I really wanted was to include a URL instead of the image data, which I implement neatly in my xml.builder view:</p>
+<pre><code>
+xml.instruct!
+xml.products(&quot;type&quot;=&gt;&quot;array&quot;) do
+  @products.each do |product|
+    xml.product do
+      xml.sku product.sku
+      xml.name product.name
+      xml.brand product.brand
+      xml.img_url url_for(:controller =&gt; :products, :action =&gt; :show, :format=&gt;:png, :id =&gt; product.id, :only_path =&gt; false)
+    end
+  end
+end
+</code></pre>
+<p>The problem is that I want a similar view in JSON. The to_json API leads me to put this logic in my model (gasp!). In fact, the ActiveRecord::Serialization docs give an example of providing a method to generate JSON instead of a literal attribute. The example is of a “permalink” which seem suspiciously like something that belongs is the view layer.</p>
+<pre><code>
+  konata.to_json(:methods =&gt; :permalink)
+  # =&gt; {&quot;id&quot;: 1, &quot;name&quot;: &quot;Konata Izumi&quot;, &quot;age&quot;: 16,
+        &quot;created_at&quot;: &quot;2006/08/01&quot;, &quot;awesome&quot;: true,
+        &quot;permalink&quot;: &quot;1-konata-izumi&quot;}
+</code></pre>
+<p>Today’s solution was to go back to using my comfortable old XML API, but I would prefer to consume JSON from the other side. I wonder if anyone is working on a JSON builder or if there is some clear solution that I haven’t yet stumbled upon.</p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

@@ -1,0 +1,77 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2008/05/moveabletype-4-and-dealing-with-comment-spam/">moveabletype 4 and dealing with comment spam</a></h3>
+<p><em>2008-05-05</em></p>
+<p>I’ve been letting comments build up in my moderation queue, since I have been overwhelmed by the amount of spam. Today, I decided to upgrade to mt4 to see if the new version offered anything better. I got a 500 error at first, but found in my apache logs:</p>
+<p>error: “file is writable by others”<br>
+Found via google that I needed to: chmod 755<br>
+I usually just a+x, but that seemed to work.</p>
+<p>Other than that, MovableType was a delight to install, as always.</p>
+<p>Eek! All of the comments I had marked as junk were simply unpublished after the upgrade. I couldn’t deal with 45,000 comments via the GUI, so I decided to walk on the edge and edit directly via SQL… I had just backed up my database, right?</p>
+<p>So… for the record, this is what worked:<br>
+mysql&gt; DELETE FROM mt_comment WHERE comment_visible IS NULL;<br>
+Query OK, 45176 rows affected (7.54 sec)</p>
+<p>Then, I decide to go after my trackback spam:<br>
+mysql&gt; DELETE FROM mt_tbping WHERE tbping_blog_name LIKE “%Jhony%”;<br>
+Query OK, 46535 rows affected (5.31 sec)</p>
+<p>mysql&gt; DELETE FROM mt_tbping WHERE tbping_blog_name LIKE “%sex%”;<br>
+Query OK, 37 rows affected (0.03 sec)</p>
+<p>mysql&gt; DELETE FROM mt_tbping WHERE tbping_blog_name LIKE “%loans%”;<br>
+Query OK, 171 rows affected (0.04 sec)</p>
+<p>finally, I decided my time was more important than finding the elusive valid trackback, so I deleted them all:</p>
+<p>mysql&gt; DELETE FROM mt_tbping;</p>
+<p>Ok, all is good, or so I thought. I’ve got my old blog with the new MT. However, I wanted to try out authentication for comments, but when I turn it on, I get an error when I post a new comment that registration is required. I suppose I need to update my “Entry” template, so I look up the MT4 <a href="http://www.movabletype.org/documentation/designer/movable-type-40-default-templa.html">default templates</a>. However, if I paste in the <a href="http://www.movabletype.org/default_templates/4.0/entry.mtml">entry template</a>, I get an error. Sigh.</p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

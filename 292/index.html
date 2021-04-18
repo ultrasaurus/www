@@ -1,0 +1,77 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2009/04/sandbox-for-ruby-code/">sandbox for ruby code</a></h3>
+<p><em>2009-04-17</em></p>
+<p>David Stevenson, <a href="http://flouri.sh/">flouri.sh</a>, talk “Playing With Fire: Running Uploaded Ruby Code in a Sandbox” at <a href="http://gogaruco.com/">Golden Gate Ruby Conference</a></p>
+<p>A sandbox needs to:</p>
+<ul>
+<li>Limit functionality</li>
+<li>Make it so code can’t break out</li>
+<li>Separate code space</li>
+<li>Bounded execution time</li>
+</ul>
+<p><strong>Sandbox gems</strong></p>
+<ul>
+<li>Freaky-freaky sandbox gem (MRI Ruby): it’s a gem, but you can’t use gem install. No support for 1.8.7 and later.</li>
+<li>JavaSand gem (JRuby): same API as the freaky-freaky sandbox, more actively maintained</li>
+<li>Rubinious has SubVMs, David doesn’t have experience with it</li>
+</ul>
+<p><strong>acts_as_runnable_code</strong> is a sandbox helper:<br>
+set up sandbox easily with referenced classes<br>
+pass in top-level binding</p>
+<p>Built an example in just a few minutes that allowed people to enter experession to be evaluated and opened to the audience (offering cupcakes to anyone who broke it!). Here’s some of the first experiments from the audience:</p>
+<p><img src="http://img.skitch.com/20090417-bb68kd3qyyn3yrimx2htyc1bna.jpg" alt="Exprs: index"></p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

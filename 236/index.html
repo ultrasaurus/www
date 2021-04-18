@@ -1,0 +1,150 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2009/12/creating-a-custom-rake-task/">creating a custom rake task</a></h3>
+<p><em>2009-12-20</em></p>
+<p>There’s a nice <a href="http://railscasts.com/episodes/66-custom-rake-tasks">Railscast introduction to rake</a> for Rails, which goes into a number of other important details that aren’t covered in this post. Below is a little tutorial of creating a Rails rake task and getting it to run remotely on heroku.</p>
+<h2>Introduction to Rake</h2>
+<p>In lib/tasks, create a file called greet.rake</p>
+<pre><code>
+task :greet do
+   puts &quot;Hello world&quot;
+end
+</code></pre>
+<p>By naming the task .rake and putting it in this special place rails will automatically pick it up and make it available to you. You can see it listed if you type: rake -T on the command line. To run it:</p>
+<pre><code>
+rake greet
+</code></pre>
+<p>which will print “Hello world”</p>
+<p>to run one task before another, specify a dependency like this (multiple tasks may be specified in the same file):</p>
+<pre><code>
+task :ask =&gt; :greet do
+   puts &quot;How are you?&quot;
+end
+</code></pre>
+<h2>Writing a Practical Rake Task</h2>
+<p>Now for the task at hand, I’m going to create a rake task which creates a bunch of fake data for me to test with. First I’ll create a little experimental app:</p>
+<pre><code>
+rails rake_example
+cd rake example
+script/generate scaffold person first_name:string last_name:string
+rake db:migrate
+rails generate admin fake_people
+</code></pre>
+<p>Here’s the rake task (lib/tasks/fake_people.rake):</p>
+<pre><code>
+require 'faker'
+<p>namespace :admin  do
+desc &quot;create some fake data&quot;
+task :fake_people =&gt; :environment do
+print &quot;How many fake people do you want?&quot;
+num_people = $stdin.gets.to_i
+num_people.times do
+Person.create(:first_name =&gt; Faker::Name.first_name,
+:last_name =&gt; Faker::Name.last_name)
+end
+print &quot;#{num_people} created.n&quot;
+end
+end
+</code></pre></p>
+<p>Note that I’m using the faker gem (<a href="http://faker.rubyforge.org/rdoc/">docs here</a>) and I created a task dependency on loading the rails environment so I could access my Person model.</p>
+<p>Now I can run</p>
+<pre><code>
+rake admin:fake_people
+</code></pre>
+<p>and it will prompt me to ask how many I want and then it will create them. Cool goodness, yes?</p>
+<h2>Running Remotely on Heroku</h2>
+<p>We’re not done yet. I want to deploy this on heroku and be able to run the task remotely. For this, there are two gotchas, first I can’t run an interactive script remotely; also I need to tell heroku that I am using the fake gem and make sure it is installed.</p>
+<h3>1) removing interactivity</h3>
+<p>Instead of an interactive script, we can set an environment variable or command line argument (thanks to a <a href="http://groups.google.com/group/heroku/browse_thread/thread/775f445e5b11e498/">tip by Adam Wiggins</a>).</p>
+<p>My modified task looks like this:</p>
+<pre><code>
+require 'faker'
+<p>namespace :admin  do
+desc &quot;create some fake data&quot;
+task :fake_people =&gt; :environment do
+num_people = ENV['NUM_RECORDS'].to_i
+num_people.times do
+Person.create(:first_name =&gt; Faker::Name.first_name,
+:last_name =&gt; Faker::Name.last_name)
+end
+print &quot;#{num_people} created.n&quot;
+end
+end
+</code></pre></p>
+<p>which I can call locally from the command line like this:</p>
+<pre><code>
+rake admin:fake_people NUM_RECORDS=1
+</code></pre>
+<h3>2) adding gem to heroku</h3>
+<p>I need to create a <a href="http://blog.heroku.com/archives/2009/3/10/gem_manifests/">gems manifest</a>, which sounds fancy, but is simply creating a .gems file at the root of my app with contents similar to what I would put in my config environment.rb to specify that my app requires a gem:</p>
+<pre><code>
+faker --version &quot;&gt;=0.3.1&quot;
+</code></pre>
+<h3>3) Deploy and Run</h3>
+<p>So I can deploy my app to heroku with the usual steps</p>
+<pre><code>
+git init
+git add .
+git commit -m &quot;example app for rake script testing&quot;
+heroku create
+git push heroku master
+heroku rake db:migrate
+</code></pre>
+<p>and run the task remotely:</p>
+<pre><code>
+heroku run rake admin:fake_people NUM_RECORDS=1
+</code></pre>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

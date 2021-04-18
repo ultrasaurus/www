@@ -1,0 +1,131 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the evolving ultrasaurus</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="/">The evolving ultrasaurus</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/speaking">Speaking</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <p><em>WIP - under construction</em></p>
+<h3><a href="/2009/09/rails-exceptions-in-xml/">rails exceptions in xml</a></h3>
+<p><em>2009-09-13</em></p>
+<p>We ran into an issue last week where our XML APIs were returning HTML under certain error conditions, rather than the expected XML. Our solution was to add the following code to the ApplicationController:</p>
+<pre><code>
+  rescue_from Exception do |exception|
+    respond_to do |format|
+      format.xml  { render :xml =&gt; 
+           &quot;&lt;error&gt;Internal Server Error #{exception.message}&lt;/error&gt;&quot;, 
+           :status =&gt; 500 }
+      format.html { render :html =&gt; {:file =&gt; 'public/500.html'}, :status =&gt; 500 }
+      format.json { render :json =&gt; 
+            {:error =&gt; &quot;Internal Server Error #{exception.message}&quot;}.to_json, 
+             :status =&gt; 500 }
+    end
+  end
+</code></pre>
+<p>We might have also declared a rescue_action, and I’m not sure of the benefits of one over the other, except that perhaps we needed to implement a general form of rescue_from since we had another more specific form already declared.</p>
+<p>It seemed to me that this should be the default behavior in rails, so I decided to dig into it a little more and see what I could discover. I started by making a little test app to reproduce the exception. The particular case from last week was a database limit that wasn’t being caught in the app with a length validation. When I tried to re-create the error in MySql, I noticed that no exception is thrown since MySql will just truncate the data (although perhaps that is only because I am not running MySql in strict mode). In PostgreSQL, the database layer will throw an exception.</p>
+<p>Test app setup:</p>
+<pre><code>
+rails -d postgresql test_postgresql
+cd test_postgresql/
+script/generate scaffold person first:string last:string present:boolean
+</code></pre>
+<p>Edit the migration to create a database limit:</p>
+<pre><code>
+class CreatePeople &lt; ActiveRecord::Migration
+  def self.up
+    create_table :people do |t|
+      t.string :first, :limit =&gt; 40
+      t.string :last, :limit =&gt; 40
+      t.boolean :present
+<pre><code>  t.timestamps
+end
+</code></pre>
+<p>end</p>
+<p>def self.down
+drop_table :people
+end
+end
+</code></pre></p>
+<p>Create the postgres user. Note double-quotes around user, single quotes around password. It has to be that way. Go figure.</p>
+<pre><code>
+$ sudo su postgres -c psql
+postgres=# create user &quot;test_postgresql&quot; with superuser password 'password';
+CREATE ROLE
+postgres=# q
+</code></pre>
+<p>Finally create the database, run migration, and start the server:</p>
+<pre><code> 
+rake db:create:all
+rake db:migrate
+./script/server
+</code></pre>
+<p>If you point your browser at http://localhost:3000/people and try to create a person with more that 40 characters in the first name, you will see the following error:</p>
+<pre><code>
+ActiveRecord::StatementInvalid in PeopleController#create
+PGError: ERROR:  value too long for type character varying(40)
+</code></pre>
+<p>That is all well and good; however, if you do the same in XML, you will get the same error in <strong>HTML</strong>.</p>
+<pre><code>&lt;pre width=&quot;80&quot;&gt;
+$ curl -X POST -d &quot;&lt;person&gt;&lt;first&gt;This is a first name that is too long for the database limit&lt;/first&gt;&lt;/person&gt;&quot; -H &quot;Content-Type: application/xml&quot; http://localhost:3000/people.xml
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+&lt;head&gt;
+  &lt;title&gt;Action Controller: Exception caught&lt;/title&gt;
+  &lt;style&gt;
+    body { background-color: #fff; color: #333; }
+<pre><code>body, p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size:   13px;
+  line-height: 18px;
+}
+</code></pre>
+<p></code></pre></p>
+<p>That seems like a bug to me. Perhaps this should be a lighthouse ticket rather than a blog post.. still not confident in identifying bugs in Rails, so I figured I’d post here first.</p>
+
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Skyler</a></li>
+            <li><a href="#">Jesse</a></li>
+            <li><a href="#">Mike</a></li>
+            <li><a href="#">Holly</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
+
+
+

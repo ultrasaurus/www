@@ -14,5 +14,6 @@ pagination:
 Here are all the posts:
 
 {% for post in pagination.items %}
-* *{{ post.date | date: "%Y-%m-%d" }}* [{{post.data.title}}]({{ post.url }})
+{% include _postexcerpt %}
+
 {% endfor %}

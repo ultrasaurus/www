@@ -2,16 +2,15 @@
 layout: base
 tags: []
 title: the evolving ultrasaurus
-pagination:
-  data: collections.blog
-  size: 1
-  reverse: true
 ---
 
-*WIP - under construction*
+{% assign posts = collections.blog | reversed %}
+{% assign post = posts | last %}
+{% assign prev = posts | getPreviousCollectionItem: post %}
 
-{% for post in pagination.items %}
 
 {% include _post_highlight %}
 
-{% endfor %}
+---
+
+read previous post: [{{prev.data.title}}]({{ prev.url }})

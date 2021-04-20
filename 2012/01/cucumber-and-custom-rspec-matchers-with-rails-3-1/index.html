@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>cucumber and custom rspec matchers with rails 3.1</h1>
+
+<p><em>2012-01-22</em></p> 
+
 
 <p>I’m working my way through an epic Rails 3.1 upgrade and some of my cucumber features were failing because I was using a custom RSpec matcher and the method wasn’t found.</p>
 <p>My custom matcher looks something like this:</p>
@@ -51,8 +63,14 @@ module CustomMatchers
 <p>Now, my cucumber feature is happily failing cuz my code doesn’t work. Whew. I couldn’t find this documented anywhere and I’m not even sure where this documentation would belong. I found a hint on the <a href="https://github.com/cucumber/cucumber/wiki/RSpec-Expectations">cucumber wiki rspec expectations page</a>, but none of the code on that page is actually needed when using cucumber with Rails, so I decided not to touch it and just write this blog post.</p>
 
 <hr>
-<ul><li>Next: <a href="/2012/01/stirfry-great-example-of-game-dynamics/">stir fry: great example of game dynamics</a></li><li>Previous: <a href="/2012/01/ffmpeg-on-osx-lion/">ffmpeg on osx lion</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2012/01/stirfry-great-example-of-game-dynamics/">← stir fry: great example of game dynamics</span></a>
+            
+			<span class="next"><a href="/2012/01/ffmpeg-on-osx-lion/" rel="next">ffmpeg on osx lion→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

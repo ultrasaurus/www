@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>git submodule gotcha</h1>
+
+<p><em>2009-03-10</em></p> 
+
 
 <p>I anticipate enjoying git submodules for all of the various and sundry dependencies for my project. However there is a bit of a gotcha with my specific use case. It’s seems I’m <a href="http://blog.buildingwebapps.com/2008/5/20/got-git-submodules-not-a-go-go">not alone</a>, but I thought I’d write this up for others who may into the same thing (and for my own future reference).</p>
 <p>The issue happens when you have a directory that is checked into git and you decide to delete the directory of checked in files and add a submodule instead. Seems like a common use case to me, but perhaps the creators of git submodules didn’t thinks so. This happened to me in the move from subversion to git. Initially, all of the plugins were accessed as svn externals; however they were not available via git and I wanted to do one migration at a time, so I just checked the source of all of them into vender/plugins. Later, I dug up references to various git repositories where the plugins are now available, and created subrepositories — awesome, right?</p>
@@ -57,8 +69,14 @@ git merge -s  resolve
 <p>For the record, I’m working with git version 1.6.1</p>
 
 <hr>
-<ul><li>Next: <a href="/2009/03/something-new-about-goats/">something new about goats</a></li><li>Previous: <a href="/2009/03/seeking-experienced-ruby-on-rails-developer/">seeking experienced Ruby on Rails developer</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2009/03/something-new-about-goats/">← something new about goats</span></a>
+            
+			<span class="next"><a href="/2009/03/seeking-experienced-ruby-on-rails-developer/" rel="next">seeking experienced Ruby on Rails developer→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

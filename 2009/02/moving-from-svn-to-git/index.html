@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>moving from svn to git</h1>
+
+<p><em>2009-02-12</em></p> 
+
 
 <p>I’ve been learning git lately and it seems much easier to use than subversion for branching and merging, but I still have yet to become adept at looking at a file history. It seems to be the way that a lot of projects are moving, especially for rails and open source projects; besides, all the kids are doing it, so I figured I would follow the trend. In addition to using it pretty simply for small projects, I’m moving a project from subversion to git, which turn out to be a little bumpy, so I thought I would share.</p>
 <p>I started with these awesomely simple instructions <a href="http://www.simplisticcomplexity.com/2008/03/05/cleanly-migrate-your-subversion-repository-to-a-git-repository/">to cleanly migrate your subversion repository</a> with the addition of a handy script to automatically <a href="http://technicalpickles.com/posts/creating-a-svn-authorsfile-when-migrating-from-subversion-to-git">create an svn.authors file</a>.</p>
@@ -61,8 +73,14 @@ $rm -rf project-tmp
 </code></pre>
 
 <hr>
-<ul><li>Next: <a href="/2009/02/minority-report-commercials/">minority report commercials</a></li><li>Previous: <a href="/2009/02/mogulus-live-web-video-shows/">mogulus live web video shows</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2009/02/minority-report-commercials/">← minority report commercials</span></a>
+            
+			<span class="next"><a href="/2009/02/mogulus-live-web-video-shows/" rel="next">mogulus live web video shows→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

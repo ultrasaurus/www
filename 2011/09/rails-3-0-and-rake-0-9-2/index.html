@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>rails 3.0 and rake 0.9.2</h1>
+
+<p><em>2011-09-11</em></p> 
+
 
 <p>I really want to upgrade a Rails 3.0 project to Rails 3.1, but I’ve done a few spikes and it lacks test coverage, so I decided to pull in cucumber and write some features before moving forward.</p>
 <p>I added cucumber-rails to my gemfile, and ran “bundle” and got this error:</p>
@@ -58,8 +70,14 @@ include Rake::DSL
 <p>which I’m hoping will go away with the Rails 3.1 upgrade, but I thought I would write up the rest of it in case it helps other wayward souls on their journey.</p>
 
 <hr>
-<ul><li>Next: <a href="/2011/09/upgrading-pie-from-rails-3-0-to-3-1/">upgrading pie from rails 3.0 to 3.1</a></li><li>Previous: <a href="/2011/08/mobile-payments-hidden-costs/">mobile payments hidden costs</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2011/09/upgrading-pie-from-rails-3-0-to-3-1/">← upgrading pie from rails 3.0 to 3.1</span></a>
+            
+			<span class="next"><a href="/2011/08/mobile-payments-hidden-costs/" rel="next">mobile payments hidden costs→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

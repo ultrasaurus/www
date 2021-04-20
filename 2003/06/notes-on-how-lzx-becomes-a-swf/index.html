@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>Notes on how LZX becomes a SWF</h1>
+
+<p><em>2003-06-18</em></p> 
+
 
 <p>Don Park recently spent some time with the <a href="http://www.laszlosystems.com/">Laszlo Presentation Server</a> and drew a nice architecture diagram in his <a href="http://www.docuverse.com/blog/donpark/2003/06/16.html#a596">blog</a>. Generating an LZX from a JSP is one way to create applications in Laszlo. A more common development pattern is to simply write an LZX file that references an XML data source. I’ve drawn a diagram with a similar structure to Don’s that shows the HTTP requests from the browser, to illustrate how this works.</p>
 <p><img src="/images/blog/lzx.gif" alt=""><br>
@@ -47,8 +59,14 @@
 <p>One last technical note, LPS does a bunch of smart caching. If an LZX file or the data source hasn’t changed, LPS efficiently delivers the same bunch of bits it created for the previous request. Incremental compiles are achieved by breaking up your app into separate files, typically using the &lt;library&gt; tag. Then LPS only compiles the file that has changed.</p>
 
 <hr>
-<ul><li>Next: <a href="/2003/06/blogs-and-gutters/">blogs and gutters</a></li><li>Previous: <a href="/2003/06/animated-napkin-sketch/">animated napkin sketch</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2003/06/blogs-and-gutters/">← blogs and gutters</span></a>
+            
+			<span class="next"><a href="/2003/06/animated-napkin-sketch/" rel="next">animated napkin sketch→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>rspec: mixing transcations and truncation database clearner strategies</h1>
+
+<p><em>2014-01-18</em></p> 
+
 
 <p>I’m using capybara-webkit for integration testing with rspec, which is awesome, because it is faster than other full-browser testing solutions, like Selenium, but it is slower than RackTest (default for RSpec testing). RSpec provides a nice way to specify an alternate driver when running Javascript tests, but configuration can be a little tricky. I got this working via this <a href="http://www.livinginthepast.org/2013/11/24/today-we-went-to-the-bad-place.html">excellent blog post</a> via <a href="https://twitter.com/sarahmei">Sarah Mei</a>, who was pairing with me for the day.</p>
 <p>I think it is important to actually understand the code that I copy/paste, so I took a little time to read up on the details which I’ve summarized below.</p>
@@ -80,8 +92,14 @@ end
 <p>Perhaps someone reading this can explain this detail, but happy to have a configuration that works and hope this helps other folks who want fast tests that run reliably.</p>
 
 <hr>
-<ul><li>Next: <a href="/2014/01/ruby-find-latitudelongitude-list-cities/">ruby to find latitude/longitude for a list of cities</a></li><li>Previous: <a href="/2014/01/women-conference-speakers/">why more women conference speakers?</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2014/01/ruby-find-latitudelongitude-list-cities/">← ruby to find latitude/longitude for a list of cities</span></a>
+            
+			<span class="next"><a href="/2014/01/women-conference-speakers/" rel="next">why more women conference speakers?→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

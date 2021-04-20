@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>zero-knowledge proof: trust without shared secrets</h1>
+
+<p><em>2018-04-07</em></p> 
+
 
 <p>In cryptography we typically share a secret which allows us to decrypt future messages. Commonly this is a password that I make up and submit to a Web site, then later produce to verify I am the same person.</p>
 <p>I missed Kazue Sako’s <a href="http://iiw.idcommons.net/Zero_Knowledge_Proofs_101">Zero Knowledge Proofs 101</a> presentation at <a href="https://www.internetidentityworkshop.com/">IIW</a> last week, but Rachel Myers shared an impressively simply retelling in the car on the way back to San Francisco, which inspired me to read the notes and review the proof for myself. I’ve attempted to reproduce this simple explanation below, also noting additional sources and related articles.</p>
@@ -70,8 +82,14 @@ If e == 1: <code>u*f(x) = g^v (mod p)</code></li>
 </ul>
 
 <hr>
-<ul><li>Next: <a href="/2018/04/false-dichotomy-of-control-vs-sharing/">false dichotomy of control vs sharing</a></li><li>Previous: <a href="/2018/02/listening-to-very-specific-events/">listening to very specific events</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2018/04/false-dichotomy-of-control-vs-sharing/">← false dichotomy of control vs sharing</span></a>
+            
+			<span class="next"><a href="/2018/02/listening-to-very-specific-events/" rel="next">listening to very specific events→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

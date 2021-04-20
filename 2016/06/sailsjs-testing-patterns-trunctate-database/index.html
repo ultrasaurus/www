@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>sailsjs testing: how to truncate the database</h1>
+
+<p><em>2016-06-12</em></p> 
+
 
 <p>SailsJS is a NodeJS MVC framework that we use for the <a href="https://github.com/openopps/openopps-platform">OpenOpps Platform</a>. Sails has some basic <a href="http://sailsjs.org/documentation/concepts/testing">testing docs</a>, but it doesn’t explain how to set up the framework nicely where the database is dropped in between tests. I find myself always re-figuring out these patterns when I write experimental apps.</p>
 <p>With an in-memory database, this bootstrap.test.js will drop the database between tests:</p>
@@ -109,8 +121,14 @@ after(function(done) {
 </code></pre>
 
 <hr>
-<ul><li>Next: <a href="/2016/07/go-language-philosphy-thorugh-proverbs/">go language philosphy thorugh proverbs</a></li><li>Previous: <a href="/2016/06/serving-served-us/">serving those who served us</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2016/07/go-language-philosphy-thorugh-proverbs/">← go language philosphy thorugh proverbs</span></a>
+            
+			<span class="next"><a href="/2016/06/serving-served-us/" rel="next">serving those who served us→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

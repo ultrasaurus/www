@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>generating an .htaccess file for wordpress migration</h1>
+
+<p><em>2009-01-11</em></p> 
+
 
 <p>So, I’ve been working to migrate my ultrasaurus weblog from Movable Type to WordPress (this one will come later). Since all the links were changing anyhow, I decided to move from ugly numbered permalinks to pretty links based on the title of the post. I only had a few hundred posts, but enough so I didn’t want to be doing it by hand. Since I’m learning Ruby and infatuated with it at the moment, I wrote a Ruby script to generate the .htaccess directives.</p>
 <p>In case this would be helpful to anyone else, here’s the code:</p>
@@ -75,8 +87,14 @@ puts output</p>
 [/sourcecode]</p>
 
 <hr>
-<ul><li>Next: <a href="/2009/01/on-learning-new-things/">on learning new things</a></li><li>Previous: <a href="/category-code/">Code</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2009/01/on-learning-new-things/">← on learning new things</span></a>
+            
+			<span class="next"><a href="/category-code/" rel="next">Code→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

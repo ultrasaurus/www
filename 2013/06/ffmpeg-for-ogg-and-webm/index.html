@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>ffmpeg for ogg and webm</h1>
+
+<p><em>2013-06-07</em></p> 
+
 
 <p>I wanted to experiment with Ogg and WebM and the &lt;video&gt; tag, and I thought the easiest way would be with my favorite command-line transcoder, ffmpeg. It’s fabulous support for just about every audio and video file format makes it fabulous for hacking.</p>
 <p>Sadly “brew install ffmpeg” doesn’t support the new file formats and codecs, so I had to compile it myself, as well as the codec libraries. Here’s what worked (on MacOSX Mountain Lion):</p>
@@ -74,8 +86,14 @@ make &amp;&amp; make install
 </code></pre>
 
 <hr>
-<ul><li>Next: <a href="/2013/06/open-source-in-the-public-schools/">open source in the public schools</a></li><li>Previous: <a href="/2013/06/chelsea-highline/">chelsea highline</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2013/06/open-source-in-the-public-schools/">← open source in the public schools</span></a>
+            
+			<span class="next"><a href="/2013/06/chelsea-highline/" rel="next">chelsea highline→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

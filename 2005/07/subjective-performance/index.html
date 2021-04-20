@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>subjective performance</h1>
+
+<p><em>2005-07-03</em></p> 
+
 
 <p>We’ve recently changed bug databases from <a href="http://www.bugzilla.org/">Bugzilla</a> to <a href="http://www.atlassian.com/software/jira/">JIRA</a>. We made this choice since JIRA allows us to effectively manage multiple projects for multiple customers. I also really like the home portal UI that lets me set up my default view to have custom reports and bug lists. However, I find it hugely frustrating because JRIA feels much, much slower than bugzilla.</p>
 <p>It is interesting to note that the perceived slowness is not only due to the speed of fetching each page. (Both systems are pretty standard HTML web applications.) Bugzilla has only one view for bugs, which allows you to view and edit details. When I look at a list of bugs in JIRA, I need to click once to view the bug, then click again to edit it. I didn’t mind this too much when I was using JIRA as an engineer on <a href="www.openlaszlo.org">OpenLaszlo</a>, but when we switched to using it internally for a project I’m managing, it is a different story. As an engineer, I look at bugs more often than I edit them, and I frequently make a only single edit per session. When managing a project, I look at overviews of dozens or hundreds of bugs at a time; I know the details of almost every bug, so I rarely need to view the whole bug report, but I often need to change the priority, milestone, or who the bug is assigned to. I often go thru a list of bugs and need to edit each one.</p>
@@ -48,8 +60,14 @@
 <p>It is also really interesting to notice how everything feels difficult until I’m used to it. I like to know where I am and how to do what I want. I’m used to that in the interface I’m used to. Even though I hated it when I first learned it. It is the devil I know. Using a new application, I am hugely frustrated when I don’t know how to accomplish the task I have in mind. In some cases, I can see that the UI is not actually any worse, only different, and I have to laugh at myself as I grind my teeth and force myself to actually read the screen before knowing what to click.</p>
 
 <hr>
-<ul><li>Next: <a href="/2005/07/blogher/">blogher</a></li><li>Previous: <a href="/2005/06/geek-user-interface/">Geek User Interface</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2005/07/blogher/">← blogher</span></a>
+            
+			<span class="next"><a href="/2005/06/geek-user-interface/" rel="next">Geek User Interface→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

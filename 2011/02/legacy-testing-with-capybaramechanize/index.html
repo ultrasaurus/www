@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>legacy testing with capybara/mechanize</h1>
+
+<p><em>2011-02-16</em></p> 
+
 
 <p>I spent a little time working on some tests for a legacy web app that we plan to re-write in Ruby. Before the big re-write, I thought it would be wise to write some integration tests to call the app via http and verify responses. I wanted to use vanilla http and not have the overhead of launching a browser and was frustrated that Capybara didn’t have a driver to suit my needs.</p>
 <p>I started down the path of writing tests from scratch using Net::HTTP, but figured that there had to be someone else who had run into this before. <a href="http://twitter.com/kakutani">@kakutani</a> told me about <a href="https://github.com/jeroenvandijk/capybara-mechanize">capybara-mechanize</a> which seems to be exactly what I need.</p>
@@ -55,8 +67,14 @@ end
 </code></pre>
 
 <hr>
-<ul><li>Next: <a href="/2011/04/on-choosing-rspec-as-a-test-framework/">on choosing RSpec as a test framework</a></li><li>Previous: <a href="/2011/01/kicking-off-remote-learning-for-ruby-on-rails/">kicking off remote learning for ruby on rails</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2011/04/on-choosing-rspec-as-a-test-framework/">← on choosing RSpec as a test framework</span></a>
+            
+			<span class="next"><a href="/2011/01/kicking-off-remote-learning-for-ruby-on-rails/" rel="next">kicking off remote learning for ruby on rails→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

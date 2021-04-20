@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>simple web services with rails</h1>
+
+<p><em>2009-06-21</em></p> 
+
 
 <p>Rails enables web services by default, which is pretty awesome, and I’ve been relying on that for a while. It is pretty nifty how Rails will magically parse XML post parameters, create an in-memory object and then save that object to the database without your having to write one line of code. However, when the magic fails it can be pretty hard to debug. I found it useful to run basic tests on the command line using curl (hearing the voice of <a href="http://simplechatter.com/">Zach Moazeni</a> in my head saying: “test your assumptions.”)</p>
 <p>Below is a writeup of the set of curl commands and sample output for testing the default Rails XML REST APIs. This can serve as a cheat sheet for the experienced or an introduction for folks new to rails who want a basic understanding of the default webservice APIs.</p>
@@ -106,8 +118,14 @@ margin: 10px 0px;<br>
 </blockquote>
 
 <hr>
-<ul><li>Next: <a href="/2009/06/openlaszlo-simple-post-code/">openlaszlo simple post code</a></li><li>Previous: <a href="/2009/06/story-about-making-a-difference/">story about making a difference</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2009/06/openlaszlo-simple-post-code/">← openlaszlo simple post code</span></a>
+            
+			<span class="next"><a href="/2009/06/story-about-making-a-difference/" rel="next">story about making a difference→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>duck typing in rust: trait vs type</h1>
+
+<p><em>2020-01-25</em></p> 
+
 
 <p>A <code>Trait</code> in the Rust programming language enables what today’s coders commonly call “duck-typing” (walks like a duck and quacks like a duck).</p>
 <p>In Rust, <code>type</code> refers to concrete types — the type of a value; whereas, a <code>Trait</code> refers to an abstract or generic type. Here the English word <em>type</em> lacks the specificity we need to describe these concepts, so we need adjectives to differentiate.</p>
@@ -108,8 +120,14 @@ where R: AsyncReader
 <p>Many thanks to the Alice, David, Lucio and Jeb on Tokio discord who helped me understand types, traits and how they are used in tokio!</p>
 
 <hr>
-<ul><li>Next: <a href="/2020/07/hope-is-not-a-strategy/">hope is not a strategy</a></li><li>Previous: <a href="/2020/01/writing-c-library-in-rust/">writing c library in rust</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2020/07/hope-is-not-a-strategy/">← hope is not a strategy</span></a>
+            
+			<span class="next"><a href="/2020/01/writing-c-library-in-rust/" rel="next">writing c library in rust→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

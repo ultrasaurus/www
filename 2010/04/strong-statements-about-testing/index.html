@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>strong statements about testing</h1>
+
+<p><em>2010-04-22</em></p> 
+
 
 <p>I enjoyed “strong statements” in <a href="http://jjinux.blogspot.com/2010/04/ruby-introduction-to-behavioral-driven.html">Shannon Behrens’ SF Ruby talk</a> tonight. I didn’t agree with all of them, but not vehemently so. I do strongly agree with the following.</p>
 <ul>
@@ -49,8 +61,14 @@ Exploratory testing by someone else is crucial</li>
 <p>Shannon states that “integration tests have more value than unit tests.” I would say instead that some unit tests that rely heavily on mocking have a high risk of not achieving their goals, and in these cases integrations tests have more value. (For example, I typically test Rails controllers through integration tests rather than unit test.) However, when a class is relied upon as the foundation for my app, unit tests for that class are more valuable than integration tests because they help me find and fix bugs faster than the integration tests. But I agree that integration tests are essential.</p>
 
 <hr>
-<ul><li>Next: <a href="/2010/04/lean-startup-methodology/">lean startup methodology</a></li><li>Previous: <a href="/2010/04/test-first-teaching-path-to-tdd/">test first teaching, path to TDD</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2010/04/lean-startup-methodology/">← lean startup methodology</span></a>
+            
+			<span class="next"><a href="/2010/04/test-first-teaching-path-to-tdd/" rel="next">test first teaching, path to TDD→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

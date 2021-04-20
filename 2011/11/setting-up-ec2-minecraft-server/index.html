@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>setting up ec2 minecraft server</h1>
+
+<p><em>2011-11-25</em></p> 
+
 
 <p>Goal: set up a minecraft server using free EC2 account from OSX<br>
 [update: FAIL — game play doesn’t work on a micro instance, if we want to use EC2 it looks like we need to use at least a small one. so be careful to adjust the steps below to pick a small instance if you want to play.]</p>
@@ -166,8 +178,14 @@ java -Xmx2048M -Xincgc -jar craftbukkit-1.0.0-SNAPSHOT.jar
 <code>22:39:19 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?</code></p>
 
 <hr>
-<ul><li>Next: <a href="/2011/12/a-founders-manifesto/">a founder&amp;#8217;s manifesto</a></li><li>Previous: <a href="/2011/11/why-flash-lost-but-html-still-sucks/">Why Flash Lost but HTML Still Sucks</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2011/12/a-founders-manifesto/">← a founder&#8217;s manifesto</span></a>
+            
+			<span class="next"><a href="/2011/11/why-flash-lost-but-html-still-sucks/" rel="next">Why Flash Lost but HTML Still Sucks→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

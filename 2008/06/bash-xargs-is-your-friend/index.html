@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>bash: xargs is your friend</h1>
+
+<p><em>2008-06-14</em></p> 
+
 
 <p>For some reason, since I set up my new machine, when I p4 sync I would get directories that aren’t writeable. This means that lzx files won’t compile since the swf needs to be written into the directory.</p>
 <p>To work-around this, I tried to just set permissions on all the directories. My first attempt (below), didn’t work…. anyone know why? the second one is more verbose and did work.</p>
@@ -42,8 +54,14 @@ $ for i in * ; do if [ -d $i ]; then chmod a+w $i ; fi ; done</p>
 <p><a href="http://en.wikipedia.org/wiki/Xargs">xargs</a> is your friend</p>
 
 <hr>
-<ul><li>Next: <a href="/2008/06/learning-bash/">learning bash</a></li><li>Previous: <a href="/2008/06/openlaszlo-swf9-progress/">OpenLaszlo SWF9 progress</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2008/06/learning-bash/">← learning bash</span></a>
+            
+			<span class="next"><a href="/2008/06/openlaszlo-swf9-progress/" rel="next">OpenLaszlo SWF9 progress→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

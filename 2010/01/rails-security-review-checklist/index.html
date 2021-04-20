@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>rails security review checklist</h1>
+
+<p><em>2010-01-27</em></p> 
+
 
 <p>I’m reviewing the security of a web app built with Ruby on Rails, so I put together a checklist for a security audit. This isn’t a bank or high security situation, but there were a number of engineers and quite a bit of open source code, so I thought a few checks were in order.</p>
 <p>Here’s the list I came up with that I thought other folks might appreciate as a starting point (special thanks to the sfruby list, <a href="http://afreshcup.com/">Mike Gunderloy</a>, and Scott Bronson for feedback):</p>
@@ -51,8 +63,14 @@ protect_from_forgery should be in the ApplicationController, unless there is a g
 <p>8) check that private data is not stored in cookies</p>
 
 <hr>
-<ul><li>Next: <a href="/2010/02/agile-development-in-action/">agile development in action</a></li><li>Previous: <a href="/2010/01/must-we-be-arrogant-jerks/">must we be arrogant jerks?</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2010/02/agile-development-in-action/">← agile development in action</span></a>
+            
+			<span class="next"><a href="/2010/01/must-we-be-arrogant-jerks/" rel="next">must we be arrogant jerks?→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>jekyll dektop app with node-webkit on osx</h1>
+
+<p><em>2014-04-26</em></p> 
+
 
 <p>I had an idea this morning that I could make a simple desktop app by combining the lightning-fast website generation capabilities of <a href="http://jekyllrb.com/">jekyll</a> with the awesome <a href="https://github.com/rogerwang/node-webkit">Node-Webkit</a> that lets us native wrappers for HTML5 apps. I checked out this <a href="https://speakerdeck.com/zcbenz/node-webkit-app-runtime-based-on-chromium-and-node-dot-js">nice intro to Node-Webkit</a>, and unsurprisingly ran into a few gotchas, documented below for other adventurer and my future self:</p>
 <h2>Simple Website with Jekyll</h2>
@@ -70,8 +82,14 @@ open -n -a node-webkit &quot;./app.nw&quot;
 <p>When I double-click on the app.nw file, I see the directory, not my index file. I haven’t figured out that part yet. Still a work in progress!</p>
 
 <hr>
-<ul><li>Next: <a href="/2014/06/learning-speak-spanish-actually-fun/">could learning to speak spanish be actually fun?</a></li><li>Previous: <a href="/2014/03/day-day-life-presidential-innovation-fellow/">day-to-day life of a presidential innovation fellow</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2014/06/learning-speak-spanish-actually-fun/">← could learning to speak spanish be actually fun?</span></a>
+            
+			<span class="next"><a href="/2014/03/day-day-life-presidential-innovation-fellow/" rel="next">day-to-day life of a presidential innovation fellow→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

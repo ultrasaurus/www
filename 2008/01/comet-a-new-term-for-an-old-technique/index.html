@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>Comet: a new term for an old technique</h1>
+
+<p><em>2008-01-27</em></p> 
+
 
 <p>The term ‘Comet’ was coined by Alex Russell, of <a href="http://dojotoolkit.org/">Dojo</a> fame, in his <a href="http://alex.dojotoolkit.org/?p=545">post</a>: “An old web technology is slowly being resurrected from the depths of history. Browser features that have gone untouched for years are once again being employed to bring better responsiveness to UIs. Servers are learning to cope with a new way of doing things… Comet applications can deliver data to the client at any time, not only in response to user input. The data is delivered over a single, previously-opened connection. This approach reduces the latency for data delivery significantly.” Alex’s post has a nice picture. There is also a nice detailed technical discussion <a href="http://ajaxpatterns.org/HTTP_Streaming">here</a> (from one of the comments).</p>
 <p>I’m about as stunned as when Jesse James Garrett coined the term Ajax. Here is something that people have been doing for years; it is not a single technique, there is no spec, no RFC, instead it is a name for a programming method. I guess I’d feel better if it was called a “Comet pattern” and discussed purely amongst the geeks. However, like Ajax, Comet has become a marketing term, where it is easily confused with words like Web, which is backed by the precision of the HTTP spec, or email, which is clearly defined by SMTP, MIME, POP and IMAP.</p>
@@ -38,8 +50,14 @@
 <p>As Alex reports, it is great to see these techniques becoming more ubiquitous, with even more adoption by the open source technologies that many of us rely on. Tomcat 6 is offering comet as part of their <a href="http://tomcat.apache.org/tomcat-6.0-doc/aio.html">advanced i/o</a> — it’s not quite production ready, but it is getting there. Jetty is adopting <a href="http://cometd.com/">cometd</a>, which ties it’s implementation to a specific Javascript messaging model — fine if you are doing pure browser stuff but cumbersome to tie into Flash or a native app. It’s still early days, but open source adoption is an indicator that over time these techniques will become easier to integrate into end-user applications. I look forward to seeing more web applications that offer responsive interactions, multi-party support, and data notifications.</p>
 
 <hr>
-<ul><li>Next: <a href="/2008/01/modern-art-with-kids/">modern art with kids</a></li><li>Previous: <a href="/2008/01/women-talk-about-mentoring-open-source/">women talk about mentoring open source</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2008/01/modern-art-with-kids/">← modern art with kids</span></a>
+            
+			<span class="next"><a href="/2008/01/women-talk-about-mentoring-open-source/" rel="next">women talk about mentoring open source→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

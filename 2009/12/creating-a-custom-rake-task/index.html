@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>creating a custom rake task</h1>
+
+<p><em>2009-12-20</em></p> 
+
 
 <p>There’s a nice <a href="http://railscasts.com/episodes/66-custom-rake-tasks">Railscast introduction to rake</a> for Rails, which goes into a number of other important details that aren’t covered in this post. Below is a little tutorial of creating a Rails rake task and getting it to run remotely on heroku.</p>
 <h2>Introduction to Rake</h2>
@@ -127,8 +139,14 @@ heroku run rake admin:fake_people NUM_RECORDS=1
 </code></pre>
 
 <hr>
-<ul><li>Next: <a href="/2009/12/japanese-geek-speak/">Japanese geek speak</a></li><li>Previous: <a href="/2009/12/agile-scalability-at-engine-yard/">agile scalability at engine yard</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2009/12/japanese-geek-speak/">← Japanese geek speak</span></a>
+            
+			<span class="next"><a href="/2009/12/agile-scalability-at-engine-yard/" rel="next">agile scalability at engine yard→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

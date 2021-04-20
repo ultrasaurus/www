@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>getting started with activescaffold</h1>
+
+<p><em>2009-07-02</em></p> 
+
 
 <p>The <a href="http://activescaffold.com/">ActiveScafold</a> plugin for Rails promises to be a huge time saver. In just a few easy steps, you can create a full web interface for your database, complete with inline editing and fold out panels. Of course, it helps to have some grasp about what it is doing or you can get <a href="http://groups.google.com/group/activescaffold/browse_thread/thread/bb541afdf9acda3">stuck like I did</a> this morning. I’m no expert (yet), but since it is so very cool, I wanted to share what I’ve learned (with the help of Sean Dick and Ivan Storck at tonight’s SFRuby Hack session).</p>
 <p>After installing the plugin, there are just 3 lines of code that magically generate the HTML pages, but the trick is knowing where to put them. There’s a <a href="http://wiki.github.com/activescaffold/active_scaffold/how-to-approach-active-scaffold-use-cases-benefits">nice intro</a> on the github wiki that outlines common use cases:</p>
@@ -60,8 +72,14 @@ and when you click edit:<br>
 <img src="http://img.skitch.com/20090702-mm8tr6jceckp7y78kbc495nwnq.jpg" alt=""></p>
 
 <hr>
-<ul><li>Next: <a href="/2009/07/rails-admin-interface-roundup/">rails admin interface roundup</a></li><li>Previous: <a href="/2009/06/people-love-ruby-is-that-appropriate/">people love Ruby&amp;#8230; is that appropriate?</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2009/07/rails-admin-interface-roundup/">← rails admin interface roundup</span></a>
+            
+			<span class="next"><a href="/2009/06/people-love-ruby-is-that-appropriate/" rel="next">people love Ruby&#8230; is that appropriate?→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

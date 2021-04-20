@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>on choosing RSpec as a test framework</h1>
+
+<p><em>2011-04-01</em></p> 
+
 
 <p>There was <a href="http://www.rubyinside.com/dhh-offended-by-rspec-debate-4610.html">some discussion</a>, if you can call it that, on twitter yesterday about the proliferation of RSpec and Cucumber, over Test::Unit. I don’t believe that Twitter is an effective medium for well-reasoned debate. I do believe that it is worth discussing why we like one technology over another, so we can learn from each other and possibly refine our approach.</p>
 <p>Since I started using RSpec there has been some evolution in the world of ruby test frameworks. I understand that Test::Unit now supports marking a test case “pending” and we can use strings to describe test cases with <em>it</em> syntax. It is great to see the test frameworks borrow ideas from each other and to be part of such a thriving ecosystem.</p>
@@ -100,8 +112,14 @@ $ ruby test_whatever.rb
 <p>No teaching methodology is perfect. I’ve found this works for most students and is more effective than the old “build something that does X” methodology. At least after they finish the exercise, they know that they accomplished the assignment. The RSpec output does a good job of surfacing the Ruby and Rails error messages that I am trying to teach, and along the way, I believe I am introducing students to best practices in terms of development.</p>
 
 <hr>
-<ul><li>Next: <a href="/2011/04/repl-rspec-mocks/">repl rspec mocks</a></li><li>Previous: <a href="/2011/02/legacy-testing-with-capybaramechanize/">legacy testing with capybara/mechanize</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2011/04/repl-rspec-mocks/">← repl rspec mocks</span></a>
+            
+			<span class="next"><a href="/2011/02/legacy-testing-with-capybaramechanize/" rel="next">legacy testing with capybara/mechanize→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

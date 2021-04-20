@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>upgrading pie from rails 3.0 to 3.1</h1>
+
+<p><em>2011-09-13</em></p> 
+
 
 <p>Whenever I upgrade Rails, I always start with “rails new” so that I get all the new config file goodness — I want to start fresh with whatever the new defaults are and then only make the modifications that I really want in my app. Here’s the process I went through upgrading the pie “bakery” (a relative simple Rails 3.0 app) to Rails 3.1.</p>
 <p>First I moved my old app to a new name (since I want my new Rails app to have the same name internally as the old Rails app):</p>
@@ -85,8 +97,14 @@ cp ../bakery30/.git/config .git/config
 <p>and run rails</p>
 
 <hr>
-<ul><li>Next: <a href="/2011/11/debugging-objective-c-in-xcode-for-ios/">debugging objective-c in xcode for iOS</a></li><li>Previous: <a href="/2011/09/rails-3-0-and-rake-0-9-2/">rails 3.0 and rake 0.9.2</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2011/11/debugging-objective-c-in-xcode-for-ios/">← debugging objective-c in xcode for iOS</span></a>
+            
+			<span class="next"><a href="/2011/09/rails-3-0-and-rake-0-9-2/" rel="next">rails 3.0 and rake 0.9.2→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

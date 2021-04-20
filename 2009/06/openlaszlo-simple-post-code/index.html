@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>openlaszlo simple post code</h1>
+
+<p><em>2009-06-22</em></p> 
+
 
 <p>Here’s a little form for sending an XML post in OpenLaszlo. This is a useful little snippet of code, since as if you get one little content header or something wrong, Rails will be unforgiving with its powerful, yet strict implementation of REST.</p>
 <p>What the app looks like (enter text in the top, click the button, response is printed in the lower box):</p>
@@ -66,8 +78,14 @@ ds.doRequest();<br>
 </blockquote>
 
 <hr>
-<ul><li>Next: <a href="/2009/06/glass-box-voting/">glass box voting</a></li><li>Previous: <a href="/2009/06/simple-web-services-with-rails/">simple web services with rails</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2009/06/glass-box-voting/">← glass box voting</span></a>
+            
+			<span class="next"><a href="/2009/06/simple-web-services-with-rails/" rel="next">simple web services with rails→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

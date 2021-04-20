@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>debugging openssl shared libary</h1>
+
+<p><em>2019-06-18</em></p> 
+
 
 <p>I’m debugging an issue where my app uses a library that requires me to dynamically link with an openssl library. What’s more I’m debugging it on an old linux version. Sigh.</p>
 <p><code>gdb</code> to the rescue!</p>
@@ -91,8 +103,14 @@ cb = 0x7ffff7acb6c0 &lt;SecuredConnectionIO::VerifyCallback(int, x509_store_ctx_
 <p>How cool is that?</p>
 
 <hr>
-<ul><li>Next: <a href="/2019/08/graph-in-rust-using-petgraph/">graph in rust using petgraph</a></li><li>Previous: <a href="/2019/06/digital-identity-how-to-verify-trust/">digital identity: how to verify trust?</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2019/08/graph-in-rust-using-petgraph/">← graph in rust using petgraph</span></a>
+            
+			<span class="next"><a href="/2019/06/digital-identity-how-to-verify-trust/" rel="next">digital identity: how to verify trust?→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

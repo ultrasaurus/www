@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>on APIs: more craft, less magic</h1>
+
+<p><em>2009-05-06</em></p> 
+
 
 <p>I’ve spent a lot of years creating developer tools. Even for the software that did not target developers, there were always APIs for other vendors to create extensions or to use internally between different modules. One the interview questions I like is “have you ever designed an API?” followed by “what do you (would you) consider in designing an API?” There’s typically a trade-off between flexibility and getting the job done concisely and with a great engineer this usually turns into an interesting conversation.</p>
 <p>I’ve been using Rails for a while now and one of the things that seems awesome at first is the breathtaking speed at which you can create a basic web application with full XML and JSON APIs. For someone who doesn’t love picking which XML parser to use and digging through a DOM just to hook the client and server together, this is a beautiful thing. However, I’ve noted a peculiar absence in conventions for API design, and a void in tools for testing and documentation. (I am relatively new to Rails, so if I’ve missed some obvious resources, please let me know.)</p>
@@ -39,8 +51,14 @@
 <p>I’d hate to see CORBA added to Rails, but this seems like an area where conventions (and maybe a little shared code) would be valuable.</p>
 
 <hr>
-<ul><li>Next: <a href="/2009/05/quick-videos-with-stupeflix/">quick videos with stupeflix</a></li><li>Previous: <a href="/2009/05/the-power-of-an-open-source-community/">the power of an open source community</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2009/05/quick-videos-with-stupeflix/">← quick videos with stupeflix</span></a>
+            
+			<span class="next"><a href="/2009/05/the-power-of-an-open-source-community/" rel="next">the power of an open source community→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

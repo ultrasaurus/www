@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>MacRuby and Hot Cocoa</h1>
+
+<p><em>2009-04-17</em></p> 
+
 
 <p>great session by<a href="http://gogaruco.com/speakers/index.html#kilmer"> Rich Kilmer</a> at Golden Gate Ruby Conference.</p>
 <p><a href="http://www.macruby.org/">MacRuby</a>, started toward the end of ’07. It has two ambitious goals:</p>
@@ -50,8 +62,14 @@ In the MacRuby “hello world” a lot of the code is in configuring, setting up
 <p>LLVM replaces yarv. In this, using MacRuby the jit generates machine code. This makes it 4-5x faster than 1.9 (which is 4-5 times faster than 1.8). Goal is to pass all of 1.9 Ruby specs, and it is well on its way to doing this. Also plans to make it reentrant. Goal is to automatically generate GrandCentral code hich allows the code to run across all the cores in the machine. Rich expects this to be complete by the end of the year. This could also be applied to compiling ahead of time which would enable running the code on a certain devices that don’t run Ruby, yet run OSX code :)</p>
 
 <hr>
-<ul><li>Next: <a href="/2009/04/sinatra-simple-ruby-web-app-library/">sinatra: simple ruby web app library</a></li><li>Previous: <a href="/2009/04/language-is-a-reef-of-dead-metaphors/">language is a reef of dead metaphors</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2009/04/sinatra-simple-ruby-web-app-library/">← sinatra: simple ruby web app library</span></a>
+            
+			<span class="next"><a href="/2009/04/language-is-a-reef-of-dead-metaphors/" rel="next">language is a reef of dead metaphors→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

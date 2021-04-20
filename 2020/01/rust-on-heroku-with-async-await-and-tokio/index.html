@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>rust on heroku with async/await and tokio</h1>
+
+<p><em>2020-01-05</em></p> 
+
 
 <p>In an effort to understand the new Rust async/await syntax, I made a super-simple app that simply responds to all HTTP requests with <strong>Hello!</strong> and deployed on <a href="https://www.heroku.com/">Heroku</a>.</p>
 <p>Update: If you just want to create a webservice in Rust and deploy on Heroku, I recommend next blog post: <a href="https://www.ultrasaurus.com/2020/01/rust-on-heroku-with-hyper-http/">rust on heroku with hyper http</a>. This blog post focuses on the details of how the underlying request and response is handled with async/await, on <a href="https://blog.rust-lang.org/2019/11/07/Async-await-stable.html">stable Rust since 11/2019</a>.</p>
@@ -211,8 +223,14 @@ rustc 1.39.0 (4560ea788 2019-11-04)
 </ul>
 
 <hr>
-<ul><li>Next: <a href="/2020/01/rust-on-heroku-with-hyper-http/">rust on heroku with hyper http</a></li><li>Previous: <a href="/2019/12/patterns-of-actions-are-a-making/">patterns of actions are a making</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2020/01/rust-on-heroku-with-hyper-http/">← rust on heroku with hyper http</span></a>
+            
+			<span class="next"><a href="/2019/12/patterns-of-actions-are-a-making/" rel="next">patterns of actions are a making→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

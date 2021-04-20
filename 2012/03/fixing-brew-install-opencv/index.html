@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>fixing brew install opencv on osx</h1>
+
+<p><em>2012-03-30</em></p> 
+
 
 <p>This is more about fixing my brew install, than about opencv. As with many install issues the root cause was actually pretty simple, but finding it was challenging. Along the way, I fixed a number of issues which took a bit of digging to find, so I’m leaving a little trail on the web in case other people run into the same things — or in case some inspired open source citizen has time to add better solution messages to brew. The first step of any solution, is, of course, understanding the problem.</p>
 <p>$ brew install opencv<br>
@@ -118,8 +130,14 @@ tiffgt.c:35:11: fatal error: ‘OpenGL/gl.h’ file not found</p>
 <p>Ideally ‘brew doctor’ would have caught that I was missing the command-line tools that don’t get installed automatically with XCode 4.3. I installed those and all was well.</p>
 
 <hr>
-<ul><li>Next: <a href="/2012/03/d3-js-experiments-in-the-console/">d3.js experiments in the console</a></li><li>Previous: <a href="/2012/01/stirfry-great-example-of-game-dynamics/">stir fry: great example of game dynamics</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2012/03/d3-js-experiments-in-the-console/">← d3.js experiments in the console</span></a>
+            
+			<span class="next"><a href="/2012/01/stirfry-great-example-of-game-dynamics/" rel="next">stir fry: great example of game dynamics→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

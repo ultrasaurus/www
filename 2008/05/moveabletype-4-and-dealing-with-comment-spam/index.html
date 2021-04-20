@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>moveabletype 4 and dealing with comment spam</h1>
+
+<p><em>2008-05-05</em></p> 
+
 
 <p>I’ve been letting comments build up in my moderation queue, since I have been overwhelmed by the amount of spam. Today, I decided to upgrade to mt4 to see if the new version offered anything better. I got a 500 error at first, but found in my apache logs:</p>
 <p>error: “file is writable by others”<br>
@@ -52,8 +64,14 @@ Query OK, 171 rows affected (0.04 sec)</p>
 <p>Ok, all is good, or so I thought. I’ve got my old blog with the new MT. However, I wanted to try out authentication for comments, but when I turn it on, I get an error when I post a new comment that registration is required. I suppose I need to update my “Entry” template, so I look up the MT4 <a href="http://www.movabletype.org/documentation/designer/movable-type-40-default-templa.html">default templates</a>. However, if I paste in the <a href="http://www.movabletype.org/default_templates/4.0/entry.mtml">entry template</a>, I get an error. Sigh.</p>
 
 <hr>
-<ul><li>Next: <a href="/2008/05/extreme-programming-vs-interaction-design/">extreme programming vs. interaction design?</a></li><li>Previous: <a href="/2008/05/meaningful-to-humans-and-computers-alike/">meaningful to humans and computers alike</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2008/05/extreme-programming-vs-interaction-design/">← extreme programming vs. interaction design?</span></a>
+            
+			<span class="next"><a href="/2008/05/meaningful-to-humans-and-computers-alike/" rel="next">meaningful to humans and computers alike→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

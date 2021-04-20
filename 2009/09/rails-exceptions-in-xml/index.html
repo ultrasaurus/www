@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>rails exceptions in xml</h1>
+
+<p><em>2009-09-13</em></p> 
+
 
 <p>We ran into an issue last week where our XML APIs were returning HTML under certain error conditions, rather than the expected XML. Our solution was to add the following code to the ApplicationController:</p>
 <pre><code>
@@ -107,8 +119,14 @@ $ curl -X POST -d &quot;&lt;person&gt;&lt;first&gt;This is a first name that is 
 <p>That seems like a bug to me. Perhaps this should be a lighthouse ticket rather than a blog post.. still not confident in identifying bugs in Rails, so I figured I’d post here first.</p>
 
 <hr>
-<ul><li>Next: <a href="/2009/10/stone-soup-workshop/">stone soup workshop</a></li><li>Previous: <a href="/2009/09/learning-through-testing/">learning through testing</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2009/10/stone-soup-workshop/">← stone soup workshop</span></a>
+            
+			<span class="next"><a href="/2009/09/learning-through-testing/" rel="next">learning through testing→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

@@ -28,8 +28,20 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        
+        <style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
+
+
 <h1>firebase auth migration from rails/devise</h1>
+
+<p><em>2019-02-03</em></p> 
+
 
 <p>Migration to Firebase from a Heroku-hosted Rails app appears to work seamlessly. I’ve only tested one user, but I could log in with the same password and Facebook account with no end-user intervention.</p>
 <p>It took a little experimentation to come up with the correct format for export from <code>heroku psql</code> command line:</p>
@@ -51,8 +63,14 @@
 </code></pre>
 
 <hr>
-<ul><li>Next: <a href="/2019/04/subverting-saurons-business-model/">subverting Sauron&amp;#8217;s business model</a></li><li>Previous: <a href="/2019/01/golang-philosophy/">golang philosophy</a></li>
-</ul>
+<nav id="nav-single" class="pager">
+            <span class="previous"><a href="/2019/04/subverting-saurons-business-model/">← subverting Sauron&#8217;s business model</span></a>
+            
+			<span class="next"><a href="/2019/01/golang-philosophy/" rel="next">golang philosophy→</span></a></span>
+            
+
+</nav>
+
 
       </div>
       <div class="medium-3 columns" data-sticky-container>

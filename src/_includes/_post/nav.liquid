@@ -1,0 +1,20 @@
+<style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+{%- if next or prev %}
+<hr>
+<nav id="nav-single" class="pager">
+            {%- if prev %}
+            <span class="previous"><a href="{{ prev.url | url }}">← {{ prev.data.title }}</span></a>
+            {% endif %}
+
+             {%- if next %}
+			<span class="next"><a href="{{ next.url | url }}" rel="next">{{ next.data.title }}→</span></a></span>
+            {% endif %}
+
+</nav>
+{%- endif %}
+

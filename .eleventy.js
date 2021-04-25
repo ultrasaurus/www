@@ -6,6 +6,13 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("uploads");
     eleventyConfig.addPassthroughCopy("CNAME");
 
+    eleventyConfig.addFilter('category', function (collection, category) {
+        if (!category) return [];
+        const filtered = collection.filter(item => item.data.category == category)
+        return filtered;
+    });
+
+
     return {
         passthroughFileCopy: true,
         dir: {

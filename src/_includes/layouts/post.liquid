@@ -3,11 +3,9 @@ layout: layouts/base.liquid
 ---
 
 {% comment %} reverse since collections is in chronological order, but displayed revered {% endcomment %}
-{% assign next = collections.blog | getPreviousCollectionItem: page %}
-{% assign prev = collections.blog | getNextCollectionItem: page %}
 
 {% include _post/header %}
 
 {{ content }}
 
-{% include _post/nav %}
+{% include _post/nav collection: collections.blog %}

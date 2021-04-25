@@ -4,6 +4,9 @@
 .assistive-text
 </style>
 
+{% assign next = collection | getPreviousCollectionItem: page %}
+{% assign prev = collection | getNextCollectionItem: page %}
+
 {%- if next or prev %}
 <hr>
 <nav id="nav-single" class="pager">

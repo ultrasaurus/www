@@ -1,11 +1,9 @@
 ---
-layout: layouts/base.liquid
+layout: base
 ---
-
-{% comment %} reverse since collections is in chronological order, but displayed revered {% endcomment %}
 
 {% include _post/header %}
 
 {{ content }}
 
-{% include _post/nav collection: collections.blog %}
+{% include _post/nav collection: collections.blog, current: page %}

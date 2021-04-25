@@ -1,11 +1,17 @@
+{% comment %}
+variables
+- collection: collection of items for prev/next
+- current: current item
+{% endcomment %}
+
 <style>
 .previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
 .next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
 .assistive-text
 </style>
 
-{% assign next = collection | getPreviousCollectionItem: page %}
-{% assign prev = collection | getNextCollectionItem: page %}
+{% assign next = collection | getPreviousCollectionItem: current %}
+{% assign prev = collection | getNextCollectionItem: current %}
 
 {%- if next or prev %}
 <hr>

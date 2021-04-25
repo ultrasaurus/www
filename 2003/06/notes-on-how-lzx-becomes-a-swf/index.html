@@ -28,14 +28,7 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        <style>
-.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
-.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
-.assistive-text
-</style>
-
-
-
+        
 
 
 <h1>Notes on how LZX becomes a SWF</h1>
@@ -58,6 +51,15 @@
 <p>What Laszlo has done is to normalize the Flash runtime for the creation of applications. It all ends up running in the Flash player, but there is a bunch of Laszlo magic that lets you focus on application development and interface design. Laszlo provides a framework, which includes a view system, data mapping, layouts, constraints and all sorts of useful stuff.</p>
 <p>One last technical note, LPS does a bunch of smart caching. If an LZX file or the data source hasn’t changed, LPS efficiently delivers the same bunch of bits it created for the previous request. Incremental compiles are achieved by breaking up your app into separate files, typically using the &lt;library&gt; tag. Then LPS only compiles the file that has changed.</p>
 
+
+<style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
 <hr>
 <nav id="nav-single" class="pager">
             <span class="previous"><a href="/2003/06/blogs-and-gutters/">← blogs and gutters</span></a>
@@ -66,6 +68,7 @@
             
 
 </nav>
+
 
 
       </div>

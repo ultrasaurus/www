@@ -28,14 +28,7 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
-        <style>
-.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
-.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
-.assistive-text
-</style>
-
-
-
+        
 
 
 <h1>bash: xargs is your friend</h1>
@@ -53,6 +46,15 @@ $ for i in * ; do if [ -d $i ]; then chmod a+w $i ; fi ; done</p>
 <p>$ find . -type d -print0 | xargs -0 chmod a+w</p>
 <p><a href="http://en.wikipedia.org/wiki/Xargs">xargs</a> is your friend</p>
 
+
+<style>
+.previous{display:inline-block;margin-left:.5em;margin-bottom:.5em}
+.next{float:right;display:inline-block;margin-right:.5em;margin-bottom:.5em}
+.assistive-text
+</style>
+
+
+
 <hr>
 <nav id="nav-single" class="pager">
             <span class="previous"><a href="/2008/06/learning-bash/">← learning bash</span></a>
@@ -61,6 +63,7 @@ $ for i in * ; do if [ -d $i ]; then chmod a+w $i ; fi ; done</p>
             
 
 </nav>
+
 
 
       </div>

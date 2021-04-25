@@ -1,5 +1,4 @@
 ### [{{post.data.title}}]({{ post.url }})
 
-*{{ post.date | date: "%Y-%m-%d" }}* 
-
+{% include _post/date %}
 {{post.templateContent | safe}}

@@ -29,8 +29,6 @@
     <div class="row" id="content">
       <div class="medium-8 columns">
         
-
-
 <h1>cucumber and custom rspec matchers with rails 3.1</h1>
 
 <p><em>2012-01-22</em></p> 
@@ -54,6 +52,8 @@ module CustomMatchers
 <p>As it turns out, in my zeal to make sure everything was using the latest and great new stuff, I had forgotten to move over this critical configuration line in cucumbers env.rb:</p>
 <p><code>&lt;br&gt;&lt;/br&gt;World(CustomMatchers)&lt;br&gt;&lt;/br&gt;</code></p>
 <p>Now, my cucumber feature is happily failing cuz my code doesn’t work. Whew. I couldn’t find this documented anywhere and I’m not even sure where this documentation would belong. I found a hint on the <a href="https://github.com/cucumber/cucumber/wiki/RSpec-Expectations">cucumber wiki rspec expectations page</a>, but none of the code on that page is actually needed when using cucumber with Rails, so I decided not to touch it and just write this blog post.</p>
+
+
 
 
 <style>

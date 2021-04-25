@@ -29,8 +29,6 @@
     <div class="row" id="content">
       <div class="medium-8 columns">
         
-
-
 <h1>rspec 3 upgrade: conversion of should to expect</h1>
 
 <p><em>2014-08-10</em></p> 
@@ -53,6 +51,8 @@ find . -type f -print0 | xargs -0 sed -i &quot;&quot; -E &quot;s/^([[:space:]]+)
 find . -type f -print0 | xargs -0 sed -i &quot;&quot; -E &quot;s/^([[:space:]]+)(.*)\.should/\1expect(\2).to/g&quot;
 </code></pre>
 <p>Also, check out: <a href="http://www.cyrusstoller.com/2014/07/02/upgrading-to-rspec-3/">Cyrus Stoller’s upgrade tips</a></p>
+
+
 
 
 <style>

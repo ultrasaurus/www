@@ -29,8 +29,6 @@
     <div class="row" id="content">
       <div class="medium-8 columns">
         
-
-
 <h1>bash: xargs is your friend</h1>
 
 <p><em>2008-06-14</em></p> 
@@ -45,6 +43,8 @@ $ for i in * ; do if [ -d $i ]; then chmod a+w $i ; fi ; done</p>
 <p><strong>A better answer</strong>: the chmod command does not accept arguments on stdin, so you can’t just pipe a file list to it:</p>
 <p>$ find . -type d -print0 | xargs -0 chmod a+w</p>
 <p><a href="http://en.wikipedia.org/wiki/Xargs">xargs</a> is your friend</p>
+
+
 
 
 <style>

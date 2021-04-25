@@ -29,8 +29,6 @@
     <div class="row" id="content">
       <div class="medium-8 columns">
         
-
-
 <h1>debugging</h1>
 
 <p><em>2005-01-10</em></p> 
@@ -44,6 +42,8 @@
 <p>I spent hours examining the state of run-time, puzzling over variables that did not have the appropriate value. I kept thinking I had discovered that cause of the bug, but my code changes had no effect on the sympton. I had found 8 different variables that proved that the state of the app is disastrously incorrect. After while, I noticed that the symptoms had changed from my original observations. The app was more broken that it was initially. I removed my instrumentation and voila the bug was fixed. I had actually fixed this bug an hour before, but I had introduced another problem with my debugging statements.</p>
 <p>Aha! A Heisenbug, so called from the Heisenberg uncertainty principle. From quantum mechanics: “The more precisely the position is determined, the less precisely the momentum is known.” And more generally, Heisenberg introduced the notion that when you measure something, you change its behvior.</p>
 <p>I find that the more experience I have debugging software the more I see patterns in the kinds of problems I find. Most of the patterns are not so delightfully named as the Heisenbug. I wonder… does anyone else have good names for common bugs?</p>
+
+
 
 
 <style>

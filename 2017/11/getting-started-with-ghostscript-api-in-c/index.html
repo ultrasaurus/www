@@ -29,8 +29,6 @@
     <div class="row" id="content">
       <div class="medium-8 columns">
         
-
-
 <h1>exploring ghostscript API in C</h1>
 
 <p><em>2017-11-24</em></p> 
@@ -50,6 +48,8 @@
 <li><code>gdevflp</code>: This device is the first ‘subclassing’ device; the intention of subclassing is to allow us to develop a ‘chain’ or ‘pipeline’ of devices, each of which can process some aspect of the graphics methods before passing them on to the next device in the chain.</li>
 </ul>
 <p>So, this appears to require diving into the inner-workings of Ghostscript, yet the code seems to be structured so that it is easily modifiable for exactly this kind of thing. It seems like it would be possible to add a filter that modifies text, rather than just deleting it, as long as the layout is unaffected. This implies setting up for building and debugging GhostScript from source and the potential investment of staying current with the codebase, which might not work for my very intermittent attention.</p>
+
+
 
 
 <style>

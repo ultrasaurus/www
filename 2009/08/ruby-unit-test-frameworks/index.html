@@ -29,8 +29,6 @@
     <div class="row" id="content">
       <div class="medium-8 columns">
         
-
-
 <h1>ruby unit test frameworks</h1>
 
 <p><em>2009-08-31</em></p> 
@@ -200,6 +198,8 @@ Finished in 0.035728 seconds
 <h2>Conclusion</h2>
 <p>I like RSpec best since I find the output to be most readable. I love the pending keyword, which allows me to set up the tests as an exercise for the class with only one test failing. I find it helps focus on exactly one test and one failure. I considered going with Shoulda because the tests are just as readable as RSpec, even if the output takes some learning to read, because of my initial thought that Test::Unit held less magic. However, on closer inspection, I realized that Test::Unit has one significant magical incantation: you merely declare a class and when that class is defined, it runs the test. This seemed not the kind of topic I would want to teach in an intro class. Even some experienced programmers might struggle with understanding the mechanism that allows such a construct to function. I concluded that all of the test frameworks require serious magic, and picked RSpec since I found it to be most usable for test writing and analysis of the output.</p>
 <p>Caveat: this exercise was for pure Ruby. In Rails, I wonder if Shoulda tests would be more concise, making them easier to write and read and, therefore, making it worth the steeper learning curve on reading the output.</p>
+
+
 
 
 <style>

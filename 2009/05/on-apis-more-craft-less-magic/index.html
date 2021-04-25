@@ -29,8 +29,6 @@
     <div class="row" id="content">
       <div class="medium-8 columns">
         
-
-
 <h1>on APIs: more craft, less magic</h1>
 
 <p><em>2009-05-06</em></p> 
@@ -42,6 +40,8 @@
 <p>Instead, I typically think about the use cases that the client software needs and craft an API around that. Usually this is a small subset of the internal objects and methods. Also, in writing client-server software (which is what you are doing with Ajax, Flash or a mobile app), you want to keep the number of network requests small. For common use cases, it is a good idea to bundle calls together. There are a lot of approaches to this, and I’m currently looking at the Rails 2.3 nested model feature, but I think that solves just one common use case.</p>
 <p>The other challenge with developing APIs is that over time your software changes… maybe your first version was wildly successful and now you have thousands (or millions) of people who have installed your code on their phone (or desktop). Now when you refactor your core models to improve performance and don’t change any behavior, you certainly don’t want to break everyone’s app or make them download new software. Even if you add features, you probably want the old versions of the app to keep working while you encourage people to download your new, better thing. There are a lot of well-used approaches for fixing this too.</p>
 <p>I’d hate to see CORBA added to Rails, but this seems like an area where conventions (and maybe a little shared code) would be valuable.</p>
+
+
 
 
 <style>

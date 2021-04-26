@@ -1,4 +1,5 @@
 ---
+layout: base
 title: About
 date: '2009-01-09T05:21:00-08:00'
 status: publish

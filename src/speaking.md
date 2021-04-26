@@ -11,7 +11,9 @@ id: 6553
 tags: ['page']
 ---
 
-# Past Speaking Engagements
+# Speaking
+
+History of speaking engagements:
 
 - A landscape of unintended consequences ([video](https://www.youtube.com/watch?v=pcuNby-MxCo), [slides](https://www.slideshare.net/sarah.allen/internet-security-a-landscape-of-unintended-consequences)), related post [memory safety: necessary, not sufficient](https://www.ultrasaurus.com/2019/12/memory-safety-necessary-not-sufficient/)
 - RTMP: how did we get to now? (Demuxed 2019), [slides](https://www.slideshare.net/sarah.allen/rtmp-how-did-we-get-to-now-demuxed-2019). [video](https://www.youtube.com/watch?v=5Rv50RCwqo8)
@@ -63,4 +65,3 @@ tags: ['page']
 - Streaming Shockwave Futures, Macromedia User Conference, 1997
 - CyberDog Unleashed (Shockwave demo), Apple WWDC, 1996
 
-If you would like me to speak at your event, [contact me](https://www.ultrasaurus.com/emailme.php).

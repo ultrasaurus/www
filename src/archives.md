@@ -3,6 +3,7 @@ layout: base
 tags: []
 title: Archives
 ---
+# Archives
 
 Links to all of the posts:
 

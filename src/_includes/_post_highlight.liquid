@@ -1,4 +1,5 @@
 ### [{{post.data.title}}]({{ post.url }})
 
-{% include _post/date %}
+{% include _post/date date: post.date %}
+
 {{post.templateContent | safe}}

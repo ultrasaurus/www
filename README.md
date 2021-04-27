@@ -9,12 +9,12 @@ modified for yarn and using cname instead of subdirectory)
 ## to check DNS propagation
 dig BLOG.ULTRASAURUS.COM +nostats +nocomments +nocmd
 
-TODO
+## TODO
 
 1. don't forget to add back google analytics
-1. push to github pages (or something)
 1. check broken links -- did it get worse?
 
 ----
-Could do these after switching DNS (if past WP shutdown date)
-* what about "Code" category?
+Could do these after switching DNS 
+* Categories
+* Comments?

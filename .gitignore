@@ -2,6 +2,9 @@ _site/
 backup/
 export/
 
+# computed from /scss
+src/_includes/css/  
+
 # Logs
 logs
 *.log

@@ -5,3 +5,17 @@
 #content ul {
     padding-left: 2em;
 }
+
+.post-nav {
+    .previous {
+        display: inline-block;
+        margin-left: .5em;
+        margin-bottom: .5em
+    }
+
+    .next {
+        float: right;
+        margin-right: .5em;
+        margin-bottom: .5em
+    }
+}

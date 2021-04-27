@@ -4,26 +4,12 @@ variables
 - current: current item
 {% endcomment %}
 
-<style>
-    .previous {
-        display: inline-block;
-        margin-left: .5em;
-        margin-bottom: .5em
-    }
-
-    .next {
-        float: right;
-        margin-right: .5em;
-        margin-bottom: .5em
-    }
-</style>
-
 {% assign next = collection | getPreviousCollectionItem: current %}
 {% assign prev = collection | getNextCollectionItem: current %}
 
 {%- if next or prev %}
 <hr>
-<nav id="nav-single" class="pager">
+<nav class="post-nav">
     {%- if prev %}
     <span class="previous"><a href="{{ prev.url | url }}">← {{ prev.data.title }}</span></a>
     {% endif %}

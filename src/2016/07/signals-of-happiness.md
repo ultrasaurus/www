@@ -1,5 +1,8 @@
 ---
 title: 'signals of happiness'
+layout: layouts/vertical-banner
+banner: ../../../uploads/2016/07/passiflora-july-2016.jpg
+banner-alt-text: bushy green passiflora with no weeds and woodchips on garden floor
 date: '2016-07-05T21:15:08-07:00'
 status: publish
 exported_permalink: /2016/07/signals-of-happiness
@@ -12,7 +15,7 @@ category:
 tag: []
 post_format: []
 ---
-[![passiflora-july-2016](../../../uploads/2016/07/passiflora-july-2016.jpg)](https://www.ultrasaurus.com/wp-content/uploads/2016/07/passiflora-july-2016.jpg)Digging in the dirt, pulling weeds, planting flowers… these things make me feel at peace. There are some activities in my life that I have discovered are symptoms of happiness. My garden blooms, I write, I do the dishes in the morning, and I take longer walks with my dog.
+Digging in the dirt, pulling weeds, planting flowers… these things make me feel at peace. There are some activities in my life that I have discovered are symptoms of happiness. My garden blooms, I write, I do the dishes in the morning, and I take longer walks with my dog.
 
 I don’t know that they actually make me happy. I don’t particularly like to write, it’s a way of thinking through things and connecting with other people in quiet, unexpected ways. Writing makes me just a little uncomfortable, but it helps somehow to send these thoughts outside of my head.
 

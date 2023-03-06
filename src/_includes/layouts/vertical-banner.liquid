@@ -1,0 +1,12 @@
+---
+layout: base
+banner: placeholder.jpg
+---
+
+{% include _post/header date: page.date %}
+
+<img src="{{ banner }}" alt="{{ banner-alt-text}} " class="vertical-banner"/>
+
+{{ content }}
+
+{% include _post/nav collection: collections.blog, current: page %}

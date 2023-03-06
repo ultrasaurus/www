@@ -1,6 +1,8 @@
 #content {
+    padding: 20px;
     margin-top: 2rem;
     margin-left: .5rem;
+
     ul {
         padding-left: 2em;
     }
@@ -18,4 +20,9 @@
         margin-right: .5em;
         margin-bottom: .5em
     }
+}
+
+.vertical-banner {
+    float: right;
+    padding-left: 20px;
 }

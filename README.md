@@ -18,3 +18,13 @@ dig BLOG.ULTRASAURUS.COM +nostats +nocomments +nocmd
 Could do these after switching DNS 
 * Categories
 * Comments?
+
+## Notes on Eleventy
+
+One maintainer, friendly yet possibly fragile.
+
+Dependencies (that I depend on)
+* [liquid](https://www.npmjs.com/package/liquid) - not wed to liquid, attempt to use non-liquid-specific syntax, mainly use it because there were many examples and seemed simpler than nunjucks (want as little content-embeded logic as possible), could be replaced by [liquidjs](https://github.com/harttle/liquidjs), not sure why both exist
+* [markdown-it](https://github.com/markdown-it/markdown-it) JS markdown parser
+
+

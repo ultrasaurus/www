@@ -3,6 +3,7 @@ title: 'brief history of rtmp + future thoughts'
 date: '2019-12-16T17:47:02-08:00'
 exported_permalink: /2019/12/brief-history-of-rtmp-future-thoughts
 id: 6922
+category: general
 ---
 **RTMP: web video innovation or Web 1.0 hack… how did we get to now?** (Demuxed 2019)
 

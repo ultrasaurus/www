@@ -132,6 +132,73 @@ h6 {
     margin-bottom: .5em;
 }
 
+/* Home page: recent posts on the left, the graphic on the right.
+   The flex box is an inner div because Foundation's .row adds
+   ::before/::after clearfix boxes that would become flex items */
+.home {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.home-posts {
+    flex: 1 1 0;
+}
+
+.home-art {
+    flex: 0 0 18rem;
+    margin: 0;
+}
+
+.home-art img {
+    width: 100%;
+    height: auto;
+}
+
+.home-art figcaption {
+    color: var(--muted);
+    font-size: .875rem;
+    text-align: center;
+}
+
+#content .recent-posts {
+    list-style: none;
+    padding-left: 0;
+}
+
+.recent-posts li {
+    margin-bottom: .75rem;
+}
+
+#content .recent-posts a {
+    text-decoration: none;
+}
+
+#content .recent-posts a:hover {
+    text-decoration: underline;
+}
+
+/* the date goes on its own line under the title */
+.recent-posts .date {
+    display: block;
+    font-size: .875rem;
+}
+
+/* on phones, stack them with the graphic first */
+@media screen and (max-width: 39.9375em) {
+    .home {
+        flex-direction: column;
+    }
+
+    .home-art {
+        order: -1;
+        flex-basis: auto;
+        width: 100%;
+        max-width: 20rem;
+        align-self: center;
+    }
+}
+
 .vertical-banner {
     float: right;
     padding-left: 20px;

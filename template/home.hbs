@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+{{> _head}}
+<body>
+{{> _topbar}}
+    <div class="row" id="content">
+        <div class="home">
+            <div class="home-posts">
+                <h1>Recent Posts</h1>
+                <ul class="recent-posts">
+                    {{#each recent}}
+                    <li><a href="{{url}}">{{{title}}}</a> <span class="date">{{date_format date "%B %-d, %Y"}}</span></li>
+                    {{/each}}
+                </ul>
+                <h2>Coding Notebook</h2>
+                <ul class="recent-posts">
+                    {{#each notebook}}
+                    <li><a href="{{url}}">{{{title}}}</a> <span class="date">{{date_format date "%B %-d, %Y"}}</span></li>
+                    {{/each}}
+                </ul>
+                <p><a href="/archives">All posts in the Archives &rarr;</a></p>
+            </div>
+            <figure class="home-art">
+                <img src="/images/ultrasaurus-graphic-400.jpg"
+                     srcset="/images/ultrasaurus-graphic-400.jpg 400w, /images/ultrasaurus-graphic-800.jpg 800w"
+                     sizes="(max-width: 40em) 20rem, 18rem"
+                     width="400" height="502"
+                     alt="Illustration of the ultrasaurus, a green dinosaur with purple hair in a blue robe, holding a wooden staff topped by a computer mouse with its cable winding around the staff plugged into a laptop with Cloud Native Security raccoon and chevron logo, lightning comes out of the laptop and arcs over the dinosaur with logos of past projects: Flash, Firebase, Bridge Foundry, Smithsonian, After Effects, Mightyverse, Great Unsung Women of Computing, TV from After Effects 1.0 brochure, RailsBridge, Presidential Innovation Fellows, and CoSA.">
+                <figcaption>Artist: Judah Nero</figcaption>
+            </figure>
+        </div>
+    </div>
+</body>
+</html>

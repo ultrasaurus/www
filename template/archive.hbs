@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+{{> _head}}
+<body>
+{{> _topbar}}
+    <div class="row" id="content">
+        <h1>{{{ title }}}</h1>
+        {{#each posts_by_month}}
+        <h2>{{date_format month}}</h2>
+        <ul>
+            {{#each posts}}
+            <li><a href="{{url}}">{{{title}}}</a> <span class="date">{{date_format date "%b %-d"}}</span></li>
+            {{/each}}
+        </ul>
+        {{/each}}
+    </div>
+</body>
+</html>

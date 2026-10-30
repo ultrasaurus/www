@@ -2,8 +2,9 @@ _site/
 backup/
 export/
 
-# computed from /scss
-src/_includes/css/  
+# altwebgen build output
+.dist/
+.build/
 
 # Logs
 logs

@@ -1,0 +1,7 @@
+{{#if (or prev next)}}
+<hr>
+<nav class="post-nav">
+    {{#if prev}}<span class="older"><a href="{{prev}}" rel="prev">&larr; Older: {{{prev-title}}}</a></span>{{/if}}
+    {{#if next}}<span class="newer"><a href="{{next}}" rel="next">Newer: {{{next-title}}} &rarr;</a></span>{{/if}}
+</nav>
+{{/if}}

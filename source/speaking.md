@@ -1,5 +1,4 @@
 ---
-layout: base
 title: Speaking
 date: '2018-04-03T05:31:37-07:00'
 status: publish

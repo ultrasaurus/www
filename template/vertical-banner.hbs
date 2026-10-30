@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+{{> _head}}
+<body>
+{{> _topbar}}
+    <div class="row" id="content">
+        <h1>{{{ title }}}</h1>
+        <p><em>{{date_format date "%B %-d, %Y"}}</em></p>
+        <img src="{{ banner }}" alt="{{ banner-alt-text }}" class="vertical-banner"/>
+        {{{ body }}}
+        {{> _post-nav}}
+    </div>
+</body>
+</html>

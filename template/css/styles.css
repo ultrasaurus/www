@@ -1,0 +1,40 @@
+/* Site styles, on top of foundation.min.css (Foundation 6) */
+
+/* Foundation's link blue (#2199e8) is too light to read.
+   #0b5394 has 7.8:1 contrast on the page, 6.8:1 on the grey top bar. */
+a,
+a:focus {
+    color: #0b5394;
+}
+
+a:hover {
+    color: #083c6b;
+    text-decoration: underline;
+}
+
+#content {
+    padding: 20px;
+    margin-top: 2rem;
+    margin-left: .5rem;
+}
+
+#content ul {
+    padding-left: 2em;
+}
+
+.post-nav .older {
+    display: inline-block;
+    margin-left: .5em;
+    margin-bottom: .5em;
+}
+
+.post-nav .newer {
+    float: right;
+    margin-right: .5em;
+    margin-bottom: .5em;
+}
+
+.vertical-banner {
+    float: right;
+    padding-left: 20px;
+}

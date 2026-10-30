@@ -33,4 +33,4 @@ This is a critical problem in my experience and a very common one. Whenever you 
 
 The slides from the talk are [posted on slideshare](http://www.slideshare.net/sarah.allen/streamlined-geek-talk-1727826):
 
-<div id="__ss_1727826" style="width: 425px;text-align: left">[Streamlined Geek Talk](http://www.slideshare.net/sarah.allen/streamlined-geek-talk-1727826 "Streamlined Geek Talk")<div style="font-size: 11px;font-family: tahoma,arial;height: 26px;padding-top: 2px">View more [presentations](http://www.slideshare.net/) from [Sarah Allen](http://www.slideshare.net/sarah.allen).</div></div>
+Slides: [Streamlined Geek Talk](http://www.slideshare.net/sarah.allen/streamlined-geek-talk-1727826)

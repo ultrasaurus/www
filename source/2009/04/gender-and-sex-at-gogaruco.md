@@ -19,4 +19,4 @@ My point is not whether pornography is good or bad. I personally have no issue w
 
 What most pisses me off is that I had to write this blog post, instead of one about Ruby &amp; CouchDB, which is a far more interesting topic. Thankfully dedicated Pivotal live blogger, Ryan Dy, captured [notes on the talk](http://pivotallabs.com/users/rdy/blog/articles/801-gogaruco-09-couchdb-ruby-perform-like-a-pr0n-star-matt-aimonetti) sans porn.
 
-<div id="__ss_1310834" style="width: 425px;text-align: left">[CouchDB: Perform like a pr0n star](http://www.slideshare.net/mattetti/couchdb-perform-like-a-pr0n-star?type=presentation "CouchDB: Perform like a pr0n star")<div style="font-size: 11px;font-family: tahoma,arial;height: 26px;padding-top: 2px">View more [presentations](http://www.slideshare.net/) from [Matt Aimonetti](http://www.slideshare.net/mattetti).</div></div>
+Slides: [CouchDB: Perform like a pr0n star](http://www.slideshare.net/mattetti/couchdb-perform-like-a-pr0n-star)

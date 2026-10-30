@@ -199,6 +199,62 @@ h6 {
     }
 }
 
+/* WordPress images with captions: <figure class="wp-caption thumbnail
+   alignleft">. Foundation's .thumbnail has line-height 0, which is
+   fine for a bare image but stacks caption lines on top of each other */
+.thumbnail {
+    line-height: normal;
+}
+
+.thumbnail p,
+.wp-caption p {
+    margin: 0;
+}
+
+.wp-caption-text {
+    color: var(--muted);
+    font-size: .875rem;
+    line-height: 1.4;
+    padding: .4rem .25rem .2rem;
+}
+
+/* a heading starts below left-floated images, not squeezed beside them
+   (not `both`: that would push headings below the tall right-floated
+   .vertical-banner) */
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
+    clear: left;
+}
+
+.alignleft {
+    float: left;
+    margin: .25rem 1.5rem 1rem 0;
+}
+
+.alignright {
+    float: right;
+    margin: .25rem 0 1rem 1.5rem;
+}
+
+.aligncenter {
+    display: block;
+    margin: 1rem auto;
+}
+
+/* on phones, floated images leave too little room for text */
+@media screen and (max-width: 39.9375em) {
+    .alignleft,
+    .alignright {
+        float: none;
+        display: block;
+        margin: 1rem auto;
+    }
+}
+
 .vertical-banner {
     float: right;
     padding-left: 20px;

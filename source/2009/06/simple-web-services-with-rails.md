@@ -11,11 +11,19 @@ Below is a writeup of the set of curl commands and sample output for testing the
 
 Create an app, by typing the following commands into your terminal:
 
-`<br></br>$ rails basic_app<br></br>$ cd basic_app<br></br>$ ./script/generate scaffold  project title:string description:text<br></br>$ rake db:migrate<br></br>$ ./script/server<br></br>`
+```
+$ rails basic_app
+$ cd basic_app
+$ ./script/generate scaffold  project title:string description:text
+$ rake db:migrate
+$ ./script/server
+```
 
 In Rails 2.3, you also need to added the following line to the top of app/controllers/projects\_controller.rb (This will allow external access to the APIs.) You can make this change while the server is running, btw.
 
-`<br></br>  skip_before_filter :verify_authenticity_token<br></br>`
+```
+  skip_before_filter :verify_authenticity_token
+```
 
 Leave that window open where you can see it, since it will output useful stuff from the log. Then in another terminal window, experiment with the following commands to interact with your application APIs.
 

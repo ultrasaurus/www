@@ -11,7 +11,9 @@ Update: Here’s the talk [on video](http://www.channels.com/episodes/15517069).
 
 Here are my slides:
 
-<div id="__ss_2684341" style="width:425px;text-align:left">[Sarah Allen Ignite 09](http://www.slideshare.net/sarah.allen/sarah-allen-ignite-09 "Sarah Allen Ignite 09")<div style="font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px">View more [presentations](http://www.slideshare.net/) from [Sarah Allen](http://www.slideshare.net/sarah.allen).</div></div>[![](http://farm3.staticflickr.com/2659/4182717329_76bc221117.jpg)](http://www.flickr.com/photos/anitakhart/4182717329/sizes/m/in/photostream/)  
+Slides: [Sarah Allen Ignite 09](http://www.slideshare.net/sarah.allen/sarah-allen-ignite-09)
+
+[![](http://farm3.staticflickr.com/2659/4182717329_76bc221117.jpg)](http://www.flickr.com/photos/anitakhart/4182717329/sizes/m/in/photostream/)  
 photo by [anitakhart](http://www.flickr.com/photos/anitakhart/)
 
 And a photo of my closing remarks:  

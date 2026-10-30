@@ -22,4 +22,4 @@ Ilya described an interesting use case in detail. They created a proxy server wh
 
 Slides from the talk:
 
-<div id="__ss_1307248" style="width:425px;text-align:left">[Ruby Proxies for Scale, Performance, and Monitoring – GoGaRuCo – igvita.com](http://www.slideshare.net/igrigorik/ruby-proxies-for-scale-performance-and-monitoring-gogaruco-igvitacom?type=presentation "Ruby Proxies for Scale, Performance, and Monitoring - GoGaRuCo - igvita.com")<div style="font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px">View more [presentations](http://www.slideshare.net/) from [Ilya Grigorik](http://www.slideshare.net/igrigorik).</div></div>
+Slides: [Ruby Proxies for Scale, Performance, and Monitoring – GoGaRuCo – igvita.com](http://www.slideshare.net/igrigorik/ruby-proxies-for-scale-performance-and-monitoring-gogaruco-igvitacom)

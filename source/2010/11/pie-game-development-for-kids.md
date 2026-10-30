@@ -16,7 +16,9 @@ Check out the games that the kids made this week:
 
 I also gave a talk at the conference about the making of Pie. Here are the slides from the talk:
 
-<div id="__ss_5760218" style="width:425px">**[The Making of Pie](http://www.slideshare.net/sarah.allen/the-making-of-pie "The Making of Pie")**<div style="padding:5px 0 12px">View more [presentations](http://www.slideshare.net/) from [Sarah Allen](http://www.slideshare.net/sarah.allen).</div></div>Here are github repos:  
+Slides: [The Making of Pie](http://www.slideshare.net/sarah.allen/the-making-of-pie)
+
+Here are github repos:  
 \# this lets you do local pie development, generates a [Sinatra](http://www.sinatrarb.com/)-based webapp  
 <http://github.com/blazingcloud/pie>  
 gem install pie

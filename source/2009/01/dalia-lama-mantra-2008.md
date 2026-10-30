@@ -19,4 +19,4 @@ Nice reflections from the Dalai Lama, which were forwarded to me via email from 
 
 Best viewed full screen, here’s the slide show on slideshare:
 
-<div id="__ss_916126" style="width:425px;text-align:left">[Dalai Lama 2008](http://www.slideshare.net/guest16ef7/dalai-lama-2008-presentation?type=powerpoint "Dalai Lama 2008")<div style="font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px">View SlideShare [presentation](http://www.slideshare.net/guest16ef7/dalai-lama-2008-presentation?type=powerpoint "View Dalai Lama 2008 on SlideShare") or [Upload](http://www.slideshare.net/upload?type=powerpoint) your own. (tags: [mantra](http://slideshare.net/tag/mantra) [lama](http://slideshare.net/tag/lama))</div></div>
+Slides: [Dalai Lama 2008](http://www.slideshare.net/guest16ef7/dalai-lama-2008-presentation)

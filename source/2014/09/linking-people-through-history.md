@@ -46,4 +46,18 @@ We’re starting to see new patterns emerge online with new interfaces that allo
 
 Emerging on the web, there’s a new model of publishing. Instead of links being created with markup and behind-the-scenes tools gated by a webmaster, connections can be added with simple text annotations or the touch of a button.
 
-<figure class="wp-caption thumbnail alignleft" id="attachment_5316" style="width: 300px;">[![Search results for "Dr. Charles Hendrickson"  in the 1966 Field Notes of Laurence M. Klauber show image of the field notebook and text with links.](../../../uploads/2014/09/FromThePage.png)](http://fromthepage.balboaparkonline.org/display/search?article_id=7780) <figcaption class="wp-caption-text">At BalboaParkOnline volunteers transcribe documents and add links.</figcaption></figure><figure class="wp-caption thumbnail alignleft" id="attachment_5322" style="width: 300px;">[![Sarah Vaughan in the center with lines connecting to other jazz musicians.](../../../uploads/2014/09/LinkedJazz-SarahVaughan1-e1410174730930.png)](https://www.ultrasaurus.com/wp-content/uploads/2014/09/LinkedJazz-SarahVaughan1-e1410174730930.png) <figcaption class="wp-caption-text">Sarah Vaughan’s social graph at LinkedJazz created by volunteers annotating transcripts of oral histories.</figcaption></figure>
+<figure class="wp-caption thumbnail alignleft" id="attachment_5316" style="width: 300px;">
+
+[![Search results for "Dr. Charles Hendrickson"  in the 1966 Field Notes of Laurence M. Klauber show image of the field notebook and text with links.](../../../uploads/2014/09/FromThePage.png)](http://fromthepage.balboaparkonline.org/display/search?article_id=7780)
+
+<figcaption class="wp-caption-text">At BalboaParkOnline volunteers transcribe documents and add links.</figcaption>
+
+</figure>
+
+<figure class="wp-caption thumbnail alignleft" id="attachment_5322" style="width: 300px;">
+
+[![Sarah Vaughan in the center with lines connecting to other jazz musicians.](../../../uploads/2014/09/LinkedJazz-SarahVaughan1-e1410174730930.png)](https://www.ultrasaurus.com/wp-content/uploads/2014/09/LinkedJazz-SarahVaughan1-e1410174730930.png)
+
+<figcaption class="wp-caption-text">Sarah Vaughan’s social graph at LinkedJazz created by volunteers annotating transcripts of oral histories.</figcaption>
+
+</figure>

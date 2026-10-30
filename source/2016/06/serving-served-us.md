@@ -24,9 +24,16 @@ Anyone interested in volunteering to mentor the kids? It could be completely rem
 
 The Open Opportunities project is supported by:
 
-<figure style="width:300px;float:left;text-align:center">[![eagle image within a seal and golden banner](../../../uploads/2016/06/piff-logo.png)](http://presidentialinnovation.org/)  
-Presidential Innovation Fellows Foundation  
+<figure style="width:300px;float:left;text-align:center">
+
+[![eagle image within a seal and golden banner](../../../uploads/2016/06/piff-logo.png)](http://presidentialinnovation.org/)  
+Presidential Innovation Fellows Foundation
+
 </figure>
 
-<figure style="width:300px;float:left;text-align:center">[![blue cloud with number 9](../../../uploads/2016/06/cloud9-logo.png)](http://c9.io)  
-Cloud9 IDE</figure>
+<figure style="width:300px;float:left;text-align:center">
+
+[![blue cloud with number 9](../../../uploads/2016/06/cloud9-logo.png)](http://c9.io)  
+Cloud9 IDE
+
+</figure>

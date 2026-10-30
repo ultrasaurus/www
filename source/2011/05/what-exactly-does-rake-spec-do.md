@@ -15,7 +15,26 @@ our tests. In fact, it does a whole lot more than that. There are a whole bunch 
 command. To see exactly what is going on, we can run rake spec with the –trace  
 option:
 
-`<br></br>$ rake spec --trace<br></br>(in /Users/sarah/src/tfr/svn/Book/code/class_app_new_source)<br></br>** Invoke spec (first_time)<br></br>** Invoke db:test:prepare (first_time)<br></br>** Invoke db:abort_if_pending_migrations (first_time)<br></br>** Invoke environment (first_time)<br></br>** Execute environment<br></br>** Execute db:abort_if_pending_migrations<br></br>** Execute db:test:prepare<br></br>** Invoke db:test:load (first_time)<br></br>** Invoke db:test:purge (first_time)<br></br>** Invoke environment<br></br>** Execute db:test:purge<br></br>** Execute db:test:load<br></br>** Invoke db:schema:load (first_time)<br></br>** Invoke environment<br></br>** Execute db:schema:load<br></br>** Execute spec<br></br>`
+```
+$ rake spec --trace
+(in /Users/sarah/src/tfr/svn/Book/code/class_app_new_source)
+** Invoke spec (first_time)
+** Invoke db:test:prepare (first_time)
+** Invoke db:abort_if_pending_migrations (first_time)
+** Invoke environment (first_time)
+** Execute environment
+** Execute db:abort_if_pending_migrations
+** Execute db:test:prepare
+** Invoke db:test:load (first_time)
+** Invoke db:test:purge (first_time)
+** Invoke environment
+** Execute db:test:purge
+** Execute db:test:load
+** Invoke db:schema:load (first_time)
+** Invoke environment
+** Execute db:schema:load
+** Execute spec
+```
 
 When it says invoke it is calling a particular rake task, but then it will call its dependencies. To really see what is happening in what order, check out the execute commands. The commands db:test:prepare and db:test:load don’t do much themselves, aside from setting up the environment and executing another task or two. We can see from the output that rake is actually executing the following steps:
 

@@ -195,22 +195,28 @@ Layout
 
 Rails Naming conventions: if there is a template in appviewslayouts with the same name as the current controller then it will be automatically set as that controller’s layout unless explicitly told otherwise.
 
-`<br></br><strong>apps/layouts/categories.html.erb</strong>`
+```
+apps/layouts/categories.html.erb
+```
 
 > ```
 > 
->  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><br></br><br></br>
-> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><br></br>
-> <head><br></br>
->    <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><br></br>
->    <title>Categories: <%= controller<strong>.action_name</strong> %></title><br></br>
->    <%= <strong>stylesheet_link_tag</strong> 'scaffold' %><br></br>
-> </head><br></br>
-> <body><br></br><br></br>
-> <p style="color: green"><%= <strong>flash</strong>[:notice] %></p><br></br><br></br>
-> <%= <strong>yield</strong>  %><br></br><br></br>
-> </body><br></br>
-> </html><br></br>
+>  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+>
+> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+> <head>
+>    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+>    <title>Categories: <%= controller.action_name %></title>
+>    <%= stylesheet_link_tag 'scaffold' %>
+> </head>
+> <body>
+>
+> <p style="color: green"><%= flash[:notice] %></p>
+>
+> <%= yield  %>
+>
+> </body>
+> </html>
 > ```
 
 This is mostly HTML, plus a few bits of Ruby code embedded within `` tags. This layout will be called by  
@@ -235,7 +241,9 @@ Templates
 
 Rails naming convention: templates are held in appviews’controller”action’.erb.html. The basic list action is perhaps easiest to understand. This is the default action for the controller and is therefore the ‘index’ template
 
-`<br></br><strong>app/views/categories/index.erb.html</strong>`
+```
+app/views/categories/index.erb.html
+```
 
 > &lt;h1&gt;Listing categories&lt;/h1&gt;
 > 
@@ -373,7 +381,9 @@ Documentation: ActiveRecord::Base.find
 In this application, the show screen is unnecessary - all the fields fit comfortably on a single row on the screen.  
 So, def show can disappear, and let's go straight back to the list screen (categories index) after an 'Edit':
 
-`<br></br><strong>(excerpt)</strong>`
+```
+(excerpt)
+```
 
 > (excerpt)  
 >   
@@ -447,7 +457,9 @@ Sharing Variables between the Template and Layout
 Below you can see that I've moved the &lt;h1&gt;...&lt;/h1&gt; heading text out of the Template into the Layout so that we can keep the formatting consitent across pages. As each template will have a different heading, I need to set the value of the variable @heading in the Template. Rails is quite ok with this - Template variables are available to Layouts at rendering  
 time.
 
-`<br></br>appviewslayoutscategories.html.erb (exceprt)`
+```
+appviewslayoutscategories.html.erb (exceprt)
+```
 
 > &lt;head&gt;  
 >   
@@ -465,7 +477,9 @@ time.
 >   
 > ...
 
-`<br></br>app/views/categories/index.html.erb (excerpt)`
+```
+app/views/categories/index.html.erb (excerpt)
+```
 
 > **&lt;% @heading = "Categories" %&gt;**  
 >   
@@ -513,7 +527,9 @@ Partial Templates
 
 You may have noticed that edit and new are almost idential. The scaffold does not assume that will be your design, so it doesn't prematurely optimize; however, in this app the new and edit pages share almost all of the same elements. Rails can allow these templates to share code by using a "partial" template. Create a new file called \_category (all partial templates begin with an '\_' per Rails convention) and insert the shared code:
 
-`<br></br><strong>app/views/categories/_category.html.erb</strong>`
+```
+app/views/categories/_category.html.erb
+```
 
 > &lt;% form\_for(@category) do |f| %&gt;  
 >   
@@ -539,7 +555,9 @@ You may have noticed that edit and new are almost idential. The scaffold does no
 
 This makes the edit and new templates very short and sweet. Note the use of the variable button\_name, which you can see in action below.
 
-`<br></br><strong>app/views/categories/edit.html.erb (that's the whole thing!)</strong>`
+```
+app/views/categories/edit.html.erb (that's the whole thing!)
+```
 
 > **&lt;% @heading = "Edit Category" %&gt;**
 > 
@@ -549,7 +567,9 @@ This makes the edit and new templates very short and sweet. Note the use of the 
 
 ``
 
-`<strong><br></br>app/views/categories/new.html.erb</strong>`
+```
+app/views/categories/new.html.erb
+```
 
 > **&lt;% @heading = "New Category" %&gt;**
 > 

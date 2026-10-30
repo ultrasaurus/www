@@ -19,12 +19,28 @@ We spent a few minutes doodling. I was delighted to see the variety of pattern a
 
 Next, Alexis taught us to [draw a dinosaur](http://sketchnotearmy.com/blog/2012/5/30/alexis-finch-teaches-us-how-to-draw-a-dinosaur.html) in 9 easy steps. Miraculously we were all competently rendering a quick sketch of this funny creature. In this class we learned simple recipe-like techniques for little drawings and how to combine them to convey meaning.
 
-<figure class="wp-caption thumbnail aligncenter" id="attachment_4982" style="width: 500px;">![simple arrow outline pointing left with words "magical arrow" on the right](../../../uploads/2014/02/magical-arrow.jpg)<figcaption class="wp-caption-text">This “magical arrow” pointing to a word or with a word next to it will draw attention to some part of your notes.</figcaption></figure>Typography, or whatever you call it when you are drawing letters, is a very simple way of creating a sketch. You can pick out individual words that catch your attention and then arrange them in a sketch. This way you don’t actually have to remember a full quote to represent the meaning that was significant to you. You can use cursive, block letters, variation in capitalization and different aspect ratios to convey a feeling.
+<figure class="wp-caption thumbnail aligncenter" id="attachment_4982" style="width: 500px;">
+
+![simple arrow outline pointing left with words "magical arrow" on the right](../../../uploads/2014/02/magical-arrow.jpg)
+
+<figcaption class="wp-caption-text">This “magical arrow” pointing to a word or with a word next to it will draw attention to some part of your notes.</figcaption>
+
+</figure>
+
+Typography, or whatever you call it when you are drawing letters, is a very simple way of creating a sketch. You can pick out individual words that catch your attention and then arrange them in a sketch. This way you don’t actually have to remember a full quote to represent the meaning that was significant to you. You can use cursive, block letters, variation in capitalization and different aspect ratios to convey a feeling.
 
 ![Typography is a sketch note: the word typography is in all caps, next line has "is a" with lines to the left and right filling the horizontal space, then "sketch note" is in cursive.](../../../uploads/2014/02/typography.jpg)
 
 Humans have evolved to respond to faces.
 
-<figure class="wp-caption thumbnail aligncenter" id="attachment_4993" style="width: 400px;">[!["I like starting with eyeballs" three faces show happy/cheer, despair, and another unhappy wide-eyed emotion, additional face is cropped at the margin](../../../uploads/2014/02/faces.jpg)](https://www.ultrasaurus.com/wp-content/uploads/2014/02/faces.jpg) <figcaption class="wp-caption-text">We learned simple techniques to produce faces that convey emotion.</figcaption></figure>I don’t know if my brief notes here convey the power of this technique. I hope some readers will be inspired to experiment. I will there were a visual language dictionary, where we could all follow simple recipes to empower visual communication.
+<figure class="wp-caption thumbnail aligncenter" id="attachment_4993" style="width: 400px;">
+
+[!["I like starting with eyeballs" three faces show happy/cheer, despair, and another unhappy wide-eyed emotion, additional face is cropped at the margin](../../../uploads/2014/02/faces.jpg)](https://www.ultrasaurus.com/wp-content/uploads/2014/02/faces.jpg)
+
+<figcaption class="wp-caption-text">We learned simple techniques to produce faces that convey emotion.</figcaption>
+
+</figure>
+
+I don’t know if my brief notes here convey the power of this technique. I hope some readers will be inspired to experiment. I will there were a visual language dictionary, where we could all follow simple recipes to empower visual communication.
 
 Check out additional sketches from [Thinking Visually session notes](http://shesgeeky.org/notes-day-2-thinking-visually/).

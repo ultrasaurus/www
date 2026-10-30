@@ -28,4 +28,4 @@ Guillaume Luccisano spent a couple of months optimizing justin.tv while also wor
 
 Guillaume did an amazing job of collecting details about what made a difference in performance optimization. He has shared his slides which report his findings:
 
-<div id="__ss_8476299" style="width:425px"> **[Rails performance at Justin.tv – Guillaume Luccisano](http://www.slideshare.net/kwi/rails-performance-at-justintv-guillaume-luccisano "Rails performance at Justin.tv - Guillaume Luccisano")**<div style="padding:5px 0 12px"> View more [presentations](http://www.slideshare.net/) from [kwi](http://www.slideshare.net/kwi) </div></div>
+Slides: [Rails performance at Justin.tv – Guillaume Luccisano](http://www.slideshare.net/kwi/rails-performance-at-justintv-guillaume-luccisano)

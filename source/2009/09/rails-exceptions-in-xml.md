@@ -86,7 +86,6 @@ PGError: ERROR:  value too long for type character varying(40)
 That is all well and good; however, if you do the same in XML, you will get the same error in **HTML**.
 
 ```
-<pre width="80">
 $ curl -X POST -d "<person><first>This is a first name that is too long for the database limit</first></person>" -H "Content-Type: application/xml" http://localhost:3000/people.xml
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>

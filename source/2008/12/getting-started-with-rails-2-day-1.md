@@ -64,7 +64,11 @@ install the x86 build on top of it, and restore your databases.
 
 Once you’ve got the correct build of MySQL installed, pop open a terminal and run the following to install the MySQL/Ruby gem:
 
-`sudo env ARCHFLAGS="-arch i386" gem install mysql --<br></br>--with-mysql-dir=/usr/local/mysql --with-mysql-lib=/usr/local/mysql/lib<br></br>--with-mysql-include=/usr/local/mysql/include`
+```
+sudo env ARCHFLAGS="-arch i386" gem install mysql --
+--with-mysql-dir=/usr/local/mysql --with-mysql-lib=/usr/local/mysql/lib
+--with-mysql-include=/usr/local/mysql/include
+```
 
 Now that the setup is compete, onward to creating the app…
 
@@ -83,7 +87,7 @@ This creates an overwhelming number of files. You’ll soon see that Rails does 
 
 </td><td align="left">Configure your application’s runtime rules, routes, database, and more. </td></tr><tr><td align="left"><tt>db/</tt></td><td align="left">Shows your current database schema, as well as the database migrations. You’ll learn about migrations shortly. </td></tr><tr><td align="left"><tt>doc/</tt></td><td align="left">In-depth documentation for your application. </td></tr><tr><td align="left"><tt>lib/</tt></td><td align="left">Extended modules for your application (not covered in this guide).
 
-</td></tr><tr><td align="left"><tt>log/</tt></td><td align="left">Application log files. </td></tr><tr><td align="left"><tt>public/</tt></td><td align="left">The only folder seen to the world as-is. This is where your images, javascript, stylesheets (CSS), and other static files go. </td></tr><tr><td align="left"><tt>script/</tt></td><td align="left">Scripts provided by Rails to do recurring tasks, such as benchmarking, plugin installation, and starting the console or the web server. </td></tr><tr><td align="left"><tt>test/</tt></td><td align="left">Unit tests, fixtures, and other test apparatus. These are covered in &lt;a href="[../testing\_rails\_applications.html](http://guides.rubyonrails.org/testing_rails_applications.html)“&gt;Testing Rails Applications </td></tr><tr><td align="left"><tt>tmp/</tt></td><td align="left">Temporary files </td></tr><tr><td align="left"><tt>vendor/</tt></td><td align="left">A place for third-party code. In a typical Rails application, this includes Ruby Gems, the Rails source code (if you install it into your project) and plugins containing additional prepackaged functionality. </td></tr></tbody></table>
+</td></tr><tr><td align="left"><tt>log/</tt></td><td align="left">Application log files. </td></tr><tr><td align="left"><tt>public/</tt></td><td align="left">The only folder seen to the world as-is. This is where your images, javascript, stylesheets (CSS), and other static files go. </td></tr><tr><td align="left"><tt>script/</tt></td><td align="left">Scripts provided by Rails to do recurring tasks, such as benchmarking, plugin installation, and starting the console or the web server. </td></tr><tr><td align="left"><tt>test/</tt></td><td align="left">Unit tests, fixtures, and other test apparatus. These are covered in <a href="http://guides.rubyonrails.org/testing_rails_applications.html">Testing Rails Applications</a> </td></tr><tr><td align="left"><tt>tmp/</tt></td><td align="left">Temporary files </td></tr><tr><td align="left"><tt>vendor/</tt></td><td align="left">A place for third-party code. In a typical Rails application, this includes Ruby Gems, the Rails source code (if you install it into your project) and plugins containing additional prepackaged functionality. </td></tr></tbody></table>
 
 <a name="db"></a>
 

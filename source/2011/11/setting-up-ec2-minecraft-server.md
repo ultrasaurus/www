@@ -35,7 +35,14 @@ I pieced together information from some helpful tutorials from [Ubuntu](https://
   - ec2.pem
 8. Set up EC2 Command-line Tools 
   - Put the following into your ~/.bash\_profile:  
-      `# Setup Amazon EC2 Command-Line Tools<br></br>export EC2_HOME=~/.ec2<br></br>export PATH=$PATH:$EC2_HOME/bin<br></br>export EC2_PRIVATE_KEY=`ls $EC2_HOME/pk-*.pem`<br></br>export EC2_CERT=`ls $EC2_HOME/cert-*.pem`<br></br>export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home/`
+      ```
+      # Setup Amazon EC2 Command-Line Tools
+      export EC2_HOME=~/.ec2
+      export PATH=$PATH:$EC2_HOME/bin
+      export EC2_PRIVATE_KEY=`ls $EC2_HOME/pk-*.pem`
+      export EC2_CERT=`ls $EC2_HOME/cert-*.pem`
+      export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home/
+      ```
   - On the command-line, type:  
       `source ~/.bash_profile`
 9. Startup a server 
@@ -49,7 +56,12 @@ I pieced together information from some helpful tutorials from [Ubuntu](https://
   ```
   ec2-###-##-##-##.compute-1.amazonaws.com
   ```
-10. Open relevant ports (22 for ssh, 80 for http, 25565 for minecraft):`<br></br>ec2-authorize default -p 22<br></br>ec2-authorize default -p 80<br></br>ec2-authorize default -p 25565<br></br>`
+10. Open relevant ports (22 for ssh, 80 for http, 25565 for minecraft):
+    ```
+    ec2-authorize default -p 22
+    ec2-authorize default -p 80
+    ec2-authorize default -p 25565
+    ```
 11. ssh into your new instance  
   `ssh -i ec2.pem ubuntu@ec2-###-##-##-##.compute-1.amazonaws.com`
 12. Install Java ([nice Ubuntu instructions](http://ubuntu-for-humans.blogspot.com/2011/04/installing-java-on-ubuntu-server-1010.html))  

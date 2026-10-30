@@ -51,13 +51,12 @@ Install Cucumber
 Based on these [install instructions](http://github.com/aslakhellesoy/cucumber/wikis/ruby-on-rails)
 
 ```
-<pre class="code">sudo gem install rspec rspec-rails cucumber webrat
+sudo gem install rspec rspec-rails cucumber webrat
 ```
 
 **important**: Cucumber 0.1.12 and up depends on Webrat 0.3.2.1 or higher, which as of this writing is not yet officially released to Rubyforge’s gem repository. In the meanwhile, install Bryan Helkamp’s snapshot gem:
 
 ```
-<pre class="code">
 gem sources -a http://gems.github.com
 sudo gem install brynary-webrat
 ```
@@ -65,7 +64,6 @@ sudo gem install brynary-webrat
 The plugins’ dependencies must be installed separately:
 
 ```
-<pre class="code">
 gem install term-ansicolor treetop diff-lcs nokogiri
 ```
 
@@ -77,7 +75,6 @@ Setup the Application
 First we’ll create the Rails “to do list” application:
 
 ```
-<pre class="code">
 cd $webroot
 rails -d mysql todolist
 cd todolist
@@ -88,7 +85,6 @@ rake db:migrate
 Now we’ll set up cucumber for the project
 
 ```
-<pre class="code">
 ruby script/generate cucumber
 create  features/step_definitions
 create  features/step_definitions/webrat_steps.rb
@@ -102,7 +98,7 @@ create  script/cucumber
 Just to make sure that everything is installed correctly:
 
 ```
-<pre class="code">rake features
+rake features
 ```
 
 If that runs without errors you are ready to rock.
@@ -117,7 +113,6 @@ In the features directory that was auto-created for us with the cucumber script,
 `<strong>features/tasklist.feature</strong>`
 
 ```
-<pre class="code">
 Feature: Tasks
 In order to keep track of tasks
 People should be able to
@@ -138,7 +133,6 @@ Note that one of the steps is already defined in webrat. Isn’t that cool? When
 `<strong>features/step_definitions/tasklist_steps.rb</strong>`
 
 ```
-<pre class="code">
 Given /^that I have created a task "(.*)"$/ do |desc|
 Task.create!(:description => desc)
 end
@@ -172,7 +166,6 @@ Back to Step 3
 Looking in `features/step_definitions/webrat_steps.rb`, you can see the definition of our third step:
 
 ```
-<pre class="code">
 Then /^I should see "(.*)"$/ do |text|
 response.body.should =~ /#{text}/m
 end
@@ -198,7 +191,6 @@ Write the code to make it pass
 Now, at last it is time to write code
 
 ```
-<pre class="code">
 $ ./script/generate scaffold Task description:string
 $ rake db:migrate
 ```
@@ -217,7 +209,6 @@ What did we learn?
 When we first set up our app, to setup cucumber:
 
 ```
-<pre class="code">
 ruby script/generate cucumber
 ```
 
@@ -229,6 +220,5 @@ To describe our feature, we create two files:
 To run the feature description:
 
 ```
-<pre class="code">
 rake features
 ```

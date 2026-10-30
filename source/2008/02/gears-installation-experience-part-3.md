@@ -8,7 +8,9 @@ As it turns out, the typical install avoids popup blocker issues and does return
 
 The generic install with the custom icon and name looks like this (not a real web application, just some placeholder text and image):
 
-<div id="__ss_280317" style="width:425px;text-align:left"><div style="font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px">[![SlideShare](http://static.slideshare.net/swf/logo_embd.png)](http://www.slideshare.net/?src=embed) | [View](http://www.slideshare.net/sarah.allen/generic-gears-install-with-custom-icon?src=embed "View 'Generic Gears Install with Custom Icon' on SlideShare") | [Upload your own](http://www.slideshare.net/upload?src=embed)</div></div>The actual page is [here](https://www.ultrasaurus.com/gears/install/), if you want to check it out yourself, just view source. The code with the extra branding params looks like this:
+Slides: [SlideShare](http://static.slideshare.net/swf/logo_embd.png)
+
+The actual page is [here](https://www.ultrasaurus.com/gears/install/), if you want to check it out yourself, just view source. The code with the extra branding params looks like this:
 
 ```
 

@@ -26,7 +26,7 @@ BrowserPlus also has a plugin architecture, so the features can be updated witho
 **Installation Experience**  
 Continuing with my series evaluating the initial experience for [Adobe Air and Gears](https://www.ultrasaurus.com/sarahblog/archives/000424.html), here’s a click-through slide show of getting started with BrowserPlus:
 
-<div id="__ss_453927" style="width:425px;text-align:left"><div style="font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px">[![SlideShare](http://static.slideshare.net/swf/logo_embd.png)](http://www.slideshare.net/?src=embed) | [View](http://www.slideshare.net/sarah.allen/browswerplus-install?src=embed "View BrowswerPlus Install on SlideShare") | [Upload your own](http://www.slideshare.net/upload?src=embed)</div></div><small>Privacy Policy</small>
+Slides: [SlideShare](http://static.slideshare.net/swf/logo_embd.png)<small>Privacy Policy</small>
 
 BrowserPlus may gather, store and transmit to Yahoo! the following anonymous information about your usage of the BrowserPlus for diagnostic and software improvement purposes:  
 o Your device’s platform (i.e., osx, win 32, XP).  

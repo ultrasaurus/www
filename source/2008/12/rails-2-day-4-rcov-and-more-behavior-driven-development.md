@@ -36,7 +36,6 @@ Install RCov
 Elaborating slightly on the [nice instructions](http://github.com/aslakhellesoy/cucumber/wikis/using-rcov-with-cucumber-and-rails) on the cucumber wiki, Aslak recommends that you use [spicycode’s RCov](http://github.com/spicycode/rcov/tree/master) instead of the ‘official’ one, “as it currently segfaults too much for most people’s taste.”
 
 ```
-<pre class="code">
 gem sources -a http://gems.github.com
 gem uninstall rcov
 gem install spicycode-rcov
@@ -46,7 +45,15 @@ Second, you’ll need to open up the cucumber generated task file and set the rc
 
 `<strong>in todolist/lib/tasks/cucumber.rake</strong>`
 
-> `<br></br>$:.unshift(RAILS_ROOT + '/vendor/plugins/cucumber/lib')<br></br>require 'cucumber/rake/task'<br></br>Cucumber::Rake::Task.new(:features) do |t|<br></br>  t.cucumber_opts = "--format pretty" <br></br>  <strong>t.rcov = true</strong><br></br>end<br></br>task :features => 'db:test:prepare'<br></br>`
+> ```
+> $:.unshift(RAILS_ROOT + '/vendor/plugins/cucumber/lib')
+> require 'cucumber/rake/task'
+> Cucumber::Rake::Task.new(:features) do |t|
+>   t.cucumber_opts = "--format pretty"
+>   t.rcov = true
+> end
+> task :features => 'db:test:prepare'
+> ```
 
 <a name="coverage"></a>
 
@@ -56,7 +63,6 @@ Look at Code Coverage
 Now when you run:
 
 ```
-<pre class="code">
 rake features
 ```
 
@@ -96,7 +102,6 @@ To create a task, we can leverage quite a bit of webrat, plus a step we wrote be
 **`in features/tasklist.feature`**
 
 ```
-<pre class="code">
 Scenario: Add a Task
 When I go to the tasks page
 When I follow "New task"
@@ -109,7 +114,6 @@ And I should see "go shopping"
 then run
 
 ```
-<pre class="code">
 rake features
 ```
 
@@ -136,7 +140,6 @@ I don’t really need the “show” link (since my task only has its descriptio
 - After Editing I return to the task list
 
 ```
-<pre class="code">
 Scenario: Clicking on description link allows edit
 Given that I have created a task "go shopping"
 When I go to the tasks page
@@ -169,7 +172,6 @@ and remove the show method
 Rerun ‘rake features’ just to make sure all is good. And you can now see that the tasks\_controller code coverage is at 62%. We’re calling edit, but not yet update… on to the next scenario.
 
 ```
-<pre class="code">
 Scenario: After Editing I return to the task list
 Given that I have created a task "go shopping"
 When I go to the tasks page
@@ -193,7 +195,6 @@ I left delete for last since it is a bit trickier. With the design of the app, t
  I found this handy step definition in an [example by Aslak](http://github.com/aslakhellesoy/cucumber_rails/tree/master/features/step_definitions/lorry_steps.rb):
 
 ```
-<pre class="code">
 When /^I delete the (d+)(?:st|nd|rd|th) lorry$/ do |pos|
 visit lorries_url
 within("table > tr:nth-child(#{pos.to_i+1})") do
@@ -205,7 +206,6 @@ end
 When I first looked at that I thought `> tr:nth-child` was some wild new Ruby syntax, but the kind folk on the RSpec list [answered my question](http://www.ruby-forum.com/topic/174063#new) by pointing me to the [CSS selector doc](http://www.w3.org/TR/CSS2/selector.html#child-selectors). I had forgotten that &gt; was a CSS selector since I had never actually used that selector before. That hint combined with [a previous thread](http://www.ruby-forum.com/topic/171269) and some digging around to brush up my Ruby and Rail skills led me to a solution. Here is my scenario for delete:
 
 ```
-<pre class="code">
 Scenario: Delete a Task
 Given that I have created a task "task 1"
 When I go to the tasks page
@@ -220,14 +220,16 @@ To make this work, I can define a unique DOM id for each of my table row, then I
 
 In `app/views/tasks/index.html.erb`, we have some Ruby code which iterates through the list of tasks (@tasks) and for each ‘task’ there is a table row. To add a unique id for the table row, I insert a snippet of ruby code within &lt;% … %&gt; which evaluates to a unique string. In this case I use the string “task” plus to id of the task itself, generating task4, task5 or whatever.
 
-> `<br></br><% for task in @tasks %><br></br>  <tr id="<%="task"+task.id.to_s%>"><br></br>`
+> ```
+> <% for task in @tasks %>
+>   <tr id="<%="task"+task.id.to_s%>">
+> ```
 
 ### 2) Find the id for “task 1”
 
 Given the description of a task, I need to find its id. In the [ActiveRecord::Base API docs](http://api.rubyonrails.org/classes/ActiveRecord/Base.html), it describes some handy syntax for finding by attribute value. “Dynamic attribute-based finders are a cleaner way of getting (and/or creating) objects by simple queries without turning to SQL. They work by appending the name of an attribute to find\_by\_, find\_last\_by\_, or find\_all\_by\_.” Since the attribute I have is “description,” I can call
 
 ```
-<pre class="code">
 task = Task.find_by_description(desc)
 ```
 
@@ -250,7 +252,6 @@ end
 I run “rake features” and all is good. The only thing left to do is to rename the “Destroy” link to be “delete” as I described it and fix up the step to have a more general definition:
 
 ```
-<pre class="code">
 When /^I click "(.*)" for "(.*)"$/ do |link, desc|
 task = Task.find_by_description(desc)
 within("table > tr#task"+task.id.to_s) do
@@ -272,7 +273,6 @@ I looked first at the controller and found something odd:
 `in <strong>app/controllers/tasks_controllers.rb</strong>:`
 
 ```
-<pre class="code">
 class TasksController  @tasks }
 end
 end
@@ -297,7 +297,6 @@ end
 The index and new methods repeat code, but the edit method, which I would expect to contain the same repeated 4 lines omits the code. In fact, if I remove those lines in index and new, the app works fine.
 
 ```
-<pre class="code">
 class TasksController < ApplicationController
 # GET /tasks
 # GET /tasks.xml

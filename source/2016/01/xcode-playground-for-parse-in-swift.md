@@ -13,11 +13,22 @@ Experimenting with [Parse.com](https://www.parse.com/) in Swift 2, Xcode 7.2, OS
 
 note: cocoapods 0.39.0 has issue with Ruby 2.3 (https://github.com/CocoaPods/CocoaPods/issues/4345) — likely fixed in the 1.0 beta, but I stuck with older ruby and released cocoapod for this exercise.
 
-`rvm use ruby-2.2.4<br></br>gem install cocoapods<br></br>`
+```
+rvm use ruby-2.2.4
+gem install cocoapods
+```
 
 Make a new Xcode project, and add a new Empty file to your project called Podfile (New &gt; File… &gt; Other &gt; Empty), with the following contents:
 
-`platform :ios, '8.1'<br></br>xcodeproj 'ParsePlayground'<br></br> <br></br>use_frameworks!<br></br>target :ParsePlayground, :exclusive => true do<br></br>  pod 'Parse'<br></br>end<br></br>`
+```
+platform :ios, '8.1'
+xcodeproj 'ParsePlayground'
+
+use_frameworks!
+target :ParsePlayground, :exclusive => true do
+  pod 'Parse'
+end
+```
 
 back on the command-line:
 
@@ -29,17 +40,41 @@ This new workspace should have both the original project and a new one called Po
 
 Now this code should compile:
 
-`import Parse<br></br>import XCPlayground<br></br>XCPlaygroundPage.currentPage.needsIndefiniteExecution = true<br></br>`
+```
+import Parse
+import XCPlayground
+XCPlaygroundPage.currentPage.needsIndefiniteExecution = true
+```
 
 We want to set needsIndefiniteExecution so that the async commands will work.
 
 I made a new Parse app to experiment, then in the parse docs, in the [QuickStart Guide](https://parse.com/apps/quickstart#parse_data/mobile/ios/swift/new), they set up some sample code already customized with the app ID and client key, it should be something like:
 
-`Parse.setApplicationId("abunchofnumbersandletters",<br></br>      clientKey: "morelettersandnumbers")<br></br>`
+```
+Parse.setApplicationId("abunchofnumbersandletters",
+      clientKey: "morelettersandnumbers")
+```
 
 Then we can start coding! I made an item class in Parse with a string property “info.” Here some code that worked for me:
 
-`let testObject = PFObject(className: "TestObject")<br></br> <br></br>testObject["foo"] = "bar"<br></br>testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in<br></br>  print("Object has been saved: (success)")<br></br>}<br></br> <br></br>var query = PFQuery(className: "item")<br></br>var items = try query.findObjects()<br></br>print("got some items")<br></br>for item in items {<br></br>  var info = item["info"]<br></br>  print("   item #(item.objectId!) info:(info)")<br></br>}<br></br> <br></br>print("not the end... wait for the sync call to finish")<br></br>`
+```
+let testObject = PFObject(className: "TestObject")
+
+testObject["foo"] = "bar"
+testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
+  print("Object has been saved: (success)")
+}
+
+var query = PFQuery(className: "item")
+var items = try query.findObjects()
+print("got some items")
+for item in items {
+  var info = item["info"]
+  print("   item #(item.objectId!) info:(info)")
+}
+
+print("not the end... wait for the sync call to finish")
+```
 
 When I run the above code it works fine, but I do get some of the following errors. Not sure why…
 

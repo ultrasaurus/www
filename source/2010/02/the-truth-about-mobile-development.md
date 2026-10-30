@@ -19,4 +19,4 @@ The process of building, signing and distributing the app is quite different cro
 
 The slides for the talk don’t really stand alone, but I am posting them here for reference:
 
-<div id="__ss_3235188" style="width:425px;text-align:left">[Mobile Ruby, LA RubyConf](http://www.slideshare.net/sarah.allen/mobile-ruby-la-rubyconf "Mobile Ruby, LA RubyConf")<div style="font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px">View more [presentations](http://www.slideshare.net/) from [Sarah Allen](http://www.slideshare.net/sarah.allen).</div></div>
+Slides: [Mobile Ruby, LA RubyConf](http://www.slideshare.net/sarah.allen/mobile-ruby-la-rubyconf)

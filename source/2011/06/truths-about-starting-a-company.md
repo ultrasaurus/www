@@ -13,4 +13,4 @@ Nice to feel like I’m in good company.
 
 Complete slides below:
 
-<div id="__ss_8353197" style="width:425px"> **[So you want to do a startup, eh?](http://www.slideshare.net/missrogue/so-you-want-to-do-a-startup-eh "So you want to do a startup, eh?")**<div style="padding:5px 0 12px"> View more [presentations](http://www.slideshare.net/) from [Tara Hunt](http://www.slideshare.net/missrogue) </div></div>
+Slides: [So you want to do a startup, eh?](http://www.slideshare.net/missrogue/so-you-want-to-do-a-startup-eh)

@@ -16,4 +16,4 @@ This was the context of my talk tonight at the [East Bay Ruby Meetup](http://rub
 
 Slides posted:
 
-<div id="__ss_3798832" style="width:425px">**[Test First Teaching](http://www.slideshare.net/sarah.allen/test-first-teaching "Test First Teaching")**<div style="padding:5px 0 12px">View more [presentations](http://www.slideshare.net/) from [Sarah Allen](http://www.slideshare.net/sarah.allen).</div></div>
+Slides: [Test First Teaching](http://www.slideshare.net/sarah.allen/test-first-teaching)

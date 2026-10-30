@@ -9,7 +9,13 @@ When I was in high school, I thought we were supposed to see clearly into the fu
 
 <iframe allowfullscreen="" frameborder="0" height="356" loading="lazy" marginheight="0" marginwidth="0" scrolling="no" src="https://www.slideshare.net/slideshow/embed_code/key/1xizsH7vX0ElwO" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" title="Lessons Learned Future Thoughts" width="427"> </iframe>
 
-<div style="margin-bottom:5px">  **[Lessons Learned Future Thoughts](https://www.slideshare.net/sarah.allen/lessons-learned-future-thoughts-by-sarah-allen "Lessons Learned Future Thoughts")**  from **[Sarah Allen](https://www.slideshare.net/sarah.allen)** </div>So I began my talk to Louisville High School, an all girls school in Woodland Hills California, where I spoke this past week about my life, my career and some thoughts about the future. When I was in high school, also at an all girls school, I expected to be able to see choices clearly ahead of time. *This is not my life.*
+<div style="margin-bottom:5px">
+
+**[Lessons Learned Future Thoughts](https://www.slideshare.net/sarah.allen/lessons-learned-future-thoughts-by-sarah-allen "Lessons Learned Future Thoughts")**  from **[Sarah Allen](https://www.slideshare.net/sarah.allen)**
+
+</div>
+
+So I began my talk to Louisville High School, an all girls school in Woodland Hills California, where I spoke this past week about my life, my career and some thoughts about the future. When I was in high school, also at an all girls school, I expected to be able to see choices clearly ahead of time. *This is not my life.*
 
 In my life, those choices that made a difference have only been clear in hindsight.
 

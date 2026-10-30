@@ -27,14 +27,18 @@ Ebay Desktop and Adobe AIR
 
 Installing Ebay Desktop with Adobe AIR beta 3, the first screens prompting me to install the new version of Flash were really confusing. Even after I installed Flash, it still told me to install Flash, so I still don’t know if I really needed that step. Then I had to navigate back to the original page manually after installing Flash and AIR. I expect that the first part of this awkwardness could have been better implemented on the ebay site and may not be a fault of the AIR technology, but the latter series of multiple progress bars and dialog boxes looks unavoidable. All told the install experience was over 10 minutes.
 
-<div id="__ss_278882" style="width:425px;text-align:left"><div style="font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px">[![SlideShare](http://static.slideshare.net/swf/logo_embd.png)](http://www.slideshare.net/?src=embed) | [View](http://www.slideshare.net/sarah.allen/ebay-desktop-adobe-air-install?src=embed "View 'Ebay Desktop Adobe AIR Install' on SlideShare") | [Upload your own](http://www.slideshare.net/upload?src=embed)</div></div>Remember the Milk and Google Gears
+Slides: [SlideShare](http://static.slideshare.net/swf/logo_embd.png)
+
+Remember the Milk and Google Gears
 ----------------------------------
 
 \[UPDATE: my initial post was not an apples-to-apples comparison since it was an upgrade, I’ve changed this to reflect an initial install experience\]
 
 Remember the Milk has really done a nice job with this. The installation took just a few minutes. After setting it up initially, I could go back and forth between online and offline without really thinking about it.
 
-<div id="__ss_279409" style="width:425px;text-align:left"><div style="font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px">[![SlideShare](http://static.slideshare.net/swf/logo_embd.png)](http://www.slideshare.net/?src=embed) | [View](http://www.slideshare.net/sarah.allen/remember-the-milk-offline-experience-with-google-gears?src=embed "View 'Remember The Milk Offline Experience with Google Gears' on SlideShare") | [Upload your own](http://www.slideshare.net/upload?src=embed)</div></div>The only momentary glitch was with the stupid IE Popup blocker which reloads the page. I wonder if there is anyway around that? I wrote about running into this issue on the [gowebtop blog](http://gowebtop.com/blog/2008/01/23/29/#popup) but I wonder in this case if there would be a way to create an in-page install to avoid this hiccup.
+Slides: [SlideShare](http://static.slideshare.net/swf/logo_embd.png)
+
+The only momentary glitch was with the stupid IE Popup blocker which reloads the page. I wonder if there is anyway around that? I wrote about running into this issue on the [gowebtop blog](http://gowebtop.com/blog/2008/01/23/29/#popup) but I wonder in this case if there would be a way to create an in-page install to avoid this hiccup.
 
 Technology Options for Offline Webapps
 --------------------------------------

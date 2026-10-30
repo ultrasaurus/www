@@ -28,7 +28,15 @@ following [MacOSXCompilationGuide](http://ffmpeg.org/trac/ffmpeg/wiki/MacOSXComp
 
 2\. Compile libvpx (needed for WebM)  
 I took these instructions from the [UbuntuCompilationGuide](http://ffmpeg.org/trac/ffmpeg/wiki/UbuntuCompilationGuide), and swapped out the prefix to be what the Mac instructions told me to do:  
-`<br></br> git clone --depth 1 http://git.chromium.org/webm/libvpx.git<br></br>cd libvpx<br></br>./configure --prefix=/usr/local --disable-examples<br></br>make<br></br>sudo make install<br></br>make clean<br></br>cd ..<br></br>`
+```
+ git clone --depth 1 http://git.chromium.org/webm/libvpx.git
+cd libvpx
+./configure --prefix=/usr/local --disable-examples
+make
+sudo make install
+make clean
+cd ..
+```
 
 3\. Configure &amp; build ffmpeg  
 I picked just the libraries I needed plus whatever didn’t require extra dependencies:

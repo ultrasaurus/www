@@ -25,7 +25,7 @@ I realized that if I could learn this poem, I would also learn other useful aspe
 
 Here’s someone singing it in a child-like ABCs — no idea what the words on the right are, but this is the very clear to follow along and practice reading while hearing the characters pronounced:
 
-http://youtu.be/NTkyIW6eX8E
+<iframe loading="lazy" width="770" height="433" src="https://www.youtube.com/embed/NTkyIW6eX8E?feature=oembed" frameborder="0" allowfullscreen></iframe>
 
 and here’s Hatsune Miku (Vocal software) singing it:
 

@@ -20,24 +20,42 @@ ActiveScaffold for Admin
 ------------------------
 
 Make a little app for this experiment:  
-`<br></br>rails active_scaffold<br></br>cd active_scaffold<br></br>./script/generate scaffold Task title:string notes:text  complete:boolean<br></br>rake db:migrate<br></br>`  
+```
+rails active_scaffold
+cd active_scaffold
+./script/generate scaffold Task title:string notes:text  complete:boolean
+rake db:migrate
+```
 Install the plugin, which is compatible with Rails 2.3.2 (yay!) and previous versions of rails (if you [install a specific revision](http://wiki.github.com/activescaffold/active_scaffold/getting-started))  
-`<br></br>./script/plugin install git://github.com/activescaffold/active_scaffold.git<br></br>`  
+```
+./script/plugin install git://github.com/activescaffold/active_scaffold.git
+```
 Now we have an app that lets you create, view, edit and delete tasks. This is the end-user app, you could edit the views and remove controller actions to prevent editing, deleting and/or creation. We want to leave this interface as is, but create a separate set of pages to allow an administrator to view, create, modify and delete tasks.
 
 Sean came up with the idea of using routes with a namespace to facilitate this. Here’s what we came up with:
 
 In config/routes.rb add the following code:  
-`<br></br>  map.namespace :admin do |admin|<br></br>   admin.resources :tasks<br></br>  end<br></br>`
+```
+  map.namespace :admin do |admin|
+   admin.resources :tasks
+  end
+```
 
 Create a copy of /app/views/layouts/tasks.html.erb and call it admin.html.erb (in same folder), then add the following lines inside the &lt;head&gt; tag:  
 ``
 
 Create app/controllers/task\_controller.rb:  
-`<br></br>class Admin::TasksController < TasksController<br></br>   layout "admin"<br></br>   active_scaffold :task<br></br>end<br></br>`
+```
+class Admin::TasksController < TasksController
+   layout "admin"
+   active_scaffold :task
+end
+```
 
 Check it out:  
-`<br></br>http://localhost:3000/admin/tasks<br></br>`  
+```
+http://localhost:3000/admin/tasks
+```
 ![](http://img.skitch.com/20090702-tgy9a9y5g981xf589k6b3txjym.jpg)  
 and when you click edit:  
 ![](http://img.skitch.com/20090702-mm8tr6jceckp7y78kbc495nwnq.jpg)

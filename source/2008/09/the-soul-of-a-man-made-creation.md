@@ -8,4 +8,4 @@ id: 415
 
 I found the origin of this quote which I saw in the slideshow below at [inspireUX](http://www.inspireux.com/2008/05/05/design-is-the-fundamental-soul-of-a-human-made-creation/). Despite the soemtimes unreadable text and lack of clear attribution, I enjoyed this slideshow:
 
-<div id="__ss_37083" style="width:425px;text-align:left">[What is Design](http://www.slideshare.net/seilamgoh/what-is-design?type=powerpoint "What is Design")<div style="font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px">View SlideShare [presentation](http://www.slideshare.net/seilamgoh/what-is-design?type=powerpoint "View What is Design on SlideShare") or [Upload](http://www.slideshare.net/upload?type=powerpoint) your own. (tags: [design](http://slideshare.net/tag/design) [is](http://slideshare.net/tag/is))</div></div>
+Slides: [What is Design](http://www.slideshare.net/seilamgoh/what-is-design)

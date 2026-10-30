@@ -30,13 +30,22 @@ Rails 4 with Mongoid
 I chose Mongoid over MongoMapper (see [quora](http://www.quora.com/What-are-the-advantages-of-using-MongoMapper-versus-using-Mongoid), [stackoverflow](http://stackoverflow.com/questions/1958365/mongoid-or-mongomapper))  
 I used MRI 1.9.3 (at this writing, Mongoid supports HEAD but not 2.0)  
 rvmrc:  
-`<br></br>rvm use ruby-1.9.3-p429@rails4 --create<br></br>`
+```
+rvm use ruby-1.9.3-p429@rails4 --create
+```
 
 added to Gemfile:  
-`<br></br>gem "mongoid", git: 'git://github.com/mongoid/mongoid.git'<br></br>`
+```
+gem "mongoid", git: 'git://github.com/mongoid/mongoid.git'
+```
 
 on the command-line:  
-`<br></br>rails new mongo-people --skip-active-record<br></br>rails generate mongoid:config<br></br>rails generate scaffold person name street city state<br></br>rails s<br></br>`
+```
+rails new mongo-people --skip-active-record
+rails generate mongoid:config
+rails generate scaffold person name street city state
+rails s
+```
 
 Woo hoo! We’ve got an app — looks like a vanilla Rails app from the outside, but it is different on the inside:
 

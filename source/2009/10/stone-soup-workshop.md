@@ -13,7 +13,11 @@ As important as the event itself are the activities which follow. [Josh Nichols]
 
 I was inspired and honored to be a part of this event. It is my hope and expectation that the work will continue through the [Open Source Code Crunch](http://blogs.law.harvard.edu/genderandtech/ruby-on-rails-workshop-for-women/open-source-code-crunch/) and future workshops.
 
-<div style="float: right;width: 250px">Awesome volunteers: - [Brian Cardarella](http://cardarella.blogspot.com/) ([@bcardarella](http://twitter.com/bcardarella))
+<div style="float: right;width: 250px">
+
+Awesome volunteers:
+
+- [Brian Cardarella](http://cardarella.blogspot.com/) ([@bcardarella](http://twitter.com/bcardarella))
 - [Clara Raubertas](http://www.clararaubertas.net/) ([@clararaubertas](http://twitter.com/clararaubertas))
 - Mike Karolow ([@mobilemike](http://twitter.com/mobilemike))
 - Dev Purkayastha ([@devp](http://twitter.com/devp))
@@ -38,7 +42,13 @@ I was inspired and honored to be a part of this event. It is my hope and expecta
 
 Please let me know if I missed you or a link to your website, blog or twitter. I would love to stay in touch!
 
-</div><div>Fabulous sponsors: - [Hashrocket](http://hashrocket.com/)
+</div>
+
+<div>
+
+Fabulous sponsors:
+
+- [Hashrocket](http://hashrocket.com/)
 - [EngineYard](http://www.engineyard.com/)
 - [GitHub](https://github.com/)
 - [RailsBridge](http://railsbridge.org/)

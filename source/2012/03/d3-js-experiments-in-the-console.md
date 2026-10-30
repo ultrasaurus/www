@@ -20,7 +20,28 @@ UPDATE: blank file below posted [here](http://ultrasaurus.github.com/d3js-exampl
 
 ```
 
-<html><br></br>  <head><br></br>    <title>d3 experiment</title><br></br>    <script type="text/javascript"<br></br>            src="https://raw.github.com/mbostock/d3/master/d3.js"><br></br>    </script><br></br>    <style type="text/css"><br></br>      .box {<br></br>        background-color: skyblue;<br></br>        width: 24px;<br></br>        height: 18px;<br></br>        padding: 4px;<br></br>        margin: 1px;<br></br>      }<br></br>    </style><br></br>  </head><br></br>  <body><br></br>  </body><br></br></html><br></br><br></br><br></br><br></br>
+<html>
+  <head>
+    <title>d3 experiment</title>
+    <script type="text/javascript"
+            src="https://raw.github.com/mbostock/d3/master/d3.js">
+    </script>
+    <style type="text/css">
+      .box {
+        background-color: skyblue;
+        width: 24px;
+        height: 18px;
+        padding: 4px;
+        margin: 1px;
+      }
+    </style>
+  </head>
+  <body>
+  </body>
+</html>
+
+
+
 ```
 
 Then in the FireBug console, we can interact with d3, the top-level object that allows us to access all of d3’s goodness.

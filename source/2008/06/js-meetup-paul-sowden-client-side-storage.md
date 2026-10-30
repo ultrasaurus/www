@@ -38,4 +38,4 @@ Libraries available
 Note: global storage has widest adoption, but global storage actually has been taken out of the specification!  
 \[Update: slides from this talk have been posted on [slideshare](http://www.slideshare.net/idontsmoke/client-side-storage/)\]
 
-<div id="__ss_452242" style="width:425px;text-align:left"><div style="font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px">[![SlideShare](http://static.slideshare.net/swf/logo_embd.png)](http://www.slideshare.net/?src=embed) | [View](http://www.slideshare.net/idontsmoke/client-side-storage?src=embed "View Client Side Storage on SlideShare") | [Upload your own](http://www.slideshare.net/upload?src=embed)</div></div>
+Slides: [SlideShare](http://static.slideshare.net/swf/logo_embd.png)

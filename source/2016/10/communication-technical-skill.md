@@ -9,7 +9,7 @@ category: general
 
 For Rocky Mountain Ruby last week, I opened my talk with inspiration from Jim Weirich, a legendary developer, inspiring teacher and a great communicator. The short video clip was from a prior Rocky Mountain Ruby, where Jim Weirich shared a song he had composed for [\_why day](https://engineering.shopify.com/17488384-whyday-is-friday):
 
-https://www.youtube.com/watch?v=8yoTHh6D9R0
+<iframe loading="lazy" width="770" height="433" src="https://www.youtube.com/embed/8yoTHh6D9R0?feature=oembed" frameborder="0" allowfullscreen></iframe>
 
 Here are my notes from the talk which aren’t exactly what I said, but provide a bit of the story…
 
@@ -114,4 +114,8 @@ slides:
 
 <iframe allowfullscreen="" frameborder="0" height="356" loading="lazy" marginheight="0" marginwidth="0" scrolling="no" src="https://www.slideshare.net/slideshow/embed_code/key/3ZQNVhs6OtUpfh" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" title="Communication is a Technical Skill" width="427"> </iframe>
 
-<div style="margin-bottom:5px">  **[Communication is a Technical Skill](https://www.slideshare.net/sarah.allen/communication-is-a-technical-skill "Communication is a Technical Skill")**  from **[Sarah Allen](https://www.slideshare.net/sarah.allen)**</div>
+<div style="margin-bottom:5px">
+
+**[Communication is a Technical Skill](https://www.slideshare.net/sarah.allen/communication-is-a-technical-skill "Communication is a Technical Skill")**  from **[Sarah Allen](https://www.slideshare.net/sarah.allen)**
+
+</div>

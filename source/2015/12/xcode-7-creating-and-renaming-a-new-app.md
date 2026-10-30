@@ -9,7 +9,15 @@ Create a new application (File &gt; New &gt; Project)
 
 Create a Single View Application as usual…
 
-<figure class="wp-caption thumbnail aligncenter" id="attachment_5755" style="width: 734px;">[![dialog box with 'Single View Application' selected](../../../uploads/2015/12/Screen-Shot-2015-12-22-at-6.07.37-AM.png)](https://www.ultrasaurus.com/wp-content/uploads/2015/12/Screen-Shot-2015-12-22-at-6.07.37-AM.png) <figcaption class="wp-caption-text">Create a Single View Application</figcaption></figure>Name your project:
+<figure class="wp-caption thumbnail aligncenter" id="attachment_5755" style="width: 734px;">
+
+[![dialog box with 'Single View Application' selected](../../../uploads/2015/12/Screen-Shot-2015-12-22-at-6.07.37-AM.png)](https://www.ultrasaurus.com/wp-content/uploads/2015/12/Screen-Shot-2015-12-22-at-6.07.37-AM.png)
+
+<figcaption class="wp-caption-text">Create a Single View Application</figcaption>
+
+</figure>
+
+Name your project:
 
 [![XCode New Project Dialog box](../../../uploads/2015/12/Screen-Shot-2015-12-22-at-6.12.22-AM.png)](https://www.ultrasaurus.com/wp-content/uploads/2015/12/Screen-Shot-2015-12-22-at-6.12.22-AM.png)
 

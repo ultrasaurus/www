@@ -35,4 +35,4 @@ Startups should focus on:
 
 Lean startups use agile and customer development to find profits. (A high percentage of company founders come from dysfunctional families, but that’s another topic.)
 
-<div id="__ss_3729315" style="width:425px">**[Why Accountants Don't Run Startups](http://www.slideshare.net/sblank/why-accountants-dont-run-startups-041410 "Why Accountants Don't Run Startups")**<div style="padding:5px 0 12px">View more presentations from [steve blank](http://www.slideshare.net/sblank).</div></div>
+Slides: [Why Accountants Don't Run Startups](http://www.slideshare.net/sblank/why-accountants-dont-run-startups-041410)

@@ -23,10 +23,14 @@ module CustomMatchers
 ```
 
 and when I ran my feature I was getting this failure:  
-`<br></br>      undefined method `xml_subset_of?' for # (NoMethodError)<br></br>`
+```
+      undefined method `xml_subset_of?' for # (NoMethodError)
+```
 
 As it turns out, in my zeal to make sure everything was using the latest and great new stuff, I had forgotten to move over this critical configuration line in cucumbers env.rb:
 
-`<br></br>World(CustomMatchers)<br></br>`
+```
+World(CustomMatchers)
+```
 
 Now, my cucumber feature is happily failing cuz my code doesn’t work. Whew. I couldn’t find this documented anywhere and I’m not even sure where this documentation would belong. I found a hint on the [cucumber wiki rspec expectations page](https://github.com/cucumber/cucumber/wiki/RSpec-Expectations), but none of the code on that page is actually needed when using cucumber with Rails, so I decided not to touch it and just write this blog post.

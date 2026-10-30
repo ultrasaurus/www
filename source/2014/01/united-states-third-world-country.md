@@ -17,7 +17,23 @@ On the other side, looking at the very rich, Imelda Marcos made headlines with h
 
 For those who might feel that this is emotional hyperbole, there’s data tracking this very real trend. Economists quantify the gap between rich and poor with something called the [GINI index](http://en.wikipedia.org/wiki/Gini_coefficient), which is getting worse in the US, while getting better in El Salvador. (In the graphs below, a lower number is better.)
 
-<figure class="wp-caption thumbnail alignleft" id="attachment_4831" style="width: 242px;">[![Gini index from 1913 to 2004 is U-shaped -- peaking in 1928 and 2004 with low points from 1940s to 1070s](../../../uploads/2013/12/IP09-GIni-long.jpg)](https://www.ultrasaurus.com/wp-content/uploads/2013/12/IP09-GIni-long.jpg) <figcaption class="wp-caption-text">Gap between rich and poor is increasing in the US since the 70s</figcaption></figure><figure class="wp-caption thumbnail alignleft" id="attachment_4835" style="width: 306px;">[![https://www.ultrasaurus.com/wp-admin/post.php?post=4833&action=edit](../../../uploads/2013/12/GINI-el-salvador.png)](https://www.ultrasaurus.com/wp-content/uploads/2013/12/GINI-el-salvador.png) <figcaption class="wp-caption-text">GINI index shows that the gap between rich and poor in El Salvador is decreasing in past decade.</figcaption></figure>What I Remember…
+<figure class="wp-caption thumbnail alignleft" id="attachment_4831" style="width: 242px;">
+
+[![Gini index from 1913 to 2004 is U-shaped -- peaking in 1928 and 2004 with low points from 1940s to 1070s](../../../uploads/2013/12/IP09-GIni-long.jpg)](https://www.ultrasaurus.com/wp-content/uploads/2013/12/IP09-GIni-long.jpg)
+
+<figcaption class="wp-caption-text">Gap between rich and poor is increasing in the US since the 70s</figcaption>
+
+</figure>
+
+<figure class="wp-caption thumbnail alignleft" id="attachment_4835" style="width: 306px;">
+
+[![https://www.ultrasaurus.com/wp-admin/post.php?post=4833&action=edit](../../../uploads/2013/12/GINI-el-salvador.png)](https://www.ultrasaurus.com/wp-content/uploads/2013/12/GINI-el-salvador.png)
+
+<figcaption class="wp-caption-text">GINI index shows that the gap between rich and poor in El Salvador is decreasing in past decade.</figcaption>
+
+</figure>
+
+What I Remember…
 ----------------
 
 I was in 4th and 5th grade when I lived in the Philippines and El Salvador. I saw extreme poverty, where public schools lacked books, where children and sick people begged on the street. In the Philippines, we travelled to rural areas where I saw people who worked in rice fields and live in huts on stilts. Their children were skinny, but not starving. That was the middle class. In Manilla, the Americans and very rich, lived in a walled city around or near the army base. We went there for Halloween, and the poor kids would sneak in and try to get candy from the rich houses. One of the moms told me she only gave candy to kids in costume, since she didn’t want to encourage that kind of behavior. I wondered why I was allowed to get free candy and these other kids couldn’t. Would it be okay if they came back next year in costume, pretending not to be so poor and hungry?

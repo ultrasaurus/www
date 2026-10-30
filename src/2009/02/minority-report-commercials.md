@@ -1,16 +1,9 @@
 ---
 title: 'minority report commercials'
 date: '2009-02-15T08:11:56-08:00'
-status: publish
 exported_permalink: /2009/02/minority-report-commercials
-author: sarah
-excerpt: ''
-type: post
 id: 797
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 The movie, [Minority Report](http://www.imdb.com/title/tt0181689/), includes in its backdrop a complete set of near-future tech. While the film was released in 2002, it is based on a [1956 short story](http://en.wikipedia.org/wiki/The_Minority_Report) by Philip K. Dick. Based on the [wikipedia differences](http://en.wikipedia.org/wiki/The_Minority_Report#Differences_between_short_story_and_film) between the story and film, I’d guess the whole eye-scanning commercial was a “fiction” invented for the film. Now, the folks at [Quividi](http://quividi.com/) are seeking to make that fiction a reality (via [bitch](http://bitchmagazine.org/post/big-advertisers-are-watching-you)).
 

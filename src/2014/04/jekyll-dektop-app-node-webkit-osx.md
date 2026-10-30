@@ -1,16 +1,9 @@
 ---
 title: 'jekyll dektop app with node-webkit on osx'
 date: '2014-04-26T08:24:30-07:00'
-status: publish
 exported_permalink: /2014/04/jekyll-dektop-app-node-webkit-osx
-author: sarah
-excerpt: ''
-type: post
 id: 5087
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 I had an idea this morning that I could make a simple desktop app by combining the lightning-fast website generation capabilities of [jekyll](http://jekyllrb.com/) with the awesome [Node-Webkit](https://github.com/rogerwang/node-webkit) that lets us native wrappers for HTML5 apps. I checked out this [nice intro to Node-Webkit](https://speakerdeck.com/zcbenz/node-webkit-app-runtime-based-on-chromium-and-node-dot-js), and unsurprisingly ran into a few gotchas, documented below for other adventurer and my future self:
 

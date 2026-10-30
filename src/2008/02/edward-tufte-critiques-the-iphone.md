@@ -1,16 +1,8 @@
 ---
 title: 'Edward Tufte critiques the iPhone'
 date: '2008-02-03T10:18:40-08:00'
-status: publish
 exported_permalink: /2008/02/edward-tufte-critiques-the-iphone
-author: sarah
-excerpt: ''
-type: post
 id: 352
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Edward Tufte has produced a nice [video critique of the iPhone](http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=00036T). There is much that he admires, but he also offers design suggestions in some places and pokes fun at the stock app.
 

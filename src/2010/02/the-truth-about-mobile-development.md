@@ -1,16 +1,9 @@
 ---
 title: 'the truth about mobile development'
 date: '2010-02-21T08:56:26-08:00'
-status: publish
 exported_permalink: /2010/02/the-truth-about-mobile-development
-author: sarah
-excerpt: ''
-type: post
 id: 2411
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 For my talk at [LA RubyConf](http://www.larubyconf.com/), I decided to share some truths about mobile development, in general, rather than focusing only on how it is different with Ruby using the [Rhomobile](http://rhomobile.com/) platform.
 

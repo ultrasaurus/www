@@ -1,16 +1,8 @@
 ---
 title: 'Yahoo&#8217;s BrowserPlus sneek peek'
 date: '2008-06-07T20:12:10-07:00'
-status: publish
 exported_permalink: /2008/06/yahoos-browserplus-sneek-peek
-author: sarah
-excerpt: ''
-type: post
 id: 388
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I checked out Yahoo’s sneak peek of [BrowserPlus](http://browserplus.yahoo.com/) this morning — looks like there is some interesting stuff there. It think they have a good approach by getting feedback from people using apps before they open up the APIs to developers. I have always believed that to get the UI right, you need the user experience to drive the APIs not the other way round.
 

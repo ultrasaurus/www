@@ -1,16 +1,9 @@
 ---
 title: 'ffmpeg on osx lion'
 date: '2012-01-07T21:40:37-08:00'
-status: publish
 exported_permalink: /2012/01/ffmpeg-on-osx-lion
-author: sarah
-excerpt: ''
-type: post
 id: 3537
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 Update: [more links and ogg and webm details](https://www.ultrasaurus.com/sarahblog/2013/06/ffmpeg-for-ogg-and-webm/)
 

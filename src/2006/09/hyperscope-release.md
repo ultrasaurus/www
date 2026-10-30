@@ -1,16 +1,8 @@
 ---
 title: 'HyperScope release'
 date: '2006-09-05T10:06:34-07:00'
-status: publish
 exported_permalink: /2006/09/hyperscope-release
-author: sarah
-excerpt: ''
-type: post
 id: 252
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 [HyperScope ](http://www.hyperscope.org), a modern Ajax-ified version of Doug Engelbart’s Augment System, is released as open source (under GPL) in its initial version. There’s a [demo](http://hyperscope.org/hyperscope/src/demos/augmentinghumanintellect.opml) of the system which presents some of Doug Engelbart’s writing and is a good way to get to know the goals of the system. There is a [lauch party](http://blueoxen.net/c/hyperscope/blog/archives/23) tonight.
 

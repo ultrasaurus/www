@@ -1,17 +1,10 @@
 ---
 title: 'creativity and play'
 date: '2004-03-27T18:54:33-08:00'
-status: publish
 exported_permalink: /2004/03/creativity-and-play
-author: sarah
-excerpt: ''
-type: post
 id: 111
-category:
-    - Uncategorized
 tag:
     - learning
-post_format: []
 ---
 “It is the essence of play that a new relation is created between the field of meaning and the visual field — that is, between situations in thought and real situations.” — Vygotsky <u>Mind in Society</u>
 

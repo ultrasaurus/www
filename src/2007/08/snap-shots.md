@@ -1,16 +1,8 @@
 ---
 title: 'snap shots'
 date: '2007-08-03T21:05:40-07:00'
-status: publish
 exported_permalink: /2007/08/snap-shots
-author: sarah
-excerpt: ''
-type: post
 id: 306
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I just added “snap shots” from [Snap.com](http://www.snap.com) to this site (first seen on [truemors](http://truemors.com/)). I’m not really sure whether it is awesome or distracting.
 

@@ -1,16 +1,9 @@
 ---
 title: 'information is oxygen'
 date: '2013-09-29T12:37:22-07:00'
-status: publish
 exported_permalink: /2013/09/information-is-oxygen
-author: sarah
-excerpt: ''
-type: post
 id: 4673
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 ![](https://monosnap.com/image/CJ1bMsFpwWOtZ6Oc1iwbsIKD0.png)During the Industrial Age, information was property — held by few, information required money and brought power. With the rise of the Information Age, information became water. We all need it, sometimes it falls from the sky, but there are complex rights. Like water, there were information sources and streams. Information was produced and consumed.
 

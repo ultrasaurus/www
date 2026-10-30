@@ -1,16 +1,9 @@
 ---
 title: 'building tesseract from source'
 date: '2013-07-15T02:39:42-07:00'
-status: publish
 exported_permalink: /2013/07/building-tesseract-from-source
-author: sarah
-excerpt: ''
-type: post
 id: 4081
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 Thanks to the [prior work of Matt Christy](http://emop.tamu.edu/node/45) at [eMOP](http://emop.tamu.edu/), I got started building [Tesseract](https://code.google.com/p/tesseract-ocr/) from source (on Mac OSX 10.8.4).
 

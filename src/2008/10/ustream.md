@@ -1,16 +1,8 @@
 ---
 title: ustream
 date: '2008-10-11T18:31:34-07:00'
-status: publish
 exported_permalink: /2008/10/ustream
-author: sarah
-excerpt: ''
-type: post
 id: 424
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 It’s neat to see that there are a number of sites using the broadcast and recording features of Flash video. I checked out [ustream](http://www.ustream.tv/) today (via [vator.tv](http://www.vator.tv/pitch/show/ustream-live-interactive-video-for-everyone)). I’m not sure if it was a bug or if they planned it this way, but I couldn’t record anything longer than 4 seconds. It’s focus is live tv, but without a live audience I thought I would check out its recording features. I took me a few seconds to set up the [ultrasaurus](http://www.ustream.tv/channel/ultrasaurus) channel. I found the interface to be a bit overwhelming and didn’t manage to record a clip longer than 4 seconds.
 

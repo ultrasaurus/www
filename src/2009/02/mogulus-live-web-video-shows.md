@@ -1,16 +1,9 @@
 ---
 title: 'mogulus live web video shows'
 date: '2009-02-06T07:38:23-08:00'
-status: publish
 exported_permalink: /2009/02/mogulus-live-web-video-shows
-author: sarah
-excerpt: ''
-type: post
 id: 765
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I had heard recently about [mogulus](http://www.mogulus.com/) which allows people to create their own live web video shows ([crunchbase overview](http://www.crunchbase.com/company/mogulus)). I spent some time this morning wading through the interface to try creating a show. My test show on the “foobar” channel is about pie, featuring my son’s favorite pie videos. The content may be mildly entertaining, but the show would need quite a bit more work to be compelling. I found it awkward to create and had to refer the help several times. You can check out [the show I created](http://www.mogulus.com/foobar) which is running on auto-pilot in a loop. It would take me quite a bit of practice to get good at using this UI, but aside from the novelty of the interface, there are awkward moments of interaction, particularly around cuing new clips, that would take a bit of work to learn how to get the timing I intended.
 

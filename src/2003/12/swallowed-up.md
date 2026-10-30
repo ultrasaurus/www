@@ -1,16 +1,8 @@
 ---
 title: 'swallowed up'
 date: '2003-12-18T20:35:49-08:00'
-status: publish
 exported_permalink: /2003/12/swallowed-up
-author: sarah
-excerpt: ''
-type: post
 id: 81
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 There are times that I become immersed in a project and it feels as if it swallows me whole.
 

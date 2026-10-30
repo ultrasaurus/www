@@ -1,16 +1,9 @@
 ---
 title: 'code is like cinema?'
 date: '2004-03-14T10:44:29-08:00'
-status: publish
 exported_permalink: /2004/03/code-is-like-cinema
-author: sarah
-excerpt: ''
-type: post
 id: 106
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: code
 ---
 “to date, the virtual machine abstraction has been relatively weak: the Java and MS.NET runtimes are essentially idealized versions of modern computer architecture that don’t leak memory or crash (at least, they’re not supposed to leak memory or crash.) This reminds of me of something I heard about the early days of cinema: there was a while, before Eisenstein and others invented a cinematic vernacular, where people made movies by just locking down a camera and filming a play.” — [Adam Wolff](http://laszlosystems.com/~adam/blog/)
 

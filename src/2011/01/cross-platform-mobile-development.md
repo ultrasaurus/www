@@ -1,16 +1,9 @@
 ---
 title: 'cross-platform smartphone development'
 date: '2011-01-01T12:23:06-08:00'
-status: publish
 exported_permalink: /2011/01/cross-platform-mobile-development
-author: sarah
-excerpt: ''
-type: post
 id: 3009
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 In the past few years there has been significant changes in mobile development. More than half of the world population now has a mobile phone — more people than have access to personal computers. Mobile phones have compute power that exceeds that of personal computers when I started programming and smartphones are gaining adoption fast.  
 [![](http://ecx.images-amazon.com/images/I/51R8IRv6EWL._SL160_.jpg)](http://www.amazon.com/gp/product/1430228687?ie=UTF8&tag=ultrasaurus-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1430228687)![](http://www.assoc-amazon.com/e/ir?t=ultrasaurus-20&l=as2&o=1&a=1430228687)  

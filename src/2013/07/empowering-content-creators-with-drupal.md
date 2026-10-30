@@ -1,16 +1,9 @@
 ---
 title: 'empowering content creators with drupal'
 date: '2013-07-27T05:59:16-07:00'
-status: publish
 exported_permalink: /2013/07/empowering-content-creators-with-drupal
-author: sarah
-excerpt: ''
-type: post
 id: 4163
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 [Bryan Braun](http://bryanbraun.com) ([@bryanebraun](https://twitter.com/bryanebraun)) gave a refreshingly opinionated talk [Empowering Content Creators with Drupal](http://capitalcamp.org/content/empowering-content-creators-drupal). Coming directly from the Ruby and Rails communities where a core value is to articulate best practices, it is great to see this kind of guidance from a member of the Drupal community. ([slides here](http://bryanbraun.com/slides))
 

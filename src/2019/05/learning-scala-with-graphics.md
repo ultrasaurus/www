@@ -1,16 +1,9 @@
 ---
 title: 'learning scala with graphics'
 date: '2019-05-16T22:34:53-07:00'
-status: publish
 exported_permalink: /2019/05/learning-scala-with-graphics
-author: sarah
-excerpt: ''
-type: post
 id: 6785
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 Last night I attended [ScalaBridge London](scalabridgelondon.org). I met one student who had recently studied computer science and decided to focus on Scala because of all of her classes she enjoyed functional programming the most. Another student works with SAS (Statistical Analysis Software) and wanted to learn a new language for her own professional development.
 

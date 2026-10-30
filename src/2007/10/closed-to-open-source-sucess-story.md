@@ -1,17 +1,11 @@
 ---
 title: 'closed-to-open source sucess story'
 date: '2007-10-24T06:58:06-07:00'
-status: publish
 exported_permalink: /2007/10/closed-to-open-source-sucess-story
-author: sarah
-excerpt: ''
-type: post
 id: 325
-category:
-    - Uncategorized
 tag:
     - Laszlo
-post_format: []
+category: general
 ---
 [OpenLaszlo ](http://www.openlaszlo.org)was recently named “Best of Open Source Software” by [InfoWorld](http://www.infoworld.com/article/07/09/10/37FE-boss-intro_1.html), which honors OpenLaszlo with a “Bossie” award.
 

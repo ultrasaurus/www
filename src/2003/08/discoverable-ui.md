@@ -1,16 +1,8 @@
 ---
 title: 'discoverable ui'
 date: '2003-08-18T20:06:19-07:00'
-status: publish
 exported_permalink: /2003/08/discoverable-ui
-author: sarah
-excerpt: ''
-type: post
 id: 43
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Scott Berkun writes about [discoverability](http://www.uiweb.com/issues/issue26.htm) — what parts of the user interface should be discoverable and why. Once you have chosen what needs to be discoverable, he lists four ways to draw attention:
 

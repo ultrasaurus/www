@@ -1,16 +1,8 @@
 ---
 title: 'studies in color'
 date: '2003-10-30T11:02:15-08:00'
-status: publish
 exported_permalink: /2003/10/studies-in-color
-author: sarah
-excerpt: ''
-type: post
 id: 75
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 This [wonderful color scheme selector](http://www.pixy.cz/apps/barvy/index-en.html) (and [more reading on color](http://www.boxesandarrows.com/archives/natural_selections_colors_found_in_nature_and_interface_design.php)  
 via [Usable Design Media](http://blogs.law.harvard.edu/vgondi/2003/10/16#a510)) got me thinking more about color. This neat app also has options to see the color scheme with variations of color blindness. You can preview your own website using this [colorblind filter](http://colorfilter.wickline.org/) (via [the other blog](http://dev11.otherworks.com/theotherblog/)).

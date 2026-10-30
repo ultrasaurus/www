@@ -1,17 +1,10 @@
 ---
 title: 'animated sorting algorithms'
 date: '2008-11-16T10:57:32-08:00'
-status: publish
 exported_permalink: /2008/11/animated-sorting-algorithms
-author: sarah
-excerpt: ''
-type: post
 id: 438
-category:
-    - Uncategorized
 tag:
     - visualization
-post_format: []
 ---
 [David Martin](http://vision.bc.edu/~dmartin/), an assistant professor at Boston College, has published a fabulous [sorting visualization](http://vision.bc.edu/~dmartin/teaching/sorting/anim-html/all.html) (via [HMK](http://www.extragroup.de/weblog/hmk/archives/004857.html)).
 

@@ -1,16 +1,9 @@
 ---
 title: 'transparency wins'
 date: '2016-01-03T12:17:08-08:00'
-status: publish
 exported_permalink: /2016/01/transparency-wins
-author: sarah
-excerpt: ''
-type: post
 id: 5824
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 The power of transparency in business, government and non-profit organizing was a key theme from 2015. In Sept, I gave a keynote talk ([see RubyConf Taiwan video](https://youtube.com/watch?v=-2_9WFtEvaA?t=2s)) called “Transparency Wins.” The title was a play on words, where “win” in English can be both a verb and a noun: how transparency as a methodology causes us to win, and also the story of three wins.
 

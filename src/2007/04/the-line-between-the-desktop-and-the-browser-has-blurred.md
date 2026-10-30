@@ -1,16 +1,8 @@
 ---
 title: 'The Line Between the Desktop and the Browser has Blurred'
 date: '2007-04-15T12:28:42-07:00'
-status: publish
 exported_permalink: /2007/04/the-line-between-the-desktop-and-the-browser-has-blurred
-author: sarah
-excerpt: ''
-type: post
 id: 272
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 “It’s 1984. You turn on your brand new 128K Macintosh and what do you see? A virtual desktop with files, folders and a trash can. The core metaphor is built around applications that edit documents stored locally. After all, the Internet isn’t part of the picture. You’re a computing island and your new computer isn’t intended for communications.
 

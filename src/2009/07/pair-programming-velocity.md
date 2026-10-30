@@ -1,16 +1,9 @@
 ---
 title: 'pair programming velocity'
 date: '2009-07-25T12:44:30-07:00'
-status: publish
 exported_permalink: /2009/07/pair-programming-velocity
-author: sarah
-excerpt: ''
-type: post
 id: 1817
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I used to pair program now and then, but only for specific challenges. When I needed to implement a new feature in an unfamiliar area of the code, I might pair with the original author. I might collaborate on a particularly tricky algorithm or when we’re up against a tight deadline and it must absolutely be correct. And, of course, you put a team of engineers on it, when there’s that critical bug that happening to real people in production right now. A few months ago, I took a different approach. I started to pair program routinely. The experience changed my perspective entirely.
 

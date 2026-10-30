@@ -1,16 +1,9 @@
 ---
 title: 'tesseract html page with text overlay'
 date: '2013-07-13T16:52:45-07:00'
-status: publish
 exported_permalink: /2013/07/tesseract-html-page-with-text-overlay
-author: sarah
-excerpt: ''
-type: post
 id: 4050
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 I’m learning a bit about OCR, and wanted to get some hands on experience using the open source Tesseract to get a feel for how it works. I’m a long way from any reasonable visual or interaction design, but the result of today’s exploration is an html page where the original image is overlaid with machine generated text in roughly the right location. This page looks like crap, but it’s a neat first step (click on the image below to see the full html page):
 

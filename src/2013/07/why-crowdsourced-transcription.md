@@ -1,16 +1,9 @@
 ---
 title: 'why crowdsourced transcription?'
 date: '2013-07-23T01:30:52-07:00'
-status: publish
 exported_permalink: /2013/07/why-crowdsourced-transcription
-author: sarah
-excerpt: ''
-type: post
 id: 4099
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I signed up to try out [FromThePage](http://beta.fromthepage.com/) as “ultrasaurus” a couple of weeks ago. It’s creator Ben Brumfield ([@benwbrum](https://twitter.com/benwbrum)) recognized me from [RailsBridge](http://workshops.railsbridge.org/) and the [NPR story](http://www.npr.org/blogs/alltechconsidered/2013/04/29/178810467/blazing-the-trail-for-female-programmers) and reached out via Twitter. Ben’s blog, [Collaborative Manuscript Transcription](http://manuscripttranscription.blogspot.com/) is a wealth of information about crowd-sourced transcription.
 

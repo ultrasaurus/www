@@ -1,18 +1,11 @@
 ---
 title: 'parrots and abstract thought'
 date: '2003-10-27T19:52:45-08:00'
-status: publish
 exported_permalink: /2003/10/parrots-and-abstract-thought
-author: sarah
-excerpt: ''
-type: post
 id: 74
-category:
-    - Uncategorized
 tag:
     - language
     - learning
-post_format: []
 ---
 Irene Pepperberg challenges the idea that the capacity for language and abstract thought is unique to primates. “If one starts with a brain of a certain complexity and gives it enough social and ecological support, that brain will develop at least the building blocks of a complex communication system.”  
 ![](http://www.edge.org/3rd_culture/pepperberg03/images/alexiscute.jpg)

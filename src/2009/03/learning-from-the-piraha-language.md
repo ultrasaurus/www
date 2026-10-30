@@ -1,16 +1,9 @@
 ---
 title: 'learning from the Pirahã language'
 date: '2009-03-21T07:30:14-07:00'
-status: publish
 exported_permalink: /2009/03/learning-from-the-piraha-language
-author: sarah
-excerpt: ''
-type: post
 id: 954
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 The Pirahã are a remote Amazonian tribe with little contact from other tribes and the rest of the world. There are only a few hundred native speakers of this language which is believed to be only surviving member of the Mura language family (other languages in this family having become extinct in the last few centuries).
 

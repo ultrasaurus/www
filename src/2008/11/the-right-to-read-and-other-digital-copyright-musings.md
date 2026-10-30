@@ -1,16 +1,8 @@
 ---
 title: 'the &#8220;right to read&#8221; and other digital copyright musings'
 date: '2008-11-21T19:42:52-08:00'
-status: publish
 exported_permalink: /2008/11/the-right-to-read-and-other-digital-copyright-musings
-author: sarah
-excerpt: ''
-type: post
 id: 442
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 [The Right to Read](http://www.gnu.org/philosophy/right-to-read.html) by Richard Stallman is an insightful scifi piece that is grounded in local laws and policies that have already been enacted or proposed.
 

@@ -1,16 +1,9 @@
 ---
 title: 'civic hacking at the smithsonian'
 date: '2013-11-30T11:26:26-08:00'
-status: publish
 exported_permalink: /2013/11/civic-hacking-with-smithsonian-american-art
-author: sarah
-excerpt: ''
-type: post
 id: 4736
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 A few weeks ago, the Smithsonian American Art Musuem held the [first Smithsonian hackathon](http://americanart.si.edu/luce/hack/) as a way to include volunteers in the process of re-imagining what a kiosk of the future might be for the [Luce Foundation Center for American Art](http://americanart.si.edu/luce/).
 

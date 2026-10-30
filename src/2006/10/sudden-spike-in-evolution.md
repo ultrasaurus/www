@@ -1,17 +1,10 @@
 ---
 title: 'sudden spike in evolution?'
 date: '2006-10-06T20:31:25-07:00'
-status: publish
 exported_permalink: /2006/10/sudden-spike-in-evolution
-author: sarah
-excerpt: ''
-type: post
 id: 255
-category:
-    - Uncategorized
 tag:
     - learning
-post_format: []
 ---
 “In fact, female performance in high school mathematics now matches that of males. If biology were the basis of that, we’ve seen some major evolution in the past decades.”
 

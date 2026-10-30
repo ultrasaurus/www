@@ -1,18 +1,12 @@
 ---
 title: 'women talk about mentoring open source'
 date: '2008-01-16T06:42:15-08:00'
-status: publish
 exported_permalink: /2008/01/women-talk-about-mentoring-open-source
-author: sarah
-excerpt: ''
-type: post
 id: 348
-category:
-    - Uncategorized
 tag:
     - gender
     - 'open source'
-post_format: []
+category: code
 ---
 I listened to a [podcast interview](http://googlesummerofcode.blogspot.com/2008/01/meet-your-mentors-women-in-open-source.html) with a number of women who are mentors in the [google highly open participation](http://code.google.com/opensource/ghop/) contest (which offers prizes to 13-18 year olds who contribute to open source projects). It’s got some interesting tidbits about community building on open source projects and some controversial banter about the role of women. Notes below — my comments in *italics*.
 

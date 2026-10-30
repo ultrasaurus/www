@@ -1,16 +1,9 @@
 ---
 title: 'lean startup methodology'
 date: '2010-04-22T07:49:22-07:00'
-status: publish
 exported_permalink: /2010/04/lean-startup-methodology
-author: sarah
-excerpt: ''
-type: post
 id: 2523
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I enjoyed watching this [video interview](http://vator.tv/news/show/2010-04-21-eric-ries-on-his-lean-startup-methodology?utm_content=sarah@ultrasaurus.com&utm_source=VerticalResponse&utm_medium=Email&utm_term=&utm_campaign=Eric%20Ries%20on%20his%20lean%20startup%20methodology%20-%20VatorNews%20Newsletter) of Eric Ries talking about “lean startup methodology.” It sounds a lot like agile development to me.
 

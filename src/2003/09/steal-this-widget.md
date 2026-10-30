@@ -1,16 +1,8 @@
 ---
 title: 'steal this widget'
 date: '2003-09-18T17:32:59-07:00'
-status: publish
 exported_permalink: /2003/09/steal-this-widget
-author: sarah
-excerpt: ''
-type: post
 id: 61
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 With a little help from Peter Andrea for the art, additional borrowed code and inspired naming from [Mark Davis](http://drdreff.blogspot.com) and a few extra lines of my own…. you can now check out the code for the link browser by simply clicking on “view source” in the top-right.
 

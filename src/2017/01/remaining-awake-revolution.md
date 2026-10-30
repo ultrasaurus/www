@@ -1,16 +1,9 @@
 ---
 title: 'remaining awake through a revolution'
 date: '2017-01-16T17:23:12-08:00'
-status: publish
 exported_permalink: /2017/01/remaining-awake-revolution
-author: sarah
-excerpt: ''
-type: post
 id: 6144
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 This day we honor Martin Luther King, Jr. who eloquently described the change that was, and is still, happening in our society. He often referred to the dramatic changes in technology, alongside other changes which require actions from each of us to make happen.
 

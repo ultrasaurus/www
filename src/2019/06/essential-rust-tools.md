@@ -1,16 +1,9 @@
 ---
 title: 'essential rust tools'
 date: '2019-06-03T07:19:23-07:00'
-status: publish
 exported_permalink: /2019/06/essential-rust-tools
-author: sarah
-excerpt: ''
-type: post
 id: 6802
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 Rust has a “community of developers empowered by their tools and each other” (via [Katharina Fey](https://twitter.com/spacekookie) in “[An async story](https://www.youtube.com/watch?v=K_wnB9ibCMg&t=0m1s)“). The Rust community helps each other through effective narrative documentation and attention to error messages, and the robust tooling around Rust drives momentum, overcoming some of the natural hurdles when diving into a new language.
 

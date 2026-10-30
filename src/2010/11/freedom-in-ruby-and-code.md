@@ -1,16 +1,9 @@
 ---
 title: 'freedom in ruby and code'
 date: '2010-11-16T06:37:52-08:00'
-status: publish
 exported_permalink: /2010/11/freedom-in-ruby-and-code
-author: sarah
-excerpt: ''
-type: post
 id: 2922
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 After my [last post](https://www.ultrasaurus.com/sarahblog/2010/11/seek-to-inspire/), I had a twitter conversation with @dhh about his talk and my reflections on it. I’m still not sure he understands that his talk wasn’t “weird-cool” like his example of \_why, nor do I think it was an example of “weird-angry” that the Ruby community would disdain. Instead it is an alternate brand of weird, on the verge of weird-creepy — over the top for some, but merely boring and off-topic for me. I heard from one person via email that the keynote (and some panel I didn’t attend) caused a first-time RubyConf attendee to feel out of place at the conference — not likely to attend again. I didn’t get a sense of leaving in a huff, rather that this was a closed community with an in-crowd and a sense of humor not shared. I believe there a wide space between delightful and avant-guard experimentation in code and art, and the status quo of corporate America. However, David Hansson and others seem to fear that if they can’t use NSFW language and metaphor that soon we’ll all be wearing suits to RubyConf and the wild creativity of the Ruby community will be stifled. I think not.
 

@@ -1,17 +1,10 @@
 ---
 title: 'extreme learning: overcoming the spacing effect'
 date: '2008-05-19T20:49:43-07:00'
-status: publish
 exported_permalink: /2008/05/extreme-learning-overcoming-the-spacing-effect
-author: sarah
-excerpt: ''
-type: post
 id: 377
-category:
-    - Uncategorized
 tag:
     - learning
-post_format: []
 ---
 Gary Wolf writes in Wired a [fascinating story](http://www.wired.com/medtech/health/magazine/16-05/ff_wozniak?currentPage=1) of Piotr Wozniak’s quest for an effective method of learning that he has built into his [SuperMemo](http://www.supermemo.com/) software (via [Chris Pettit](http://blog.samsarin.com/2008/05/05/cool-learning-software-mnemosyne/), who recommends [Mnemosyne](http://www.mnemosyne-proj.org/), open source software based on the same algorithm which will run on a Mac). While I’m not sure I’m ready to dive into this technique, I loved reading about Wozniak’s passionately focused approach along with Wolf’s detailed background on scientists who have studied how we remember and forget.
 

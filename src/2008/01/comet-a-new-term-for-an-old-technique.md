@@ -1,16 +1,9 @@
 ---
 title: 'Comet: a new term for an old technique'
 date: '2008-01-27T10:02:52-08:00'
-status: publish
 exported_permalink: /2008/01/comet-a-new-term-for-an-old-technique
-author: sarah
-excerpt: ''
-type: post
 id: 349
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: code
 ---
 The term ‘Comet’ was coined by Alex Russell, of [Dojo](http://dojotoolkit.org/) fame, in his [post](http://alex.dojotoolkit.org/?p=545): “An old web technology is slowly being resurrected from the depths of history. Browser features that have gone untouched for years are once again being employed to bring better responsiveness to UIs. Servers are learning to cope with a new way of doing things… Comet applications can deliver data to the client at any time, not only in response to user input. The data is delivered over a single, previously-opened connection. This approach reduces the latency for data delivery significantly.” Alex’s post has a nice picture. There is also a nice detailed technical discussion [here](http://ajaxpatterns.org/HTTP_Streaming) (from one of the comments).
 

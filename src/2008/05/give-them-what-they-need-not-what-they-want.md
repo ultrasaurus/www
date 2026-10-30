@@ -1,16 +1,8 @@
 ---
 title: 'give them what they need, not what they want'
 date: '2008-05-02T05:34:47-07:00'
-status: publish
 exported_permalink: /2008/05/give-them-what-they-need-not-what-they-want
-author: sarah
-excerpt: ''
-type: post
 id: 366
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 It is a dicey thing saying no to customers, especially when they pay big bucks for not only the software license, but a bus load of consultants that integrate and customize the software for their deployment. However, I believe that the same truths hold as when you hear from 50 customer in 500,000 and you really cannot give each person what they want. You need to listen them, then give them what they need, not necessarily what they are asking for. But they best way to say no is to actually convince someone of a different perspective, that they gain something by the omission of something else.
 

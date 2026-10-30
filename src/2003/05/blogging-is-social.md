@@ -1,16 +1,8 @@
 ---
 title: 'blogging is social'
 date: '2003-05-27T06:13:56-07:00'
-status: publish
 exported_permalink: /2003/05/blogging-is-social
-author: sarah
-excerpt: ''
-type: post
 id: 22
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Spending a few months as a blogger has fundamentally altered my [initial opinion](https://www.ultrasaurus.com/sarahblog/archives/000002.html) of the nature of the web log. Blogging is social. Bloggers read and reflect and write. Bloggers establish an identity.
 

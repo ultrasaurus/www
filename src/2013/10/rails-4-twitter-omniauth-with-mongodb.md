@@ -1,16 +1,9 @@
 ---
 title: 'rails 4 twitter omniauth with mongodb'
 date: '2013-10-19T19:41:18-07:00'
-status: publish
 exported_permalink: /2013/10/rails-4-twitter-omniauth-with-mongodb
-author: sarah
-excerpt: ''
-type: post
 id: 4686
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 If you are brand new to MongoDB and Rails 4, take a quick look at my very basic [rails 4 mongodb tutorial](https://www.ultrasaurus.com/sarahblog/code/) before diving into this one.
 

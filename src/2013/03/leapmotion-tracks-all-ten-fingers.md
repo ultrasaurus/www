@@ -1,16 +1,9 @@
 ---
 title: 'leapmotion tracks all ten fingers'
 date: '2013-03-15T08:41:40-07:00'
-status: publish
 exported_permalink: /2013/03/leapmotion-tracks-all-ten-fingers
-author: sarah
-excerpt: ''
-type: post
 id: 3811
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 At SXSW, I joined Laura Sydell ([@Sydell](https://twitter.com/Sydell)) for NPR interview: [controlling your computer with a wave of your hand.](http://www.npr.org/blogs/alltechconsidered/2013/03/11/173958670/controlling-your-computer-with-a-wave-of-your-hand) The [Leap Motion](https://www.leapmotion.com/) controller detects the motion of all five fingers as you comfortably wave them in the air above the device — you can even use both hands! Currently available for pre-order for $79.88, this device is a clear fit for 3D modeling applications and games. While professional 3D modelers will always require precision controls, it is exciting to imagine the ability to create fluid, whimsical forms or animated effects, where a complex curve could be created with natural hand motion.
 

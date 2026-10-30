@@ -1,17 +1,11 @@
 ---
 title: 'history of the Santa tracker'
 date: '2008-12-29T18:24:10-08:00'
-status: publish
 exported_permalink: /2008/12/history-of-the-santa-tracker
-author: sarah
-excerpt: ''
-type: post
 id: 469
-category:
-    - general
 tag:
     - santa
-post_format: []
+category: general
 ---
 Many of you may already know that every year Santa’s famous sleigh ride complete with flying reindeer is tracked by NORAD (yes, that the North American Aerospace Defense Command). Every year for the past few years we’ve been watching Santa as his location is reported via the Web. This year we explored world geography as Santa was tracked with the help of Google Earth. AP Writer, Ivan Moreno, [reports on the origins of the tradition](http://news.yahoo.com/s/ap/20081224/ap_on_re_us/tracking_santa):
 

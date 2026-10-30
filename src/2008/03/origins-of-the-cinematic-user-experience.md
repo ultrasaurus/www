@@ -1,16 +1,8 @@
 ---
 title: 'origins of the cinematic user experience'
 date: '2008-03-15T10:06:39-07:00'
-status: publish
 exported_permalink: /2008/03/origins-of-the-cinematic-user-experience
-author: sarah
-excerpt: ''
-type: post
 id: 364
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I’ve rallied a few designers at Laszlo to start a new weblog about the [Cinematic Interface](http://www.cinematicinterface.com/). The first time I ever heard software described as cinematic was David Temkin who coined the term the “cinematic user experience.” Brenda Laurel wrote about computer software as theater, but David took the metaphor one step farther. I cornered him a few weeks ago to ask him about the origins of the term, and posted the [interview](http://www.cinematicinterface.com/2008/02/on-origins-of-cinematic-user-experience.html). Here’s a snippet:
 

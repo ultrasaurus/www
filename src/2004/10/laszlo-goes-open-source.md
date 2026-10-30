@@ -1,16 +1,9 @@
 ---
 title: 'Laszlo goes open source'
 date: '2004-10-05T06:01:18-07:00'
-status: publish
 exported_permalink: /2004/10/laszlo-goes-open-source
-author: sarah
-excerpt: ''
-type: post
 id: 141
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: code
 ---
 Today [Laszlo Systems](http://www.laszlosystems.com) announced that the entire Laszlo platform, including Laszlo Presentation Server (LPS), the LZX language and associated examples and documentation will be released under an open source license. You can find out all the details at [openlaszlo.org](http://www.openlaszlo.org).
 

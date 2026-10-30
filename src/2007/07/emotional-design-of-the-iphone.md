@@ -1,16 +1,8 @@
 ---
 title: 'emotional design of the iPhone'
 date: '2007-07-18T04:16:48-07:00'
-status: publish
 exported_permalink: /2007/07/emotional-design-of-the-iphone
-author: sarah
-excerpt: ''
-type: post
 id: 295
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Nicole Lazzro, founder of [XEODesign](http://www.xeodesign.com/), was interviewed by [Robert Scoble](http://scobleizer.com/2007/07/17/why-the-iphone-makes-us-happy/) at iPhoneDevCamp (via David Temkin). She talks about the stroking, bushing and scaling gestures that are part of the iPhone interface as “loving, tender, friendship gestures” instead of poking which is a more aggressive motion that we typically use for interacting with computers and devices. Elements in the design of the iPhone cause specific emotional reactions. XEODesign did a survey of how people described the iPhone and they used words like wonder, curiosity and magic.
 

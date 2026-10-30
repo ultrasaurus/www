@@ -1,16 +1,9 @@
 ---
 title: 'a founder&#8217;s manifesto'
 date: '2011-12-13T16:47:29-08:00'
-status: publish
 exported_permalink: /2011/12/a-founders-manifesto
-author: sarah
-excerpt: ''
-type: post
 id: 3496
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I believe…
 

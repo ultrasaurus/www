@@ -1,18 +1,12 @@
 ---
 title: 'ABCD book'
 date: '2008-12-25T18:26:48-08:00'
-status: publish
 exported_permalink: /2008/12/abcd-book
-author: sarah
-excerpt: ''
-type: post
 id: 374
-category:
-    - general
 tag:
     - book
     - visualization
-post_format: []
+category: general
 ---
 \[Update: so excited to have gotten this for Xmas! Even cooler to experience live.\]
 

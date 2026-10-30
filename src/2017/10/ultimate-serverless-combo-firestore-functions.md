@@ -1,16 +1,9 @@
 ---
 title: 'ultimate serverless combo: Firestore + Functions'
 date: '2017-10-03T10:07:27-07:00'
-status: publish
 exported_permalink: /2017/10/ultimate-serverless-combo-firestore-functions
-author: sarah
-excerpt: ''
-type: post
 id: 6318
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 Serverless development just got easier — today’s release of [Cloud Firestore](https://firebase.google.com/products/firestore/) with event triggers for [Cloud Functions](https://firebase.google.com/products/functions/) combine to offer significant developer velocity from idea to production to scale.
 

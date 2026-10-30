@@ -1,16 +1,9 @@
 ---
 title: 'nreduce: self help for startups?'
 date: '2012-06-03T08:05:41-07:00'
-status: publish
 exported_permalink: /2012/06/nreduce-self-help-for-startups
-author: sarah
-excerpt: ''
-type: post
 id: 3633
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I’ve decided to join the first [nReduce](http://nreduce.com/) session which starts this coming Tues, June 5, for my startup [Mightyverse](https://www.mightyverse.com/).
 

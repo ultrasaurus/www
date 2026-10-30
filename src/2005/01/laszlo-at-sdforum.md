@@ -1,16 +1,8 @@
 ---
 title: 'Laszlo at SDForum'
 date: '2005-01-10T22:42:47-08:00'
-status: publish
 exported_permalink: /2005/01/laszlo-at-sdforum
-author: sarah
-excerpt: ''
-type: post
 id: 153
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Emerging Tech SIG:  
 Where the Web has been and where it needs to go…  

@@ -1,16 +1,9 @@
 ---
 title: 'kicking off remote learning for ruby on rails'
 date: '2011-01-30T08:32:11-08:00'
-status: publish
 exported_permalink: /2011/01/kicking-off-remote-learning-for-ruby-on-rails
-author: sarah
-excerpt: ''
-type: post
 id: 3052
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Last week’s distance learning experiment was a success! We had a few technical glitches… I forgot to hit the “record” button at the beginning and after the break and didn’t set the meeting time to last the whole session, so I’ll be repeating the class today at 4pm PST. The Blazing Cloud blog has more details on this [Ruby on Rails class webinar](http://bit.ly/fXwUDp).
 

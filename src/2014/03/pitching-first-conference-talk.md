@@ -1,16 +1,9 @@
 ---
 title: 'a first conference talk pitch'
 date: '2014-03-11T12:03:36-07:00'
-status: publish
 exported_permalink: /2014/03/pitching-first-conference-talk
-author: sarah
-excerpt: ''
-type: post
 id: 5036
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Interview with [Valerie Liberty](https://twitter.com/balsamiqVal) of [Balsamiq](http://balsamiq.com/) who recently submitted her first talk proposal.
 

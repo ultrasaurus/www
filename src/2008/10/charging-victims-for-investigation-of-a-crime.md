@@ -1,16 +1,8 @@
 ---
 title: 'charging victims for investigation of a crime'
 date: '2008-10-15T21:35:35-07:00'
-status: publish
 exported_permalink: /2008/10/charging-victims-for-investigation-of-a-crime
-author: sarah
-excerpt: ''
-type: post
 id: 427
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 This is a compelling, and frightening, documentary on a policy where rape victims were charged for the kits used to collect the forensic evidence. This took place in Wasilla, Alaska during the time that Sarah Palin was mayor.
 

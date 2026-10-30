@@ -1,17 +1,10 @@
 ---
 title: 'NNDB maps relationships between the famous'
 date: '2008-05-18T06:45:13-07:00'
-status: publish
 exported_permalink: /2008/05/nndb-maps-relationships-between-the-famous
-author: sarah
-excerpt: ''
-type: post
 id: 376
-category:
-    - Uncategorized
 tag:
     - visualization
-post_format: []
 ---
 [NNDB](http://mapper.nndb.com/) (via [information aesthetics](http://infosthetics.com/archives/2008/05/personal_profile_network_graphs.html)) calls itself an “intelligence aggregator” tracking activities and relationships of over 32,000 notable people, both living and dead. The database includes a wide range of people from government, corporate boards, television, sports teams, and other organizations. [NNDB Mapper](http://mapper.nndb.com/) is an intriguing visualization tool for illustrating relationships between people. You can also see how organizations might be aligned where people within those groups have connections, multiple roles or historical context.  
 ![](http://www.nndb.com/mapper-demo.jpg)  

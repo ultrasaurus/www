@@ -1,16 +1,9 @@
 ---
 title: 'diverse genius'
 date: '2010-05-02T07:27:23-07:00'
-status: publish
 exported_permalink: /2010/05/diverse-genius
-author: sarah
-excerpt: ''
-type: post
 id: 2628
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Alexander B. Howard wrote an excellent article about [why to include women](http://digiphile.wordpress.com/2010/04/18/why-including-women-matters-for-the-future-of-technology-and-society/). In response to a reader, he added a [comment](http://digiphile.wordpress.com/2010/04/18/why-including-women-matters-for-the-future-of-technology-and-society/#comment-1025) which I find particularly insightful and compelling. He quotes a column by David Brooks last year on [genius](http://www.nytimes.com/2009/05/01/opinion/01brooks.html):
 

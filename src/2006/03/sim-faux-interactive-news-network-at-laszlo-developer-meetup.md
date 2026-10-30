@@ -1,16 +1,9 @@
 ---
 title: 'Sim Faux: interactive news network at Laszlo Developer Meetup'
 date: '2006-03-18T15:23:54-08:00'
-status: publish
 exported_permalink: /2006/03/sim-faux-interactive-news-network-at-laszlo-developer-meetup
-author: sarah
-excerpt: ''
-type: post
 id: 218
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: code
 ---
 On Thursday night’s OpenLaszlo developer meetup, Don Hopkis showed off his latest creation, an i[nteractive news network](http://simfaux.cf.huffingtonpost.com/), offering a “fair and balanced source of shameless spin and political propaganda.”
 

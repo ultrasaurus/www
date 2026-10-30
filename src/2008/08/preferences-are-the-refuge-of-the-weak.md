@@ -1,16 +1,8 @@
 ---
 title: 'preferences are the refuge of the weak'
 date: '2008-08-03T10:44:49-07:00'
-status: publish
 exported_permalink: /2008/08/preferences-are-the-refuge-of-the-weak
-author: sarah
-excerpt: ''
-type: post
 id: 397
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 While reading [about Yahoo’s move to checkboxes](http://www.webpronews.com/blogtalk/2007/06/07/yahoo-learning-email-innovation-lesson) (“Based on user feedback, they found out that users were confused and unfamiliar with the new system, and just plain didn’t like it.”), I learned that Vista had introduced a preference to show checkboxes for multiple-select in the filesystem.
 

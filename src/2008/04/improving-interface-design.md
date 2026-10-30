@@ -1,16 +1,8 @@
 ---
 title: 'improving interface design'
 date: '2008-04-13T17:18:06-07:00'
-status: publish
 exported_permalink: /2008/04/improving-interface-design
-author: sarah
-excerpt: ''
-type: post
 id: 365
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I didn’t see this live, but I enjoyed this presentation by [Garret Dimon](http://garrettdimon.com/pages/about) on [slideshare](http://www.slideshare.net/garrettdimon/improving-interface-design). Lots of compelling words of wisdom on interface design…
 

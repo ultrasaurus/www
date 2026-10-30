@@ -1,16 +1,9 @@
 ---
 title: 'full text search on app engine'
 date: '2010-06-10T07:03:00-07:00'
-status: publish
 exported_permalink: /2010/06/full-text-search-on-app-engine
-author: sarah
-excerpt: ''
-type: post
 id: 2721
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I just got back from Google-sponsored hack session at RailsConf. Google App Engine and JRuby combine to create some real awesomeness. I created an small app that uses some classes from Lucene (written in Java) with a Rails app (written in Ruby) to search text stored in the App Engine data store. The idea was to search English text using standard linguistic analysis to distinguish whole words, as well as find variants of the same root word (e.g. find “run” and “running” when searching for run, but don’t find “runt”). It was helpful to read [prior work by Ikai Lan](http://ikaisays.com/2010/04/25/jruby-in-memory-search-example-with-lucene-3-0-1/).
 

@@ -1,17 +1,11 @@
 ---
 title: 'Laszlo Digital Life'
 date: '2005-10-30T07:21:01-08:00'
-status: publish
 exported_permalink: /2005/10/laszlo-digital-life
-author: sarah
-excerpt: ''
-type: post
 id: 197
-category:
-    - Uncategorized
 tag:
     - Laszlo
-post_format: []
+category: general
 ---
 ![](https://www.ultrasaurus.com/images/blog/laszlo-digital-life.gif)The wonderful designers at [Laszlo](http://www.laszlosystems.com/) recently put together a nice presentation about the suite of applications that we plan to build. We’re calling it [Laszlo Digital Life](http://www.laszlosystems.com/digitallife/).
 

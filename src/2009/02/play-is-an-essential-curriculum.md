@@ -1,16 +1,9 @@
 ---
 title: 'play is an essential curriculum'
 date: '2009-02-25T23:22:50-08:00'
-status: publish
 exported_permalink: /2009/02/play-is-an-essential-curriculum
-author: sarah
-excerpt: ''
-type: post
 id: 876
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 New research tells us what seems intuitive to me as a parent: play is important to learning. A recent [New York Times article](http://www.nytimes.com/2009/02/24/health/24well.html) by Tara Parker-Pope reports that “play and down time may be as important to a child’s academic experience as reading, science and math, and that regular recess, fitness or nature time can influence behavior, concentration and even grades.”
 

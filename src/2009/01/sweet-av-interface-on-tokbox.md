@@ -1,16 +1,9 @@
 ---
 title: 'sweet a/v interface on tokbox'
 date: '2009-01-28T20:49:58-08:00'
-status: publish
 exported_permalink: /2009/01/sweet-av-interface-on-tokbox
-author: sarah
-excerpt: ''
-type: post
 id: 700
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I have been hearing about [tokbox](http://www.tokbox.com) lately and decided to give it a whirl today. They have really done a nice job with the interface — the visual design is clean, but most impressive is the interaction design. Often with live a/v and recording applications the various widgets get in the way and require too much cognitive thought — even for me, a total video geek who knows all of the gory technical details that must be happening “under the hood.”
 

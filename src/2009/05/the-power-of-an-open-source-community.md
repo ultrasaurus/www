@@ -1,16 +1,9 @@
 ---
 title: 'the power of an open source community'
 date: '2009-05-04T05:19:05-07:00'
-status: publish
 exported_permalink: /2009/05/the-power-of-an-open-source-community
-author: sarah
-excerpt: ''
-type: post
 id: 1241
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 It has been two weeks since I posted about the pr0n talk and at times I felt pretty tired of all the bickering; however, the quiet positive voices continued saying “[stay positive](http://www.quirkey.com/blog/2009/04/27/the-ghetto-of-the-mind/),” “[stand up and be counted](http://blog.nicksieger.com/)” and “[how about a community where women are valued for their ability to program and not by the thickness of their skin?](http://martinfowler.com/bliki/SmutOnRails.html)” Even DHH wonders how to [get more women involved](http://www.loudthinking.com/posts/41-so-how-do-we-get-more-women-into-rails).
 

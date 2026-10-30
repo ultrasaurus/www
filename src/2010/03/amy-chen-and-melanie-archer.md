@@ -1,16 +1,9 @@
 ---
 title: 'recognizing leadership on ada lovelace day'
 date: '2010-03-25T00:36:26-07:00'
-status: publish
 exported_permalink: /2010/03/amy-chen-and-melanie-archer
-author: sarah
-excerpt: ''
-type: post
 id: 2428
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 In honor of [Ada Lovelace Day](http://findingada.com), I’ve chosen to highlight Amy Chen and [Melanie Archer](http://twobanjos.com/). These two amazing women have agreed to lead the next [SFRuby Outreach Workshop for Women](http://sfrubyworkshops.com). They are each strong developers, but I also want to acknowledge their ability and willingness to take on a leadership role.
 

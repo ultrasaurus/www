@@ -1,16 +1,9 @@
 ---
 title: 'on localization and translation'
 date: '2011-07-04T09:22:25-07:00'
-status: publish
 exported_permalink: /2011/07/on-localization-and-translation
-author: sarah
-excerpt: ''
-type: post
 id: 3241
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 In thinking about presenting a web site in a different languages, there are a few very different concerns:
 

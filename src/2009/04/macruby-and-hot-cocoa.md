@@ -1,18 +1,12 @@
 ---
 title: 'MacRuby and Hot Cocoa'
 date: '2009-04-17T09:31:16-07:00'
-status: publish
 exported_permalink: /2009/04/macruby-and-hot-cocoa
-author: sarah
-excerpt: ''
-type: post
 id: 1028
-category:
-    - general
 tag:
     - gogaruco
     - Ruby
-post_format: []
+category: general
 ---
 great session by[ Rich Kilmer](http://gogaruco.com/speakers/index.html#kilmer) at Golden Gate Ruby Conference.
 

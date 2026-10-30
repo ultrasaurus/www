@@ -1,16 +1,8 @@
 ---
 title: 'contour drawing with GPS'
 date: '2008-08-04T07:25:09-07:00'
-status: publish
 exported_permalink: /2008/08/contour-drawing-with-gps
-author: sarah
-excerpt: ''
-type: post
 id: 400
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Eric Nordenankar created the [biggest drawing in the world](http://biggestdrawingintheworld.com/drawing.aspx)  
 (via [information aesthetics](http://infosthetics.com/archives/2008/05/biggest_drawing_in_the_world.html)): a GPS-generated self-portrait:  

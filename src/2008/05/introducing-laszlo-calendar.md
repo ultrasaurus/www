@@ -1,17 +1,11 @@
 ---
 title: 'introducing Laszlo Calendar&#8230;'
 date: '2008-05-06T06:18:09-07:00'
-status: publish
 exported_permalink: /2008/05/introducing-laszlo-calendar
-author: sarah
-excerpt: ''
-type: post
 id: 371
-category:
-    - Uncategorized
 tag:
     - Laszlo
-post_format: []
+category: general
 ---
 Last night we posted a preview of the new [Laszlo Calendar](http://www.gowebtop.com) application.  
 ![](http://www.laszlosystems.com/files/calendar_screens/view_week_500.png)

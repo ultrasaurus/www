@@ -1,17 +1,10 @@
 ---
 title: 'incidental learning'
 date: '2008-05-20T05:18:26-07:00'
-status: publish
 exported_permalink: /2008/05/incidental-learning
-author: sarah
-excerpt: ''
-type: post
 id: 378
-category:
-    - Uncategorized
 tag:
     - learning
-post_format: []
 ---
 In reading more about the [spacing effect](https://www.ultrasaurus.com/sarahblog/archives/000444.html), I found some interesting research on incidental learning, which maps more closely on how I learn best and how I enjoy learning.
 

@@ -1,16 +1,9 @@
 ---
 title: 'on choosing RSpec as a test framework'
 date: '2011-04-01T06:42:18-07:00'
-status: publish
 exported_permalink: /2011/04/on-choosing-rspec-as-a-test-framework
-author: sarah
-excerpt: ''
-type: post
 id: 3068
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 There was [some discussion](http://www.rubyinside.com/dhh-offended-by-rspec-debate-4610.html), if you can call it that, on twitter yesterday about the proliferation of RSpec and Cucumber, over Test::Unit. I don’t believe that Twitter is an effective medium for well-reasoned debate. I do believe that it is worth discussing why we like one technology over another, so we can learn from each other and possibly refine our approach.
 

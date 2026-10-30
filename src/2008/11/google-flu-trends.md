@@ -1,17 +1,10 @@
 ---
 title: 'google flu trends'
 date: '2008-11-11T17:53:29-08:00'
-status: publish
 exported_permalink: /2008/11/google-flu-trends
-author: sarah
-excerpt: ''
-type: post
 id: 434
-category:
-    - Uncategorized
 tag:
     - visualization
-post_format: []
 ---
 Can search query trends provide an accurate, reliable model of real-world phenomena? Some folks at Google have been tracking how often people search for flu-related terms and to what extent it relates to CDC data about how many people see their doctor with flu-like symptoms.
 

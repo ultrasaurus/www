@@ -1,16 +1,8 @@
 ---
 title: 'Feminist hip-hop blogger'
 date: '2005-08-05T08:40:07-07:00'
-status: publish
 exported_permalink: /2005/08/feminist-hip-hop-blogger
-author: sarah
-excerpt: ''
-type: post
 id: 172
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I was intrigued by this [blogher](blogher.org) session with the subtitle: “negotiating a space dominated by men.” As a software engineer, I often find myself the lone woman in a roomfull of men. I was interested in the perspective of a woman in a completely different industry facing a similar gender imbalance.
 

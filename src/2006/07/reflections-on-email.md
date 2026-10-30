@@ -1,16 +1,8 @@
 ---
 title: 'reflections on email'
 date: '2006-07-21T07:02:48-07:00'
-status: publish
 exported_permalink: /2006/07/reflections-on-email
-author: sarah
-excerpt: ''
-type: post
 id: 250
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Over the past couple of years as I’ve been leading the development of [Laszlo Mail](http://www.laszlomail.com), I’ve been spending a lot of time thinking about email UI. I’ve marked 2004, as the year of webemail innovation. Email user interfaces had appeared to stay relatively the same for decades. While webmail has proliferated in previous years, vendors had accepted the click-whole-page-refresh limitation of the early HTML standard.
 

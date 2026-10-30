@@ -1,16 +1,9 @@
 ---
 title: 'digital identity: how to verify trust?'
 date: '2019-06-16T05:56:27-07:00'
-status: publish
 exported_permalink: /2019/06/digital-identity-how-to-verify-trust
-author: sarah
-excerpt: ''
-type: post
 id: 6560
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 How can we communicate with each other on the Internet so that we know each other when we want to be known, yet can have privacy or anonymity when appropriate? My brief notes from April 2018 Internet Identity Workshop (below) still feel relevant a year later.
 

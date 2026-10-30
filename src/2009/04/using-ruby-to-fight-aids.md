@@ -1,18 +1,12 @@
 ---
 title: 'using ruby to fight aids'
 date: '2009-04-18T14:29:29-07:00'
-status: publish
 exported_permalink: /2009/04/using-ruby-to-fight-aids
-author: sarah
-excerpt: ''
-type: post
 id: 1124
-category:
-    - general
 tag:
     - gogaruco
     - Ruby
-post_format: []
+category: general
 ---
 We just heard a fantastic talk by Jacqui Maher about her work on the [Boabab project](http://www.baobabhealth.org/), fighting AIDS in Malawi, Africa.
 

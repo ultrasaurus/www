@@ -1,16 +1,8 @@
 ---
 title: 'the value of conversation'
 date: '2005-08-14T11:03:45-07:00'
-status: publish
 exported_permalink: /2005/08/the-value-of-conversation
-author: sarah
-excerpt: ''
-type: post
 id: 174
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Mary Hodder ([napsterization](http://napsterization.org/)) proposes an [alternate ranking system](http://napsterization.org/stories/archives/000513.html) for blogs. The current ranking systems depend largely on inbound links and has the odd effect of making the popular bloggers even more popular, bringing the blogosphere ever closer to the mass media.
 

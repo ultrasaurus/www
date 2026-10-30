@@ -1,16 +1,9 @@
 ---
 title: 'Q&amp;A with great programmers'
 date: '2006-10-13T02:27:41-07:00'
-status: publish
 exported_permalink: /2006/10/qa-with-great-programmers
-author: sarah
-excerpt: ''
-type: post
 id: 258
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: general
 ---
 Jarosaw “sztywny” Rzeszótko decided to ask ten questions to the programmers he admired the most and then posted the questions and answers on his [blog](http://sztywny.titaniumhosting.com/2006/07/23/stiff-asks-great-programmers-answers/) (via [slashdot](http://it.slashdot.org/article.pl?sid=06/10/10/031226)). I enjoyed reading the Q&amp;A, but what I find most wonderful and inspiring is to see someone take the initiative to connect with both famous and less known role models and then publish his findings to share with public. And to see the great folks and thoughtful leaders who responded to his questions.
 

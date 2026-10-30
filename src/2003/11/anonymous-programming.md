@@ -1,17 +1,11 @@
 ---
 title: 'anonymous programming'
 date: '2003-11-16T22:45:23-08:00'
-status: publish
 exported_permalink: /2003/11/anonymous-programming
-author: sarah
-excerpt: ''
-type: post
 id: 77
-category:
-    - Uncategorized
 tag:
     - language
-post_format: []
+category: code
 ---
 I often think about programming as an exercise in naming. By naming functions and objects we can use them elsewhere. Defining a term gives you the power to create other more interesting verbs and nouns. Eventually we provide an end-user with a complex or simple vocabulary composed of mouse gestures or type-written characters.
 

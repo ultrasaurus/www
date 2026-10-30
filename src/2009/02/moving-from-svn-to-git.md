@@ -1,16 +1,9 @@
 ---
 title: 'moving from svn to git'
 date: '2009-02-12T04:17:26-08:00'
-status: publish
 exported_permalink: /2009/02/moving-from-svn-to-git
-author: sarah
-excerpt: ''
-type: post
 id: 783
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 I’ve been learning git lately and it seems much easier to use than subversion for branching and merging, but I still have yet to become adept at looking at a file history. It seems to be the way that a lot of projects are moving, especially for rails and open source projects; besides, all the kids are doing it, so I figured I would follow the trend. In addition to using it pretty simply for small projects, I’m moving a project from subversion to git, which turn out to be a little bumpy, so I thought I would share.
 

@@ -1,16 +1,9 @@
 ---
 title: 'pie: game development for kids'
 date: '2010-11-13T13:22:15-08:00'
-status: publish
 exported_permalink: /2010/11/pie-game-development-for-kids
-author: sarah
-excerpt: ''
-type: post
 id: 2886
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 At RubyConf this year, we hosted a [Kids Track](https://www.ultrasaurus.com/sarahblog/2010/11/kids-track-at-rubyconf-details/). One of the activities was to make web adventure games.
 

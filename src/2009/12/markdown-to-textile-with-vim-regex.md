@@ -1,16 +1,9 @@
 ---
 title: 'markdown to textile with vim regex'
 date: '2009-12-30T00:36:20-08:00'
-status: publish
 exported_permalink: /2009/12/markdown-to-textile-with-vim-regex
-author: sarah
-excerpt: ''
-type: post
 id: 2331
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 So, I needed to change markdown to textile and google didn’t yield any handy scripts, so I sharpened my vim fu with [Rubular](http://www.rubular.com/), my favorite regular expression tester and came up with a few substitutions that took care of everything but lists and code blocks.
 

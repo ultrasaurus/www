@@ -1,16 +1,8 @@
 ---
 title: 'snaptell identifies media from captured images'
 date: '2008-12-01T21:07:24-08:00'
-status: publish
 exported_permalink: /2008/12/snaptell-identifies-media-from-captured-images
-author: sarah
-excerpt: ''
-type: post
 id: 453
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Ok, I haven’t raved about my iPhone yet, because, aside from the awesome [cinematic interface](https://www.ultrasaurus.com/sarahblog/archives/000352.html), my favorite feature has been that I can listen to my voice mail in any order with a graphical UI, which is, frankly, not so remarkable…. but today I read about a remarkable app from [SnapTell](http://www.snaptell.com/) which made me feel like I’m living in the future….
 

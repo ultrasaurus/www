@@ -1,16 +1,9 @@
 ---
 title: 'agile scalability at engine yard'
 date: '2009-12-13T11:46:41-08:00'
-status: publish
 exported_permalink: /2009/12/agile-scalability-at-engine-yard
-author: sarah
-excerpt: ''
-type: post
 id: 2213
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I attended the [EngineYard Road Show](http://www.railsroadshow.com/) a couple of weeks ago. I had low expectations for a mid-week corporate-sponsored event, but I found it to be unexpectedly good. I took a few notes on some of the presentations, which I’ve collected below:
 

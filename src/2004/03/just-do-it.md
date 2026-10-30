@@ -1,16 +1,8 @@
 ---
 title: 'just do it'
 date: '2004-03-13T07:44:41-08:00'
-status: publish
 exported_permalink: /2004/03/just-do-it
-author: sarah
-excerpt: ''
-type: post
 id: 105
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 “Everyone is scared to get up there and lay it on the line. I’ve learned that from men who let me in on their secret, that they are just as scared as anyone, but are expected to JUST DO IT. I think women are often given permission to be scared of things like public speaking and BACK AWAY from opportunities, instead of move towards them.” — [Halley](http://www.halleyscomment.blogspot.com/)‘s [comment](http://www.misbehaving.net/2004/03/how_do_you_even.html#comments) on [misbehaving.net](http://www.misbehaving.net/2004/03/how_do_you_even.html)
 

@@ -1,16 +1,9 @@
 ---
 title: 'great ideas from awesome women'
 date: '2010-04-10T00:23:43-07:00'
-status: publish
 exported_permalink: /2010/04/great-ideas-from-awesome-women
-author: sarah
-excerpt: ''
-type: post
 id: 2468
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 It was amazing to have lunch today with Angie Chang of [Women 2.0](http://www.women2.org) and [Bay Area Girl Geek Dinners](http://www.bayareagirlgeekdinners.com/) and Jen-Mei Wu who is currently working with me at [Blazing Cloud](http://blazingcloud.net/).  
 ![Angie, Jen-Mei and me](http://img.skitch.com/20100410-crbu95bqstm46en8b76piamp9n.png)  

@@ -1,16 +1,9 @@
 ---
 title: 'setting up ec2 minecraft server'
 date: '2011-11-24T19:08:54-08:00'
-status: publish
 exported_permalink: /2011/11/setting-up-ec2-minecraft-server
-author: sarah
-excerpt: ''
-type: post
 id: 3464
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Goal: set up a minecraft server using free EC2 account from OSX  
 \[update: FAIL — game play doesn’t work on a micro instance, if we want to use EC2 it looks like we need to use at least a small one. so be careful to adjust the steps below to pick a small instance if you want to play.\]

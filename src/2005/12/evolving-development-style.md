@@ -1,16 +1,8 @@
 ---
 title: 'evolving development style'
 date: '2005-12-29T14:37:32-08:00'
-status: publish
 exported_permalink: /2005/12/evolving-development-style
-author: sarah
-excerpt: ''
-type: post
 id: 204
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Over at the [Laszlo Mail blog](http://laszlomail.com/blog/), I’ve written about [a development style for the new millenium](http://laszlomail.com/blog/2005/12/29/a-development-style-for-the-new-millenium/). I’ve tried to bring what-has-worked in the past into the light of new requirements and opportunities. An appropriate year-end post, I reflect on our most recent release and how our development style reflects what we’ve learned over the year, as well as old software management lessons.
 

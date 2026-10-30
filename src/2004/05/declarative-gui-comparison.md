@@ -1,16 +1,8 @@
 ---
 title: 'Declarative GUI comparison'
 date: '2004-05-17T09:38:07-07:00'
-status: publish
 exported_permalink: /2004/05/declarative-gui-comparison
-author: sarah
-excerpt: ''
-type: post
 id: 121
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I’ve been meaning to learn more about XAML and was interested to see a very approachable app demonstrated in a [tutorial by Joe Marini ](http://www.joemarini.com/tutorials/tutorialpages/amazonwishwatch.php)(via [Sam Wan](http://www.samuelwan.com/information/archives/000203.html)).
 

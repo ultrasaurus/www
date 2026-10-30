@@ -1,16 +1,9 @@
 ---
 title: 'my virtual reality'
 date: '2009-07-09T09:33:17-07:00'
-status: publish
 exported_permalink: /2009/07/my-virtual-reality
-author: sarah
-excerpt: ''
-type: post
 id: 1720
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Increasingly I interact with people I don’t know, or rather, don’t know in the real world. We interact through twitter, blog posts and comments, IRC and email. I start to feel like I know them, but I have never heard their voice or seen their face. These kind of interactions are becoming increasingly common in my life. I find them wonderful, fascinating and enriching, yet they me uneasy and anxious.
 

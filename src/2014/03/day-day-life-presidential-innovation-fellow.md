@@ -1,16 +1,8 @@
 ---
 title: 'day-to-day life of a presidential innovation fellow'
 date: '2014-03-24T06:18:57-07:00'
-status: publish
 exported_permalink: /2014/03/day-day-life-presidential-innovation-fellow
-author: sarah
-excerpt: ''
-type: post
 id: 5058
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I was a Presidential Innovation Fellow in 2013, part of Round 2. I was recently asked what is it like day-to-day? This is based on my own personal experience. Note that the day-to-day was very different for fellows in more business-focused roles. Our group had fellows who had very different initiatives, like optimizing how our government invests or [working to secure industry support for open data](http://www.whitehouse.gov/blog/2014/02/07/leading-pharmacies-and-retailers-join-blue-button-initiative). My day-to-day experience is most relevant to folks with a deep technical, design or product background, but some of the general takeaways may be interesting to anyone considering [applying](http://www.whitehouse.gov/innovationfellows).
 

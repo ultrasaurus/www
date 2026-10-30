@@ -1,16 +1,8 @@
 ---
 title: 'moveabletype 4 and dealing with comment spam'
 date: '2008-05-04T18:25:47-07:00'
-status: publish
 exported_permalink: /2008/05/moveabletype-4-and-dealing-with-comment-spam
-author: sarah
-excerpt: ''
-type: post
 id: 370
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I’ve been letting comments build up in my moderation queue, since I have been overwhelmed by the amount of spam. Today, I decided to upgrade to mt4 to see if the new version offered anything better. I got a 500 error at first, but found in my apache logs:
 

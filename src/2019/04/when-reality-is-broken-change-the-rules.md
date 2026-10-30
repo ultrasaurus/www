@@ -1,16 +1,9 @@
 ---
 title: 'when reality is broken, change the rules'
 date: '2019-04-28T06:14:33-07:00'
-status: publish
 exported_permalink: /2019/04/when-reality-is-broken-change-the-rules
-author: sarah
-excerpt: ''
-type: post
 id: 6772
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 When Leah Silber reached out about my speaking at EmberConf, I was reluctant. I’m not doing much front end work these days, and the last time I looked at Ember was long ago when Yehudah Katz and Tom Dale held a feedback session for a very early version of their work. I changed my mind after an asynchronous text conversation with Leah, and listening to Yehudah talk about their work.
 

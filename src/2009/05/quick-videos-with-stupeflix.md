@@ -1,16 +1,9 @@
 ---
 title: 'quick videos with stupeflix'
 date: '2009-05-08T05:04:39-07:00'
-status: publish
 exported_permalink: /2009/05/quick-videos-with-stupeflix
-author: sarah
-excerpt: ''
-type: post
 id: 1272
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Stupeflix is perhaps aptly named, but nonetheless a cool tool for putting together a quick video. I could see using this for a graduation slide show or other celebratory event that yearns for a retrospective, but when I’m not up for losing myself in AfterEffects for several days to make it happen.
 

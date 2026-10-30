@@ -1,16 +1,9 @@
 ---
 title: 'a new chapter'
 date: '2016-05-29T12:51:00-07:00'
-status: publish
 exported_permalink: /2016/05/a-new-chapter
-author: sarah
-excerpt: ''
-type: post
 id: 5947
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Last week was a big week for me. I started a new job at Google and my kid graduated from high school. These big changes seem to have arrived all at once, though in reality change is constant.
 

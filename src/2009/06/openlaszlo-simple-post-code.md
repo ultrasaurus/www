@@ -1,16 +1,9 @@
 ---
 title: 'openlaszlo simple post code'
 date: '2009-06-21T21:43:00-07:00'
-status: publish
 exported_permalink: /2009/06/openlaszlo-simple-post-code
-author: sarah
-excerpt: ''
-type: post
 id: 1584
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 Here’s a little form for sending an XML post in OpenLaszlo. This is a useful little snippet of code, since as if you get one little content header or something wrong, Rails will be unforgiving with its powerful, yet strict implementation of REST.
 

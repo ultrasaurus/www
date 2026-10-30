@@ -1,16 +1,8 @@
 ---
 title: 'Five Stages of Yu-Gi-Oh'
 date: '2005-11-27T11:33:53-08:00'
-status: publish
 exported_permalink: /2005/11/five-stages-of-yu-gi-oh
-author: sarah
-excerpt: ''
-type: post
 id: 200
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Almost four years ago, Yu-Gi-Oh came home from pre-school. Before the card game or the TV show ever entered our awareness, it was played out in the yard, a viral infection of the imagination spread by young boys. Blue Eyes White Dragon battled Exodia. Monsters dueled in a land of Spells and Traps.
 

@@ -1,16 +1,9 @@
 ---
 title: 'learn to code: no math required'
 date: '2013-12-11T03:12:21-08:00'
-status: publish
 exported_permalink: /2013/12/learn-to-code-no-math-required
-author: sarah
-excerpt: ''
-type: post
 id: 4773
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 When I learned to code, I was not very good at math and didn’t like it much. I had just started pre-algebra and struggled to make sense of abstract equations and abitrary rules that seemed to serve no purpose and were disconnected from my real world. I didn’t care to discover answers that were already known to imaginary word problems that some textbook writer made up.
 

@@ -1,16 +1,9 @@
 ---
 title: 'beyond agile development'
 date: '2010-04-23T10:08:01-07:00'
-status: publish
 exported_permalink: /2010/04/beyond-agile-development
-author: sarah
-excerpt: ''
-type: post
 id: 2548
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Kent Beck updates the [agile manifesto](http://agilemanifesto.org/) for startups and for what has been learned over the past ten years at at [Startup Lessons Learned Conference](http://www.sllconf.com/).
 

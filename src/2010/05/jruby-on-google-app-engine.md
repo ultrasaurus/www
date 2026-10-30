@@ -1,16 +1,9 @@
 ---
 title: 'jruby on google app engine'
 date: '2010-05-04T22:26:33-07:00'
-status: publish
 exported_permalink: /2010/05/jruby-on-google-app-engine
-author: sarah
-excerpt: ''
-type: post
 id: 2649
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 ![app engine logo](http://rails-depot.appspot.com/images/appengine_ruby.png)John Woodell ([@johnwoodell](http://twitter.com/johnwoodell)) gave an excellent talk at the [App Engine Meetup](http://www.meetup.com/appengine/calendar/13303709/) this evening on using Ruby on Google’s AppEngine. After some highlights of App Engine and a tour of three real-world use cases, John gave a series of quick demos of what seem to be very well-documented resources for getting started. I built the simple “hello” Sinatra app during his talk which was pretty satisfying. I was distracted by my success with the first app, so I missed some of his Rails presentation, but it looks like the docs go through what he demo’d.
 

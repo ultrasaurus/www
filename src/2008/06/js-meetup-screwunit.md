@@ -1,16 +1,8 @@
 ---
 title: 'js meetup: ScrewUnit'
 date: '2008-06-06T06:27:22-07:00'
-status: publish
 exported_permalink: /2008/06/js-meetup-screwunit
-author: sarah
-excerpt: ''
-type: post
 id: 387
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Nick demonstrated ScrewUnit at the [JSMeetup](http://javascript.meetup.com/4/calendar/7922755/?a=cr1p_grp) last night. My notes:
 

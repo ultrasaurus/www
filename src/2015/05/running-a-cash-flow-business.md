@@ -1,16 +1,9 @@
 ---
 title: 'running a cash flow business'
 date: '2015-05-04T19:31:39-07:00'
-status: publish
 exported_permalink: /2015/05/running-a-cash-flow-business
-author: sarah
-excerpt: ''
-type: post
 id: 5507
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Notes from yesterday’s talk at [Finance from the Start](http://financefromthestart.us/) a virtual conference by BlackStarLaunch.
 

@@ -1,16 +1,8 @@
 ---
 title: 'science is fun'
 date: '2005-01-22T19:36:08-08:00'
-status: publish
 exported_permalink: /2005/01/science-is-fun
-author: sarah
-excerpt: ''
-type: post
 id: 155
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 This school year my weekly volunteering effort has been teaching hands-on science to my son’s first grade class. As usual, I turned to the Internet for inspiration and once I got on the right track I have found an endless supply of great resources for doing science experiments with supplies easily found around the house and in grocery stores. It’s kind of like part-time home-schooling.
 

@@ -1,16 +1,9 @@
 ---
 title: 'is software engineering?'
 date: '2006-03-06T09:00:24-08:00'
-status: publish
 exported_permalink: /2006/03/is-software-engineering
-author: sarah
-excerpt: ''
-type: post
 id: 217
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: general
 ---
 Nice (lengthy) [article about by Jack Reeves](http://www.bleading-edge.com/Publications/C++Journal/Cpjour2.htm) about the whether software development is engineering. If its too long for you skip to the bullet points at the end. I enjoyed much of the prose. I thought he made some interesting points…
 

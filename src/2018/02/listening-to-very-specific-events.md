@@ -1,16 +1,9 @@
 ---
 title: 'listening to very specific events'
 date: '2018-02-25T08:05:01-08:00'
-status: publish
 exported_permalink: /2018/02/listening-to-very-specific-events
-author: sarah
-excerpt: ''
-type: post
 id: 6524
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 The model of [declarative eventing](https://www.ultrasaurus.com/2018/02/declarative-eventing/) allows for listening to very specific events and then triggering specific actions. This model simplifies the developer experience, as well as optimizing the system by reducing network traffic.
 

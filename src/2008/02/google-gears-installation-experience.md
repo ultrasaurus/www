@@ -1,16 +1,8 @@
 ---
 title: 'google gears installation experience'
 date: '2008-02-23T20:24:57-08:00'
-status: publish
 exported_permalink: /2008/02/google-gears-installation-experience
-author: sarah
-excerpt: ''
-type: post
 id: 358
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I posted to the gears group earlier today about the glitches in the Google Reader install experience and got a [nice response](http://groups.google.com/group/google-gears/msg/fdfda07ba2971fa1) from Aaron Boodman who suggested I check out [remember the milk](http://www.rememberthemilk.com/) which has a nice offline experience implemented with Gears.
 

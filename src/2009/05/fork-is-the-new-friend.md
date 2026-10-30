@@ -1,16 +1,9 @@
 ---
 title: 'fork is the new friend'
 date: '2009-05-16T16:37:40-07:00'
-status: publish
 exported_permalink: /2009/05/fork-is-the-new-friend
-author: sarah
-excerpt: ''
-type: post
 id: 1266
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Using git (and witnessing other people’s use of it through github’s social coding) has led me to have a different perspective on forking. I overheard someone say at GoGaRuCo that “fork is the new friend.” When you fork someone’s code you are saying that you admire what that have done, that you like it enough to invest time in it. You modify something, add a feature or fix a bug, then send a “pull request.” This is typically the beginning of a collaboration.
 

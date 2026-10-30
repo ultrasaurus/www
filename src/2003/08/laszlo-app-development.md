@@ -1,16 +1,9 @@
 ---
 title: 'Laszlo app development'
 date: '2003-08-04T19:02:51-07:00'
-status: publish
 exported_permalink: /2003/08/laszlo-app-development
-author: sarah
-excerpt: ''
-type: post
 id: 39
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: code
 ---
 I recently spent some time with LZX developing a prototype app. I thought it would be interesting to write up how we approached the problem and show some of the results that are now posted on [mylaszlo.com](http://www.mylaszlo.com).  
 ![](http://www.mylaszlo.com/lps-v1/pablo/store/lz_screenshot.jpg)

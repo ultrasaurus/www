@@ -1,16 +1,9 @@
 ---
 title: 'feb 11: laszlo at svjug'
 date: '2004-02-02T11:32:21-08:00'
-status: publish
 exported_permalink: /2004/02/feb-11-laszlo-at-svjug
-author: sarah
-excerpt: ''
-type: post
 id: 92
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: code
 ---
 Serious Client-side Programming is Back: Rich Internet Applications, Web UI, and LZX by Eric Bloch &amp; David Temkin, Laszlo Systems, Inc
 

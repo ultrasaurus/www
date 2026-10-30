@@ -1,16 +1,9 @@
 ---
 title: 'why is XML good for GUI?'
 date: '2004-03-25T16:55:51-08:00'
-status: publish
 exported_permalink: /2004/03/why-is-xml-good-for-gui
-author: sarah
-excerpt: ''
-type: post
 id: 110
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: code
 ---
 [Dan Shafer](http://www.eclecticity.com/.3c3f16d4) asks a very good question about Laszlo:
 

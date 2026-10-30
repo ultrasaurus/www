@@ -1,16 +1,8 @@
 ---
 title: 'the value of consistency'
 date: '2005-09-20T23:35:49-07:00'
-status: publish
 exported_permalink: /2005/09/the-value-of-consistency
-author: sarah
-excerpt: ''
-type: post
 id: 186
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 David at [37signals](http://37signals.com) writes that [the days of consistency are over](http://37signals.com/svn/archives2/the_days_of_consistency_are_over.php) (via [HMK’s Spurious Thoughts](http://www.extragroup.de/weblog/hmk/archives/002238.html)):
 

@@ -1,16 +1,8 @@
 ---
 title: 'xo collaborative features'
 date: '2008-05-26T09:14:30-07:00'
-status: publish
 exported_permalink: /2008/05/xo-collaborative-features
-author: sarah
-excerpt: ''
-type: post
 id: 381
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 There are some nice videos on YouTube of the interface of the XO, a sub-$100 laptop from the One Laptop Per Child (OLPC) initiative. They have given priority to collaborative features and it has a built-in camera and microphone.
 

@@ -1,16 +1,9 @@
 ---
 title: 'open source workshop'
 date: '2009-06-17T21:02:42-07:00'
-status: publish
 exported_permalink: /2009/06/open-source-workshop
-author: sarah
-excerpt: ''
-type: post
 id: 1494
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I believe that open source provides a new model for changing the way things are. It is exciting to work with so many people who are experienced with working together in eclectic collections of motivated individuals. It is a new way of getting things done and it is neat to see it applied to social challenges as well as technical ones.
 

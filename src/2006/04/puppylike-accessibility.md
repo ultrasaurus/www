@@ -1,16 +1,8 @@
 ---
 title: 'puppylike accessibility'
 date: '2006-04-28T18:46:13-07:00'
-status: publish
 exported_permalink: /2006/04/puppylike-accessibility
-author: sarah
-excerpt: ''
-type: post
 id: 237
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I really enjoyed Paul Boutin’s article “[A Grand Unified Theory of YouTube and MySpace](http://www.slate.com/id/2140635/).” He suggests that YouTube and MySpace have become smash hits **not** because of their social networking features, but because they are “easy to use, and they don’t tell you what to do.” Here are some highlights:
 

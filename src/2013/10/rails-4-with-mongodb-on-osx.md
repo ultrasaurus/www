@@ -1,16 +1,9 @@
 ---
 title: 'rails 4 with mongodb on osx'
 date: '2013-10-13T11:25:19-07:00'
-status: publish
 exported_permalink: /2013/10/rails-4-with-mongodb-on-osx
-author: sarah
-excerpt: ''
-type: post
 id: 4640
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 This post covers getting started with Rails 4 and Mongodb, using the Mongoid gem. As part of getting up to speed, I enjoyed reading [Rails + Mongo take on the object-relational mismatch](http://blog.mongodb.org/post/53271876885/ruby-rails-mongodb-and-the-object-relational-mismatch) by Emily Stolfo from MongoDB.
 

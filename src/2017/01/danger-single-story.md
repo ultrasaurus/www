@@ -1,16 +1,9 @@
 ---
 title: 'the danger of a single story'
 date: '2017-01-08T16:06:27-08:00'
-status: publish
 exported_permalink: /2017/01/danger-single-story
-author: sarah
-excerpt: ''
-type: post
 id: 6132
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Chimamanda Ngozi Adichie’s [the danger of a single story](http://www.ted.com/talks/chimamanda_adichie_the_danger_of_a_single_story/transcript?language=en#t-777426) illustrates how we are influenced by the stories we read and the stories we tell.
 

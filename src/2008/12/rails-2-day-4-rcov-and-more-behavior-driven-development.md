@@ -1,16 +1,9 @@
 ---
 title: 'rails 2 day 4: rcov and more behavior-driven development'
 date: '2008-12-29T09:39:07-08:00'
-status: publish
 exported_permalink: /2008/12/rails-2-day-4-rcov-and-more-behavior-driven-development
-author: sarah
-excerpt: ''
-type: post
 id: 600
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 Today, we’ll follow modified steps, as recommended by [Matt Wynne](http://blog.mattwynne.net/) who suggested [refactoring to remove duplication](http://www.ruby-forum.com/topic/174015#762387) as an extremely important step:
 

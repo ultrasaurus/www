@@ -1,16 +1,9 @@
 ---
 title: 'on being an ally'
 date: '2015-01-19T19:52:29-08:00'
-status: publish
 exported_permalink: /2015/01/on-being-an-ally
-author: sarah
-excerpt: ''
-type: post
 id: 5456
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I am a child of privilege. Pale skin, rosy cheeks and a wide smile can smooth the way to a comfortable place. I was never hungry, always had books to read when I was little, and later computers and then laptops. Nevertheless, fear and suffering has touched my life in a way that motivates me to do what I can to act as an ally and bring to light injustice when I see it.
 

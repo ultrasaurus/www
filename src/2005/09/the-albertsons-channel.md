@@ -1,16 +1,8 @@
 ---
 title: 'the Albertson&#8217;s channel'
 date: '2005-09-26T00:05:33-07:00'
-status: publish
 exported_permalink: /2005/09/the-albertsons-channel
-author: sarah
-excerpt: ''
-type: post
 id: 190
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I must admit that I haven’t been shopping for a while. In the breakdown of domestic chores in my household, my husband usually gets the groceries. He finally came down with the terrible cough that’s kept the rest of the family home for the past week, so I went out for popsicles, Nyquil, and OJ. In the checkout line, I saw video monitors showing “the Albertson’s channel.” I had no camera to capture the insanity, but [karin posted a photo](http://www.flickr.com/photos/24305161@N00/26737938) on flickr.
 

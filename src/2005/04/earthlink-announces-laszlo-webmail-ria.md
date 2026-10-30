@@ -1,16 +1,9 @@
 ---
 title: 'EarthLink announces Laszlo Webmail RIA'
 date: '2005-04-17T20:08:01-07:00'
-status: publish
 exported_permalink: /2005/04/earthlink-announces-laszlo-webmail-ria
-author: sarah
-excerpt: ''
-type: post
 id: 164
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: general
 ---
 ![](http://common.ziffdavisinternet.com/util_get_image/9/0,1311,i=99837,00.jpg)  
 A few weeks ago, EarthLink [announced](http://www.pcmag.com/article2/0,1759,1772371,00.asp) its new Enchanced Webmail. It’s exciting to see screen shots in public and hear more positive feedback as the news hits less technical [press](http://www.openlaszlo.org/wiki/MediaCoverage#April_16.2C_2005_Business_Week_covers_RIAs_and_Earthlink.27s_upcoming_Laszlo-powered_email_service_.28http:.2F.2Fyahoo.businessweek.com.2Ftechnology.2Fcontent.2Fapr2005.2Ftc20050414_0844_tc081.htm.29).

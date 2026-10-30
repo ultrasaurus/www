@@ -1,17 +1,10 @@
 ---
 title: 'different kinds of ambition'
 date: '2004-04-30T09:45:41-07:00'
-status: publish
 exported_permalink: /2004/04/different-kinds-of-ambition
-author: sarah
-excerpt: ''
-type: post
 id: 117
-category:
-    - Uncategorized
 tag:
     - gender
-post_format: []
 ---
 A recent weekend was filled with T-ball, two playdates and a sleepover. A conversation about the emergence of casual gaming on mobile devices took place while climbing over big rocks at the breakwater. Late night coding of a drag-and-drop interface to control remote data sets fit in after Bionicles, a new rhyming game, and bedtime.
 

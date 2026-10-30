@@ -1,16 +1,9 @@
 ---
 title: 'full-stack bureaucrat: layers of rules'
 date: '2018-01-27T11:00:04-08:00'
-status: publish
 exported_permalink: /2018/01/full-stack-bureaucrat-layers-of-rules
-author: sarah
-excerpt: ''
-type: post
 id: 6033
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 “You can’t do that, it’s illegal,” was a common response to our attempts to bring modern tech practices to the US government. I worked for the Smithsonian Institution in 2013, then for the General Services Administration (GSA) from 2014-2016. First as a [Presidential Innovation Fellow](https://www.presidentialinnovation.org/), then at [18F](https://18f.gsa.gov/), I was part of a large group of industry experts who were recruited to transform government in partnerships with a few talented and experienced civil servants who understood policy and law.
 

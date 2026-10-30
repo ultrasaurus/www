@@ -1,16 +1,8 @@
 ---
 title: 'a new kind of radio station'
 date: '2005-09-14T07:04:31-07:00'
-status: publish
 exported_permalink: /2005/09/a-new-kind-of-radio-station
-author: sarah
-excerpt: ''
-type: post
 id: 183
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I’ve been listening to [Pandora](http://www.pandora.com/) for about a week and I love it. A piece of software has not had such an effect on what I do with my computer since [Movable Type](http://www.sixapart.com/movabletype/).
 

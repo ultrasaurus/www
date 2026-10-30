@@ -1,16 +1,8 @@
 ---
 title: 'augmented reality: a new kind of VR'
 date: '2008-12-01T08:18:00-08:00'
-status: publish
 exported_permalink: /2008/12/augmented-reality-a-new-kind-of-vr
-author: sarah
-excerpt: ''
-type: post
 id: 451
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 [Papervision Augmented Reality](http://interactive.digitalpictures.com.au/?p=392) (via [OUseful](http://ouseful.wordpress.com/2008/11/30/steps-towards-making-augmented-reality-a-reality/))
 

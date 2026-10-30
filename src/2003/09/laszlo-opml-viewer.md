@@ -1,16 +1,9 @@
 ---
 title: 'Laszlo OPML viewer'
 date: '2003-09-09T01:04:26-07:00'
-status: publish
 exported_permalink: /2003/09/laszlo-opml-viewer
-author: sarah
-excerpt: ''
-type: post
 id: 58
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: code
 ---
 Inspired by Mark Davis’ [Laszlo link viewer](http://drdreff.blogspot.com/2003_09_07_drdreff_archive.html#106305830618139273), I created a little [OPML file](http://host2.ultrasaurus.com:8080/lps/my-apps/opml/opml.xml) with some of my collected links and modified his LZX file to read the data from the there. \[Moved this version of the app into this blog entry, since I am going to update my gutter\]
 

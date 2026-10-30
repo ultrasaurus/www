@@ -1,16 +1,9 @@
 ---
 title: 'to be recognized'
 date: '2018-02-12T05:49:10-08:00'
-status: publish
 exported_permalink: /2018/02/to-be-recognized
-author: sarah
-excerpt: ''
-type: post
 id: 6485
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Some people have the privilege to be recognized in our society. We’ve started to resurrect history and tell stories of people whose contributions have been studiously omitted. In America, February is *Black history month*. I didn’t learn Black history in school. I value this time for remedial studies, even as I feel a bit disturbed that we need to aggregate people by race to notice their impact. I had hoped that we, as a society, would have come farther along by now, in treating each other with fairness and respect. Instead, we are encoding our bias about what is noticed and who is recognized.
 

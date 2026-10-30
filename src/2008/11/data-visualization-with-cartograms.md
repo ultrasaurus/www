@@ -1,17 +1,10 @@
 ---
 title: 'data visualization with cartograms'
 date: '2008-11-30T11:50:57-08:00'
-status: publish
 exported_permalink: /2008/11/data-visualization-with-cartograms
-author: sarah
-excerpt: ''
-type: post
 id: 450
-category:
-    - Uncategorized
 tag:
     - visualization
-post_format: []
 ---
 Jon Udell [writes about visual numeracy](http://blog.jonudell.net/2008/11/18/visual-numeracy-for-collective-survival/), introducing a new graph to continue the [conversation](https://www.ultrasaurus.com/sarahblog/archives/000507.html) about where the [US gets its oil](http://blog.jonudell.net/2008/11/09/where-the-oil-comes-from-not-from-where-i-thought/).
 

@@ -1,16 +1,9 @@
 ---
 title: 'serverless patterns at google i/o 2017'
 date: '2017-05-20T10:01:27-07:00'
-status: publish
 exported_permalink: /2017/05/serverless-patterns-at-google-io-2017
-author: sarah
-excerpt: ''
-type: post
 id: 6225
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 At Google I/O last week, we presented [how to build robust mobile applications for the distributed cloud](https://events.google.com/io/schedule/?section=may-18&sid=f2aa8aa1-e92d-4a64-a388-9d11956d3068&gclid=Cj0KEQjw0v_IBRCEzKHK0KiCrKMBEiQA3--1NuaEJInrBDuS9pPgIgA3Icy3SabhPPzbcEgJzlmETb4aAmnv8P8HAQ) about building mobile apps in this new world of “serverless development.” When people hear “serverless” sometimes they think we can write code on the server that is just like client-side code, but that’s not really the point.
 

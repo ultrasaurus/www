@@ -1,17 +1,10 @@
 ---
 title: 'the history of the letter &#8216;C&#8217;'
 date: '2003-08-03T12:47:17-07:00'
-status: publish
 exported_permalink: /2003/08/the-history-of-the-letter-c
-author: sarah
-excerpt: ''
-type: post
 id: 38
-category:
-    - Uncategorized
 tag:
     - language
-post_format: []
 ---
 &gt; My five year old son asks:  
 &gt; Why did they invent the letter C, when it makes the sounds of K and S?

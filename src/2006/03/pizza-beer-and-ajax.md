@@ -1,16 +1,9 @@
 ---
 title: 'Pizza, Beer and AJAX'
 date: '2006-03-05T08:29:31-08:00'
-status: publish
 exported_permalink: /2006/03/pizza-beer-and-ajax
-author: sarah
-excerpt: ''
-type: post
 id: 216
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: code
 ---
 Laszlo is sponsoring a [developer meet-up](http://www.laszlosystems.com/developers/community/event_060314.php) on March 16.
 

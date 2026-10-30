@@ -1,16 +1,9 @@
 ---
 title: 'pipes, redirects and awk -v'
 date: '2008-06-15T11:00:24-07:00'
-status: publish
 exported_permalink: /2008/06/pipes-redirects-and-awk-v
-author: sarah
-excerpt: ''
-type: post
 id: 391
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 I wanted to take the output of a command and put it in a temporary variable so I can append a string to it. (Trying to script perforce to append something to my client spec without interactive involvement.)
 

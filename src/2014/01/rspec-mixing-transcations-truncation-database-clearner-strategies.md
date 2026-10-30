@@ -1,16 +1,9 @@
 ---
 title: 'rspec: mixing transcations and truncation database clearner strategies'
 date: '2014-01-18T11:23:46-08:00'
-status: publish
 exported_permalink: /2014/01/rspec-mixing-transcations-truncation-database-clearner-strategies
-author: sarah
-excerpt: ''
-type: post
 id: 4936
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 I’m using capybara-webkit for integration testing with rspec, which is awesome, because it is faster than other full-browser testing solutions, like Selenium, but it is slower than RackTest (default for RSpec testing). RSpec provides a nice way to specify an alternate driver when running Javascript tests, but configuration can be a little tricky. I got this working via this [excellent blog post](http://www.livinginthepast.org/2013/11/24/today-we-went-to-the-bad-place.html) via [Sarah Mei](https://twitter.com/sarahmei), who was pairing with me for the day.
 

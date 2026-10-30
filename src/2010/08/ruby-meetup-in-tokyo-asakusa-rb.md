@@ -1,16 +1,9 @@
 ---
 title: 'ruby meetup in tokyo: asakusa.rb'
 date: '2010-08-24T14:05:53-07:00'
-status: publish
 exported_permalink: /2010/08/ruby-meetup-in-tokyo-asakusa-rb
-author: sarah
-excerpt: ''
-type: post
 id: 2769
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Last night, Sarah Mei ([@sarahme](http://twitter.com/sarahmei)i) and I attended a Tokyo Ruby Meetup, [asakusa.rb](http://qwik.jp/asakusarb/). It was the 63rd (ish) meeting of this group of Rubyists that meets every Tuesday. There are about 10 ruby core committers who attend this group, along with other developers who gather weekly to hack Ruby code. This special meeting had an agenda that went something like:
 

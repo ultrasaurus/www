@@ -1,16 +1,9 @@
 ---
 title: 'rails admin interface roundup'
 date: '2009-07-05T07:23:32-07:00'
-status: publish
 exported_permalink: /2009/07/rails-admin-interface-roundup
-author: sarah
-excerpt: ''
-type: post
 id: 1651
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 After my recent [ActiveScaffold post](https://www.ultrasaurus.com/sarahblog/2009/07/getting-started-with-activescaffold/), I heard about several newer alternatives from [Jaime Flournoy](https://www.ultrasaurus.com/sarahblog/2009/07/getting-started-with-activescaffold/#comment-781), [Mike Gunderloy](http://twitter.com/MikeG1/status/2442160429), and some more [web surfing](http://ruby-toolbox.com/categories/rails_admin_interfaces.html). I evaluated four plugins for admin UI, using the following methodology:
 

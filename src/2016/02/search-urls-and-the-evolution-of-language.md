@@ -1,16 +1,9 @@
 ---
 title: 'search, urls, and the evolution of language'
 date: '2016-02-04T06:53:02-08:00'
-status: publish
 exported_permalink: /2016/02/search-urls-and-the-evolution-of-language
-author: sarah
-excerpt: ''
-type: post
 id: 5879
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 “Could you search up that site?” my kid asked me many years ago, and I still remember the following exchange. I felt the need to let him know, “It’s okay to use informal language when it is just us hanging out in the kitchen, but just so you know that’s incorrect grammar, I think you meant ‘search for.'” I was surprised when he corrected me. “Search for means something different,” he said. “You search for something when you are looking for something and you aren’t sure what you’ll find. If you know exactly which website you want to find, you search up the site.” This was a very precise definition. It was the accepted usage of those particular verb phrases by all the other fourth graders or middle schoolers or whatever age they all were at the time.
 

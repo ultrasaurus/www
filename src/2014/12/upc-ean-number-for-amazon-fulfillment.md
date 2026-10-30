@@ -1,16 +1,9 @@
 ---
 title: 'upc/ean number for amazon fulfillment'
 date: '2014-12-09T04:18:00-08:00'
-status: publish
 exported_permalink: /2014/12/upc-ean-number-for-amazon-fulfillment
-author: sarah
-excerpt: ''
-type: post
 id: 5394
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Signing up for Amazon fulfillment for our new [Mightyverse card game](http://www.amazon.com/%C2%A1D%C3%ADgame-Spanish-Learning-Card-Game/dp/B00QRX0ZFO), I found that I needed a Universal Product Code (UPC) or European Article Number (EAN). Amazon referred me to [GS1US](http://www.gs1us.org/) which sells 1-10 bar codes for $250, with an annual renewal fee of $50. Wow. That’s an expensive number, and a hefty fee for them to maintain a row in a database table for me.
 

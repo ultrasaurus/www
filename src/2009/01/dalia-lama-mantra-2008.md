@@ -1,19 +1,13 @@
 ---
 title: 'dalia lama mantra 2008'
 date: '2009-01-14T04:38:38-08:00'
-status: publish
 exported_permalink: /2009/01/dalia-lama-mantra-2008
-author: sarah
-excerpt: ''
-type: post
 id: 655
-category:
-    - general
 tag:
     - 'dalia lama'
     - inspiration
     - mantra
-post_format: []
+category: general
 ---
 Nice reflections from the Dalai Lama, which were forwarded to me via email from my cousin, and with the nature of such email messages, I have no idea who made the slide show. At the turn of the year, I find it nice to look back while looking forward and I enjoyed these gentle reminders…
 

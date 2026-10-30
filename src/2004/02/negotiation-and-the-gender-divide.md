@@ -1,17 +1,10 @@
 ---
 title: 'Negotiation and the Gender Divide'
 date: '2004-02-19T06:56:23-08:00'
-status: publish
 exported_permalink: /2004/02/negotiation-and-the-gender-divide
-author: sarah
-excerpt: ''
-type: post
 id: 99
-category:
-    - Uncategorized
 tag:
     - gender
-post_format: []
 ---
 “Women’s goals used to be to get into management, to get onto the boards of Fortune 500 companies, to become CEO… There is a new goal. The aim now is more radical and more abituous: it is to change the game entirely” — Margaret Heffernan
 

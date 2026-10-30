@@ -1,16 +1,8 @@
 ---
 title: 'creating your own visual language'
 date: '2014-02-07T10:36:35-08:00'
-status: publish
 exported_permalink: /2014/02/creating-your-own-visual-language
-author: sarah
-excerpt: ''
-type: post
 id: 4975
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Did you know we each have our own, personal visual language? With a little practice, we can learn to extend our own personal style to communicate in an approachable way that conveys meaning at a glance.
 

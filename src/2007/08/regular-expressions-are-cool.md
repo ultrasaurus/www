@@ -1,16 +1,8 @@
 ---
 title: 'regular expressions are cool'
 date: '2007-08-23T13:29:45-07:00'
-status: publish
 exported_permalink: /2007/08/regular-expressions-are-cool
-author: sarah
-excerpt: ''
-type: post
 id: 310
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Along the theme of common sense reminders, I enjoyed reading [when windows are not enough](http://gojko.net/2007/08/21/when-windows-are-not-enough) about how automating repetitive tasks is a key part of staying productive (and sane) when using computers. I like the “three strikes, you’re out” guideline for automation: when you find yourself doing something for the third time, write a script.
 

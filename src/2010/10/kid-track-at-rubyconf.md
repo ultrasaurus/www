@@ -1,16 +1,9 @@
 ---
 title: 'kid track at rubyconf?'
 date: '2010-10-07T09:31:35-07:00'
-status: publish
 exported_permalink: /2010/10/kid-track-at-rubyconf
-author: sarah
-excerpt: ''
-type: post
 id: 2820
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I used to go to SIGGRAPH back in the ’90s where some of the graphics geeks would put together interactive exhibits specifically targeted at kids and the older kids would play with and create magical things using the latest tech. I got to wondering whether we could do such a thing Ruby-style at RubyConfX and perhaps inspire a new generation of hackers. Here’s an outline of the idea:
 

@@ -1,17 +1,10 @@
 ---
 title: 'visualizing time'
 date: '2007-10-23T21:24:22-07:00'
-status: publish
 exported_permalink: /2007/10/visualizing-time
-author: sarah
-excerpt: ''
-type: post
 id: 324
-category:
-    - Uncategorized
 tag:
     - visualization
-post_format: []
 ---
 It is wonderful to see so many personal [visualizations of time](http://www.icastic.com/time/visualize.php). It reminds me of the [first grade science class ](http://www.flyingpaperclips.com/2005/05/an_introduction_to_time.html)when I asked the students to define “time” as an introduction to stop-motion animation. Those first graders sought fairly literal definitions, I wonder what their responses would have been like if asked to draw time.
 

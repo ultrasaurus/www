@@ -1,16 +1,9 @@
 ---
 title: 'culture change facilitated by software'
 date: '2016-01-18T23:14:28-08:00'
-status: publish
 exported_permalink: /2016/01/culture-change-facilitated-by-software
-author: sarah
-excerpt: ''
-type: post
 id: 5866
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 In the 1980s, personal computers fueled a desktop publishing revolution. Software let people create documents with powerful flexibility from their desktops. Yet before these creations could have impact on the real world, they had to be printed on paper, magnetic tape or film. The Internet connected only the scientists and hackers — the majority of computers were isolated with software transmitted on physical disks.
 

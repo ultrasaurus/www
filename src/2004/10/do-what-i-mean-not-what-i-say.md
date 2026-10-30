@@ -1,16 +1,8 @@
 ---
 title: 'do what I mean, not what I say'
 date: '2004-10-17T09:47:51-07:00'
-status: publish
 exported_permalink: /2004/10/do-what-i-mean-not-what-i-say
-author: sarah
-excerpt: ''
-type: post
 id: 145
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Interesting post on The Old New Thing: [“People lie on surveys and focus groups, often unwittingly.”](http://blogs.msdn.com/oldnewthing/archive/2004/10/12/241228.aspx)
 

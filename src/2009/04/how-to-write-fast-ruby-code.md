@@ -1,18 +1,12 @@
 ---
 title: 'how to write fast ruby code'
 date: '2009-04-17T16:22:57-07:00'
-status: publish
 exported_permalink: /2009/04/how-to-write-fast-ruby-code
-author: sarah
-excerpt: ''
-type: post
 id: 1083
-category:
-    - general
 tag:
     - gogaruco
     - Ruby
-post_format: []
+category: general
 ---
 Carl Lerche talks about how to write fast ruby code. Yes, ruby is scalable. Scaling != speed. Focus of this talk is on speed. Ruby is fast enough for the vast majority of use cases.
 

@@ -1,16 +1,8 @@
 ---
 title: 'designs for search'
 date: '2008-02-02T18:22:38-08:00'
-status: publish
 exported_permalink: /2008/02/designs-for-search
-author: sarah
-excerpt: ''
-type: post
 id: 351
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I enjoyed Theresa Neil’s [Seek or Show](http://theresaneil.wordpress.com/2008/01/29/seek-or-show-two-design-paradigms-for-lots-of-data/), where she details a number of approaches to search and contrasts those with an approach where all the data is shown upfront. (thanks [scott](http://www.antisleep.com))
 

@@ -1,16 +1,9 @@
 ---
 title: 'why drupal for georgia.gov'
 date: '2013-07-26T11:01:58-07:00'
-status: publish
 exported_permalink: /2013/07/why-drupal-for-georgia-gov
-author: sarah
-excerpt: ''
-type: post
 id: 4140
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 [Nikhil Deshpande](http://nikofthehill.com/) ([@nikofthehill](https://twitter.com/nikofthehill)) is the Director of [GeorgiaGov Interactive](http://portal.georgia.gov/interactive/) a group within the Georgia state government that provides services to agencies and other government organizations. Today at [CapitalCamp](http://capitalcamp.org/) he talked about why they chose Drupal for [georgia.gov](http://georgia.gov/) and how they approached the transition.
 

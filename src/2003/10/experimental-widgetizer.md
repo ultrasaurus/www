@@ -1,16 +1,8 @@
 ---
 title: 'experimental widgetizer'
 date: '2003-10-04T05:43:00-07:00'
-status: publish
 exported_permalink: /2003/10/experimental-widgetizer
-author: sarah
-excerpt: ''
-type: post
 id: 68
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Now it is easy to “steal this widget,” just click on those words in the OMPL viewer on the right side of this page and you can fill out a web form to get one for your own web site (or [click here](http://www.mylaszlo.com/cgi-bin/blogbox)).
 

@@ -1,16 +1,9 @@
 ---
 title: 'generating an .htaccess file for wordpress migration'
 date: '2009-01-11T07:24:46-08:00'
-status: publish
 exported_permalink: /2009/01/generating-an-htaccess-file-for-wordpress-migration
-author: sarah
-excerpt: ''
-type: post
 id: 574
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 So, I’ve been working to migrate my ultrasaurus weblog from Movable Type to WordPress (this one will come later). Since all the links were changing anyhow, I decided to move from ugly numbered permalinks to pretty links based on the title of the post. I only had a few hundred posts, but enough so I didn’t want to be doing it by hand. Since I’m learning Ruby and infatuated with it at the moment, I wrote a Ruby script to generate the .htaccess directives.
 

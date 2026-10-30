@@ -1,16 +1,9 @@
 ---
 title: 'mobile panel: cross-platform frameworks'
 date: '2011-04-17T06:46:47-07:00'
-status: publish
 exported_permalink: /2011/04/cross-platform-frameworks-mobile-panel
-author: sarah
-excerpt: ''
-type: post
 id: 3131
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I’m excited to be moderating a [WCA Mobile SIG panel](http://www.wca.org/) on May 10th in San Jose. On the panel will be leaders of the top cross-platform mobile frameworks, [Rhomobile](http://rhomobile.com/) (Rhodes), [Nitobi](http://www.nitobi.com/) ([PhoneGap](http://www.phonegap.com/)) and [Appcelerator](http://www.appcelerator.com/) (Titanium) along with the relative newcomer [AppMakr](http://www.appmakr.com/).
 

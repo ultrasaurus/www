@@ -1,16 +1,8 @@
 ---
 title: 'dinosaurs that don&#8217;t pee?'
 date: '2008-01-06T09:48:31-08:00'
-status: publish
 exported_permalink: /2008/01/dinosaurs-that-dont-pee
-author: sarah
-excerpt: ''
-type: post
 id: 347
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 We saw Walking with Dinosaurs on last Sunday before New Year’s in the San Jose Arean. It was really fun to see giant dinosaurs in action, even if you could tell that they were puppets and huge contraptions on rollers. The light show was inventive and created a wonderful atmosphere with few props and stage settings.
 

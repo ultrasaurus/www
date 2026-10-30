@@ -1,16 +1,8 @@
 ---
 title: 'The Mind Canvas'
 date: '2006-02-23T10:03:25-08:00'
-status: publish
 exported_permalink: /2006/02/the-mind-canvas
-author: sarah
-excerpt: ''
-type: post
 id: 214
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 A few weeks ago, [Jonathan Boutelle](http://www.jonathanboutelle.com/) stopped by the office to show me [The Mind Canvas](http://themindcanvas.com/) which [Uzanto](http://www.uzanto.com/) launched last fall. They have developed a set of survey applications using [game-like interaction](http://themindcanvas.com/how-it-works/research-methods/) to collect information.
 

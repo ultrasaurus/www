@@ -1,16 +1,9 @@
 ---
 title: 'xcode playground for parse in swift'
 date: '2016-01-02T23:46:40-08:00'
-status: publish
 exported_permalink: /2016/01/xcode-playground-for-parse-in-swift
-author: sarah
-excerpt: ''
-type: post
 id: 5797
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 Xcode playgrounds are a delightful way to explore the Swift language — once you get them set up. I admit that I’ve grown to love environments where I can code with simple text files, however, I also love to develop iOS apps and so I find myself digging once again thru the byzantine Xcode GUI. It seems I always forget the magic incantations!
 

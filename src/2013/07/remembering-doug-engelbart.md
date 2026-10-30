@@ -1,16 +1,9 @@
 ---
 title: 'remembering doug engelbart'
 date: '2013-07-06T05:57:27-07:00'
-status: publish
 exported_permalink: /2013/07/remembering-doug-engelbart
-author: sarah
-excerpt: ''
-type: post
 id: 3973
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I first met Doug Englebart in late 1997 or very early 1998, when my friend and mentor Harry Chesley and I went down to SRI to hear him speak. I was awed by his early breakthrough work. (If you have not seen “the mother of all demos,” set aside some time to watch it [in its entirety](http://www.youtube.com/watch?v=yJDv-zdhzMY) — for now, you can checkout [some highlights](http://sloan.stanford.edu/MouseSite/1968Demo.html).)
 

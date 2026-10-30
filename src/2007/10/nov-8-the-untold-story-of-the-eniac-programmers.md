@@ -1,17 +1,10 @@
 ---
 title: 'Nov 8: The Untold Story of the ENIAC Programmers'
 date: '2007-10-18T20:06:47-07:00'
-status: publish
 exported_permalink: /2007/10/nov-8-the-untold-story-of-the-eniac-programmers
-author: sarah
-excerpt: ''
-type: post
 id: 320
-category:
-    - Uncategorized
 tag:
     - gender
-post_format: []
 ---
 A must see event…
 

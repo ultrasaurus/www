@@ -1,16 +1,8 @@
 ---
 title: 'beyond desktop ui'
 date: '2003-07-27T13:07:46-07:00'
-status: publish
 exported_permalink: /2003/07/beyond-desktop-ui
-author: sarah
-excerpt: ''
-type: post
 id: 36
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 There is an opportunity to take ideas from desktop applications and apply then to the web. All user interface design is information visualization. We can blur the distinction between dynamic content and transactions. In designing desktop UI in the ’90s, it was wonderful to see context-sensitive panels and toolbars gradually replace the modal dialog. Why make the user ask a question when we can provide the answer? Some of today’s web sites are already applying this principle in creating dynamic data-driven sites.
 

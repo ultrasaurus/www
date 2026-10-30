@@ -1,16 +1,9 @@
 ---
 title: 'small gesture, big impact'
 date: '2013-02-14T07:29:33-08:00'
-status: publish
 exported_permalink: /2013/02/small-gesture-big-impact
-author: sarah
-excerpt: ''
-type: post
 id: 3793
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I love sofware development. I think it’s like making magic, like I used to read about in fantasy books, but for real things… It’s even funny to call it real, since it’s just a series of ephemeral pulses of electricity that make it seem like shapes appear on screens or vibrations that seem like music from speakers. I love this stuff.
 

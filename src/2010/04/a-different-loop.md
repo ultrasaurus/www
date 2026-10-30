@@ -1,16 +1,9 @@
 ---
 title: 'a different loop'
 date: '2010-04-25T09:21:25-07:00'
-status: publish
 exported_permalink: /2010/04/a-different-loop
-author: sarah
-excerpt: ''
-type: post
 id: 2600
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I cornered Eric Ries after [Startup Lessons Learned Conference](http://www.sllconf.com/) yesterday. Many things he said in the course of the day resonated with me, but only one was never elaborated upon and I felt driven to ask a follow-up question.
 

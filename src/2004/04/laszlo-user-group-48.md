@@ -1,16 +1,9 @@
 ---
 title: 'Laszlo User Group 4/8'
 date: '2004-04-05T10:02:10-07:00'
-status: publish
 exported_permalink: /2004/04/laszlo-user-group-48
-author: sarah
-excerpt: ''
-type: post
 id: 114
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: code
 ---
 from the [Laszlo developer zone](http://www.laszlosystems.com/developers/#usergroup)
 

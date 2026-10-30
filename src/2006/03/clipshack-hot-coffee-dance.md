@@ -1,16 +1,8 @@
 ---
 title: 'ClipShack: hot coffee dance'
 date: '2006-03-25T08:56:22-08:00'
-status: publish
 exported_permalink: /2006/03/clipshack-hot-coffee-dance
-author: sarah
-excerpt: ''
-type: post
 id: 221
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Online video sites suddenly seem to be widely availablle. I’ve been checking out a few of them, and for the first time this morning, I saw a video worth writing home about:
 

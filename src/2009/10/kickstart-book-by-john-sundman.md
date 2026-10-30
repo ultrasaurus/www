@@ -1,16 +1,9 @@
 ---
 title: 'kickstart book by john sundman'
 date: '2009-10-31T07:15:47-07:00'
-status: publish
 exported_permalink: /2009/10/kickstart-book-by-john-sundman
-author: sarah
-excerpt: ''
-type: post
 id: 2136
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 John Sundman is working on a new book: [Creation Science](http://www.kickstarter.com/projects/john-sundman/creation-science). He describes it as “a technothriller about scary science — like designer DNA, brain hacking &amp; mind control, computer viruses and biological viruses.”
 

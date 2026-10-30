@@ -1,16 +1,9 @@
 ---
 title: 'the past is present'
 date: '2015-01-20T05:59:43-08:00'
-status: publish
 exported_permalink: /2015/01/past-present
-author: sarah
-excerpt: ''
-type: post
 id: 5460
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 William Gibson said “the future is already here — it’s just not evenly distributed.” Likewise that the past is still alive today. I deeply appreciate people who tell their own stories, so that I may understand, like [Hamden Rice’s story of his father](http://m.dailykos.com/story/2011/08/29/1011562/-Most-of-you-have-no-idea-what-Martin-Luther-King-actually-did) who grew up in the south. I don’t have relatives who experienced what it was like to be black in America before Martin Luther King. I have a different family history that I see in reflected in events from the past year.
 

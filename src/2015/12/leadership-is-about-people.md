@@ -1,16 +1,9 @@
 ---
 title: 'leadership is about people'
 date: '2015-12-19T10:57:25-08:00'
-status: publish
 exported_permalink: /2015/12/leadership-is-about-people
-author: sarah
-excerpt: ''
-type: post
 id: 5751
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I’ve noticed that people have the illusion that leaders are these “idea people” with throngs of followers who just do what they are told. Maybe some leaders work that way, but that isn’t true leadership. I’ve found that effective leaders identify people who are passionate about a shared goal. Organizations are effective when the people in them have personal goals that overlap with the group mission.
 

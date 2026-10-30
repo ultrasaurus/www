@@ -1,16 +1,9 @@
 ---
 title: 'language is a reef of dead metaphors'
 date: '2009-04-12T14:51:22-07:00'
-status: publish
 exported_permalink: /2009/04/language-is-a-reef-of-dead-metaphors
-author: sarah
-excerpt: ''
-type: post
 id: 1017
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Reading [The Unfolding of Language](http://www.amazon.com/gp/product/0805080120?ie=UTF8&tag=ultrasaurus-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0805080120) by Guy Deutscher, who describes how language might have evolved by looking at currently spoken languages and their relatively recent history.
 

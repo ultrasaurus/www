@@ -1,18 +1,12 @@
 ---
 title: 'magic scaling sprinkles'
 date: '2009-04-18T08:08:35-07:00'
-status: publish
 exported_permalink: /2009/04/magic-scaling-sprinkles
-author: sarah
-excerpt: ''
-type: post
 id: 1097
-category:
-    - general
 tag:
     - gogaruco
     - Ruby
-post_format: []
+category: general
 ---
 [Nick Kallen](http://magicscalingsprinkles.wordpress.com/), Twitter, author of popular open-source projects such as NamedScope, Screw.Unit, and Cache-Money, gave a compelling talk yesterday at the [Golden Gate Ruby Conference](http://gogaruco.com/). Nick’s easy-going presentation style and thoughtfully prepared examples made a complex topic easy to follow. Nonetheless, my notes are sparse since most of my attention was devoted to listening and absorbing.
 

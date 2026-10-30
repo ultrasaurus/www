@@ -1,16 +1,9 @@
 ---
 title: 'golang philosophy'
 date: '2019-01-18T08:16:43-08:00'
-status: publish
 exported_permalink: /2019/01/golang-philosophy
-author: sarah
-excerpt: ''
-type: post
 id: 6719
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: code
 ---
 In learning a new programming language, it’s helpful to understand it’s philosophy. I seek to learn patterns that are idiomatic, and more importantly: why the syntax is the way it is. This allows me to write original code more quickly, gaining an intuition for simple things like when to look for a library and when to just write code.
 

@@ -1,16 +1,9 @@
 ---
 title: 'mobile phones are the new computer'
 date: '2009-11-01T21:13:49-08:00'
-status: publish
 exported_permalink: /2009/11/mobile-phones-are-the-new-computer
-author: sarah
-excerpt: ''
-type: post
 id: 1834
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 The mobile phone is the new computer. The desktop computer is not going away, but the smartphone market is growing fast. Phones are being used as computers by more people and for more purposes. Just as we still have supercomputers today but most people use desktop computers everyday, soon desktop computers will be relegated to the specialist and elite professional, and most people will use their mobile phones for their computing needs.
 

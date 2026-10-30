@@ -1,16 +1,8 @@
 ---
 title: 'Speaking about Laszlo on  Tues 5/6'
 date: '2003-05-03T19:33:21-07:00'
-status: publish
 exported_permalink: /2003/05/speaking-about-laszlo-on-tues-56
-author: sarah
-excerpt: ''
-type: post
 id: 18
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 <u>Making Data Easier to use with Flash</u>
 

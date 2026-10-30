@@ -1,16 +1,8 @@
 ---
 title: 'heather champ and the flickr community'
 date: '2008-10-18T09:43:06-07:00'
-status: publish
 exported_permalink: /2008/10/heather-champ-and-the-flickr-community
-author: sarah
-excerpt: ''
-type: post
 id: 426
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Chris colin [writes](http://www.sfgate.com/cgi-bin/article.cgi?f=/g/a/2008/09/29/onthejob.DTL) about how Heather Champ and the flickr team figure out how to define inappropriate content and how to handle it (via [Marc’s Voice](http://blog.broadbandmechanics.com/2008/10/october-7th-08-blogging)).
 

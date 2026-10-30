@@ -1,16 +1,9 @@
 ---
 title: 'the stealthy openness of the us digital services'
 date: '2015-07-04T10:58:41-07:00'
-status: publish
 exported_permalink: /2015/07/the-stealthy-openness-of-the-us-digital-services
-author: sarah
-excerpt: ''
-type: post
 id: 5567
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Fast Company’s recent article “[Inside Obama’s Stealth Startup](http://www.fastcompany.com/3046756/obama-and-his-geeks)” provides a nice overview of how industry experts have been steadily joining forces to transform how the United States government is using technology to provide services to its people. One of the key elements of this strategy is open data and open source — there’s little or no stealth in this “startup.”
 

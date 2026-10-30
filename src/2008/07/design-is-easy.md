@@ -1,16 +1,8 @@
 ---
 title: 'design is easy&#8230;'
 date: '2008-07-28T07:23:16-07:00'
-status: publish
 exported_permalink: /2008/07/design-is-easy
-author: sarah
-excerpt: ''
-type: post
 id: 399
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 In honor of the valiant battle for great design and our recent checkbox experience, I made a t-shirt last week for my friend and colleague:
 

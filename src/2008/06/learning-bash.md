@@ -1,16 +1,8 @@
 ---
 title: 'learning bash'
 date: '2008-06-14T12:37:04-07:00'
-status: publish
 exported_permalink: /2008/06/learning-bash
-author: sarah
-excerpt: ''
-type: post
 id: 314
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I started this post back in 2007, when I found a [great tutorial](http://www.ibm.com/developerworks/library/l-bash.html) on learning bash scripting. This excellent tutorial, written by Daniel Robbins, the Chief Architect of the [Gentoo Project](http://www.gentoo.org/), gives two compelling reasons to learn bash:
 

@@ -1,16 +1,9 @@
 ---
 title: 'Japanese geek speak'
 date: '2009-12-26T13:34:20-08:00'
-status: publish
 exported_permalink: /2009/12/japanese-geek-speak
-author: sarah
-excerpt: ''
-type: post
 id: 2258
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
  It was inspiring to meet Matz, the creator of the Ruby language, and other Japanese Rubyists at last month’s RubyConf. [Matz kindly recorded various phrases about Ruby in Japanese](http://blog.mightyverse.com/2009/12/ruby-language/)[.![](http://img.skitch.com/20091226-p9yyjr7wj5uq3kbdnt3swd2iib.jpg)](http://blog.mightyverse.com/2009/12/ruby-language/) Since then I’ve been working on learning katakana as an easy intro (perhaps) to the Japanese language.
 

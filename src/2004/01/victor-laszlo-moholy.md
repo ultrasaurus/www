@@ -1,16 +1,9 @@
 ---
 title: 'Victor Laszlo Moholy'
 date: '2004-01-29T20:44:05-08:00'
-status: publish
 exported_permalink: /2004/01/victor-laszlo-moholy
-author: sarah
-excerpt: ''
-type: post
 id: 91
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: code
 ---
 [Adam Wolff](http://laszlosystems.com/~adam/blog/) has started a blog. His first entry “[Why I like JavaScript (Part I)](http://www.laszlosystems.com/~adam/blog/archives/000013.html)” details Javascript’s \_\_proto\_\_ construct. He also includes an LZX unit test which demonstrates his point. It runs in the web page and you can even click on “edit program” to modify and re-run the test.
 

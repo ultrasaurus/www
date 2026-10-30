@@ -1,18 +1,12 @@
 ---
 title: 'sandbox for ruby code'
 date: '2009-04-17T11:08:13-07:00'
-status: publish
 exported_permalink: /2009/04/sandbox-for-ruby-code
-author: sarah
-excerpt: ''
-type: post
 id: 1044
-category:
-    - general
 tag:
     - gogaruco
     - Ruby
-post_format: []
+category: general
 ---
 David Stevenson, [flouri.sh](http://flouri.sh/), talk “Playing With Fire: Running Uploaded Ruby Code in a Sandbox” at [Golden Gate Ruby Conference](http://gogaruco.com/)
 

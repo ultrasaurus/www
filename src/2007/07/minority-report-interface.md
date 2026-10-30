@@ -1,16 +1,8 @@
 ---
 title: 'minority report interface'
 date: '2007-07-06T21:00:22-07:00'
-status: publish
 exported_permalink: /2007/07/minority-report-interface
-author: sarah
-excerpt: ''
-type: post
 id: 289
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 [Minority report](http://en.wikipedia.org/wiki/Minority_Report_(film)) is a must-see movie for UI geeks. It seems to have inspired a new generation of UI innovation, or perhaps, a new generation of designers and developers and Stephen Spielberg are all thinking along the same lines.
 

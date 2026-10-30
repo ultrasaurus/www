@@ -1,16 +1,8 @@
 ---
 title: 'stage fright'
 date: '2006-04-15T17:03:18-07:00'
-status: publish
 exported_permalink: /2006/04/stage-fright
-author: sarah
-excerpt: ''
-type: post
 id: 234
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I just updated the info [about me](https://www.ultrasaurus.com/about/sarah.html) on this website. I had to put together a history of speaking engagements, and have never kept good records, so after dredging it up from memory, I thought I would post the list. (If I’ve forgotten any, let me know.)
 

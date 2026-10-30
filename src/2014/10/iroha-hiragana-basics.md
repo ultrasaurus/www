@@ -1,16 +1,8 @@
 ---
 title: 'いろは (iroha) hiragana basics'
 date: '2014-10-26T16:18:47-07:00'
-status: publish
 exported_permalink: /2014/10/iroha-hiragana-basics
-author: sarah
-excerpt: ''
-type: post
 id: 5347
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 [![The gojūon is a Japanese ordering of kana named for the 5×10 grid in which the characters are displayed. Each kana corresponds to one sound in the Japanese language. ](../../../uploads/2014/10/Screen-Shot-2014-10-26-at-3.49.37-PM.png)](http://en.wikipedia.org/wiki/Goj%C5%ABon)Today I learned about いろは (iroha) a different way to learn Hiragana than the [gojūon (五十音) ordering](http://en.wikipedia.org/wiki/Goj%C5%ABon) I learned in my Japanese class, where the characters are displayed in a grid. It makes sense to teach that way since it is easy to see which share same beginning (consonant) sound or ending (vowel) sound.
 

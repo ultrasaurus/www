@@ -1,16 +1,8 @@
 ---
 title: 'GUI conventions'
 date: '2004-12-26T14:15:08-08:00'
-status: publish
 exported_permalink: /2004/12/gui-conventions
-author: sarah
-excerpt: ''
-type: post
 id: 150
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 David Heller questions whether there can be [affordance and convention](http://synapticburn.com/comments.php?id=28_0_1_0_C) in this digital world (via [LukeW](http://www.lukew.com/ff/entry.asp?135)).
 

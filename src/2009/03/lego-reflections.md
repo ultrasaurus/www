@@ -1,16 +1,9 @@
 ---
 title: 'lego reflections'
 date: '2009-03-07T06:55:12-08:00'
-status: publish
 exported_permalink: /2009/03/lego-reflections
-author: sarah
-excerpt: ''
-type: post
 id: 900
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 It has been a few weeks since I quit my full-time job and started off on my own. My immediate physical reaction was to come down with the worst flu I’ve had in years. It was a bit demoralizing to be sick for over two weeks… ugh. I also spent quite a bit of time hanging out with friends and family… it was not my intention to be immediately super-productive anyhow.
 

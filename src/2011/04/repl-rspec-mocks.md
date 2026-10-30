@@ -1,16 +1,9 @@
 ---
 title: 'repl rspec mocks'
 date: '2011-04-04T17:59:19-07:00'
-status: publish
 exported_permalink: /2011/04/repl-rspec-mocks
-author: sarah
-excerpt: ''
-type: post
 id: 3127
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 [REPL](http://en.wikipedia.org/wiki/Read-eval-print_loop) (Read-Eval-Print-Loop) is a great way to learn. With Ruby, the experience is enabled with irb. Sometimes, to do this we need to peek into the innards of things, which I find to be an extremely effective way to explain mocks and stubs. It’s a regular part of my Ruby curriculum, even though I have needed to figure out the syntax three times in the last couple of years. (Many thanks to Jen-Mei Wu for the most recent iteration.) I still think it is worth it, even though it seems to change with crazy frequency.
 

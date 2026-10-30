@@ -1,16 +1,8 @@
 ---
 title: 'Firefox is nice'
 date: '2004-07-01T06:36:37-07:00'
-status: publish
 exported_permalink: /2004/07/firefox-is-nice
-author: sarah
-excerpt: ''
-type: post
 id: 127
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I recently switched to Firefox. (The new 0.9 version that was release by [mozilla.org](http://www.mozilla.org/) on Monday) I am very happy with it. It seems snappier and I love the tabbed interface for browsing.
 

@@ -1,16 +1,9 @@
 ---
 title: 'what does it take to create an epic win?'
 date: '2015-10-09T18:26:55-07:00'
-status: publish
 exported_permalink: /2015/10/what-does-it-take-to-create-an-epic-win
-author: sarah
-excerpt: ''
-type: post
 id: 5687
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 An epic win is an extraordinary outcome that feels impossible, until it happens. What does it take to imagine that epic win? What needs to happen so that we can believe that it is possible, and in creating that belief, we create the space for it to actually happen.
 

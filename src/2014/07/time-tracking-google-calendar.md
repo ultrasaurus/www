@@ -1,16 +1,9 @@
 ---
 title: 'time tracking with google calendar'
 date: '2014-07-27T18:53:01-07:00'
-status: publish
 exported_permalink: /2014/07/time-tracking-google-calendar
-author: sarah
-excerpt: ''
-type: post
 id: 5160
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 I just created a very lightweight time tracking system where we can use a Google Calendar to track who does what when and then get a spreadsheet that shows all of the hours worked by individuals.
 

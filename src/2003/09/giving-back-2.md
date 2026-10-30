@@ -1,16 +1,8 @@
 ---
 title: 'giving back'
 date: '2003-09-29T20:52:52-07:00'
-status: publish
 exported_permalink: /2003/09/giving-back-2
-author: sarah
-excerpt: ''
-type: post
 id: 66
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 One of the reasons I started this blog was that I enjoyed reading other people’s blogs. I was impressed by the Flash prowess of [Sam Wan](http://www.samuelwan.com/information/) and enjoyed industry updates from [Jeremy Allaire](http://radio.weblogs.com/0113297/) and [Kevin Lynch](http://www.klynch.com). I noticed that often when I had a very specific technical question, I found the answer on someone’s blog.
 

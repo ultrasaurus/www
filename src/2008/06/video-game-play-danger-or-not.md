@@ -1,16 +1,8 @@
 ---
 title: 'video game play: danger or not?'
 date: '2008-06-30T00:23:09-07:00'
-status: publish
 exported_permalink: /2008/06/video-game-play-danger-or-not
-author: sarah
-excerpt: ''
-type: post
 id: 379
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 [Grand Theft Childhood](http://www.grandtheftchildhood.com/GTC/Home.html) is a new book about kids and video games (via [Cyborg’s Picnic](http://cyborgspicnic.woj.com/2008/05/grand-theft-childhood.html)). It reveals the results of a Harvard video game study that challenges conventional wisdom about the effects of gaming. I didn’t read the book, but did read a bit about the study on the web.
 

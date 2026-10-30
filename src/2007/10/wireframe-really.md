@@ -1,17 +1,10 @@
 ---
 title: 'wireframe (really)'
 date: '2007-10-05T20:50:01-07:00'
-status: publish
 exported_permalink: /2007/10/wireframe-really
-author: sarah
-excerpt: ''
-type: post
 id: 317
-category:
-    - Uncategorized
 tag:
     - visualization
-post_format: []
 ---
 Wonder Woman, Your Car Is Ready…
 

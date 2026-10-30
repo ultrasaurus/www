@@ -1,16 +1,8 @@
 ---
 title: 'holy disappearing blog entries'
 date: '2005-01-04T02:45:50-08:00'
-status: publish
 exported_permalink: /2005/01/holy-disappearing-blog-entries
-author: sarah
-excerpt: ''
-type: post
 id: 151
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I consider myself a fairly techno-savvy kinda gal. Most of the people on the internet have used software with my code in it. I can debug with the best of them. However, I really do like it when stuff just works.
 

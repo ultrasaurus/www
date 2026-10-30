@@ -1,16 +1,9 @@
 ---
 title: 'anybody got a slide rule?'
 date: '2006-10-24T23:02:41-07:00'
-status: publish
 exported_permalink: /2006/10/anybody-got-a-slide-rule
-author: sarah
-excerpt: ''
-type: post
 id: 259
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: general
 ---
 *As an introduction to computers at our local elementary school, the new tech coordinator had proposed a lesson where students would be given a set of “early computers” (abacus, calculator, slide rule) and asked to identify think about “Why are these tools considered computers? ”*
 

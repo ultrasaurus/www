@@ -1,18 +1,12 @@
 ---
 title: 'test- and behavior-driven development'
 date: '2008-12-21T09:36:41-08:00'
-status: publish
 exported_permalink: /2008/12/test-and-behavior-driven-development
-author: sarah
-excerpt: ''
-type: post
 id: 464
-category:
-    - general
 tag:
     - software
     - testing
-post_format: []
+category: general
 ---
 I did a bit of reading about test-driven development (TDD), which led me to behavior-driven development (BDD). I started out by looking at some [slides on TDD](http://andrzejonsoftware.blogspot.com/2008/04/tdd-with-rails-slides-from-my-talk-at.html) by Andrzej Krzywda which provide a nice overview:
 

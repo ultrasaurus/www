@@ -1,16 +1,9 @@
 ---
 title: 'rules and freedom'
 date: '2003-03-07T20:17:29-08:00'
-status: publish
 exported_permalink: /2003/03/rules-and-freedom
-author: sarah
 excerpt: 'Rules provide freedom. The really fun toys give you just enough constraints to inspire creativity and make it easy to create great stuff.'
-type: post
 id: 9
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Sam Wan comments that “the coolest toys are the ones that give users the freedom to find their own uses for that toy.”
 

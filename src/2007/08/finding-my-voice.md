@@ -1,16 +1,8 @@
 ---
 title: 'finding my voice'
 date: '2007-08-04T09:50:51-07:00'
-status: publish
 exported_permalink: /2007/08/finding-my-voice
-author: sarah
-excerpt: ''
-type: post
 id: 307
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Almost four years ago, I started writing a [series](https://www.ultrasaurus.com/sarahblog/archives/000063.html) about why I keep a weblog. One key reason on my list is that this weblog has helped me find my voice. When I started blogging, I thought my blog would be full of technical tips and practical insights from my love of coding. As it turns out, I had a lot of other things to say.
 

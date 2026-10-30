@@ -1,16 +1,8 @@
 ---
 title: 'new technical trends which have no future'
 date: '2008-02-04T05:10:11-08:00'
-status: publish
 exported_permalink: /2008/02/new-technical-trends-which-have-no-future
-author: sarah
-excerpt: ''
-type: post
 id: 353
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 JP Rangaswami (confused of calcutta) writes “[Interesting, but of no commercial value](http://confusedofcalcutta.com/2008/02/03/interesting-but-of-no-commercial-value-the-problem-with-emerging-social-media-tools-a-saturday-evening-post/)”: The problem with emerging social media tools: A Saturday Evening Post (via [Cloudy Thinking](http://blog.eronj.com/2008/02/02/this-%e2%80%98telephone%e2%80%99-has-too-many-shortcomings-to-be-seriously-considered-as-a-means-of-communication-western-union-1876/)).
 

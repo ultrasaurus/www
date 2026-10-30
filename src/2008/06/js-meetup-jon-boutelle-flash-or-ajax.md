@@ -1,16 +1,9 @@
 ---
 title: 'js meetup, jon boutelle: Flash or Ajax?'
 date: '2008-06-06T05:50:26-07:00'
-status: publish
 exported_permalink: /2008/06/js-meetup-jon-boutelle-flash-or-ajax
-author: sarah
-excerpt: ''
-type: post
 id: 384
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: code
 ---
 [Jon Boutelle](http://www.jonathanboutelle.com/) of [slideshare.net](http://www.slideshare.net/) spoke at the [JS Meetup](http://javascript.meetup.com/4/calendar/7922755/?a=cr1p_grp) last night. He reported a refreshing perspective about the choice between Flash and Ajax on websites today: you quite possibly need both. He made the analogy to having a hammer and a saw — you need both to build a house. (By the way if you haven’t checked out slideshare is is way cool. See a collection of [Jon’s presentations](http://www.slideshare.net/jboutelle) or mine). Notes below:
 

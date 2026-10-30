@@ -1,16 +1,8 @@
 ---
 title: 'visualization of word frequency'
 date: '2007-07-29T23:38:16-07:00'
-status: publish
 exported_permalink: /2007/07/visualization-of-word-frequency
-author: sarah
-excerpt: ''
-type: post
 id: 303
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 The Human-Computer Interaction Lab, University of Maryland, [presents](http://www.futureofthebook.org/mckenziewark/gamertheory30/featurelens/) an interesting OpenLaszlo application for analyzing word frequency in a document (via David Temkin).
 

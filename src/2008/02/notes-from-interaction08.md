@@ -1,16 +1,8 @@
 ---
 title: 'notes from Interaction08'
 date: '2008-02-16T08:55:11-08:00'
-status: publish
 exported_permalink: /2008/02/notes-from-interaction08
-author: sarah
-excerpt: ''
-type: post
 id: 355
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Take aways from [Amitava Sinharay](http://interaction08.crowdvine.com/posts/show/493414). I’ve added some of my own…
 

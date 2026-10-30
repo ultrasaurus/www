@@ -1,17 +1,10 @@
 ---
 title: 'words, bullet points, semantic capitalism'
 date: '2004-09-02T07:30:01-07:00'
-status: publish
 exported_permalink: /2004/09/words-bullet-points-semantic-capitalism
-author: sarah
-excerpt: ''
-type: post
 id: 137
-category:
-    - Uncategorized
 tag:
     - language
-post_format: []
 ---
 I recently discovered that the infamous [The Gettysburg Powerpoint Presentation](http://www.norvig.com/Gettysburg/index.htm) was created by [Peter Norvig](http://www.norvig.com/) and enjoyed reading the [story of its making](http://www.norvig.com/Gettysburg/making.html).
 

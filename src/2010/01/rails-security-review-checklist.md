@@ -1,16 +1,9 @@
 ---
 title: 'rails security review checklist'
 date: '2010-01-27T00:00:12-08:00'
-status: publish
 exported_permalink: /2010/01/rails-security-review-checklist
-author: sarah
-excerpt: ''
-type: post
 id: 2378
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 I’m reviewing the security of a web app built with Ruby on Rails, so I put together a checklist for a security audit. This isn’t a bank or high security situation, but there were a number of engineers and quite a bit of open source code, so I thought a few checks were in order.
 

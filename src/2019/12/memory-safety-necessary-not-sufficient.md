@@ -1,16 +1,9 @@
 ---
 title: 'memory safety: necessary, not sufficient'
 date: '2019-12-22T14:33:28-08:00'
-status: publish
 exported_permalink: /2019/12/memory-safety-necessary-not-sufficient
-author: sarah
-excerpt: ''
-type: post
 id: 6933
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: code
 ---
 As I think about developing new Internet-connected software, I worry about the safety of the people who use it. By 2021, most Web browsers won’t allow native code extensions, which will eliminate a lot of potential issues, while a hug swath of creative animations and interactives will disappear from the Web. I spent some time this summer, thinking about what I could learn from the security vulnerabilities in the Flash Player that has been much maligned in recent years.
 

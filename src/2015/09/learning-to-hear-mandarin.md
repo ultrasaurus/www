@@ -1,16 +1,9 @@
 ---
 title: 'Learning to hear Mandarin'
 date: '2015-09-09T01:41:57-07:00'
-status: publish
 exported_permalink: /2015/09/learning-to-hear-mandarin
-author: sarah
-excerpt: ''
-type: post
 id: 5645
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I’ve read that listening to a language, even if you don’t understand it, increases your ability to learn that language. So with only a few weeks of Pimsleur Chinese lessons several years ago, I set out to accelerate my learning of Mandarin by listening.
 

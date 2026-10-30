@@ -1,16 +1,9 @@
 ---
 title: 'Notes on how LZX becomes a SWF'
 date: '2003-06-18T06:19:38-07:00'
-status: publish
 exported_permalink: /2003/06/notes-on-how-lzx-becomes-a-swf
-author: sarah
-excerpt: ''
-type: post
 id: 29
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: code
 ---
 Don Park recently spent some time with the [Laszlo Presentation Server](http://www.laszlosystems.com/) and drew a nice architecture diagram in his [blog](http://www.docuverse.com/blog/donpark/2003/06/16.html#a596). Generating an LZX from a JSP is one way to create applications in Laszlo. A more common development pattern is to simply write an LZX file that references an XML data source. I’ve drawn a diagram with a similar structure to Don’s that shows the HTTP requests from the browser, to illustrate how this works.
 

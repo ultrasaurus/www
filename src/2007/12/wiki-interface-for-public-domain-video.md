@@ -1,16 +1,8 @@
 ---
 title: 'wiki interface for public domain video'
 date: '2007-12-19T08:25:32-08:00'
-status: publish
 exported_permalink: /2007/12/wiki-interface-for-public-domain-video
-author: sarah
-excerpt: ''
-type: post
 id: 341
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Digging around some back woods newsgroups for bits of codec lore to solve a random challenge a couple of weeks ago, I ran across a post by someone at [Metavid](http://metavid.ucsc.edu/blog) and I found the project intriguing. It seems that the video proceedings of the house and senate are public domain (as they should be), and Metavid is capturing these cable broadcasts and encoding them into a free video format (free as in liberty, free as in beer).
 

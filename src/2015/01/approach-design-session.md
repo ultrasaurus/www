@@ -1,16 +1,9 @@
 ---
 title: 'how to approach a design session'
 date: '2015-01-05T21:41:46-08:00'
-status: publish
 exported_permalink: /2015/01/approach-design-session
-author: sarah
-excerpt: ''
-type: post
 id: 5429
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I had a great design session last week with [Chacha Sikes](https://twitter.com/chachasikes) who volunteered to help with [Midas](https://github.com/18F/midas), an open source project that I’m working on for the US Government. I love open source development — with an influx of new colleagues at unexpected times, I’m always learning new things.
 

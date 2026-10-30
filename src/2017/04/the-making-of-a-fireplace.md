@@ -1,16 +1,9 @@
 ---
 title: 'the making of a fireplace'
 date: '2017-04-10T20:59:20-07:00'
-status: publish
 exported_permalink: /2017/04/the-making-of-a-fireplace
-author: sarah
-excerpt: ''
-type: post
 id: 6171
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I built a fake fireplace in celebration of our team shipping [Cloud Functions for Firebase](https://firebase.google.com/docs/functions/). The codename was “hearth” — the product was almost ready for public beta by the time I joined the team, yet I know it was an epic journey to create a long-awaited feature and I felt the milestone deserved dramatic punctuation.
 

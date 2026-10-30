@@ -1,18 +1,12 @@
 ---
 title: 'sinatra: simple ruby web app library'
 date: '2009-04-17T10:05:24-07:00'
-status: publish
 exported_permalink: /2009/04/sinatra-simple-ruby-web-app-library
-author: sarah
-excerpt: ''
-type: post
 id: 1036
-category:
-    - general
 tag:
     - gogaruco
     - Ruby
-post_format: []
+category: general
 ---
 talk by Aaron Quint, [quirkey.com](http://www.quirkey.com/), at [Golden Gate Ruby Conference](http://gogaruco.com/)
 

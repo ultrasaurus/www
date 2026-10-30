@@ -1,16 +1,8 @@
 ---
 title: 'dinosaurs and memory'
 date: '2004-09-23T22:24:21-07:00'
-status: publish
 exported_permalink: /2004/09/dinosaurs-and-memory
-author: sarah
-excerpt: ''
-type: post
 id: 139
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 There are a few people who remember when I came up with the name of this site. My then four-year-old son was very into dinosaurs and I became an armchair paleontologist. I was amazed that the number of dinosaurs which can now be named by the average pre-schooler far surpasses the species that can be identified by the average adult.
 

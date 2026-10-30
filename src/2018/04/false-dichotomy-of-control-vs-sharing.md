@@ -1,16 +1,9 @@
 ---
 title: 'false dichotomy of control vs sharing'
 date: '2018-04-20T05:57:24-07:00'
-status: publish
 exported_permalink: /2018/04/false-dichotomy-of-control-vs-sharing
-author: sarah
-excerpt: ''
-type: post
 id: 6589
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Email is the killer app of the Internet. Amidst many sharing and collaboration applications and services, most of us frequently fall back to email. Marc Stiegler suggests that email often “just works better”. Why is this?
 

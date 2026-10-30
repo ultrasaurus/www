@@ -1,17 +1,11 @@
 ---
 title: 'gender and sex at gogaruco'
 date: '2009-04-20T17:05:58-07:00'
-status: publish
 exported_permalink: /2009/04/gender-and-sex-at-gogaruco
-author: sarah
-excerpt: ''
-type: post
 id: 1154
-category:
-    - general
 tag:
     - gogaruco
-post_format: []
+category: general
 ---
 The [Golden Gate Ruby Conference](http://gogaruco.com/) was almost totally awesome. There only two sour notes. First, it was almost unbelievable how few women attended. With about 200 attendees, six were women. I have never been to a technical conference with so disproportionately few women. I can think of all sorts of reasons (along with a number of solutions). However, with this technology becoming in such widespread use and with such an awesome community supporting it, that stat must be radically improved for next year.
 

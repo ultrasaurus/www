@@ -1,16 +1,9 @@
 ---
 title: 'test-first business'
 date: '2012-10-06T11:04:07-07:00'
-status: publish
 exported_permalink: /2012/10/test-first-business
-author: sarah
-excerpt: ''
-type: post
 id: 3655
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I’ve long observed that [lean startup methodologies are a lot like agile development](https://www.ultrasaurus.com/sarahblog/2010/04/lean-startup-methodology/). When I explain it to developers, they get it pretty quickly, but that doesn’t resonate with business folk. I’ve been searching for ways to explain why I believe market testing is so important before starting to build a software product.
 

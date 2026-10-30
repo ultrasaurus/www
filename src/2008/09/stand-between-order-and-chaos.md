@@ -1,16 +1,8 @@
 ---
 title: 'stand between order and chaos'
 date: '2008-09-24T07:19:20-07:00'
-status: publish
 exported_permalink: /2008/09/stand-between-order-and-chaos
-author: sarah
-excerpt: ''
-type: post
 id: 417
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 “All web apps are trying to suck. They are trying to be bloated. They are trying to be unstructured. They are trying to be confusing. You are the stopgap. You are the one who stands between order and chaos. You are the sniper who must pick off every distraction, unneeded feature, and extra word that doesn’t absolutely have to be there. You must be a killer. You must say no. You must anger those who disagree with you. That is the only way to make something great.” — Matt Linderman (via [inspireux](http://www.inspireux.com/2008/09/22/you-are-the-one-who-stands-between-order-and-chaos/))
 

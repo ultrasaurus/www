@@ -1,16 +1,9 @@
 ---
 title: 'the allen rule'
 date: '2013-04-30T20:03:50-07:00'
-status: publish
 exported_permalink: /2013/04/the-allen-rule
-author: sarah
-excerpt: ''
-type: post
 id: 3836
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 When people talk to me about the challenges of hiring women engineers, I often tell them that a good start is to make sure that they interview at least one woman when they hire for a new position. I believe that homogeneous hiring is more a symptom of a recruiting problem, than bias in hiring (although I’m sure that happens too).
 

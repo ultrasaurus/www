@@ -1,16 +1,8 @@
 ---
 title: 'change is inevitable'
 date: '2004-10-07T21:47:37-07:00'
-status: publish
 exported_permalink: /2004/10/change-is-inevitable
-author: sarah
-excerpt: ''
-type: post
 id: 143
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 [Russian Translation](http://www.opensourceinitiative.net/2011/12/08/%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BD%D0%B5%D0%B8%D0%B7%D0%B1%D0%B5%D0%B6%D0%BD%D1%8B/19/)
 

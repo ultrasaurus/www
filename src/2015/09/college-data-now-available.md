@@ -1,16 +1,9 @@
 ---
 title: 'college data now available'
 date: '2015-09-13T20:44:34-07:00'
-status: publish
 exported_permalink: /2015/09/college-data-now-available
-author: sarah
-excerpt: ''
-type: post
 id: 5652
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 The Dept of Education just released its new [College Scorecard](https://collegescorecard.ed.gov/), which includes never-before-released data like earnings 6-10 years after leaving school, combined with previously open data like admissions and completion rates. The data reveals data about the school, not individual student data, with the goal of helping prospective students compare schools based on real data about outcomes.
 

@@ -1,16 +1,9 @@
 ---
 title: 'getting started with drupal 7 and openshift'
 date: '2013-07-04T10:07:03-07:00'
-status: publish
 exported_permalink: /2013/07/getting-started-with-drupal-7-and-openshift
-author: sarah
-excerpt: ''
-type: post
 id: 3942
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 When learning a new web technology, I believe it is important to have hands-on experience from development to deployment. I chose [Open Shift](https://openshift.redhat.com), one of the [recommended cloud deployment options for Drupal 7](https://drupal.org/node/1860868). It’s free for 3 small instances, which seems perfect for experimentation.
 

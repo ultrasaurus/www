@@ -1,16 +1,8 @@
 ---
 title: 'Interaction 08: Cinematic Interaction Design'
 date: '2008-02-12T21:55:23-08:00'
-status: publish
 exported_permalink: /2008/02/interaction-08-cinematic-interaction-design
-author: sarah
-excerpt: ''
-type: post
 id: 354
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I’ve posted slides from my [talk](http://interaction08.ixda.org/Sarah_Allen.php) at Interaction08. It’s not as much fun without all the examples, but some folks who were there requested the slides…
 

@@ -1,16 +1,9 @@
 ---
 title: 'ruby on rails class'
 date: '2009-08-14T19:35:46-07:00'
-status: publish
 exported_permalink: /2009/08/ruby-on-rails-class
-author: sarah
-excerpt: ''
-type: post
 id: 1931
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I’ll be teaching Ruby on Rails in a hands-on class in SF. In starts quite soon, on 8/25. It will be suitable for anyone who has attended one of the recent workshops or for anyone who is a programmer already but just doesn’t know Ruby or Rails. For folks who need to install a dev environment, there’s an [SFRuby Meetup install fest](http://www.meetup.com/sfruby/calendar/11095876/) on 8/24. You can [sign up for the class online](http://www.jccsf.org/content_main.aspx?catid=686). Here’s the course description:
 

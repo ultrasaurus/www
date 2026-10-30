@@ -1,16 +1,8 @@
 ---
 title: 'participatory geekiness'
 date: '2003-09-02T20:35:31-07:00'
-status: publish
 exported_permalink: /2003/09/participatory-geekiness
-author: sarah
-excerpt: ''
-type: post
 id: 52
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 \#1 reason that I created this weblog was to experiment with new technology. Okay, in March 2003 weblogs were hardly new tech, but they were for me. The blog was also not the central them of the site, but just one of many such experiments.
 

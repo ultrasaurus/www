@@ -1,16 +1,8 @@
 ---
 title: 'subjective performance'
 date: '2005-07-03T14:50:27-07:00'
-status: publish
 exported_permalink: /2005/07/subjective-performance
-author: sarah
-excerpt: ''
-type: post
 id: 170
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 We’ve recently changed bug databases from [Bugzilla](http://www.bugzilla.org/) to [JIRA](http://www.atlassian.com/software/jira/). We made this choice since JIRA allows us to effectively manage multiple projects for multiple customers. I also really like the home portal UI that lets me set up my default view to have custom reports and bug lists. However, I find it hugely frustrating because JRIA feels much, much slower than bugzilla.
 

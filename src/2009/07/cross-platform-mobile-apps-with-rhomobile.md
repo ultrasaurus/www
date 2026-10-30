@@ -1,16 +1,9 @@
 ---
 title: 'cross-platform mobile apps with rhomobile'
 date: '2009-07-10T07:00:18-07:00'
-status: publish
 exported_permalink: /2009/07/cross-platform-mobile-apps-with-rhomobile
-author: sarah
-excerpt: ''
-type: post
 id: 1747
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 [Rhomobile](http://www.rhomobile.com/) offers an open-source, ruby application framework. On the client-side, Rhodes allows you to build mobile applications on iPhone, BlackBerry, Windows Mobile, Symbian and Android. The client app could be stand-alone or connected. On the server-side, enabling connected applications, RhoSync dramatically simplifies client-server data transfer.
 

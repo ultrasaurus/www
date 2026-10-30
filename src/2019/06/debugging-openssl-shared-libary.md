@@ -1,16 +1,9 @@
 ---
 title: 'debugging openssl shared libary'
 date: '2019-06-17T21:49:03-07:00'
-status: publish
 exported_permalink: /2019/06/debugging-openssl-shared-libary
-author: sarah
-excerpt: ''
-type: post
 id: 6818
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 I’m debugging an issue where my app uses a library that requires me to dynamically link with an openssl library. What’s more I’m debugging it on an old linux version. Sigh.
 

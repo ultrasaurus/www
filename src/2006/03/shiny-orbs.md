@@ -1,16 +1,8 @@
 ---
 title: 'shiny orbs'
 date: '2006-03-21T20:51:27-08:00'
-status: publish
 exported_permalink: /2006/03/shiny-orbs
-author: sarah
-excerpt: ''
-type: post
 id: 220
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I’ve always wanted to learn to make nice shiny things in Flash. I had a need for an indicator light this afternoon, and did a google search for “Flash radial gradient shiny light” and found [Shiny Orbs](http://www.kirupa.com/developer/mx2004/shinyorbs.htm) — step by step instructions that helped me befriend the Flash gradient tools.
 

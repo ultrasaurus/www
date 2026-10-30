@@ -1,16 +1,8 @@
 ---
 title: 'design is the art of making choices'
 date: '2004-07-19T21:20:36-07:00'
-status: publish
 exported_permalink: /2004/07/design-is-the-art-of-making-choices
-author: sarah
-excerpt: ''
-type: post
 id: 129
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 “Hallelujah!” It sure feels good to hear someone acknowledge that [usability is a technical problem](http://www.newsforge.com/article.pl?sid=04/07/07/1640244).
 

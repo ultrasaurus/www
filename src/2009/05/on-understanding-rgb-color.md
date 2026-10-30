@@ -1,16 +1,9 @@
 ---
 title: 'on understanding rgb color'
 date: '2009-05-29T04:34:57-07:00'
-status: publish
 exported_permalink: /2009/05/on-understanding-rgb-color
-author: sarah
-excerpt: ''
-type: post
 id: 1397
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Last week I wanted to teach the kids how to create a randomly colored shape, which (in [Shoes](http://shoooes.net/)) would use a fill color like this:
 

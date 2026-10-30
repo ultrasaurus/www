@@ -1,16 +1,9 @@
 ---
 title: 'non-violent resistance and bright-eyed wisdom #mlk'
 date: '2018-01-15T12:52:23-08:00'
-status: publish
 exported_permalink: /2018/01/non-violent-resistance-and-bright-eyed-wisdom-mlk
-author: sarah
-excerpt: ''
-type: post
 id: 6435
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 When Dr. Martin Luther King, Jr. accepted the Nobel Peace Prize in Oslo, Norway, December 11, 1964, his speech was an inspiring call to “make brotherhood, freedom, and justice realities in the United States of America.” The speech could have been written about the United States of America today.
 

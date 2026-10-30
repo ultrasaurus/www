@@ -1,17 +1,10 @@
 ---
 title: 'pictures of algebra'
 date: '2004-12-09T20:42:40-08:00'
-status: publish
 exported_permalink: /2004/12/pictures-of-algebra
-author: sarah
-excerpt: ''
-type: post
 id: 149
-category:
-    - Uncategorized
 tag:
     - learning
-post_format: []
 ---
 I wish Oliver Steele had been my algebra teacher. He has wonderful illustrations that he calls [grounded proofs](http://osteele.com/archives/2004/12/grounded-proofs) . For example, multiplication is commutative:  
 ![](http://osteele.com/images/2004/grounded-proofs/ab=ba.png)

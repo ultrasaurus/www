@@ -1,16 +1,9 @@
 ---
 title: 'google waves mixes in realtime'
 date: '2009-06-01T19:30:38-07:00'
-status: publish
 exported_permalink: /2009/06/google-waves-mixes-in-realtime
-author: sarah
-excerpt: ''
-type: post
 id: 1434
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 It is not a new idea to mix synchronous and asynchronous communication, in other words, mixing real-time, like chat, and store &amp; forward, like email. I have always felt that Internet communications application are oddly modal, where the UI is largely driven by the protocol. It was one of the things that led me to join Jonathan Gay in creating the Flash Media Server. The primary use case of Flash video has, of course, been simple broadcast, but we built in flexible APIs that allowed Tivo-like behavior for video and a seamless mix of real-time and persisted data with Shared Objects.
 

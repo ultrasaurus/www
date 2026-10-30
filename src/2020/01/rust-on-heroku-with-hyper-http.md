@@ -1,16 +1,9 @@
 ---
 title: 'rust on heroku with hyper http'
 date: '2020-01-05T18:39:54-08:00'
-status: publish
 exported_permalink: /2020/01/rust-on-heroku-with-hyper-http
-author: sarah
-excerpt: ''
-type: post
 id: 6984
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 Running an app on heroku requires at least one entry point responding to http. An easy way to do this is to use [hyper](hyper.rs) to create a simple web service.
 

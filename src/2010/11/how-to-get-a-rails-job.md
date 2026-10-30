@@ -1,16 +1,9 @@
 ---
 title: 'how to get a Rails job'
 date: '2010-11-18T05:53:20-08:00'
-status: publish
 exported_permalink: /2010/11/how-to-get-a-rails-job
-author: sarah
-excerpt: ''
-type: post
 id: 2960
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 The overall economy still sucks — I read that this is not just the US, but a global problem. Meanwhile, in my little corner of the world, I run into people everyday who are frustrated that they can’t find good Rails engineers to hire. I’ve [written](http://blazingcloud.net/2010/02/13/insourcing/) that companies need to hire people who are good engineers and don’t (yet) know Rails. I also talk to a lot of unemployed engineers — people laid off from .NET, java or management and young people who are struggling to find their first (good) job. This blog post is for those folks. There are some key skills that are different and that you can (and need to) start to acquire before you can easily find a job.
 

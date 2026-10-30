@@ -1,16 +1,8 @@
 ---
 title: 'software has a voice'
 date: '2007-05-22T20:56:30-07:00'
-status: publish
 exported_permalink: /2007/05/software-has-a-voice
-author: sarah
-excerpt: ''
-type: post
 id: 275
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I’ve always felt that software had a voice, so I was intrigued reading the [Voice of Tango](http://web.archive.org/web/20070705145206/http://www.tangotax.com/blog/) about the effort to write a true dialog for H&amp;R Block’s new tax preparation package “Tango.” This is a heck of a lot more concrete than I had been thinking of, but a fun read.
 

@@ -1,16 +1,9 @@
 ---
 title: 'declarative web GUI'
 date: '2003-11-19T10:10:20-08:00'
-status: publish
 exported_permalink: /2003/11/declarative-web-gui
-author: sarah
-excerpt: ''
-type: post
 id: 78
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: code
 ---
 *For thousands of years, philosophers and scientists have attempted to explain the cosmos in terms of dual opposing but coexistent principles: good and evil, yin and yang, matter and energy, mind and body, waves and particles, and, of course, programming code and markup languages.*
 

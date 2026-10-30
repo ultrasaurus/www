@@ -1,16 +1,9 @@
 ---
 title: 'seeking innovative and passionate engineers&#8230;'
 date: '2007-01-04T11:02:39-08:00'
-status: publish
 exported_permalink: /2007/01/seeking-innovative-and-passionate-engineers
-author: sarah
-excerpt: ''
-type: post
 id: 265
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: general
 ---
 Once again, I’m hiring…. If you read this weblog and live in the SF bay area, maybe you want to work on my team. I’d also consider Chicago, since our team has one remote engineer there. We collaborate a lot, so it’s good to have time together in the office.
 

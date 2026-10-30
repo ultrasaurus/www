@@ -1,16 +1,8 @@
 ---
 title: 'Foobar the Barbarian'
 date: '2003-10-14T22:04:35-07:00'
-status: publish
 exported_permalink: /2003/10/foobar-the-barbarian
-author: sarah
-excerpt: ''
-type: post
 id: 73
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 A simple adventure game, [Foobar the Barbarian](http://www.mylaszlo.com/lps/whisperstorm/foobar/foobar.lzx), is the first game I’ve seen written for the [Laszlo Presentation Server](http://www.laszlosystems.com).
 

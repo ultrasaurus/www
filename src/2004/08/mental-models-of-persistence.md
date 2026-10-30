@@ -1,16 +1,8 @@
 ---
 title: 'mental models of persistence'
 date: '2004-08-03T09:04:15-07:00'
-status: publish
 exported_permalink: /2004/08/mental-models-of-persistence
-author: sarah
-excerpt: ''
-type: post
 id: 133
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 It is a challenge to introduce a new model of UI to the web. People are clearly frustrated by the standard web application experience where interaction has devolved into a series of forms. The RIA model provides an opportunity to solve this problem.
 

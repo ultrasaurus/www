@@ -1,16 +1,9 @@
 ---
 title: 'patterns of actions are a making'
 date: '2019-12-24T12:27:17-08:00'
-status: publish
 exported_permalink: /2019/12/patterns-of-actions-are-a-making
-author: sarah
-excerpt: ''
-type: post
 id: 6961
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 “There are things that you don’t even realize that you can do.” In a [recent podcast](http://makeitthentelleverybody.com/2019/12/b-mure/), B. Mure tells about *graphic facilitation*:
 

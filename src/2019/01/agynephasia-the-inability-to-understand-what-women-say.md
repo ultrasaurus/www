@@ -1,16 +1,8 @@
 ---
 title: 'agynephasia: the inability to understand what women say'
 date: '2019-01-13T16:40:13-08:00'
-status: publish
 exported_permalink: /2019/01/agynephasia-the-inability-to-understand-what-women-say
-author: sarah
-excerpt: ''
-type: post
 id: 6697
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 There’s a common pattern where some men seem to have a complete inability to understand women when they speak. As far back [as the 1970s](http://answers.google.com/answers/threadview/id/609976.html), this kind of interaction has been illustrated with humor:
 

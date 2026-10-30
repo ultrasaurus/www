@@ -1,17 +1,11 @@
 ---
 title: 'Laszlo Mail'
 date: '2005-11-09T06:15:19-08:00'
-status: publish
 exported_permalink: /2005/11/laszlo-mail
-author: sarah
-excerpt: ''
-type: post
 id: 198
-category:
-    - Uncategorized
 tag:
     - Laszlo
-post_format: []
+category: general
 ---
 \[update\] Laszlo Mail is released into the wild! You can sign up for your very own account and check out our latest version at [www.laszlomail.com](http://www.laszlomail.com) As you may know, it has been available for [EarthLink](http://www.earthlink.net) subscribers since June.
 

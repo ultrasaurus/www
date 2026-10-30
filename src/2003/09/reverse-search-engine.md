@@ -1,16 +1,8 @@
 ---
 title: 'reverse search engine'
 date: '2003-09-28T21:07:53-07:00'
-status: publish
 exported_permalink: /2003/09/reverse-search-engine
-author: sarah
-excerpt: ''
-type: post
 id: 65
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 In keeping a web log, I’ve noticed that good information and interesting people find me. Christian Walker called this phenomenon a reverse search engine.
 

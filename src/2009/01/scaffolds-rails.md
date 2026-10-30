@@ -1,16 +1,9 @@
 ---
 title: 'Scaffolds != Rails'
 date: '2009-01-01T20:03:00-08:00'
-status: publish
 exported_permalink: /2009/01/scaffolds-rails
-author: sarah
-excerpt: ''
-type: post
 id: 601
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 In pretty much every blog tutorial generate scaffold plays a central role; however, the rails guides don’t say much about scaffolding. I wasn’t sure where to go next in my development, as I asked in my [last post](https://www.ultrasaurus.com/code/2008/12/rails-2-day-4-rcov-and-bdd.html#review): “Adding attributes and other models: do I scaffold again or just write code?”
 

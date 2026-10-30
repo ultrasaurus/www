@@ -1,16 +1,8 @@
 ---
 title: 'Peldi&#8217;s new blog'
 date: '2003-04-29T05:49:36-07:00'
-status: publish
 exported_permalink: /2003/04/peldis-new-blog
-author: sarah
-excerpt: ''
-type: post
 id: 17
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I am happy to report that Giacomo ‘Peldi’ Guilizzoni has started a [blog](http://www.peldi.com/blog).
 

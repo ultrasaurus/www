@@ -1,16 +1,9 @@
 ---
 title: 'seek to inspire'
 date: '2010-11-15T09:35:18-08:00'
-status: publish
 exported_permalink: /2010/11/seek-to-inspire
-author: sarah
-excerpt: ''
-type: post
 id: 2901
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 It was refreshing to hear a white man talk about diversity last week in a keynote address given by Dave Thomas at RubyConf 2010. Just one part of his keynote focused on diversity, specifically on gender diversity. This is was in stark contrast to the second day’s keynote by David Hansson (aka dhh), the engineer who created the initial Rails implementation and still leads the core team. David Hansson’s keynote was quite different. While both talks dove into technical details at times, Dave Hansson’s talk aimed to shock or titillate the audience, whereas Dave Thomas aimed to inspire. David Hansson seemed lazy by resorting to analogies of recreational drug use and airport body searches. It is much harder to inspire people. David Hansson has done lot of great work with Rails, but I think he could be more ambitious. I think he could do something awesome if he got outside of his comfort zone. There are more subtle and powerful forms of liberty than those he referred to in his talk.
 

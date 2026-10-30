@@ -1,16 +1,9 @@
 ---
 title: 'mobile payments hidden costs'
 date: '2011-08-25T15:10:59-07:00'
-status: publish
 exported_permalink: /2011/08/mobile-payments-hidden-costs
-author: sarah
-excerpt: ''
-type: post
 id: 3366
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 In the so-called 3rd world, mobile payments are stimulating economic growth and individual entrepreneurship. While in the United States, we struggle to overcome the legacy of an earlier trend in mobile payments facilitated by a plastic card. New players such as [Square](https://squareup.com/), [Verifone](http://www.verifone.com/), and [Erply](http://www.erply.com/) are bringing us, belatedly, into the modern world.
 

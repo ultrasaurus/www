@@ -1,16 +1,8 @@
 ---
 title: 'could learning to speak spanish be actually fun?'
 date: '2014-06-14T08:55:55-07:00'
-status: publish
 exported_permalink: /2014/06/learning-speak-spanish-actually-fun
-author: sarah
-excerpt: ''
-type: post
 id: 5114
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I believe that speaking a second language can be intrinsically fun, but it often isn’t. I’ve been digging into the question of what we can do to make it more fun, more often. I think the trick is to learn in a social situation when you are actually having fun. To test this hypothesis, my [Mightyverse](https://www.mightyverse.com/) friends and I created a card card game.
 

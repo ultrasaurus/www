@@ -1,16 +1,8 @@
 ---
 title: 'behavioral demographics'
 date: '2003-03-05T10:32:57-08:00'
-status: publish
 exported_permalink: /2003/03/behavioral-demographics
-author: sarah
-excerpt: ''
-type: post
 id: 7
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I was intrigued by the discussions of Microsoft’s new [3°](http://www.threedegrees.com) project,  
 and in particular by Michael Gartenberg’s [observation](http://weblogs.jupiterresearch.com/analysts/gartenberg/archives/000264.html) that this software targets "a behavioral demographic not just an age demographic."

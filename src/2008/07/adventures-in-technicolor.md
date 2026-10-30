@@ -1,16 +1,8 @@
 ---
 title: 'adventures in technicolor'
 date: '2008-07-06T03:44:36-07:00'
-status: publish
 exported_permalink: /2008/07/adventures-in-technicolor
-author: sarah
-excerpt: ''
-type: post
 id: 395
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 In 1938, [Technicolor](http://www.widescreenmuseum.com/oldcolor/technicolor1.htm) founder Herbert Kalmus spoke about the history of color in film: [Technicolor Adventures in Cinemaland  ](http://www.widescreenmuseum.com/oldcolor/kalmus.htm) (via [Sound and Color](http://www.ejumpcut.org/archive/onlinessays/JC17folder/SoundAndColor.html)). It was intriguing, although unsurprising, to read of the many technical hurdles to introducing color in film; however, I had never realized that were objections by some to the aesthetic value of color.
 

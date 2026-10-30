@@ -1,16 +1,8 @@
 ---
 title: 'black is for grownups'
 date: '2007-07-25T06:10:04-07:00'
-status: publish
 exported_permalink: /2007/07/black-is-for-grownups
-author: sarah
-excerpt: ''
-type: post
 id: 300
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 [Armin Vit](http://www.underconsideration.com/design/a/) [investigates color trends](http://www.underconsideration.com/speakup/archives/003641.html) in popular movie posters (via [information aesthetics](http://infosthetics.com/archives/2007/07/movie_poster_color_usage.html)). When I first skimmed the article (skipping the words to look at the pictures), I assumed the author had written a program to look at each pixel and graph the color frequency; however, upon reading the text, I learned that this intrepid designer had created the frequency graphs by hand based on his impression of dominant colors, which is arguably a more accurate approach. (Is there any truly great designer who is not obsessive?)
 

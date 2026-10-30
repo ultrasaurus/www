@@ -1,17 +1,10 @@
 ---
 title: 'roots of ambition'
 date: '2004-05-04T09:00:00-07:00'
-status: publish
 exported_permalink: /2004/05/roots-of-ambition
-author: sarah
-excerpt: ''
-type: post
 id: 119
-category:
-    - Uncategorized
 tag:
     - learning
-post_format: []
 ---
 This is the second part of my response to Anna Fels’ thought-provoking, yet unfortunately titled article that was discussed in my [last post](https://www.ultrasaurus.com/sarahblog/archives/000136.html).
 

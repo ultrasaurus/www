@@ -1,17 +1,11 @@
 ---
 title: 'Laszlo Systems named &#8220;Cool Vendor&#8221;'
 date: '2007-04-03T07:25:50-07:00'
-status: publish
 exported_permalink: /2007/04/laszlo-systems-named-cool-vendor
-author: sarah
-excerpt: ''
-type: post
 id: 270
-category:
-    - Uncategorized
 tag:
     - Laszlo
-post_format: []
+category: general
 ---
 Gartner has Laszlo Systems one of four “Cool Vendors in Application Development” for 2007. Highlights from the report…
 

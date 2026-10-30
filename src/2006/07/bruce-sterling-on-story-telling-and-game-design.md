@@ -1,16 +1,8 @@
 ---
 title: 'Bruce Sterling on Story Telling and Game Design'
 date: '2006-07-05T09:11:06-07:00'
-status: publish
 exported_permalink: /2006/07/bruce-sterling-on-story-telling-and-game-design
-author: sarah
-excerpt: ''
-type: post
 id: 248
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I just read [Bruce Sterling. The Wonderful Power of Storytelling](http://lib.ru/STERLINGB/story.txt) via [Luke W](http://www.lukew.com/ff/entry.asp?362). I believe that storytelling is a powerful element of great software design, and probably game design as well (although I’m no game designer). Despite his contrarian argument, I enjoyed reading his talk. Here are some highlights:
 

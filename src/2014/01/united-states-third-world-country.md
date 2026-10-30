@@ -1,16 +1,8 @@
 ---
 title: 'living in the third world'
 date: '2014-01-10T06:32:10-08:00'
-status: publish
 exported_permalink: /2014/01/united-states-third-world-country
-author: sarah
-excerpt: ''
-type: post
 id: 4812
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Sometimes today when I read news stories or see headlines contrasting images flash in my mind. The stark contrast of rich and poor in the United States today often feels like living in the third world, as I remember it as a kid living in El Salvador and the Philippines. I’ve captured a few of these, in style of the Internet meme, which tell the story in a way that is perhaps more accessible that the numbers used by the economists.
 

@@ -1,16 +1,9 @@
 ---
 title: 'twitter in the classroom'
 date: '2009-06-09T08:17:09-07:00'
-status: publish
 exported_permalink: /2009/06/twitter-in-the-classroom
-author: sarah
-excerpt: ''
-type: post
 id: 1459
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Marshall Kirkpatrick at ReadWriteWeb writes about [twitter in the classroom](http://www.readwriteweb.com/archives/how_one_teacher_uses_twitter_in_the_classroom.php) (via [Koichi C](http://edufire.com/content/articles/173-how-to-use-twitter-for-education-in-a-real-classroom), thanks [@wolframarnold](http://twitter.com/wolframarnold)). He leads with a detailed story about University of Texas at Dallas History Professor, Monica Rankin, who uses twitter to create a dynamic and vibrant discussion in a large class of 90 students. She projects [TweetDeck](http://tweetdeck.com) in the front of the class and students twitter via laptop, phone or hand-written notes to the TA. A graduated student created a video about the experiment (below) and Rankin [wrote about her perspective](http://www.utdallas.edu/~mar046000/usweb/twitterconclusions.htm).
 

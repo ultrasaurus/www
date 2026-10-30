@@ -1,16 +1,8 @@
 ---
 title: 'Putting the Fun in Functional'
 date: '2006-04-13T09:27:12-07:00'
-status: publish
 exported_permalink: /2006/04/putting-the-fun-in-functional
-author: sarah
-excerpt: ''
-type: post
 id: 232
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I enjoyed [slides](http://shufflebrain.com/etech06.htm) from [Amy Jo Kim’s](http://socialarchitect.typepad.com/musings/) talk at Etech (via [LukeW](http://www.lukew.com/ff/entry.asp?324)). I found particularly intriguing her definition of a game.  
 ![](http://shufflebrain.com/etech06_files/Slide0004.gif) The formal definition: a system in which players engage in artificial conflict defined by rules, that results in a quantifiable outcome (Rules of Play by Eric Zimmerman and Katie Salen) seems uncontroversial; however, I’m not sure I agree with her informal definition — a structured experience with rules &amp; goals *that’s fun*.

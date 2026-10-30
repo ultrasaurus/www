@@ -1,17 +1,11 @@
 ---
 title: 'language changes the way you think'
 date: '2008-12-20T10:23:16-08:00'
-status: publish
 exported_permalink: /2008/12/language-changes-the-way-you-think
-author: sarah
-excerpt: ''
-type: post
 id: 463
-category:
-    - general
 tag:
     - language
-post_format: []
+category: general
 ---
 > “A language that doesn’t affect the way you think about programming is not worth knowing.” — A. Perlis
 

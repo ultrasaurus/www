@@ -1,16 +1,9 @@
 ---
 title: 'open source in the public schools'
 date: '2013-06-22T16:06:03-07:00'
-status: publish
 exported_permalink: /2013/06/open-source-in-the-public-schools
-author: sarah
-excerpt: ''
-type: post
 id: 3913
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I believe we have a huge opportunity to integrate technology into our education system and empower a new generation. Our kids must become makers of technology, not just users of it. We can create this transition while reducing software and hardware budgets over time.
 

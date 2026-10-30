@@ -1,16 +1,9 @@
 ---
 title: 'kent beck on finding the itchy spot'
 date: '2010-04-24T19:26:47-07:00'
-status: publish
 exported_permalink: /2010/04/kent-beck-on-finding-the-itchy-spot
-author: sarah
-excerpt: ''
-type: post
 id: 2582
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 ![](http://sketchfu.com/user/image/680/Copy_of_Laughing_Goat.jpg)Kent Beck had a great anecdote in his [Startup Lessons Learned](http://www.sllconf.com/) talk yesterday which proved to be an apt metaphor for the role of a startup company. Kent keeps goats where he lives in Oregon and he talked about how he would go out to his backyard and approach one of the goats. He would scratch it behind its ear and it would happily munch grass, then he would scratch its neck and along its back, and then he would get to a particular spot on the rump of the goat and the goat would suddenly respond in ecstasy.
 

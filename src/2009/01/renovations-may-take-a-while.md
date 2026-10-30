@@ -1,16 +1,9 @@
 ---
 title: 'renovations may take a while'
 date: '2009-01-03T08:37:54-08:00'
-status: publish
 exported_permalink: /2009/01/renovations-may-take-a-while
-author: sarah
-excerpt: ''
-type: post
 id: 474
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I’ve been periodically trying to fix comments on this weblog with no luck. Since I started this weblog in [2003](http://web.archive.org/web/20030326155324/http://ultrasaurus.com/) with Movable Type 2.63, I have upgraded it every year or two and periodically added do-dads and code snippets. Sometimes it is easier to start fresh than to fix what’s there.
 

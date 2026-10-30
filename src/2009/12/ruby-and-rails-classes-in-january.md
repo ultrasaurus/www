@@ -1,16 +1,9 @@
 ---
 title: 'ruby and rails classes in january'
 date: '2009-12-28T22:43:42-08:00'
-status: publish
 exported_permalink: /2009/12/ruby-and-rails-classes-in-january
-author: sarah
-excerpt: ''
-type: post
 id: 2310
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I’ve gotten a number of requests for follow-on training in San Francisco for Rails and the Ruby language, so here are some classes coming up in January.
 

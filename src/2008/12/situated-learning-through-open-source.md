@@ -1,19 +1,13 @@
 ---
 title: 'situated learning through open source'
 date: '2008-12-26T07:31:25-08:00'
-status: publish
 exported_permalink: /2008/12/situated-learning-through-open-source
-author: sarah
-excerpt: ''
-type: post
 id: 467
-category:
-    - general
 tag:
     - language
     - learning
     - 'open source'
-post_format: []
+category: general
 ---
 I just read [Situated Learning: Legitimate Peripheral Participation](http://www.amazon.com/gp/product/0521423740?ie=UTF8&tag=ultrasaurus-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0521423740) by Jean Lave and Etienne Wenger, which I put on my wish list since I am a total geek about theories of how people learn, particularly with regard to social learning. It’s a challenging read with lots of big words, but it short, fun and well-worth it. The approach to thinking about learning resonated with me. Naturally, I saw applications for human interface design (perhaps a subject for another post), but unexpectedly, I found that I recognized this concept of learning in my own experiences of open source development.
 

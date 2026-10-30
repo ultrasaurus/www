@@ -1,16 +1,8 @@
 ---
 title: 'thoughtless acts?'
 date: '2006-07-07T06:30:39-07:00'
-status: publish
 exported_permalink: /2006/07/thoughtless-acts
-author: sarah
-excerpt: ''
-type: post
 id: 249
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 How does our environment influence our behavior? This [lovely book](http://www.amazon.com/exec/obidos/redirect?link_code=as2&path=ASIN/0811847756&tag=ultrasaurus-20&camp=1789&creative=9325), by Jane Fulton Suri + IDEO, highlights things we do as we interact with the objects in our world and with other people. It challenges us to consider: which of these acts are conscious and which are done without thought? How do we react, respond, co-opt, and confom to our world? How do we create signals to other people about what belongs and what should happen?
 

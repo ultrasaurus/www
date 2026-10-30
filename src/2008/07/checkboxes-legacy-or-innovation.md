@@ -1,16 +1,8 @@
 ---
 title: 'checkboxes: legacy or innovation?'
 date: '2008-07-23T19:44:22-07:00'
-status: publish
 exported_permalink: /2008/07/checkboxes-legacy-or-innovation
-author: sarah
-excerpt: ''
-type: post
 id: 396
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 In some ways, I feel strongly that the art of UI design has devolved for me to be even writing this post. If I recall correctly, the checkbox was invented in the 1970s. In the glory days of desktop GUIs of the 90s, it played a fairly minor role next to the direct manipulation of windows, columns, floating panels and multi-dimensional controls. However, in the late 90s, UI design and development shifted dramatically with the dominance of web-based applications. Suddenly the creation of a user interface equated with generating a stream of HTML text.
 

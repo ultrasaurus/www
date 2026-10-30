@@ -1,16 +1,8 @@
 ---
 title: 'upexpectedly pratical lessons from college'
 date: '2007-09-22T20:15:27-07:00'
-status: publish
 exported_permalink: /2007/09/upexpectedly-pratical-lessons-from-college
-author: sarah
-excerpt: ''
-type: post
 id: 315
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 As might be expected, a computer science degree has served me well, with practical application to my career as a software engineer. However, the unexpectedly practical lessons stemmed from my stint as a teaching assistant for the intro CS class (then called CS11, and now CS15 at Brown University).
 

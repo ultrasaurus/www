@@ -1,16 +1,9 @@
 ---
 title: 'sailsjs testing: how to truncate the database'
 date: '2016-06-11T19:10:00-07:00'
-status: publish
 exported_permalink: /2016/06/sailsjs-testing-patterns-trunctate-database
-author: sarah
-excerpt: ''
-type: post
 id: 5990
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 SailsJS is a NodeJS MVC framework that we use for the [OpenOpps Platform](https://github.com/openopps/openopps-platform). Sails has some basic [testing docs](http://sailsjs.org/documentation/concepts/testing), but it doesn’t explain how to set up the framework nicely where the database is dropped in between tests. I find myself always re-figuring out these patterns when I write experimental apps.
 

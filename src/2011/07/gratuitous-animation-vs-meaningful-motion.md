@@ -1,16 +1,9 @@
 ---
 title: 'gratuitous animation vs. meaningful motion'
 date: '2011-07-17T20:22:29-07:00'
-status: publish
 exported_permalink: /2011/07/gratuitous-animation-vs-meaningful-motion
-author: sarah
-excerpt: ''
-type: post
 id: 3336
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 In 1996, I was working at Macromedia, when Rob Burgess took over as CEO. Shortly after he came on board, an edict came down from the top: “no more gratuitous animation.” I saw people look at each other bewildered, most employees thought that the company was all about gratuitous animation. I agreed with Rob.
 

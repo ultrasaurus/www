@@ -1,16 +1,9 @@
 ---
 title: 'teaching kids to code: lesson #3'
 date: '2009-05-31T00:10:10-07:00'
-status: publish
 exported_permalink: /2009/05/teaching-kids-to-code-lesson-3
-author: sarah
-excerpt: ''
-type: post
 id: 1425
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 On the third (and final) class in my series of teaching Shoes and Ruby to 4th/5th graders, I decided to teach them to create a game. I met with my two fifth grade helpers the afternoon before the day of the class. I taught them how to create text and buttons and add a click method and showed them the Shoes manual, then let them experiment. This was a good experience for them, but we ended the day with a more complicated program than I felt we could do with the class and it incorporated internet images which wouldn’t work in the classroom since Internet connectivity isn’t working right now. I also ended up getting beyond my Shoes experience and had to ask help of the Shoes list. After some help from some kind souls, this was the app the kids wrote:
 

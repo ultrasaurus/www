@@ -1,16 +1,9 @@
 ---
 title: 'why diversity in computing?'
 date: '2015-03-22T18:55:28-07:00'
-status: publish
 exported_permalink: /2015/03/why-diversity-in-computing
-author: sarah
-excerpt: ''
-type: post
 id: 5476
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 [NCWIT Scorecard](http://www.ncwit.org/resources/ncwit-scorecard-report-status-women-information-technology) has great statistics and references. While the report’s title is “Why is gender diversity important in computing?” much of the supporting research references different kinds of diversity. Here’s a high level snapshot:
 

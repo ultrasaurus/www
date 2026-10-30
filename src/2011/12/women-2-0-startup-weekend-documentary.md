@@ -1,16 +1,9 @@
 ---
 title: 'women 2.0 startup weekend documentary'
 date: '2011-12-14T07:33:00-08:00'
-status: publish
 exported_permalink: /2011/12/women-2-0-startup-weekend-documentary
-author: sarah
-excerpt: ''
-type: post
 id: 3506
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I’m thrilled to be part of the [Women 2.0 Startup Weekend Documentary](http://www.women2.org/watch-the-women-2-0-startup-weekend-documentary/): Start Something. Filmed as a student project with San Francisco State University’s Digital Video Intensive program, Start Something follows three groups of entrepreneurs as they navigate Startup Weekend, a three day event where entrepreneurs come together to share ideas, form teams and launch startups.
 

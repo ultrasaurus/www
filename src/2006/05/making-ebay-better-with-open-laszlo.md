@@ -1,17 +1,11 @@
 ---
 title: 'Making eBay Better with Open Laszlo'
 date: '2006-05-24T19:50:11-07:00'
-status: publish
 exported_permalink: /2006/05/making-ebay-better-with-open-laszlo
-author: sarah
-excerpt: ''
-type: post
 id: 241
-category:
-    - Uncategorized
 tag:
     - Laszlo
-post_format: []
+category: code
 ---
 There’s a nice [zdnet article](http://blogs.zdnet.com/Stewart/?p=25) about [cooqy](http://www.cooqy.com), an eBay site developed using [OpenLaszlo](http://www.openlaszlo.org) by Robert Yeager . “After taking a look at AJAX, Flash and traditional web development platforms, he settled on OpenLazslo. According to him it was because it was a mature product as well as free and open source. OpenLaszlo’s elegant XML-based programming model was a big plus and made for rapid development. Cooqy went from nothing to core functionality in 4 weeks of part time work.”
 

@@ -1,16 +1,8 @@
 ---
 title: 'work as play'
 date: '2004-07-20T08:06:36-07:00'
-status: publish
 exported_permalink: /2004/07/work-as-play
-author: sarah
-excerpt: ''
-type: post
 id: 130
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I have given a lot of thought to how to achieve a state of play in my work. Not only am I more productive, in both quantity and quality, but its more fun too. It feels a bit odd to be applying such conscious thought to constructing a playful attitude, but I believe that it is no different from professional entertainers or the people who craft a good game. Humans have a long history of structured play. Why not make our work a form of play?
 

@@ -1,16 +1,8 @@
 ---
 title: 'UI for staying in the flow'
 date: '2004-10-11T20:56:17-07:00'
-status: publish
 exported_permalink: /2004/10/ui-for-staying-in-the-flow
-author: sarah
-excerpt: ''
-type: post
 id: 144
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 *Computers should help us concentrate on our work, without concentrating on the computer*
 

@@ -1,16 +1,9 @@
 ---
 title: 'test-driven teaching'
 date: '2009-08-16T19:47:01-07:00'
-status: publish
 exported_permalink: /2009/08/test-driven-teaching
-author: sarah
-excerpt: ''
-type: post
 id: 1963
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 In preparing to teach a new class, [Ruby on Rails Fundamentals](http://www.jccsf.org/content_main.aspx?catid=686), I felt strongly that I wanted to teach test-driven development (TDD). Initially my motivation was that I found it hard to learn TDD when I learned Rails. I found little instructional material on the web and the variety of test frameworks was a bit overwhelming. As an experienced programmer, I understood the methodology (although I hadn’t practiced it much), but couldn’t find good resources to teach myself the basic syntax. I found cucumber quite approachable, but struggled with TestUnit and RSpec (which I eventually learned well through [pair programming](https://www.ultrasaurus.com/sarahblog/2009/07/pair-programming-velocity/)). I figured that if people didn’t learn TDD in an introductory class, how the heck were they to learn it at all? Also, the last thing I want is for graduates of my class to have experience building web applications in Ruby on Rails that have no tests.
 

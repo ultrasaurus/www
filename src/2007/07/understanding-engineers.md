@@ -1,16 +1,8 @@
 ---
 title: 'understanding engineers'
 date: '2007-07-19T00:53:46-07:00'
-status: publish
 exported_permalink: /2007/07/understanding-engineers
-author: sarah
-excerpt: ''
-type: post
 id: 298
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 [Charles Miller describes](http://fishbowl.pastiche.org/2007/07/17/understanding_engineers_feasibility) how engineers express the level of difficulty of solving a problem (via [Ron K. Jeffries](http://blog.eronj.com/2007/07/18/charles-miller-understanding-engineers-feasibility/)). He has some great descriptions of each level of difficulty, which I found quite accurate:
 

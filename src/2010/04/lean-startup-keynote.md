@@ -1,16 +1,9 @@
 ---
 title: 'lean startup keynote'
 date: '2010-04-23T08:36:08-07:00'
-status: publish
 exported_permalink: /2010/04/lean-startup-keynote
-author: sarah
-excerpt: ''
-type: post
 id: 2540
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Brief notes on Eric Ries’ keynote at [Startup Lessons Learned Conference](http://www.sllconf.com/). If I can keep up I will live blog the conference. Eric says: “I do not want your undivided attention.” So here goes. Twitter hashtag is #sllconf and the event is being [live streamed](http://www.justin.tv/startuplessonslearned).
 

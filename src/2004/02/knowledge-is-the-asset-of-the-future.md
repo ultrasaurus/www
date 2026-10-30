@@ -1,16 +1,8 @@
 ---
 title: 'knowledge is the asset of the future'
 date: '2004-02-11T18:06:28-08:00'
-status: publish
 exported_permalink: /2004/02/knowledge-is-the-asset-of-the-future
-author: sarah
-excerpt: ''
-type: post
 id: 94
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 “Knowledge is the asset of the future, and as companies transition to a knowledge basis, everyone in a company will start to move their knowledge into an executable software form.”  
 — When Executives Code by Phillip Armour via [.NET From India](http://www.dotnetindia.com/2004/01/when_executives.html)

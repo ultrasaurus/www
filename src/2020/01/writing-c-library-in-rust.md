@@ -1,16 +1,9 @@
 ---
 title: 'writing c library in rust'
 date: '2020-01-15T22:36:12-08:00'
-status: publish
 exported_permalink: /2020/01/writing-c-library-in-rust
-author: sarah
-excerpt: ''
-type: post
 id: 6995
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 I want to write a library in Rust that can be called from C and just as easily called from Rust code. The tooling makes it pretty easy, but I had to look in a few places to figure how it is supposed to work and get tests running in both languages.
 

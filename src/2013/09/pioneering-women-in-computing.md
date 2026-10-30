@@ -1,16 +1,9 @@
 ---
 title: 'pioneering women in computing'
 date: '2013-09-14T10:59:43-07:00'
-status: publish
 exported_permalink: /2013/09/pioneering-women-in-computing
-author: sarah
-excerpt: ''
-type: post
 id: 4478
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 When I graduated from college people would ask me, “How does it feel to be a pioneer in your field?” There are so few women in this profession that just by entering it you’re doing groundbreaking work. For a moment I was proud of myself and then I thought, “Should I be proud of this? That some accident of my birth made me female and I’m interested in the power of these new machines?”
 

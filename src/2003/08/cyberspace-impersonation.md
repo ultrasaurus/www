@@ -1,16 +1,8 @@
 ---
 title: 'cyberspace impersonation'
 date: '2003-08-01T06:32:18-07:00'
-status: publish
 exported_permalink: /2003/08/cyberspace-impersonation
-author: sarah
-excerpt: ''
-type: post
 id: 37
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Peldi has [enountered an impersonator](http://www.peldi.com/blog/000027.html). I had wondered whether the addition of video communication with Flash would reduce this kind of on-line mischief. By the way, I don’t think it is off-topic at all.
 

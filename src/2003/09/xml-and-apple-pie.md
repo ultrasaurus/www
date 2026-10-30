@@ -1,16 +1,8 @@
 ---
 title: 'XML and apple pie'
 date: '2003-09-14T18:37:56-07:00'
-status: publish
 exported_permalink: /2003/09/xml-and-apple-pie
-author: sarah
-excerpt: ''
-type: post
 id: 59
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 “Failing to work with XML, is, in some circles, tantamount to being unpatriotic or antisocial.” — JSTL in Action, by Shawn Bayern
 

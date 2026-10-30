@@ -1,16 +1,9 @@
 ---
 title: 'zero-knowledge proof: trust without shared secrets'
 date: '2018-04-07T10:52:58-07:00'
-status: publish
 exported_permalink: /2018/04/zero-knowledge-proof-trust-without-shared-secrets
-author: sarah
-excerpt: ''
-type: post
 id: 6569
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 In cryptography we typically share a secret which allows us to decrypt future messages. Commonly this is a password that I make up and submit to a Web site, then later produce to verify I am the same person.
 

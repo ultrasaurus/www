@@ -1,16 +1,8 @@
 ---
 title: 'how to recruit a diverse team'
 date: '2014-07-16T05:57:27-07:00'
-status: publish
 exported_permalink: /2014/07/recruit-diverse-team
-author: sarah
-excerpt: ''
-type: post
 id: 5137
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 There is no quick fix to diversity hiring. The easiest way to hire for diversity is to start with diversity — to start when you add the second person on your team — but if you reading this post, you likely have an imbalanced or homogeneous team. I’ve primarily written this for all-white or all-male teams in tech. I believe the diversity has little to do with appearance, but gender and race is a shortcut to noticing the problem and visible variety actually affects behavior.
 

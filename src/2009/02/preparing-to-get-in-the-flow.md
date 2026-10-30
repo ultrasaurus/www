@@ -1,16 +1,9 @@
 ---
 title: 'preparing to get in the flow'
 date: '2009-02-21T13:37:46-08:00'
-status: publish
 exported_permalink: /2009/02/preparing-to-get-in-the-flow
-author: sarah
-excerpt: ''
-type: post
 id: 839
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Sam Wan writes about [preconditions for a playful experience](http://mellowmachines.com/blog/?p=283) or how to prepare to “get in the flow.” He highlights 3 related preconditions:
 

@@ -1,16 +1,8 @@
 ---
 title: 'omit needless words'
 date: '2005-11-10T12:19:23-08:00'
-status: publish
 exported_permalink: /2005/11/omit-needless-words
-author: sarah
-excerpt: ''
-type: post
 id: 199
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 There’s been some confusion about what laszlomail.com is for, despite the fact that we have text on the front page that says its for communication service providers. Doh! No one reads text.
 

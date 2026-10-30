@@ -1,17 +1,10 @@
 ---
 title: 'the shape of ideas'
 date: '2003-08-17T13:58:12-07:00'
-status: publish
 exported_permalink: /2003/08/the-shape-of-ideas
-author: sarah
-excerpt: ''
-type: post
 id: 42
-category:
-    - Uncategorized
 tag:
     - language
-post_format: []
 ---
 It must be interesting to have synesthesia. I enjoyed the vivid descriptions of this phenomenon in reading [Blue Cats and Chartreuse Kittens: How Synesthetes Color Their Worlds](http://www.allconsuming.net/item.cgi?id=0805071873). ![](http://images.amazon.com/images/P/0805071873.01.MZZZZZZZ.jpg)
 

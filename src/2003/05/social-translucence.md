@@ -1,16 +1,8 @@
 ---
 title: 'Social Translucence'
 date: '2003-05-26T07:55:26-07:00'
-status: publish
 exported_permalink: /2003/05/social-translucence
-author: sarah
-excerpt: ''
-type: post
 id: 21
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 A new paper by Tom Erickson, et. al, introduces several examples of a “social proxy,” a user interface element that helps people to visualize collective interactions.
 

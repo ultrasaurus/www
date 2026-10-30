@@ -1,16 +1,9 @@
 ---
 title: 'getting started with r'
 date: '2012-10-23T01:02:12-07:00'
-status: publish
 exported_permalink: /2012/10/getting-started-with-r
-author: sarah
-excerpt: ''
-type: post
 id: 3689
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I installed the “roasted marshmallows” version of R (2.15.1) from [www.r-project.org](http://www.r-project.org/), which went smoothly on my MacBookPro running Lion. I was happy to find its REPL ran easily on the command line in Terminal.
 

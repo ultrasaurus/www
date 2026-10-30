@@ -1,16 +1,8 @@
 ---
 title: 'gears installation experience (part 3)'
 date: '2008-02-24T16:08:14-08:00'
-status: publish
 exported_permalink: /2008/02/gears-installation-experience-part-3
-author: sarah
-excerpt: ''
-type: post
 id: 360
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 As it turns out, the typical install avoids popup blocker issues and does return you to your site. With the latest version, you can even append name and icon\_src params to include more context about the web application you are coming from.
 

@@ -1,16 +1,8 @@
 ---
 title: 'when there is an HTML fallback, why compromise?'
 date: '2008-07-27T20:55:23-07:00'
-status: publish
 exported_permalink: /2008/07/when-there-is-an-html-fallback-why-compromise
-author: sarah
-excerpt: ''
-type: post
 id: 398
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 My colleague, Peter Andrea, makes a good point:
 

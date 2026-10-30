@@ -1,16 +1,9 @@
 ---
 title: 'ffmpeg for ogg and webm'
 date: '2013-06-06T23:05:13-07:00'
-status: publish
 exported_permalink: /2013/06/ffmpeg-for-ogg-and-webm
-author: sarah
-excerpt: ''
-type: post
 id: 3893
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 I wanted to experiment with Ogg and WebM and the &lt;video&gt; tag, and I thought the easiest way would be with my favorite command-line transcoder, ffmpeg. It’s fabulous support for just about every audio and video file format makes it fabulous for hacking.
 

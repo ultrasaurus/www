@@ -1,16 +1,9 @@
 ---
 title: 'lucene/solr meetup, july 28'
 date: '2010-07-30T20:34:43-07:00'
-status: publish
 exported_permalink: /2010/07/lucenesolr-meetup-july-28
-author: sarah
-excerpt: ''
-type: post
 id: 2753
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I attended the [Lucene/Solr meetup](http://www.meetup.com/SFBay-Lucene-Solr-Meetup/calendar/14124466/) this week — quite a swank event sponsored by [Salesforce](http://www.salesforce.com/) with tasty appetizers, beers and an incredible view of the bay. The three speakers were very knowledgeable and well spoken and I enjoyed hearing about the different applications of Lucene and Solr. Below are my rough notes. For folks who want to learn more about Lucene and Solr, check out the upcoming conference [Lucene Revolution](http://lucenerevolution.org/), Oct 5-8, 2010 in Boston.
 

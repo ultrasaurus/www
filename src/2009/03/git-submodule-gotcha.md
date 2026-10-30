@@ -1,16 +1,9 @@
 ---
 title: 'git submodule gotcha'
 date: '2009-03-10T02:07:23-07:00'
-status: publish
 exported_permalink: /2009/03/git-submodule-gotcha
-author: sarah
-excerpt: ''
-type: post
 id: 927
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 I anticipate enjoying git submodules for all of the various and sundry dependencies for my project. However there is a bit of a gotcha with my specific use case. It’s seems I’m [not alone](http://blog.buildingwebapps.com/2008/5/20/got-git-submodules-not-a-go-go), but I thought I’d write this up for others who may into the same thing (and for my own future reference).
 

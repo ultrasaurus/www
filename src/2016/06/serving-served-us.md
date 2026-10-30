@@ -1,16 +1,9 @@
 ---
 title: 'serving those who served us'
 date: '2016-06-05T16:42:34-07:00'
-status: publish
 exported_permalink: /2016/06/serving-served-us
-author: sarah
-excerpt: ''
-type: post
 id: 5966
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 There is a tremendous sea of good will in the public to volunteer their time, energy, and services to support Veterans and their families. The Department of Veterans Innovators Network has a lengthy list of potential innovation opportunities to serve Veterans, ranging from developing reimagined service journeys for Veterans seeking mental health services to designing 3D printed personalized assistive technologies for Veterans with disabilities to developing a machine learning algorithm to scan retinal images to detect blindness in Veterans.
 

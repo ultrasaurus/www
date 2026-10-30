@@ -1,16 +1,9 @@
 ---
 title: 'agile development in action'
 date: '2010-02-06T09:41:30-08:00'
-status: publish
 exported_permalink: /2010/02/agile-development-in-action
-author: sarah
-excerpt: ''
-type: post
 id: 2395
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I don’t know who first said that if you aren’t embarrassed about your v1 product, you waited too long to ship. At [Mightyverse](https://www.mightyverse.com), we repeated that to ourselves as we struggled to release the first version of our [iPhone app](http://itunes.apple.com/us/app/mightyverse/id345713026?mt=8). After 2 weeks, we hit 128 downloads and I enjoyed reading my co-founder, Paul Lundahl’s [reflection on the process](http://blog.mightyverse.com/2010/02/mightyverse-iphone-app-hits-128-downloads/). Despite our misgivings, we continue to explore the painful edge of what may not yet be a minimally viable product.
 

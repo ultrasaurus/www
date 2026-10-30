@@ -1,16 +1,8 @@
 ---
 title: 'gender issues'
 date: '2003-09-04T20:25:19-07:00'
-status: publish
 exported_permalink: /2003/09/gender-issues
-author: sarah
-excerpt: ''
-type: post
 id: 53
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Whenever I read about someone doing interesting work or a paper someone has written, I like to look them up on the web. It’s neat to find other papers they’ve written or see projects they have worked on or just get a better sense of who they are.
 

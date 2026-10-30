@@ -1,16 +1,9 @@
 ---
 title: 'd3.js experiments in the console'
 date: '2012-03-30T12:39:44-07:00'
-status: publish
 exported_permalink: /2012/03/d3-js-experiments-in-the-console
-author: sarah
-excerpt: ''
-type: post
 id: 3573
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 d3 (aka Data-Driven Documents) is a great little JavaScript framework for data visualization. It’s got a nice declarative syntax for DOM manipulation that’s quite readable, but takes a bit of effort to understand exactly what it’s doing.
 

@@ -1,16 +1,9 @@
 ---
 title: 'am I a woman programmer?'
 date: '2013-05-21T21:10:36-07:00'
-status: publish
 exported_permalink: /2013/05/am-i-a-woman-programmer
-author: sarah
-excerpt: ''
-type: post
 id: 3881
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I am a woman. I was born this way. I strongly identify with my gender.  
 I am also a programmer. I started programming when I was 12. Arguably, I was girl then, not yet a woman.

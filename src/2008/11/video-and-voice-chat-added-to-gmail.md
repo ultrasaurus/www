@@ -1,16 +1,8 @@
 ---
 title: 'video and voice chat added to gmail'
 date: '2008-11-14T06:24:07-08:00'
-status: publish
 exported_permalink: /2008/11/video-and-voice-chat-added-to-gmail
-author: sarah
-excerpt: ''
-type: post
 id: 437
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 InformationWeek [reports](http://www.informationweek.com/blog/main/archives/2008/11/google_adds_vid_1.html;jsessionid=VJY03MBID00RAQSNDLRSKH0CJUNN2JVN) on google’s new [voice and video chat](http://googleblog.blogspot.com/2008/11/talk-face-to-face-right-from-within.html). Since I gotta check all all the new video tech, I dove right in. Hmm… who do I know who uses a gmail account who will be logged in right now?
 

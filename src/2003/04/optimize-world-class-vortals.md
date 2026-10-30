@@ -1,16 +1,8 @@
 ---
 title: 'optimize world-class vortals'
 date: '2003-04-19T16:47:51-07:00'
-status: publish
 exported_permalink: /2003/04/optimize-world-class-vortals
-author: sarah
-excerpt: ''
-type: post
 id: 16
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 The reports of the demise of the web economy must be greatly exagerated. I recently found my browser pointed at the [Web Economy Bullshit Generator](http://www.dack.com/web/bullshit.html). As these things go, this one is pretty good. I had thought I had heard (and perhaps spoken) every bullshit internet term there was, but “vortal” was unknown to me.
 

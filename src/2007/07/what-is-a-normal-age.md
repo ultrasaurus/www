@@ -1,16 +1,8 @@
 ---
 title: 'what is a &#8220;normal&#8221; age?'
 date: '2007-07-01T11:52:30-07:00'
-status: publish
 exported_permalink: /2007/07/what-is-a-normal-age
-author: sarah
-excerpt: ''
-type: post
 id: 279
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 In a [comment to my last post](https://www.ultrasaurus.com/sarahblog/archives/000343.html), Phllip Kerman notes that plenty of “normal aged” people are using Facebook. It caused me to wonder, what age is normal? I rather think that any age where you are healthy of mind and body is normal, but perhaps he meant the age with the largest number of people. In the U.S. in 2000 that would be 40-49 year olds, if we look at the general population. (That’s a actually a little older than me.)
 

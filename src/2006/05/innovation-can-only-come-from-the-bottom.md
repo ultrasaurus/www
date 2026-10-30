@@ -1,16 +1,8 @@
 ---
 title: 'innovation can only come from the bottom'
 date: '2006-05-27T21:21:22-07:00'
-status: publish
 exported_permalink: /2006/05/innovation-can-only-come-from-the-bottom
-author: sarah
-excerpt: ''
-type: post
 id: 242
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 “In my experience, innovation can only come from the bottom. Those closest to the problem are in the best position to solve it. I believe any organization that depends on innovation must embrace chaos. Loyalty and obedience are not your tools; you must use measurement and objective debate to separate the good from the bad.” (Greg Linden talks about “[a project I was explicitly forbidden to do and did anyway](http://glinden.blogspot.com/2006/04/early-amazon-shopping-cart.html).”)
 

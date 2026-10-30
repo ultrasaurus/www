@@ -1,16 +1,9 @@
 ---
 title: 'ignite talk on mobile applications'
 date: '2009-12-10T09:02:12-08:00'
-status: publish
 exported_permalink: /2009/12/ignite-talk-on-mobile-applications
-author: sarah
-excerpt: ''
-type: post
 id: 2206
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I really enjoyed the Bay Area Ignite talks last night both giving mine and hearing the others. Preparing for a 5 minute talk was brutal, but giving it was really kind of fun. The format is 20 slides auto-rotated at 15 seconds per slide accompanied by a 5 minute talk.
 

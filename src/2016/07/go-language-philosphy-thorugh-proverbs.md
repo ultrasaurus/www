@@ -1,16 +1,9 @@
 ---
 title: 'go language philosphy thorugh proverbs'
 date: '2016-07-02T11:52:08-07:00'
-status: publish
 exported_permalink: /2016/07/go-language-philosphy-thorugh-proverbs
-author: sarah
-excerpt: ''
-type: post
 id: 6001
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Rob Pike’s [Go Proverbs](https://www.youtube.com/watch?v=PAAkCSZUG1c&feature=youtu.be) convey many elements of the Go programming language philosphy in a way that is approachable and fun. He compares with the game of Go, which is “easy to learn, and hard to master.” Inspired by the “Go Proverbs Illustrated” book about patterns in playing the game of Go, he crafted a set of proverbs about the Go programming language. His goal is that proverbs should be “short, poetic, general, about more than the Go programming language. Contradictory is OK. Life and programming are full of contradictions.” These are ideas to explain to beginners or maybe in a code review. He notes that there are probably many more. These proverbs seek to capture the ideas that make programming in Go different.
 

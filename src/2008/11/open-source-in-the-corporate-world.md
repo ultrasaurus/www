@@ -1,17 +1,11 @@
 ---
 title: 'open source in the corporate world'
 date: '2008-11-28T10:43:44-08:00'
-status: publish
 exported_permalink: /2008/11/open-source-in-the-corporate-world
-author: sarah
-excerpt: ''
-type: post
 id: 448
-category:
-    - Uncategorized
 tag:
     - 'open source'
-post_format: []
+category: code
 ---
 [Ted Leung](http://www.sauria.com/blog/) reflects on [open source and the corporate world](http://herdingcode.com/?p=57) in an interview on [herding code](http://herdingcode.com/). It is a bit long for the typical web attention span (over an hour), but worth listening to.
 

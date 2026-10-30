@@ -1,16 +1,8 @@
 ---
 title: 'Dean for America RIA'
 date: '2003-11-11T05:00:13-08:00'
-status: publish
 exported_permalink: /2003/11/dean-for-america-ria
-author: sarah
-excerpt: ''
-type: post
 id: 76
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Howard Dean has made headlines for his use of the internet in his campaign for president. The “[Dean for America](http://www.deanforamerica.com)” website regularly updates the homepage with latest news and hosts the [official Howard Dean blog](http://blog.deanforamerica.com/). There is a web application for planning or attending [local events](http://action.deanforamerica.com/meet/) that tracks and publishes stats. *So far Dean supporters have organized 7,892 events across the country with 86,628 attendees.*
 

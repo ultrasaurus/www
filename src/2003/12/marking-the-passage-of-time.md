@@ -1,16 +1,8 @@
 ---
 title: 'marking the passage of time'
 date: '2003-12-24T13:06:13-08:00'
-status: publish
 exported_permalink: /2003/12/marking-the-passage-of-time
-author: sarah
-excerpt: ''
-type: post
 id: 82
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 In real life, there is nothing like a small child to help you remember the passage of time. Ever since Thanksgiving, I have heard the daily refrain “I wish Christmas was tomorrow.” Finally it is. Between then and now, time has passed both quickly and slowly. Grown-up activities seem to whiz by, while the moments of glue and colors, flour and sugar, paper and scissors stretch into forever.
 

@@ -1,16 +1,8 @@
 ---
 title: Geekcorps
 date: '2006-04-15T14:19:49-07:00'
-status: publish
 exported_permalink: /2006/04/geekcorps
-author: sarah
-excerpt: ''
-type: post
 id: 233
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 ![](http://www.geekcorps.org/images/design/logo.gif)I just heard about [Geekcorps](http://www.geekcorps.org/) (via [sfwow](http://groups.yahoo.com/group/new-sfwow/) mailing list). They describe themselves “as a non-profit moving at the speed of the Internet.”
 

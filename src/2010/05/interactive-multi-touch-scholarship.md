@@ -1,16 +1,9 @@
 ---
 title: 'interactive multi-touch scholarship'
 date: '2010-05-30T01:54:30-07:00'
-status: publish
 exported_permalink: /2010/05/interactive-multi-touch-scholarship
-author: sarah
-excerpt: ''
-type: post
 id: 2700
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 The Garibaldi Project has created a way for scholars to interact with a work of art that is too fragile and too large for routine study. Yesterday, I sat in on a forum presentation of this Brown University project. The project is a collaboration with Microsoft Research and the British Library, using a [Microsoft Surface](http://www.microsoft.com/surface) installation along with large screen projection to create a way to explore this historical piece of art along with related documents.![](http://blogs.brown.edu/project/cdi/14-18_enhanced_by_BstnPht_538px.jpg)  
 The Girabaldi Panorama is a scroll over 4′ tall and 273′ wide, painted in watercolor on both sides — unrolled, it would almost stretch the length of a football field. It tells the story of Italian hero Giuseppe Garibaldi in a series of images. The format was a precursor to modern cinema and was likely set up with a systems of cranks to present a section at a time with a voice over. As a historical artifact, the panorama is very fragile and scholars have limited access, but Brown University Librarian Harriette Hemmasi envisions the library as a dynamic and transformative learning center and has worked to help create access to the work in this innovative project.

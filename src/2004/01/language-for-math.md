@@ -1,17 +1,10 @@
 ---
 title: 'Language for Math'
 date: '2004-01-18T13:54:50-08:00'
-status: publish
 exported_permalink: /2004/01/language-for-math
-author: sarah
-excerpt: ''
-type: post
 id: 89
-category:
-    - Uncategorized
 tag:
     - language
-post_format: []
 ---
 “The language most bilingual people use to mentally solve math problems isn’t necessarily their native language or even the language that is most prevalent in their environment. Psychological research shows it’s the language in which they were first taught math” — [Mental Math Dependant On Language, Researchers Find](http://www.sciencedaily.com/releases/2001/10/011015060024.htm)
 

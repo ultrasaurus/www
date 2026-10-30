@@ -1,16 +1,8 @@
 ---
 title: 'other blog widgets'
 date: '2003-09-24T07:21:28-07:00'
-status: publish
 exported_permalink: /2003/09/other-blog-widgets
-author: sarah
-excerpt: ''
-type: post
 id: 63
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 [hollowcube mini-blog reader](http://www.hollowcube.com/talk/) by Michael Gunn can also be found on [were-here](http://www.were-here.com/). It let’s you read recent entries of other blogs without leaving the gutter. I found the interface intuitive and easy to navigate …[more info](http://www.hollowcube.com/talk/archives/000407.php).
 

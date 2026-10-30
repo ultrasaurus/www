@@ -1,16 +1,9 @@
 ---
 title: 'lessons learned and future thoughts'
 date: '2013-09-01T05:20:47-07:00'
-status: publish
 exported_permalink: /2013/09/lessons-learned-and-future-thoughts
-author: sarah
-excerpt: ''
-type: post
 id: 4356
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 When I was in high school, I thought we were supposed to see clearly into the future, where decisions would be made at regular intervals…
 

@@ -1,16 +1,9 @@
 ---
 title: 'sillicon valley love notes'
 date: '2011-12-23T11:29:39-08:00'
-status: publish
 exported_permalink: /2011/12/sillicon-valley-love-notes
-author: sarah
-excerpt: ''
-type: post
 id: 3512
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 We need more pop culture that show how strong men can be attracted to powerful, smart, technical women. A couple of years ago, I wrote about the rise in [hacker love songs](https://www.ultrasaurus.com/sarahblog/2009/08/hacker-love-songs/) being a positive trend for women in computing. Today I saw [Silicon Valley Ryan Gosling](http://siliconvalleyryangosling.tumblr.com/).
 

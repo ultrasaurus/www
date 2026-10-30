@@ -1,16 +1,9 @@
 ---
 title: 'impact matters more than intent'
 date: '2017-08-06T22:42:29-07:00'
-status: publish
 exported_permalink: /2017/08/impact-matters-more-than-intent
-author: sarah
-excerpt: ''
-type: post
 id: 6288
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 *Disclaimer: I work at Google. This article is based on 18 years of observing the company as an outsider, along with over a year of experience as a senior technical leader at the company.*
 

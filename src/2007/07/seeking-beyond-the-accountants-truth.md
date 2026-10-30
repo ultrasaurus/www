@@ -1,16 +1,8 @@
 ---
 title: 'seeking beyond the accountant&#8217;s truth'
 date: '2007-07-15T20:23:07-07:00'
-status: publish
 exported_permalink: /2007/07/seeking-beyond-the-accountants-truth
-author: sarah
-excerpt: ''
-type: post
 id: 294
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I’ve been struggling with how to express a particular aspect of what [we](http://www.laszlosystems.com/) call the cinematic user experience: how film creates an emotional connection with the viewer and how such a connection also enhances software design.
 

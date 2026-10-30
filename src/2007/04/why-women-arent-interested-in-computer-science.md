@@ -1,17 +1,10 @@
 ---
 title: 'why women aren&#8217;t interested in computer science'
 date: '2007-04-23T06:34:21-07:00'
-status: publish
 exported_permalink: /2007/04/why-women-arent-interested-in-computer-science
-author: sarah
-excerpt: ''
-type: post
 id: 273
-category:
-    - Uncategorized
 tag:
     - gender
-post_format: []
 ---
 It is good to read about progress from some colleges in creating gender balance in computer science, since the overall trend has been a steady downward curve in the number of female cs grads. \[see NYT article “[Computer Science Takes Steps to Bring Women to the Fold](http://)” — thanks [Tucker](http://pt.withy.org/ptalk/)!\]
 

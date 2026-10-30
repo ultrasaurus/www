@@ -1,16 +1,8 @@
 ---
 title: 'the soul of a man-made creation'
 date: '2008-09-15T05:56:38-07:00'
-status: publish
 exported_permalink: /2008/09/the-soul-of-a-man-made-creation
-author: sarah
-excerpt: ''
-type: post
 id: 415
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 “In most people’s vocabularies, design means veneer. It’s interior decorating. It’s the fabric of the curtains and the sofa. But to me, nothing could be further from the meaning of design. Design is the fundamental soul of a man-made creation that ends up expressing itself in successive outer layers of the product or service.” – Steve Jobs
 

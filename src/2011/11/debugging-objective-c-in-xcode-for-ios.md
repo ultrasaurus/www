@@ -1,16 +1,9 @@
 ---
 title: 'debugging objective-c in xcode for iOS'
 date: '2011-11-02T06:40:59-07:00'
-status: publish
 exported_permalink: /2011/11/debugging-objective-c-in-xcode-for-ios
-author: sarah
-excerpt: ''
-type: post
 id: 3428
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I’m coding again in native Objective-C coding for iOS with the lovely XCode. It has been a while so I’ve been reading up on debugging tricks. Sadly, it still feels a bit like debugging in Macsbug in 1990…
 

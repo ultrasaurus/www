@@ -1,16 +1,8 @@
 ---
 title: 'cisco CTO, padmasree warrior'
 date: '2008-10-19T17:32:56-07:00'
-status: publish
 exported_permalink: /2008/10/cisco-cto-padmasree-warrior
-author: sarah
-excerpt: ''
-type: post
 id: 421
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Inspirational [story](http://news.bbc.co.uk/2/hi/technology/7643308.stm) by Maggie Shiels about Cisco CTO, Padmasree Warrior.
 

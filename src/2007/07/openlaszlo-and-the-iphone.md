@@ -1,17 +1,11 @@
 ---
 title: 'OpenLaszlo and the iPhone'
 date: '2007-07-10T07:48:52-07:00'
-status: publish
 exported_permalink: /2007/07/openlaszlo-and-the-iphone
-author: sarah
-excerpt: ''
-type: post
 id: 291
-category:
-    - Uncategorized
 tag:
     - Laszlo
-post_format: []
+category: code
 ---
 Although I am proud of our corporate management for setting aside its religious upbringing and recognizing some of the [serious limitations](http://weblog.openlaszlo.org/archives/2007/07/openlaszlo-and-the-iphone/) in this first incarnation of the [JesusPhone](http://www.boingboing.net/2007/06/28/the_passion_of_the_j.html), it is exciting to see members of the [OpenLaszlo](http://www.openlaszlo.org/) congregation diving in.
 

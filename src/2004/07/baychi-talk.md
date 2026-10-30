@@ -1,16 +1,8 @@
 ---
 title: 'BayCHI talk'
 date: '2004-07-02T15:31:37-07:00'
-status: publish
 exported_permalink: /2004/07/baychi-talk
-author: sarah
-excerpt: ''
-type: post
 id: 128
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I’ll be speaking at BayCHI next week…
 

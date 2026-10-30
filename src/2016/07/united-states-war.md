@@ -1,16 +1,9 @@
 ---
 title: 'on the brink of war'
 date: '2016-07-06T23:33:04-07:00'
-status: publish
 exported_permalink: /2016/07/united-states-war
-author: sarah
-excerpt: ''
-type: post
 id: 6014
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 When I was a little girl, I lived for a year in El Salvador. I went to a private school and generally lived a life of privilege. Our house was smaller than the one outside of Boston, and we didn’t have air-conditioning or a fancy compound like other members of the British-American club where we went swimming. My brother and I could go down to the corner store and buy firecrackers, and we would go across the street to a soccer field and find spots in the nearby trees where we could blow up piles of sticks. From there we could see where some folks lived: shacks with no running water, tin roofs, and painfully thin children.
 

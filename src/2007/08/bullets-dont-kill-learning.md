@@ -1,17 +1,10 @@
 ---
 title: 'Bullets don&#8217;t kill Learning&#8230;'
 date: '2007-08-21T13:11:03-07:00'
-status: publish
 exported_permalink: /2007/08/bullets-dont-kill-learning
-author: sarah
-excerpt: ''
-type: post
 id: 309
-category:
-    - Uncategorized
 tag:
     - learning
-post_format: []
 ---
 “Bullets don’t kill learning, but improper use of bullets kills learning.” –Richard Mayer
 

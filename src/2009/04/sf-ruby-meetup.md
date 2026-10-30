@@ -1,16 +1,9 @@
 ---
 title: 'sf ruby meetup'
 date: '2009-04-03T20:00:49-07:00'
-status: publish
 exported_permalink: /2009/04/sf-ruby-meetup
-author: sarah
-excerpt: ''
-type: post
 id: 976
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Last week I attended the [March SF Ruby Meetup](http://www.meetup.com/sfruby/calendar/9781300/). (Some day I hope to attend a meetup where I don’t personally double the number of women, but at least I wasn’t all alone, and the guys treated me as more of a geek than a girl, which is always a good sign.) I found the talks engaging and learned a few things.
 

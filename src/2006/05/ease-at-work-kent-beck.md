@@ -1,16 +1,8 @@
 ---
 title: 'Ease at Work (Kent Beck)'
 date: '2006-05-19T19:59:19-07:00'
-status: publish
 exported_permalink: /2006/05/ease-at-work-kent-beck
-author: sarah
-excerpt: ''
-type: post
 id: 239
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I went to hear Kent Beck speak on Tuesday and he asked: “when was the last time you were comfortable in your skin as a programmer?” …and when did you last have that feeling at work?
 

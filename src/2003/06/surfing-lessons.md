@@ -1,16 +1,8 @@
 ---
 title: 'surfing lessons'
 date: '2003-06-21T21:47:33-07:00'
-status: publish
 exported_permalink: /2003/06/surfing-lessons
-author: sarah
-excerpt: ''
-type: post
 id: 31
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I just discovered [Mark Pilgrim’s Recommended Reading](http://diveintomark.org/newdoor/). This nifty page lets you type in your url and generates a list of blogs you might want to read. It worked quite well for me.  
 (I found this site thanks to a comment by [Baldur Bjarnason](http://www.unishade.com/cgi-bin/index.cgi) on [but’s she’s a girl](http://www.rousette.org.uk/mt-static/blog/archives/000056.html)).

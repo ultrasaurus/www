@@ -1,16 +1,9 @@
 ---
 title: 'making of esther music video'
 date: '2018-02-03T14:29:49-08:00'
-status: publish
 exported_permalink: /2018/02/making-of-esther-music-video
-author: sarah
-excerpt: ''
-type: post
 id: 6477
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 In 1991, the Company of Science &amp; Art created a music video for Phish. It featured richly colored pastel drawings by Scott Nybakken with just a little bit of vector art and compositing that was likely done in Photoshop 1.0.
 

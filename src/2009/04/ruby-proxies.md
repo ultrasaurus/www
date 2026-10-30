@@ -1,18 +1,12 @@
 ---
 title: 'ruby proxies'
 date: '2009-04-17T14:11:00-07:00'
-status: publish
 exported_permalink: /2009/04/ruby-proxies
-author: sarah
-excerpt: ''
-type: post
 id: 1051
-category:
-    - general
 tag:
     - gogarugo
     - Ruby
-post_format: []
+category: general
 ---
 [Ilya Grigorik](http://www.igvita.com/), gave a very informative talk “Ruby Proxies for Scale, Performance, and Monitoring”
 

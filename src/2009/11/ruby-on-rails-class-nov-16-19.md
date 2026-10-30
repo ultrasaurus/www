@@ -1,16 +1,9 @@
 ---
 title: 'ruby on rails class nov 16-19'
 date: '2009-11-05T15:49:52-08:00'
-status: publish
 exported_permalink: /2009/11/ruby-on-rails-class-nov-16-19
-author: sarah
-excerpt: ''
-type: post
 id: 2124
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I am excited to be teaching a Ruby on Rails class at Marakana in San Francisco on Nov 16-19th. I’ve come to feel that the 1 day workshops just give participants a taste of the technology and a quick peek at the power of Ruby on Rails. After working on the course materials, I still feel that 4-days is a short time, but I am excited to have the opportunity to spend that much focused time teaching a group of students in a small, hands-on class. If you have a need to learn Ruby on Rails, please [sign up](http://marakana.com/training/ruby/ruby_on_rails.html?a=sarah).
 

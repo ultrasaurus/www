@@ -1,16 +1,9 @@
 ---
 title: 'Geek User Interface'
 date: '2005-06-18T11:01:02-07:00'
-status: publish
 exported_permalink: /2005/06/geek-user-interface
-author: sarah
-excerpt: ''
-type: post
 id: 169
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: code
 ---
 When I started at [Laszlo](http://www.laszlosystems.com) over two years ago, there were two kinds of engineers at the company, those who used emacs and those who used vi — roughly divided by coasts, with emacs in the east and vi on the left. I had thought that no one would use vi by choice, that it was only used when people were stuck with no other option, remotely logged into a server. I had learned to use vi a bit in college. Just enough to hobble around: dd, d$, cw, :q, :w, :q!. I was horrified. Who thought up these bizarre key bindings? I left college for jobs writing desktop applications, secure in my certainty that this appalling example of software engineering would surely die a quiet death, drifting into historical obscurity.
 

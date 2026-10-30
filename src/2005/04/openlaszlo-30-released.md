@@ -1,16 +1,9 @@
 ---
 title: 'OpenLaszlo 3.0 released'
 date: '2005-04-27T10:38:50-07:00'
-status: publish
 exported_permalink: /2005/04/openlaszlo-30-released
-author: sarah
-excerpt: ''
-type: post
 id: 165
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: code
 ---
 I am pleased to announce the official release of [OpenLaszlo 3.0](http://www.openlaszlo.org), previously known as Laszlo Presentation Server. The new name is in honor of Laszlo’s commitment to its open source platform. Since the initial release, which allowed folks to download the source in a zip file, you can now find…
 

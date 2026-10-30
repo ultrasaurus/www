@@ -1,16 +1,8 @@
 ---
 title: 'videos make money with Revver'
 date: '2006-03-28T20:58:24-08:00'
-status: publish
 exported_permalink: /2006/03/videos-make-money-with-revver
-author: sarah
-excerpt: ''
-type: post
 id: 225
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 [Revver](http://www.revver.com/) shares ad revenue with video creators and affiliates who publish. The videos are transmitted in QuickTime format with an ad embedded at the end. If you click on the ad, it generates revenue. It’s nice that you only see the ad if you watch till the end :)
 

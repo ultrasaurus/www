@@ -1,16 +1,9 @@
 ---
 title: 'coding is the new literacy'
 date: '2013-09-05T18:01:30-07:00'
-status: publish
 exported_permalink: /2013/09/coding-is-the-new-literacy
-author: sarah
-excerpt: ''
-type: post
 id: 4421
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Code literacy is not just the ability to read and write code. It is a problem-solving ability.
 

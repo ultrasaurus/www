@@ -1,16 +1,9 @@
 ---
 title: 'become a working developer in 5 months?'
 date: '2012-01-03T06:54:25-08:00'
-status: publish
 exported_permalink: /2012/01/become-a-working-developer-in-5-months
-author: sarah
-excerpt: ''
-type: post
 id: 3530
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Jeff Casimir believes he can train anyone with the passion and will to learn to be a professional software developer. He goes so far as to say if you don’t make it (and you are really working at it), he’ll consider it a personal failure if you don’t. Also, he’s partnered with LivingSocial who is eager to hire graduates of the program, paying you to learn *whether or not* you qualify for a job at the end.
 

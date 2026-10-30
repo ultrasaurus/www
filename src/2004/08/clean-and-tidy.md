@@ -1,16 +1,8 @@
 ---
 title: 'clean and tidy'
 date: '2004-08-29T06:56:19-07:00'
-status: publish
 exported_permalink: /2004/08/clean-and-tidy
-author: sarah
-excerpt: ''
-type: post
 id: 136
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I feel so much better with blog comments once again swept clean. Many thanks to [Jay Allen’s MT Blacklist](http://www.jayallen.org/projects/mt-blacklist/). The new release addresses the latest comment spammer scheme that was frustrating me. The installation was ridiculously easy and I was so pleased that I’ve sent him a PayPal donation.
 

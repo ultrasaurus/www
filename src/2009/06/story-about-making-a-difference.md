@@ -1,16 +1,9 @@
 ---
 title: 'story about making a difference'
 date: '2009-06-19T20:45:07-07:00'
-status: publish
 exported_permalink: /2009/06/story-about-making-a-difference
-author: sarah
-excerpt: ''
-type: post
 id: 1520
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Inspired by the SlideShare story contest, I created a presentation that tells the story of how we came to create a workshop to teach women ruby and how things have turned out so far.
 

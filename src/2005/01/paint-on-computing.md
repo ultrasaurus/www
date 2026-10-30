@@ -1,16 +1,8 @@
 ---
 title: 'paint-on computing'
 date: '2005-01-23T13:30:03-08:00'
-status: publish
 exported_permalink: /2005/01/paint-on-computing
-author: sarah
-excerpt: ''
-type: post
 id: 156
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Harry Chesley writes about [when eveything computes](http://www.mememotes.com/meme_motes/2005/01/when_everything.html) in his new blog [Meme Motes](http://www.mememotes.com/). In this recent blog entry, Harry challenged himself to make a prediction about the future:
 

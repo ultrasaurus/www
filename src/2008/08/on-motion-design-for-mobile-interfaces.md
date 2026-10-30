@@ -1,16 +1,8 @@
 ---
 title: 'on motion design for mobile interfaces'
 date: '2008-08-30T07:51:15-07:00'
-status: publish
 exported_permalink: /2008/08/on-motion-design-for-mobile-interfaces
-author: sarah
-excerpt: ''
-type: post
 id: 408
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 On Wednesday evening, I heard Christian Robertson speak about [Motion Design: Wayfinding and Storytelling in Mobile UI](http://punchcut.com/index.php?s=company_newsdetail&id=37) at IxDA SF.
 

@@ -1,16 +1,9 @@
 ---
 title: 'geeking out'
 date: '2008-12-14T09:01:43-08:00'
-status: publish
 exported_permalink: /2008/12/geeking-out
-author: sarah
-excerpt: ''
-type: post
 id: 458
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I’ve been learning Ruby on Rails over the past couple of days and have decided to chronicle my [adventures in code](https://www.ultrasaurus.com/code/) in a separate spot. I’ve found that my regular readers tend to be a diverse crowd and some of their eyes tend to glaze over when I’ve delved into the nitty details of code.
 

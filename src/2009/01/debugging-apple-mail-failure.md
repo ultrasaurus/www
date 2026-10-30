@@ -1,16 +1,9 @@
 ---
 title: 'debugging Apple Mail failure'
 date: '2009-01-22T22:28:26-08:00'
-status: publish
 exported_permalink: /2009/01/debugging-apple-mail-failure
-author: sarah
-excerpt: ''
-type: post
 id: 682
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Just in case anyone was wondering how to tell what really happened when something goes wrong in Apple’s Mail application on Leopard (via [dslreports](http://www.dslreports.com/faq/14522))
 

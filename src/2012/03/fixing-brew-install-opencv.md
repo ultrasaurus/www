@@ -1,16 +1,9 @@
 ---
 title: 'fixing brew install opencv on osx'
 date: '2012-03-30T03:46:27-07:00'
-status: publish
 exported_permalink: /2012/03/fixing-brew-install-opencv
-author: sarah
-excerpt: ''
-type: post
 id: 3583
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 This is more about fixing my brew install, than about opencv. As with many install issues the root cause was actually pretty simple, but finding it was challenging. Along the way, I fixed a number of issues which took a bit of digging to find, so I’m leaving a little trail on the web in case other people run into the same things — or in case some inspired open source citizen has time to add better solution messages to brew. The first step of any solution, is, of course, understanding the problem.
 

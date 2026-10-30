@@ -1,16 +1,9 @@
 ---
 title: 'wiki philosophy, reflections on the future'
 date: '2009-05-22T19:04:38-07:00'
-status: publish
 exported_permalink: /2009/05/wiki-philosophy-reflections-on-the-future
-author: sarah
-excerpt: ''
-type: post
 id: 1351
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I enjoyed [Ward Cunnigham’s video tour](http://talklikeaduck.denhaven2.com/2009/05/21/ward-cunningham-on-wikis-and-agility) of his office “wiki space,” which is reconfigurable by the people who work there with all desks on rollers. At the end he describes wiki as a phillosophy rather than the technology it is today… maybe wikis need to transform into something that will enable a community to develop software.
 

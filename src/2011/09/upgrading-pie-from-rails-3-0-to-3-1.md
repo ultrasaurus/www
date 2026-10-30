@@ -1,16 +1,9 @@
 ---
 title: 'upgrading pie from rails 3.0 to 3.1'
 date: '2011-09-13T08:23:59-07:00'
-status: publish
 exported_permalink: /2011/09/upgrading-pie-from-rails-3-0-to-3-1
-author: sarah
-excerpt: ''
-type: post
 id: 3406
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Whenever I upgrade Rails, I always start with “rails new” so that I get all the new config file goodness — I want to start fresh with whatever the new defaults are and then only make the modifications that I really want in my app. Here’s the process I went through upgrading the pie “bakery” (a relative simple Rails 3.0 app) to Rails 3.1.
 

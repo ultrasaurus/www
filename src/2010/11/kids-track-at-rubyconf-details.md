@@ -1,16 +1,9 @@
 ---
 title: 'kids track at RubyConf details'
 date: '2010-11-06T12:43:01-07:00'
-status: publish
 exported_permalink: /2010/11/kids-track-at-rubyconf-details
-author: sarah
-excerpt: ''
-type: post
 id: 2869
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Thanks to the support of the RubyConf organizers and a core group of dedicated engineers we are putting on a parallel track at RubyConf with activities for kids. The kids signup already went out on the conference list, but I’m posting more details for everyone here and in case some parents missed the initial call for participation!
 

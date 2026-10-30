@@ -1,16 +1,8 @@
 ---
 title: 'application personality'
 date: '2008-07-04T12:29:38-07:00'
-status: publish
 exported_permalink: /2008/07/application-personality
-author: sarah
-excerpt: ''
-type: post
 id: 394
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Martijn van Welie has a good perspective on emotional design: the behavior of an application causes us to project a personality onto it. Some examples from [his post](http://www.welie.com/thoughts/):
 

@@ -1,16 +1,9 @@
 ---
 title: 'little rules for working life'
 date: '2013-09-22T09:09:47-07:00'
-status: publish
 exported_permalink: /2013/09/little-rules-for-working-life
-author: sarah
-excerpt: ''
-type: post
 id: 4486
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Working in a new situation, closely with a [new colleague](http://www.jasonshen.com/) this summer, I found myself often saying “I have a policy…” and I realized that over time I’ve create quite a few silly and some serious rules that help me navigate the day-to-day work of software development or simply working with people. These echo in my head or I say them aloud when I find myself in a specific situation. I do break these rules, but they make me think through those exceptions very carefully.
 

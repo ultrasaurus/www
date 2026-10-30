@@ -1,17 +1,10 @@
 ---
 title: 'dotsub translates obama video into 19 languages'
 date: '2008-10-30T07:52:35-07:00'
-status: publish
 exported_permalink: /2008/10/dotsub-translates-obama-video-into-19-languages
-author: sarah
-excerpt: ''
-type: post
 id: 432
-category:
-    - Uncategorized
 tag:
     - language
-post_format: []
 ---
 It is inspiring to see an American presidential candidate demonstrate fluency in a foreign language. I don’t know how well Obama can converse in Spanish, but this message comes across as conversational and that he has a grasp of the language rather than just parroting foreign sounds. We have come a long way since JFK said “Ich bin ein Berliner” (which translates to “I am a jelly-filled doughnut,” rather than the identification with the city residents as he intended). Despite the humorous translation, the gesture was appreciated by Germans who heard the speech, as well as those from a later generation who told me the story. In general, Americans have a poor reputation for understanding other cultures and reaching across boundaries.
 

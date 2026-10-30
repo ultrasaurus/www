@@ -1,16 +1,8 @@
 ---
 title: 'draw your own comics'
 date: '2006-01-10T04:59:20-08:00'
-status: publish
 exported_permalink: /2006/01/draw-your-own-comics
-author: sarah
-excerpt: ''
-type: post
 id: 208
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I missed this when it was posted to the [OpenLaszlo weblog](http://weblog.openlaszlo.org/index.php?s=mainada) in Nov, but I really like [this site](http://www.mainada.net/comics/) which lets you draw and publish your own comics. There’s a pretty nice app which let’s you draw comics.
 

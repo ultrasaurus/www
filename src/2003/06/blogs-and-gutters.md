@@ -1,16 +1,8 @@
 ---
 title: 'blogs and gutters'
 date: '2003-06-20T08:54:54-07:00'
-status: publish
 exported_permalink: /2003/06/blogs-and-gutters
-author: sarah
-excerpt: ''
-type: post
 id: 30
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Recently I have found myself talking about what we put in the gutter of a blog. I’ve heard that the term gutter comes from publishing — that space near the book binding which you want to keep blank, since it is hard to read anything printed there. I’ve also seen web page design documents that refer to the gutter as the space between collumns. I’ve heard this terminology over the years and it has never been an issue for me. However, it feels unsettling, even disturbing to call the collumn on the right of my blog, a gutter. Nonetheless, this term seems frequently used in the blogosphere.
 

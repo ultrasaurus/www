@@ -1,16 +1,9 @@
 ---
 title: 'becoming a technical leader'
 date: '2016-02-22T11:37:24-08:00'
-status: publish
 exported_permalink: /2016/02/becoming-a-technical-leader
-author: sarah
-excerpt: ''
-type: post
 id: 5912
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 How does someone learn leadership, especially technical leadership? I believe that leadership skills are skills you need to become a great coder. We develop software that is used by tens or hundreds or tens of thousands or hundreds of millions of people. That is a kind of leadership in action.
 

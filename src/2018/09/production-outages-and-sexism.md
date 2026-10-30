@@ -1,16 +1,9 @@
 ---
 title: 'production outages are like sexism'
 date: '2018-09-16T07:12:23-07:00'
-status: publish
 exported_permalink: /2018/09/production-outages-and-sexism
-author: sarah
-excerpt: ''
-type: post
 id: 6662
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I write this as a privileged white cis woman, or at least that’s what I look like, with my blue hair, ivy league education and house in San Francisco. I have compound privilege, so what I describe below represents an easy life.
 

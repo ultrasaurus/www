@@ -1,16 +1,8 @@
 ---
 title: 'Grouper Video Wall'
 date: '2006-03-26T11:47:47-08:00'
-status: publish
 exported_permalink: /2006/03/grouper-video-wall
-author: sarah
-excerpt: ''
-type: post
 id: 222
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 [Grouper](http://www.grouper.com/) is a P2P file sharing program focused on helping people share videos with people they know. ![](https://www.ultrasaurus.com/images/blog/grouper/grouper-small.jpg)Their web site offers some very nice social video features. The home page has fabulous implementation of a “video wall.” It’s actually a wall of thumbnails, but it is also a dynamic Flash app that serves as navigation into the site. The images cycle randomly making it so you could use this as a primary video selector and not get bored. I like this because it transforms web video into a “lean back” experience similar to television or movies, which seems appropriate for a video surfing experience.
 

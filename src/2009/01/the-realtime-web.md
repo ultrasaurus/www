@@ -1,16 +1,9 @@
 ---
 title: 'the realtime web'
 date: '2009-01-04T09:36:23-08:00'
-status: publish
 exported_permalink: /2009/01/the-realtime-web
-author: sarah
-excerpt: ''
-type: post
 id: 476
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 The only way that the Realtime Web is going to happen is for the tech to be adopted by the browsers, and for application developers to stop worrying about the details of how to get bits from server to client and worry more about the applications they are creating. The technology to support a Realtime Web was developed in [1981](http://www.faqs.org/rfcs/rfc793.html). TCP/IP or “socket” connections are, in fact, what the Web is built on. We don’t need to invent a new protocol or innovative techniques, we just need to expose some APIs for what is already happening at a low level when you browse the Web.
 

@@ -1,16 +1,8 @@
 ---
 title: 'online video site review'
 date: '2006-04-01T20:37:51-08:00'
-status: publish
 exported_permalink: /2006/04/online-video-site-review
-author: sarah
-excerpt: ''
-type: post
 id: 229
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Lately I’ve been touring the hopping online video neighborhood. It seemed to be an active space and I’ve been out of the video world for a while. As I dug in, I found more and more references to new (and old) video sites. Last year, TechCrunch reviewed the [filckrs of video](http://www.techcrunch.com/2005/11/06/the-flickrs-of-video/). I got up to comment 113 in the techcrunch article, creating a list of video sites, and realized that I would be taking on a full-time job to review each of this. Nevertheless I was intrigued and found a few more reviews[The Creme de Video Sharing Websites?](http://25thdimension.blogsome.com/2005/11/01/the-creme-de-video-sharing-websites) and [top 16 according to djp72](http://www.djp72.net/blog/?p=248).
 

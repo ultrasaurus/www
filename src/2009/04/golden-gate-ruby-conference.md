@@ -1,16 +1,9 @@
 ---
 title: 'golden gate ruby conference'
 date: '2009-04-27T07:02:04-07:00'
-status: publish
 exported_permalink: /2009/04/golden-gate-ruby-conference
-author: sarah
-excerpt: ''
-type: post
 id: 1146
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 The [Golden Gate Ruby Conference](http://gogaruco.com/) was one of the best technical conferences I’ve attended. In addition to my links (below), you can look at [pivotallabs live blogging and justin.tv videos](http://pivotallabs.com/gogaruco). Justin.tv, which has a Ruby-powered website, provided [full coverage](http://www.justin.tv/gogaruco), and videos will be posted on the [pivotal labs](http://pivotallabs.com/gogaruco/talks) website.
 

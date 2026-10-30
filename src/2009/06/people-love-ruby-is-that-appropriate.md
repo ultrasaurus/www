@@ -1,16 +1,9 @@
 ---
 title: 'people love Ruby&#8230; is that appropriate?'
 date: '2009-06-30T23:38:04-07:00'
-status: publish
 exported_permalink: /2009/06/people-love-ruby-is-that-appropriate
-author: sarah
-excerpt: ''
-type: post
 id: 1323
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 People love Ruby… “is that appropriate?” Dave Thomas asks, “is a software tool something that should be the object of our love?”
 

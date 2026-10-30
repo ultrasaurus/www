@@ -1,16 +1,8 @@
 ---
 title: 'developing in the open'
 date: '2014-08-07T09:57:47-07:00'
-status: publish
 exported_permalink: /2014/08/developing-open
-author: sarah
-excerpt: ''
-type: post
 id: 5168
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 As a developer and a citizen, I am excited about open source in the US Government. I recently joined [18F](https://18f.gsa.gov/), a new digital services delivery team within the federal government, part of our General Services Administration ([GSA](http://www.gsa.gov/)). Last week, we announced our [open source policy](http://18fblog.tumblr.com/post/93226835135/18f-an-open-source-team) where our source code is [developed in the open from day one](http://18fblog.tumblr.com/post/93415834296/working-in-public-from-day-1) as [public domain (CCO)](https://github.com/18F/open-source-policy).
 

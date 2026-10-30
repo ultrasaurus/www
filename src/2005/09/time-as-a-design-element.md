@@ -1,16 +1,8 @@
 ---
 title: 'time as a design element'
 date: '2005-09-04T17:19:17-07:00'
-status: publish
 exported_permalink: /2005/09/time-as-a-design-element
-author: sarah
-excerpt: ''
-type: post
 id: 178
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I ran across a reference to Dan Boyarski and his class on “Time, Motion, and Communication” at CMU while reading an interesting thread kicked off by [Dan Saffer](http://odannyboy.com/blog/) on the [idxg list](http://discuss.ixdg.org/) (via Dani Malik at Laszlo). He questions the role (or lack thereof) of the page in “Web 2.0” . Inspired to learn more, I enjoyed reading [Dan Boyarski’s keynote speech for Designthinkers 2001](http://www.designthinkers.com/pdf/dboyarski.pdf).
 

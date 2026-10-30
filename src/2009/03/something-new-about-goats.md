@@ -1,16 +1,9 @@
 ---
 title: 'something new about goats'
 date: '2009-03-16T07:17:33-07:00'
-status: publish
 exported_permalink: /2009/03/something-new-about-goats
-author: sarah
-excerpt: ''
-type: post
 id: 940
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 We toured [Harley Goat Farm](http://www.harleyfarms.com/) in Pescadero, CA yesterday. I highly recommend it — you need to make reservations in advance since it is busy baby goat season. I did, for a time, live and work on a goat farm, so I didn’t expect to learn anything new.
 

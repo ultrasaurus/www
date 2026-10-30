@@ -1,16 +1,9 @@
 ---
 title: 'how to look for a job'
 date: '2010-01-09T15:47:16-08:00'
-status: publish
 exported_permalink: /2010/01/how-to-look-for-a-job
-author: sarah
-excerpt: ''
-type: post
 id: 2343
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I recently gave the following advice about looking for a job. I thought maybe other folks would find it useful. It’s kind of a next generation job search, it’s an expansion of what Ted Leung called [Job Search 2.0](http://www.sauria.com/blog/2008/03/02/job-search-20/).
 

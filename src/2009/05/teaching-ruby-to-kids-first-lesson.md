@@ -1,16 +1,9 @@
 ---
 title: 'teaching kids to code: first lesson'
 date: '2009-05-20T21:27:21-07:00'
-status: publish
 exported_permalink: /2009/05/teaching-ruby-to-kids-first-lesson
-author: sarah
-excerpt: ''
-type: post
 id: 1316
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Last week I taught a 4th/5th grade class an introduction to computer programming. It was chaotic, as such classes sometimes are, but fun. I hear the kids enjoyed it and am planning classs #2 for Friday. I decided to use [Shoes](http://shoooes.net/) which uses the Ruby language and includes some nice graphics and UI primitives ([some notes on why](http://news.gmane.org/gmane.comp.lib.shoes)).
 

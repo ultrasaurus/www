@@ -1,16 +1,8 @@
 ---
 title: 'IntelliJ&#8230;not just for Java'
 date: '2003-04-15T19:45:06-07:00'
-status: publish
 exported_permalink: /2003/04/intellijnot-just-for-java
-author: sarah
-excerpt: ''
-type: post
 id: 15
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I have long heard my Java-geek-colleagues rave about [IntelliJ](http://www.intellij.com/idea/). So, when I recently came across a reason to write some Java code, I thought to download an eval version of the acclaimed IDE.
 

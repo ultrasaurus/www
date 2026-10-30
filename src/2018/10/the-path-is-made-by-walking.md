@@ -1,16 +1,8 @@
 ---
 title: 'the path is made by walking'
 date: '2018-10-14T15:24:17-07:00'
-status: publish
 exported_permalink: /2018/10/the-path-is-made-by-walking
-author: sarah
-excerpt: ''
-type: post
 id: 6677
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 In 2009, when Sarah Mei and I started teaching free coding workshops for women, we didn’t expect to fix the industry, just our little corner of it.
 

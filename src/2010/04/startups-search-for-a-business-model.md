@@ -1,16 +1,9 @@
 ---
 title: 'startups search for a business model'
 date: '2010-04-23T15:29:59-07:00'
-status: publish
 exported_permalink: /2010/04/startups-search-for-a-business-model
-author: sarah
-excerpt: ''
-type: post
 id: 2563
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Steve Blank is probably most well known for this picture about embracing change:  
 ![Customer Development](http://img.skitch.com/20100423-bkmt7m45k2hmpfwukdssgya7jf.png)

@@ -1,16 +1,9 @@
 ---
 title: 'civic love'
 date: '2015-03-23T00:08:30-07:00'
-status: publish
 exported_permalink: /2015/03/civic-love
-author: sarah
-excerpt: ''
-type: post
 id: 5470
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 On Friday, I went to the monthly [civic love](http://www.meetup.com/Civic-Love-Shaping-a-Responsible-Future-for-the-Bay-Area/events/221071284/?comment_table_id=446406409&comment_table_name=event_comment) meetup in San Francisco. It was held in the beautiful Friends of Boeddeker Park facility next to kids playing in the newly renovated park and playground.
 

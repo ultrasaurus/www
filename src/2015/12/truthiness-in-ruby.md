@@ -1,16 +1,9 @@
 ---
 title: 'truthiness in ruby'
 date: '2015-12-13T23:10:24-08:00'
-status: publish
 exported_permalink: /2015/12/truthiness-in-ruby
-author: sarah
-excerpt: ''
-type: post
 id: 5737
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I found myself confronting some unexpected truths in Ruby the other day…
 

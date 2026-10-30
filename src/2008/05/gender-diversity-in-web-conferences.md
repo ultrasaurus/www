@@ -1,17 +1,10 @@
 ---
 title: 'Gender Diversity in Web Conferences'
 date: '2008-05-17T08:44:53-07:00'
-status: publish
 exported_permalink: /2008/05/gender-diversity-in-web-conferences
-author: sarah
-excerpt: ''
-type: post
 id: 375
-category:
-    - Uncategorized
 tag:
     - gender
-post_format: []
 ---
 I was doing a little research for a friend and found some nice resources for women speakers. [Jason Kottle](http://www.kottle.org) collected some [great stats](http://www.kottke.org/07/02/gender-diversity-at-web-conferences) about representation of women at web conferences. Every year or so, someone asks me a question like this, so I thought I would post a few pointers.
 

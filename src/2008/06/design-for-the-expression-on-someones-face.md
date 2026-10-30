@@ -1,16 +1,8 @@
 ---
 title: 'design for the expression on someone&#8217;s face'
 date: '2008-06-16T18:20:57-07:00'
-status: publish
 exported_permalink: /2008/06/design-for-the-expression-on-someones-face
-author: sarah
-excerpt: ''
-type: post
 id: 392
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I’m not much of a gamer. I prefer to find delight in creative projects that feel like play. It might be some remnant puritanical work ethic from my New England roots, or perhaps its just that most games aren’t well-suited to my demographic. Nonetheless, I’m intrigued by game design and find that some aspects of game design can be applied generally to software design, as well.
 

@@ -1,16 +1,8 @@
 ---
 title: 'why are scrollbars on the right?'
 date: '2003-07-15T20:52:40-07:00'
-status: publish
 exported_permalink: /2003/07/why-are-scrollbars-on-the-right
-author: sarah
-excerpt: ''
-type: post
 id: 34
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Did you ever wonder why we put scrollbars on the right? I always thought that they just feel better there because they are a fairly heavy-weight UI component and it makes sense for them to live in a fallow area.
 

@@ -1,16 +1,9 @@
 ---
 title: 'obama on journalism and his next hundred days'
 date: '2009-05-10T18:02:52-07:00'
-status: publish
 exported_permalink: /2009/05/obama-on-journalism-and-his-next-hundred-days
-author: sarah
-excerpt: ''
-type: post
 id: 1295
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 [Barack Obama’s speech](http://www.c-spanarchives.org/library/index.php?main_page=product_video_info&products_id=286242-2&clipStart=1164&clipStop=2184&showVid=tru) at the White House Correspondents’ Dinner was entertaining and included some poignant notes on the challenges to journalism today.
 

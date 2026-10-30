@@ -1,16 +1,9 @@
 ---
 title: 'trackerbot iphone experience'
 date: '2011-06-13T18:05:42-07:00'
-status: publish
 exported_permalink: /2011/06/trackerbot-iphone-experience
-author: sarah
-excerpt: ''
-type: post
 id: 3196
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 [![](https://img.skitch.com/20110614-p97ajad1r8f4jnyyj5wg9yqtu2.png)](http://vulpinelabs.com/trackerbot)[TrackerBot](http://vulpinelabs.com/trackerbot/) is a new iOS application that lets us access [PivotalTracker](https://www.pivotaltracker.com) — an issue/feature tracking system from [Pivotal Labs](http://pivotallabs.com/). TrackerBot (just $4.95 in the App Store) works on iPad and iPhone, but I’ve just used it on my phone. A few weeks ago, I spent a week in Olympic National Park in Washington State. Knowing that I was traveling to a rain forest with a pack of middle-schoolers, I left iPad and laptop at home, bringing only my iPhone as a computing and communications device. I was prepared to just check in via voice, but it was pretty neat to be able to see progress via TrackerBot as well.
 

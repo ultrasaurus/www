@@ -1,16 +1,9 @@
 ---
 title: 'digital services playbook in japanese'
 date: '2014-11-16T17:34:11-08:00'
-status: publish
 exported_permalink: /2014/11/digital-services-playbook-japanese
-author: sarah
-excerpt: ''
-type: post
 id: 5365
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Last week I spoke at Ruby World Conference and in my presentation, I talked about what the United States and other governments were doing to transform how we create services for our people using technology.
 

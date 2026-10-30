@@ -1,16 +1,9 @@
 ---
 title: 'optimize for results, not optics'
 date: '2018-07-04T11:45:07-07:00'
-status: publish
 exported_permalink: /2018/07/optimize-for-results-not-optics
-author: sarah
-excerpt: ''
-type: post
 id: 6607
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Jennifer Anastasoff served as the head of people for the United States Digital Service ([USDS](https://www.usds.gov)). She grew that organization from a small team of three to an office of over 200 people in just two years.
 

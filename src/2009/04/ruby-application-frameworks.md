@@ -1,18 +1,12 @@
 ---
 title: 'ruby application frameworks'
 date: '2009-04-17T15:47:41-07:00'
-status: publish
 exported_permalink: /2009/04/ruby-application-frameworks
-author: sarah
-excerpt: ''
-type: post
 id: 1062
-category:
-    - general
 tag:
     - gogaruco
     - Ruby
-post_format: []
+category: general
 ---
 Panel discussion at [Golden Gate Ruby Conference](http://gogaruco.com/)
 

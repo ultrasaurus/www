@@ -1,16 +1,9 @@
 ---
 title: 'pink and princesses'
 date: '2011-07-16T18:27:44-07:00'
-status: publish
 exported_permalink: /2011/07/pink-and-princesses
-author: sarah
-excerpt: ''
-type: post
 id: 3325
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Lisa Bloom is right on target with her recent article [How to Talk to Little Girls](http://www.huffingtonpost.com/lisa-bloom/how-to-talk-to-little-gir_b_882510.html?ref=fb&src=sp). Her story of a little girl in a pink ruffled dress being presented to the guests is so reminiscent of my own experience, but the following genuine conversation was not and I wish it had been.
 

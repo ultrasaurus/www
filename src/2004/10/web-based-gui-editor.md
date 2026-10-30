@@ -1,16 +1,8 @@
 ---
 title: 'web based GUI editor'
 date: '2004-10-25T07:30:36-07:00'
-status: publish
 exported_permalink: /2004/10/web-based-gui-editor
-author: sarah
-excerpt: ''
-type: post
 id: 146
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Bryan Rieger writes about [Kinabalu](http://bryan.nmadness.com/kinabalu/index.html) and [his ideas](http://bryan.nmadness.com/2004/10/idea-kinabalu_18.html) for a web based Laszlo GUI editor.
 

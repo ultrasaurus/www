@@ -1,16 +1,9 @@
 ---
 title: 'truths about starting a company'
 date: '2011-06-29T07:29:37-07:00'
-status: publish
 exported_permalink: /2011/06/truths-about-starting-a-company
-author: sarah
-excerpt: ''
-type: post
 id: 3208
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I love Tara Hunt’s synopsis of being a startup entreprenuer (via [Women 2.0](http://www.women2.org/so-you-want-to-do-a-startup-eh-slides/))
 

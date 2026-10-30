@@ -1,16 +1,9 @@
 ---
 title: 'stone soup workshop'
 date: '2009-10-19T13:28:21-07:00'
-status: publish
 exported_permalink: /2009/10/stone-soup-workshop
-author: sarah
-excerpt: ''
-type: post
 id: 2084
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 ![](http://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Austin_Hall%2C_Harvard_University.JPG/250px-Austin_Hall%2C_Harvard_University.JPG) Participating in the [Berkman Center Ruby on Rails Workshop for Women](http://blogs.law.harvard.edu/genderandtech/ruby-on-rails-workshop-for-women/) was like making stone soup. Not to diminish my part as a teacher or the efforts of volunteers in San Francisco who worked to create the curriculum over the past several months, but the Boston area had all the makings of a successful workshop before I arrived.
 

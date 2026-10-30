@@ -1,16 +1,9 @@
 ---
 title: 'cross-platform mobile frameworks and the future'
 date: '2011-05-21T22:47:13-07:00'
-status: publish
 exported_permalink: /2011/05/cross-platform-mobile-frameworks-and-the-future
-author: sarah
-excerpt: ''
-type: post
 id: 3171
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 At last week’s [WCA](http://www.wca.org/) panel, Jeff Haynie, CEO and founder of [Appcelerator](http://www.appcelerator.com/), suggested that mobile frameworks will continue to gain traction because of the rise in complexity of mobile applications. Mobile applications are becoming context-aware. They know who you are, where you are — the physical sensors are augmented by the potential for this personal device to have very detailed information about us, which being connected to vast data stores and services in the cloud.
 

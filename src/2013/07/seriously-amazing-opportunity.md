@@ -1,16 +1,9 @@
 ---
 title: 'seriously amazing opportunity'
 date: '2013-07-01T04:34:08-07:00'
-status: publish
 exported_permalink: /2013/07/seriously-amazing-opportunity
-author: sarah
-excerpt: ''
-type: post
 id: 3919
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I am delighted to be spending the next six months at the [Smithsonian Institution](http://www.si.edu/) as a [Presidential Innovation Fellow](http://www.whitehouse.gov/blog/2013/06/24/new-round-innovators-joins-us-government-tackle-big-challenges). The program was created in 2012 by the White House Office of Science &amp; Technology Policy ([OSTP](http://www.whitehouse.gov/administration/eop/ostp)) to place experienced industry innovators inside the government to help streamline government, stimulate the economy and provide more opportunity for our citizens. Two weeks ago, I started as part of “round 2,” designed to build on the success of last year’s program.
 

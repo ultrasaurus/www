@@ -1,16 +1,9 @@
 ---
 title: 'software is challenging'
 date: '2007-02-03T09:30:11-08:00'
-status: publish
 exported_permalink: /2007/02/software-is-challenging
-author: sarah
-excerpt: ''
-type: post
 id: 268
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: general
 ---
 I just read a couple of interesting Salon articles about Scott Rosenberg’s book “[Dreaming in Code](http://www.amazon.com/exec/obidos/redirect?link_code=as2&path=ASIN/1400082463&tag=ultrasaurus-20&camp=1789&creative=9325): Two Dozen Programmers, Three Years, 4,732 Bugs, and One Quest for Transcendent Software” which tells the tale of OSAF’s Chandler project.
 

@@ -1,16 +1,9 @@
 ---
 title: 'nut loaf with red pepper sauce'
 date: '2019-11-29T18:27:36-08:00'
-status: publish
 exported_permalink: /2019/11/nut-loaf-with-red-pepper-sauce
-author: sarah
-excerpt: ''
-type: post
 id: 6887
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Slightly modified [vegan nut loaf](https://www.veganricha.com/2018/12/vegan-meatloaf-nut-loaf.html) to avoid tomatoes. Nut loaf recipe can be also be used to make burger patties, pan fried or baked, or can be stuffed into puff pastry for a puff pastry loaf or small hand pies.
 

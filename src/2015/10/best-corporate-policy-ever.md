@@ -1,16 +1,9 @@
 ---
 title: 'best corporate policy ever'
 date: '2015-10-08T06:01:56-07:00'
-status: publish
 exported_permalink: /2015/10/best-corporate-policy-ever
-author: sarah
-excerpt: ''
-type: post
 id: 5677
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 One of my best decisions as CEO of Blazing Cloud was to set a policy that any employee was authorized to spend up to $25 on the purchase of something they needed for their work.
 

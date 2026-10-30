@@ -1,16 +1,8 @@
 ---
 title: 'how it looks from the outside'
 date: '2006-01-18T07:35:40-08:00'
-status: publish
 exported_permalink: /2006/01/how-it-looks-from-the-outside
-author: sarah
-excerpt: ''
-type: post
 id: 209
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 A couple of conversations recently have caused me to reflect on how my normal, everyday life as a creator of software looks rather odd to people outside of the profession.
 

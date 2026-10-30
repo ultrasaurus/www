@@ -1,17 +1,10 @@
 ---
 title: 'writing more, learning more'
 date: '2005-03-12T19:59:34-08:00'
-status: publish
 exported_permalink: /2005/03/writing-more-learning-more
-author: sarah
-excerpt: ''
-type: post
 id: 162
-category:
-    - Uncategorized
 tag:
     - learning
-post_format: []
 ---
 “the web is making us more literate – better readers, better writers” writes Elise Bauer ([Not Always On](http://www.elise.com/weblog/archives/000945ululate.php)). I agree wholeheartedly. I have found that keeping a blog has made me a better writer. I still find it challenging sometimes to publish even one or two paragraphs, as evidenced by the vast number of “draft” entries lurking in my movable type personal publishing system. Nevertheless, I have written dozens of blog entries while I struggle over the draft of a single full-length article that I’ve been working on for about nine-months. Without the practice of regular blogging, it would probably take even longer.
 

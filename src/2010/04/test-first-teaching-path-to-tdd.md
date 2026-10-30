@@ -1,16 +1,9 @@
 ---
 title: 'test first teaching, path to TDD'
 date: '2010-04-20T22:23:52-07:00'
-status: publish
 exported_permalink: /2010/04/test-first-teaching-path-to-tdd
-author: sarah
-excerpt: ''
-type: post
 id: 2465
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Over the past year I’ve taught about a dozen sessions of Ruby language or Ruby on Rails programming classes. I’ve been using a combination of presentation, live coding demonstration, follow along with irb (Ruby’s interactive scripting environment) and [test-first teaching exercises](http://testfirst.org). I’ve reflected on what works well and experimented with curriculum and teaching style modifications for the sections where students struggled. I’ve found a sequence which works very effectively. I believe it could be applied to teaching any programming language, and perhaps to teaching anything.
 

@@ -1,16 +1,9 @@
 ---
 title: 'lessons learned since 1908'
 date: '2016-03-29T18:21:53-07:00'
-status: publish
 exported_permalink: /2016/03/lessons-learned-since-1908
-author: sarah
-excerpt: ''
-type: post
 id: 5934
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 [![frances-bragg](../../../uploads/2016/03/frances-bragg.png)](https://www.ultrasaurus.com/wp-content/uploads/2016/03/frances-bragg.png)I was the only grand-daughter of Frances Clara Kiefer Bragg who passed away on March 11 just 15 days before her 108th birthday. She was a loving, yet formidable force in the world. As a child, we would often visit her in her home in Cambridge when we lived near Boston and when we lived in other countries, she would visit us for a few weeks or months. Small lessons were embedded in our interactions, and there was always a proper way to do things. We needed to know how to conduct ourselves in society: when you set the table, the knife points toward the plate, always hang paintings at eye-level. There was a *right* way to make borscht and chicken soup. I learned sewing, cooking, and appreciation of fine art from my grandmother. She told funny stories of her travels, and family history, sprinkled with anecdotes of poets, writers and presidents.
 

@@ -1,16 +1,9 @@
 ---
 title: 'teaching kids to code: lesson #2'
 date: '2009-05-29T06:24:46-07:00'
-status: publish
 exported_permalink: /2009/05/teaching-kids-to-code-lesson-2
-author: sarah
-excerpt: ''
-type: post
 id: 1415
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Report from the field on my ongoing adventure teaching Ruby and [Shoes](http://shoooes.net/) to a 4th/5th grade class of 28 students. Here’s a summary of last week’s class:
 

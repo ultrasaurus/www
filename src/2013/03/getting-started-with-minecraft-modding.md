@@ -1,16 +1,9 @@
 ---
 title: 'getting started with minecraft modding'
 date: '2013-03-31T17:41:11-07:00'
-status: publish
 exported_permalink: /2013/03/getting-started-with-minecraft-modding
-author: sarah
-excerpt: ''
-type: post
 id: 3824
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 I started learning about creating a Minecraft mod today, using this [excellent tutorial](http://www.minecraftforge.net/wiki/Basic_Modding) (thanks [@0x17h](https://twitter.com/0x17h) and [@adudney](https://twitter.com/adudney)).
 

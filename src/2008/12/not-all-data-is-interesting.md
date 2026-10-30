@@ -1,17 +1,11 @@
 ---
 title: 'not all data is interesting'
 date: '2008-12-31T11:43:19-08:00'
-status: publish
 exported_permalink: /2008/12/not-all-data-is-interesting
-author: sarah
-excerpt: ''
-type: post
 id: 472
-category:
-    - general
 tag:
     - visualization
-post_format: []
+category: general
 ---
 Mathematician Martin Wattenberg [interview by boston.com](http://www.boston.com/news/science/articles/2008/12/29/he_creates_ways_of_seeing_information/) about his exhibit at the Boston Museum of Modern art. (via [ACM TechNews](http://technews.acm.org/archives.cfm?fo=2008-12-dec/dec-31-2008.html#393051))
 

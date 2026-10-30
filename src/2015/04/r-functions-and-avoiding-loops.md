@@ -1,16 +1,9 @@
 ---
 title: 'r: functions and avoiding loops'
 date: '2015-04-07T18:30:22-07:00'
-status: publish
 exported_permalink: /2015/04/r-functions-and-avoiding-loops
-author: sarah
-excerpt: ''
-type: post
 id: 3719
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 After [getting started](https://www.ultrasaurus.com/2012/10/getting-started-with-r/) with the basic syntax and some frequently used functions, I needed to learn to write some code.
 

@@ -1,16 +1,9 @@
 ---
 title: 'sf rails meetup talks about performance'
 date: '2011-07-02T11:15:02-07:00'
-status: publish
 exported_permalink: /2011/07/sf-rails-meetup-talks-about-performance
-author: sarah
-excerpt: ''
-type: post
 id: 3214
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I attended the [SF Ruby on Rails meetup](http://www.meetup.com/San-Francisco-Ruby-on-Rails-Group/events/22207811/) last week with two excellent talks on performance. The first talk, by Brian Doll ([@briandoll](https://twitter.com/#!/briandoll)) of [New Relic](http://newrelic.com/), provided an overview of how to think about performance. In the second talk, Guillaume Luccisano ([@luckwi](https://twitter.com/#!/luckwi)) of [justin.tv](http://www.justin.tv/) shared his experience of optimizing their Rails app.
 

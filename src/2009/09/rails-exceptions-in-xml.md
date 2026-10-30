@@ -1,16 +1,9 @@
 ---
 title: 'rails exceptions in xml'
 date: '2009-09-13T10:13:57-07:00'
-status: publish
 exported_permalink: /2009/09/rails-exceptions-in-xml
-author: sarah
-excerpt: ''
-type: post
 id: 2058
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 We ran into an issue last week where our XML APIs were returning HTML under certain error conditions, rather than the expected XML. Our solution was to add the following code to the ApplicationController:
 

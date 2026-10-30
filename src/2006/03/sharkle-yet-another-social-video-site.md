@@ -1,16 +1,8 @@
 ---
 title: 'Sharkle: yet another social video site'
 date: '2006-03-29T21:44:08-08:00'
-status: publish
 exported_permalink: /2006/03/sharkle-yet-another-social-video-site
-author: sarah
-excerpt: ''
-type: post
 id: 226
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Sharkle, launched in September 2005, is a nice entry into the social video space. The interface is pretty clean, and it does a nice job of keeping you surfing by suggesting related videos. Their Flash video player works well, but is sometimes slow to start.
 

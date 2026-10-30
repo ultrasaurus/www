@@ -1,16 +1,8 @@
 ---
 title: 'midas: government open source in action'
 date: '2014-08-10T05:54:41-07:00'
-status: publish
 exported_permalink: /2014/08/midas-government-open-source-action
-author: sarah
-excerpt: ''
-type: post
 id: 5199
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 The project I’m working on, [Midas Innovation Toolkit](http://18fblog.tumblr.com/post/91952641466/midas-a-marketplace-for-innovation-in-government), was developed in the open from day one. It started as a [Presidential Innovation Fellows](http://www.whitehouse.gov/innovationfellows) project, sponsored by the [US Department of State](http://www.state.gov/).
 

@@ -1,16 +1,9 @@
 ---
 title: 'distribution of twitter followers'
 date: '2015-05-10T23:53:12-07:00'
-status: publish
 exported_permalink: /2015/05/distribution-of-twitter-followers
-author: sarah
-excerpt: ''
-type: post
 id: 5529
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I’m curious about my twitter followers… who are you? how many people do I know who follow me on twitter who don’t tweet at me?
 

@@ -1,16 +1,8 @@
 ---
 title: 'linguistic profiling'
 date: '2005-08-20T09:27:54-07:00'
-status: publish
 exported_permalink: /2005/08/linguistic-profiling
-author: sarah
-excerpt: ''
-type: post
 id: 177
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 [Linguistic Profiling](http://hipteacher.typepad.com/schoolblog/2005/04/linguistic_prof.html) via [hipteacher](http://hipteacher.typepad.com/) reminds me of a Swiss friend who asked me “What are your percentages?” She said all americans have percentages: 25% Brittish, 8% Scottish…
 

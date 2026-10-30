@@ -1,16 +1,9 @@
 ---
 title: 'memories of dragons'
 date: '2017-09-23T08:52:20-07:00'
-status: publish
 exported_permalink: /2017/09/memories-of-dragons
-author: sarah
-excerpt: ''
-type: post
 id: 6311
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 In my recent trip to Krakow, I bought a little blue stuffed dragon for my niece. I became curious about the legend of the [Krakow dragon](http://polandisawesome.blogspot.com/2012/07/the-legend-of-king-krak-and-dragon-of.html) and wanted to find a children’s story to listen to and maybe learn a little Polish and found a fun, modern interpretation: [Smok](https://www.youtube.com/watch?v=1J_Y12RqeLM).
 

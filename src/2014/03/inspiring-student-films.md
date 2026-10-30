@@ -1,16 +1,9 @@
 ---
 title: 'inspiring student films'
 date: '2014-03-03T17:33:07-08:00'
-status: publish
 exported_permalink: /2014/03/inspiring-student-films
-author: sarah
-excerpt: ''
-type: post
 id: 5020
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Last week I watched the first ever [White House film festival](http://www.whitehouse.gov/filmfestival). A couple months ago, students all across the country were invited to make short films about the technology in their classrooms or how they imagined their classrooms could use tech. The results are quite amazing. Of over 2500 submissions, 16 were selected and the kids were invited to the White House to see the whole festival in person. The event was kicked off by seventeen-year-old Shelly Ortiz, of Phoenix, who introduced President Obama. Later Neil deGrasse Tyson and other science and popular media celebs introduced film categories.
 

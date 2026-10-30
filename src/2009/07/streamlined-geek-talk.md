@@ -1,16 +1,9 @@
 ---
 title: 'streamlined geek talk'
 date: '2009-07-16T05:01:07-07:00'
-status: publish
 exported_permalink: /2009/07/streamlined-geek-talk
-author: sarah
-excerpt: ''
-type: post
 id: 1807
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Last night [Wolfram Arnold](http://www.rubyfocus.biz/) and I gave a talk at the SF Ruby Meetup about a recent collaboration where we created specs, documentation and tests using cucumber to streamline workflow and communication between client and server engineers.
 

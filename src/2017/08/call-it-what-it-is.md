@@ -1,16 +1,9 @@
 ---
 title: 'call it what it is'
 date: '2017-08-13T15:05:44-07:00'
-status: publish
 exported_permalink: /2017/08/call-it-what-it-is
-author: sarah
-excerpt: ''
-type: post
 id: 6302
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 The [news from Charlottesville](http://www.cnn.com/2017/08/13/us/charlottesville-white-nationalist-rally-car-crash/index.html) is not an isolated incident. The [US President responds](http://www.cnn.com/2017/08/12/politics/trump-charlottesville-statement/index.html) that there is violence “on many sides.” *This is false.*
 

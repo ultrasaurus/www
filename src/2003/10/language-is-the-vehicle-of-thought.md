@@ -1,16 +1,8 @@
 ---
 title: 'language is the vehicle of thought'
 date: '2003-10-06T20:52:55-07:00'
-status: publish
 exported_permalink: /2003/10/language-is-the-vehicle-of-thought
-author: sarah
-excerpt: ''
-type: post
 id: 70
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 “Thought and language are intimately associated. The expression of a thought is not merely a postscript to the process of thinking the thought in the first place. It’s not as if our thoughts exist and grow in some pure, ethereal “thoughtworld”, devoid of any manifestation, until such time as we choose to pluck one out of the mist and condense it into base words. No! The act of expressing a thought is part and parcel of the thinking itself. Language is the vehicle of thought.” ([Chris Crawford](http://www.erasmatazz.com/library/You_Should_Learn_to_Program/Chapter_1.html))
 

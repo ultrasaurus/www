@@ -1,16 +1,8 @@
 ---
 title: 'iPhone&#8217;s cinematic UI'
 date: '2007-07-02T22:44:11-07:00'
-status: publish
 exported_permalink: /2007/07/iphones-cinematic-ui
-author: sarah
-excerpt: ''
-type: post
 id: 282
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I had the chance to play with an iPhone earlier today. Last week a bunch of us at [Laszlo ](http://www.laszlosystems.com)geeked out over lunch and watched the [movie](http://www.apple.com/iphone/usingiphone/guidedtour_large.html), but it is qualitatively different to interact with it for real. Way before I joined the company, the folks at Laszlo coined the term “cinematic user experience” to describe the kind of UI enabled by [OpenLaszlo](http://www.openlaszlo.org), including animated transitions and other innovative effects that contribute to a more usable, more learnable application. It has been great to see that this seems to be an industry trend with innovations in latest Apple and Window operating systems releases, as well as some desktop apps, and now the iPhone.
 

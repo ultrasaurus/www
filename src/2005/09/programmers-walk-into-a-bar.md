@@ -1,16 +1,9 @@
 ---
 title: 'programmers walk into a bar&#8230;'
 date: '2005-09-11T20:25:27-07:00'
-status: publish
 exported_permalink: /2005/09/programmers-walk-into-a-bar
-author: sarah
-excerpt: ''
-type: post
 id: 181
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: code
 ---
 “If programming languages could speak, really speak, not just crunch bytes and stream bits, they would have much to say that is both wise and profound.” Burningbird told that story in a [parable of languages](http://weblog.burningbird.net/archives/2002/10/08/the-parable-of-the-languages/).
 

@@ -1,16 +1,9 @@
 ---
 title: 'the vision thing'
 date: '2017-02-19T20:12:35-08:00'
-status: publish
 exported_permalink: /2017/02/the-vision-thing
-author: sarah
-excerpt: ''
-type: post
 id: 6165
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Someone recently observed that I was motivated by a big vision and that some engineers are not, and that’s ok. In my experience, it’s not okay. I wish it was. It’s fun to sink into the code and get into the zone and not worry about the complicated real world. However, it’s not fun to work hard and create something over months or years and have it fail in the marketplace or, worse, never ship at all. I’m not talking about research projects where the primary outcome is learning something or publishing a paper. I’m talking about the kind of software I work on, which is intended to be used by other humans, whether they be developers or regular folks.
 

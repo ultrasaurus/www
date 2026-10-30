@@ -1,17 +1,11 @@
 ---
 title: 'Verizon adopts Laszlo Webtop'
 date: '2007-09-08T08:46:39-07:00'
-status: publish
 exported_permalink: /2007/09/verizon-adopts-laszlo-webtop
-author: sarah
-excerpt: ''
-type: post
 id: 312
-category:
-    - Uncategorized
 tag:
     - Laszlo
-post_format: []
+category: code
 ---
 Verizon [announced ](http://newscenter.verizon.com/press-releases/verizon/2007/verizon-soups-up-e-mail-with.html) the release of it’s new webmail based on [Laszlo Webtop](http://www.laszlosystems.com/software/webtop) (along with other goodies like 4GB storage, which is significantly higher than the storage typically offered by cable Internet service providers).
 

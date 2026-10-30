@@ -1,16 +1,8 @@
 ---
 title: 'smart meet beautiful'
 date: '2007-07-23T07:41:45-07:00'
-status: publish
 exported_permalink: /2007/07/smart-meet-beautiful
-author: sarah
-excerpt: ''
-type: post
 id: 299
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 This is old news, but I just listened to an [interview with Jenny Lam](http://channel9.msdn.com/Showpost.aspx?postid=161254) from Jul 6, 2006. It’s about her designs for Vista, but she talks a lot about her design philosophy, which she describes as “smart meet beautiful.” The interview was quite long, but there are some nice nuggets of truth and a peek at this designer’s inspiration.
 

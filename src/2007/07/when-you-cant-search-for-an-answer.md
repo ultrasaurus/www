@@ -1,16 +1,8 @@
 ---
 title: 'when you can&#8217;t search for an answer&#8230;'
 date: '2007-07-05T08:09:04-07:00'
-status: publish
 exported_permalink: /2007/07/when-you-cant-search-for-an-answer
-author: sarah
-excerpt: ''
-type: post
 id: 285
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 For a few years, I’ve been trying to remember the name of this restaurant I went to ten years ago or so. It was really fun, with an island theme and there was an actual plane (or part of one) inside the restaurant where you could sit and eat dinner. There are way too many restaurants in San Francisco, and too many matches to whatever search I could come up with about good places to eat near the airport. [Fluther](http://www.fluther.com) solved my [dilemma ](http://www.fluther.com/disc/1496/whats-that-restaurant-in-san-francisco-where-you-can-eat-inside/?utm_source=asked_notify&utm_medium=email) in two days.
 

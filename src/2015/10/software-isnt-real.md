@@ -1,16 +1,9 @@
 ---
 title: 'software isn&#8217;t real'
 date: '2015-10-10T06:04:12-07:00'
-status: publish
 exported_permalink: /2015/10/software-isnt-real
-author: sarah
-excerpt: ''
-type: post
 id: 5716
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Images and sound, which respond to our touch, create the feeling that we are interacting with something that is actually there. We talk about *going* to a web site. We tap buttons, open folders, and select choices from menus, and aren’t bothered by the inconsistency with real world analogs as we drag windows and surf the web.
 

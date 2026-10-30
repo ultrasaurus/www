@@ -1,16 +1,9 @@
 ---
 title: 'easy drupal install on mac osx lion'
 date: '2013-07-08T13:18:20-07:00'
-status: publish
 exported_permalink: /2013/07/easy-drupal-install-on-mac-osx-lion
-author: sarah
-excerpt: ''
-type: post
 id: 4000
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 Lion comes with Apache and PHP installed. We just need to enable PHP, install MySql and create a database, then download drupal.
 

@@ -1,16 +1,8 @@
 ---
 title: 'Are blogs the vanity press of the Internet?'
 date: '2003-03-03T15:17:38-08:00'
-status: publish
 exported_permalink: /2003/03/are-blogs-the-vanity-press-of-the-internet
-author: sarah
-excerpt: ''
-type: post
 id: 6
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Indeed. Their heritage is, of course, HTML. The original vanity press of the Internet. However, this style of self-publishing arrives with different connotations than self-publishing in the world of books of paper. It is inexpensive and easy. If your uncle’s dog has a website, why not you?
 

@@ -1,16 +1,9 @@
 ---
 title: 'start learning ruby on rails tomorrow night 1/25'
 date: '2011-01-24T21:25:09-08:00'
-status: publish
 exported_permalink: /2011/01/start-learning-ruby-on-rails-tomorrow-night-125
-author: sarah
-excerpt: ''
-type: post
 id: 3043
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Tomorrow night we’re planning an experiment in distance learning. If it works out, we’ll offer our evening [Blazing Cloud](http://blazingcloud.net/) classes with a (for pay) online option, but for starters we thought we would try out the tech. If you want to join us at 6:30pm for an introduction to Ruby on Rails, please join this [google group](https://groups.google.com/forum/#!forum/rails-distance-learning-experiment).
 

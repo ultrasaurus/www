@@ -1,16 +1,8 @@
 ---
 title: 'Software and Picture Hanging'
 date: '2004-12-05T11:02:37-08:00'
-status: publish
 exported_permalink: /2004/12/software-and-picture-hanging
-author: sarah
-excerpt: ''
-type: post
 id: 148
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Colin R. MacDonald has written a [good essay](http://www.livejournal.com/users/colinmac/19152.html) about the challenges of giving a task to a junior engineer. As a manager or project lead, I’ve run into pretty much every situation he describes. When it happens on a software project, it can be very frustrating. As Colin describes it with a picture hanging project, it’s quite amusing:
 

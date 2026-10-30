@@ -1,17 +1,10 @@
 ---
 title: 'interactive visualizations of election results'
 date: '2008-11-05T07:56:53-08:00'
-status: publish
 exported_permalink: /2008/11/interactive-visualizations-of-election-results
-author: sarah
-excerpt: ''
-type: post
 id: 433
-category:
-    - Uncategorized
 tag:
     - visualization
-post_format: []
 ---
 Like many folks in America, I watched the election results stream in through television and Internet sources. The television cnn experience was fabulous in a cheesy, over-the-top kind of way that we’ve come to expect of our tv news. I thought the hourglass display of exit poll survey data was very nice and I wish they had posted it on the web. On the Web, I liked the dailykos interactive map for pure usability (easy to read graph of electoral votes and the ability to zoom into each state to see results per county). However, the visual design of the NYTimes was, as usual, quite lovely: readable with clear navigation (also with the zoom in county results feature).
 

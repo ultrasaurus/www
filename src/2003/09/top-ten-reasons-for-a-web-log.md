@@ -1,16 +1,8 @@
 ---
 title: 'top ten reasons for a web log'
 date: '2003-09-02T20:25:09-07:00'
-status: publish
 exported_permalink: /2003/09/top-ten-reasons-for-a-web-log
-author: sarah
-excerpt: ''
-type: post
 id: 51
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 For a while I’ve been thinking about why I enjoy blogging. The reasons I created this weblog remain, but I’ve discovered more and different reasons over time. My approach has changed substantially since my second posting posed the question: [Are blogs the vanity press of the Internet?](https://www.ultrasaurus.com/sarahblog/archives/2003_03.html)
 

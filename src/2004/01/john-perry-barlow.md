@@ -1,17 +1,10 @@
 ---
 title: 'John Perry Barlow'
 date: '2004-01-25T23:44:02-08:00'
-status: publish
 exported_permalink: /2004/01/john-perry-barlow
-author: sarah
-excerpt: ''
-type: post
 id: 90
-category:
-    - Uncategorized
 tag:
     - language
-post_format: []
 ---
 [Barlow’s new blog](http://barlow.typepad.com/barlowfriendz/) is celebrated in song. In the gutter of his blog, in his “related stuff” playlist, you can hear Haley Suitt introducing this wonderful new addition to the blogosphere.
 

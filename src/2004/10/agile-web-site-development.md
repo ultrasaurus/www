@@ -1,16 +1,8 @@
 ---
 title: 'agile web site development'
 date: '2004-10-06T07:30:16-07:00'
-status: publish
 exported_permalink: /2004/10/agile-web-site-development
-author: sarah
-excerpt: ''
-type: post
 id: 142
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Jason Fried spoke yesterday at Web 2.0 in a talk titled “Ligtweight Business Models.” I might have titled his portion of the talk “Agile Design.” It seems like the ideas from Xtreme Programming aka Agile Development are cropping up for non-programmers. This internet savvy generation is not content as a worker bee within out-dated structures that supress creativity. I see more often this relentless pursuit of effectiveness.
 

@@ -1,16 +1,9 @@
 ---
 title: 'crowdsourced transcription landscape'
 date: '2013-07-23T02:00:05-07:00'
-status: publish
 exported_permalink: /2013/07/crowdsourced-transcription-landscape
-author: sarah
-excerpt: ''
-type: post
 id: 4117
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 The following is based on [an interview with Ben Brumfield](https://www.ultrasaurus.com/sarahblog/2013/07/why-crowdsourced-transcription/), after which I did a bit of research myself, adding links and some additional references.
 

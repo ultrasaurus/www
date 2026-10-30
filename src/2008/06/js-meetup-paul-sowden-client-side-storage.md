@@ -1,16 +1,8 @@
 ---
 title: 'js meetup, paul sowden, client-side storage'
 date: '2008-06-06T06:11:58-07:00'
-status: publish
 exported_permalink: /2008/06/js-meetup-paul-sowden-client-side-storage
-author: sarah
-excerpt: ''
-type: post
 id: 385
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Paul Sowden of [meebo](http://www.meebo.com/) talked about client-side storage options at the [JS Meetup](http://javascript.meetup.com/4/calendar/7922755/t/cr1p_grp/?) last night.  
 Great info! Here are my notes:

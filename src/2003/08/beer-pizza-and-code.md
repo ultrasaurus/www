@@ -1,16 +1,9 @@
 ---
 title: 'beer, pizza, and code'
 date: '2003-08-07T20:21:23-07:00'
-status: publish
 exported_permalink: /2003/08/beer-pizza-and-code
-author: sarah
-excerpt: ''
-type: post
 id: 40
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: code
 ---
 I attended a fun meeting of the Bay Area Laszlo User Group this week. It’s an independent group started by a local developer, but Laszlo lends its tiki conference room and sponsors refreshments.
 

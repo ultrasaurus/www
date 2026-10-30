@@ -1,16 +1,9 @@
 ---
 title: 'fear stays silent while passion speaks'
 date: '2009-12-27T23:43:12-08:00'
-status: publish
 exported_permalink: /2009/12/fear-stays-silent-while-passion-speaks
-author: sarah
-excerpt: ''
-type: post
 id: 2301
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Cisco CTO, Padmasree Warrior, gave a thoughtful keynote speech for the Women of Vision event. I watched [part 1](http://www.youtube.com/watch?v=EEfZSad_2J8&feature=PlayList&p=879E5215179979AF&index=3) in May. Reminded by [Anita Borg Institute’s Year in Review](http://www.fastcompany.com/blog/caroline-simard/advancing-women-technology/anita-borg-institute-year-review-telle-whitney-ceo), I enjoyed watching [part 2](http://www.youtube.com/watch?v=9sED8zw4SGw&feature=PlayList&p=879E5215179979AF&index=4) and [part 3](http://www.youtube.com/watch?v=7y0J0a_N8S0&feature=PlayList&p=879E5215179979AF&index=5).
 

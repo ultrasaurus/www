@@ -1,21 +1,9 @@
 ---
 title: 'what if internet kills the movie?'
 date: '2009-07-11T07:04:00-07:00'
-status: publish
 exported_permalink: /2009/07/what-if-internet-kills-the-movie
-author: sarah
-excerpt: ''
-type: post
 id: 1769
-category:
-    - general
-tag: []
-post_format: []
-enclosure:
-    - "http://www.wetmachine.com/media/1/CoryInterviewPt2.mp3\n18867265\naudio/mpeg\n"
-    - "http://www.wetmachine.com/media/1/CoryInterviewPt2.mp3\n18867265\naudio/mpeg\n"
-    - "http://www.wetmachine.com/media/1/CoryInterviewPt2.mp3\n18867265\naudio/mpeg\n"
-    - "http://www.wetmachine.com/media/1/CoryInterviewPt2.mp3\n18867265\naudio/mpeg\n"
+category: general
 ---
 [John Sundman explores](http://www.wetmachine.com/item/1592) the question of whether the Internet will kill the feature length movie, and if it does, is that a fair trade-off? He references an earlier interview he did with Cory Doctorow where the answer to that question was assumed to be yes. Like John, I worry “about the wanton destruction of culture in the name of a bogus and ephemeral ‘progress'” and have mixed feelings when a new art form seems to be displacing or diminishing an earlier form.
 

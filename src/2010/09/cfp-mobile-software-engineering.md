@@ -1,16 +1,9 @@
 ---
 title: 'CFP: mobile software engineering'
 date: '2010-09-12T16:58:30-07:00'
-status: publish
 exported_permalink: /2010/09/cfp-mobile-software-engineering
-author: sarah
-excerpt: ''
-type: post
 id: 2803
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Is there anything special about mobile software development or is it the equivalent to developing for a very small laptop? Do the devices and capabilities imply different patterns and processes? Are there any implications for research and education?
 

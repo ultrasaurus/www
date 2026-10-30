@@ -1,16 +1,9 @@
 ---
 title: 'http/3 starter notes, rust quiche'
 date: '2019-10-28T06:08:24-07:00'
-status: publish
 exported_permalink: /2019/10/http-3-starter-notes-rust-quiche
-author: sarah
-excerpt: ''
-type: post
 id: 6873
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 Learning about HTTP/3… Here are some starter notes
 

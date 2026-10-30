@@ -1,16 +1,8 @@
 ---
 title: 'MLK&#8217;s American Dream'
 date: '2005-01-17T15:38:07-08:00'
-status: publish
 exported_permalink: /2005/01/mlks-american-dream
-author: sarah
-excerpt: ''
-type: post
 id: 154
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 “Man’s scientific genius and technological ingenuity has dwarfed distance and placed time in chains. Jet planes have compressed into minutes distances that once took days and months to cover…
 

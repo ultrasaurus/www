@@ -1,16 +1,9 @@
 ---
 title: 'getting started with activescaffold'
 date: '2009-07-01T22:32:09-07:00'
-status: publish
 exported_permalink: /2009/07/getting-started-with-activescaffold
-author: sarah
-excerpt: ''
-type: post
 id: 1621
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 The [ActiveScafold](http://activescaffold.com/) plugin for Rails promises to be a huge time saver. In just a few easy steps, you can create a full web interface for your database, complete with inline editing and fold out panels. Of course, it helps to have some grasp about what it is doing or you can get [stuck like I did](http://groups.google.com/group/activescaffold/browse_thread/thread/bb541afdf9acda3) this morning. I’m no expert (yet), but since it is so very cool, I wanted to share what I’ve learned (with the help of Sean Dick and Ivan Storck at tonight’s SFRuby Hack session).
 

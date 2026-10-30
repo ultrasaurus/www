@@ -1,16 +1,9 @@
 ---
 title: 'simple test first express setup &amp; tutorial'
 date: '2014-08-27T21:11:19-07:00'
-status: publish
 exported_permalink: /2014/08/test-first-express
-author: sarah
-excerpt: ''
-type: post
 id: 5207
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 It has been surprisingly hard to find a very simple tutorial to get started with Express, along with some common helpful tools, including tests!
 

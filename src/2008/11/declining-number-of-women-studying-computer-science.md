@@ -1,17 +1,10 @@
 ---
 title: 'declining number of women studying computer science'
 date: '2008-11-20T06:58:58-08:00'
-status: publish
 exported_permalink: /2008/11/declining-number-of-women-studying-computer-science
-author: sarah
-excerpt: ''
-type: post
 id: 441
-category:
-    - Uncategorized
 tag:
     - gender
-post_format: []
 ---
 Randall Stross of the New York Times reports about the [declining number of women in computer science](http://www.nytimes.com/2008/11/16/business/16digi.html?emc=eta1). The article quotes from a new book “Beyond Barbie and Mortal Kombat: New Perspectives on Gender and Gaming,” by Justine Cassell, where she writes “The girls game movement failed to dislodge the sense among both boys and girls that computers were ‘boys’ toys’ and that true girls didn’t play with computers.” I have always failed to see a causal link between gaming and computer science education, although I had hoped to be proven wrong by the serious efforts to create games that would appeal to girls.
 

@@ -1,16 +1,8 @@
 ---
 title: convergence
 date: '2007-08-20T09:42:57-07:00'
-status: publish
 exported_permalink: /2007/08/convergence
-author: sarah
-excerpt: ''
-type: post
 id: 308
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Once I year I step out of the fast-paced, web 2.0 space and spend a week in western New York on the Niagra River. We fly into Buffalo late at night and usually there’s an order of pizza and wings waiting for us when we arrive. It’s still early California-time, so we keep everyone up even later drinking beers on the back deck.
 

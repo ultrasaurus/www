@@ -1,16 +1,9 @@
 ---
 title: 'subverting Sauron&#8217;s business model'
 date: '2019-04-14T22:20:13-07:00'
-status: publish
 exported_permalink: /2019/04/subverting-saurons-business-model
-author: sarah
-excerpt: ''
-type: post
 id: 6747
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 In a [recent article](https://unherd.com/2019/04/what-tolkien-teaches-us-about-power/), Peter Franklin draws a parallel between capitalism and Tolkien’s Lord of the Rings mythology, likening Facebook, and social media in general, to the rings of middle earth — powerful rings *gifted* by Sauron, Lord of Mordor, to the leaders of middle earth, secretly influencing them, binding them to darkness, and increasing the power of the dark lord.
 

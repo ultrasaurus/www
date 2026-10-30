@@ -1,16 +1,9 @@
 ---
 title: 'legacy testing with capybara/mechanize'
 date: '2011-02-15T23:11:00-08:00'
-status: publish
 exported_permalink: /2011/02/legacy-testing-with-capybaramechanize
-author: sarah
-excerpt: ''
-type: post
 id: 3057
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I spent a little time working on some tests for a legacy web app that we plan to re-write in Ruby. Before the big re-write, I thought it would be wise to write some integration tests to call the app via http and verify responses. I wanted to use vanilla http and not have the overhead of launching a browser and was frustrated that Capybara didn’t have a driver to suit my needs.
 

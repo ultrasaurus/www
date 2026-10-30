@@ -1,16 +1,9 @@
 ---
 title: 'collective intelligence'
 date: '2013-08-23T05:22:54-07:00'
-status: publish
 exported_permalink: /2013/08/collective-intelligence
-author: sarah
-excerpt: ''
-type: post
 id: 4293
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Most software today cannot be defined purely by the software itself. This new class of software requires data and a community people that create and interact with that data. This is substantially different from first generation software tools, where a person starts with a blank canvas or template and uses the software to create a document, such as PhotoShop, Word or Emacs. Also quite different from software services, where a person uses an online service to perform a transaction, like online banking or e-commerce, or communications software, like email or Skype.
 

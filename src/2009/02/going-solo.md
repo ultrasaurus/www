@@ -1,16 +1,9 @@
 ---
 title: 'going solo'
 date: '2009-02-05T01:22:02-08:00'
-status: publish
 exported_permalink: /2009/02/going-solo
-author: sarah
-excerpt: ''
-type: post
 id: 727
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I’ve finally decided to make the leap and dive into the unknown waters of independent consulting. I’ve been at Laszlo for almost 6 years and Friday is my last day.
 

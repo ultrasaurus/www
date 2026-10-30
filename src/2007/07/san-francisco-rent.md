@@ -1,17 +1,10 @@
 ---
 title: 'San Francisco rent'
 date: '2007-07-31T09:22:17-07:00'
-status: publish
 exported_permalink: /2007/07/san-francisco-rent
-author: sarah
-excerpt: ''
-type: post
 id: 304
-category:
-    - Uncategorized
 tag:
     - visualization
-post_format: []
 ---
 [Ethan Garner](http://mullinslab.ucsf.edu/ethan) has been collecting data on rents in San Francisco based on [craigslist](http://www.craigslist.org) postings since Aug 2006. Based on this data, he has created a [lovely visualization](http://mullinslab2.ucsf.edu/craigstats/) of where the rental market is hot (via [information aesthetics](http://infosthetics.com/archives/2007/07/craigstats_craigslist_rental_housing.html)).
 

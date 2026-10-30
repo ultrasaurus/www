@@ -1,17 +1,10 @@
 ---
 title: 'Don&#8217;t Worry Your Pretty Little Head'
 date: '2005-01-30T20:18:16-08:00'
-status: publish
 exported_permalink: /2005/01/dont-worry-your-pretty-little-head
-author: sarah
-excerpt: ''
-type: post
 id: 157
-category:
-    - Uncategorized
 tag:
     - gender
-post_format: []
 ---
 Larry Summers, the president of Harvard, has incited some debate about whether innate gender differences contribute to why relatively few women become professional scientists or engineers.
 

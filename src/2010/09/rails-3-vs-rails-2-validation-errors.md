@@ -1,16 +1,9 @@
 ---
 title: 'rails 3 vs. rails 2 validation errors'
 date: '2010-09-07T02:14:06-07:00'
-status: publish
 exported_permalink: /2010/09/rails-3-vs-rails-2-validation-errors
-author: sarah
-excerpt: ''
-type: post
 id: 2795
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 Not sure if this is a bug or a feature. I’d guess it is here for a reason, and maybe I’m late for noticing, but Rails 3 errors now provides an array for each attribute, whereas in Rails 2.3 it was just a string. Here’s the output from two almost identical applications…
 

@@ -1,18 +1,11 @@
 ---
 title: 'tagging brand associations'
 date: '2008-09-02T12:03:27-07:00'
-status: publish
 exported_permalink: /2008/09/tagging-brand-associations
-author: sarah
-excerpt: ''
-type: post
 id: 411
-category:
-    - Uncategorized
 tag:
     - language
     - visualization
-post_format: []
 ---
 Jon Udell [writes](http://blog.jonudell.net/2008/08/20/collective-mind-probes/) about [brandtags.net](http://blog.jonudell.net/2008/08/20/collective-mind-probes/), an experiment in identifying brand associations. As much as marketing folks work hard to create a brand, at the end of the day, the brand is defined by your associations. This site attempts to capture those from its audience.
 

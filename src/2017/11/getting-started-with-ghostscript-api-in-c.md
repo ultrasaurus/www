@@ -1,16 +1,9 @@
 ---
 title: 'exploring ghostscript API in C'
 date: '2017-11-24T06:56:21-08:00'
-status: publish
 exported_permalink: /2017/11/getting-started-with-ghostscript-api-in-c
-author: sarah
-excerpt: ''
-type: post
 id: 6359
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 Ghostscript lets you do all sorts of PDF and PostScript transformations. It’s got a command-line tool which is great for page-level operations.
 

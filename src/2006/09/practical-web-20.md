@@ -1,16 +1,8 @@
 ---
 title: 'practical web 2.0'
 date: '2006-09-18T22:36:07-07:00'
-status: publish
 exported_permalink: /2006/09/practical-web-20
-author: sarah
-excerpt: ''
-type: post
 id: 254
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Admittedly, I’m one of the [techcrunch](http://www.techcrunk.com) crowd, I have accounts on all the new calendars, rich web mail, video sharing sites and social networks. I’ve been watching this stuff before it was THE web… in the 80s [Intermedia](http://en.wikipedia.org/wiki/Intermedia_(hypertext)) allowed multiple “webs” of links to overlay documents and way before that, in the 60s, Doug Engelbart’s [Augment](http://hyperscope.org/hyperscope/src/demos/augmentinghumanintellect.opml) system enabled dynamic outlining and references to anywhere in the document. It’s good to remember that our ideas stand on the shoulders of our predecessors. Tim Berners-Lee’s ideas about the “semantic web” are a great new twist on Ted Nelson’s Xanadu and Vannevar Bush’s Memex.
 

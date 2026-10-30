@@ -1,16 +1,9 @@
 ---
 title: 'women are disempowered?'
 date: '2013-05-16T16:02:18-07:00'
-status: publish
 exported_permalink: /2013/05/women-are-disempowered
-author: sarah
-excerpt: ''
-type: post
 id: 3864
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 They say women are disempowered in our society.
 

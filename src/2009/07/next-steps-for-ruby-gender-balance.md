@@ -1,16 +1,9 @@
 ---
 title: 'next steps for ruby gender balance'
 date: '2009-07-08T03:48:43-07:00'
-status: publish
 exported_permalink: /2009/07/next-steps-for-ruby-gender-balance
-author: sarah
-excerpt: ''
-type: post
 id: 1707
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 In the past month we took some first steps to inviting women into the SF Ruby community:
 

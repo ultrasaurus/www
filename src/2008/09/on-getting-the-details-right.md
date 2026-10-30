@@ -1,16 +1,8 @@
 ---
 title: 'on getting the details right&#8230;'
 date: '2008-09-14T09:46:21-07:00'
-status: publish
 exported_permalink: /2008/09/on-getting-the-details-right
-author: sarah
-excerpt: ''
-type: post
 id: 413
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 [David Weiss writes](http://unweary.com/2008/09/painted-on-the-inside.html) about getting the details right, doing your best, and crafting a beautiful polished product, even “on the inside” where no one will see it (via [HMK](http://www.extragroup.de/weblog/hmk/archives/004764.html))
 

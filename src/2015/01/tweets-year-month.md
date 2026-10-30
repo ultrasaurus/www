@@ -1,16 +1,9 @@
 ---
 title: 'tweets by year and by month'
 date: '2015-01-03T11:56:00-08:00'
-status: publish
 exported_permalink: /2015/01/tweets-year-month
-author: sarah
-excerpt: ''
-type: post
 id: 5411
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 A data-driven reflection on my twitter years… It doesn’t seem like pure quantity tells much of a story for me. Maybe it does for you? In your twitter settings you can request an archive and run the little ruby scripts below.
 

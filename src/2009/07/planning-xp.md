@@ -1,16 +1,9 @@
 ---
 title: 'planning xp'
 date: '2009-07-28T14:02:37-07:00'
-status: publish
 exported_permalink: /2009/07/planning-xp
-author: sarah
-excerpt: ''
-type: post
 id: 1862
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I enjoyed reading [Planning Extreme Programming](http://www.amazon.com/gp/product/0201710919?ie=UTF8&tag=ultrasaurus-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0201710919)![](http://www.assoc-amazon.com/e/ir?t=ultrasaurus-20&l=as2&o=1&a=0201710919) by Kent Beck and Martin Fowler. I found the book to be an easy read and finished it in just a few days. Beck and Fowler are generous in their on-line writings and you can find a lot of information about agile process in various articles; however, I found it to be very useful gathered together in a narrative that clearly spelled out basic principles and best practices. One point that they made toward the end of the book was that you can borrow any of the practices individually, but that XP works best when the different practices are combined in a process that reinforces itself. They weren’t speaking of development practices, like pair programming, but planning processes, such as:
 

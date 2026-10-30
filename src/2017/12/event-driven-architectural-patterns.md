@@ -1,16 +1,9 @@
 ---
 title: 'event-driven architectural patterns'
 date: '2017-12-30T16:50:03-08:00'
-status: publish
 exported_permalink: /2017/12/event-driven-architectural-patterns
-author: sarah
-excerpt: ''
-type: post
 id: 6255
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 Martin Fowler’s talk “The Many Meanings of Event-Driven Architecture” at GOTO2017 provides a good overview of different patterns that all are described as “event-driven” systems. At the end of the talk, he references to an earlier [event-driven article](https://martinfowler.com/articles/201701-event-driven.html), which offers a good prose description of these different patterns that folks are calling event-driven programming. In this talk, he covers specific examples that illustrate the patterns, grounding them in specific applications.
 

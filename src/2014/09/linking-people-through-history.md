@@ -1,16 +1,9 @@
 ---
 title: 'linking people through history'
 date: '2014-09-08T04:14:45-07:00'
-status: publish
 exported_permalink: /2014/09/linking-people-through-history
-author: sarah
-excerpt: ''
-type: post
 id: 5251
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Many museums, archives and libraries are exploring Linked Open Data to make their online collections more meaningful to researchers and to the public at large. From the [Rijksmuseum](https://www.rijksmuseum.nl/en/explore-the-collection/) in the Netherlands to the [Cooper-Hewitt](https://collection.cooperhewitt.org/) in New York, our cultural heritage can be explored in digital form with links to help us dive deeper. These aren’t just spiffed up websites, these are living representations of the physical collections with hooks for developers to build new applications that link back and let us look, listen and learn in new ways.
 

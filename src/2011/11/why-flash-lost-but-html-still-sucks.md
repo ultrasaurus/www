@@ -1,16 +1,9 @@
 ---
 title: 'Why Flash Lost but HTML Still Sucks'
 date: '2011-11-09T16:42:51-08:00'
-status: publish
 exported_permalink: /2011/11/why-flash-lost-but-html-still-sucks
-author: sarah
-excerpt: ''
-type: post
 id: 3443
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I’ve been creating and using cross-platform tools for application development since the late 80s, from VideoWorks, HyperCard, and Authorware to Director, SuperCard, ScriptX and mTropolis to Shockwave, Flash, and HTML/Javascript. We’ve moved past the experimental days when it was called multimedia and techniques for interactivity, graphics, animation and information design are routinely applied for mainstream consumer and business applications. The dominant paradigm is now HTML.
 

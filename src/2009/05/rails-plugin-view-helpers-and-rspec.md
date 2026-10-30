@@ -1,16 +1,9 @@
 ---
 title: 'rails plugin view helpers and rspec'
 date: '2009-05-25T07:57:05-07:00'
-status: publish
 exported_permalink: /2009/05/rails-plugin-view-helpers-and-rspec
-author: sarah
-excerpt: ''
-type: post
 id: 1368
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 RSpec for View Helpers
 ======================

@@ -1,16 +1,8 @@
 ---
 title: 'staking a claim in cyberspace'
 date: '2007-07-05T09:53:32-07:00'
-status: publish
 exported_permalink: /2007/07/staking-a-claim-in-cyberspace
-author: sarah
-excerpt: ''
-type: post
 id: 286
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Regular readers have noticed a sudden surge in ultrasaurus blog posting this week. It seems that every year or so I go through some quiet times when I am absorbed in work or other pursuits, as has happened for most of the past six months or so. I knew it had gotten silly when [Ron Jeffries](http://blog.eronj.com/) posted one of my [webOS rants](http://blog.eronj.com/2007/06/23/non-silod-richa-internet-applications-good-webos-less-important/) which I sent via email. Gosh, I thought, I should be blogging this stuff myself. In fact, once I got started, it seems that I have backlog of various links and observations that I have been itching to write about. Thanks Ron :)
 

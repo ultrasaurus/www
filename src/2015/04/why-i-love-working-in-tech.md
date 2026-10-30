@@ -1,16 +1,9 @@
 ---
 title: 'why I love working in tech'
 date: '2015-04-02T18:10:38-07:00'
-status: publish
 exported_permalink: /2015/04/why-i-love-working-in-tech
-author: sarah
-excerpt: ''
-type: post
 id: 5492
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I know I’m lucky, but I also know that my experience is not uncommon. The fact that I love the work is a subject for another post. Another thing I love about working in tech is the culture. There’s a spirit of fun, a widespread belief that joy fuels creativity, and a dedication to creating arbitrary entertaining activities that make life sparkle just for a moment.
 

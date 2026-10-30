@@ -1,16 +1,9 @@
 ---
 title: 'data visualization is editorial'
 date: '2012-12-27T10:55:42-08:00'
-status: publish
 exported_permalink: /2012/12/data-visualization-is-editorial
-author: sarah
-excerpt: ''
-type: post
 id: 3776
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 [John Brand remarks](http://blogs.forrester.com/john_brand/12-09-07-the_changing_landscape_of_data_visualization_requires_a_radical_new_approach) that “ancient Egyptian hieroglyphics were probably the first real “commercial” examples of data visualization” (via [@DashingD3js](https://twitter.com/DashingD3js/status/284358030127140864)).
 

@@ -1,16 +1,9 @@
 ---
 title: 'obama Ms. magazine cover'
 date: '2009-01-27T19:41:38-08:00'
-status: publish
 exported_permalink: /2009/01/obama-ms-magazine-cover
-author: sarah
-excerpt: ''
-type: post
 id: 676
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I think the cover of the Ms. Winter Issue is fantastic. I can’t believe some so-called feminists think that it somehow diminishes women for a man to declare himself a feminist.. or maybe they just don’t have a sense of humor… or both.
 

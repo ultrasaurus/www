@@ -1,16 +1,9 @@
 ---
 title: 'learning TDD through test-first teaching'
 date: '2010-06-14T20:16:55-07:00'
-status: publish
 exported_permalink: /2010/06/learning-tdd-through-test-first-teaching
-author: sarah
-excerpt: ''
-type: post
 id: 2742
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 In April, I spoke at the [East Bay Ruby Meetup](http://www.meetup.com/EBRuby/calendar/12145157/?eventId=12145157&action=detail) about Test-First Teaching both as a teaching methodology and as a path to learning about test-driven development.
 

@@ -1,16 +1,9 @@
 ---
 title: 'what is big data?'
 date: '2013-12-27T10:15:42-08:00'
-status: publish
 exported_permalink: /2013/12/big-data
-author: sarah
-excerpt: ''
-type: post
 id: 4862
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Svetlana Sicular ([@Sve\_Sic](https://twitter.com/Sve_Sic)), Gartner Research Director, offers a [Big Data roadmap](http://www.gartner.com/it/content/2604400/2604421/december_12_big_data_road_map_ssicular.pdf) (via [rww article](http://readwrite.com/2013/12/26/big-data-myths-reality)). One of the delightful surprises in her report is a definition of a data-driven enterprise that includes process and people:
 

@@ -1,16 +1,8 @@
 ---
 title: 'web video interviews from bloggingheads.tv'
 date: '2008-11-19T19:07:35-08:00'
-status: publish
 exported_permalink: /2008/11/web-video-interviews-from-bloggingheadstv
-author: sarah
-excerpt: ''
-type: post
 id: 443
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 [bloggingheads.tv](http://bloggingheads.tv) offers an interesting format for interviews where you see the interviewer and interviewee side-by-side, which they call a diavlog (a term I can’t quite imagine using in conversation). The interviews appear to be recorded with webcams and a phone call.
 

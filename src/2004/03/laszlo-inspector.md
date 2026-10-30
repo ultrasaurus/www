@@ -1,16 +1,8 @@
 ---
 title: 'Laszlo inspector'
 date: '2004-03-16T20:08:06-08:00'
-status: publish
 exported_permalink: /2004/03/laszlo-inspector
-author: sarah
-excerpt: ''
-type: post
 id: 107
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 For the Laszlo developers amongst my readers…
 

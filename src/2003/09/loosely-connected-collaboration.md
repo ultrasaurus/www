@@ -1,16 +1,8 @@
 ---
 title: 'loosely connected collaboration'
 date: '2003-09-19T03:23:20-07:00'
-status: publish
 exported_permalink: /2003/09/loosely-connected-collaboration
-author: sarah
-excerpt: ''
-type: post
 id: 62
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 For the last few weeks I’ve been participating in a project that involves multiple people, yet has no meetings, no rules and is a great deal of fun. The process is facilitated by real world conversation and e-mail, but it wouldn’t be so practical and so easy without blogs.
 

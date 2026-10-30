@@ -1,16 +1,9 @@
 ---
 title: 'the transformative power of games'
 date: '2015-06-07T15:36:26-07:00'
-status: publish
 exported_permalink: /2015/06/the-transformative-power-of-games
-author: sarah
-excerpt: ''
-type: post
 id: 5553
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 [![boy's face lit by the light of a video game -- sense of urgency, a little bit of fear, but intense concentration](../../../uploads/2015/06/PTMouseBoy-Final-Flat.jpg)](http://www.mrtoledano.com/gamers/07)Jane McGonigal’s TED talk “Gaming can make a better world” has some highlights from her research on what games make us good at. She talks about the “epic win,” an extraordinary outcome that you didn’t believe was even possible until you achieved it — almost beyond your threshold of imagination, something that teaches you what you’re truly capable of.
 

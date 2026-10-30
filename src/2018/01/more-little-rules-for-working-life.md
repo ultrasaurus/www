@@ -1,16 +1,9 @@
 ---
 title: 'more little rules for working life'
 date: '2018-01-14T11:35:38-08:00'
-status: publish
 exported_permalink: /2018/01/more-little-rules-for-working-life
-author: sarah
-excerpt: ''
-type: post
 id: 6124
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 It helps me to create little rules that provide default decisions for common and unusual situations. A couple of years ago, I wrote down my [little rules for working life](https://www.ultrasaurus.com/2013/09/little-rules-for-working-life/). Since then, I’ve collected a few more…
 

@@ -1,16 +1,9 @@
 ---
 title: debugging
 date: '2005-01-09T17:56:06-08:00'
-status: publish
 exported_permalink: /2005/01/debugging
-author: sarah
-excerpt: ''
-type: post
 id: 152
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: general
 ---
 Back at my day job last week, I was faced once again with a mystery bug. This bug seemed to defy logic and the physical laws of the universe. The whole system behaved correctly, except for the undesired behavior.
 

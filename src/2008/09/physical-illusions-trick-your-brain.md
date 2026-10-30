@@ -1,17 +1,10 @@
 ---
 title: 'physical illusions trick your brain'
 date: '2008-09-03T07:54:09-07:00'
-status: publish
 exported_permalink: /2008/09/physical-illusions-trick-your-brain
-author: sarah
-excerpt: ''
-type: post
 id: 412
-category:
-    - Uncategorized
 tag:
     - learning
-post_format: []
 ---
 Jerry Andress presents some wonderful mind tricks…
 

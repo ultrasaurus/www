@@ -1,16 +1,8 @@
 ---
 title: 'connecting digital music to cultural heritage'
 date: '2014-06-18T07:08:39-07:00'
-status: publish
 exported_permalink: /2014/06/connecting-digital-music-cultural-heritage
-author: sarah
-excerpt: ''
-type: post
 id: 5120
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Digital music has evolved beyond simply distribution. Napster, iTunes, and Spotify transformed our expectations of being able to find and listen to music. On a parallel track, services like Pandora pioneered new ways to find music and the evolution of social networks let us discover music from our friends. There are new services like [preamp](http://www.preamp.fm/) that let us discover live music in a city or [Spotify playlists](http://blog.percolate.com/2014/05/spotifys-new-ads-reveal-social-matters-millenials/) that let us express ourselves through music, perhaps a natural evolution of the mixtape.
 

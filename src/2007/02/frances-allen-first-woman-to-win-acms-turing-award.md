@@ -1,16 +1,8 @@
 ---
 title: 'Frances Allen: first woman to win ACM&#8217;s Turing award'
 date: '2007-02-25T12:13:01-08:00'
-status: publish
 exported_permalink: /2007/02/frances-allen-first-woman-to-win-acms-turing-award
-author: sarah
-excerpt: ''
-type: post
 id: 269
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 ![](http://www.computerhistory.org/fellowawards/assets/images/2000_francis_allen.jpg)[Frances Allen](http://www-03.ibm.com/ibm/history/witexhibit/wit_hall_allen.html) (no relation to me) recently won ACM’s Turing Award for “pioneering contributions to the theory and practice of optimizing compiler techniques that laid the foundation for modern optimizing compilers and automatic parallel execution.”
 

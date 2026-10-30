@@ -1,16 +1,9 @@
 ---
 title: 'the evolution of the letter C'
 date: '2013-10-07T02:55:29-07:00'
-status: publish
 exported_permalink: /2013/10/the-evolution-of-the-letter-c
-author: sarah
-excerpt: ''
-type: post
 id: 4609
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 [![](https://monosnap.com/image/8mPf07gvlAR7xRQc77kAyxpA4.png)](http://www.radicalcartography.net/index.html?alphabets)Language evolves. Spoken language evolves faster than written language, but the written language is easier to track as it leaves behind physical artifacts.
 

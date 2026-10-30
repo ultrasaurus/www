@@ -1,16 +1,9 @@
 ---
 title: 'rspec 3 upgrade: conversion of should to expect'
 date: '2014-08-09T18:22:38-07:00'
-status: publish
 exported_permalink: /2014/08/rspec-3-upgrade-conversion-expect
-author: sarah
-excerpt: ''
-type: post
 id: 5186
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 **update**: follow the [rspec upgrade guide](https://relishapp.com/rspec/docs/upgrade) and try the [transpec](https://github.com/yujinakayama/transpec) gem
 

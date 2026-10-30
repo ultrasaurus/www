@@ -1,16 +1,9 @@
 ---
 title: 'great ruby book'
 date: '2008-12-12T19:01:38-08:00'
-status: publish
 exported_permalink: /2008/12/great-ruby-book
-author: sarah
-excerpt: ''
-type: post
 id: 564
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 I am enjoying reading Mr. Neighborly’s [Humble Little Ruby Book](http://www.humblelittlerubybook.com/) by Jeremy McAnnally. It’s a very easy read. I just finished chapter 3, and even though I’ll likely read the whole thing in the free PDF, I’ve ordered the print version to support this wonderful author and also I expect it will make a handy reference.
 

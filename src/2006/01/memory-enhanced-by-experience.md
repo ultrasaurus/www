@@ -1,17 +1,10 @@
 ---
 title: 'memory enhanced by experience'
 date: '2006-01-01T12:48:28-08:00'
-status: publish
 exported_permalink: /2006/01/memory-enhanced-by-experience
-author: sarah
-excerpt: ''
-type: post
 id: 205
-category:
-    - Uncategorized
 tag:
     - learning
-post_format: []
 ---
 Reading about the [hi-res user experience](http://headrush.typepad.com/creating_passionate_users/2005/12/the_hires_user_.html) reminded me about some interesting research I read about in “Making Connections: Teaching and the Human Brain” (Caine &amp; Caine). I can’t find the exact reference, but they discussed a study where people watched a scene in a move of people doing recreational drugs. When asked to recall details from the scene afterwards, people who had more drug experience were able to recall the precise drug paraphernalia; whereas people without that experience had trouble remembering the details of the scene.
 

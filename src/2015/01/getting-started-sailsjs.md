@@ -1,16 +1,9 @@
 ---
 title: 'getting started with sailsjs'
 date: '2015-01-11T11:24:11-08:00'
-status: publish
 exported_permalink: /2015/01/getting-started-sailsjs
-author: sarah
-excerpt: ''
-type: post
 id: 5442
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 [Sails.js](http://sailsjs.org/) is a [Node.js](http://nodejs.org/) MVC framework. Rails developers will find the components quite similar, but I think Sails has done a really good job of leveraging libraries and frameworks that it integrates. In addition to Node, it sits on top of [Express](http://expressjs.com/), which handles HTTP requests. In fact every request object, is simply an Express request. Sails also nicely integrates [socket.io](http://socket.io/).
 

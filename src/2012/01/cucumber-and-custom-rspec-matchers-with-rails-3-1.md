@@ -1,16 +1,9 @@
 ---
 title: 'cucumber and custom rspec matchers with rails 3.1'
 date: '2012-01-22T08:40:52-08:00'
-status: publish
 exported_permalink: /2012/01/cucumber-and-custom-rspec-matchers-with-rails-3-1
-author: sarah
-excerpt: ''
-type: post
 id: 3548
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 I’m working my way through an epic Rails 3.1 upgrade and some of my cucumber features were failing because I was using a custom RSpec matcher and the method wasn’t found.
 

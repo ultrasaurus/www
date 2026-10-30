@@ -1,16 +1,9 @@
 ---
 title: 'stir fry: great example of game dynamics'
 date: '2012-01-30T09:49:39-08:00'
-status: publish
 exported_permalink: /2012/01/stirfry-great-example-of-game-dynamics
-author: sarah
-excerpt: ''
-type: post
 id: 3553
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 The hip trend these days in game dynamics is “compulsion loops,” where in one of the game activities lets us win gold or coins or some kind of virtual currency, which lets us buy stuff, which helps us play the game better, which earns more gold, and so on. (Stephanie Morgan gave a great [Creative Mornings Talk](http://vimeo.com/35394885) on this.)
 

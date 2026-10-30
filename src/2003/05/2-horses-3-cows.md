@@ -1,16 +1,8 @@
 ---
 title: '2 horses + 3 cows = ?'
 date: '2003-05-30T08:14:17-07:00'
-status: publish
 exported_permalink: /2003/05/2-horses-3-cows
-author: sarah
-excerpt: ''
-type: post
 id: 24
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 In <u>How Children Fail</u>, John Holt describes how very young children approach the world as scientists with enthusiasm for learning. He observes how school teaches children to find the right answer. By fifth grade, school kids can get very good at the “right answer” game and appear successful without real learning.
 

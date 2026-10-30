@@ -1,16 +1,8 @@
 ---
 title: 'parking meter UI'
 date: '2007-01-14T10:47:57-08:00'
-status: publish
 exported_permalink: /2007/01/parking-meter-ui
-author: sarah
-excerpt: ''
-type: post
 id: 266
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 A year or two ago, new parking meters appeared by the train station in San Mateo. I suppose these were someone’s bright idea about how to save money by installing on one meter for two spaces:  
 [![](http://farm1.static.flickr.com/127/357189168_f9770b1520_m.jpg)](http://farm1.static.flickr.com/127/357189168_f9770b1520.jpg?v=0)

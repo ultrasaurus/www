@@ -1,16 +1,9 @@
 ---
 title: 'Laszlo preview release'
 date: '2004-01-07T22:05:21-08:00'
-status: publish
 exported_permalink: /2004/01/laszlo-preview-release
-author: sarah
-excerpt: ''
-type: post
 id: 88
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: code
 ---
 A preview release of [Laszlo Presentation Server version 2.0](http://www.laszlosystems.com/developers/) is now available. Woo hoo!
 

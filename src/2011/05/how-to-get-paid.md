@@ -1,16 +1,9 @@
 ---
 title: 'how to get paid'
 date: '2011-05-28T19:42:38-07:00'
-status: publish
 exported_permalink: /2011/05/how-to-get-paid
-author: sarah
-excerpt: ''
-type: post
 id: 3147
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I just watched Mike Monteiro’s recent talk “[F\*ck you. Pay me](http://vimeo.com/22053820).” which has a lot of great advice about how to get make sure you get paid for your work when doing service work for clients. It was targeted at designers, but it rings true for development as well. His talk focused around contracts. I thought I would add a few notes about what I’ve learned in running [my own business](http://blazingcloud.net/) for the past two years.
 

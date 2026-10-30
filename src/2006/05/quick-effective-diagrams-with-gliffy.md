@@ -1,16 +1,8 @@
 ---
 title: 'quick, effective diagrams with Gliffy'
 date: '2006-05-29T07:34:48-07:00'
-status: publish
 exported_permalink: /2006/05/quick-effective-diagrams-with-gliffy
-author: sarah
-excerpt: ''
-type: post
 id: 245
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 [![](https://www.ultrasaurus.com/images/blog/gliffy.jpg)](http://www.gliffy.com)[Gliffy](http://www.gliffy.com) is a great new tool for creating diagrams. It recently opened up it’s doors to a public beta. I’ve been using it for a while. It’s awesome to be able to create a quick network diagram, and then publish it to get a easily accessible jpeg image. I’ve never loved Visio, and now I don’t need it anymore! Working on a team with that uses both Mac and Windows there just hasn’t been a good way to create a diagram that can be easily edited by anyone on the team before Gliffy.
 

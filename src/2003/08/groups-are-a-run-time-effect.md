@@ -1,16 +1,8 @@
 ---
 title: 'groups are a run-time effect'
 date: '2003-08-21T07:37:46-07:00'
-status: publish
 exported_permalink: /2003/08/groups-are-a-run-time-effect
-author: sarah
-excerpt: ''
-type: post
 id: 45
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I enjoyed Clay Sharky’s article, [A Group is its Own Worst Enemy](http://shirky.com/writings/group_enemy.html). I’ve often noticed how software influences our actions. User experience is a run-time effect. In non-social software this pattern has been noted in such effects as “ransom note” publishing and verbose word processing.
 

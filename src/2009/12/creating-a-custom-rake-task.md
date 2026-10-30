@@ -1,16 +1,9 @@
 ---
 title: 'creating a custom rake task'
 date: '2009-12-20T09:30:51-08:00'
-status: publish
 exported_permalink: /2009/12/creating-a-custom-rake-task
-author: sarah
-excerpt: ''
-type: post
 id: 2236
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 There’s a nice [Railscast introduction to rake](http://railscasts.com/episodes/66-custom-rake-tasks) for Rails, which goes into a number of other important details that aren’t covered in this post. Below is a little tutorial of creating a Rails rake task and getting it to run remotely on heroku.
 

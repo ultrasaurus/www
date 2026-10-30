@@ -1,16 +1,9 @@
 ---
 title: 'graph in rust using petgraph'
 date: '2019-08-17T16:36:04-07:00'
-status: publish
 exported_permalink: /2019/08/graph-in-rust-using-petgraph
-author: sarah
-excerpt: ''
-type: post
 id: 6848
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 Getting started with Rust and the [petgraph crate](https://docs.rs/petgraph/0.4.13/petgraph/), I made a little program to write a graph in “dot” file format. Below is the rust and some command-line code to turn it into a png.
 

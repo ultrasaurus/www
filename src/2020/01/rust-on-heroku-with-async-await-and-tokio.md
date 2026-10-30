@@ -1,16 +1,9 @@
 ---
 title: 'rust on heroku with async/await and tokio'
 date: '2020-01-04T20:27:25-08:00'
-status: publish
 exported_permalink: /2020/01/rust-on-heroku-with-async-await-and-tokio
-author: sarah
-excerpt: ''
-type: post
 id: 6975
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 In an effort to understand the new Rust async/await syntax, I made a super-simple app that simply responds to all HTTP requests with **Hello!** and deployed on [Heroku](https://www.heroku.com/).
 

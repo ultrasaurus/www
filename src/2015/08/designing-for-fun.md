@@ -1,16 +1,9 @@
 ---
 title: 'designing for fun @altconf 2015'
 date: '2015-08-17T05:01:00-07:00'
-status: publish
 exported_permalink: /2015/08/designing-for-fun
-author: sarah
-excerpt: ''
-type: post
 id: 5619
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Making your app fun to use requires more than sprinkling a little gamification on top. It requires thoughtful imagination and experimentation. I recently spoke at [AltConf](http://altconf.com/schedule/): “Designing for Fun” (now on [video](https://realm.io/news/altconf-sarah-allen-designing-for-fun/)) highlights some expert perspectives on theories of play and behavioral psychology, and how we can apply these ideas in mobile app design. I also shared some prototyping and customer development techniques, plus how to validate whether a design will actually be fun.
 

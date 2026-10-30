@@ -1,16 +1,8 @@
 ---
 title: 'YouTube does social video well'
 date: '2006-03-27T22:05:08-08:00'
-status: publish
 exported_permalink: /2006/03/youtube-does-social-video-well
-author: sarah
-excerpt: ''
-type: post
 id: 223
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 [YouTube](http://www.youtube.com/), launched in Feb 2005, seems to be one of the most popular social video sites on the web. It’s fast, has a nice clean interface and a nice selection of features:  
 \* Flash video  

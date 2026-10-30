@@ -1,16 +1,9 @@
 ---
 title: 'origins of the smithsonian'
 date: '2013-12-21T11:49:47-08:00'
-status: publish
 exported_permalink: /2013/12/origins-smithsonian
-author: sarah
-excerpt: ''
-type: post
 id: 4041
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 ![](http://farm3.staticflickr.com/2823/8807316859_8213861fa0_m.jpg) In 1826, James Smithson wrote in [his will](http://siarchives.si.edu/history/exhibits/stories/last-will-and-testament-october-23-1826) that, if his heir were to die without children, his entire estate would go “to the United States of America, to found at Washington, under the name the Smithsonian Institution, an Establishment for the **increase and diffusion of knowledge among men**.” This unusual bequest was even more strange in that James Smithson has never been to the United States of America in his lifetime.
 

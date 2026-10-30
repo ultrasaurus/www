@@ -1,16 +1,9 @@
 ---
 title: 'one year of sf ruby'
 date: '2010-04-03T21:25:56-07:00'
-status: publish
 exported_permalink: /2010/04/one-year-of-sf-ruby
-author: sarah
-excerpt: ''
-type: post
 id: 2448
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 One year ago today, I wrote about attending [my first SF Ruby meetup](https://www.ultrasaurus.com/sarahblog/2009/04/sf-ruby-meetup/), where I met [Sarah Mei](http://www.sarahmei.com/blog/), the only other woman in attendance. I wrote then that I hoped someday “to attend a meetup where I don’t personally double the number of women.”
 

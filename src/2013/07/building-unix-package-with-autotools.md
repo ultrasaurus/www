@@ -1,16 +1,9 @@
 ---
 title: 'building unix package with autotools'
 date: '2013-07-14T12:41:52-07:00'
-status: publish
 exported_permalink: /2013/07/building-unix-package-with-autotools
-author: sarah
-excerpt: ''
-type: post
 id: 4070
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 ever wonder what all those random files are at the root of some package source that you are playing with? and how exactly does the mystical `configure` command actually do?
 

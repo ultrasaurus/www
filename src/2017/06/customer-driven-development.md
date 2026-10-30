@@ -1,16 +1,9 @@
 ---
 title: 'customer-driven development'
 date: '2017-06-19T06:08:36-07:00'
-status: publish
 exported_permalink: /2017/06/customer-driven-development
-author: sarah
-excerpt: ''
-type: post
 id: 6276
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Sometimes when I talk about customer use cases for software that I’m building, it confuses the people I work with. What does that have to do with engineering? Is my product manager out on leave and I’m standing in?
 

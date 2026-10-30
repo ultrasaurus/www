@@ -1,16 +1,9 @@
 ---
 title: 'Laszlo is XML tech&#8230;'
 date: '2004-04-02T01:28:09-08:00'
-status: publish
 exported_permalink: /2004/04/laszlo-is-xml-tech
-author: sarah
-excerpt: ''
-type: post
 id: 113
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: code
 ---
 [Daivd Temkin](http://www.davidtemkin.com), CTO of Laszlo Systems, puts Laszlo in context following the Macromedia Flex announcement. He writes that Laszlo is XML technology, not Flash technology:
 

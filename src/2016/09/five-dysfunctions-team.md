@@ -1,16 +1,9 @@
 ---
 title: 'five dysfunctions of a team'
 date: '2016-09-09T06:10:09-07:00'
-status: publish
 exported_permalink: /2016/09/five-dysfunctions-team
-author: sarah
-excerpt: ''
-type: post
 id: 6045
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 [The Five Dysfunctions of a Team](http://www.tablegroup.com/books/dysfunctions) by Patrick Lencioni tells the story of a fictional team leading a believable tech company. It illustrates how we bring our humanity and our flaws to work, even as good leaders who contribute exceptionally well, we can still fail if we can’t collaborate effectively on a shared goal.
 

@@ -1,16 +1,9 @@
 ---
 title: 'diversity in open source'
 date: '2009-08-06T05:44:27-07:00'
-status: publish
 exported_permalink: /2009/08/diversity-in-open-source
-author: sarah
-excerpt: ''
-type: post
 id: 1915
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Being a woman in open source is “like walking into a sports bar on game night and wearing the wrong team’s jersey… it can be the friendliest group in the world and you will still feel a little awkward”
 

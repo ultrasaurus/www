@@ -1,16 +1,9 @@
 ---
 title: 'public speaking: fear therapy'
 date: '2013-08-25T08:12:11-07:00'
-status: publish
 exported_permalink: /2013/08/public-speaking-fear-therapy
-author: sarah
-excerpt: ''
-type: post
 id: 4324
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I joined the Smithsonian chapters of Toastmasters, partly as a way to connect with a new community and partly as the next step in my ongoing effort to conquer my fear of public speaking. People who know me through my online presence or have heard me speak, may be surprised that I have any fear at all. From just a few meetings I’ve already learned much from this incredible Toastmasters group.
 

@@ -1,16 +1,8 @@
 ---
 title: 'Why I won&#8217;t work at Google'
 date: '2006-03-30T16:41:43-08:00'
-status: publish
 exported_permalink: /2006/03/why-i-wont-work-at-google
-author: sarah
-excerpt: ''
-type: post
 id: 227
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 &lt;rant&gt;  
 Peter Norvig [discusses](http://googleresearch.blogspot.com/2006/03/hiring-lake-wobegon-strategy.html) the “no hiring manager” philiosophy of Google, which I’ve heard related several times in conversation. “First we decide which candidates are above the hiring threshold, and then we decide what projects they can best contribute to.”

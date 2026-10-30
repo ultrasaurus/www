@@ -1,16 +1,8 @@
 ---
 title: 'Acts of the Apostles'
 date: '2003-08-28T19:18:16-07:00'
-status: publish
 exported_permalink: /2003/08/acts-of-the-apostles
-author: sarah
-excerpt: ''
-type: post
 id: 46
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 “Nonsense. Let *Wired* keep all that technohip bullshit. Information technology was an economic centrifuge, a wealth and power concentrator. This was the reality of the Information Revolution: efficiency, productivity, and downsizing; NAFTA, and the Walmartification of once beautiful downtowns… the strengthening of multinational conglomerates relative to poor people, human rights workers and small countries, the end of privacy, the eclipse of democracy, and realistic mayhem in video games..”![](http://images.amazon.com/images/P/192975213X.01.MZZZZZZZ.jpg)
 

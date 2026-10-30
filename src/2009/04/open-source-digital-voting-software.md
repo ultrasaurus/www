@@ -1,19 +1,13 @@
 ---
 title: 'open source digital voting software'
 date: '2009-04-19T06:40:09-07:00'
-status: publish
 exported_permalink: /2009/04/open-source-digital-voting-software
-author: sarah
-excerpt: ''
-type: post
 id: 1119
-category:
-    - general
 tag:
     - 'Add new tag'
     - gogaruco
     - Ruby
-post_format: []
+category: general
 ---
 Josh Susser, organizer of the [Golden Gate Ruby Conference](http://gogaruco.com), introduced this talk by saying that he wanted to have talks that weren’t only about *how* we do what we do, but also about *why* we do what we do. Gregory Miller’s talk “Trust the Vote: An Open Source Digital Public Works Project” addressed a significant issue for the United States and for democracy in general, and spoke to why the open source process that is so alive in the Ruby community is critical to solving many of the problems of our day.
 

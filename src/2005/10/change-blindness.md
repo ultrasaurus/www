@@ -1,16 +1,8 @@
 ---
 title: 'change blindness'
 date: '2005-10-23T16:31:00-07:00'
-status: publish
 exported_permalink: /2005/10/change-blindness
-author: sarah
-excerpt: ''
-type: post
 id: 194
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 “Change blindness is the striking failure to see large changes that normally would be noticed easily.”  
 Daniel J. Simons and Ronald A. Rensink, [Change Blindness: Past, Present and Future](http://www.psych.ubc.ca/~rensink/publications/download/S&R-TICS-05a.pdf), Trends in Cognitive Sciences, Vol.9 No.1 January 2005

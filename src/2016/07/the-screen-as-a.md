@@ -1,16 +1,9 @@
 ---
 title: 'the screen as a genuine biological extension'
 date: '2016-07-09T04:35:04-07:00'
-status: publish
 exported_permalink: /2016/07/the-screen-as-a
-author: sarah
-excerpt: ''
-type: post
 id: 6020
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Antoine Geiger’s art and writing explore “the screen as an object of ‘mass subculture,’ alienating the relation to our own body, and more generally to the physical world… It appeases the consciousness, stimulates it, orders it, subjugates it.”
 

@@ -1,16 +1,9 @@
 ---
 title: 'getting started with docker'
 date: '2017-10-09T07:17:24-07:00'
-status: publish
 exported_permalink: /2017/10/getting-started-with-docker
-author: sarah
-excerpt: ''
-type: post
 id: 6328
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 Learning about docker this weekend… it always is hard to find resources for people who understand the concepts of VMs and containers and need to dive into something just a little bit complicated. I had been through lots of intro tutorials, when docker first arrived on the scene, and was seeking to set up a hosted dev instance for existing open source project which already had a docker set up.
 

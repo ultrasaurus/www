@@ -1,16 +1,9 @@
 ---
 title: 'who cares if languages become extinct?'
 date: '2009-02-19T18:49:31-08:00'
-status: publish
 exported_permalink: /2009/02/who-cares-if-languages-become-extinct
-author: sarah
-excerpt: ''
-type: post
 id: 818
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 UNESCO reports that [2,500 languages are threatened with extinction](http://news.yahoo.com/s/afp/20090219/ts_afp/worldlanguagesunesco). As reported, it is easy to have an immediate reaction of horror as the word *extinction* evokes a loss of a living species. In fact “languages are undergoing a global extinction crisis that greatly exceeds the pace of species extinction,” said David Harrison, a linguistics professor at Pennsylvania’s Swarthmore College (via [nationalgeographic.com](http://news.nationalgeographic.com/news/2007/09/070918-languages-extinct.html)). However, some people hear this news and wonder “[Is language extinction a good thing?](http://johnhawks.net/weblog/reviews/behavior/language/language-extinction-pullum-2008.html)” After all, wouldn’t it be easier if we could all communicate using the same language? isn’t language extinction just part of language evolution? In addition to being natural, it helps communication. Shouldn’t we do everything we can to hasten this trend in the name of world peace?
 

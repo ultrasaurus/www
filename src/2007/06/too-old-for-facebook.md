@@ -1,16 +1,8 @@
 ---
 title: 'too old for Facebook?'
 date: '2007-06-30T09:36:14-07:00'
-status: publish
 exported_permalink: /2007/06/too-old-for-facebook
-author: sarah
-excerpt: ''
-type: post
 id: 278
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I’ve been hearing good things about Facebook APIs, so I thought I would register and check it out. I have a policy of not giving out my real birthday information. So, I can remember it, I use the real month and day along with the year my grandmother was born. For the first time after signing up for dozens of sites this way, in signing up for Facebook, the year 1908 did not appear. I wonder… who makes these decisions? 1910 is the first year that appears in their list. I wonder what the discussion was like? “Let’s start at an even year.” “We don’t expect anyone over 97 to seriously use Facebook” Is there some weird limit to the max number of items in a popup list on some browsers?
 

@@ -1,16 +1,8 @@
 ---
 title: 'SBC Yahoo Laszlo experience'
 date: '2003-09-16T21:27:31-07:00'
-status: publish
 exported_permalink: /2003/09/sbc-yahoo-laszlo-experience
-author: sarah
-excerpt: ''
-type: post
 id: 60
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 “Furthering their commitment to continuous innovation, Internet leaders SBC Communications Inc. and Yahoo! Inc. today introduced exciting new customer-driven features…” One of these is a new personalization tools that leverages the [Laszlo Presentation Server](http://www.laszlosystems.com).
 

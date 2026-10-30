@@ -1,16 +1,9 @@
 ---
 title: 'computer security primer'
 date: '2015-12-31T15:17:47-08:00'
-status: publish
 exported_permalink: /2015/12/computer-security-primer
-author: sarah
-excerpt: ''
-type: post
 id: 5783
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Ivan Krstić provided a computer security primer with some interesting historical context when he introduced the Mac App Sandbox in 2011. I learned these important concepts when I started writing web software in 1995 with the Shockwave player, but I’ve never seen as clear an overview as in the [first 20 minutes of this talk](https://developer.apple.com/videos/play/wwdc2011-203/).
 

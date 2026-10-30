@@ -1,16 +1,9 @@
 ---
 title: 'duck typing in rust: trait vs type'
 date: '2020-01-25T14:33:23-08:00'
-status: publish
 exported_permalink: /2020/01/duck-typing-in-rust-trait-vs-type
-author: sarah
-excerpt: ''
-type: post
 id: 7004
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 A `Trait` in the Rust programming language enables what today’s coders commonly call “duck-typing” (walks like a duck and quacks like a duck).
 

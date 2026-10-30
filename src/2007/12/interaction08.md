@@ -1,16 +1,8 @@
 ---
 title: Interaction08
 date: '2007-12-30T10:17:21-08:00'
-status: publish
 exported_permalink: /2007/12/interaction08
-author: sarah
-excerpt: ''
-type: post
 id: 345
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 If you haven’t yet signed up for [Interaction08](http://interaction08.ixda.org/index.php), space is filling up so sign up quick!
 

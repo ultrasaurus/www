@@ -1,16 +1,9 @@
 ---
 title: '[rust] what&#8217;s a tuple variant?'
 date: '2019-10-13T08:17:17-07:00'
-status: publish
 exported_permalink: /2019/10/rust-whats-a-tuple-variant
-author: sarah
-excerpt: ''
-type: post
 id: 6859
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 Learning Rust, like with any new programming language, requires learning the language of compiler error messages, which is partly about the Rust language itself and partly how Rust programmers talk about the language. One of the first error messages that tripped me up was when I was attempting to return a `Result`.
 

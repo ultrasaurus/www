@@ -1,17 +1,10 @@
 ---
 title: 'less grammar, more play'
 date: '2005-03-11T02:29:52-08:00'
-status: publish
 exported_permalink: /2005/03/less-grammar-more-play
-author: sarah
-excerpt: ''
-type: post
 id: 161
-category:
-    - Uncategorized
 tag:
     - learning
-post_format: []
 ---
 “Brains love play. Find a way to bring more play (or at least a sense of playfulness) into someone’s life, and you might just end up with a fan. (…) Brains evolved to play, and apparently the bigger the brain, the more likely it is to play. Play turns the brain on.” [Creating Passionate Users](http://headrush.typepad.com/creating_passionate_users/2005/01/creating_playfu.html) (via [InfoDesign](http://www.informationdesign.org/)) suggests a number of ways to make work more playful: games, festivities, and diversions.
 

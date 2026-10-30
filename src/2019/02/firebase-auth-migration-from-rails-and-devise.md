@@ -1,16 +1,9 @@
 ---
 title: 'firebase auth migration from rails/devise'
 date: '2019-02-02T17:53:44-08:00'
-status: publish
 exported_permalink: /2019/02/firebase-auth-migration-from-rails-and-devise
-author: sarah
-excerpt: ''
-type: post
 id: 6730
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 Migration to Firebase from a Heroku-hosted Rails app appears to work seamlessly. I’ve only tested one user, but I could log in with the same password and Facebook account with no end-user intervention.
 

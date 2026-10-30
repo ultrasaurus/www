@@ -1,16 +1,8 @@
 ---
 title: 'Law of Software Envelopment'
 date: '2007-09-24T15:31:20-07:00'
-status: publish
 exported_permalink: /2007/09/law-of-software-envelopment
-author: sarah
-excerpt: ''
-type: post
 id: 316
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 “Every program attempts to expand until it can read mail. Those programs which cannot so expand are replaced by ones which can.”  
 — [Zawinski’s Law](http://catb.org/jargon/html/Z/Zawinskis-Law.html)

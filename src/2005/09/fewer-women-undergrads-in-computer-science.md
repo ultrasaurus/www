@@ -1,16 +1,9 @@
 ---
 title: 'fewer women undergrads in computer science'
 date: '2005-09-05T12:57:38-07:00'
-status: publish
 exported_permalink: /2005/09/fewer-women-undergrads-in-computer-science
-author: sarah
-excerpt: ''
-type: post
 id: 179
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: general
 ---
 According to a study by HERI/UCLA women entering college are less likely to be planning on majoring in computer science than any college freshman class since before the 1970s. David Patterson, President of the ACM, published a good article in the recent issue of Communications of the ACM (Sept. 2005). You can also read about this study on-line in [Computing Research News](http://www.cra.org/CRN/articles/may05/vegso), where I found the graph below:
 

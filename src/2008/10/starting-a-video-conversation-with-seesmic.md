@@ -1,16 +1,8 @@
 ---
 title: 'starting a video conversation with seesmic'
 date: '2008-10-29T06:49:05-07:00'
-status: publish
 exported_permalink: /2008/10/starting-a-video-conversation-with-seesmic
-author: sarah
-excerpt: ''
-type: post
 id: 431
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Seesmic offers a new concept with its video conversations. When going to the website, its an odd sort of destination as I realize that while I personally just want to check out the tech, I have to actually think of something to say and I can bear another “hello” or “testing 1,2,3” clip. I find the other conversations to be an odd mix and while I loved the John Cleese interview, the replies that I listened to ranged from obvious to inane. I realized that I’m more interested in a listening to people I know, so I thought starting a conversation in the context of a blog post would make sense.
 

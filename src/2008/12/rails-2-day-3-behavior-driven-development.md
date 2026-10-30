@@ -1,16 +1,9 @@
 ---
 title: 'rails 2 day 3: behavior-driven development'
 date: '2008-12-22T00:42:19-08:00'
-status: publish
 exported_permalink: /2008/12/rails-2-day-3-behavior-driven-development
-author: sarah
-excerpt: ''
-type: post
 id: 599
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 Now that we have learned some basic Ruby syntax and gained some understanding about what the Rails generate scaffold script does, it is high time we started using a more modern approach to coding. In fact, if you recall at the end of [day 2](https://www.ultrasaurus.com/code/2008/12/rails-day2.html), I realized with horror that we had actually modified code and added features without developing the tests first. This defied everything I had ever heard about good coding practices from the Ruby crowd and I set off to mend my ways.
 

@@ -1,16 +1,8 @@
 ---
 title: 'meaningful to humans and computers alike'
 date: '2008-05-03T19:16:09-07:00'
-status: publish
 exported_permalink: /2008/05/meaningful-to-humans-and-computers-alike
-author: sarah
-excerpt: ''
-type: post
 id: 367
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Jon Udell writes “[We posted weekly.pdf to the website. Isn’t that good enough?](http://blog.jonudell.net/2008/04/22/we-posted-weeklypdf-to-the-website-isnt-that-good-enough/)” (via [Calendar Swamp](http://calendarswamp.blogspot.com/)). People don’t want to and shouldn’t have to structure what they write to be legible to a computer. It is hard enough to write prose that **people** understand, let alone also making it independently understood by a machine. I think the secret is to make software interfaces that allow people to naturally collect information and let the computer sort and publish it to other computers. Calendars are a great example of this, as are blogs.
 

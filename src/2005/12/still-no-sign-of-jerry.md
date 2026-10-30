@@ -1,16 +1,8 @@
 ---
 title: 'still no sign of Jerry'
 date: '2005-12-23T14:59:40-08:00'
-status: publish
 exported_permalink: /2005/12/still-no-sign-of-jerry
-author: sarah
-excerpt: ''
-type: post
 id: 203
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 It’s been over three weeks and there’s been no sign of Jerry since the first few days. A dedicated group of friends and family continue to search and spread the word. The more people who are looking out for Jerry, the greater chance we’ll find him.
 

@@ -1,16 +1,9 @@
 ---
 title: 'getting started with drupal'
 date: '2013-07-27T02:38:56-07:00'
-status: publish
 exported_permalink: /2013/07/getting-started-with-drupal
-author: sarah
-excerpt: ''
-type: post
 id: 4159
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 Emeline Glynn and Anthony Glynn gave a helpful talk called “[How to teach anyone Drupal in 7 months](http://capitalcamp.org/content/how-teach-anyone-drupal-development-7-months).” The timeline was based on their experience where Anthony, an experience Drupal developer, taught Emeline remotely over a period of 7 months, to the point that she is now working professionally as a Drupal developer. [Slides posted here.](http://anthony-glynn.com/drupal-7-months/)
 

@@ -1,16 +1,9 @@
 ---
 title: 'why more women conference speakers?'
 date: '2014-01-12T14:49:38-08:00'
-status: publish
 exported_permalink: /2014/01/women-conference-speakers
-author: sarah
-excerpt: ''
-type: post
 id: 4917
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 In 1997, I attended the Grace Hopper Conference for the first time. I was already quite accomplished in my career. My first startup had been acquired. I had worked as a software developer on both After Effects and Shockwave. My code was used by hundreds of millions of people. I believed that I had eradicated all impostor syndrome issues.
 

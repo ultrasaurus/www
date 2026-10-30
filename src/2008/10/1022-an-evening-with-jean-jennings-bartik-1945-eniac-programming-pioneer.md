@@ -1,16 +1,8 @@
 ---
 title: '10/22 An Evening with Jean Jennings Bartik &#8211; 1945 ENIAC Programming Pioneer'
 date: '2008-10-06T07:32:42-07:00'
-status: publish
 exported_permalink: /2008/10/1022-an-evening-with-jean-jennings-bartik-1945-eniac-programming-pioneer
-author: sarah
-excerpt: ''
-type: post
 id: 418
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 The Computer History Museum Presents  
 An Evening with Jean Jennings Bartik – 1945 ENIAC Programming Pioneer  

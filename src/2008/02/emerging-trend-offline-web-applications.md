@@ -1,16 +1,8 @@
 ---
 title: 'emerging trend: offline web applications'
 date: '2008-02-23T10:28:01-08:00'
-status: publish
 exported_permalink: /2008/02/emerging-trend-offline-web-applications
-author: sarah
-excerpt: ''
-type: post
 id: 357
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 Ryan Stewart [writes](http://blog.digitalbackcountry.com/?p=1286) about Adobe AIR’s mention in MIT Technology Review’s [top 10 emerging technology trends](http://www.technologyreview.com/read_article.aspx?ch=specialsections&sc=emerging08&id=20245) for 2008: “Context: Adobe will release AIR early this year; companies such as eBay, AOL, and Anthropologie have built applications using early versions of the software. Google is working on a competing platform called Gears.” (via [Ron Jeffries](http://blog.eronj.com/))
 

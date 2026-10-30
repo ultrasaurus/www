@@ -1,16 +1,9 @@
 ---
 title: 'not the person you were last year'
 date: '2015-04-11T11:12:27-07:00'
-status: publish
 exported_permalink: /2015/04/person-last-year
-author: sarah
-excerpt: ''
-type: post
 id: 5203
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 As a mom, I have found I need to get to know my kid anew every year. When my kid was little, there was a dramatic shift in which games were fun and what was interesting to talk about. I had to reset my expectations regularly and be open to learning who he was and how he wanted me to interact with him. Most of the time, it didn’t actually seem to me that he was really changing, so much as simply becoming more of who he was.
 

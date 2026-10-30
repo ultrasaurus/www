@@ -1,16 +1,9 @@
 ---
 title: 'code != computer science'
 date: '2013-12-23T16:17:13-08:00'
-status: publish
 exported_permalink: /2013/12/code-computer-science
-author: sarah
-excerpt: ''
-type: post
 id: 4802
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: general
 ---
 In [How Coding Went Mainstream](http://readwrite.com/2013/12/18/learn-to-code-trend-2013), Lauren Orsini writes “why it became easier than ever to learn computer science in 2013.” It is true that it is easier to learn to code than ever before. There are great resources available. However, this does not mean that it is easy to learn computer science or become a software developer.
 

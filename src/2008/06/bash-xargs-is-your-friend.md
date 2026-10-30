@@ -1,16 +1,9 @@
 ---
 title: 'bash: xargs is your friend'
 date: '2008-06-14T12:17:18-07:00'
-status: publish
 exported_permalink: /2008/06/bash-xargs-is-your-friend
-author: sarah
-excerpt: ''
-type: post
 id: 390
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 For some reason, since I set up my new machine, when I p4 sync I would get directories that aren’t writeable. This means that lzx files won’t compile since the swf needs to be written into the directory.
 

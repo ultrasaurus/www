@@ -1,16 +1,8 @@
 ---
 title: 'Phish and the Esther video'
 date: '2006-01-19T05:58:35-08:00'
-status: publish
 exported_permalink: /2006/01/phish-and-the-esther-video
-author: sarah
-excerpt: ''
-type: post
 id: 210
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 ![](http://cosa.com/esther/slideshowimages/024.jpg)  
 It is wonderful to see that Scott Nybakken has published [the story](http://cosa.com/esther/history.html) and [images ](http://cosa.com/esther/slideshow.html) from the Esther video on the web. This video was made while he was working at CoSA using technology that I helped develop. (My name at the time was Sarah Lindsley, if you were wondering why I’m not mentioned in the [credits](http://cosa.com/esther/credits.html)).

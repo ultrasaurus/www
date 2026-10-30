@@ -1,16 +1,9 @@
 ---
 title: 'rails 3.0 and rake 0.9.2'
 date: '2011-09-11T08:37:17-07:00'
-status: publish
 exported_permalink: /2011/09/rails-3-0-and-rake-0-9-2
-author: sarah
-excerpt: ''
-type: post
 id: 3401
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 I really want to upgrade a Rails 3.0 project to Rails 3.1, but I’ve done a few spikes and it lacks test coverage, so I decided to pull in cucumber and write some features before moving forward.
 

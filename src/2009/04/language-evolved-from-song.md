@@ -1,16 +1,9 @@
 ---
 title: 'language evolved from song?'
 date: '2009-04-04T08:59:18-07:00'
-status: publish
 exported_permalink: /2009/04/language-evolved-from-song
-author: sarah
-excerpt: ''
-type: post
 id: 872
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Darwin states that it is not speech, but humans’ “large power of connecting definite sounds with definite ideas” that is definition of language. [Tecumseh Fitch](http://www.st-andrews.ac.uk/~wtsf/) writes a [Language Log guest post](http://languagelog.ldc.upenn.edu/nll/?p=1136) on Darwin’s theories of language evolution. I had never known that Darwin’s theories did not restrict themselves to the evolution of the species. Fitsch discusses chapter two of the *Descent of Man*, in which Darwin considers the evolution of the human mind.
 

@@ -1,16 +1,9 @@
 ---
 title: 'bash context'
 date: '2009-05-18T08:23:32-07:00'
-status: publish
 exported_permalink: /2009/05/bash-context
-author: sarah
-excerpt: ''
-type: post
 id: 1327
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 Sometimes it takes quite an effort to be a “lazy programmer” (as in Larry Wall’s [virtues of a programmer](http://en.wikipedia.org/wiki/Larry_Wall#Virtues_of_a_programmer)). I’ve been trying to optimize my workflow as I run into things that make for repetitive typing. I find when I can type less, I have more cycles to think. One of my favorite tools in laziness is bash scripting, but I’m still learning its ins and outs.
 

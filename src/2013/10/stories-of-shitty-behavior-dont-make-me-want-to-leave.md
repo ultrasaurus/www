@@ -1,16 +1,9 @@
 ---
 title: 'stories of shitty behavior don&#8217;t make me want to leave&#8230;'
 date: '2013-10-12T12:58:42-07:00'
-status: publish
 exported_permalink: /2013/10/stories-of-shitty-behavior-dont-make-me-want-to-leave
-author: sarah
-excerpt: ''
-type: post
 id: 4628
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 It sucks to read about [more shitty behavior at a tech conference](http://blogjustine.wordpress.com/2013/10/12/because-it-needs-to-be-said/). The sad truth of our society is that shitty conduct is common in every industry, especially those dominated by old power structures of white, straight men. I don’t like to hear those stories, but they don’t make me want to leave. They make me want to [stand up and be counted](http://blog.nicksieger.com/articles/2009/04/30/stand-and-be-counted/). They make me proud to be part of a community where brave people speak up.
 

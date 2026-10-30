@@ -1,16 +1,9 @@
 ---
 title: 'responsive design prototyping'
 date: '2013-07-26T11:49:25-07:00'
-status: publish
 exported_permalink: /2013/07/responsive-design-prototyping
-author: sarah
-excerpt: ''
-type: post
 id: 4180
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 [A Response-Able Process to Responsive Design](http://capitalcamp.org/content/response-able-process-responsive-design) talk by Mal Jones ([@skeletonjones](@skeletonjones)), Brian Verhoeven ([@beverhoeven](https://twitter.com/beverhoeven)) and Corey Lafferty ([@coreylafferty](https://twitter.com/coreylafferty)) introduced their agile process and a new open source prototyping tool that they built.
 

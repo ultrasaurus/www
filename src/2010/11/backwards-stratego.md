@@ -1,16 +1,9 @@
 ---
 title: 'backwards stratego'
 date: '2010-11-26T17:06:56-08:00'
-status: publish
 exported_permalink: /2010/11/backwards-stratego
-author: sarah
-excerpt: ''
-type: post
 id: 2970
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 This holiday I learned how to play backward Stratego — a variant of the old strategy game. We used a set which has wizards, elves and dragons, but I’m sure it would be just as fun with a standard set. I expected it to be frustrating, but it was surprisingly fun.
 

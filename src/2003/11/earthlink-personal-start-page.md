@@ -1,16 +1,8 @@
 ---
 title: 'Earthlink Personal Start Page'
 date: '2003-11-23T20:51:25-08:00'
-status: publish
 exported_permalink: /2003/11/earthlink-personal-start-page
-author: sarah
-excerpt: ''
-type: post
 id: 80
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 “The consumer’s online experience reigns” says Mike Lunsford of EarthLink. EarthLink is offering its nearly one million broadband customers a new Personal Start Page (PSP) enhanced for high speed that ensures that data is continuously updated and displayed in real-time. It is awesome to see this in practice.  
 ![](https://www.ultrasaurus.com/images/blog/earthlink/thumb_collumns.gif)  

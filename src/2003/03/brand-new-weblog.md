@@ -1,16 +1,8 @@
 ---
 title: 'Brand New Weblog'
 date: '2003-03-03T12:50:34-08:00'
-status: publish
 exported_permalink: /2003/03/brand-new-weblog
-author: sarah
-excerpt: ''
-type: post
 id: 5
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 It was much easier installing moveabletype into this media temple account than it was getting it up and running on my Windows machine at home. I always like to have a local version of software to play with and it has been fun (in a geeky sort of way) getting to know the archane rites of MySql, perl, Apache, and whatnot.
 

@@ -1,17 +1,11 @@
 ---
 title: 'the decline of women in CS from 1940-1982'
 date: '2008-12-16T08:00:45-08:00'
-status: publish
 exported_permalink: /2008/12/the-decline-of-women-in-cs-from-1940-1982
-author: sarah
-excerpt: ''
-type: post
 id: 444
-category:
-    - general
 tag:
     - gender
-post_format: []
+category: general
 ---
 Jennifer Taylor provides fresh insight on the minority of women in computer science by looking at causes of [The Decline of Women in Computer Science from 1940-1982](http://knol.google.com/k/jennifer-taylor/the-decline-of-women-in-computer/u67r-Ndua/5hwjo0#). From the pioneering work of Ada Lovelace as the first programmer for the [difference engine](http://en.wikipedia.org/wiki/Difference_engine) in the 1800s to those who worked as [human computers](https://www.ultrasaurus.com/sarahblog/archives/000323.html) in the early 20th century to the group who programmed the first computing machine to support the war effort In the 1940s, women played a significant role in the nascent field of computer science.
 

@@ -1,16 +1,9 @@
 ---
 title: 'getting started with rails 2 &#8211; day 2'
 date: '2008-12-14T11:22:46-08:00'
-status: publish
 exported_permalink: /2008/12/getting-started-with-rails-2-day-2
-author: sarah
-excerpt: ''
-type: post
 id: 598
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 In [Day 1](https://www.ultrasaurus.com/code/2008/12/getting-started-with-rails.html) with Rails, we built a simple application that let us manage a list of categories using the powerful generate scaffold script. Today, we’ll look under the hood and learn about the code that was created for us, so that we can modify the application to do just what we want (or, rather, what the tutorial [Four Days on Rails](http://rails.homelinux.org/) tutorial did, as I continue to update that tutorial for Rails 2.)
 

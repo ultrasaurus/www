@@ -1,16 +1,8 @@
 ---
 title: 'Trust your DNA'
 date: '2007-07-07T13:39:52-07:00'
-status: publish
 exported_permalink: /2007/07/trust-your-dna
-author: sarah
-excerpt: ''
-type: post
 id: 290
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 “Fail early and get it all over with,” Swing said, a suggestion that elicited surprised laughter from the audience. “If you learn to deal with failure, you can raise teenagers. You can abide in intimate relationships. And you can have a worthwhile career. You learn to breathe again when you embrace failure as a part of life, not as the determining moment of life.”
 

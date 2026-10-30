@@ -1,16 +1,9 @@
 ---
 title: 'rails models are views?'
 date: '2009-08-31T19:07:10-07:00'
-status: publish
 exported_permalink: /2009/08/rails-models-are-views
-author: sarah
-excerpt: ''
-type: post
 id: 2032
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 Rails appears pretty strict about separation of the abstraction layers that make up its notion of a web application: models, view and controllers. If you were to suggest calling a presentation method, such as url\_for, in your model, the stoic Rails advocate will have an allergic reaction. However, Rails thinks nothing of rendering a model directly as a view, such as:
 

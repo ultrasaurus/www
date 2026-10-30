@@ -1,16 +1,9 @@
 ---
 title: 'on APIs: more craft, less magic'
 date: '2009-05-06T09:00:00-07:00'
-status: publish
 exported_permalink: /2009/05/on-apis-more-craft-less-magic
-author: sarah
-excerpt: ''
-type: post
 id: 1254
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I’ve spent a lot of years creating developer tools. Even for the software that did not target developers, there were always APIs for other vendors to create extensions or to use internally between different modules. One the interview questions I like is “have you ever designed an API?” followed by “what do you (would you) consider in designing an API?” There’s typically a trade-off between flexibility and getting the job done concisely and with a great engineer this usually turns into an interesting conversation.
 

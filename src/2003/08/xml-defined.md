@@ -1,16 +1,8 @@
 ---
 title: 'XML defined'
 date: '2003-08-31T21:44:02-07:00'
-status: publish
 exported_permalink: /2003/08/xml-defined
-author: sarah
-excerpt: ''
-type: post
 id: 49
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 XML, noun: A magic elixir of legend, claiming to solve all problems while inevitably exacting an ironic cost.
 

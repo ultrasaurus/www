@@ -1,16 +1,9 @@
 ---
 title: 'personal online security'
 date: '2016-11-19T16:04:59-08:00'
-status: publish
 exported_permalink: /2016/11/personal-online-security
-author: sarah
-excerpt: ''
-type: post
 id: 6105
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 This morning a few of us gathered for brunch, lured by pancakes and the promise of learning about security, by Aaron VonderHaar ([@avh4](https://twitter.com/avh4)). People shared experiences, as well as fears of what might happen in the future. EFF’s [Danny O’Brien](https://www.eff.org/about/staff/danny-obrien-0) and others shared tips and perspectives on security and online safety.
 

@@ -1,16 +1,8 @@
 ---
 title: 'extreme programming vs. interaction design?'
 date: '2008-05-05T06:31:27-07:00'
-status: publish
 exported_permalink: /2008/05/extreme-programming-vs-interaction-design
-author: sarah
-excerpt: ''
-type: post
 id: 369
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 In January 2002, [Elden Nelson](http://www.eldennelson.com/) wrote [“Extreme Programming vs. Interaction Design](http://web.archive.org/web/20070313205440/http://www.fawcette.com/interviews/beck_cooper/): When two development design visionaries meet, there’s room for consensus–but not much (via [The Sticky Bit](http://elasticprocess.com/blog/2008/04/clumsy-manifesto/) and the [Internet Archive](http://www.archive.org)). This fabulous interview with Kent Beck and Alan Cooper contrasts two modern methodologies for getting software right. These challenging questions are no less relevant six years later. I believe that we should take guidance from both philosophies, and that they are not mutually exclusive.
 

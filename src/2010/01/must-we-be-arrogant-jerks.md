@@ -1,16 +1,9 @@
 ---
 title: 'must we be arrogant jerks?'
 date: '2010-01-16T20:13:03-08:00'
-status: publish
 exported_permalink: /2010/01/must-we-be-arrogant-jerks
-author: sarah
-excerpt: ''
-type: post
 id: 2356
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Much of Clay Shirky’s [recent rant about women](http://www.shirky.com/weblog/2010/01/a-rant-about-women/) rang true to me. However, it took me much of the day, including talking with my friend [Val Liberty](http://twitter.com/balsamiqval) to figure out what felt off about his rant. Over a whole day of dog walking, chatting over coffee and monopoly with the kids, we spent about 5 minutes talking about Clay’s post, but our talk colored my thinking about it. We covered gender issues, success, humility, and diversity, along with tech talk and business plans.
 

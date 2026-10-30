@@ -1,16 +1,9 @@
 ---
 title: 'strong statements about testing'
 date: '2010-04-21T22:22:39-07:00'
-status: publish
 exported_permalink: /2010/04/strong-statements-about-testing
-author: sarah
-excerpt: ''
-type: post
 id: 2512
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I enjoyed “strong statements” in [Shannon Behrens’ SF Ruby talk](http://jjinux.blogspot.com/2010/04/ruby-introduction-to-behavioral-driven.html) tonight. I didn’t agree with all of them, but not vehemently so. I do strongly agree with the following.
 

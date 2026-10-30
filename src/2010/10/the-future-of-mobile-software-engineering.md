@@ -1,16 +1,9 @@
 ---
 title: 'the future of mobile software engineering'
 date: '2010-10-31T06:13:11-07:00'
-status: publish
 exported_permalink: /2010/10/the-future-of-mobile-software-engineering
-author: sarah
-excerpt: ''
-type: post
 id: 2839
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Last week I participated in a [Workshop on Mobile Software Engineering](http://www.cmu.edu/silicon-valley/wmse/) as part of the [MobiCASE](http://mobicase.org/) conference. I had agreed to be an organizer last summer upon the request [Martin Griss](http://www.cmu.edu/silicon-valley/faculty-staff/griss-martin.html). I was intrigued by the topic, but didn’t have a clear vision of what might come of the workshop. I applaud Martin’s facilitating an engaging discussion.
 

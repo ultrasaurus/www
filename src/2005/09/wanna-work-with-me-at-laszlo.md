@@ -1,16 +1,9 @@
 ---
 title: 'wanna work with me at Laszlo?'
 date: '2005-09-08T17:30:30-07:00'
-status: publish
 exported_permalink: /2005/09/wanna-work-with-me-at-laszlo
-author: sarah
-excerpt: ''
-type: post
 id: 180
-category:
-    - Uncategorized
-tag: []
-post_format: []
+category: general
 ---
 If you read this blog and you write software, maybe you want to work with me at Laszlo…
 

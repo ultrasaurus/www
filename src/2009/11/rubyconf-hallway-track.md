@@ -1,16 +1,9 @@
 ---
 title: 'rubyconf hallway track'
 date: '2009-11-28T11:44:39-08:00'
-status: publish
 exported_permalink: /2009/11/rubyconf-hallway-track
-author: sarah
-excerpt: ''
-type: post
 id: 2185
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 RubyConf had a most excellent “hallway track.” This was augmented by the fabulous [Poken](http://en.wikipedia.org/wiki/Poken), which allowed you to “high-four” someone who you met and avoid rummaging around for business cards. It also let you look up someone’s name who you ought to know, but had forgotten.
 

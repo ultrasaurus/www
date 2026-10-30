@@ -1,16 +1,9 @@
 ---
 title: 'visual management: whiteboard culture'
 date: '2015-07-29T06:01:19-07:00'
-status: publish
 exported_permalink: /2015/07/visual-management-whiteboard-culture
-author: sarah
-excerpt: ''
-type: post
 id: 5573
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 [Redgate](http://www.red-gate.com)‘s whiteboard culture takes visual management to a new level. Last week, when visiting the UK, I spent two days in Cambridge co-working with [Business of Software](http://businessofsoftware.org/)‘s [Mark Littlewood](https://twitter.com/marklittlewood) and team who share space with Redgate. Everywhere you look there’s a whiteboard filled with sticky notes, printouts and handwritten index cards with lines and labels drawn in colored tape and marker.
 

@@ -1,16 +1,9 @@
 ---
 title: 'on bootstrapping a business'
 date: '2010-08-31T13:06:56-07:00'
-status: publish
 exported_permalink: /2010/08/on-bootstrapping-a-business
-author: sarah
-excerpt: ''
-type: post
 id: 2776
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 I’m excited to speak tomorrow at the [Bootstrapper’s Breakfast](http://www.bootstrappersbreakfast.com/blog/2010/08/24/sarah-allen-on-boostrapping-a-mobile-startup-wed-sep-1-in-sf/), a monthly event held in SF and other bay area cities. There’s a lot of talk about fund-raising and venture-backed business these days, but there are also a lot of people just making their businesses happen with a series of small steps. I’ll give a very short overview of my startup experience and what I’m up to now and then I understand we’ll spend most of the time in Q&amp;A.
 

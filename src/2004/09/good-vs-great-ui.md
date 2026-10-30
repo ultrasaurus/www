@@ -1,16 +1,8 @@
 ---
 title: 'good vs. great UI'
 date: '2004-09-14T20:05:47-07:00'
-status: publish
 exported_permalink: /2004/09/good-vs-great-ui
-author: sarah
-excerpt: ''
-type: post
 id: 138
-category:
-    - Uncategorized
-tag: []
-post_format: []
 ---
 I believe any engineer can create good UI. With basic communication skills, anyone can come up with reasonable words to describe user actions. Desktop applications provide numerous example patterns for the use of common UI elements such as radio buttons, checkboxes, toolbars, and palettes.
 

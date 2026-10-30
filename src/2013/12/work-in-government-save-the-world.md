@@ -1,16 +1,9 @@
 ---
 title: 'work in government, save the world?'
 date: '2013-12-04T06:45:04-08:00'
-status: publish
 exported_permalink: /2013/12/work-in-government-save-the-world
-author: sarah
-excerpt: ''
-type: post
 id: 4754
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 Working as a Presidential Innovation Fellow has changed my perspective on the US government. I still believe there’s a bureaucracy that threatens to crush us all under its weight, but I no longer see that as immovable or inevitable. There are people working in our government, relentlessly in pursuit of excellence. They are passionate about the need to solve problems and provide opportunities for the American people. Where I work, at the Smithsonian, and at many agencies, the mission is much bigger than that, we are challenged to solve some of key problems facing our world. If we don’t, who will?
 

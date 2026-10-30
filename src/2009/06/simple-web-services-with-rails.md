@@ -1,16 +1,9 @@
 ---
 title: 'simple web services with rails'
 date: '2009-06-21T10:05:23-07:00'
-status: publish
 exported_permalink: /2009/06/simple-web-services-with-rails
-author: sarah
-excerpt: ''
-type: post
 id: 1533
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 Rails enables web services by default, which is pretty awesome, and I’ve been relying on that for a while. It is pretty nifty how Rails will magically parse XML post parameters, create an in-memory object and then save that object to the database without your having to write one line of code. However, when the magic fails it can be pretty hard to debug. I found it useful to run basic tests on the command line using curl (hearing the voice of [Zach Moazeni](http://simplechatter.com/) in my head saying: “test your assumptions.”)
 

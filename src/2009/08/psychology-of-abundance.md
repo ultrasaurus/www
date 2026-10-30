@@ -1,16 +1,9 @@
 ---
 title: 'psychology of abundance'
 date: '2009-08-03T00:10:35-07:00'
-status: publish
 exported_permalink: /2009/08/psychology-of-abundance
-author: sarah
-excerpt: ''
-type: post
 id: 1880
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 The August [Ruby on Rails Outreach Workshop for Women](http://www.meetup.com/sfruby/calendar/10804417/) was great success with 50 people attending including a few men who reached out to a woman to bring them along or came as a guest. We had a record turnout of over 20 volunteers, which made a huge difference to the workshop running smoothly. [Sarah Mei](http://www.sarahmei.com) and I still led the charge, but it was easier to be more organized with lead volunteer [Ilen Zazueta-Hall](http://www.ilen.org/) on the team. [SlideShare](http://www.slideshare.net/) again lent their offices for our teacher prep meeting. With the help of our amazing sponsors, [Pivotal Labs](http://www.pivotallabs.com/), [Engine Yard](http://www.engineyard.com/) and [Heroku](http://heroku.com/), along with some last minute additional food by the awesome [Triptych Restaurant](http://www.triptychsf.com/), we were in a comfortable workspace with plenty of food and drink for the important in-between and after times when people can connect with each other and ask questions informally.
 

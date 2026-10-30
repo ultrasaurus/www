@@ -1,16 +1,9 @@
 ---
 title: 'ruby to find latitude/longitude for a list of cities'
 date: '2014-01-19T19:08:17-08:00'
-status: publish
 exported_permalink: /2014/01/ruby-find-latitudelongitude-list-cities
-author: sarah
-excerpt: ''
-type: post
 id: 4961
-category:
-    - code
-tag: []
-post_format: []
+category: code
 ---
 I have a relatively short list of cities which I want to plot on a world map. The list is a little too long for a manual lookup, but I don’t know exactly how I’ll use it in an app, so I figured out how to do it with some simple ruby in irb using the lovely [geocoder gem](http://www.rubygeocoder.com/).
 

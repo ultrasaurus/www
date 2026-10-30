@@ -1,17 +1,10 @@
 ---
 title: 'data mining for oil sources'
 date: '2008-11-17T05:08:43-08:00'
-status: publish
 exported_permalink: /2008/11/data-mining-for-oil-sources
-author: sarah
-excerpt: ''
-type: post
 id: 439
-category:
-    - Uncategorized
 tag:
     - visualization
-post_format: []
 ---
 Jon Udell writes about [where the US gets its oil](http://blog.jonudell.net/2008/11/09/where-the-oil-comes-from-not-from-where-i-thought/) (the majority comes from Canada, not the middle east). He follows the data with the story of how he discovered the answer and presented the data using [DabbleDB](http://dabbledb.com/).
 

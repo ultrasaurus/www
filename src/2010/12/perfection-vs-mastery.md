@@ -1,16 +1,9 @@
 ---
 title: 'perfection vs mastery'
 date: '2010-12-29T06:37:58-08:00'
-status: publish
 exported_permalink: /2010/12/perfection-vs-mastery
-author: sarah
-excerpt: ''
-type: post
 id: 2979
-category:
-    - general
-tag: []
-post_format: []
+category: general
 ---
 [Abhishek Parolkar writes](http://abhishek.parolkar.com/2010/02/flawlessness.html) that flawlessness is not about perfection, its about how complete can you become after accepting reality. He offers this amazing video that illustrates this idea:
 

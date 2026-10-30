@@ -50,6 +50,16 @@ hr {
     border-bottom: 2px solid var(--gold);
 }
 
+/* Foundation's grey quote text (#8a8a8a) is only 3.2:1 on --page */
+blockquote,
+blockquote p {
+    color: var(--text);
+}
+
+blockquote {
+    border-left: 3px solid var(--gold);
+}
+
 .top-bar,
 .top-bar ul {
     background-color: var(--green);

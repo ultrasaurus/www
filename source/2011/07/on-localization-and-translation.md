@@ -48,6 +48,7 @@ A <a name="brand">**localized Brand**</a> is sometimes necessary when [brands do
 [![Diccionarios de Español, Ingles, Francés, Portugues - WordReference.com](https://img.skitch.com/20110704-g9k87jm2xwmcsj1swp7jsktpft.preview.png)](https://skitch.com/ultrasaurus/f89gq/diccionarios-de-espanol-ingles-frances-portugues-wordreference.com)
 
 </div>   
+
 <a name="ugen">**User generated content**</a> like we saw in the YouTube example above is a bit different from uniquely targeted or language-specific product text. When people write comments or submit text or video contributions in their own language, that content may be appropriate to a global audience, even if it was submitted in a specific language. Most sites don’t even have a way of detecting or specifying the submission language, so they simply display all user generated content equally. It is technically possible to detect language (or at least make a good guess) based on unicode characters and dictionary lookup. For example, the language website tatoeba does this quite well. You just need to be careful to allow the user to change the language, because it is possible to guess wrong. For example, some Japanese words share Chinese characters and other languages also share sequences of characters that have different meaning. In the example below Tatoeba guessed the language correctly for my three words, but allows me to select a different language just in case:
 
 <div class="thumbnail">

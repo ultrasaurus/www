@@ -157,5 +157,3 @@ We can also use this handy shortcut:
 
 d3.selectAll('.box').text( String )
 ```
-
-</body></html>

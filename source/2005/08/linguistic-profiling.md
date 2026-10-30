@@ -8,7 +8,7 @@ id: 177
 
 [What Kind of American English Do You Speak?](http://www.blogthings.com/amenglishdialecttest/) tells me that I’m
 
-<table align="center" border="1" cellpadding="2" cellspacing="0" style="color: black" width="400"><tr><td align="center" bgcolor="#A8FFB3">#### Your Linguistic Profile:
+<table align="center" border="1" cellpadding="2" cellspacing="0" style="color: black" width="400"><tr><td align="center" bgcolor="#A8FFB3"><h4>Your Linguistic Profile:</h4>
 
 </td></tr><tr><td bgcolor="#D9FFD8">45% General American English</td></tr><tr><td bgcolor="#A8FFB3">35% Yankee</td></tr><tr><td bgcolor="#D9FFD8">10% Dixie</td></tr><tr><td bgcolor="#A8FFB3">10% Upper Midwestern</td></tr><tr><td bgcolor="#D9FFD8">0% Midwestern</td></tr></table>
 

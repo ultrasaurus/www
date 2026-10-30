@@ -11,7 +11,7 @@ Background: [Minecraft](https://minecraft.net/) is a very popular world-building
 
 We found that the easiest way to run a server is to run it locally on an old MacBook, allowing external connections to connect to a [noip](http://www.noip.com/) domain and tunnel into our home network.
 
-**Prerequisites:**We’re running Mac OSX SnowLeopard. We need Java and the JDK, 1.6 or better.
+**Prerequisites:** We’re running Mac OSX SnowLeopard. We need Java and the JDK, 1.6 or better.
 
 Check that java is installed
 

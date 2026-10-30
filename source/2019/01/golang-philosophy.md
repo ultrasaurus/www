@@ -13,8 +13,8 @@ In learning Go, I found [cdarwin/go-koans](https://github.com/cdarwin/go-koans),
 
 The koans caused me to meditate on the basics, leading me to read more and reflect. While [about\_basics.go](https://github.com/cdarwin/go-koans/blob/master/about_basics.go) is quick to solve technically, it sparked my curiosity on two points.
 
-1. The uninitialized variable
------------------------------
+1\. The uninitialized variable
+------------------------------
 
 I really wanted the comments in the `go-koans` to be a bit more like Zen koans (or Ruby koans), so I wrote these:
 
@@ -32,8 +32,8 @@ I really wanted the comments in the `go-koans` to be a bit more like Zen koans (
 
 It reminds me of the [Zen teacup parable](http://bengtwendel.com/your-teacup-is-full-empty-your-cup/). An empty cup has utility, even before it is filled.
 
-2. The implications of a string
--------------------------------
+2\. The implications of a string
+--------------------------------
 
 One of the most deceptively simple types in modern programming languages is the string. In Go, there is a [built-in string type](https://golang.org/pkg/builtin/#string) with short, unsatisfying descriptive text.
 

@@ -602,5 +602,3 @@ I learned more of the Ruby language and how to navigate the Ruby API docs, and I
 Notably absent from this tutorial has been the famous unit testing that I hear all good Ruby developers swear by. Perhaps I'll need to go offscript and read up on that for Day 3.
 
 Stay tuned.
-
-</body></html>

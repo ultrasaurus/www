@@ -184,16 +184,25 @@ h6 {
 
 #content .recent-posts a {
     text-decoration: none;
+    font-weight: bold;
 }
 
 #content .recent-posts a:hover {
     text-decoration: underline;
 }
 
-/* the date goes on its own line under the title */
+/* the excerpt follows the title on the same line; the date goes below */
+.recent-posts .excerpt {
+    line-height: 1.5;
+}
+
 .recent-posts .date {
     display: block;
     font-size: .875rem;
+}
+
+.recent-posts li {
+    margin-bottom: 1.25rem;
 }
 
 /* on phones, stack them with the graphic first */

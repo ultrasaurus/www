@@ -10,6 +10,8 @@
     --link: #1f5f6b;          /* teal, 6.7:1 */
     --link-hover: #154650;    /* 9.6:1 */
     --gold: #c9962e;          /* rules only, never text */
+    --code-bg: #efe9da;       /* code, a shade darker than --page */
+    --code-border: #ddd4bf;
 }
 
 body {
@@ -207,6 +209,48 @@ h6 {
         max-width: 20rem;
         align-self: center;
     }
+}
+
+/* YouTube embeds are 770px wide; fit them to the column, keeping 16:9 */
+#content iframe[src*="youtube.com"] {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
+
+#content iframe {
+    max-width: 100%;
+}
+
+/* Code. Foundation styles every <code> as an inline chip, which inside
+   a <pre> puts a chip around each line; make the <pre> the box instead.
+   A long code line scrolls inside its block, not the whole page */
+code {
+    background-color: var(--code-bg);
+    border-color: var(--code-border);
+}
+
+#content pre {
+    background-color: var(--code-bg);
+    border: 1px solid var(--code-border);
+    padding: .75rem 1rem;
+    margin-bottom: 1rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    overflow-x: auto;
+}
+
+#content pre code {
+    background: none;
+    border: 0;
+    padding: 0;
+}
+
+/* long URLs and inline code break rather than run off a phone screen */
+#content p,
+#content li,
+#content td {
+    overflow-wrap: anywhere;
 }
 
 /* WordPress images with captions: <figure class="wp-caption thumbnail

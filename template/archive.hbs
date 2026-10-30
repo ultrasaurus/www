@@ -7,7 +7,7 @@
         <h1>{{{ title }}}</h1>
         {{#each posts_by_month}}
         <h2>{{date_format month}}</h2>
-        <ul>
+        <ul class="archive-list">
             {{#each posts}}
             <li><a href="{{url}}">{{{title}}}</a> <span class="date">{{date_format date "%b %-d"}}</span></li>
             {{/each}}

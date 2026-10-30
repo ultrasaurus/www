@@ -1,21 +1,100 @@
 /* Site styles, on top of foundation.min.css (Foundation 6) */
 
-/* Foundation's link blue (#2199e8) is too light to read.
-   #0b5394 has 7.8:1 contrast on the page, 6.8:1 on the grey top bar. */
+/* "Garden" palette; contrast is against --page unless noted */
+:root {
+    --page: #f9f6ee;          /* warm cream */
+    --text: #2a2a26;          /* 13.3:1 */
+    --muted: #5f5e52;         /* dates, 6.1:1 */
+    --green: #2f4f3a;         /* header and headings, 8.5:1 */
+    --on-green: #f4eedb;      /* header text, 7.9:1 on --green */
+    --link: #1f5f6b;          /* teal, 6.7:1 */
+    --link-hover: #154650;    /* 9.6:1 */
+    --gold: #c9962e;          /* rules only, never text */
+}
+
+body {
+    background: var(--page);
+    color: var(--text);
+}
+
 a,
 a:focus {
-    color: #0b5394;
+    color: var(--link);
 }
 
 a:hover {
-    color: #083c6b;
+    color: var(--link-hover);
     text-decoration: underline;
 }
 
+/* links inside post text are underlined so they don't rely on colour */
+#content p a,
+#content li a {
+    text-decoration: underline;
+}
+
+/* ...except lists that are all links, like the archives */
+#content .archive-list a {
+    text-decoration: none;
+}
+
+#content .archive-list a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--green);
+}
+
+hr {
+    border-bottom: 2px solid var(--gold);
+}
+
+.top-bar,
+.top-bar ul {
+    background-color: var(--green);
+}
+
+.top-bar .menu a,
+.top-bar .menu a:focus {
+    color: var(--on-green);
+}
+
+.top-bar .menu a:hover {
+    color: #fff;
+}
+
+.date,
+.post-date {
+    color: var(--muted);
+}
+
+/* Keep lines short enough to read: about 75 characters,
+   like the 620px column on the old WordPress site */
 #content {
+    max-width: 42rem;
     padding: 20px;
     margin-top: 2rem;
-    margin-left: .5rem;
+    margin-left: 2rem;
+}
+
+/* Foundation's headings are huge (h1 is 3rem on wide screens) */
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h4,
+h5,
+h6 {
+    font-size: 1.1rem;
 }
 
 #content ul {

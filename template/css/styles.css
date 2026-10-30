@@ -246,6 +246,15 @@ code {
     padding: 0;
 }
 
+/* on phones, a table wider than the column scrolls inside itself */
+@media screen and (max-width: 39.9375em) {
+    #content table {
+        display: block;
+        max-width: 100%;
+        overflow-x: auto;
+    }
+}
+
 /* long URLs and inline code break rather than run off a phone screen */
 #content p,
 #content li,

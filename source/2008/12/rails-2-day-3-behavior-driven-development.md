@@ -110,7 +110,7 @@ Describe a Feature
 
 In the features directory that was auto-created for us with the cucumber script, we create a .feature file which starts with a description of the feature. The first section that describes the feature appears to be purely documentation; however the “scenario” sections will each become part of the executable feature definition. For starters we’ll do something simple.
 
-`<strong>features/tasklist.feature</strong>`
+**`features/tasklist.feature`**
 
 ```
 Feature: Tasks
@@ -130,7 +130,7 @@ We know we haven’t written any executable steps, but we’ll execute it anyhow
 
 Note that one of the steps is already defined in webrat. Isn’t that cool? When we set up cucumber for the project, it automatically includes step\_definitions/webrat\_steps.rb which defines some common steps. As you get the hang of this, you reuse certain word patterns which map to specific tests. But we’re getting ahead of ourselves. We need to dive into the creation of “steps” which make up our executable spec. Cucumber gives a some handy snippets to get us started (in the output of “rake features” above). We’ll paste these into a new file that we’ll create in the “features/step\_definitions” directory:
 
-`<strong>features/step_definitions/tasklist_steps.rb</strong>`
+**`features/step_definitions/tasklist_steps.rb`**
 
 ```
 Given /^that I have created a task "(.*)"$/ do |desc|

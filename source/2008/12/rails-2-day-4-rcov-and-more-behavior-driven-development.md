@@ -43,17 +43,15 @@ gem install spicycode-rcov
 
 Second, you’ll need to open up the cucumber generated task file and set the rcov config option (add one line in bold).
 
-`<strong>in todolist/lib/tasks/cucumber.rake</strong>`
+in **`todolist/lib/tasks/cucumber.rake`**
 
-> ```
-> $:.unshift(RAILS_ROOT + '/vendor/plugins/cucumber/lib')
-> require 'cucumber/rake/task'
-> Cucumber::Rake::Task.new(:features) do |t|
->   t.cucumber_opts = "--format pretty"
->   t.rcov = true
-> end
-> task :features => 'db:test:prepare'
-> ```
+<pre><code>$:.unshift(RAILS_ROOT + '/vendor/plugins/cucumber/lib')
+require 'cucumber/rake/task'
+Cucumber::Rake::Task.new(:features) do |t|
+  t.cucumber_opts = "--format pretty"
+  <strong>t.rcov = true</strong>
+end
+task :features =&gt; 'db:test:prepare'</code></pre>
 
 <a name="coverage"></a>
 
@@ -157,7 +155,7 @@ As you can see that I’ve modified line 10 to link the description to the edit 
 
 But wait! I still have the “show” method in my controller. What’s up with that? If I look at my coverage report, it shows that it is being called. In my controller, both create and update redirect to @task (which is the “show” page), like I did in [day 2](https://www.ultrasaurus.com/code/2008/12/rails-day2.html#edit-controller), I’ll modify those to redirect to index instead.
 
-`in <strong>app/controllers/task_controller.rb</strong>`
+in **`app/controllers/task_controller.rb`**
 
 change:
 
@@ -270,7 +268,7 @@ Refactor to Remove Duplication
 Now that the feature description roughly covers the functionality of our app, I sought to take Matt’s advice and look at the code and see if we need to remove some duplication.  
 I looked first at the controller and found something odd:
 
-`in <strong>app/controllers/tasks_controllers.rb</strong>:`
+in **`app/controllers/tasks_controllers.rb`**:
 
 ```
 class TasksController  @tasks }

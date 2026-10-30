@@ -69,13 +69,32 @@ hr {
     color: var(--muted);
 }
 
-/* Keep lines short enough to read: about 75 characters,
-   like the 620px column on the old WordPress site */
+/* Keep lines short enough to read, about 85 characters.
+   Centred, so the side margins grow as the window gets wider */
 #content {
-    max-width: 42rem;
+    max-width: 48rem;
     padding: 20px;
-    margin-top: 2rem;
-    margin-left: 2rem;
+    margin: 2rem auto 0;
+}
+
+/* Header lines up with the #content column. The green bar stays
+   full width; Foundation pads each menu link by 1rem, so the inner
+   padding is 20px - 1rem, which lines up the link text, not the box */
+.top-bar {
+    padding: .5rem 0;
+}
+
+.top-bar-inner {
+    max-width: 48rem;
+    margin: 0 auto;
+    padding: 0 .25rem;
+}
+
+/* clear the floated left/right menus */
+.top-bar-inner::after {
+    content: '';
+    display: table;
+    clear: both;
 }
 
 /* Foundation's headings are huge (h1 is 3rem on wide screens) */

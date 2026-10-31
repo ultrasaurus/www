@@ -9,7 +9,7 @@ category: general
 ---
 \[update\] Laszlo Mail is released into the wild! You can sign up for your very own account and check out our latest version at [www.laszlomail.com](http://www.laszlomail.com) As you may know, it has been available for [EarthLink](http://www.earthlink.net) subscribers since June.
 
-[(image lost — Laszlo Mail Screenshot)<!-- lost image: https://www.ultrasaurus.com/images/blog/laszlomail/laszlomail-small.png -->](http://www.laszlomail.com)
+[![Laszlo Mail Screenshot](/uploads/2005/11/laszlomail-small.png)](http://www.laszlomail.com)
 
 E-mail provides a lot of interesting UI challenges and opportunities. Lately there has been a lot of innovation in this area, both on the web and on the desktop. People use e-mail everyday. For many, it has become the center of their online experience. Even though web mail is missing some features of desktop mail applications, more and more people are moving to web-based mail because of the convenience of it being available on any computer you happen to be near.
 

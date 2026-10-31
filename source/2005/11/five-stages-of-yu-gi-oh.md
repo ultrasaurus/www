@@ -18,7 +18,7 @@ We stopped by a yard sale and bought 106 cards from a boy selling his collection
 
 I even agreed to play the game myself. That’s when I started to suspect that this is a game where the kid gets to make up rules at any time to confuse the adult. Perhaps this was a bit like their experience of life: someone makes up a new rule for every situation — no matter how many you learn, there is always another one.
 
-(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/malevolent-nuzzler.gif -->2. **Anger**  
+![](/uploads/2005/11/malevolent-nuzzler.gif)2. **Anger**  
 I finally looked up the rules on the Internet. The pages just went on and on. This is crazy. There is no way I’m learning this game.
 
 3\. **Bargaining**  

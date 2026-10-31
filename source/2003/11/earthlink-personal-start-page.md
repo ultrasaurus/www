@@ -5,8 +5,8 @@ exported_permalink: /2003/11/earthlink-personal-start-page
 id: 80
 ---
 “The consumer’s online experience reigns” says Mike Lunsford of EarthLink. EarthLink is offering its nearly one million broadband customers a new Personal Start Page (PSP) enhanced for high speed that ensures that data is continuously updated and displayed in real-time. It is awesome to see this in practice.  
-(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/earthlink/thumb_collumns.gif -->  
-You need to be an Earthlink broadband subscriber to really see it in action, but I’ve captured some screen shots<!-- lost file: https://www.ultrasaurus.com/images/blog/earthlink/psp_images.html --> to give you a peek inside. There are nine different options for people to choose, ranging from pratical to dramatic. Each provides access to the same data and has a moderately configurable layout.
+[![](/uploads/2003/11/thumb_collumns.gif)](/uploads/2003/11/collumns.gif)  
+You need to be an Earthlink broadband subscriber to really see it in action, but I’ve captured some [screen shots](/uploads/2003/11/psp_images.html) to give you a peek inside. There are nine different options for people to choose, ranging from pratical to dramatic. Each provides access to the same data and has a moderately configurable layout.
 
 My favorite are the panoramic views. You can scroll to the right and the left for 360 degree panorama. In addition to text displays, there is ambient data in the scenery. Without reading the text you can see that the market was up and I had new mail when I took the screen shots around 8pm this evening.
 

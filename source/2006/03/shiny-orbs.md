@@ -8,6 +8,6 @@ I’ve always wanted to learn to make nice shiny things in Flash. I had a need f
 
 You can see the results of my learning experience:
 
-Isn’t the Web grand? just makes a person want to give back… if you have a need for a shiny indicator light in your app, feel free to borrow red<!-- lost file: https://www.ultrasaurus.com/images/blog/shinyorbs/red-orb.swf -->, yellow<!-- lost file: https://www.ultrasaurus.com/images/blog/shinyorbs/yellow-orb.swf -->or green<!-- lost file: https://www.ultrasaurus.com/images/blog/shinyorbs/green-orb.swf -->.
+Isn’t the Web grand? just makes a person want to give back… if you have a need for a shiny indicator light in your app, feel free to borrow [red](/uploads/2006/03/red-orb.swf), [yellow](/uploads/2006/03/yellow-orb.swf)or [green](/uploads/2006/03/green-orb.swf).
 
 It’s the simple pleasures in life that make all the difference.

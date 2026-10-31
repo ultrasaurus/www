@@ -8,10 +8,10 @@ We recently wrapped up version 2.0 of the Laszlo Presentation Server. In celebra
 
 So… the stores are open and mugs are sold at cost. I’m posting links here for Laszlovians, Laszlo developers and other fans.
 
-(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/laszlomugs/insecticides.gif -->  
+![](/uploads/2004/02/insecticides.gif)  
 available at <http://www.cafeshops.com/laszlofanclub>
 
-(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/laszlomugs/weekendflight.gif -->  
+![](/uploads/2004/02/weekendflight.gif)  
 available at <http://www.cafeshops.com/laszloweekend>
 
 Art and words by Peter Andrea. I’m not sure that he inteded the words to be immortalized in ceramic. Created originally in a test file, we enjoyed them so much that they travelled into an example file.

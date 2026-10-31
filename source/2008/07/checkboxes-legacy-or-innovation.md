@@ -16,7 +16,7 @@ Yahoo aquired Oddpost and several years later offered a new Yahoo Mail with a si
 ![](http://blogs.pcworld.com/staffblog/archives/Yahoo-Mail-Ajax.jpg)
 
 Meanwhile, Laszlo was also developing a Webmail application. Like Oddpost, it has a desktop-like UI with drag-and-drop and double-click. Additionally, it provides a cinematic user experience with a login panel that visually transforms into the application and animated details that help novice users learn their way around. We were looking to go beyond the desktop experience, and didn’t think twice about leaving behind the bad-old-days of plain old HTML.  
-(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/laszlomail/laszlomail-small.png -->
+![](/uploads/2005/11/laszlomail-small.png)
 
 Just a few years later, it seemed that Yahoo took a step backwards in their UI by including checkboxes for multiple select.  
 ![](http://farm2.static.flickr.com/1424/1252233248_d73e9be7ed.jpg?v=0)

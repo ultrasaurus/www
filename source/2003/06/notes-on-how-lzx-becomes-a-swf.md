@@ -7,7 +7,7 @@ category: code
 ---
 Don Park recently spent some time with the [Laszlo Presentation Server](http://www.laszlosystems.com/) and drew a nice architecture diagram in his [blog](http://www.docuverse.com/blog/donpark/2003/06/16.html#a596). Generating an LZX from a JSP is one way to create applications in Laszlo. A more common development pattern is to simply write an LZX file that references an XML data source. I’ve drawn a diagram with a similar structure to Don’s that shows the HTTP requests from the browser, to illustrate how this works.
 
-(image lost)<!-- lost image: /images/blog/lzx.gif -->  
+![](/uploads/2003/06/lzx.gif)  
 1\. The user goes to the web page “http://mysite.com/hello.html”  
 (a) the browser requests “hello.html” from mysite.com  
 (b)The web server sends that document it to the browser.

@@ -10,7 +10,7 @@ The generic install with the custom icon and name looks like this (not a real we
 
 Slides: [SlideShare](http://static.slideshare.net/swf/logo_embd.png)
 
-The actual page is [here](https://www.ultrasaurus.com/gears/install/), if you want to check it out yourself, just view source. The code with the extra branding params looks like this:
+The actual page is [here](https://web.archive.org/web/20090106124233/http://www.ultrasaurus.com/gears/install/), if you want to check it out yourself, just view source. The code with the extra branding params looks like this:
 
 ```
 

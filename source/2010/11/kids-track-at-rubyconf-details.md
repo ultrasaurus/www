@@ -27,7 +27,7 @@ Schedule
 Planned Activities
 
 - **Pixel Loops** (aka Distributed Ruby Processing) – this is a group activity where kids can send commands for drawing lines and shapes and they will all show up on the big screen
-- **Interactive Graphics** projects – we’ll split into small groups to create dynamic patterns with shapes and color (check out [this example](https://www.ultrasaurus.com/sarahblog/notes/processing/bounce_points3/index.html) – hint roll over the pattern with your mouse to change it)
+- **Interactive Graphics** projects – we’ll split into small groups to create dynamic patterns with shapes and color (check out [this example](/2003/10/processing/) – hint roll over the pattern with your mouse to change it)
 - **Web adventure games** with Pie, here is a [simple example](http://pie-bakery.heroku.com/play/1/start)
 - **Building circuits** with flashing lights and other physical effects that can be controlled by the computer. We’ll have some kits already put together, but older kids can learn to solder partnered with a grown-up.
 

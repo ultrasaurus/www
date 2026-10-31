@@ -9,6 +9,6 @@ I’ve enjoyed experimenting with the “alpha” relase of [processing](http://
 
 Here are two interactive pieces that I made. It was fun to remember trignometry. It has been a long time since I wrote code to animate a simple bounce. Processing let me focus on the core of the pattern without worrying about the mundane details (at least until I had to draw a button). This will be a great teachnig language, and it is quite impressive for an early release.
 
-[ ![](https://www.ultrasaurus.com/sarahblog/notes/processing/bouce_rotation3/snapshot.gif)](https://www.ultrasaurus.com/sarahblog/notes/processing/bouce_rotation3/index.html)
+[ ![](/uploads/2003/10/bounce_rotation3.gif)](/uploads/2003/10/bounce_rotation3.pde)
 
-[ ![](https://www.ultrasaurus.com/sarahblog/notes/processing/bounce_points3/snapshot.gif)](https://www.ultrasaurus.com/sarahblog/notes/processing/bounce_points3/index.html)
+[ ![](/uploads/2003/10/bounce_points3.gif)](/uploads/2003/10/bounce_points3.pde)

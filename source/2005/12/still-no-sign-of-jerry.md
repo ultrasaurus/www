@@ -19,4 +19,4 @@ And if anyone else want to put the same app on your website, just include the fo
 &lt;param name=”salign” value=”LT”&gt;  
 &lt;param name=”menu” value=”false”&gt;&lt;/object&gt;
 
-\[update: I forgot to mention that this is, of course, built with [OpenLaszlo](http://www.openlaszlo.org) and the source code is [here](https://www.ultrasaurus.com/findjerry/findjerry.zip). Many thanks to [Lyndon Wong](http://lyndonwong.blogspot.com/) who wrote a [mini-slideshow](http://lyndolab.blogspot.com/) and posted the source on [mylaszlo](http://www.mylaszlo.com/browse.php?page=5&order=user).
+\[update: I forgot to mention that this is, of course, built with [OpenLaszlo](http://www.openlaszlo.org) and the source code is [here](https://web.archive.org/web/20070101173846/http://www.ultrasaurus.com/findjerry/findjerry.zip). Many thanks to [Lyndon Wong](http://lyndonwong.blogspot.com/) who wrote a [mini-slideshow](http://lyndolab.blogspot.com/) and posted the source on [mylaszlo](http://www.mylaszlo.com/browse.php?page=5&order=user).

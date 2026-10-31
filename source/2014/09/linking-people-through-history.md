@@ -56,7 +56,7 @@ Emerging on the web, there’s a new model of publishing. Instead of links being
 
 <figure class="wp-caption thumbnail alignleft" id="attachment_5322" style="width: 300px;">
 
-[![Sarah Vaughan in the center with lines connecting to other jazz musicians.](../../../uploads/2014/09/LinkedJazz-SarahVaughan1-e1410174730930.png)](https://www.ultrasaurus.com/wp-content/uploads/2014/09/LinkedJazz-SarahVaughan1-e1410174730930.png)
+[![Sarah Vaughan in the center with lines connecting to other jazz musicians.](../../../uploads/2014/09/LinkedJazz-SarahVaughan1-e1410174730930.png)](/uploads/2014/09/LinkedJazz-SarahVaughan1-e1410174730930.png)
 
 <figcaption class="wp-caption-text">Sarah Vaughan’s social graph at LinkedJazz created by volunteers annotating transcripts of oral histories.</figcaption>
 

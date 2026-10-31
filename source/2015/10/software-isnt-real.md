@@ -7,7 +7,7 @@ category: general
 ---
 Images and sound, which respond to our touch, create the feeling that we are interacting with something that is actually there. We talk about *going* to a web site. We tap buttons, open folders, and select choices from menus, and aren’t bothered by the inconsistency with real world analogs as we drag windows and surf the web.
 
-[![software-is-not-real](../../../uploads/2015/10/software-is-not-real.jpg)](https://www.ultrasaurus.com/wp-content/uploads/2015/10/software-is-not-real.jpg)
+[![software-is-not-real](../../../uploads/2015/10/software-is-not-real.jpg)](/uploads/2015/10/software-is-not-real.jpg)
 
 I don’t know the story behind this image sent to me via [Twitter](https://twitter.com/brttb/status/646356467847688193) by “Brett” — is it an original in drawing or native digital creation? or were 140 characters too short for attribution?
 

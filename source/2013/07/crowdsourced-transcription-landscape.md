@@ -5,7 +5,7 @@ exported_permalink: /2013/07/crowdsourced-transcription-landscape
 id: 4117
 category: general
 ---
-The following is based on [an interview with Ben Brumfield](https://www.ultrasaurus.com/sarahblog/2013/07/why-crowdsourced-transcription/), after which I did a bit of research myself, adding links and some additional references.
+The following is based on [an interview with Ben Brumfield](/2013/07/why-crowdsourced-transcription/), after which I did a bit of research myself, adding links and some additional references.
 
 There are 6 general areas from which people are doing transcription.
 

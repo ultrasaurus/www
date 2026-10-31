@@ -11,4 +11,4 @@ John Sundman is working on a new book: [Creation Science](http://www.kickstarter
 
 John has distributed his previous books for free on the web with a Creative Commons license, with a pledge of $15 or more you will receive a printed copy of the book when it is complete, but you can pledge smaller amounts just to support the effort, or if you can afford it, you can be a patron for $250 and get early drafts of the book.
 
-I reviewed his [Acts of the Apostles](https://www.ultrasaurus.com/sarahblog/2003/08/acts-of-the-apostles/) — my favorite of his three books, and just made a pledge to help him keep working on this one. I look forward to reading it. I think that kickstart provides a neat way for independent writers to be funded.
+I reviewed his [Acts of the Apostles](/2003/08/acts-of-the-apostles/) — my favorite of his three books, and just made a pledge to help him keep working on this one. I look forward to reading it. I think that kickstart provides a neat way for independent writers to be funded.

@@ -9,17 +9,17 @@ Ivan Krstić provided a computer security primer with some interesting historica
 
 Here are some highlights:
 
-[![unfortunate-assumption](../../../uploads/2015/12/unfortunate-assumption.png)](https://www.ultrasaurus.com/wp-content/uploads/2015/12/unfortunate-assumption.png)
+[![unfortunate-assumption](../../../uploads/2015/12/unfortunate-assumption.png)](/uploads/2015/12/unfortunate-assumption.png)
 
-[![history-of-assumptions](../../../uploads/2015/12/history-of-assumptions.png)](https://www.ultrasaurus.com/wp-content/uploads/2015/12/history-of-assumptions.png)
+[![history-of-assumptions](../../../uploads/2015/12/history-of-assumptions.png)](/uploads/2015/12/history-of-assumptions.png)
 
 We are conditioning our users to ignore our security messages…
 
-[![if-you-are-explaining-you-are-losing](../../../uploads/2015/12/if-you-are-explaining-you-are-losing.png)](https://www.ultrasaurus.com/wp-content/uploads/2015/12/if-you-are-explaining-you-are-losing.png)
+[![if-you-are-explaining-you-are-losing](../../../uploads/2015/12/if-you-are-explaining-you-are-losing.png)](/uploads/2015/12/if-you-are-explaining-you-are-losing.png)
 
 What if we took this approach with car airbags?
 
-[![security-ui-airbag-analogy](../../../uploads/2015/12/security-ui-airbag-analogy.png)](https://www.ultrasaurus.com/wp-content/uploads/2015/12/security-ui-airbag-analogy.png)
+[![security-ui-airbag-analogy](../../../uploads/2015/12/security-ui-airbag-analogy.png)](/uploads/2015/12/security-ui-airbag-analogy.png)
 
 The root problem is one of “ambient privilege.” Just because of the person who happened to run a program, we give that program all of the privileges we would give to the person. However, no human can understand and review all of the lines of code that we execute every day.
 
@@ -27,13 +27,13 @@ We are building complex systems, which *always* have vulnerabilities.
 
 Complexity is growing, and there is no limit on the kind of damage an exploit can do. From cars to fighter planes, the amount of code we are putting into our vehicles has increased dramatically over time.
 
-[![vehicle-loc](../../../uploads/2015/12/vehicle-loc.png)](https://www.ultrasaurus.com/wp-content/uploads/2015/12/vehicle-loc.png)
+[![vehicle-loc](../../../uploads/2015/12/vehicle-loc.png)](/uploads/2015/12/vehicle-loc.png)
 
 100M lines of code in a car today….
 
-[![car-loc](../../../uploads/2015/12/car-loc.png)](https://www.ultrasaurus.com/wp-content/uploads/2015/12/car-loc.png)
+[![car-loc](../../../uploads/2015/12/car-loc.png)](/uploads/2015/12/car-loc.png)
 
-[![what-works](../../../uploads/2015/12/what-works.png)](https://www.ultrasaurus.com/wp-content/uploads/2015/12/what-works.png)
+[![what-works](../../../uploads/2015/12/what-works.png)](/uploads/2015/12/what-works.png)
 
 Mostly, the Mac App Sandbox introduces ideas that the Web Browser introduced in 1993, Shockwave in 1995 with a full program language, then with JavaScript running in its own sandbox a couple of years later. There are some new ideas, of course. One that I particularly like is the notion of leveraging the File Open dialog to capture a user’s intent and seamless allow selective file access only to those files that the user chooses to open.
 

@@ -11,16 +11,16 @@ I really liked the format and venue. The Sweedish American hall was rustic, in s
 
 Below are the talks that I took notes on, in rough order of awesome-ness. Of the the more awesome talks, for which I have no notes, was about physical computing with [Ruby Aduino Development](http://rad.rubyforge.org/) (RAD), see [Chad Woolley’s notes](http://pivotallabs.com/users/chad/blog/articles/805-gogaruco-09-arduino-is-rails-for-hardware-hacking-greg-borenstein).
 
-- [open source digital voting software](/sarahblog/2009/04/open-source-digital-voting-software/)
-- [using ruby to fight aids](/sarahblog/2009/04/using-ruby-to-fight-aids/)
-- [magic scaling sprinkles](/sarahblog/2009/04/magic-scaling-sprinkles/)
-- [MacRuby and Hot Cocoa](/sarahblog/2009/04/macruby-and-hot-cocoa/)
-- [how to write fast ruby code](/sarahblog/2009/04/how-to-write-fast-ruby-code/)
-- [ruby application frameworks](/sarahblog/2009/04/ruby-application-frameworks/)
-- [sandbox for ruby code](/sarahblog/2009/04/sandbox-for-ruby-code/)
-- [sinatra: simple ruby web app library](/sarahblog/2009/04/sinatra-simple-ruby-web-app-library/)
-- [ruby proxies](/sarahblog/2009/04/ruby-proxies/)
+- [open source digital voting software](/2009/04/open-source-digital-voting-software/)
+- [using ruby to fight aids](/2009/04/using-ruby-to-fight-aids/)
+- [magic scaling sprinkles](/2009/04/magic-scaling-sprinkles/)
+- [MacRuby and Hot Cocoa](/2009/04/macruby-and-hot-cocoa/)
+- [how to write fast ruby code](/2009/04/how-to-write-fast-ruby-code/)
+- [ruby application frameworks](/2009/04/ruby-application-frameworks/)
+- [sandbox for ruby code](/2009/04/sandbox-for-ruby-code/)
+- [sinatra: simple ruby web app library](/2009/04/sinatra-simple-ruby-web-app-library/)
+- [ruby proxies](/2009/04/ruby-proxies/)
 
-The [only bummer](https://www.ultrasaurus.com/sarahblog/2009/04/gender-and-sex-at-gogaruco/) of the event was the extreme gender imbalance and one innappropriate presentation that [serveral](http://www.sarahmei.com/blog/?p=46) [folks](http://dyepot-teapot.com/2009/04/25/dear-fellow-rubyists/) have [also](http://www.rubyrailways.com/rails-is-still-a-ghetto/) blogged about. I want to reiterate that I don’t think this is reflective of the state of our society, in particular, of open source software, rather than a problem unique to the Ruby community. Time to move on and figure out how to better diversify the community (but that’s a subject for a differnt post).
+The [only bummer](/2009/04/gender-and-sex-at-gogaruco/) of the event was the extreme gender imbalance and one innappropriate presentation that [serveral](http://www.sarahmei.com/blog/?p=46) [folks](http://dyepot-teapot.com/2009/04/25/dear-fellow-rubyists/) have [also](http://www.rubyrailways.com/rails-is-still-a-ghetto/) blogged about. I want to reiterate that I don’t think this is reflective of the state of our society, in particular, of open source software, rather than a problem unique to the Ruby community. Time to move on and figure out how to better diversify the community (but that’s a subject for a differnt post).
 
 Overall an awesome conference. Many thanks to [Josh](http://blog.hasmanythrough.com/) and Leah, [Pivotal Labs](http://pivotallabs.com/), [EngineYard](http://www.engineyard.com/), [AT&amp;T Interactive](http://betalabs.yellowpages.com/), [New Relic](http://www.newrelic.com/) and the many other sponsors, volunteers and speakers who made it happen. I look forward to attending next year!

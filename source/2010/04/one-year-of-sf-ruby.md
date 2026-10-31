@@ -5,7 +5,7 @@ exported_permalink: /2010/04/one-year-of-sf-ruby
 id: 2448
 category: general
 ---
-One year ago today, I wrote about attending [my first SF Ruby meetup](https://www.ultrasaurus.com/sarahblog/2009/04/sf-ruby-meetup/), where I met [Sarah Mei](http://www.sarahmei.com/blog/), the only other woman in attendance. I wrote then that I hoped someday “to attend a meetup where I don’t personally double the number of women.”
+One year ago today, I wrote about attending [my first SF Ruby meetup](/2009/04/sf-ruby-meetup/), where I met [Sarah Mei](http://www.sarahmei.com/blog/), the only other woman in attendance. I wrote then that I hoped someday “to attend a meetup where I don’t personally double the number of women.”
 
 I am pleased that my hope has come to fruition: I don’t think I have been at another Ruby event since then when I was the only or one of two women. My very next Ruby event had 6 women (out of 200) with as low a percentage, but Sarah and I decided to make a difference by [teaching Ruby on Rails](http://sfrubyworkshops.com/) to other women and ever since I’ve enjoyed the company of many strong, technical women in the Ruby community.
 

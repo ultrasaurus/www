@@ -15,9 +15,9 @@ Sam Wan writes about [preconditions for a playful experience](http://mellowmachi
   
 A few related posts where I’ve written about playfulness before:
 
-- “It is the essence of play that a new relation is created… between situations in thought and real situations.” — Vygotsky <u>Mind in Society</u> ([creativity as play](https://www.ultrasaurus.com/sarahblog/2004/03/creativity-and-play/))
-- A few basic tactics to create a playful experience ([work as play](https://www.ultrasaurus.com/sarahblog/2004/07/work-as-play/))
-- “True education flowers at the point when delight falls in love with responsibility.” — Philip Pullman ([less grammar, more play](https://www.ultrasaurus.com/sarahblog/2005/03/less-grammar-more-play/))
+- “It is the essence of play that a new relation is created… between situations in thought and real situations.” — Vygotsky <u>Mind in Society</u> ([creativity as play](/2004/03/creativity-and-play/))
+- A few basic tactics to create a playful experience ([work as play](/2004/07/work-as-play/))
+- “True education flowers at the point when delight falls in love with responsibility.” — Philip Pullman ([less grammar, more play](/2005/03/less-grammar-more-play/))
 
 I’ve found it helpful to consciously separate *learning* from *doing*, but hadn’t thought about how it enables “flow”. I set myself to different activities and a different frame of mind when my goal is to learn (acquire knowledge, internalize a mental model and develop “muscle memory”), rather than when my goal is solve a specific problem (which relies on applying specific knowledge and “know how”). There was a specific experience that led me to be conscious of this separation of learning and doing.
 

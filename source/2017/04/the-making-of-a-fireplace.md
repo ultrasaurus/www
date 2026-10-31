@@ -7,7 +7,7 @@ category: general
 ---
 I built a fake fireplace in celebration of our team shipping [Cloud Functions for Firebase](https://firebase.google.com/docs/functions/). The codename was “hearth” — the product was almost ready for public beta by the time I joined the team, yet I know it was an epic journey to create a long-awaited feature and I felt the milestone deserved dramatic punctuation.
 
-[![Red brick surrounds a monitor with video of log fire, wooden top has rows of whiskey bottles and a card](../../../uploads/2017/04/fireplace9-2.jpg)](https://www.ultrasaurus.com/wp-content/uploads/2017/04/fireplace9-2.jpg)
+[![Red brick surrounds a monitor with video of log fire, wooden top has rows of whiskey bottles and a card](../../../uploads/2017/04/fireplace9-2.jpg)](/uploads/2017/04/fireplace9-2.jpg)
 
 If you would like to build your very own fake fireplace, here’s how…
 
@@ -24,7 +24,7 @@ James suggested that something in a stage prop style would have dramatic effect,
 
 ### Measure Twice, Cut Once
 
-<a ref="https://www.ultrasaurus.com/wp-content/uploads/2017/04/fireplace0-1.jpg">![an aisle with people at desks on either side, at the end is a small bookshelf with bottles of alcohol and above that a large monitor on the wall](../../../uploads/2017/04/fireplace0-1.jpg)</a>I surreptitiously took a photo of the area, and arrived early one morning with a tape measure to determine its maximum dimension.I then measured the computer monitor I planned to use to determine the minimum internal dimension.
+<a ref="/uploads/2017/04/fireplace0-1.jpg">![an aisle with people at desks on either side, at the end is a small bookshelf with bottles of alcohol and above that a large monitor on the wall](../../../uploads/2017/04/fireplace0-1.jpg)</a>I surreptitiously took a photo of the area, and arrived early one morning with a tape measure to determine its maximum dimension.I then measured the computer monitor I planned to use to determine the minimum internal dimension.
 
 There was actually a third, very important measurement: the internal size of my car, which later became a critical optimization. I designed the fireplace in three pieces, so it could fit into the car, which also made it much lighter and easier to transport. Styrofoam is rather fragile, and the smaller pieces fit easily through doors.
 

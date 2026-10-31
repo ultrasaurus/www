@@ -11,4 +11,4 @@ Slides: [Once Upon A Time](http://www.slideshare.net/sarah.allen/once-upon-a-tim
 
 If you like the presentation, you can [vote at SlideShare](http://www.slideshare.net/sarah.allen/once-upon-a-time-1609821).
 
-Read [more about the workshop](https://www.ultrasaurus.com/sarahblog/2009/06/open-source-workshop/).
+Read [more about the workshop](/2009/06/open-source-workshop/).

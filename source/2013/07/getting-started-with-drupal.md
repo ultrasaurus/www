@@ -27,7 +27,7 @@ This learning path focuses on the non-programmer; however, Anthony suggested (an
 4. Setup your dev env  
   Recommended: Linux, git, Drush, PhPMyAdmin, Firebug or Chrome Developer Tools  
   (Linux much easier than Windows)  
-  On Mac OSX it is pretty easy too, but finding good setup instructions was hard. I [posted the steps I the I use](https://www.ultrasaurus.com/sarahblog/2013/07/easy-drupal-install-on-mac-osx-lion/) and have since added apache vhost config so I can run multiple drupal sites easily.
+  On Mac OSX it is pretty easy too, but finding good setup instructions was hard. I [posted the steps I the I use](/2013/07/easy-drupal-install-on-mac-osx-lion/) and have since added apache vhost config so I can run multiple drupal sites easily.
 5. Embrace the command line! students may be freaked out at first, but it makes you very productive. If the student is non-technical, there are a lot of skills that are not Drupal that you still need to learn (e.g. command line, git)
 
 Consider starting with a distribution profile

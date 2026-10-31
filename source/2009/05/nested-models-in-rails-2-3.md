@@ -9,7 +9,7 @@ tag:
     - Ruby
 category: code
 ---
-![](http://img.skitch.com/20090502-dsras4k8m4bgxinxii2yytp7ea.jpg)On the day after [GoGaRuco](https://www.ultrasaurus.com/sarahblog/2009/04/golden-gate-ruby-conference/), I attended my first “[hack session](http://www.meetup.com/sfruby/calendar/10189361/).” Hosted by the awesome and generous Mark Carranza, it was great fun. About a dozen folks showed up with all levels of Ruby/Rails expertise represented.
+![](http://img.skitch.com/20090502-dsras4k8m4bgxinxii2yytp7ea.jpg)On the day after [GoGaRuco](/2009/04/golden-gate-ruby-conference/), I attended my first “[hack session](http://www.meetup.com/sfruby/calendar/10189361/).” Hosted by the awesome and generous Mark Carranza, it was great fun. About a dozen folks showed up with all levels of Ruby/Rails expertise represented.
 
 My personal goal for the day was to learn about nested models in Rails 2.3. I’ve been slogging through old 2.0.2 code which will soon be upgraded to the latest and I’ve been looking forward to the new features.
 

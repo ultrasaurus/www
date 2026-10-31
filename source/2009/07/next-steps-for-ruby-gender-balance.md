@@ -7,7 +7,7 @@ category: general
 ---
 In the past month we took some first steps to inviting women into the SF Ruby community:
 
-1. [First Workshop](http://www.meetup.com/sfruby/calendar/10377288/) was well attended with tremendous [community support](https://www.ultrasaurus.com/sarahblog/2009/06/open-source-workshop/)
+1. [First Workshop](http://www.meetup.com/sfruby/calendar/10377288/) was well attended with tremendous [community support](/2009/06/open-source-workshop/)
 2. [Hack session](http://www.meetup.com/sfruby/calendar/10685547/) (sponsored by [Orange](http://www.francetelecom.com/) and [Sustainable Websites](http://www.sustainablewebsites.com/)) where many of the workshop attendees continued their learning; and women and men from the community brought their own projects to work on.
 
 Now we need to keep up the momentum and generate a few more peers for the women who are continuing to develop in Ruby. To that end, we have scheduled [another workshop](http://www.meetup.com/sfruby/calendar/10804417/), July 31-August 1 with the generous support of [Pivotal Labs](http://www.pivotallabs.com/) and [EngineYard](http://www.engineyard.com/). In order to make this workshop as successful as the last one, we need your help:

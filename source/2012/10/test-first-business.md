@@ -5,7 +5,7 @@ exported_permalink: /2012/10/test-first-business
 id: 3655
 category: general
 ---
-I’ve long observed that [lean startup methodologies are a lot like agile development](https://www.ultrasaurus.com/sarahblog/2010/04/lean-startup-methodology/). When I explain it to developers, they get it pretty quickly, but that doesn’t resonate with business folk. I’ve been searching for ways to explain why I believe market testing is so important before starting to build a software product.
+I’ve long observed that [lean startup methodologies are a lot like agile development](/2010/04/lean-startup-methodology/). When I explain it to developers, they get it pretty quickly, but that doesn’t resonate with business folk. I’ve been searching for ways to explain why I believe market testing is so important before starting to build a software product.
 
 While there are plenty of folk drinking the [Lean Startup](http://theleanstartup.com/) Koolaid, the vast majority still believes that the best software comes *exclusively* from entrepreneurial insight. It is like a devine inspiration, where seeking validation would somehow indicate that that we are doubting our belief in God.
 

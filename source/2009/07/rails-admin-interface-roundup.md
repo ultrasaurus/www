@@ -5,7 +5,7 @@ exported_permalink: /2009/07/rails-admin-interface-roundup
 id: 1651
 category: code
 ---
-After my recent [ActiveScaffold post](https://www.ultrasaurus.com/sarahblog/2009/07/getting-started-with-activescaffold/), I heard about several newer alternatives from [Jaime Flournoy](https://www.ultrasaurus.com/sarahblog/2009/07/getting-started-with-activescaffold/#comment-781), [Mike Gunderloy](http://twitter.com/MikeG1/status/2442160429), and some more [web surfing](http://ruby-toolbox.com/categories/rails_admin_interfaces.html). I evaluated four plugins for admin UI, using the following methodology:
+After my recent [ActiveScaffold post](/2009/07/getting-started-with-activescaffold/), I heard about several newer alternatives from [Jaime Flournoy](/2009/07/getting-started-with-activescaffold/#comment-781), [Mike Gunderloy](http://twitter.com/MikeG1/status/2442160429), and some more [web surfing](http://ruby-toolbox.com/categories/rails_admin_interfaces.html). I evaluated four plugins for admin UI, using the following methodology:
 
 ```
 rails xxx_simple
@@ -68,7 +68,7 @@ ADMIN_DATA_UPDATE_AUTHORIZATION    = Proc.new { |controller| return false }
 streamlined
 -----------
 
-[Streamlined](http://streamlinedframework.org/) is nice, but not as pretty as ActiveScaffold. Not compatible with Rails 2.3. This and active\_scaffold seem to be a little older than typus and admin\_data and require you to modify your code similarly. I thought it nice that it provided its own admin layout. In my simple test I applied the series of steps and nested route as with [active\_scaffold](//www.ultrasaurus.com/sarahblog/2009/07/getting-started-with-activescaffold/).  
+[Streamlined](http://streamlinedframework.org/) is nice, but not as pretty as ActiveScaffold. Not compatible with Rails 2.3. This and active\_scaffold seem to be a little older than typus and admin\_data and require you to modify your code similarly. I thought it nice that it provided its own admin layout. In my simple test I applied the series of steps and nested route as with [active\_scaffold](/2009/07/getting-started-with-activescaffold/).  
 ```
   class MyNiftyController < ApplicationController
   layout 'streamlined'
@@ -84,4 +84,4 @@ streamlined
 active\_scaffold
 ----------------
 
-See my [previous post](https://www.ultrasaurus.com/sarahblog/2009/07/getting-started-with-activescaffold/) for details. This seems to be the grand-daddy of this genre of plugins and has a very active [google group](http://groups.google.com/group/activescaffold). I liked this plugin when I first tried it, but it hung when I applied it to my real app. Also, [@jamieflournoy notes](http://twitter.com/jamieflournoy/status/2445545932) that he didn't like the UI for editing related models as much as he did Streamlined.
+See my [previous post](/2009/07/getting-started-with-activescaffold/) for details. This seems to be the grand-daddy of this genre of plugins and has a very active [google group](http://groups.google.com/group/activescaffold). I liked this plugin when I first tried it, but it hung when I applied it to my real app. Also, [@jamieflournoy notes](http://twitter.com/jamieflournoy/status/2445545932) that he didn't like the UI for editing related models as much as he did Streamlined.

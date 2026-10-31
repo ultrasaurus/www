@@ -40,15 +40,15 @@ History of speaking engagements:
 - Agile Business Development, JRubyConf, May 2012, ([slides](http://www.slideshare.net/sarah.allen/agile-business-development-13035052), [video](http://vimeo.com/45717171))
 - What It’s Like To Be A Software Engineer ([video](https://www.youtube.com/watch?v=Qs9pXQgMW4M))
 - [Teaching Code Literacy](https://thestrangeloop.com/sessions/teaching-code-literacy), Strange Loop, Sept ’11 ([slides](http://www.slideshare.net/sarah.allen/teaching-code-literacy-9352066), [video](http://www.infoq.com/presentations/Easy-as-Pie-Teaching-Code-Literacy))
-- [Pie: the Making of a DSL for Simple Games](http://www.rubyconf.org/presentations/33), RubyConf, Nov ’10 ([notes](https://www.ultrasaurus.com/sarahblog/2010/11/pie-game-development-for-kids/))
+- [Pie: the Making of a DSL for Simple Games](http://www.rubyconf.org/presentations/33), RubyConf, Nov ’10 ([notes](/2010/11/pie-game-development-for-kids/))
 - [Test First Teaching](http://gogaruco.com/schedule.html#allen_chaffee), Golden Gate Ruby Conference, Sept ’10 ([slides](http://www.slideshare.net/sarah.allen/test-first-teaching-gogaruco-2010)
-- Learning TDD through Test First Teaching, East Bay Ruby Meetup, April 2010 ([video](https://www.ultrasaurus.com/sarahblog/2010/06/learning-tdd-through-test-first-teaching/))
+- Learning TDD through Test First Teaching, East Bay Ruby Meetup, April 2010 ([video](/2010/06/learning-tdd-through-test-first-teaching/))
 - [International Web Applications](http://rubykaigi.org/2010/en/events/16), Ruby Kaigi, Aug ’10 ([slides](http://www.slideshare.net/sarah.allen/international-web-application-development), [video](http://vimeo.com/14547648))
 - Cross-Platform Mobile Applications with Ruby, Mountain West Ruby Conference, March 2010 ([video](http://confreaks.net/videos/15-mwrc2010-mobile-ruby), [slides](http://www.slideshare.net/sarah.allen/crossplatform-mobile-apps-with-ruby-mrwc))
 - [Mobile Ruby](http://2010.larubyconf.com/presentations/11), LA Ruby Conf, Feb ’10 ([slides](http://www.slideshare.net/sarah.allen/mobile-ruby-la-rubyconf))
 - The Mobile Phone is the new PC. [Ignite Bay Area | Women Innovators](http://ignite.oreilly.com/2009/11/ignite-bay-area-women-innovators-speakers-shared.html), Dec ’09 ([slides](http://www.slideshare.net/sarah.allen/sarah-allen-ignite-09))
 - [Mobile Applications with Ruby](http://rubyconf.org/talks/109-mobile-applications-with-ruby), RubyConf, Nov 2009 ([slides](http://www.slideshare.net/sarah.allen/mobile-ruby-rubyconf-2009))
-- [Rails Webservices APIs and always up-to-date documentation with Cucumber](http://www.meetup.com/sfruby/calendar/10664313/?from=list&offset=0) aka Streamlined Geek Talk, July ’09, ([notes](https://www.ultrasaurus.com/sarahblog/2009/07/streamlined-geek-talk/), [video](http://vimeo.com/5660427))
+- [Rails Webservices APIs and always up-to-date documentation with Cucumber](http://www.meetup.com/sfruby/calendar/10664313/?from=list&offset=0) aka Streamlined Geek Talk, July ’09, ([notes](/2009/07/streamlined-geek-talk/), [video](http://vimeo.com/5660427))
 - [Cinematic Interaction Design](http://www.slideshare.net/sarah.allen/cinematic-interaction-design), Interaction 08, Feb 2008
 - [How to Build Webtop Applications](http://www.ajaxworld.com/general/sessiondetail0907.htm?id=90), AjaxWorld, Sept. 2007
 - [The Cinematic Web](http://www.socialtext.net/dcamp/index.cgi?cinematic_user_experience), presentation, DCamp, May 2006

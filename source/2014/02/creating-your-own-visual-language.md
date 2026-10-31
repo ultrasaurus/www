@@ -35,7 +35,7 @@ Humans have evolved to respond to faces.
 
 <figure class="wp-caption thumbnail aligncenter" id="attachment_4993" style="width: 400px;">
 
-[!["I like starting with eyeballs" three faces show happy/cheer, despair, and another unhappy wide-eyed emotion, additional face is cropped at the margin](../../../uploads/2014/02/faces.jpg)](https://www.ultrasaurus.com/wp-content/uploads/2014/02/faces.jpg)
+[!["I like starting with eyeballs" three faces show happy/cheer, despair, and another unhappy wide-eyed emotion, additional face is cropped at the margin](../../../uploads/2014/02/faces.jpg)](/uploads/2014/02/faces.jpg)
 
 <figcaption class="wp-caption-text">We learned simple techniques to produce faces that convey emotion.</figcaption>
 

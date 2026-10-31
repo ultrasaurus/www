@@ -5,7 +5,7 @@ exported_permalink: /2009/08/ruby-unit-test-frameworks
 id: 1997
 category: code
 ---
-In preparation for teaching Ruby in a class with [test first teaching](https://www.ultrasaurus.com/sarahblog/2009/08/test-driven-teaching/). I decided to evaluate a few test frameworks. I thought initially to use Test::Unit, since it seemed easy to understand and ships with Rails. Wolfram Arnold argued that Test::Unit would [burden the new folks with legacy](http://twitter.com/wolframarnold/status/3336210949). Alex Chaffee also [advocated RSpec](http://twitter.com/alexch/status/3320591021), but [other](http://twitter.com/jacobrothstein/status/3320555832) [friends](http://twitter.com/jamieflournoy/status/3323143202) from the Twittervese had good things to say about shoulda. Some folks declared it to be simply a [matter of taste](http://twitter.com/noelrap/status/3319780641).
+In preparation for teaching Ruby in a class with [test first teaching](/2009/08/test-driven-teaching/). I decided to evaluate a few test frameworks. I thought initially to use Test::Unit, since it seemed easy to understand and ships with Rails. Wolfram Arnold argued that Test::Unit would [burden the new folks with legacy](http://twitter.com/wolframarnold/status/3336210949). Alex Chaffee also [advocated RSpec](http://twitter.com/alexch/status/3320591021), but [other](http://twitter.com/jacobrothstein/status/3320555832) [friends](http://twitter.com/jamieflournoy/status/3323143202) from the Twittervese had good things to say about shoulda. Some folks declared it to be simply a [matter of taste](http://twitter.com/noelrap/status/3319780641).
 
 Even so, I wanted to make an informed decision and refine my palette for Ruby tools, so I wrote a simple exercise in each of Test::Unit, Shoulda and RSpec.
 

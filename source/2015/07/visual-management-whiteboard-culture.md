@@ -7,7 +7,7 @@ category: general
 ---
 [Redgate](http://www.red-gate.com)‘s whiteboard culture takes visual management to a new level. Last week, when visiting the UK, I spent two days in Cambridge co-working with [Business of Software](http://businessofsoftware.org/)‘s [Mark Littlewood](https://twitter.com/marklittlewood) and team who share space with Redgate. Everywhere you look there’s a whiteboard filled with sticky notes, printouts and handwritten index cards with lines and labels drawn in colored tape and marker.
 
-[![whiteboard with grid of colored sticky notes with column labels: stories, could do, should do, must do , in progress](../../../uploads/2015/07/whiteboard-05.jpg)](https://www.ultrasaurus.com/wp-content/uploads/2015/07/whiteboard-05.jpg)
+[![whiteboard with grid of colored sticky notes with column labels: stories, could do, should do, must do , in progress](../../../uploads/2015/07/whiteboard-05.jpg)](/uploads/2015/07/whiteboard-05.jpg)
 
 Most agile teams apply this practice. Following the mantra of “Make it Visible,” we seek to publish our ideas and document our process with artifacts that facilitate communication. The agile practice of software creation has its roots in Toyota’s [just-in-time production system](http://www.toyota-global.com/company/vision_philosophy/toyota_production_system/just-in-time.html) where [Kanban boards](http://kanbanblog.com/explained/) were first developed back in the 1940s.
 
@@ -15,7 +15,7 @@ Most agile teams apply this practice. Following the mantra of “Make it Visible
 
 <figure class="wp-caption thumbnail aligncenter" id="attachment_5584" style="width: 770px;">
 
-[![whiteboard with speech bubble along the top and lots of sticky notes](../../../uploads/2015/07/whiteboard-00-e1438173159671.jpg)](https://www.ultrasaurus.com/wp-content/uploads/2015/07/whiteboard-00-e1438173159671.jpg)
+[![whiteboard with speech bubble along the top and lots of sticky notes](../../../uploads/2015/07/whiteboard-00-e1438173159671.jpg)](/uploads/2015/07/whiteboard-00-e1438173159671.jpg)
 
 <figcaption class="wp-caption-text">Customer quotes appear in speech bubbles along the top and bottom of the whitebaord, printouts show metrics and other reports, along with classic story cards arrayed kanban-style.</figcaption>
 
@@ -25,7 +25,7 @@ Redgate has some standardized reports: a one-pager that every team provides up t
 
 <figure class="wp-caption thumbnail aligncenter" id="attachment_5585" style="width: 770px;">
 
-[![continuous integration lights in vertical strips, team headlines as printouts and rows of sticky notes with checkmarks](../../../uploads/2015/07/whiteboard-01.jpg)](https://www.ultrasaurus.com/wp-content/uploads/2015/07/whiteboard-01.jpg)
+[![continuous integration lights in vertical strips, team headlines as printouts and rows of sticky notes with checkmarks](../../../uploads/2015/07/whiteboard-01.jpg)](/uploads/2015/07/whiteboard-01.jpg)
 
 <figcaption class="wp-caption-text">Vertical strips of lights show status of builds and tests from a continuous integration system. Each team updates “headlines” weekly, using that space to introduce new team members and include success stories along with whimsical imagery. Colored sticky notes and arrows provide a quick short-hand status update.</figcaption>
 
@@ -42,12 +42,12 @@ Key takeaways:
 Many thanks to [Redgate](http://www.red-gate.com/) who let me experience their world for a just a little while. Note: if you want to work like this, I noticed that they are [hiring](http://www.red-gate.com/our-company/careers/current-opportunities/) in Cambridge, UK and Pasadena, USA).
 
 More whiteboards:  
-[![whiteboard-08](../../../uploads/2015/07/whiteboard-08.jpg)](https://www.ultrasaurus.com/wp-content/uploads/2015/07/whiteboard-08.jpg)
+[![whiteboard-08](../../../uploads/2015/07/whiteboard-08.jpg)](/uploads/2015/07/whiteboard-08.jpg)
 
-[![glass wall with grid of stick notes and large 2015 year planner in top-right corner](../../../uploads/2015/07/whiteboard-03.jpg)](https://www.ultrasaurus.com/wp-content/uploads/2015/07/whiteboard-03.jpg)
+[![glass wall with grid of stick notes and large 2015 year planner in top-right corner](../../../uploads/2015/07/whiteboard-03.jpg)](/uploads/2015/07/whiteboard-03.jpg)
 
-[![sales funnel in sticky notes on whiteboard](../../../uploads/2015/07/whiteboard-02.jpg)](https://www.ultrasaurus.com/wp-content/uploads/2015/07/whiteboard-02.jpg)
+[![sales funnel in sticky notes on whiteboard](../../../uploads/2015/07/whiteboard-02.jpg)](/uploads/2015/07/whiteboard-02.jpg)
 
-[![whiteboard divided into large 2x3 grid with printouts and sticky notes arranged differently in each](../../../uploads/2015/07/whiteboard-06.jpg)](https://www.ultrasaurus.com/wp-content/uploads/2015/07/whiteboard-06.jpg)
+[![whiteboard divided into large 2x3 grid with printouts and sticky notes arranged differently in each](../../../uploads/2015/07/whiteboard-06.jpg)](/uploads/2015/07/whiteboard-06.jpg)
 
-[![whiteboard with sticky notes](../../../uploads/2015/07/whiteboard-07.jpg)](https://www.ultrasaurus.com/wp-content/uploads/2015/07/whiteboard-07.jpg)
+[![whiteboard with sticky notes](../../../uploads/2015/07/whiteboard-07.jpg)](/uploads/2015/07/whiteboard-07.jpg)

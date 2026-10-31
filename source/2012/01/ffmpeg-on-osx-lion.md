@@ -5,7 +5,7 @@ exported_permalink: /2012/01/ffmpeg-on-osx-lion
 id: 3537
 category: code
 ---
-Update: [more links and ogg and webm details](https://www.ultrasaurus.com/sarahblog/2013/06/ffmpeg-for-ogg-and-webm/)
+Update: [more links and ogg and webm details](/2013/06/ffmpeg-for-ogg-and-webm/)
 
 I found that I needed to convert an m4a audio file (which is what QuickTime saves when I record audio) to a wav file, so I decided to use my favorite “can opener.” The versatile open source [ffmpeg](http://ffmpeg.org) tool has always seemed to be able to convert anything to anything in audio-video formats.
 

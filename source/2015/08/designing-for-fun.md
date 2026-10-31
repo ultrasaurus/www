@@ -9,7 +9,7 @@ Making your app fun to use requires more than sprinkling a little gamification o
 
 Below is an overview, plus notes and references from the talk. You can also check out the [slides](http://www.slideshare.net/sarah.allen/designing-for-fun).
 
-[![mandarin-play-test](../../../uploads/2015/08/mandarin-play-test.png)](https://www.ultrasaurus.com/wp-content/uploads/2015/08/mandarin-play-test.png)
+[![mandarin-play-test](../../../uploads/2015/08/mandarin-play-test.png)](/uploads/2015/08/mandarin-play-test.png)
 
 Most of this talk is about how to design fun experiences, but the title has a double meaning — I talk about an app I’m working on “for fun” (not for “work”). Most of the code was written by my friend and iOS development mentor, [John Fox](https://twitter.com/djembe), plus we have a large extended team of people who make it happen. The thing about doing an app outside of your day job means that we work hard to make sure we’re all aligned and are motivated and having fun, since when it stops being fun, we’ll stop playing.
 
@@ -39,7 +39,7 @@ Frank Smith, a leading authority on linguistics and cognitive psychology, report
 I believe that software design is teaching. We want to make it so people can effortlessly learn how to use a piece of software. Every little bit of learning should give people powers they can use repeatedly toward achieving their own goals.
 
 This is the first dialog box I ever designed was for PACo Producer. I scanned this from the documentation:  
-[![Mac Plus era dialog box with a lot of text and some dotted underlined numbers and filenames.](../../../uploads/2015/08/paco.png)](https://www.ultrasaurus.com/wp-content/uploads/2015/08/paco.png)  
+[![Mac Plus era dialog box with a lot of text and some dotted underlined numbers and filenames.](../../../uploads/2015/08/paco.png)](/uploads/2015/08/paco.png)  
 The little dotted link is a pre-web hyperlink. Easy to learn and remember since it is related visually to a real-world paper form. It is worth teaching someone something to give them a powerful new tool. It seems like this was successful since we used the same pattern in After Effects, and it has persisted over 20 years later, likely having survived many usability tests.
 
 I wondered… After Effects has a lot of complex UI, which is pretty overwhelming at first glance. I asked a colleague of mine who has been a user of After Effects since 1.0: is it fun to use?

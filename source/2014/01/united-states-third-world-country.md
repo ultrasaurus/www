@@ -19,7 +19,7 @@ For those who might feel that this is emotional hyperbole, there’s data tracki
 
 <figure class="wp-caption thumbnail alignleft" id="attachment_4831" style="width: 242px;">
 
-[![Gini index from 1913 to 2004 is U-shaped -- peaking in 1928 and 2004 with low points from 1940s to 1070s](../../../uploads/2013/12/IP09-GIni-long.jpg)](https://www.ultrasaurus.com/wp-content/uploads/2013/12/IP09-GIni-long.jpg)
+[![Gini index from 1913 to 2004 is U-shaped -- peaking in 1928 and 2004 with low points from 1940s to 1070s](../../../uploads/2013/12/IP09-GIni-long.jpg)](/uploads/2013/12/IP09-GIni-long.jpg)
 
 <figcaption class="wp-caption-text">Gap between rich and poor is increasing in the US since the 70s</figcaption>
 
@@ -27,7 +27,7 @@ For those who might feel that this is emotional hyperbole, there’s data tracki
 
 <figure class="wp-caption thumbnail alignleft" id="attachment_4835" style="width: 306px;">
 
-[![https://www.ultrasaurus.com/wp-admin/post.php?post=4833&action=edit](../../../uploads/2013/12/GINI-el-salvador.png)](https://www.ultrasaurus.com/wp-content/uploads/2013/12/GINI-el-salvador.png)
+[![https://www.ultrasaurus.com/wp-admin/post.php?post=4833&action=edit](../../../uploads/2013/12/GINI-el-salvador.png)](/uploads/2013/12/GINI-el-salvador.png)
 
 <figcaption class="wp-caption-text">GINI index shows that the gap between rich and poor in El Salvador is decreasing in past decade.</figcaption>
 

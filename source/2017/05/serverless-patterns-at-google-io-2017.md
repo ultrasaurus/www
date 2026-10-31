@@ -49,7 +49,7 @@ You authenticate with GitHub, then the app creates a profile for you by pulling 
 
 We built most of the app, enough to really work through the key development patterns, but didn’t have time to hook up the profile generation data collection and implement a good matching algorithm. We ended up using a simple random grouping and were able to test the app at Google I/O for lunch on Friday. Some people showed up and it worked!
 
-[![](../../../uploads/2017/05/hubbub-in-action.jpg)](https://www.ultrasaurus.com/wp-content/uploads/2017/05/hubbub-in-action.jpg)
+[![](../../../uploads/2017/05/hubbub-in-action.jpg)](/uploads/2017/05/hubbub-in-action.jpg)
 
 You can see the code at: <https://github.com/all-the-hubbub>
 

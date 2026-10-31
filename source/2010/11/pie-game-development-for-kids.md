@@ -5,7 +5,7 @@ exported_permalink: /2010/11/pie-game-development-for-kids
 id: 2886
 category: general
 ---
-At RubyConf this year, we hosted a [Kids Track](https://www.ultrasaurus.com/sarahblog/2010/11/kids-track-at-rubyconf-details/). One of the activities was to make web adventure games.
+At RubyConf this year, we hosted a [Kids Track](/2010/11/kids-track-at-rubyconf-details/). One of the activities was to make web adventure games.
 
 If you want to make a Pie game, go to the [pie-bakery](http://pie-bakery.heroku.com/). If you have questions about creating games with pie or suggestions for improvements, you can sign up to this [google group](http://groups.google.com/group/pie-dev) and post questions or ideas via the web or email.
 

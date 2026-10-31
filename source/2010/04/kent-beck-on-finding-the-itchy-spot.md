@@ -33,5 +33,5 @@ He told a story about an engineer nicknamed “Mr. Flat File,” who would alway
 
 Kent honestly declared “I want to do *good* engineering,” where good is defined as self-serving.
 
-For more on Kent’s talk, read [beyond agile development](https://www.ultrasaurus.com/sarahblog/2010/04/beyond-agile-development/).  
+For more on Kent’s talk, read [beyond agile development](/2010/04/beyond-agile-development/).  
 Good perspective from Steve Freeman: [Not a Charter for Hackers](http://www.m3p.co.uk/blog/2010/04/25/not-a-charter-for-hackers/)

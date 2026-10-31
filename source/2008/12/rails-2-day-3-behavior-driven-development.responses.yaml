@@ -83,7 +83,7 @@ comments:
   url: "https://www.ultrasaurus.com"
   date: '2011-10-03T19:41:59-08:00'
   content: |-
-    <p>I believe webrat is designed to work with rack apps, so it would work with Sinatra, but not PHP.  If you want to work with a non-Ruby webapp, look at Capybara using the Mechanize driver.  I wrote a short blog post about that here:  <a href="https://www.ultrasaurus.com/sarahblog/2011/02/legacy-testing-with-capybaramechanize/" rel="nofollow ugc">https://www.ultrasaurus.com/sarahblog/2011/02/legacy-testing-with-capybaramechanize/</a></p>
+    <p>I believe webrat is designed to work with rack apps, so it would work with Sinatra, but not PHP.  If you want to work with a non-Ruby webapp, look at Capybara using the Mechanize driver.  I wrote a short blog post about that here:  <a href="/2011/02/legacy-testing-with-capybaramechanize/" rel="nofollow ugc">/2011/02/legacy-testing-with-capybaramechanize/</a></p>
 linked_from:
 - id: 346
   title: "Cucumber quicksetup at Pablo Cantero"

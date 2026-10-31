@@ -93,4 +93,4 @@ My conclusion is that the technical solution should be based on the intent. Is t
 
 Alternately, I suppose I could combine the approaches, and detect that a search bot is asking for the page and generate a document with all of the text for all languages, then display it based on the accepts header and allow the end user to change the language and remember that. I worry, though, that I would need to choose a language for the meta tag description and therefore the page summary presented by the search engine would not match the language of the search query… or maybe I shouldn’t worry and just expect the search results to be smart enough to display relevant text.
 
-\[Update: better to have different pages for different languages see [multicountry/multilingual seo](https://www.ultrasaurus.com/sarahblog/2011/07/multicountrymultilingual-seo/).\]
+\[Update: better to have different pages for different languages see [multicountry/multilingual seo](/2011/07/multicountrymultilingual-seo/).\]

@@ -5,7 +5,7 @@ exported_permalink: /2009/08/rhomobile-reflections
 id: 1935
 category: general
 ---
-I’ve been actively developing mobile applications using the new SmartPhone application framework from [Rhomobile](http://rhomobile.com/). I wrote an [overview of the technology](https://www.ultrasaurus.com/sarahblog/2009/07/cross-platform-mobile-apps-with-rhomobile/), but folks have asked for some more details. Below are some reflections from my development experience so far:
+I’ve been actively developing mobile applications using the new SmartPhone application framework from [Rhomobile](http://rhomobile.com/). I wrote an [overview of the technology](/2009/07/cross-platform-mobile-apps-with-rhomobile/), but folks have asked for some more details. Below are some reflections from my development experience so far:
 
 Rhodes
 ======

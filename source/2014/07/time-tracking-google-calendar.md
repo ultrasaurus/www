@@ -10,7 +10,7 @@ I just created a very lightweight time tracking system where we can use a Google
 It goes with a spreadsheet where the first row has a header like this:  
 Date Meeting Sarah Paul Glen
 
-[![Screen Shot 2014-07-27 at 6.47.14 PM](../../../uploads/2014/07/Screen-Shot-2014-07-27-at-6.47.14-PM.png)](https://www.ultrasaurus.com/wp-content/uploads/2014/07/Screen-Shot-2014-07-27-at-6.47.14-PM.png)
+[![Screen Shot 2014-07-27 at 6.47.14 PM](../../../uploads/2014/07/Screen-Shot-2014-07-27-at-6.47.14-PM.png)](/uploads/2014/07/Screen-Shot-2014-07-27-at-6.47.14-PM.png)
 
 The we just make events on Google calendar and invite whoever is working together at that time — could be a team meeting or one of us working on our own. Time will be tracked by first name of email address  
 (paul@whatever.com and paul@yahoo.com would all get tracked in the “Paul” column). Currently the script doesn’t support two different people who share the same email name before ‘@’.

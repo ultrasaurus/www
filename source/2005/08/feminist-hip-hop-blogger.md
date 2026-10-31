@@ -4,7 +4,7 @@ date: '2005-08-05T08:40:07-07:00'
 exported_permalink: /2005/08/feminist-hip-hop-blogger
 id: 172
 ---
-I was intrigued by this [blogher](blogher.org) session with the subtitle: “negotiating a space dominated by men.” As a software engineer, I often find myself the lone woman in a roomfull of men. I was interested in the perspective of a woman in a completely different industry facing a similar gender imbalance.
+I was intrigued by this [blogher](http://blogher.org) session with the subtitle: “negotiating a space dominated by men.” As a software engineer, I often find myself the lone woman in a roomfull of men. I was interested in the perspective of a woman in a completely different industry facing a similar gender imbalance.
 
 [Lynne D. Johnson](http://www.lynnedjohnson.com/) gave a fantastic presentation which unexpectedly challenged some of my own assumptions about rap lyrics. I enjoy hip hop — the music, the poetry of the lyrics — but I have felt disturbed and alienated by some music of that genre which has explicit lyrics which degrade women and celebrate violence. It was enlightening to hear from a woman in the industry.
 

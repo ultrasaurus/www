@@ -71,7 +71,7 @@ In Drupal we tend to expose this kind of functionality as a block, but that give
 
 Always put description text when you are creating new fields (you probably won’t come back later). If you are going to come back later, you can improve it then — at least put something in.
 
-- [Autosave](drupal.org/project/autosave)
+- [Autosave](https://www.drupal.org/project/autosave)
 - Revisions: just enable it by default
 - Preview — poor experiences with the preview button, not always what you expext
 - Turn off preview button on content types page, use use [view\_unpublished](https://drupal.org/project/view_unpublished) module instead

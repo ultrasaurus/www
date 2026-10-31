@@ -4,7 +4,7 @@ date: '2004-02-25T06:07:10-08:00'
 exported_permalink: /2004/02/no-fun-registering-for-funchain
 id: 100
 ---
-[Jason Banico](http://blog.dynatica.com/), a developer of [funchain](www.funchain.com), wonders “if there are ways to convince people to write more public-consumption material or something more article-like, rather than diary-styled entries which only those with personal ties to the authors can appreciate.” I think he is right that its often a different kind of person who writes for “public-consumption” rather than for a small group of friends or family.
+[Jason Banico](http://blog.dynatica.com/), a developer of [funchain](http://www.funchain.com), wonders “if there are ways to convince people to write more public-consumption material or something more article-like, rather than diary-styled entries which only those with personal ties to the authors can appreciate.” I think he is right that its often a different kind of person who writes for “public-consumption” rather than for a small group of friends or family.
 
 I’d guess if it was called “ideachain” or “memechain,” they would attract more cyber intellectuals. I thought I would register and start a chain, but I was disappointed in the privacy policy:
 

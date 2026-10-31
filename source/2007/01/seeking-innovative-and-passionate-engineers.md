@@ -13,7 +13,7 @@ I like to ship software, which I was surprised to find is not important to all e
 
 Ok, enough about me, but as the hiring manager I figured it would be relevant. I feel that every bit of my experience has led to this point: creating applications with innvative, beautiful, yet practical UI within a server-based service-oriented architecture. It is challenging work to combine solid back-end architecture with UI framework flexibility, creating both effective end-user applications and the framework that supports them at the same time. It is made even more challenging (and a bit stressful) by the fact that it will be deployed for millions of people to use every day. Having real customers with broad reach implies not only that we build a robust and scalable server, but also that we get the all the UI details right — small percentages are still lots of people.
 
-I know the project description is a bit vague, but if it sounds interesting and you want to learn more drop me a [note](https://www.ultrasaurus.com/emailme.php) or just apply for one of these jobs:
+I know the project description is a bit vague, but if it sounds interesting and you want to learn more drop me a [note](/contact/) or just apply for one of these jobs:
 
 \* [Passionate UI Wizard](http://www.laszlosystems.com/company/careers#career-412)  
 \* [Innovative Server Engineer](http://www.laszlosystems.com/company/careers#career-411)

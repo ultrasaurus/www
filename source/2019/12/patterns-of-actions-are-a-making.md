@@ -28,5 +28,5 @@ I love the idea of a word for a skill providing a path to developing that skill,
 
 The [whole podcast](http://makeitthentelleverybody.com/2019/12/b-mure/) with Dan Berry and B. Mure is worth listening to for any creative folk or if you enjoy comics or visual storytelling and want a glimpse of that world.
 
-![Image from website of B. Mure: the artist in sunshine looking skyward with arms spread wide upward in front of mountains and blue sky](../../../uploads/2019/12/bmuredraws-dot-com.png%22)  
-[https://bmuredraws.com/](bmuredraws.com)
+![Image from website of B. Mure: the artist in sunshine looking skyward with arms spread wide upward in front of mountains and blue sky](../../../uploads/2019/12/bmuredraws-dot-com.png)  
+[https://bmuredraws.com/](https://bmuredraws.com/)

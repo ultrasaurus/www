@@ -1,6 +1,5 @@
 ---
 title: 'What is an ultrasaurus?'
-date: '2013-11-23T02:21:43-08:00'
 status: publish
 exported_permalink: /ultrasaurus
 author: maiki

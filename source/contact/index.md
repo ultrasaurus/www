@@ -1,6 +1,5 @@
 ---
 title: Contact
-date: '2013-12-19T00:44:38-08:00'
 status: publish
 exported_permalink: /contact
 author: maiki

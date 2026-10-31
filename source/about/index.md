@@ -1,6 +1,5 @@
 ---
 title: About
-date: '2009-01-09T05:21:00-08:00'
 status: publish
 exported_permalink: /about
 author: sarah
@@ -10,7 +9,7 @@ id: 578
 tags: ['page']
 ---
 
-This site is my personal space for writing and experimentation. If you are curious, you can read [about the origin of the name “ultrasaurus”](/ultrasaurus).
+This site is my personal space for writing and experimentation. If you are curious, you can read [about the origin of the name “ultrasaurus”](/ultrasaurus/).
 
 
 This page is mostly about what I used to do. Now I lead a quiet life. I still contribute to open source code and volunteer at [Bridge Foundry](https://bridgefoundry.org/). 
@@ -38,4 +37,4 @@ Interests
 
 crowdsourcing, learning, human spoken language, code, theories of play, distributed systems, experience design, social computing, video and motion graphics, 3D graphics, communication, art, science …
 
- If you want to learn more about my history in tech, you can check out videos of past talks on my [speaking](/speaking) page.
+ If you want to learn more about my history in tech, you can check out videos of past talks on my [speaking](/speaking/) page.

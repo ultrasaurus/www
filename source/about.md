@@ -10,16 +10,19 @@ id: 578
 tags: ['page']
 ---
 
+This site is my personal space for writing and experimentation. If you are curious, you can read [about the origin of the name “ultrasaurus”](/ultrasaurus).
 
-This is my personal space for writing and experimentation. If you are curious, you can read [about the origin of the name](/ultrasaurus).
 
-Short Bio
+This page is mostly about what I used to do. Now I lead a quiet life. I still contribute to open source code and volunteer at [Bridge Foundry](https://bridgefoundry.org/). 
+
+
+Old Bio
 ---------
 
 Sarah Allen is a technical leader and open source contributor. She founded Blazing Cloud, a mobile development firm, and Bridge Foundry, a diversity and inclusion nonprofit. She previously served as Presidential Innovation Fellow in the Obama Administration at the Smithsonian Institution, and was an early engineer on After Effects, Shockwave, and Flash video. She also led infrastructure teams on Google Cloud Platform and Firebase working on server-side events and security policy.
 
-Personal Statement
-------------------
+Outdated Personal Statement
+--------------------------
 
 I believe that software should be fun. Software should enable someone to do something meaningful that they couldn’t do otherwise.
 
@@ -35,4 +38,4 @@ Interests
 
 crowdsourcing, learning, human spoken language, code, theories of play, distributed systems, experience design, social computing, video and motion graphics, 3D graphics, communication, art, science …
 
-Find me at an upcoming conference or check out videos of past talks on my [speaking](/speaking) page
+ If you want to learn more about my history in tech, you can check out videos of past talks on my [speaking](/speaking) page.

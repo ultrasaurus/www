@@ -1,0 +1,12 @@
+comments:
+- id: 5304
+  author: "Dave Aronson"
+  url: "https://plus.google.com/+DaveAronson"
+  date: '2015-12-14T03:53:39-08:00'
+  content: |-
+    <p>I usually just advise people to avoid <code>and</code> and <code>or</code> in the first place.  Unless the reader comes from a strong Perl background, their usual usages (<code>do_this and do_that</code> where the latter depends on the former succeeding, and <code>do_this or die(error_message)</code>) just take Too Much Thinking to be maintainable.  Their presence also tempts people to use them in calculating a boolean value.  This is flat-out wrong if that value is then assigned into a variable.  I cover this in slides 11 and 12 (currently) of <a href="http://bit.ly/RubyGotchas" rel="nofollow ugc">http://bit.ly/RubyGotchas</a> .  Signed, The Codosaurus</p>
+- id: 5310
+  author: "Dan Wilk"
+  date: '2015-12-14T11:22:07-08:00'
+  content: |-
+    <p>Same behavior in Lua. Lua also likes to start numbering at 1, which is all I will say about that.</p>

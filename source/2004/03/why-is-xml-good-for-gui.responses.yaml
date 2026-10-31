@@ -1,0 +1,15 @@
+comments:
+- id: 149
+  author: "Dan Shafer"
+  url: "http://www.eclecticity.com"
+  date: '2004-03-26T21:26:30-08:00'
+  content: |-
+    <p>Sarah....</p>
+    <p>Thanks for the note, which TrackBacked to my site so I could find it!</p>
+    <p>Your explanation of why XML may have a valid role to play in GUI design is intriguing. I agree with it. Your final point is the core of my issue, I think. I'm looking now at building a first cut at a Laszlo GUI tool using Runtime Revolution. I'll let you know if something useful develops from that work.</p>
+- id: 150
+  author: "Sarah Allen"
+  url: "https://www.ultrasaurus.com"
+  date: '2006-02-27T11:44:49-08:00'
+  content: |-
+    <p>Note:  most of what you build in a GUI is not actually pixel-tweaking.  After spending the last year working on Laszlo Mail (www.laszlomail.com), I believe this even more strongly.  A GUI tool is great for prototyping, but building a real UI that does anything interesting or innovative, is still a programming task.  After three years of LZX coding experience, I'm convinced that declarative coding is just plain faster than creating procedural code.  XML is reasonable choice for declarative code today.</p>

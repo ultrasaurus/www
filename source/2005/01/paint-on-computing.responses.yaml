@@ -1,0 +1,7 @@
+comments:
+- id: 211
+  author: "Devon Strawn"
+  url: "http://www.secretrobot.com/blog"
+  date: '2005-01-28T00:03:32-08:00'
+  content: |-
+    <p>Vernor Vinge's "Deepness in the Sky" paints a detailed picture of what it would be like to interact with this kind of computing environment.   In the book, the computing elements are tiny dust motes that drift through the air, communicating via short-range wireless and powered by microwaves.  A couple of applications he describes are mobile ad-hoc networks, virtual retinal displays (like Microvision's headset), and remote surveillance.  So instead of (or in addition to) painting a computer on a surface, it would also be possible to "fill" a room with computation.</p>

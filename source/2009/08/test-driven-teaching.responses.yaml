@@ -1,0 +1,72 @@
+comments:
+- id: 592
+  author: "Yehuda Katz"
+  url: "http://www.yehudakatz.com"
+  date: '2009-08-23T21:51:51-08:00'
+  content: |-
+    <p>Matt Aimonetti and I taught a course on Merb in Phoenix earlier this year (January) using tests for teaching. We would introduce each new section with some tests, and ask the students to try to make them pass. It was extremely successful, because the students weren't just trying our some hypothetical new technique, they had red/green to determine whether they were successful.</p>
+- id: 593
+  author: "seth"
+  date: '2009-08-24T05:03:52-08:00'
+  content: |-
+    <p>Hi Sarah,</p>
+    <p>The path to enlightenment (for ruby syntax at least): <a href="http://github.com/edgecase/ruby_koans/tree/master" rel="nofollow ugc">http://github.com/edgecase/ruby_koans/tree/master</a></p>
+- id: 594
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2009-08-24T09:10:00-08:00'
+  content: |-
+    <p>The <a href="http://github.com/edgecase/ruby_koans/tree/master" rel="nofollow ugc">Ruby Koans</a> are awesome.  I went through the first two and plan to set aside some time to meditate on them every day.  It does seem like such exercises would benefit from guidance from a Ruby Master.  For example,  in the following two koans:<br>
+    <pre>
+      # To understand reality, we must compare our expectations against
+      # reality.
+      def test_assert_equality
+        expected_value = 2
+        actual_value = 1 + 1
+
+        assert expected_value == actual_value
+      end
+
+      # Some ways of asserting equality are better than others.
+      def test_a_better_way_of_asserting_equality
+        expected_value = 2
+        actual_value = 1 + 1
+
+        assert_equal expected_value, actual_value
+    end
+    </pre></p>
+    <p>Why is it that assert_equal expected, actual is better than assert expected == actual?  It seems that the latter is quite legible and arguably more readable.</p>
+- id: 595
+  author: "Jamie Flournoy"
+  url: "http://www.pervasivecode.com/"
+  date: '2009-08-24T09:33:25-08:00'
+  content: |-
+    <p>IMO it's because of the output you get when the assertion fails.</p>
+    <p>a = 1<br>
+    b = 2<br>
+    assert a == b # failure message says 'expected true but was false'<br>
+    assert_equal a, b # failure message says 'expected 1 but was 2'</p>
+    <p>The second failure message is more informative.</p>
+- id: 599
+  author: "Hugo Baraúna"
+  url: "http://blog.plataformatec.com.br"
+  date: '2010-03-24T11:38:56-08:00'
+  content: |-
+    <p>Interesting post. Do you already have any conclusions about how to approach teaching ruby/rails and TDD?</p>
+linked_from:
+- id: 591
+  title: "Revenge of the Link Roundup (August 17th, 2009) | Geek Feminism Blog"
+  url: "http://geekfeminism.org/2009/08/17/revenge-of-the-link-roundup-august-17th-2009/"
+  date: '2009-08-17T13:23:36-08:00'
+- id: 596
+  title: "ruby unit test frameworks"
+  url: "/2009/08/ruby-unit-test-frameworks/"
+  date: '2009-08-31T06:59:49-08:00'
+- id: 597
+  title: "learning through testing"
+  url: "/2009/09/learning-through-testing/"
+  date: '2009-09-05T09:03:57-08:00'
+- id: 598
+  title: "Test-Driven Teaching! « Find Time for the Karussell"
+  url: "http://karussell.wordpress.com/2009/12/31/test-driven-teaching/"
+  date: '2009-12-31T07:45:39-08:00'

@@ -1,0 +1,26 @@
+comments:
+- id: 174
+  author: "Kiyooka-san"
+  url: "http://www.digigami.com/eurekagram/"
+  date: '2004-06-02T12:34:14-08:00'
+  content: |-
+    <p>No question about it, bad design is bad design, especially from an interaction standpoint.  The tricky case is well-designed visuals combined with poorly designed interaction.</p>
+    <p>I've encounted many a visually stunning (ie. in one sense, well-designed) Flash-based www site whose use I could not comprehend after several minutes of fiddling and clicking.</p>
+    <p>I've got a question:  do the recent versions of Flash player allow for popup windows?  I know that you can overlay content outside the Flash rectangle, because I've seen ads 'surf' over the www page I'm looking at.  But I can't recall seeing a popup Window. Macromedia Central apps seem to be very rectangular and boxed in.</p>
+- id: 175
+  author: "Douglass Turner"
+  date: '2004-06-03T07:57:16-08:00'
+  content: |-
+    <p>Sarah,</p>
+    <p>I think one of the biggest challenge you will face with Laszlo is the fact that it is opaque to deep linking. You are essentially creating a walled garden of navigation within the prevailing context of a dense thicket of HTTP/HTML. This is of course the inherent problem with Flash and why it will never gain much traction.</p>
+    <p>A fundamental implications of HTTP is that it works best when everyone buys into the shared (yes, mediocre) UI mechanism of linking. This is the "good enough" principle at work again.</p>
+    <p>For example I visited Marc Canter's blog at <a href="http://blogs.it/0100198/" rel="nofollow ugc">http://blogs.it/0100198/</a> and noticed the soundblox and photoblox Laszlo widgets. Schematically they represent two "island" traversal hierarchies that don't allow me to link to an individual photo or individual track. So I can't send a link to my buddy to check it out.</p>
+    <p>Do you have plans in the future to address this?</p>
+    <p>Cheers,<br>
+    Douglass Turner</p>
+- id: 176
+  author: "Jason Rumney"
+  url: "http://jasonrumney.net/"
+  date: '2004-06-05T02:15:25-08:00'
+  content: |-
+    <p>Douglass has a point when it comes to websites that primarily offer information. This type of site is best kept as HTML for searching and navigation reasons. But there are a whole host of applications where deep linking does not make sense. Take any online shopping application as an example. There is no point linking directly to the checkout page. To checkout, you have to have first put something in your shopping basket. It is this type of application can be made to work more smoothly and intuitively using rich client technologies.</p>

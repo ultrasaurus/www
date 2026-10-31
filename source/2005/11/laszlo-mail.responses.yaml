@@ -1,0 +1,14 @@
+comments:
+- id: 249
+  author: "Rob Jones"
+  url: "http://www.nonewmessages.com"
+  date: '2004-11-10T09:48:53-08:00'
+  content: |-
+    <p>Looks great! Hopefully this gets some more media attention on your technology. I have been interviewing for work in Austin recently and  most places have not even heard of RIA development with XML-based scripting languages.</p>
+    <p>It will be interesting to see how your new email app compares to Gmail, which for now seems to be the app to beat as far as RIAs go. I am impressed with Gmail, but I would bet that tools like yours could cut down on the development time significantly and offer better interactivity in the browser.</p>
+- id: 250
+  author: "Bernard Wright"
+  url: "http://www.midentity.com"
+  date: '2004-12-08T09:21:51-08:00'
+  content: |-
+    <p>I find the mail app something that will prove Laszlo's capabilities and therefore make it simpler to justify to others. However how can I find out more about this? I have requested info from your web site twice now but haven't got anywhere, if you could help that would be great.</p>

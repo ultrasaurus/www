@@ -1,0 +1,7 @@
+comments:
+- id: 525
+  author: "Adam Wolff"
+  url: "http://sharegrove.com"
+  date: '2009-06-02T07:41:57-08:00'
+  content: |-
+    <p>Obviously, we've been watching Wave closely. I wonder if a protocol is still a meaningful standard. Our thinking is that the key to this magic is the data-store, rather than some tricky wire protocol. If you have a highly-concurrent, change-aware database (like <a href="http://couchdb.apache.org/" rel="nofollow ugc">CouchDB</a>) the protocol and the data store can be the same thing: JSON+HTTP.</p>

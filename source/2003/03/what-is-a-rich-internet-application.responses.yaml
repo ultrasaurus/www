@@ -1,0 +1,29 @@
+comments:
+- id: 9
+  author: "waleed"
+  url: "http://www.futureisland.org"
+  date: '2003-04-16T09:41:24-08:00'
+  content: |-
+    <p>Very nice links - for me the map of the market as well as marketrak (<a href="http://marketrac.nyse.com/detector/detector.html" rel="nofollow ugc">http://marketrac.nyse.com/detector/detector.html</a>) represent some of the best RIAs.</p>
+    <p>And I think I'm starting to understand more what this 'RIA' is, and it's not what Macromedia or any analyst has written about it (at least not directly).</p>
+    <p>It's better understandable when looked at in the context of the grand history of the computer/user relationship.  The gradual encroachment of "connectivity" has expanded the horizons of information.  First we could find our way to new information through our computers by borrowing friends' floppies (if you wanted, say, the latest version of Leisure Suit Larry...).  Actually before that we could borrow friends' punchcards ;)</p>
+    <p>Subsequently our computers, our work ones mostly, participated in LAN's across which we could share files.  Home users had dial-in BBSs for file sharing and communication - if a user from Japan wanted to pay the long distance fees I could see them online!  Nowadays people can get the internet for free and programs like Kazaa make the cost of accessing certain types information much less, if not free.</p>
+    <p>The trend is that the cost of getting additional information than is currently at my disposal is decreasing.  Who sells the shirt I want with that rare fabric?  Today the internet will tell me!  What's the name of that salesman I met last week and how much did he sell last quarter?  The intranet will tell me - if I ask the right questions.   The analysts are slightly mistaken but not completely wrong when they compare RIA's to desktop apps - they just provide the interfaces we're used to as providing concrete, necessary information when we need it (think Outlook, office suites, browsers, etc. - we STILL spend most of our lives in apps like these, not the internet).</p>
+    <p>We have abundant information on the internet to consume, manipulate, and produce and websites are catching on by offering more more more.  A perfect example of reducing the cost of information is the eTrade quote widget.  It provides information (quotes), reduces the cost in dollars to etrade of a page refresh, and reduces the cost in time to the website visitor of a page refresh.</p>
+    <p>What we're missing, or just beginning to realize, is that design can be used (should be/has been used) on the internet as a tool for facilitating the communication of information, i.e. getting a lot of information at a low cost.  Typically design on the internet is about marketing, art, or self-expression, etc.  High on schnazz, low on information.  For an example, look at Coca-Cola's website.  How much effort do they put into communicating the single idea that you're on Coke's site?  Isn't the coke logo enough? Isn't there anything else they want to tell me?</p>
+    <p>Remember the intro app from FlashForward?  That's a lot of information we processed when we looked at the scatterplot-like arrangement of attendees.  And nearly every example you cited above is an example of visualizing information in a graphic way with novel manipulation techniques that are suited explicitly for the purpose of the information at hand.</p>
+    <p>For me, marketmap and marketrac are the best examples because there's money at stake - the sooner a trader, novice or veteran, can see relationships she's looking for, the sooner she saves herself from losing thousands of dollars.  Or better yet, the sooner she makes a cool million.</p>
+- id: 10
+  author: "Varun.S.Nair"
+  url: "http://RichInternetApplication"
+  date: '2005-03-18T01:36:34-08:00'
+  content: |-
+    <p>I like to know more about what rich interent applications are.Can you post me some details</p>
+- id: 11
+  author: "Edward"
+  url: "http://www.iokio.com"
+  date: '2005-06-24T06:54:21-08:00'
+  content: |-
+    <p>Following launch of Omniscope in January 2005, Iokio just launched a second product, FeatureFinder, a Flash based product for creating interactive data interfaces for websites. If you have a look on www.iokio.com you can try some demos (no installation required) and download the full application for evaluation.</p>
+    <p>This is the app used to create the updated CameraFinder demo that Macromedia gave as their primary example of a Rich Internet Application. You can install it on a pc and generate the swf files locally (you even stick them in a Powerpoint slideshow), then embed them in your site. No development knowledge needed.</p>
+    <p>Check out the Butler Group blog on Omniscope at www.cbronline.com/blog.asp?show=butler_group/2005/06/seeing_is_belie.html</p>

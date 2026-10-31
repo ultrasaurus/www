@@ -1,0 +1,91 @@
+comments:
+- id: 600
+  author: "Matthew Lang"
+  url: "http://matthewlang.co.uk"
+  date: '2009-08-31T13:23:48-08:00'
+  content: |-
+    <p>I always find myself sticking to Test::Unit just because it's included with Ruby by default. I think once I've mastered the ins and outs of Test::Unit, then I'll move onto something like Shoulda or RSpec.</p>
+- id: 601
+  author: "Adam Wolff"
+  url: "http://sharegrove.com"
+  date: '2009-08-31T16:28:21-08:00'
+  content: |-
+    <p>I guess my pig-latin is rusty. I thought that would be<br>
+      it "should translate a word beginning with a vowel" do<br>
+        pending<br>
+        s = translate("apple")<br>
+        s.should == "applevay"<br>
+      end</p>
+- id: 602
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2009-08-31T19:48:45-08:00'
+  content: |-
+    <p>Wow.  That's a different dialect than I learned.  Wikipedia notes that there are different consonants used in different dialects:</p>
+    <p>"In words that begin with vowel sounds or silent consonants, the syllable "ay" is added to the end of the word. In some dialects, to aid in pronunciation, an extra consonant is added to the beginning of the suffix; for instance, eagle could yield eagle'yay, eagle'way, or eagle'hay."</p>
+    <p><a href="http://en.wikipedia.org/wiki/Pig_Latin#Rules_and_variations" rel="nofollow ugc">http://en.wikipedia.org/wiki/Pig_Latin#Rules_and_variations</a></p>
+- id: 603
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2009-08-31T19:55:03-08:00'
+  content: |-
+    <p>If anyone wants to experiment with the files at home, I posted them on github: <a href="http://github.com/ultrasaurus/test-framework-comparison/tree/master" rel="nofollow ugc">http://github.com/ultrasaurus/test-framework-comparison/tree/master</a></p>
+- id: 604
+  author: "Jeremy D. Frens"
+  url: "http://jdfrens.blogspot.com/"
+  date: '2009-09-01T05:08:14-08:00'
+  content: |-
+    <p>You can actually use Test::Unit in RSpec (<a href="http://blog.davidchelimsky.net/2009/2/2/rspec-works-with-test-unit/" rel="nofollow ugc">http://blog.davidchelimsky.net/2009/2/2/rspec-works-with-test-unit/</a>) and Shoulda has some special RSpec hooks as well.  I've found this useful when incrementally transforming Test::Unit tests into RSpec examples.</p>
+- id: 605
+  author: "Peter Fitzgibbons"
+  date: '2009-09-01T13:32:58-08:00'
+  content: |-
+    <p>You'll find the same Rspec look/feel of code and output from within Rails. <br>
+    There is one spot i notice that still falls apart, no matter the test framework : diffs of failing array/hash comparison.  Anyone have a Rpec 'plugin' for this?</p>
+- id: 606
+  author: "Scott Bronson"
+  date: '2010-01-27T01:01:28-08:00'
+  content: |-
+    <p>Peter, I'm doing this in my current app to compare many deep structures: <a href="http://gist.github.com/287675" rel="nofollow ugc">http://gist.github.com/287675</a></p>
+    <p>Not elegant but it works.</p>
+- id: 607
+  author: "Sam Livingston-Gray"
+  date: '2011-03-31T09:14:58-08:00'
+  content: |-
+    <p>I've been using Shoulda in Rails for a couple of years, and I don't really use its Rails-specific test methods (e.g., #should_belong_to).  They've always seemed just a little too tautological for my taste -- in that they don't describe actual value.  If there aren't other tests that fail without a given association being declared, You're Doing It Wrong (tm).</p>
+    <p>That being said, I do like Shoulda's nested contexts, if for no other reason than that they let me fold up large sections of tests that I don't currently care about.</p>
+- id: 608
+  author: "Paris Sinclair"
+  date: '2011-03-31T10:47:14-08:00'
+  content: |-
+    <p>If it's a matter a taste, and one of the options comes with Ruby, then that's the obvious choice. Especially when teaching!</p>
+    <p>Since when is the canon just legacy?</p>
+    <p>If people want to switch to some other flavor they like, great! But they should be doing that based on real reasons they understand. It's a major disservice to send them off with some Fav Flav. Even if it's your fav flav.</p>
+- id: 609
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2011-03-31T14:48:33-08:00'
+  content: |-
+    <p>I think we should teach using what is best for the student.  As teachers, we need to use our best judgement in picking what collection of tools to introduce students to.  This is not just a chocolate or strawberry kind of choice.   I tried to explain in my post why I chose RSpec for teaching.  As I mentioned, I actually started the experiment with a bias toward Test::Unit.</p>
+    <p>Right now minitest comes with Ruby and Test::Unit comes with Rails.  Those projects pick their test frameworks for a lot of reasons -- my guess is that being able to create very clear failing tests was not a high priority.  In the case of Rails, RSpec didn't exists when they chose Test::Unit and they are working on improving the readability of output (<a href="https://github.com/TwP/turn" rel="nofollow ugc">https://github.com/TwP/turn</a>) but I still think it doesn't approach the clarity of RSpec.</p>
+- id: 612
+  author: "Taryn East"
+  url: "http://rubyglasses.blogspot.com/"
+  date: '2011-07-23T07:03:34-08:00'
+  content: |-
+    <p>YMMV, of course, but I use test::Unit over rspec because altering the output messaging is actually far easier.</p>
+    <p>Sure, for very simple tests like your examples - that use the default messaging, the output seems better. But if you want to pass custom failure messages, rspec requires you to declare a brand new class every time... whereas Test::Unit you can just pass it as a param.</p>
+    <p>This becomes more important in actual, complex tests. I have a lot of asserts that are sanity checks... and I like to make sure my code outputs *what* failed and what it should have been.. with a comment eg as a toy example:</p>
+    <p>should "approve a new widget" do<br>
+           w = MyWidget.new(:name =&gt; "my widget", :approved =&gt; false)    <br>
+         assert !w.approved?, "sanity check: test data should not have started out approved"<br>
+         assert w.approve!, "approval process should have worked"<br>
+         assert w.approved? # note - no need to comment this one as it's the *actual* test<br>
+      end</p>
+    <p>The last line is the actual thing you're testing - but sanity checking the data and the intermediate steps is useful to make sure you are *actually testing what you think you're testing* - something that you often only find out later when it breaks...<br>
+    and having better output on the lines makes Test::unit far easier to get proper messages passed around as to what should be happening and why.</p>
+linked_from:
+- id: 610
+  title: "on choosing RSpec as a test framework"
+  url: "/2011/04/on-choosing-rspec-as-a-test-framework/"
+  date: '2011-04-01T06:42:24-08:00'

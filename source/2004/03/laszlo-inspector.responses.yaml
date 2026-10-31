@@ -1,0 +1,21 @@
+comments:
+- id: 146
+  author: "jamie"
+  url: "http://www.technologylog.com"
+  date: '2004-03-17T02:31:11-08:00'
+  content: |-
+    <p>I notice you're using Laszlo within an MT powered site. does it cost anything to use that facility? Also is it installed on wherever you host your site, or is it on your home computer? Thanks for your help,</p>
+    <p>jamie</p>
+- id: 147
+  author: "Victor Laszlo"
+  url: "http://laszlosystems.com/~adam/blog/"
+  date: '2004-03-17T10:51:08-08:00'
+  content: |-
+    <p>Hi Jamie,<br>
+    It looks like this is actually a link to a laszlo app at <a href="http://mylaszlo.com," rel="nofollow ugc">http://mylaszlo.com,</a> which is a free LPS hosting service run by Laszlo.</p>
+- id: 148
+  author: "Andrew Wooldridge"
+  url: "http://www.andrewwooldridge.com"
+  date: '2004-03-18T18:54:01-08:00'
+  content: |-
+    <p>Looks like a great candidate to be added to next Laszlo 2.X in the developer toolbar at the bottom? :)</p>

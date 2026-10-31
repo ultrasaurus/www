@@ -1,0 +1,9 @@
+comments:
+- id: 68
+  author: "Kim"
+  url: "http://www.kimbly.com/"
+  date: '2003-08-18T15:51:04-08:00'
+  content: |-
+    <p>Beautiful.  Thank you!</p>
+    <p>I feel the same way about my code, although I think you're much more eloquent at describing it.  I frequently explain my conception of a software architecture as being like a landscape, with clear mountains and valleys, of varying shapes and textures.  The criteria I use for deciding whether a design is good or not is how well it molds to the 3D "shape" of the requirements and the libraries it depends upon.</p>
+    <p>I once considered making a <a href="http://www.kimbly.com/code/codepad/" rel="nofollow ugc">tool</a>  that would let me work with code directly, and display code the same way that I saw it in my head.  Never went anywhere, though.</p>

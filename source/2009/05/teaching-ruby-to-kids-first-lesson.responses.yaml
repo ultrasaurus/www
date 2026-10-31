@@ -1,0 +1,80 @@
+comments:
+- id: 502
+  author: "David Stamm"
+  url: "http://twitter.com/davidstamm"
+  date: '2009-05-21T03:53:40-08:00'
+  content: |-
+    <p>While I was sorry to hear about your configuration issues, this post brought a big smile to my face.  I hope we can look forward to more posts about your adventures in teaching.</p>
+    <p>As a veteran programmer and the parent of a clever little girl, I appreciate all that you and your colleagues are doing in this area.  Looking forward to hacking some wee Shoes programs with my daughter when she's a little older!</p>
+- id: 503
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2009-05-21T06:08:38-08:00'
+  content: |-
+    <p>If you are looking for stuff to do with younger kids, you can check out <a href="http://www.flyingpaperclips.com/" rel="nofollow ugc">http://www.flyingpaperclips.com/</a> which is a catalog of science experiments for first graders (suitable for K-2 and a few for younger or older kids).  Young children are natural scientists and encouraging that early is wonderful.</p>
+- id: 504
+  author: "ashbb"
+  url: "http://ashbb.github.com/"
+  date: '2009-05-24T19:00:45-08:00'
+  content: |-
+    <p>&gt; Kids loved the name “Shoes”<br>
+    hahaha. Cool!<br>
+    Great success. Congrats!<br>
+    I'm really looking forward to read your next adventure report of this project. :-D</p>
+- id: 505
+  author: "Bill Davenport"
+  url: "http://www.wpdavenport.com"
+  date: '2009-06-23T12:40:48-08:00'
+  content: |-
+    <p>Thank you!  I'm teaching my 10 year old Ruby and this will be an added surprise to his learning.</p>
+    <p>I think my daughter will love this too.  :-)</p>
+- id: 506
+  author: "Richard Conroy"
+  url: "http://richardconroy.blogspot.com"
+  date: '2009-08-03T18:21:29-08:00'
+  content: |-
+    <p>Hey great stuff! Been trying to teach my girlfriend ruby, but didn't get far enough with Shoes. She is a teacher (science/physics) and there are some interesting applications for simple GUI coding in a classroom environment.</p>
+- id: 507
+  author: "brahim"
+  date: '2009-09-18T07:24:50-08:00'
+  content: |-
+    <p>what y  retrying is amasing.thanks for sharing.</p>
+- id: 509
+  author: "TScott"
+  date: '2009-09-27T18:05:07-08:00'
+  content: |-
+    <p>Is there something wrong with the link for Shoes? <a href="http://shoooes.net/" rel="nofollow ugc">http://shoooes.net/</a>?</p>
+    <p>That and the variations I tried did not find anything but footwear sites...</p>
+- id: 510
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2009-09-28T03:19:46-08:00'
+  content: |-
+    <p>The new website is here: <a href="http://shoes.heroku.com/" rel="nofollow ugc">http://shoes.heroku.com/</a></p>
+- id: 511
+  author: "David Lorenz"
+  date: '2009-10-01T17:01:04-08:00'
+  content: |-
+    <p>I am a lateral entry school teacher acquiring my teaching certificate for High School mathematics.  My prior career was a computer programmer for many years.<br>
+    At what do you think that students will actually be able to code and understand the concepts behind the computer programming?  Would coding a game program be a good way to start off?</p>
+- id: 512
+  author: "Brian Morearty"
+  url: "http://ilikestuffblog.com/"
+  date: '2011-01-02T09:23:32-08:00'
+  content: |-
+    <p>Sarah, I'm encouraged by reading your story of teaching 4th-5th graders and your other work teaching Ruby to women. Starting yesterday, I'm teaching my 11-year-old daughter how to program. (I taught her rudimentary HTML in the last year.)</p>
+    <p>I don't plan to use the RailsBridge curriculum--I'm using Chris Pine's "Learn to Program" book instead--but I will incorporate some good ideas you described in this 3-part tale of teaching kids to program. Talking about computer history is a great idea, especially things that were created during the kids' lifetime. Your flashlight demo sounds great as well.</p>
+    <p>I'll document our progress (mine and hers) on my blog, starting with <a href="http://ilikestuffblog.com/2011/01/02/teaching-my-11-year-old-daughter-to-program-in-ruby/" rel="nofollow ugc">http://ilikestuffblog.com/2011/01/02/teaching-my-11-year-old-daughter-to-program-in-ruby/</a></p>
+    <p>Thanks for the ideas.</p>
+- id: 513
+  author: "Isa"
+  date: '2011-03-10T07:47:59-08:00'
+  content: |-
+    <p>I'm so jealous of those kids having a "history of computers" class. Back when I was in 5th grade, my teachers were so new to the languages themselves that when there were glitches, our "mission" was to help them reprogram our own computer. Super fun, but we had to reinstall couple of computers. However, I started making a living programming and setting up "older people's" machines by 16.<br>
+    I'm talking about some 15 years ago, though.  It was basic basic Internet, office and QBASIC (yeah... believe it).<br>
+    Good luck! sounds like you can have a blast with those kids.</p>
+linked_from:
+- id: 508
+  title: "teaching kids to code: first lesson « Ideas for Teaching Computer Technology to Kids"
+  url: "http://teachcomputers.wordpress.com/2009/09/22/teaching-kids-to-code-first-lesson/"
+  date: '2009-09-22T05:16:48-08:00'

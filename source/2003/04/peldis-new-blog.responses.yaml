@@ -1,0 +1,16 @@
+comments:
+- id: 14
+  author: "Catherine"
+  date: '2006-10-19T07:10:44-08:00'
+  content: |-
+    <p>How do I contact Giacomo 'Peldi' Guilizzoni?<br>
+    What is his email address?<br>
+    So, I could ask questions regarding my own flash applications.</p>
+    <p>Thank you</p>
+- id: 15
+  author: "Sarah Allen"
+  url: "https://www.ultrasaurus.com"
+  date: '2006-10-25T00:15:35-08:00'
+  content: |-
+    <p>I think Macromedia has some good support programs you could sign up for.  There are also some good flash email lists: check out flashcoders for general  flash questions and the flashcomm list for multiparty apps on <a href="http://training.figleaf.com/resources/" rel="nofollow ugc">http://training.figleaf.com/resources/</a></p>
+    <p>And if you get too frustrated with Flash, you can always check out www.openlaszlo.org :)</p>

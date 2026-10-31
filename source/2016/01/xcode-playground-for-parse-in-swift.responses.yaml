@@ -1,0 +1,12 @@
+comments:
+- id: 5359
+  author: "Brent Michalski (@perlguy2)"
+  url: "http://twitter.com/perlguy2"
+  date: '2016-01-05T12:11:26-08:00'
+  content: |-
+    <p>I tried it step-by-step and I get a "No such module 'Parse'" error when I try to include Parse.  I even downloaded your playground and got the same results.</p>
+    <p>I've been screwing around with trying to get CocoaPods working in playgrounds for a few hours now and have yet to make it work.  I was hoping one last attempt using your excellent, detailed, process would work.</p>
+    <p>It is driving me crazy, but I think I am going to give up for a bit and work on some code so I at least feel productive.</p>
+    <p>I am running Xcode v7.2(7C68) on El Capitan v10.11.2 if that helps at all.</p>
+    <p>I'm sure it is something stupidly simple, I just haven't figured it out yet.</p>
+    <p>Thanks for your article though!</p>

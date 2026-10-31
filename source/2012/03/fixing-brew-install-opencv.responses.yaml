@@ -1,0 +1,15 @@
+comments:
+- id: 787
+  author: "Eric"
+  url: "http://bedd.us"
+  date: '2012-03-31T12:45:45-08:00'
+  content: |-
+    <p>Thank you! This stupid little change:</p>
+    <p>$ sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer</p>
+    <p>Helped me a lot!</p>
+- id: 788
+  author: "mediapathic"
+  url: "http://mediapathic.net"
+  date: '2012-04-01T09:41:42-08:00'
+  content: |-
+    <p>Bless you madam for these breadcrumbs, they have helped me immensely. My problem is not yet solved, but I think that last line is the hint I needed, downloading the CLT right now.</p>

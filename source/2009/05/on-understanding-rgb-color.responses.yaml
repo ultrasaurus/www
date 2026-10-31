@@ -1,0 +1,30 @@
+comments:
+- id: 519
+  author: "P T Withington"
+  url: "http://pt.withy.org"
+  date: '2009-05-29T06:32:15-08:00'
+  content: |-
+    <p>Here's an interesting question to ask kids (who hopefully have no preconceived notions):  How would you sort colors?  Give them a bunch of colors and ask them to put them 'in order'.  Next time, throw in some colors that vary in intensity or brightness and ask the same question.</p>
+    <p>Obviously, there is no right answer.  But it might be amusing to look at the rgb values of the colors after they are sorted to see if there is a pattern, and then to talk about other ways of describing color...</p>
+- id: 520
+  author: "Paul Lundahl"
+  url: "http://www.mightyverse.com"
+  date: '2009-05-29T07:12:39-08:00'
+  content: |-
+    <p>Sarah,</p>
+    <p>Wonderful idea, well executed. I believe that it's these kind of simple experiments that can spark curiosity for life in young people. Here is the link to order the filter packs on line:<br>
+    <a href="http://www.rosco.com/sbreqs/index.cfm" rel="nofollow ugc">http://www.rosco.com/sbreqs/index.cfm</a><br>
+    I think that the Roscolux version is probably best. <br>
+    Or people can visit JCX in San Francisco and ask Janet for a pack!<br>
+    <a href="http://www.jcxex.com/" rel="nofollow ugc">http://www.jcxex.com/</a></p>
+- id: 521
+  author: "Devyn"
+  url: "http://devyn.tumblr.com/"
+  date: '2009-10-05T18:47:44-08:00'
+  content: |-
+    <p>We (the kids) aren't the future. We are the present.</p>
+linked_from:
+- id: 518
+  title: "teaching kids to code: lesson #2"
+  url: "/2009/05/teaching-kids-to-code-lesson-2/"
+  date: '2009-05-29T06:24:49-08:00'

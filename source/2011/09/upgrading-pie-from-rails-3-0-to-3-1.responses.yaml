@@ -1,0 +1,7 @@
+comments:
+- id: 763
+  author: "Sven Dahlstrand"
+  url: "http://sven.im"
+  date: '2011-09-13T20:23:35-08:00'
+  content: |-
+    <p>Thanks! Is this approach prefeed over rake rails:update? I usually run that command and then git diff to see what's changed.</p>

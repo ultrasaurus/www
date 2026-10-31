@@ -1,0 +1,37 @@
+comments:
+- id: 46
+  author: "Pete Miller"
+  url: "http://www.natol.co.uk"
+  date: '2003-07-29T14:38:35-08:00'
+  content: |-
+    <p>I want them on the left!  I have a tablet PC, so I hold the screen like a pad of paper  - since I'm left handed I can't read and scroll at the same time.  I have to reach over to drag the scroll bars, blocking the main area of the page with my arm!</p>
+- id: 47
+  author: "Omer"
+  url: "http://www.ice.org"
+  date: '2003-08-05T06:57:02-08:00'
+  content: |-
+    <p>In the Windows 98 Localized version in Hebrew, all of the operating system was mirrored. This was unnatural and Microsoft quickly backtracked in their future versions.<br>
+    I could suggest a special mode for left-handed persons, with the mouse buttons inverted and all of the scroll bars too, but that would cause massive inconsistencies, IMO.</p>
+- id: 48
+  author: "Steve"
+  date: '2003-08-05T21:57:55-08:00'
+  content: |-
+    <p>I think it should be an option / i.e. default scrollbars on the left or the right as a browser setting. As a right hander, I would feel like my wires were crossed if the scrollbar was on the left. I imagine many left handers feel the same way..</p>
+- id: 49
+  author: "Altarion"
+  url: "http://www.altarion.com/index.html"
+  date: '2004-03-19T14:42:26-08:00'
+  content: |-
+    <p>Personally I don't care where scrollbars are :))<br>
+    But it might be more comfortable for right-handed people to have them on the right.</p>
+- id: 50
+  author: "mark"
+  url: "http://sili.adnu.edu.ph/~mark"
+  date: '2004-05-03T20:25:35-08:00'
+  content: |-
+    <p>I think it really should be a browser option... like what we can do in a mouse, we can make it left- or right-handed-friendly...</p>
+- id: 51
+  author: "jon"
+  date: '2006-04-22T20:11:42-08:00'
+  content: |-
+    <p>The Gecko-tip extension for firebox works well enough for web browsing.</p>

@@ -1,0 +1,91 @@
+comments:
+- id: 621
+  author: "Austin Putman"
+  date: '2009-09-13T15:48:04-08:00'
+  content: |-
+    <p>Don't know if its a bug per se.  It's odd as the database is doing validation in addition to the validations done by the model.  I would say that if the 40 character limit is important, you could put an ActiveRecord validation in to prevent this situation.  Then you will get the same error across all databases.</p>
+    <p>It surprises me that the controller logic doesn't handle this case.  Usually the database update is tested as a conditional:</p>
+    <p>if @person.save<br>
+       respond_to # happy path block<br>
+      ...<br>
+    else<br>
+      respond_to # error message logic block<br>
+      ....<br>
+    end</p>
+    <p>In your case, the save is throwing an error, like save!.  The AR::Postgres adapter could maybe rescue that error and return false, but how can it represent the nature of the error in a way that is accessible to the controller?</p>
+- id: 622
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2009-09-13T15:58:16-08:00'
+  content: |-
+    <p>Yeah, I consider it a bug in my code that there wasn't a validation on the model; however, I wanted to be sure if *any* code throws an exception that it is returned to the client as XML (because the client isn't built to expect HTML as a response to an XML API nor should it be).</p>
+    <p>Certainly the exception is not caught and perhaps it should be by ActiveRecord, which could then populate @person.errors with the message from the database adapter.</p>
+- id: 623
+  author: "Erik Ostrom"
+  url: "http://echographia.com/"
+  date: '2009-09-13T18:04:56-08:00'
+  content: |-
+    <p>It seems reasonable that exceptions should always be returned in the format the client requests, but I'm not sure I'd want Rails to enforce this. Since XML is sort of a meta-format, it's not enough to just have Rails return "something in XML"; it has to return something that conforms to the client's expectations about how exceptions are rendered in XML. That's application-specific.</p>
+    <p>(Or at least, uh, "specific-kind-of-XML-specific". Like, if you're using SOAP, that has its own exception protocol.)</p>
+    <p>Maybe when there's an unhandled exception Rails should just return an HTTP error code with no content? Unless the application sets up an exception handler?</p>
+- id: 624
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2009-09-13T18:27:23-08:00'
+  content: |-
+    <p>Good point.  I think empty content with a status code is a reasonable solution.</p>
+- id: 625
+  author: "Wolfram Arnold"
+  url: "http://www.rubyfocus.biz"
+  date: '2009-09-24T11:12:46-08:00'
+  content: |-
+    <p>I like Erik Ostrom's suggestion, but I would refine it to say that if the accept header calls for HTML Rails behaves as today, as many web sites rely on this Rails default to return an HTML error message.</p>
+    <p>Where Rails fails today is that is replies in HTML even if the accept header specifies something else (e.g. XML or JSON). In that case, the default behavior would probably be best to just return a status code and leave it to the application developer to add textual error messages.</p>
+- id: 626
+  author: "Josh Gum"
+  url: "http://applieddisorder.com"
+  date: '2009-11-25T11:48:36-08:00'
+  content: |-
+    <p>Try;</p>
+    <p>format.xml  { render :xml =&gt; {:message =&gt; "Internal Server Error #{exception.message}"}.to_xml(:root =&gt; "error"), :status =&gt; 500}</p>
+    <p>format.json { render :json =&gt; {:error =&gt; { :message =&gt;  "Internal Server Error #{exception.message}"}}, :status =&gt; 500</p>
+- id: 627
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2009-11-25T12:03:00-08:00'
+  content: |-
+    <p>Ok, maybe that's a little more rails-y, but I'm not sure that it is more readable than just plunking the wrapper xml node into a string and inserting the exception.message with string interpolation as we did.</p>
+- id: 628
+  author: "Josh Gum"
+  url: "http://applieddisorder.com"
+  date: '2009-11-25T12:09:43-08:00'
+  content: |-
+    <p>Sure.. What's strange is your respond block was rendering HTML..? I've got the same thing setup and mine return json and xml.</p>
+    <p>curl -H 'Accepts: text/xml' -i <a href="http://127.0.0.1:3000/offers/999.xml" rel="nofollow ugc">http://127.0.0.1:3000/offers/999.xml</a><br>
+    HTTP/1.1 422 <br>
+    Connection: close<br>
+    Date: Wed, 25 Nov 2009 20:04:35 GMT<br>
+    Content-Type: application/xml; charset=utf-8<br>
+    Cache-Control: no-cache<br>
+    Content-Length: 68</p>
+    <p>Internal Server Error Couldn't find Offer with ID=999</p>
+- id: 629
+  author: "Josh Gum"
+  url: "http://applieddisorder.com"
+  date: '2009-11-25T12:17:06-08:00'
+  content: |-
+    <p>Sorry, was actually :</p>
+    <p>HTTP/1.1 422 <br>
+    Connection: close<br>
+    Date: Wed, 25 Nov 2009 20:16:40 GMT<br>
+    Content-Type: application/xml; charset=utf-8<br>
+    Cache-Control: no-cache<br>
+    Content-Length: 141</p>
+    <p>record_not_found<br>
+      Couldn't find Offer with ID=999</p>
+- id: 630
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2009-11-26T11:32:52-08:00'
+  content: |-
+    <p>That's just a regular error I think, not thrown as an exception...</p>

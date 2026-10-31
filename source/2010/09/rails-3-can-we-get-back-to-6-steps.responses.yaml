@@ -1,0 +1,23 @@
+comments:
+- id: 702
+  author: "Ben"
+  url: "http://benscofield.com"
+  date: '2010-09-22T03:30:03-08:00'
+  content: |-
+    <p>Hmm. Wouldn't using a template solve this problem for you?</p>
+    <p>$ rails new myapp -m my_rspec_template<br>
+    $ cd myapp<br>
+    $ bundle install<br>
+    $ rails generate rspec:install<br>
+    $ rails generate scaffold note title:string content:text<br>
+    $ rake db:migrate<br>
+    $ rails server</p>
+    <p>It's not *quite* as useful for introductory courses as the old way, since there's the magical (to novices) template stuff in there, but it would let you focus more on the important stuff up front.</p>
+- id: 703
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2010-09-22T03:38:20-08:00'
+  content: |-
+    <p>This is what we do for the workshops:<br>
+      rails suggestotron -m <a href="http://gist.github.com/316450.txt" rel="nofollow ugc">http://gist.github.com/316450.txt</a></p>
+    <p>That's ok for a one day class, but I wouldn't want to rely on a template for longer class.  For my personal use, templates are fine, but I find that I'm updating gems and rails versions and switching between projects often enough that it isn't worth it to me to maintain a set of templates.  I did think about whether there should be a short URL services for templates, but then I thought... why not just make it even simpler and still have a command that corresponds to each cognitive steps.  The biggest problem with a template is that it hides what is inside it.  With the "rails gem" idea it is kind of self-documenting.</p>

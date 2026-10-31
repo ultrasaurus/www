@@ -1,0 +1,51 @@
+comments:
+- id: 790
+  author: "EvanZ"
+  date: '2012-05-14T16:10:28-08:00'
+  content: |-
+    <p>Just wanted to say I appreciate your tutorial. Hopefully somebody writes a d3 book soon.</p>
+- id: 791
+  author: "Nischay"
+  date: '2012-07-06T21:18:59-08:00'
+  content: |-
+    <p>Awesome ones, would be amazing if you could now explain complex ones :)</p>
+- id: 793
+  author: "Marc Baiges"
+  date: '2012-08-06T13:39:47-08:00'
+  content: |-
+    <p>About your question regarding nested arrays as result of selections, there is a note on <a href="https://github.com/mbostock/d3/wiki/Selections" rel="nofollow ugc">https://github.com/mbostock/d3/wiki/Selections</a> :</p>
+    <p>Operating on Selections</p>
+    <p>Selections are arrays of elements—literally. D3 binds additional methods to the array so that you can apply operators to the selected elements, such as setting an attribute on all the selected elements. One nuance is that selections are grouped: rather than a one-dimensional array, each selection is an array of arrays of elements. This preserves the hierarchical structure of subselections. Most of the time, you can ignore this detail, but that's why a single-element selection looks like [[node]] rather than [node]. For more on nested selections, see Nested Selections.</p>
+- id: 794
+  author: "RomaS"
+  date: '2012-08-08T05:17:57-08:00'
+  content: |-
+    <p>This are very useful tricks, thanks!</p>
+- id: 795
+  author: "Henrik"
+  url: "http://henrik.nyh.se"
+  date: '2012-12-09T07:15:47-08:00'
+  content: |-
+    <p>Great intro. Thanks!</p>
+- id: 796
+  author: "Denny Lim"
+  url: "http://iamdenny.com"
+  date: '2013-01-23T18:14:53-08:00'
+  content: |-
+    <p>I love this experiments.<br>
+    Gracias.</p>
+- id: 797
+  author: "Tapan"
+  date: '2013-04-19T11:57:56-08:00'
+  content: |-
+    <p>Best way to dig into D3, it's awesome :)</p>
+- id: 798
+  author: "Bill"
+  date: '2013-06-24T06:38:39-08:00'
+  content: |-
+    <p>Finally! A way to get into the guts of d3 and play without constantly refreshing a page and the browser. Thanks!</p>
+- id: 1297
+  author: "Santosh Marigowda"
+  date: '2013-09-25T05:57:53-08:00'
+  content: |-
+    <p>Thank you. Its awesome.</p>

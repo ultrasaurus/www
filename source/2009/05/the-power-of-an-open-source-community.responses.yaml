@@ -1,0 +1,26 @@
+comments:
+- id: 489
+  author: "Vinsol"
+  url: "http://www.twitter.com/the_vinsol"
+  date: '2009-05-04T05:37:38-08:00'
+  content: |-
+    <p>Rails Bridge is a great initiative. Making ruby , rails accessible for a lot of people is a great idea.  Let me discuss the project with my team and see how we can contribute with the community.</p>
+    <p>Thanks,<br>
+    Kapil Bhatia<br>
+    New Delhi, India</p>
+- id: 491
+  author: "keltor"
+  date: '2009-05-20T06:30:42-08:00'
+  content: |-
+    <p>Your link under the rather LARGE logo is missing a d - just reads railsbrige.org.  Otherwise it sounds great.</p>
+- id: 492
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2009-05-20T19:49:08-08:00'
+  content: |-
+    <p>fixed the link -- thanks keltor!</p>
+linked_from:
+- id: 490
+  title: "links for 2009-05-05 « Amy G. Dala"
+  url: "http://amygdala.wordpress.com/2009/05/06/links-for-2009-05-05/"
+  date: '2009-05-05T06:03:14-08:00'

@@ -1,0 +1,14 @@
+comments:
+- id: 5199
+  author: "Sef Kloninger"
+  url: "https://plus.google.com/+SefKloninger"
+  date: '2015-07-29T15:59:52-07:00'
+  content: |-
+    <p>Nice pics and writeup, Sarah, thanks.</p>
+    <p>It sounds like you'd prefer the stickies and white boards if not for the needs of remote team members -- either permanent or only temporarily at 35,000 feet. Maybe I should consider trying that again.</p>
+    <p>I have to say it's hard to imagine executives doing a casual walkthrough discussion with a team in front of a waffle.io or Jira project board, but that seems possible and much less scary in front of a wall full of post-its. I wonder why?</p>
+- id: 5200
+  author: "sarah"
+  date: '2015-07-29T21:46:32-07:00'
+  content: |-
+    <p>Yes, there's something that is less accessible about trello or waffle -- too much reading, not enough visual variety and no ability to add free form arrows or annotations to draw attention to things.  With the Redgate whiteboards almost every one had additional project information in the same space.  I actually had a thought about putting waffle in an iframe and adding space for quotes or metrics, though our screens are still quite small relative to the size of a whiteboard.</p>

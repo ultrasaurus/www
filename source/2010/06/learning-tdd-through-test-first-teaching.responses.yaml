@@ -1,0 +1,31 @@
+comments:
+- id: 693
+  author: "iain"
+  url: "http://iain.nl"
+  date: '2010-06-15T10:56:42-08:00'
+  content: |-
+    <p>Great presentation! Loved it!</p>
+    <p>Nice to see that you're also too lazy (or whatever) to buy SizeUp. Me too :)</p>
+  replies:
+  - id: 694
+    author: "Sarah"
+    url: "https://www.ultrasaurus.com"
+    date: '2010-06-15T15:37:48-08:00'
+    content: |-
+      <p>Actually, I've bought SizeUp, but it wasn't at all obvious where to put the license key and I'm too lazy to read up on where to configure it.  It's a great utility -- you should pay for it!</p>
+- id: 695
+  author: "alexis"
+  url: "http://www.livetotry.com"
+  date: '2010-06-20T16:51:52-08:00'
+  content: |-
+    <p>I really loved this talk.  I am in the process of writing my first iPad application, and I want to do it cleanly (via OCUnit), so this was a great refresher on the reasons to practice TDD.</p>
+    <p>I was wondering if you had images of the two diagrams of TDD vs traditional development in terms of productivity over time and cost per feature?</p>
+- id: 696
+  author: "Brandon Carlson"
+  url: "http://blog.bcarlso.net"
+  date: '2010-08-02T20:33:29-08:00'
+  content: |-
+    <p>Good presentation. I really like your comments about how the tests really require students to read the error messages. Good stuff. When I teach TDD (to entry level Java students), I take a different approach as I found that even the tests themselves were too confusing for students when handed to them. I wrote about my methods and experiences here if you're interested. I'd love your feedback on it.</p>
+    <p><a href="http://tinyurl.com/ieeeteachingtdd" rel="nofollow ugc">http://tinyurl.com/ieeeteachingtdd</a> (It's actually an IEEE publication)</p>
+    <p>Keep up the good work!<br>
+    Brandon</p>

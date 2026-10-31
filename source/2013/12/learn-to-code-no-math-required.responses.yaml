@@ -1,0 +1,12 @@
+comments:
+- id: 1563
+  author: "Sally"
+  date: '2013-12-11T04:39:09-08:00'
+  content: |-
+    <p>Itotally agree.  Having studied and worked in computing for 30 years I have come to the conclusion that to require math for computer programming is "conventional wisdom" that is unchallenged and unconfirmed.  Back in the early days of computing in education computers were used solely by scientific University departments and I believe it is these people who paralleled the formal language of mathematics with programming - electrical circuits needed maths some early languages such as ALGOL, FORTRAN were created.  Thank goodness for Grace Hopper's efforts to create COBOL as something readable.  In order to start to program you need to be able to break down a problem into component parts and analyse each part to describe it.  This parallels the ability to write a good structured essay about a subject in any human language.  It is not just a mathematical skill.  Out in the real world, 90% of computing is not mathematical, is is database related.  We also need skills in design and human-computer interaction especially in e-commerce where so many shoppers are women.</p>
+- id: 1564
+  author: "Mitch"
+  url: "http://thehumanitarianspace.com"
+  date: '2013-12-13T12:46:30-08:00'
+  content: |-
+    <p>I agree with you that math does not need to be a starting point for programming.  Yet the process of learning to code is often so entrenched in math as the examples and materials are also frequently math driven.  I dove in to the language Processing in an attempt to learn coding in a different manner, but was never quite thrilled with the outcomes.  I really wish there were more materials to learn/teach coding from a different perspective.  If you know any it would be great to share.</p>

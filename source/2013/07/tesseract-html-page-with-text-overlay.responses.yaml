@@ -1,0 +1,24 @@
+comments:
+- id: 984
+  author: "Matt Christy"
+  url: "http://emop.tamu.edu"
+  date: '2013-07-14T10:27:24-08:00'
+  content: |-
+    <p>Very nice tool. Great idea. Definitely going to try it out. Thanks.</p>
+- id: 985
+  author: "Antoine"
+  url: "http://www.worserer.com"
+  date: '2013-07-14T23:07:18-08:00'
+  content: |-
+    <p>Most useful. I had to make two slight changes:<br>
+    -the class for OCR words was named ocr_word, not ocrx_word, on my version of Tesseract for Ubuntu 12.04.<br>
+    -I had to add to the generated CSS for each word the fragment "position: absolute;". I didn't have as much bandwidth as you did, adding a CSS style to set it globally in head. I might try that.</p>
+    <p>I used opacity on the image to get the words to show more clearly. Setting it to 0.4 was the right setting.</p>
+- id: 986
+  author: "Matt Christy"
+  url: "http://emop.tamu.edu"
+  date: '2013-07-15T08:06:43-08:00'
+  content: |-
+    <p>If you made this into pop-ups for each word instead of an overlay, it could be useful for some difficult to read fonts like black letter. Of course, that assumes we can get good OCR results for black letter -- eMOP is working on that.</p>
+    <p>I could imagine some DH projects that might find this a useful way to show page images and have transcriptions available in a convenient way on the same page. Proyecto Cervantes is one. Maybe if done by line or paragraph instead of by word.</p>
+    <p>Just thinking out loud.</p>

@@ -1,0 +1,58 @@
+comments:
+- id: 52
+  author: "Viswanath Gondi"
+  url: "http://blogs.law.harvard.edu/vgondi"
+  date: '2003-07-27T21:32:19-08:00'
+  content: |-
+    <p>Fun with metaphors:<br>
+    Another metaphor for the desktop apps. The desktop apps are similar to a workshop. We have tools in the workshop. We work with them to produce an object. The object on the desktop is the file we save. It takes time to learn the skill of using the tools in the workshop. Similarly we learn desktop apps and put them on our resume.</p>
+    <p>Searching for a new metaphor for the new interfaces? Playing a game, Shopping, Learning, etc. Lots of different types of metaphors can be listed.</p>
+    <p>Amazon uses the learning UI to make people shop. Learning involves asking questions and finding out answers. Amazon asks simple questions about their products and gives people a dime for answering it.</p>
+    <p>Thw classic typing tutor game uses the game metaphor to teach typing. Letters fall from the top and the player tries to type as fast as possibe to win.</p>
+    <p>I don't know of any game which uses the shopping metaphor, but maybe the next sims game will be to shop for the best product by sifiting through lots of object properties.</p>
+    <p>Enough fun for today :)</p>
+- id: 53
+  author: "Terris Linenbach"
+  url: "http://terris.com"
+  date: '2003-08-07T21:16:05-08:00'
+  content: |-
+    <p>Hm.  A "web site" is a "site", in other words, a "place".  Is a "web site" an application like word.exe?  Is Word a place?  It certainly seems like a labyrinth, and that's why I think a lot of web and traditional GUI designers have a distaste apps like Word.</p>
+    <p>Too much complexity.  Even Larry Ellison said so.</p>
+    <p>But we live in transitional times.  There are traditional CNN-like static sites and there are semi-dynamic sites like blogs.  Then there are sites which look a lot like desktop apps.  I work at an email marketing company (some call it "spamming", which in most cases is not entirely accurate but anyway...) which allows marketing materials to be developed via the web, including the html content.</p>
+    <p>The back-and-forth nature of form-based web apps is extremely painful for complex tasks.  It's interesting how most web designers and implementers turn a complex task into a multi-stage workflow-like process with lots of little transactions all maintained on the server, and (usually) all persistent.  We're all familiar with losing our work when word.exe crashes.  This just doesn't happen on the web, typically.</p>
+    <p>This fascet of web-based applications is more the result of the limitations of standard web browser capabilities than intentional design.  For example, you tend to see traditional long-lasting transactions with Java applets (not many sites actually employ applets for several reasons, the main one being the lack of decent Java support in IE, but there are others -- complexity, clunkyness, and slow downloads), because applets have comparable functionality of traditional desktop applications.</p>
+    <p>Do complex tasks require a complex interface?</p>
+    <p>Is the workflow mini-transaction metaphor preferable to a canvas-style metahor?</p>
+    <p>The workflow metaphor actually appeared on the desktop as "wizards" well before web browsers were mainstream.  Wizards are for beginners.  Because the web is still relatively new, most users are beginners and need a wizard-like interface.  Most web applications still don't address the power user.</p>
+    <p>And we're all quite aware that most desktop apps are made for power users first and begineers second.</p>
+    <p>However, I think that complex tasks could benefit from "complex" interfaces which are sufficiently crafted for the task at hand.  For example, I think FrontPage, if you've used it, is a heck of a lot better than the crapola edit box that your blogging software provides.  I think that FrontPage is intuitive for the most part, especially in Office 2003.</p>
+    <p>But anyway, it seems to me that some web sites are becoming like desktop apps with toolbars and menus, and some desktop apps are becoming like web sites, with hypertext links, animated gifs, and wizards.  So in that sense we are living in transitional times.</p>
+    <p>I don't think Flash is the answer, but I do think that its competition, SVG, will have an impact in two areas:</p>
+    <p>1. Advertising<br>
+    2. Complex tasks involving creativity</p>
+    <p>But SVG is not for the masses.  Simple requirements like a home page, a catalog, and a shopping cart are well served by HTML.</p>
+    <p>More complex tasks like constructing a flowchart require a coarse-grained usage model.  By coarse grained, I mean that the web application sucks down a large XML document, uses a complex GUI to manipulate it, and posts the XML document back to the server.  The get and commit transactions occur via web services.  But newbies need wizards for even these types of tasks.</p>
+    <p>Thanks for the interesting content.</p>
+- id: 54
+  author: "Not too shabby"
+  url: "http://www.search.com/search/survivor_8_all_stars.html"
+  date: '2004-04-21T19:27:42-08:00'
+  content: |-
+    <p>Well described<br>
+    and quite serious without getting overindulgent like some others I have come<br>
+    across, but I am still a little bit confused but that is ok, as I was very<br>
+    entertained and that means a lot to me. Thanks so very much for the inspiration.<br>
+    I can only hope I take away 5% of the creativity I have seen and can apply<br>
+    it to my own blog. I like you to see my <strong><a href="http://www.rojisan.com/dance/" rel="nofollow ugc">favorite dance<br>
+    blog</a></strong> which I am trying to match in terms of design and esthetics.<br>
+    It is so good that will be difficult but mine does come loaded with many <a href="http://www.search.com/search?q=jennifer+love+hewitt+free+pictures" rel="nofollow ugc">pictures<br>
+    of dance people</a>. Maybe I do good too? I am big on dance and hope you<br>
+    appreciate as much as I do. If you can please comment and make suggestions<br>
+    how to improve.<br>
+    I will do the same to you. Much success and admiration to all lovely internet<br>
+    citizens.</p>
+linked_from:
+- id: 1467
+  title: "#2: Blogging is a Technical Skill | The Tectonic Podcast"
+  url: "http://tectonicpodcast.com/2013/11/29/2-blogging-is-a-technical-skill/"
+  date: '2013-11-29T18:44:37-08:00'

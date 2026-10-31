@@ -1,0 +1,22 @@
+comments:
+- id: 170
+  author: "Kiyooka-san"
+  url: "http://www.digigami.com/eurekagram/"
+  date: '2004-05-23T21:15:36-08:00'
+  content: |-
+    <p>I read about Laszlo in Marc Canter's blog, and then eventually found your blog - it might be in his blogroll.</p>
+    <p>Anyway, isn't Laszlo just a scripting language with resources that have been serialized into an XML stream?</p>
+    <p>In that way it's not much different than a VisualBasic or Java application except it is running in the Flash sandbox.</p>
+    <p>Clearly the widespread runtime of Flash is advantageous.  But the part about XML, what do we gain from that?</p>
+    <p>Am I missing something?  I wanted to give it a spin, but it seems like the developer package is about $7k.</p>
+- id: 171
+  author: "Kevin"
+  date: '2004-06-16T21:29:47-08:00'
+  content: |-
+    <p>Take a look at XUL (XML User Interface Language).  XUL has been around a long time and some very successful applications have been written with it.  Oh, it's free.  www.xulplanet.org is my favorite xul reference.</p>
+- id: 172
+  author: "Elliot"
+  date: '2005-03-29T09:01:00-08:00'
+  content: |-
+    <p>Kiyooka-san - Laszlo is a free, open-source project.     LZX, Laszlo's language, is a XML with ECMAScript scripting.  The XML for declarative programming of objects, animations, stateful behaviors &amp; the ECMAScript (or JavaScript) for more fine-grained control of the app's behavior.</p>
+    <p>You can download a copy of the lps for free at &lt;a <a href="http://www.laszlosystems.com/developers/" rel="nofollow ugc">http://www.laszlosystems.com/developers/</a></p>

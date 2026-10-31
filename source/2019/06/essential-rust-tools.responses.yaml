@@ -1,0 +1,8 @@
+comments:
+- id: 13007
+  author: "Simon"
+  url: "https://apromixately.github.io"
+  date: '2019-06-05T01:56:03-07:00'
+  content: |-
+    <p>My dread of JavaScript build tooling is way worse than yours. I don't even want to install the abomination that is node. ;)</p>
+    <p>It turns out you can still get <a href="https://apromixately.github.io/" rel="nofollow ugc">Rust &amp; Webassembly</a> up and running pretty easily. It took me a while to figure out but if you're interested the <a href="https://github.com/Apromixately/rustwasm" rel="nofollow ugc">result</a> is pretty short.</p>

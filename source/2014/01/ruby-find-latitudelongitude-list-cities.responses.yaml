@@ -1,0 +1,25 @@
+comments:
+- id: 4823
+  author: "Dan"
+  date: '2014-01-20T06:16:15-08:00'
+  content: |-
+    <p>Another thing to be aware of with the Google API: to comply with their TOS, you can't store geocodes locally (except to cache them for a bit) and the points must be displayed on a free, publicly accessible Google map.</p>
+    <p>Not a big deal for a small side project, but something to be aware of for any professional work.</p>
+    <p>(This info is based on my last reading of the maps API TOS a few years ago, so things may have changed.)</p>
+- id: 4824
+  author: "sarah"
+  date: '2014-01-20T06:57:12-08:00'
+  content: |-
+    <p>Thanks for the note about API. True that I'm doing open source work so the free terms are not an issue; however, you prompted me to re-read the terms of service, I hadn't remembered that the Google API data MUST be also used with a Google Map.  Yet another caution for anyone using this methodology.  Relevant sections below.</p>
+    <p>9.1.1</p>
+    <p>(a) Free Access (No Fees). Your Maps API Implementation must be generally accessible to users without charge and must not require a fee-based subscription or other fee-based restricted access. This rule applies to Your Content and any other content in your Maps API Implementation, whether Your Content or the other content is in existence now or is added later.</p>
+    <p>(b) Public Access (No Firewall). Your Maps API implementation must not operate (i) only behind a firewall; or (ii) only on an internal network (except during the development and testing phase); or (iii) in a closed community (for example, through invitation-only access).</p>
+    <p>10.1.1</p>
+    <p>(g) No Use of Content without a Google Map. You must not use or display the Content without a corresponding Google map, unless you are explicitly permitted to do so in the Maps APIs Documentation, or through written permission from Google. In any event, you must not use or display the Content on or in conjunction with a non-Google map. For example, you must not use geocodes obtained through the Service in conjunction with a non-Google map. As another example, you must not display Street View imagery alongside a non-Google map, but you may display Street View imagery without a corresponding Google map because the Maps APIs Documentation explicitly permits you to do so.</p>
+    <p>10.1.3</p>
+    <p>(b) No Pre-Fetching, Caching, or Storage of Content. You must not pre-fetch, cache, or store any Content, except that you may store: (i) limited amounts of Content for the purpose of improving the performance of your Maps API Implementation if you do so temporarily (and in no event for more than 30 calendar days), securely, and in a manner that does not permit use of the Content outside of the Service; and (ii) any content identifier or key that the Maps APIs Documentation specifically permits you to store. For example, you must not use the Content to create an independent database of "places" or other local listings information.</p>
+- id: 4874
+  author: "sarah"
+  date: '2014-02-21T02:52:45-08:00'
+  content: |-
+    <p>If you need something without restrictions, you can use this gem with datasciencetoolkit (:dstk) and run the above code.</p>

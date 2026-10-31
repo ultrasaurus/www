@@ -1,0 +1,52 @@
+comments:
+- id: 653
+  author: "Matthew Lang"
+  url: "http://matthewlang.co.uk"
+  date: '2010-01-27T00:23:56-08:00'
+  content: |-
+    <p>Great list Sarah! It's been a while since I've seen an article on security in Rails. Most previous articles tend to focus on SQL injection and scripting attacks. Good to see other aspects of security in Rails being covered as well.</p>
+- id: 654
+  author: "Scott Bronson"
+  date: '2010-01-27T00:46:26-08:00'
+  content: |-
+    <p>Might want to mention mass assignment issues.  <a href="http://railspikes.com/2008/9/22/is-your-rails-application-safe-from-mass-assignment" rel="nofollow ugc">http://railspikes.com/2008/9/22/is-your-rails-application-safe-from-mass-assignment</a>  This one is still found in popular Rails apps.</p>
+    <p>It's so easy to fix too: you must use attr_accessible on any model that gets mass-assigned from user-supplied parameters (i.e. @order.update_attributes(params[:order])).</p>
+- id: 655
+  author: "Mike Gunderloy"
+  url: "http://afreshcup.com"
+  date: '2010-01-27T03:28:21-08:00'
+  content: |-
+    <p>On the SQL injection front, you'll also want to search "conditions" - named scopes, for example, can be vulnerable without having find/first/all in sight.</p>
+    <p>Another thing to look at is the version of Rails, to make sure that it's current (or that appropriate patches have been applied). <a href="http://groups.google.com/group/rubyonrails-security" rel="nofollow ugc">http://groups.google.com/group/rubyonrails-security</a> is the fastest way to get an overview of recent security patches.</p>
+    <p>For XSS, it's worth considering installing <a href="http://github.com/nzkoz/rails_xss" rel="nofollow ugc">http://github.com/nzkoz/rails_xss</a> which switches escaping from a "doesn't happen unless you ask for it" to an "always happens unless you override it" action. This may require application rewrites, but it gives you a safe default.</p>
+    <p>You need to check all models for appropriate use of attr_accessible/attr_protected to make sure you're not vulnerable to mass assignment bugs. I've particularly seen places where this can be used for escalation of privilege in applications I've reviewed.</p>
+    <p>It's also worth reviewing the deployment stack, from the operating system through the ruby version to the web server software, to make sure it's being kept up to date.</p>
+- id: 656
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2010-01-27T05:09:49-08:00'
+  content: |-
+    <p>Hi Scott,</p>
+    <p>I had forgotten to add that mass assignment the list (now added as 1A -- good catch!).   I haven't tried it yet, but it seems like the ideal solution to just disable ActiveRecord's powers of mass assignment.</p>
+    <p>Here's the initializer recommended by Eric Chapweske: <br>
+    <pre>
+    config/initializers/disable_mass_assignment.rb
+         ActiveRecord::Base.send(:attr_accessible, nil)
+    </pre></p>
+    <p>Thanks!<br>
+    Sarah</p>
+- id: 657
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2010-01-27T05:59:11-08:00'
+  content: |-
+    <p>Updated post with (0) on checking Rails and gem versions, also 1Aii for the named_scope conditions.  Thanks Mike!</p>
+linked_from:
+- id: 658
+  title: "Caffeine Driven Development » Blog Archive » L33t Links #74"
+  url: "http://caffeinedd.com/l33t-links/390-l33t-links-74"
+  date: '2010-01-29T10:27:05-08:00'
+- id: 659
+  title: "Interesting developments a link dump (some HTML5, some nosql, some Rails, some Agile, some Redis, a touch of Scala, etc., etc.) « turnings"
+  url: "http://turnings.phrasewise.com/2010/02/09/interesting-developments-a-link-dump-some-html5-some-nosql-some-rails-some-agile-some-redis-a-touch-of-scala-etc-etc/"
+  date: '2010-02-09T04:58:01-08:00'

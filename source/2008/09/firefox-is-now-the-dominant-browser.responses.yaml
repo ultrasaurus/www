@@ -1,0 +1,14 @@
+comments:
+- id: 319
+  author: "Tony"
+  url: "http://ww.adsouza.net"
+  date: '2008-10-09T17:14:16-08:00'
+  content: |-
+    <p>The flaw in your argument is that the data for your marketshare stats is based only on w3schools, which suffers from a selection bias because it is not reflective of the average Web user.<br>
+    .</p>
+- id: 320
+  author: "Sarah"
+  date: '2008-10-12T11:36:21-08:00'
+  content: |-
+    <p>Thanks for pointing that out, Tony. Digging into the stats more, I found two other sources that show Firefox at less than 20% and IE7 at over 35%:<br>
+    <a href="http://marketshare.hitslink.com/report.aspx?qprid=2" rel="nofollow ugc">http://marketshare.hitslink.com/report.aspx?qprid=2</a> and <a href="http://www.thecounter.com/stats/2008/October/browser.php" rel="nofollow ugc">http://www.thecounter.com/stats/2008/October/browser.php</a>  In these other surveys Firefox is gaining ground over IE, but it'll be a while before Firefox is the dominant browser.  Sigh.</p>

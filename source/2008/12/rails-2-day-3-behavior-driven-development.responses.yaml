@@ -1,0 +1,91 @@
+comments:
+- id: 339
+  author: "Sarah Allen's Weblog"
+  url: "https://www.ultrasaurus.com/sarahblog/archives/000548.html"
+  date: '2008-12-27T07:35:37-08:00'
+  content: |-
+    <p><strong>situated learning through open source</strong></p>
+    <p>I just read Situated Learning: Legitimate Peripheral Participation by Jean Lave and Etienne Wenger, which I put on my wish list since I am a total geek about theories of how people learn, particularly with regard to social learning. It's a challenging ...</p>
+- id: 340
+  author: "Joe Darling"
+  url: "http://none"
+  date: '2009-02-03T11:24:41-08:00'
+  content: |-
+    <p>Great tutorial. I have been really struggling to find this type of step by step guide that is both up to date and covers BDD.  Thanks very much.</p>
+    <p>Two minor things:  When I did the rake db:migrate only the development database was migrated and the tests are run on production by default.  Once I changed RAILS_ENV and ran the migration again all worked.</p>
+    <p>Second: I think the webrat dependency problem has been sorted out.  I just used the gem install version and the example worked OK.</p>
+- id: 341
+  author: "Ted Roche"
+  url: "http://www.tedroche.com"
+  date: '2009-02-06T13:07:46-08:00'
+  content: |-
+    <p>Great tutorial. However, webrat has gotten ahead of you, I think. With webrat 1.12, it generated a</p>
+    <p>#When /^I go to (.+)$/ do |page_name|<br>
+    #  visit path_to(page_name)<br>
+    #end</p>
+    <p>which I just commented out to finish the tutorial. Properly, I suspect I should have worked out path_to, but I was focused on making the tutorial work...</p>
+- id: 342
+  author: "Hoornet"
+  url: "http://www.linkedin.com/in/hoornet"
+  date: '2009-02-22T07:37:04-08:00'
+  content: |-
+    <p>Hello! I have another problem on winXP. After running rake featurer in your "Describe a Feature" chapter, this is what I got. It's OK, but there are no letters 'a' !!!!!<br>
+    Any ideas?</p>
+    <p>Code begin:</p>
+    <p>E:SOURCERAILSrails-2-day-3-behavior-driven-developmenttodolist&gt;rake features</p>
+    <p>(in E:/SOURCE/RAILS/rails-2-day-3-behavior-driven-development/todolist)<br>
+    ´??  # fetures/tsklist.feture<br>
+    Feture: Tsks<br>
+    In order to keep trck of tsks<br>
+    People should be ble to<br>
+    Crete  list of tsks<br>
+      Scenrio: List Tsks                         # fetures/tsklist.feture:7<br>
+        Given tht I hve creted  tsk "tsk 1"  # fetures/tsklist.feture:8<br>
+        When I go to the tsks pge                # fetures/step_definitions/webrt_st<br>
+    eps.rb:6<br>
+        Then I should see "tsk 1"                 # fetures/step_definitions/webrt_s<br>
+    teps.rb:89</p>
+    <p>1 scenrio<br>
+    2 steps skipped<br>
+    1 step pending (1 with no step definition)</p>
+    <p>You cn use these snippets to implement pending steps which hve no step definitio<br>
+    n:</p>
+    <p>Given /^tht I hve creted  tsk "tsk 1"$/ do<br>
+    end</p>
+    <p>E:SOURCERAILSrails-2-day-3-behavior-driven-developmenttodolist&gt;</p>
+- id: 343
+  author: "shane smith"
+  date: '2009-02-22T13:57:30-08:00'
+  content: |-
+    <p>Thank you for this tutorial.<br>
+    Webrat now has a "When I go to(.+)$/" step.<br>
+    If you put the path webrat should visit in features/support/paths.rb, then webrat should be able to folow the "When I go to the tasks page" directive.</p>
+- id: 344
+  author: "Matthew Platte"
+  date: '2009-02-22T20:40:49-08:00'
+  content: |-
+    <p>The missing "a" on Windows is a known bug (I'm too lazy to provide a url).</p>
+- id: 345
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2009-02-23T07:49:12-08:00'
+  content: |-
+    <p>To resolve the missing 'a' issue, see:  <a href="http://wiki.github.com/aslakhellesoy/cucumber/troubleshooting" rel="nofollow ugc">http://wiki.github.com/aslakhellesoy/cucumber/troubleshooting</a></p>
+- id: 348
+  author: "cyprian"
+  date: '2011-10-03T19:08:44-08:00'
+  content: |-
+    <p>Sarah, thanks so much for sharing your efforts.  One question I have is this:<br>
+    Do you have to use the ruby-rails framework to get webrat to work?  Can you just use garden-variety ruby?  It seems from all the sites I have visited, and the Rspec/Cucumber book I'm using that webrat is tightly coupled to Ruby-rails.</p>
+    <p>Any insights you could share would be most appreciated.</p>
+- id: 349
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2011-10-03T19:41:59-08:00'
+  content: |-
+    <p>I believe webrat is designed to work with rack apps, so it would work with Sinatra, but not PHP.  If you want to work with a non-Ruby webapp, look at Capybara using the Mechanize driver.  I wrote a short blog post about that here:  <a href="https://www.ultrasaurus.com/sarahblog/2011/02/legacy-testing-with-capybaramechanize/" rel="nofollow ugc">https://www.ultrasaurus.com/sarahblog/2011/02/legacy-testing-with-capybaramechanize/</a></p>
+linked_from:
+- id: 346
+  title: "Cucumber quicksetup at Pablo Cantero"
+  url: "http://pablocantero.com/blog/2010/07/22/cucumber-quicksetup/"
+  date: '2010-10-22T18:06:24-08:00'

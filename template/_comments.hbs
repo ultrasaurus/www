@@ -1,0 +1,19 @@
+{{!-- from the post's data file <slug>.responses.yaml (import_comments.py) --}}
+{{#if responses.comments}}
+<section class="comments">
+    <h2>Comments</h2>
+    {{#each responses.comments}}
+    {{> _comment}}
+    {{/each}}
+</section>
+{{/if}}
+{{#if responses.linked_from}}
+<section class="linked-from">
+    <h2>Linked from</h2>
+    <ul>
+        {{#each responses.linked_from}}
+        <li><a href="{{url}}" rel="nofollow ugc">{{title}}</a> <span class="date">{{date_format date "%B %-d, %Y"}}</span></li>
+        {{/each}}
+    </ul>
+</section>
+{{/if}}

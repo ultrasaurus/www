@@ -1,0 +1,11 @@
+comments:
+- id: 777
+  author: "CB"
+  date: '2012-05-31T11:11:02-08:00'
+  content: |-
+    <p>Good post, it is refreshing to see that there are players in the software industry with that level of introspective.  Way to go.</p>
+linked_from:
+- id: 776
+  title: "a founder’s manifesto « turnings :: daniel berlinger"
+  url: "http://turnings.phrasewise.com/2011/12/14/a-founders-manifesto/"
+  date: '2011-12-14T15:20:01-08:00'

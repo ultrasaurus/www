@@ -1,0 +1,19 @@
+comments:
+- id: 578
+  author: "Jamie Flournoy"
+  url: "http://www.pervasivecode.com/"
+  date: '2009-07-28T14:44:05-08:00'
+  content: |-
+    <p>I consider myself an XP apprentice on the cusp of becoming a journeyman, definitely not an expert but not a n00b either. :)<br>
+    So here are my thoughts:</p>
+    <p>Question 1 (variable scheduling): If you estimate user story effort in terms of pair-half-days = 1 point, then you should be able to use that against the fluctuating schedule of the team to guesstimate how many points/week your velocity will be. If you actually can't predict when your team will work at all, then estimation seems to me to be impossible. In that case maybe you just decide that each iteration ends after 10 points or 2 weeks, whichever comes first.</p>
+    <p>Question 2: If possible the customer should be included in planning meetings so you can have that conversation in real time. You should also have a list of upcoming, roughly prioritized future stories so that you can look ahead and see whether your higher-effort design is going to save you time.</p>
+    <p>See also my blog post on "lazy YAGNI": <a href="http://www.pervasivecode.com/blog/2009/05/30/xp-experiences-part-2-of-5/" rel="nofollow ugc">http://www.pervasivecode.com/blog/2009/05/30/xp-experiences-part-2-of-5/</a></p>
+    <p>Question 3: I have found nothing at all about UI design in particular in XP writings. I prefer to assume that this is part of what is means by XP "design" along with the more obvious code &amp; DB design. You do design when it seems necessary. Avoiding the misinterpretation of YAGNI as "lazy YAGNI" helps here too: if you know what features are coming up 2-3 months from now, that helps you design a UI now that will have a logical place for the future features to fit into.</p>
+    <p>Hope this helps!</p>
+- id: 579
+  author: "Alf Mikula"
+  date: '2009-07-28T14:57:25-08:00'
+  content: |-
+    <p>In response to your first question, I've struggled with this one myself.  Obviously if you can't control how many engineer-hours go into the product, fixed iteration length is a little harder to deal with.  I think in this case you either 1) Pick a constant size estimate (use something like story point estimation and planning poker) and close the iteration when the work is done, or 2) Pick a constant iteration length and release what you have at the time.</p>
+    <p>As for effective ways to deal with unknowns, I like to use story point estimation with Fibonacci values (1,3,5,8,13) and bump up the estimate (3 -&gt; 5, 5 -&gt; 8) when there's a minor unknown, to compensate.  If there's a major unknown, we try to defer the story and allocate time for research/planning like you suggest.</p>

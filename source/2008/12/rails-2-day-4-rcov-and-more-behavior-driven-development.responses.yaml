@@ -1,0 +1,36 @@
+comments:
+- id: 354
+  author: "Paul"
+  url: "http://thoughtless.ca"
+  date: '2009-01-19T22:25:44-08:00'
+  content: |-
+    <p>Hi.<br>
+    This is a great post. I have a couple small suggestions:</p>
+    <p>change this <code>&lt;tr id="&lt;%="task"+task.id.to_s%&gt;"&gt;</code><br>
+    to this <code>&lt;tr id="&lt;%= dom_id(task) %&gt;"&gt;</code></p>
+    <p>That will produce output like task_1, task_2, etc. That's just a bit more of a "Rails" way to do it.</p>
+    <p>Then in your matcher, you could change this <code>within("table &gt; tr#task"+task.id.to_s) do</code><br>
+    to this <code>within("table &gt; tr#task_#{task.id}") do</code></p>
+    <p>Or you could include <code>ActionView::Helpers::RecordIdentificationHelper</code> and then change it to this <code>within("table &gt; tr##{dom_id task}") do</code></p>
+    <p>Cheers</p>
+- id: 355
+  author: "Ansgar"
+  date: '2009-02-06T04:58:29-08:00'
+  content: |-
+    <p>Hi Sarah,<br>
+    thank you for this tutorial.</p>
+    <p>One note to the last refactoring (respond_to block).<br>
+    This block is there to return the data in the requested format.  So <br>
+    format.html returns the web page as we know it and <br>
+    format.xml returns the data in xml format (try <a href="http://localhost:3000/tasks.xml" rel="nofollow ugc">http://localhost:3000/tasks.xml</a>).</p>
+    <p>Ansgar</p>
+- id: 356
+  author: "markiv"
+  date: '2009-10-16T17:06:25-08:00'
+  content: |-
+    <p>Thanks for the great post....</p>
+linked_from:
+- id: 357
+  title: "Cucumber and RSpec resources | Codesennin"
+  url: "http://codesennin.com/cucumber-and-rspec-resources/"
+  date: '2010-03-03T14:59:42-08:00'

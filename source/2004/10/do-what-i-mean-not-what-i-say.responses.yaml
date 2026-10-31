@@ -1,0 +1,10 @@
+comments:
+- id: 195
+  author: "George"
+  date: '2004-10-21T03:06:26-08:00'
+  content: |-
+    <p>And when people do say something in usability testing, it is often founded more by feeling than fact: "I want this to make my work easier" "That operation didn't feel right: too many things to learn"</p>
+    <p>And then you sort out what is really true: is the product really too hard to learn? vs. a comment driven by the limits of usability testing: testers have a few minutes to play with a product instead of a few days.</p>
+    <p>For instance, I can only imagine usability testing a feature like alpha channels in Photoshop. Without the help of a Photoshoop book, I never would have known all of the mathematical ops that can be done using channels...if someone in a usability test was shown this, they might have said: "You have got to be kidding me! That is way too complicated!" which is the difference between being introduced to a feature in the development stage with no documentation and pretty example pictures vs. seeing a well-documented feature after completion.</p>
+    <p>---</p>
+    <p>As a side tangent, I'm trying to imagine what happened when the paper clip in MS Word was user tested. That thing is so annoying! Could it actually be true that users sat in a room with a one-way mirror and said "Oh yes, great feature, love it!" or is it true that users thought it was an annoying load of crap and marketing ignored them. I guess we'll never know.</p>

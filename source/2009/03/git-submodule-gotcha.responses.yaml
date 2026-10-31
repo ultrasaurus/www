@@ -1,0 +1,20 @@
+comments:
+- id: 401
+  author: "Alastair Brunton"
+  url: "http://www.simplyexcited.co.uk"
+  date: '2009-06-11T04:47:43-08:00'
+  content: |-
+    <p>Nice one, thanks Sarah. Submodules are pretty good but one of git's weak points I think. <br>
+    Cheers,<br>
+    Alastair</p>
+- id: 403
+  author: "Trevor Menagh"
+  url: "http://www.trevreport.org"
+  date: '2010-02-02T06:41:52-08:00'
+  content: |-
+    <p>Thank you for this. It solved an issue I was having with using plugins that I checked out from my local git repository!</p>
+linked_from:
+- id: 402
+  title: "Git Submodule Gotcha | Cheer Factory - Technology, Outdoor and Design"
+  url: "http://scoop.cheerfactory.co.uk/2009/08/12/git-submodule-gotcha/"
+  date: '2009-08-12T01:14:09-08:00'

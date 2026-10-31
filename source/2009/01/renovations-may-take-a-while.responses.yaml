@@ -1,0 +1,26 @@
+comments:
+- id: 366
+  author: "gse"
+  url: "http://antisleep.com"
+  date: '2009-01-04T10:49:27-08:00'
+  content: |-
+    <p>I prefer WordPress these days, and its spam blocking stuff seems to work pretty well.</p>
+- id: 367
+  author: "Peldi"
+  url: "http://www.balsamiq.com"
+  date: '2009-01-04T11:08:26-08:00'
+  content: |-
+    <p>ciao Sarah!</p>
+- id: 368
+  author: "Peldi"
+  url: "http://www.balsamiq.com"
+  date: '2009-01-04T11:08:49-08:00'
+  content: |-
+    <p>Second comment, this time going through preview first.</p>
+- id: 369
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2009-01-04T11:21:19-08:00'
+  content: |-
+    <p>Hmmm.  It looks like comments *sometimes* work -- Scott had to try 2x.  The second time worked after I lowered the spam threshold.</p>
+    <p>I think I might look into converting to WordPress tonight.  Sigh.</p>

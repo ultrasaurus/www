@@ -1,0 +1,54 @@
+comments:
+- id: 232
+  author: "Elliot"
+  date: '2005-06-18T15:54:18-08:00'
+  content: |-
+    <p>emacs still lives on the west coast in Laszlo Studios!!  Even though most of the old guard uses vim, there's still a strong emacs contingency.  I must admit that it is beautiful to see folks editing when they're on a roll with vim.</p>
+- id: 233
+  author: "Sean Corfield"
+  url: "http://corfield.org/"
+  date: '2005-06-19T14:15:45-08:00'
+  content: |-
+    <p>Ah, the joys of 'vi'...</p>
+    <p>Back when I was on the C++ Standards Committee, I used a Psion handheld computer as my primary traveling machine and had a port of 'vi' running on it that I used to edit the troff pages that generated the ISO/ANSI draft documents.</p>
+    <p>Admittedly I used the Psion word processor for taking meeting notes (I was secretary of J16 for three years)...</p>
+    <p>I'll be interested to read how you get on with Eclipse. I use it for all my day-to-day coding these days. It has its quirks but overall it's a good, solid IDE.</p>
+- id: 234
+  author: "A friend who misses late night im"
+  date: '2005-06-19T21:31:37-08:00'
+  content: |-
+    <p>gvim is great :-)  Make sure to grab some of Adam's helpful aliases, too, like the one that will make gvim's cwd the same as the dir of the file your editing.</p>
+- id: 235
+  author: "kent"
+  url: "http://www.bigblogzoo.com"
+  date: '2005-06-21T08:10:36-08:00'
+  content: |-
+    <p>Hi-ya Sarah,</p>
+    <p>I just thought I would do you the disservice of telling you that you were featured in yesterday's blog of the day at:</p>
+    <p><a href="http://syndicatescape.com/bigblogzoo/" rel="nofollow ugc">http://syndicatescape.com/bigblogzoo/</a></p>
+    <p>take care</p>
+    <p>kent</p>
+- id: 236
+  author: "Karen"
+  url: "http://www.hoofnagle.org"
+  date: '2005-06-28T14:11:32-08:00'
+  content: |-
+    <p>Everyone has a favorite stupid vi trick. You didn't ask, but I can't stand it. I have to share mine:  recorded buffers.</p>
+    <p>qa = start recording all my keystrokes in buffer a<br>
+    esc (if you're in insert mode) q = stop recording my keystrokes.</p>
+    <p>Then there's the joy of having all those buffers recorded:</p>
+    <p>@a = run the keystrokes in buffer a.<br>
+    32@a = run the keystrokes in @a 32 times.</p>
+    <p>I know some explanations don't travel well without demonstration (or everyone would be in love with vi -- right?) so if I explain badly, ask Scott what I'm babbling about. He knows.</p>
+- id: 237
+  author: "Victor Laszlo"
+  url: "http://laszlosystems.com/~adam/blog/"
+  date: '2005-07-16T09:37:02-08:00'
+  content: |-
+    <p>Now we have to get you using Pine and the transformation will be complete.</p>
+- id: 238
+  author: "gse"
+  url: "http://www.antisleep.com"
+  date: '2005-07-20T21:50:49-08:00'
+  content: |-
+    <p>mmmm...... pine.</p>

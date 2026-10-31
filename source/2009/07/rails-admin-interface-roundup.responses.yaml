@@ -1,0 +1,63 @@
+comments:
+- id: 548
+  author: "Kris"
+  url: "http://interkonect.com"
+  date: '2009-07-14T01:36:44-08:00'
+  content: |-
+    <p>Never used it but there is also: <a href="http://github.com/quirkey/qadmin/tree/master" rel="nofollow ugc">http://github.com/quirkey/qadmin/tree/master</a></p>
+- id: 550
+  author: "James"
+  date: '2009-07-30T01:13:38-08:00'
+  content: |-
+    <p>Thanks for this article, I've switched from Active Scaffold to Typus and couldn't be happier :)</p>
+- id: 551
+  author: "tex"
+  date: '2009-12-26T21:12:12-08:00'
+  content: |-
+    <p>also... <a href="http://lipsiadmin.com/" rel="nofollow ugc">http://lipsiadmin.com/</a></p>
+- id: 552
+  author: "rutvij"
+  date: '2010-08-21T07:22:38-08:00'
+  content: |-
+    <p>is any one of this is compatible on Rails 3 ..?</p>
+- id: 553
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2010-08-21T12:03:30-08:00'
+  content: |-
+    <p>I haven't tested any of these on Rails 3 yet.  Good question!</p>
+- id: 554
+  author: "Jack Dempsey"
+  url: "http://jackdempsey.me"
+  date: '2010-09-07T20:39:31-08:00'
+  content: |-
+    <p>rutvij,</p>
+    <p>There's a fork of active_scaffold that does work with rails 3:<br>
+    <a href="http://github.com/vhochstein/active_scaffold" rel="nofollow ugc">http://github.com/vhochstein/active_scaffold</a></p>
+    <p>You can easily install it with a project I've recently resurrected that's useful for quickly testing out ideas and libraries: <a href="http://jackdempsey.github.com/beet/" rel="nofollow ugc">http://jackdempsey.github.com/beet/</a></p>
+    <p>beet --generate active_scaffold_test -r rails3/admin_interface/active_scaffold should do it.</p>
+    <p>Enjoy!</p>
+- id: 4931
+  author: "spuds7er"
+  url: "http://spuds7er.wordpress.com"
+  date: '2014-04-30T00:37:30-07:00'
+  content: |-
+    <p>What about ActiveAdmin?</p>
+- id: 4932
+  author: "sarah"
+  date: '2014-04-30T02:10:53-07:00'
+  content: |-
+    <p>ActiveAdmin is actually what I use these days.  Thanks for mentioning it!</p>
+linked_from:
+- id: 546
+  title: "Double Shot #489 « A Fresh Cup"
+  url: "http://afreshcup.com/2009/07/06/double-shot-489/"
+  date: '2009-07-06T03:03:14-08:00'
+- id: 547
+  title: "Kai’s daily tech #33 … | Kai Richard König"
+  url: "http://kairichardkoenig.de/2009/07/06/kais-daily-tech-33/"
+  date: '2009-07-06T12:07:36-08:00'
+- id: 549
+  title: "almost effortless » Weekly Digest, 7-19-09"
+  url: "http://almosteffortless.com/2009/07/19/weekly-digest-7-19-09/"
+  date: '2009-07-19T08:09:23-08:00'

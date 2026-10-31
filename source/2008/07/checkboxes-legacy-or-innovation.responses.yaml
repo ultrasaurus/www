@@ -1,0 +1,82 @@
+comments:
+- id: 308
+  author: "Manuel"
+  url: "http://myspace.com/manolou"
+  date: '2008-07-24T19:28:04-08:00'
+  content: |-
+    <p>I personally think that check boxes are like the raisins in "Total Bran" Cereal. Some people hate them, some people love them.</p>
+    <p>I use Gmail, which uses checkboxes, so if we went on popularity, it seems the community at large enjoys the elementary school learned instinct of filling in the bubble.</p>
+    <p>Which is I think where the familiarity stems from. The drag-and-drop feature is the 'new' check box, but it HAS to come with some indication of selection.</p>
+    <p>So, are check boxes out of date? Nope. Are they here to stay? Mabey.</p>
+    <p>Who knows, it may become "retro" in our lifetime.</p>
+- id: 309
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2008-07-25T02:31:04-08:00'
+  content: |-
+    <p>If we went on popularity, Gmail is a distant third behind Yahoo Mail and Windows Live  (<a href="http://weblogs.hitwise.com/bill-tancer/2008/02/microsoft_and_yahoo_putting_th.html" rel="nofollow ugc">http://weblogs.hitwise.com/bill-tancer/2008/02/microsoft_and_yahoo_putting_th.html</a>)</p>
+    <p>From my anecdotal evidence, Gmail has done as well as it has mostly by offering huge capacity and fast search.  Although I've heard passionate fans of their UI, most folks are drawn there for other reasons.</p>
+    <p>I don't think the checkbox will ever go away, but I actually hope it has no staying power as a multiple-select affordance.  I hope to be wrong about the Outlook prediction.  I would love to see this UI pattern become "retro" in my lifetime.</p>
+    <p>Sarah</p>
+- id: 310
+  author: "Pete Prodoehl"
+  url: "http://rasterweb.net/raster/"
+  date: '2008-07-25T10:45:06-08:00'
+  content: |-
+    <p>Are you only thinking in terms of webmail UI? even so, I can see cases where checkboxes can allow different actions to multiple items whereas a single selection cannot. I'm also thinking of the Drupal interface where you can see a side-by-side comparison of user role permissions, and how checkboxes work there. I can't think of a better UI right now that would work without checkboxes for that.</p>
+- id: 311
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2008-07-25T19:00:50-08:00'
+  content: |-
+    <p>My main point was in using checkboxes for select and multi-select, instead of the standard desktop convention of click and ctrl/shift-click.  I can't think of places I've seen that besides webmail, but I wouldn't be surprised if it is used elsewhere.</p>
+    <p>If you are talking about this kind of permissions:  <a href="http://www.linuxjournal.com/files/linuxjournal.com/linuxjournal/articles/087/8710/8710f3.inline.png" rel="nofollow ugc">http://www.linuxjournal.com/files/linuxjournal.com/linuxjournal/articles/087/8710/8710f3.inline.png</a><br>
+    Then checkboxes are being used in a standard way where they represent a true/false attribute of an object.  I think the visual design of that particular UI could be improved for clarity and readability, but I see that as a standard use of checkboxes.</p>
+- id: 312
+  author: "Antun Karlovac"
+  url: "http://www.antunkarlovac.com/"
+  date: '2008-07-28T21:41:15-08:00'
+  content: |-
+    <p>I can see the benefit of checkboxes as a "marking" tool. The Ctrl/Shift-click process is awkward for inexperienced computer users. One inadvertent click, and their whole carefully-cultivated selection is lost.</p>
+    <p>The idea behind checkboxes for marking is that you can still use the left click to "select" an item, but you click the checkbox to mark the item for a future task (like delete, mark-as-spam, etc.). Note that this is *not* what Yahoo! Mail does. In Yahoo! Mail, the checkboxes are completely redundant.</p>
+    <p>An example of the UI concept I described is the checktree (which I wrote):</p>
+    <p><a href="http://www.laszlocode.com/application.php?projectid=8" rel="nofollow ugc">http://www.laszlocode.com/application.php?projectid=8</a></p>
+    <p>You use the normal left click on a tree leaf to "select" it. That means view this item. However, if you need to prune your tree, you use the checkboxes to "mark" the items you want to act on.</p>
+    <p>This metaphor actually translates to an email application quite well: Left-clicking message can select it for viewing. When you want to act on a bunch of messages (e.g. delete them, send them to the spam folder), you would check them, then select the action you want to perform. When you think about it, we have to fudge our metaphors by a little by Shift/Ctrl-clicking messages: If left-clicking one message views it, what does shift-left-clicking five messages mean? It doesn't mean anything. We have to disable the preview pane if people select several messages. Moreover, having a separate mechanism for marking as opposed to viewing, means that a user could mark a large number of messages, but still have the ability to preview one by left-clicking it.</p>
+- id: 313
+  author: "trebor"
+  url: "http://www.linkedin.com/in/trebor"
+  date: '2008-08-01T07:29:26-08:00'
+  content: |-
+    <p>I sometimes think the whole paradigm should be rethought.  In Yahoo! email, for example, I dislike the checkboxes, but use them if I don't want the email to appear to be read first.  This happens if I select the email, as it then displays in the preview pane, which presumably loads images and other things that let a spammer know he's reached his mark.</p>
+    <p>Why do I have to select the message in the first place, just to delete it?  Maybe I can right-click with Yahoo, I don't know, but even with the checkbox, the focus is on the message first, action second. It would be nice to maybe think of a way I could just delete an email without even touching it.  Maybe I could drop a bomb from the toolbar onto it, for example.  Boom!  That would be satisfying.  And it puts the action first.  I could drag the bomb over a range of emails, or onto a contact, or maybe even onto my account when I'm ready to close it for good.</p>
+    <p>But even drag-n-drop has its problems.  I am forever running out of desk real estate with my mouse, for example, when trying to drag things around.  That can often lead to me inadvertently dragging things to somewhere I didn't want them, since I MUST of course keep my mouse depressed until the exact moment I want the action to occur--nothing like relying on the accuracy of my motor skills to make something happen on my computer (as if this doesn't frustrate me enough when I'm playing video games).   And then there's often the "hidden window" problem where what I want to drag or where I want to drag it is now behind something else on my desktop.  (I guess Apple is now trying to solve this with the idea of a semi-transparent window, but how long did it take for someone to even address this--twenty years of desktop GUI's?)</p>
+    <p>Like the calculator example I always use (WHY are PC calculators made to look like the little hand-helds that have been around for 30 years: you know, with a single-line LCD and an M+ button--hello people, this is a full-up computer capable of storing a baZILLION numbers, not just the last one on the screen, so why not REINVENT the calculator to use the full capability) there definitely is the sad reality of  paradigm lock.  And maybe it's those idiot users demanding it be that way because it's what they know.  But I always think that UI designers should look for new, more intuitive ways to get things done; if they're really good, users will grok them without needing to even have them explained, let alone lectured on how much better it is.</p>
+    <p>Easy for me to say of course since I'm not a UI designer :)</p>
+- id: 314
+  author: "Antun Karlovac"
+  url: "http://www.antunkarlovac.com/"
+  date: '2009-04-22T08:50:07-08:00'
+  content: |-
+    <p>I found another example of the checkbox/selection paradigm that I commented about earlier: The calendars option in Apple's iCal. The checkboxes control which calendars are displayed. The selection of the actual item indicates which single calendar is "active" - i.e. which calendar a new appointments will be added to by default.</p>
+    <p>Here's a screenshot:<br>
+    <a href="http://www.antunkarlovac.com/stuff/apple_ical_checkbox_selection.png" rel="nofollow ugc">http://www.antunkarlovac.com/stuff/apple_ical_checkbox_selection.png</a></p>
+    <p>I started using a Mac (along with iCal) several months ago, and never paid attention to this. I guess that means it felt natural to me. Of course, since Apple designed this UI, it must certainly be beyond dispute.</p>
+- id: 315
+  author: "Mark Hiscocks"
+  date: '2009-10-27T04:19:50-08:00'
+  content: |-
+    <p>I'll prefix my comments by saying that the majority of my development has occurred on the desktop side of things although I have been developing for the web for the past couple of years.</p>
+    <p>I personally it difficult to look past the fact that checkboxes have traditionally been used to indicate positive/affirmative states. For instance:<br>
+      - CHECK -&gt; I want Option 1<br>
+      - CHECK -&gt; I want Option 2<br>
+      - UNCHECK -&gt; I do not want Option 3</p>
+    <p>Using the above e-mail examples, I find it slightly counterintuitive to use checkboxes to indicate selection for a negative action, e.g. checking e-mails to delete them. When a list exists from which items are being removed, I’ve seen users get confused by whether checking an item will maintain its existence on a list or whether checking an item will cause it to be removed. The question ends up being: Am I checking it to keep it or am I checking it to get rid of it? I know that people are thinking “Well, you’ve checked an item to indicate it for inclusion for deletion”, but anecdotal experience has sometimes shown otherwise.</p>
+    <p>Although checkboxes make some things easier, they can complicate other UI interactions.</p>
+- id: 316
+  author: "Peter"
+  url: "http://citizenlaszlo.blogspot.com/"
+  date: '2013-07-23T08:23:52-08:00'
+  content: |-
+    <p>Well, 5 years have shot by since we had this discussion, and made our bet. I'm happy to report that there are many more online applications that are pushing the boundaries of UX design, and that HTML itself has enabled some of these advances.</p>
+    <p>Also, Outlook doesn't have checkboxes. You owe me $5 :)</p>

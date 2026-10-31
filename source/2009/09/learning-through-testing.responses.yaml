@@ -1,0 +1,9 @@
+comments:
+- id: 620
+  author: "Rob Levin"
+  date: '2009-09-28T12:58:55-08:00'
+  content: |-
+    <p>Hello Sarah,</p>
+    <p>Met you @the last Ruby Hackfest in the city. I agree that learning through tests is very valuable. One complaint I have about the AWD book is that they developed the whole Depot application and then threw in the chapter after about testing (and as I understand it was written by someone other than the core authors as an after thought).</p>
+    <p>Learning a language by using TDD is a great way to go. Kent Beck's TDD by Example has a section where he plays with Python by creating a test framework which is similar to what you described in this article. Pretty good read I think.</p>
+    <p>All this being said, I'm still trying to come to grips with TDD myself and wish there were more resources for Ruby that went from the "ground up" using TDD. Maybe you'll write this book Sarah ;)</p>

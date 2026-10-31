@@ -1,0 +1,7 @@
+comments:
+- id: 762
+  author: "iain"
+  url: "http://iain.nl"
+  date: '2011-09-11T09:32:32-08:00'
+  content: |-
+    <p>When upgrading to 3.1, don't forget to run 'rails new pie-bakery' again over your project. Your Rakefile will be different on 3.1, as well as some other files. I let it override everything and use git to bring back previous settings.</p>

@@ -1,0 +1,14 @@
+{{!-- one comment, used by _comments.hbs and again for each reply; the
+      id keeps old #comment-123 links working --}}
+<article class="comment" id="comment-{{id}}">
+    <p class="comment-meta"><strong>{{#if url}}<a href="{{url}}" rel="nofollow ugc">{{author}}</a>{{else}}{{author}}{{/if}}</strong>
+        <span class="date">{{date_format date "%B %-d, %Y"}}{{#if via}} on Twitter{{/if}}</span></p>
+    {{{content}}}
+    {{#if replies}}
+    <div class="replies">
+        {{#each replies}}
+        {{> _comment}}
+        {{/each}}
+    </div>
+    {{/if}}
+</article>

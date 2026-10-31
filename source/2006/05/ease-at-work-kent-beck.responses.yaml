@@ -1,0 +1,18 @@
+comments:
+- id: 274
+  author: "gse"
+  url: "http://antisleep.com"
+  date: '2006-05-20T12:21:25-08:00'
+  content: |-
+    <p>All the creative people I know (myself included) have days where they feel great and they're proud of their work, right next to days where they want to quit and never admit to having even dabbled.</p>
+    <p>It never occurred to me that this would have anything to do with gender.</p>
+- id: 275
+  author: "Harry Chesley"
+  url: "http://www.mememotes.com"
+  date: '2006-05-20T16:06:31-08:00'
+  content: |-
+    <p>Three semi-related observations about programmer "depression."</p>
+    <p>1) Other people seldom care. You can write a really tight, really innovative piece of code, and it's hard to find other people who care enough to listen to you describe it, unless it does something neat at the user level.</p>
+    <p>2) Bugs always prove you're an idiot. Bugs, by their nature, are usually simple little things that any idiot should have seen if they'd looked closely. And those that are not are usually much more serious design errors that reveal more serious, higher level problems.</p>
+    <p>3) Sturgeon's Law (90% of everything is crap) applies to you. Because it's not just about what you do, but also about everything coming together (idea, team, company, market, world) to make it come out great, which seldom happens.</p>
+    <p>But none of these bother me in the long run (sometimes in the short run, tho), because 1) I love programming, so the journey is fun, not just arriving at the end-point. And 2) sometimes they do all come together and all the (important) bugs get found and it really does do something cool.</p>

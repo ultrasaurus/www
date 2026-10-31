@@ -1,0 +1,13 @@
+comments:
+- id: 4855
+  author: "austinfrmboston"
+  url: "https://twitter.com/austinfrmboston"
+  date: '2014-01-24T16:29:54-08:00'
+  via: twitter
+  content: |-
+    <p>@ultrasaurus highly recommend poltergeist over capy-WebKit, we also have heartbreak from transactions <a href="http://t.co/xXmWGLE9e3" rel="nofollow ugc">http://t.co/xXmWGLE9e3</a></p>
+- id: 5462
+  author: "Rich d'Rich"
+  date: '2016-11-23T13:04:26-08:00'
+  content: |-
+    <p>I'm finding DatabaseCleaner zaps all my loaded fixtures so any subsequent tests will fail. Suspect I need to run DatabaseCleaner.start after the module that uses it - is that a robust strategy?</p>

@@ -1,0 +1,16 @@
+comments:
+- id: 381
+  author: "Doug"
+  date: '2009-02-02T12:03:41-08:00'
+  content: |-
+    <p>Hey Sarah,</p>
+    <p>Long time no see.  Found out about your blog from your linkedin profile.  Loving it!  Now I am prepared to have a "ports and spiders" discussion with my own kids.  Ha!</p>
+    <p>Just for the record, I thought I'd clear up why ISPs are blocking port 25. Unlike what Gillema from Comcast said, it doesn't protect your computer from viruses.  It is a reaction to the damage *already infected PCs* are causing.  What happens is that the infected PC becomes a "spam bot" that accepts incoming messages from spammers and then delivers the messages to their victims on the spammers behalf.  Spammers need these bots because their own IP addresses have been blacklisted so they can't send the mail directly.  Blocking port 25 stops these spam bots in their tracks.</p>
+    <p>Port 587 is a new one for SMTP that is reserved for users trying to send outbound email through their ISP's mail server.  SMTP over port 587 must be authenticated with a username and password so it gives legitimate users a way to bypass a block on port 25.</p>
+    <p>The thinking is if legitimate users are sending mail on port 587, the only people left sending out on port 25 are spammers so let's block it.</p>
+    <p>People running their own mail servers are certainly an exception to the rule and I'm glad Comcast figured that out for you!</p>
+- id: 382
+  author: "VSnow"
+  date: '2011-02-26T05:10:07-08:00'
+  content: |-
+    <p>Just thought I would share this, you can check if your ISP is blocking outbound port 25 at <a href="http://port25.icannotconnect.com" rel="nofollow ugc">http://port25.icannotconnect.com</a></p>

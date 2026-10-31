@@ -1,0 +1,23 @@
+comments:
+- id: 799
+  author: "Brian Cardarella"
+  url: "http://dockyard.com"
+  date: '2012-06-03T11:58:42-08:00'
+  content: |-
+    <p>Very cool Sarah, I'd like to see more events like this in Boston.</p>
+- id: 800
+  author: "Aras Balali Moghadda"
+  url: "http://arasbm.com"
+  date: '2012-06-03T19:08:30-08:00'
+  content: |-
+    <p>Great introduction to nReduce and the story behind it. I just found out about nReduce yesterday from a colleague of mine. I think it is a great idea because it is investing in sucess of a community of startups, the chances that it will also suceed are very high. I am very excited to see how it works out and to learn about the mission of all the great teams that have joined the community already.</p>
+- id: 801
+  author: "startupjerkfest"
+  date: '2012-06-05T18:11:45-08:00'
+  content: |-
+    <p>this was a better explanation than what is on the nReduce website itself. I kept wondering "what is the point of shipping something every week if you haven't done the required customer development first?" and now I see their major concern is to demonstrate that you can execute and get something built.  but i think i will be stretching the definition of the world "ship". i'll probably just show videos of my customer discovery notes, and call it "shipped". it is (according to Steve Blank) an important part of a startup that wants to be fail less. once i feel i have solidified the custdev portion, then i can move on to building a prototype, where the normal definition of "ship" applies. i better go buy that book now.</p>
+linked_from:
+- id: 802
+  title: "Mightyverse Participates in nReduce » Mightyblog"
+  url: "http://blog.mightyverse.com/2012/06/mightyverse-participates-in-nreduce/"
+  date: '2012-06-10T12:51:34-08:00'

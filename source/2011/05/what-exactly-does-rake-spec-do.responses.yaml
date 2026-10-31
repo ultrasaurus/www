@@ -1,0 +1,10 @@
+comments:
+- id: 747
+  author: "Mark Wilden"
+  url: "http://mwilden.blogspot.com/"
+  date: '2011-05-08T15:15:57-08:00'
+  content: |-
+    <p>I include Rake.application.options.trace = true in my Rakefiles so that I always see not only the tasks that are executed, but also the backtrace when there's an error (why would anyone not want to see this??).</p>
+    <p>And yes, tracing rake spec like this shows some interesting things - in particular, why the task is so slow. That's why most of the time, I run a command like</p>
+    <p>bundle exec rspec -b spec/models/model_spec.rb:204</p>
+    <p>-b is for backtrace, and, again, I have to wonder why this is not the default? When you get a runtime error, why would you ever not want to see what caused it?</p>

@@ -1,0 +1,31 @@
+comments:
+- id: 361
+  author: "David Black"
+  url: "http://www.rubypal.com"
+  date: '2009-01-23T15:08:28-08:00'
+  content: |-
+    <p>Wow, I really did say "too monogamous" instead of "too monolithic", didn't I? :-) I did mean monolithic, though.</p>
+    <p>David</p>
+- id: 362
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2009-01-23T20:17:53-08:00'
+  content: |-
+    <p>Hey David,</p>
+    <p>When I read it I was thinking you meant homogeneous.  Funny when a word is out of place it is easy to fill in what you think it means. In any case, I made the correction.  Thank for your comments on the list in the first place.  I've enjoyed reading your notes on Rails.</p>
+    <p>Sarah</p>
+- id: 363
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2009-05-06T16:02:02-08:00'
+  content: |-
+    <p>Later in email, David &amp; realized that he really did mean monogamous (e.g. one controller to one model), so I changed it back.</p>
+linked_from:
+- id: 364
+  title: "Caffeine Driven Development » Blog Archive » L33t Links #71"
+  url: "http://caffeinedd.com/l33t-links/364-l33t-links-71"
+  date: '2010-01-21T22:55:06-08:00'
+- id: 365
+  title: "Do Ruby on Rails Developers use Scaffolding? – The Blog of Kevin Miles"
+  url: "http://kevinmil.es/2012/08/30/do-ruby-on-rails-developers-use-scaffolding/"
+  date: '2012-08-30T19:28:42-08:00'

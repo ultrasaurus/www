@@ -1,0 +1,14 @@
+comments:
+- id: 755
+  author: "SeanJA"
+  url: "http://seanja.com"
+  date: '2011-07-17T20:38:36-08:00'
+  content: |-
+    <p>I agree, I also have a feeling this is one of the reasons that a lot of people don't like flash... too many motions just for the sake of motions.</p>
+    <p>I am also dissapointed with the Chrome "Check this out" page... it doesn't appear to work with Chrome 14 dev and the links to the troubleshooting page are dead at the moment.</p>
+- id: 756
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2011-07-17T20:44:11-08:00'
+  content: |-
+    <p>oops -- fixed the link to the Chrome demo.</p>

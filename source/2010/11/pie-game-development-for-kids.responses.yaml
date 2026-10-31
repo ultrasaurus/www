@@ -1,0 +1,22 @@
+comments:
+- id: 718
+  author: "David"
+  date: '2010-11-15T11:00:50-08:00'
+  content: |-
+    <p>Sarah - did you see the talk abot RGen and Concrete?  Concrete would be perfect as a front-end for pie - don't even have to write code, just use the DSL directly.</p>
+    <p>I enjoyed your talk!  Look forward to seeing more.</p>
+- id: 719
+  author: "Harry Hendricks"
+  date: '2010-11-16T13:03:06-08:00'
+  content: |-
+    <p>Thanks for the talk and for the post. I work at a <a href="http://www.gameshastra.com/Video-Game-Development.html" rel="nofollow ugc">game development</a>firm and it's great to see more interest in getting kids into the, ahem, 'game' early on - or at least sparking an interest. If these are kids that have a passion for game dev, they'll be happier the sooner they pursue it.</p>
+- id: 721
+  author: "Bryan"
+  date: '2011-01-03T14:03:10-08:00'
+  content: |-
+    <p>im 11 and im already into 3d modelling... no joke. but where the heck can i find something tht teaches code in a free, easy, and understandable way???</p>
+linked_from:
+- id: 720
+  title: "Sarah Allen is Creating Women Programmers, One Free Ruby on Rails Workshop at a Time « TechFemme"
+  url: "http://techfemme.wordpress.com/2010/12/22/sarah-allen/"
+  date: '2010-12-22T08:52:50-08:00'

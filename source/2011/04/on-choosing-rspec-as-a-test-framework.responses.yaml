@@ -1,0 +1,58 @@
+comments:
+- id: 737
+  author: "Matt Wynne"
+  url: "http://blog.mattwynne.net"
+  date: '2011-04-01T07:04:18-08:00'
+  content: |-
+    <p>Thanks for sharing your thoughts and experience Sarah. I find personal experience like this makes the best contribution to any 'debate' like this.</p>
+    <p>For development, don't forget about RSspec's nested contexts, and also #let blocks, both of which are wonderful tools for writing really clear tests.</p>
+- id: 738
+  author: "Michael"
+  url: "http://www.expectationgap.com"
+  date: '2011-04-01T07:13:35-08:00'
+  content: |-
+    <p>You've got assert_equal wrong, it is intended to be:</p>
+    <p>assert_equal(expected, actual)</p>
+    <p>However, if you check out the rdoc on test/unit assertions - the order doesn't seem to matter. I reversed them in some existing tests, and all still pass.</p>
+- id: 739
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2011-04-01T07:24:38-08:00'
+  content: |-
+    <p>LOL! proves my point. It does pass either way, but I think the test output is supposed to indicate what we are actually trying to test, versus what is expected. I think a well-written assertion makes it quicker to diagnose the problem because we can tell  the expected value and what it currently is, and knowing one from the other can help isolate a bug.</p>
+- id: 740
+  author: "Andy"
+  url: "http://andylindeman.com/"
+  date: '2011-04-01T08:19:09-08:00'
+  content: |-
+    <p>Yah, it might be good to fix the error with assert_equal.</p>
+    <p>The output will look odd in a failing test if the parameters are switched.</p>
+- id: 741
+  author: "Dave Jones"
+  url: "http://unixmonkey.net"
+  date: '2011-04-01T08:36:14-08:00'
+  content: |-
+    <p>@Michael</p>
+    <p>The tests still pass, because the two are equal no matter their position, but when the test fails, it will complain that  didn't match , which can be really confusing, especially to a newbie.</p>
+    <p>So:<br>
+    assert_equal @calc.total, 4<br>
+    in a failing scenario would report:<br>
+    Expected nil, got 4</p>
+    <p>when of course nil is not what the test expected to get in a passing scenario.</p>
+- id: 742
+  author: "Undecisive"
+  date: '2011-04-01T09:18:15-08:00'
+  content: |-
+    <p>Excellent. I would argue that you should leave the error in there - if any Test::Unit evangelists notice it, you've made your point. If any Test::Unit evangelists DON'T notice it until they read the comments, you've made your point even stronger.</p>
+    <p>For my part, I've always used rspec and similarly see assert as counter-intuitive (Connascence of position vs Connascence of name, the latter is weaker and so usually better) If people have a preference, use what makes you smile. I'm planning on giving Wrong a try (<a href="https://github.com/sconover/wrong" rel="nofollow ugc">https://github.com/sconover/wrong</a>) because let's face it, you can never do enough experimenting.</p>
+- id: 743
+  author: "Jacob Richardson"
+  date: '2011-04-01T10:19:26-08:00'
+  content: |-
+    <p>Excellent article! I've also found that in my experience teaching rails that RSpec is just much easier to understand for newbies.</p>
+    <p>I use the python unittest library extensively (which has a very similar feel to t/u) but when coding ruby rspec feels like a MUST.</p>
+linked_from:
+- id: 744
+  title: "Delicious Bookmarks for April 2nd from 01:19 to 01:46 « Lâmôlabs"
+  url: "http://www.lamolabs.org/blog/5468/delicious-bookmarks-for-april-2nd-from-0119-to-0146/"
+  date: '2011-04-01T22:19:49-08:00'

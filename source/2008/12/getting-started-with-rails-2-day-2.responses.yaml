@@ -1,0 +1,12 @@
+comments:
+- id: 336
+  author: "Hoornet"
+  url: "http://www.linkedin.com/in/hoornet"
+  date: '2009-02-21T10:34:16-08:00'
+  content: |-
+    <p>For winXP u should also do:<br>
+    gem install win32console</p>
+    <p>Othewrwise after rake features you get:<br>
+    (in E:/SOURCE/RAILS/rails-2-day-3-behavior-driven-development/todolist)<br>
+    You must gem install win32console to get coloured output on MRI/Windows</p>
+    <p>0 scenarios</p>

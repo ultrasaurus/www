@@ -1,0 +1,20 @@
+comments:
+- id: 4928
+  author: "RubyReflector"
+  url: "https://twitter.com/RubyReflector"
+  date: '2014-04-26T08:48:51-07:00'
+  via: twitter
+  content: |-
+    <p>Top Ruby Article: jekyll dektop app with node-webkit on osx:  <a href="http://t.co/CnX3YtfEoh" rel="nofollow ugc">http://t.co/CnX3YtfEoh</a></p>
+- id: 4923
+  author: "Thomas J Bradley"
+  url: "http://thomasjbradley.ca"
+  date: '2014-04-26T11:01:32-07:00'
+  content: |-
+    <p>You're looking into creating an app that will turn Jekyll on/off instead of using Terminal?</p>
+    <p>Or an app that uses Jekyll to generate its interface?</p>
+- id: 4929
+  author: "sarah"
+  date: '2014-04-26T17:56:45-07:00'
+  content: |-
+    <p>Creating a native, off-line app that uses Jekyll to generate its interface</p>

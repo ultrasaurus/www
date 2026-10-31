@@ -1,0 +1,48 @@
+comments:
+- id: 641
+  author: "Ray"
+  url: "http://67central.com/bc"
+  date: '2009-12-20T11:36:20-08:00'
+  content: |-
+    <p>If you want your greet task to appear when you do 'rake -T' you need to add a description.</p>
+    <p>Also  if you envision doing 'rake gems:install' at any point to you should move 'require faker' into the body of a task. Otherwise if you run 'rake gems:install' without faker installed, rake will fail. Here you could put it as the first line of your 'fake_people' task but you could also create a 'require_faker' task that did the require and was a dependency of 'require_people'.</p>
+- id: 642
+  author: "SSCirrus"
+  date: '2011-08-01T22:29:51-08:00'
+  content: |-
+    <p>This is a very helpful post, thank you for writing it!</p>
+    <p>Are there any significant updates to the above methodology you are aware of for Rails 3?</p>
+- id: 643
+  author: "Aravind"
+  date: '2011-11-22T07:51:52-08:00'
+  content: |-
+    <p>Thank you for your post...</p>
+    <p>Could you tell me the significance of :environment in :task_name =&gt; :environment. what happens if i vomit this :environment ?</p>
+  replies:
+  - id: 644
+    author: "Sarah"
+    url: "https://www.ultrasaurus.com"
+    date: '2011-11-22T09:18:48-08:00'
+    content: |-
+      <p>:task_name =&gt; :environment will load the Rails environment, which will allow you to access things like your ActiveRecord models or Rails config.  Without that you can just run pure Ruby code.</p>
+- id: 1490
+  author: "Aaron"
+  date: '2013-12-04T13:46:21-08:00'
+  content: |-
+    <p>The latest version of Heroku add "run" to the command. Therefore:</p>
+    <p>%&gt; heroku run rake:db:migrate</p>
+    <p>instead of:</p>
+    <p>%&gt; heroku rake:db:migrate</p>
+- id: 1491
+  author: "Aaron"
+  date: '2013-12-04T13:47:12-08:00'
+  content: |-
+    <p>sorry my comment was it should be:</p>
+    <p>heroku run rake db:migrate</p>
+    <p>(replace colon with a space between rake and db)</p>
+- id: 6495
+  author: "Wellington Torrejais da Silva"
+  url: "https://about.me/torrejais"
+  date: '2017-09-25T13:40:20-07:00'
+  content: |-
+    <p>Thanks!</p>

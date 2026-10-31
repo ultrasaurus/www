@@ -1,0 +1,13 @@
+comments:
+- id: 782
+  author: "Toffanin"
+  date: '2012-01-08T03:23:46-08:00'
+  content: |-
+    <p>ffmpeg is available trough homebrew too: "brew info ffmpeg".</p>
+  replies:
+  - id: 783
+    author: "Sarah"
+    url: "https://www.ultrasaurus.com"
+    date: '2012-01-08T08:57:41-08:00'
+    content: |-
+      <p>Wow.  Even simpler.  Thanks!</p>

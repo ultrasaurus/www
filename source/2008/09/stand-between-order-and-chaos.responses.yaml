@@ -1,0 +1,14 @@
+comments:
+- id: 321
+  author: "Elliot"
+  date: '2008-10-01T21:35:01-08:00'
+  content: |-
+    <p>I very much agree.  It is not hard to create create create content of questionable worth.  It is a bit harder to edit, to set up the filters (of code, photographs, songs, drawing) to find the diamonds in the rough.  The process of distilling out the good stuff.</p>
+    <p>A recent Radio Lab [0] show addressed the production of sprucing up potentially boring science-related interviews for consumption by the general public on radio shows.  It makes me want to start writing on a pop computer-science book for the masses.</p>
+    <p>[0] <a href="http://www.wnyc.org/shows/radiolab/" rel="nofollow ugc">http://www.wnyc.org/shows/radiolab/</a></p>
+- id: 322
+  author: "Phillip Kerman"
+  url: "http://www.phillipkerman.com/blog"
+  date: '2008-10-03T20:02:24-08:00'
+  content: |-
+    <p>I agree with his point but what he calls "looking for stories" also includes testing them out... going through the process and throwing out what doesn't work.</p>

@@ -1,0 +1,50 @@
+comments:
+- id: 571
+  author: "Wolfram Arnold"
+  url: "http://www.rubyfocus.biz"
+  date: '2009-07-25T19:13:27-08:00'
+  content: |-
+    <p>Wow, Sarah!  Thanks for the compliments.  The pleasure was all mine.  I've found pairing most fun and effective with another curious sharp mind on my side.  I've been lucky in that regard, in several projects, including my first consulting experience with Scott Johnson at EduFire.com and now most recently with you for Mightyverse.com. What matters is the willingness to make a better product, to improve the quality of the code, the pragmatism of a business person and the sense of aesthetics of the artist.  And one to keep me in check on all those aspects.</p>
+    <p>In many ways I'm just passing on what I learned from others before, like the folks at Pivotal Labs that really showed me the ropes in pair programming, Agile development, leveraging Rails to the fullest.  Some practical considerations that I find key are:</p>
+    <p>Equal access to the machine by either pairing partner--that includes the physical seating position in front of the monitor and of course dual keyboards and mice--but also things like common tools so that either partner feels more or less at home.  This might just be the time to look at IDE's such as RubyMine and leave Emacs and vi for editing config files on remote servers.  I also like the Mac/Linux environment we've had.  Adapting to the Mac keyboard when coming from Linux is easy enough, but dealing with backslashes and other quirks of Windows might cut into your ROI more than switching to a Mac/Linux environment would be.</p>
+- id: 572
+  author: "Adam Wolff"
+  url: "http://sharegrove.com"
+  date: '2009-07-27T15:52:06-08:00'
+  content: |-
+    <p>Looks like fun, sarah! So you just hook up two sets of input devices, and the computer knows what to do? or you use blackbox switcher?</p>
+- id: 573
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2009-07-28T04:26:47-08:00'
+  content: |-
+    <p>Indeed.  We just hooked everything up via USB and it all just works!</p>
+- id: 574
+  author: "Corey Grusden"
+  url: "http://www.coreygrusden.com"
+  date: '2009-08-14T10:32:46-08:00'
+  content: |-
+    <p>Awesome post Sarah! At Hashrocket we pair 100% of the time! Our setup is 2 developers are hooked in via USB to a 30" display. Makes it easy to see!</p>
+    <p>I'm interested to hear what Wolf was using when he came in and if you had to adapt to learn a new tool as well? A slight speed bump when pairing is when developers have character maps (dvorak vs. qwerty) or might use different tools in their local user's profile..</p>
+    <p>Once Tim Pope (maker of Rails.vim) joined us, we started migrating towards Vi since he wanted to use Vi. Pairing has helped all of us become MUCH better at it. So there are some definite fringe benefits to pairing other than bouncing ideas off each other, cranking through features, or writing great code.</p>
+    <p>Also, check out some of the stuff Corey Haines has been doing.  He's been traveling A LOT to pair with a lot of people and documenting the most of it!</p>
+- id: 575
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2009-08-14T18:11:52-08:00'
+  content: |-
+    <p>Before we started pairing, Wolf was using Aptana and I was using Vim.  Wolf was not eager to sharpen his vi skills, and I was interested in learning about interative debugging techniques offered by an IDE.  We had both heard of RubyMine which was in beta at the time and decided to try it out together.  RubyMine worked well for us, and we learned the IDE together.</p>
+    <p>We also worked on two operating systems with him on Linux and me on the Mac.  This was awkward at times, but most of the tools (RubyMine and the command line) were identical.  I did end up buying a spare Mac keyboard which helped since the keys are in different places.</p>
+    <p>By the way, Wolf will be visiting Hashrocket the week after next and you can ask him about it yourself!</p>
+    <p>Thanks for stopping by and continuing the conversation.</p>
+    <p>Sarah</p>
+- id: 577
+  author: "Rob Levin"
+  date: '2009-09-28T13:31:57-08:00'
+  content: |-
+    <p>OMG you lucky bastard J/K; I use rails.vim and have had to figure it out on my own and I'm probably not nearly utilizing it as I could. I ended up using more traditional command line to do some of the stuff that RGenerate, RServer, etc., do but would love to hear Tim Pope speak about using his awesome plugin. If you guys ever have something with him giving a presentation I would be "so there". I also use NERDTree and some other choice plugins to do RoR. I'd also be curious to hear how has your Vim adoption come along at your shop?</p>
+linked_from:
+- id: 576
+  title: "test-driven teaching"
+  url: "/2009/08/test-driven-teaching/"
+  date: '2009-08-16T19:47:05-08:00'

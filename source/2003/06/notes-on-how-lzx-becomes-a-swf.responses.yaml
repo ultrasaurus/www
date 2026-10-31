@@ -1,0 +1,46 @@
+comments:
+- id: 38
+  author: "Don Park"
+  url: "http://www.docuverse.com/blog/donpark"
+  date: '2003-06-18T14:34:02-08:00'
+  content: |-
+    <p>tag definitely helps, but I was thinking of finer-grained caching on the server side and  level caching on the client side.</p>
+- id: 39
+  author: "Josh"
+  date: '2004-12-09T14:10:39-08:00'
+  content: |-
+    <p>Can we save the generated SWF file for deployment without the server if it has no interprocess communication involved?</p>
+- id: 40
+  author: "Josh"
+  url: "http://www.getafile.com/cgi-bin/merlot/get/UVc/Laszlo/Laszlo.wmv"
+  date: '2004-12-14T07:42:42-08:00'
+  content: |-
+    <p>Sarah, thanks for the tips. Unfortunately I don't have an internet connection in my new apartment right now, but I will try to dowload that to my usb drive and check it out later. I was able to get the gallery application to run by instantiating my classes with javascript statements, though I would prefer to be able build the app with embedded XML, or, even better, apply a one-time pass through the XML to generate a static UI that will never change.</p>
+    <p>For the version that is connected to the server, I load the data for each gallery item dynamically, but I want to put this swf on a CD or web site that will not have a Laszlo installation available.</p>
+    <p>I sent you an email with the swf, but made some good improvements last night after sending it. If you are interested in seeing how I am using Laszlo, I made a 10 minute video about the project  available here:</p>
+    <p><a href="http://www.getafile.com/cgi-bin/merlot/get/UVc/Laszlo/Laszlo.wmv" rel="nofollow ugc">http://www.getafile.com/cgi-bin/merlot/get/UVc/Laszlo/Laszlo.wmv</a></p>
+    <p>It shows the gallery application running with the Laszlo backend server, so its fully functional.</p>
+    <p>Take care,<br>
+    Josh</p>
+- id: 41
+  author: "esz"
+  url: "http://www.m11.prv.pl"
+  date: '2005-02-19T00:08:58-08:00'
+  content: |-
+    <p>How to produce a swf with laszlo...</p>
+    <p>but non in fly but in solid, i have no my private WWW server, i need a swf to embed in site<br>
+    [php]</p>
+    <p>sorry for chaotical and bad english..</p>
+- id: 42
+  author: "Jason Luka"
+  date: '2006-01-16T10:41:21-08:00'
+  content: |-
+    <p>Okay, to get a straight SWF file:</p>
+    <p>Open the editor and pick an edit window.  I usually go 'Laszlo in 10 Minutes' to 'Introduction' to 'Hello World,' just because it's at the top of the list.</p>
+    <p>Put your code in and update.</p>
+    <p>If necessary, stretch the frame that has your applet so you can see an empty space on it.</p>
+    <p>I'm not sure what the protocol for this is in IE, since I only use Firefox.  On the frame with the applet, right-click the empty space and choose 'This Frame' to 'Open Frame in New Window.'</p>
+    <p>In the new window, scan the url and erase anything after .lzx.  Also, there'll be a double-slash somewhere in the URL.  Make it a single, then load the new URL.</p>
+    <p>You can fiddle with the options a bit, but they're not really worth messing with.  Just click SOLO.</p>
+    <p>On the next screen, just click CONTINUE.  There's nothing you need here.</p>
+    <p>After that, you have a link to the SWF at the top.  You can save it from there with a real name instead of the garbage IT comes up with.  When you press Continue, it'll give you the HTML code to implement it on your webpage.  Tada.</p>

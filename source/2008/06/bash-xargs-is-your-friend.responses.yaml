@@ -1,0 +1,8 @@
+comments:
+- id: 307
+  author: "barton"
+  date: '2010-05-20T14:43:39-08:00'
+  content: |-
+    <p>Sarah, this post is from 2008 but as it's beyond handy:</p>
+    <p>$ find . -type d -exec chmod 775 {} ;</p>
+    <p>So after you find whatever you want (all directories in this branch in this case) you then execute the chmod command with the curly brackets substituting in the found directories, and end the phrase with the sequence ;</p>

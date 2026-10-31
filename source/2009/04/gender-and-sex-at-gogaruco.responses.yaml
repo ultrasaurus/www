@@ -1,0 +1,364 @@
+comments:
+- id: 413
+  author: "josh susser"
+  url: "http://blog.hasmanythrough.com"
+  date: '2009-04-21T07:05:02-08:00'
+  content: |-
+    <p>Thanks for the feedback. This has been on my mind for the last few days and I've been planning to solicit feedback directly from the women at the conference but haven't yet gotten to it. I'm definitely sensitive to these issues, and I acknowledge that I didn't do the best job I could have making sure the program met the standards I wanted it to.</p>
+    <p>I do want to say that we did make a serious effort to be inclusive of women at the conference. I invited Jacqui Maher to speak not only because I think the work she does with Baobab Health is crucial and that I knew her talk would be great, but also because I think it's important to put good women presenters in the program both as role models and to attract other women to the conference. But many of the talks that were selected by voting got away from me, and I wasn't able to check them out beforehand to make sure they measured up. This is a good lesson for me for the future of the conference, and I'll know better next year.</p>
+    <p>If you have ideas about how GoGaRuCo (or tech conferences in general) can be more inclusive, I definitely want to hear them. For now, Matt has promised me a version of his slides without the images that we can use to record the useful content of his talk.</p>
+    <p>Feel free to contact me directly anytime. By the way, it was nice seeing you again at the conference, and thanks for all the great blogging on it.</p>
+- id: 414
+  author: "Erik"
+  url: "http://echographia.com/"
+  date: '2009-04-21T07:53:05-08:00'
+  content: |-
+    <p>Yeah, both of these bothered me too. Do you think the gender imbalance of the conference reflected the Ruby community? Or was it something about the conference (or, about conferences)?</p>
+- id: 415
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2009-04-21T08:36:30-08:00'
+  content: |-
+    <p>Erik,  my guess is that the number of women at the conference does reflect the Ruby community as a whole (although I don't have any stats on that).  Assuming my numbers are correct 6/200 is 3%.  That is an interesting number.  I've heard of two studies which each report the number of women contributing to open sources projects at 2-3%, far lower than the 18-20% number that I generally hear for women in CS/IT.</p>
+    <p>I think women are less likely to experiment with new technology just for fun and their volunteer efforts tend to be focused on the local homeless shelter or PTA activity than the traditional open source "scratching an itch."  Women typically have less free time than their male colleagues and gravitate toward large companies who have good benefits and HR departments.  Also, although the majority of small businesses are run by women, the majority of tech companies are still started by men.  If you are starting a company, you want your closest buds who you trust the most on your core team -- those are likely to be folks of your same gender.  Ruby tends to be used more in startups than in larger, established companies that have more inertia around their technology choices.</p>
+    <p>All that said, I think this is a good moment to reach out to women in tech and introduce Ruby to a wider, more gender-balanced audience.  With some focused outreach efforts, I think we could have much better balance at the conference next year.  And if anyone reading this is working in a group with 4 or more men, see what you can do to make sure your next hire is a woman.  Maybe the best candidate doesn't know Ruby yet.  At least make sure you interview a few women, before making a hiring decision.</p>
+- id: 416
+  author: "Matt Aimonetti"
+  url: "http://merbist.com"
+  date: '2009-04-22T09:04:31-08:00'
+  content: |-
+    <p>@sarah  thanks for your honest feedback. Outside of my wife who helped me prepare the talk and Leah who was working on GoGaRuCo, this is the first female feedback I have gotten. Leah said she talked to most women at the conference and nobody mentioned my talk but I can see how you could be offended by the topic.</p>
+    <p>You seem to mention that your problem with my talk was the amount of "racy" content in my talk. I did remove 3 slides that I quickly flashed (0.5s) during the talk, none of which could be defined as actual porn. So out of 82 slides, maybe 5 could be considered "risqué". It's true that I did not have any live coding session but I don't think you can say my talk was not technical and I did not focus on CouchDB.</p>
+    <p>I'm also surprised you are linking to my slides if you think they were so inappropriate.</p>
+    <p>Again, I'm not trying to be insensitive, but the title of the talk was very clear,  it was submitted to the audience by the GoGaRuCo organization, the audience chose the talk.</p>
+    <p>I personally don't believe the talk was sexist and none of the pictures I chose would show more than what you would see in a regular movie on TV. <br>
+    However, I do care about my audience, and next time, I will think twice before doing this kind of presentation in the US.</p>
+    <p>- Matt</p>
+- id: 417
+  author: "Seth Thomas Rasmusse"
+  url: "http://greatseth.com"
+  date: '2009-04-22T10:28:13-08:00'
+  content: |-
+    <p>I think the worst part of it was just that he didn't know when to leave the joke alone. Just bad comedic timing.</p>
+    <p>None of the imagery would have been off limits for some sectors of good ol' network TV. It's kind of unfair to make this about porn when none(by most standards) was shown. And let's not forget: we were all free to walk out during this presentation.</p>
+    <p>I don't think this is relevant to any discussion about the state of women in the industry or anything like that, either. Men were uncomfortable and/or offended, too. Maybe people would have felt better with some gay porn stars mixed in?</p>
+    <p>It would be unfortunate if the imagery from this presentation were censored for further reproduction. It would speak poorly to the maturity of our community and its respect for free expression.</p>
+- id: 418
+  author: "Leah Silber"
+  url: "http://www.gogaruco.com"
+  date: '2009-04-22T11:16:20-08:00'
+  content: |-
+    <p>Hi Sarah,</p>
+    <p>Great to see you this weekend!</p>
+    <p>3% is, I'm pretty sure, above average attendance for females at Ruby shows. We can all wax on about why women do or don't program in Ruby, but I'll certainly say that it's not because there's a problem with the men. All members of the community go out of their way to make anyone and everyone feel welcome, and they deserve a lot of credit for that.</p>
+    <p>As for Matt's presentation, I'll say this: we do not censor or pre-approve speaker content in any way. Thus far, it's just not been the Ruby conference way, and as someone who is vehemently anti-censorship, I think that's the *right* way for things to be. That means that there's sometimes room for a lame or tacky talk to sneak in, but more often than not, it means people surprise us with great news, stats and techniques on stage.</p>
+    <p>I think Matt got everyone's message loud and clear, and applaud him for working on a new version of the slides for those interested in the metaphor-free content. I didn't find the presentation particularly offensive myself, but respect the opinion of anyone who did.</p>
+    <p>What I *don't* like are the few folks (and I'm NOT talking about you here) expressing extreme moral outrage and raising a massive fuss everywhere they can. Matt got the message, it's been noted, and there's nothing left to do: take a deep breath, and stop calling everyone in your rolodex :P We're just a small group of Rubyists driving ourselves batty in an effort to give back to the community. Sometimes there are hiccups -- it happens, we human and we get it, move on.</p>
+    <p>Sarah -- you chose to write this post, so it was obviously a source of irritation to you, and that sucks, but what I'd *really* like to see is more on the content of the rest of the show. Your other posts were great and I'm sure everyone would be interested in any other observations you had on any of the technical content. Perhaps Matt's talk shouldn't be your primary source of info, but I'd love to hear more about your thoughts on CouchDB and anything else :)</p>
+    <p>Thanks again!</p>
+    <p>-- Leah</p>
+- id: 419
+  author: "knowtheory"
+  url: "http://blog.knowtheory.net"
+  date: '2009-04-22T12:34:23-08:00'
+  content: |-
+    <p>First: I find the gender inequality in the Ruby community both profoundly frustrating, and profoundly disturbing.  It is a subject i am concerned about as a member of our species, and as someone who has never had an opportunity to discuss ruby development with a female peer.</p>
+    <p>=============================</p>
+    <p>There are some things I am curious about.</p>
+    <p>The ruby community fails to do two things (in so far as it is concerned with gender equality at all [which near as i can tell, it does not]), the first is recruit and reach out to women in tech and tech related fields, and the second is to make an effort to retain &amp; promote gender balance.</p>
+    <p>This discussion falls into the later category (i.e. alienation).</p>
+    <p>I understand viscerally that this was alienating.  What i'd like to ask is what could have been different about it (besides to have totally phrased the analogy differently), that would have made Matt's presentation less alienating.</p>
+    <p>One thing my wife and i noted about the slideshare reel that there was really only one risque image of a naked man (Dr. Manhattan) in the censored reel... if there had been a better balance would it have been just as alienating?  If yes, would it be because of the gender balance (or lack thereof) at the conference?</p>
+    <p>(The point of this isn't merely academic.  We all have a sense of propriety, the question is where should the line be drawn, and upon what factors that depends.  This is a practical question too, for people who are pushing the boundaries for their presentations, which personally i don't think is a bad thing if executed successfully.)</p>
+- id: 420
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2009-04-22T17:49:45-08:00'
+  content: |-
+    <p>Matt,</p>
+    <p>Thanks for dropping by and adding a comment.  In the US, we might call some of the images "soft porn" (notably the blow-job shot in slide 8) but most were just sexy women.  Personally, I wasn't offended by the images themselves, but by their context.  I think you picked fairly tasteful and sometimes funny images.  I don't mind having images of sexy women and implied sex acts on my blog.  I mind seeing them in the context of a tech talk!</p>
+    <p>I wouldn't call your talk sexist, but I do believe that it was inappropriately sexual.  It was also overwhelmingly heterosexual, which can also alienate folks.</p>
+    <p>As I said, if you had left it as a few intro jokes, that cleverly related to the content of the talk, that would have been fine with me (although there may be other people who would have been uncomfortable with even that).  Mostly, I found it hard to concentrate on the code examples since I kept waiting for the next sexy lady to flash by.  I think it would have been distracting for any audience, not only in the US.  If you care about conveying your message and making your talk memorable for its technical content, you should skip the sexy pics in any country.</p>
+    <p>Sarah (<a href="http://twitter.com/ultrasaurus" rel="nofollow ugc">@ultrasaurus</a>)</p>
+- id: 422
+  author: "Greg Wilson"
+  url: "http://www.cs.toronto.edu/~gvwilson"
+  date: '2009-04-23T03:02:41-08:00'
+  content: |-
+    <p>Michelle Levesque and I did an article five years ago on why the gender imbalance in open source is so much worse than it is in computing as a whole (see <a href="http://www.cs.toronto.edu/~gvwilson/articles/open-source-cold-shoulder-2004.pdf" rel="nofollow ugc">http://www.cs.toronto.edu/~gvwilson/articles/open-source-cold-shoulder-2004.pdf</a>).  It's depressing that things don't appear to have improved.</p>
+- id: 423
+  author: "Ben Atkin"
+  url: "http://benatkin.com/"
+  date: '2009-04-23T09:12:28-08:00'
+  content: |-
+    <p>Sarah,</p>
+    <p>"And if anyone reading this is working in a group with 4 or more men, see what you can do to make sure your next hire is a woman. Maybe the best candidate doesn’t know Ruby yet. At least make sure you interview a few women, before making a hiring decision."</p>
+    <p>I was so turned off by the idea of suggesting a businessperson basing hiring decisions primarily on gender rather than skills or experience, that I missed the last part on my first read. I think you hit the nail on the head in the last sentence, though. It sounds like a great idea for a hiring manager to be sure to interview a few women! I think this alone could perhaps bring more talented women into the ruby community. If your hypothesis about women being less inclined to learn ruby in their free time is correct, then it seems that women who are skilled in another language ought to have no problem getting into ruby once they get a job programming ruby. For this to happen, however, women who don't have a lot ruby experience need to be offered interviews.</p>
+    <p>Perhaps you could write a separate blog post about how to get women to apply and suggesting that companies interview a few of them.</p>
+- id: 424
+  author: "Julia Evans"
+  url: "http://www.evansgate.blogspot.com"
+  date: '2009-04-23T09:57:13-08:00'
+  content: |-
+    <p>Sarah,</p>
+    <p>Thank you so much for writing about this issue. As you know, I too thought the material inappropriate for a professional conference. I emailed Matt personally (angrily at first, sorry to say, but more explanatory in a second attempt) and was surpprised by his inability to understand my problem with the slides. In my correspondence with Matt, he never acknowledged that there is a general standard of professional conduct outside his own peer group. By bringing a critique, I was accused of forcing my morals on him and trying to censor content.</p>
+    <p>I, like you, am not offended bythe actual content. I am disappointed and shocked at the context. Anyone would get fired for presenting this in just about any professional context, worldwide. The fact that this is considered acceptable at a Ruby conference is disturbing.</p>
+    <p>It is rare to see such oblivious and ignorant offence in this day and age.  Why is there such a large values gap between Ruby developers and the professional world at large? Perhaps because most Ruby developers are young and do not have very much experience working in a variety of environments. Maybe because they associate mostly with folks like themselves and do not get varying viewpoints. By isolating themselves from the larger professional world, they have made themselves the rednecks of software development. Perhaps we should call them "Ruby-necks"?</p>
+    <p>In any case, this is a good example of how insular the software development environment is. It is a boy´s club, where locker-room behavior is overlooked, and indeed, not even acknowledged. Until now.</p>
+- id: 425
+  author: "Seth Rasmussen"
+  url: "http://greatseth.com"
+  date: '2009-04-23T12:11:52-08:00'
+  content: |-
+    <p>I'm glad Leah commented on how she doesn't think the lower female involvement is a symptom of a problem with the community. Those expressing disappointment that things aren't "better" should note this, especially the men expressing such things. If you want to reach out to women, great, but why not men, too? Why stop at gender differences? Etc.</p>
+    <p>Julia, your opinions about what is appropriate conduct are just that. The fact that you couldn't commit to saying *all* professional contexts reinforces the reaction about moral judgement and censorship. You want to declare what is "right" and have it accepted. Matt did that in his own little way with his presentation. We all do it in varying ways every day. It's our right, but we're all better off when we can relax and be more tolerant because there are no black and white situations in life. You can disapprove all you like, but I think it distracts from things that really matter to focus on these kinds of details.</p>
+    <p>On that note, somebody made a great point to me the other day: the real failure here is that everyone is talking about Matt's pictures and not the content of his talk. ;)</p>
+- id: 426
+  author: "Marshall Kirkpatrick"
+  url: "http://readwriteweb.com"
+  date: '2009-04-24T08:05:54-08:00'
+  content: |-
+    <p>The title slide said to me that this presenter is ignorant and hostile to women in the audience whom you know are going to be uncomfortable.  The rest of the presention isn't anything I've got the technical chops to evaluate but if this presenter was working on a project with me and communicated like this - one of us wouldn't be working on that project much longer.</p>
+- id: 427
+  author: "Julia Evans"
+  date: '2009-04-24T08:47:36-08:00'
+  content: |-
+    <p>Seth and Matt:</p>
+    <p>Normally, I would have left this issue well alone by now. But I am faced with such gross incapacity to understand, i have to make one more comment:</p>
+    <p>This is my contention: A presentation with a porn theme is not appropriate in a professional context.</p>
+    <p>That is not my opinion. That is a fact. You can argue against this assertion two ways:</p>
+    <p>1) Pornography is perfectly appropriate in a professional context. You could use this presentation anywhere and it would be acceptable.</p>
+    <p>2) The Ruby conference was not professional. It is an exception. Standard rules of behavior do not apply because......</p>
+    <p>You do NOT argue against my contention by siting corner cases or exceptions to the general rule, (entertainment industry) or attacking ad hominem, by calling into question my character.</p>
+    <p>I am not saying that because I PERSONALLY believe this presentation was out of line you should agree with me.</p>
+    <p>I am saying this presentation is out of line with general standards at large. You can agree or disagree with that.</p>
+    <p>-Julia</p>
+- id: 428
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2009-04-24T08:56:28-08:00'
+  content: |-
+    <p>Quoting Seth:  "You can disapprove all you like, but I think it distracts from things that really matter to focus on these kinds of details....On that note, somebody made a great point to me the other day: the real failure here is that everyone is talking about Matt’s pictures and not the content of his talk."</p>
+    <p>And in my mind, and the majority consensus here, the failure is not a failure of the audience, but rather a failure of the talk to not focus on the topic, but rather to include distracting and unprofessional imagery.</p>
+    <p>And to Julie:  I want to let you know that I don't think this is the norm for the Ruby community.  Every other man I met or heard speak at the conference was focused on the technology and communicating his excitement about the language or framework or whatever was the topic at hand.  The attendees were great to talk to, I enjoyed the conference a lot and learned a lot.  In general, the Ruby community is awesome and welcoming to anyone who shows an interest in the language.  This is the exception, not the rule.</p>
+- id: 429
+  author: "Jay Levitt"
+  url: "http://www.jay.fm"
+  date: '2009-04-24T09:53:54-08:00'
+  content: |-
+    <p>It's not about whether the images 'could be considered “risqué”', or whether you could see the same thing on network TV. It's about context.</p>
+    <p>I can see depictions and dramatizations of racism on network TV at any time of the day (including children's programming). It would nonetheless be inappropriate for me to give a detailed, technical talk about red/black trees if the red nodes were illustrated with Indians in feathered headdresses trading wampum for scalps, and the black nodes flashed gang signs and ate watermelon and fried chicken.</p>
+    <p>Get it?</p>
+- id: 430
+  author: "amy newell"
+  url: "http://thirdbit.net"
+  date: '2009-04-24T12:52:42-08:00'
+  content: |-
+    <p>I wasn't at the conference, but I am a woman ruby developer, and I ended up seeing the slideshow after DHH tweeted approvingly about it. Since then, it's frankly been bothering me a lot, more than I would have expected it to.  I've been a ruby developer involved in the Boston Ruby community for over 2 years now, and I'd like to echo other commenters who have said that this presentation is not at all the norm in the ruby community as a whole.  My male colleagues are overwhelmingly respectful and appropriate and great fun to work with and talk code with, and not in a censored, uptight, overly formal, hyper-professional, afraid-of-getting-sued way.  The first time I attended the Boston Ruby group, I had a (very quiet) 3-month-old with me, and I sat nursing her discreetly in the very back row with nary a raised eyebrow.</p>
+    <p>But I think that's precisely why I find myself so bothered by those slides, and by what I've read of Matt's response to criticisms of them, and by DHH's twittering approval of their style. With the coming merger of ruby and merb, and the increasing importance of rails in ruby development generally, Matt and DHH are very real leaders of the ruby community.  I think the ruby community had a good start, with the whole Matz is Nice and So We Are Nice (minaswan) slogan of the early days. But norms of behavior do evolve, and when there are very distinct leaders of a community, the norms tend to evolve in their direction. So when I see community leaders doing and condoning things that I don't think we need to see more of, it doesn't quite seem like enough to just agree to disagree. I don't want my beloved ruby community to become a woman-unfriendly place, and if very important people in the community are the ones leading the way, then the rest of us, not-so-important people, have to fight extra hard to keep it from happening.</p>
+    <p>Leah, you wrote above: "I think Matt got everyone’s message loud and clear. [ ... ]<br>
+    What I *don’t* like are the few folks (and I’m NOT talking about you here) expressing extreme moral outrage and raising a massive fuss everywhere they can. Matt got the message, it’s been noted, and there’s nothing left to do.."</p>
+    <p>I wish I could agree with that. Like Julia, above, I don't really get the sense that Matt did get everyone's message loud and clear.  If he'd said, simply "Hey, it was a bad call, I didn't intend it that way but I'm really sorry about it," then okay. But there's a fair of amount of self-defensiveness in his responses to the criticisms. He points out that the title of his talk was approved in advance, that his wife said the talk was fine, that the content isn't racier than TV, that people have different ideas about what's acceptable conference content,that only 5 slides could be considered risque, that he personally doesn't consider the talk sexist and was just trying to be entertaining and make a joke. There's very much a sense of "oh, don't take things so seriously" and not much of an effort that I can see to understand why people might take things so seriously. Like, no sense of history.  I'm also concerned about how DHH piled on and publicly approved of the style and content of the presentation. If he hadn't, then fine, maybe I'd agree, there's nothing left to do. But obviously there _is_ something left to do.</p>
+    <p>I mean, honestly, I thought my mom had done all that for me, and I could just sit back and enjoy a wonderful post-feminist world, so I guess I'm kind of pissed off that that turns out not to be the case. "all of this has happened before, and all of this will happen again" and it just makes me so damn tired.</p>
+    <p>I understand that the ruby community prides itself on its un- or anti-professionalism. But some professional norms exist for very good reasons: because they make it easier for people of different backgrounds and life experiences to come together and work productively and respectfully. One doesn't have to be an uptight square to suggest that aggressive displays of sexual content at programming conferences perhaps decrease, rather than increase the ability of those attending to learn and focus on the technology itself. Titillation is certainly good marketing, but frankly, if you can't find a way to make your presentation interesting that doesn't include thonged asses, your presentation isn't interesting. Not everyone responds to tits and ass, but everyone can respond to honest, creative, intelligent command of the material and eagerness to share it.</p>
+    <p>sorry for such a long comment, thanks for the blog post giving me a forum to write it.</p>
+    <p>amy <a href="http://twitter.com/amynewell" rel="nofollow ugc">@amynewell</a></p>
+- id: 432
+  author: "Robert"
+  date: '2009-04-25T15:00:09-08:00'
+  content: |-
+    <p>That kind of crap doesn't belong in a professional presentation.</p>
+- id: 433
+  author: "Eric"
+  date: '2009-04-25T15:44:59-08:00'
+  content: |-
+    <p>This debate seems to revolve around something very simple: respect. Respect for your work, respect for your audience, respect for your own ideas and presentation. Using Pr0n photos, jokes and concepts in your presentation shows a lack of respect.</p>
+    <p>At my first tech job I did not dress in a professional way. I dressed in a very casual way. Nobody told me, "Hey, clean yourself up kid!" but I wish they would have. The signal I sent by what I was wearing was "I don't really respect this job, my colleagues, my boss or this company. In fact, I don't really respect the work I'm doing." I am sure I missed many opportunities to connect with people. What did I gain? A modicum of comfort. Looking back, I would have rather been able to connect with more cool people.</p>
+    <p>Another example: In Arabic cultures it is disrespectful to point the soles of your feet at another person. That means that in an international context, it is inappropriate to sit in certain ways. What can one lose? A modicum of comfort. What can one gain? A friend.</p>
+    <p>Adapting ourselves to others in a professional setting isn't about losing our own identity and values, it's about gaining the ability to come together and share.</p>
+- id: 434
+  author: "Giles Bowkett"
+  url: "http://gilesbowkett.blogspot.com"
+  date: '2009-04-25T17:41:47-08:00'
+  content: |-
+    <p>As I usually do, I'm going to make with the threadjack. People in the Ruby community don't know how to apologize gracefully. If you're going to defend yourself, defend yourself. If you're going to apologize, then apologize. Apologies like Matt's just look like a guy giving you the finger while wearing a suit. I'm going to tell you that nobody else minded - you're the weird one - and I'm going to explain how it was all right that I did what I did. And then I'm going to tell you I'm sorry I hurt your feelings, in a way that sounds not like saying "I'm sorry, I should have been considerate," but "I'm sorry for you, to be so weak that you need special treatment."</p>
+    <p>I've seen this bullshit before, twice, and I didn't accept the apology either time. I don't think you should accept Matt's apology. That's a pathetic apology. You want to communicate compassion and consideration for the other person, not pity and self-righteousness.</p>
+    <p>Obviously for me to dis people on self-righteousness is the pot calling the kettle black, but that was some condescending bullshit and I didn't like it. You don't dispute or bicker in an apology - that's just not the way to do it - and it's certainly not logical to act surprised. You made people uncomfortable by showing them inappropriate pictures of naked people. OMG! Who could have seen that one coming?</p>
+    <p>I put huge slides with four-letter words on the screen when I give presentations, but it never makes anybody feel uncomfortable. But that's because there's an art to these things, and I know every time I do it that I might go too far and have to eat my pride and apologize. You did it wrong. The fact that anybody blogged about it means you did it wrong. So you have to just accept that and be a man about it instead of arguing with her. If a woman tells you that putting giant sexually suggestive images in front of her made her uncomfortable, you don't get to bicker about that. Your only option is to accept the humiliating consequences of what you did. Be grateful she used a blog post to tell you. She could have used a lawyer.</p>
+- id: 435
+  author: "David Moreno"
+  url: "http://damog.net"
+  date: '2009-04-25T18:12:02-08:00'
+  content: |-
+    <p>Rubber fists, anyone?</p>
+- id: 436
+  author: "Anonymous"
+  date: '2009-04-25T18:35:06-08:00'
+  content: |-
+    <p>stop being such a sexist.<br>
+    on the internet most people don't care if you're male or female. and half the people who do care won't believe you're female anyway.</p>
+    <p>so just stop with all the "boohoo there aren't enough women here" bullshit.<br>
+    you're not doing women any favors by pointing out that there are so few women there. if you want to change it, stop complaining about it and bring more women to these things. all you're doing by being butthurt about it is making all women look like idiots.</p>
+- id: 437
+  author: "Laurent Sansonetti"
+  url: "http://chopine.be/lrz"
+  date: '2009-04-25T20:12:23-08:00'
+  content: |-
+    <p>I was at the conference during this talk and I seriously fail to see the real controversy here... it has been clear for me since the very beginning that these slides were just humor and should not have been taken seriously. I showed the presentation to my wife who also perceived the same thing (but we are open minded).</p>
+    <p>Besides, the slides did not contain any pornography, only light sexual connotations. If you feel offended maybe you should take some time and think about why instead of blaming others, because I think the problem is in your side...</p>
+- id: 438
+  author: "Denise"
+  date: '2009-04-25T20:58:54-08:00'
+  content: |-
+    <p>Only six women at the conference ... it explains everything, off course the majority liked it! Good on you for posting this blog, the issue is not about censorship and feedome of speech, the issue is about mutual respect, there are no rules or laws for this, only human judgement.</p>
+- id: 439
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2009-04-25T21:04:21-08:00'
+  content: |-
+    <p>Thanks everyone for the comments, but I think we're starting to tread over the same ground here.  I have appreciated the discussion, particularly the analysis as to why the imagery in Matt's talk didn't work out the way he planned.  Respect, context, humor, knowing when to draw the line and pushing the edge... this is a good conversation to have.</p>
+    <p>I think the Ruby community is awesome.  The weird shit is reflective of society as a whole and the tech industry in particular.  Sometimes people are jerks.  Sometimes nice people act like jerks.  However, the cool stuff is genuine.  The enthusiasm is infectious.  It's not just a love the latest whiz bang techno-goodie (although there is a lot of that); many folks are interested in contributing to something bigger, <a href="https://www.ultrasaurus.com/sarahblog/2009/04/using-ruby-to-fight-aids/" rel="nofollow ugc">something that makes the world a better place</a>, even in the kinds of small ways that software can sometimes help.</p>
+    <p>I've enjoyed most of the posts, and didn't censor the ones I thought were stupid, although I was tempted.  I am a bit disappointed in DHHs vapid <a href="http://twitter.com/d2h/status/1585995449" rel="nofollow ugc">contributions</a> to the discussion... too bad he has nothing more interesting to say to his 9,104 followers.</p>
+    <p>Matt &amp; I exchanged some emails.  He's not a bad guy, and I do hope he writes somthing about CouchDB for the conference proceedings without the sexual overtones.  He's offered to answer my questions if/when I take a look at CouchDB and perhaps write the blog post that should have been.  I'll bet it'll have fewer comments.</p>
+- id: 455
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2009-05-03T03:33:07-08:00'
+  content: |-
+    <p><a href="http://gja.in/" rel="nofollow ugc">Tejas Dinkar</a> notes a cultural reference that I missed:</p>
+    <p>... and showed a picture (slide 13) with four drab looking people, including one women, ...</p>
+    <p>This is the cast of "The IT Crowd", a british TV show (like the Office) [1]. There is nothing drab about them, and the guy with the funky haircut (Moss) is frankly awesome.</p>
+    <p>[1] <a href="http://en.wikipedia.org/wiki/The_IT_Crowd" rel="nofollow ugc">http://en.wikipedia.org/wiki/The_IT_Crowd</a></p>
+linked_from:
+- id: 421
+  title: "Double Shot #437 « A Fresh Cup"
+  url: "http://afreshcup.com/2009/04/23/double-shot-437/"
+  date: '2009-04-23T02:25:39-08:00'
+- id: 431
+  title: "Dear Fellow Rubyists « Dyepot, Teapot"
+  url: "http://dyepot-teapot.com/2009/04/25/dear-fellow-rubyists/"
+  date: '2009-04-25T12:14:57-08:00'
+- id: 440
+  title: "Ruby, Rails, Web2.0 » Blog Archive » Rails *is* (still) a Ghetto"
+  url: "http://www.rubyrailways.com/rails-is-still-a-ghetto/"
+  date: '2009-04-27T04:46:56-08:00'
+- id: 441
+  title: "golden gate ruby conference"
+  url: "/2009/04/golden-gate-ruby-conference/"
+  date: '2009-04-27T07:02:09-08:00'
+- id: 442
+  title: "Be Professional or Be Edgy: How Context Can Keep Everyone Happy"
+  url: "http://www.rubyinside.com/be-professional-or-be-edgy-how-context-can-keep-everyone-happy-1709.html"
+  date: '2009-04-27T08:02:49-08:00'
+- id: 443
+  title: "QuirkeyBlog » Blog Archive » The ghetto of the mind"
+  url: "http://www.quirkey.com/blog/2009/04/27/the-ghetto-of-the-mind/"
+  date: '2009-04-27T08:14:28-08:00'
+- id: 444
+  title: "Ruby’s role models « garann means business"
+  url: "http://garann.wordpress.com/2009/04/27/rubys-role-models/"
+  date: '2009-04-27T11:16:32-08:00'
+- id: 445
+  title: "??? ??? ????? ????"
+  url: "http://toby.epril.com/?p=749"
+  date: '2009-04-27T16:14:17-08:00'
+- id: 446
+  title: "Rails is not a ghetto, it’s a train station. | Coreguardian"
+  url: "http://www.coreguardian.org/?p=165"
+  date: '2009-04-27T22:37:09-08:00'
+- id: 447
+  title: "Time for Rails to Grow Up « Straight, No Chaser"
+  url: "http://kylecrum.wordpress.com/2009/04/30/time-for-rails-to-grow-up/"
+  date: '2009-04-29T16:56:54-08:00'
+- id: 448
+  title: "the impossible girl"
+  url: "http://www.theimpossiblegirl.co.uk/2009/04/porn-ruby-headdesk/"
+  date: '2009-04-30T04:53:00-08:00'
+- id: 449
+  title: "Rails Conference Debacle @ Straw Dogs"
+  url: "http://www.straw-dogs.co.uk/05/01/rails-conference-debacle/"
+  date: '2009-04-30T23:24:58-08:00'
+- id: 450
+  title: "Sarah Taraporewalla’s Technical Ramblings » How I Perform like a p0rn star"
+  url: "http://sarahtaraporewalla.com/thoughts/women-in-it/how-i-perform-like-a-p0rn-star/"
+  date: '2009-05-01T00:03:30-08:00'
+- id: 451
+  title: "Why are there so few women in technology? « Feminist Philosophers"
+  url: "http://feministphilosophers.wordpress.com/2009/05/01/why-are-there-so-few-women-in-technology-fields/"
+  date: '2009-05-01T01:48:24-08:00'
+- id: 452
+  title: "Playing hookey - Part II | The Happy Moron"
+  url: "http://thehappymoron.com/blog/2009/05/01/playing-hookey-part-ii/"
+  date: '2009-05-01T05:48:34-08:00'
+- id: 453
+  title: "Extra Thimian » On Edginess, Community, and How That Reflects on You"
+  url: "http://blog.thimian.com/2009/05/02/on-edginess-community-and-how-that-reflects-on-you/"
+  date: '2009-05-01T15:25:41-08:00'
+- id: 454
+  title: "Closer To The Ideal » Blog Archive » Porn, fuck and the gender openness of the Ruby on Rails community"
+  url: "http://www.teamlalala.com/blog/2009/05/02/porn-fuck-and-the-gender-openness-of-the-ruby-on-rails-community/"
+  date: '2009-05-02T19:39:09-08:00'
+- id: 456
+  title: "digg » Blog Archive » Sexy Software Presentation Reveals Gender Discrimination in Tech World"
+  url: "http://www.digg.co.za/?p=3449"
+  date: '2009-05-04T02:56:08-08:00'
+- id: 457
+  title: "Ruby’s Porngate « Code Simian: Pixelated Swagger"
+  url: "http://codesimian.wordpress.com/2009/05/06/rubys-porngate/"
+  date: '2009-05-06T08:39:57-08:00'
+- id: 458
+  title: "The Dude – On the Malaysian community of “rockstars”"
+  url: "http://ditesh.gathani.org/blog/2009/05/07/on-the-malaysian-community-of-rockstars/"
+  date: '2009-05-07T06:12:31-08:00'
+- id: 459
+  title: "technology and gender"
+  url: "http://michaeljfaris.com/blog/2009/05/technology-and-gender/"
+  date: '2009-05-20T13:18:43-08:00'
+- id: 460
+  title: "Getting bugs out of our systems « Everybody’s Libraries"
+  url: "http://everybodyslibraries.com/2009/05/27/getting-bugs-out-of-our-systems/"
+  date: '2009-05-27T06:21:12-08:00'
+- id: 461
+  title: "Omega Point » Blog Archive » “Why do you write about technology? Wouldn’t you rather be writing about fashion or something?”"
+  url: "http://www.catherineomega.com/2009/174/why-do-you-write-about-technology-wouldn%e2%80%99t-you-rather-be-writing-about-fashion-or-something"
+  date: '2009-06-09T22:13:26-08:00'
+- id: 462
+  title: "Embracing Gender Diversity in Technology at Amatuer Rocket Surgery"
+  url: "http://ian.sundermedia.com/2009/06/embracing-gender-diversity-in-technology/"
+  date: '2009-06-12T10:33:49-08:00'
+- id: 463
+  title: "The where-are-all-the-women question, this time in Open Source | Lady Only! Blog."
+  url: "http://dalady.com/beauty/the-where-are-all-the-women-question-this-time-in-open-source/"
+  date: '2009-08-08T12:59:55-08:00'
+- id: 464
+  title: "Porn. Ruby. *headdesk* » zetkin.net"
+  url: "http://zetkin.net/?p=8"
+  date: '2009-11-24T12:24:44-08:00'
+- id: 465
+  title: "Rails is awesome … too bad the creater and much of the community are total dickwads. | Rebecca Miller-Webster"
+  url: "http://www.rebeccamiller-webster.com/?p=20"
+  date: '2010-11-28T20:11:35-08:00'
+- id: 466
+  title: "banane » Blog Archive » 1%"
+  url: "http://www.banane.com/2011/02/14/1/"
+  date: '2011-02-14T08:01:35-08:00'
+- id: 467
+  title: "Re: A Letter to the Developer Community | Musings and Opinions"
+  url: "http://tomfrauenhofer.com/?p=50"
+  date: '2011-11-09T10:33:08-08:00'
+- id: 468
+  title: "Blame the Men Who Are Behaving Badly – Coyote Tracks"
+  url: "http://kagan.mactane.org/blog/2010/09/09/blame-the-men-who-are-behaving-badly/"
+  date: '2011-11-13T14:21:14-08:00'
+- id: 470
+  title: "How to Ensure a Diverse Tech Event | swirlspice"
+  url: "http://www.swirlspice.com/5834/how-to-ensure-a-diverse-tech-event/"
+  date: '2013-01-03T17:34:28-08:00'
+- id: 472
+  title: "RubyKaigi 2013 – great conference, but I probably wouldn’t go next year if I was a woman |"
+  url: "http://peterevjan.com/posts/rubykaigi-2013-great-conference-but-i-probably-wouldnt-go-next-year-if-i-was-a-woman/"
+  date: '2013-06-01T03:03:48-08:00'
+- id: 1235
+  title: "stories of shitty behavior don’t make me want to leave…"
+  url: "/2013/10/stories-of-shitty-behavior-dont-make-me-want-to-leave/"
+  date: '2013-10-12T12:58:49-08:00'

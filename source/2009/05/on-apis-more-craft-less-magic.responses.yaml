@@ -1,0 +1,31 @@
+comments:
+- id: 493
+  author: "Matthew Lang"
+  url: "http://matthewlang.co.uk"
+  date: '2009-05-06T11:56:38-08:00'
+  content: |-
+    <p>Great piece Sarah!</p>
+    <p>It seems that API design has been left out for some time now while Rails developers got fixed on the new application specific features that the framework had to offer.</p>
+    <p>With the new Rails 3 framework started, and tech like Rails Metal, Rack and Sinatra, more and more developers might start caring more for their API design as well as their application design.</p>
+- id: 495
+  author: "ste"
+  date: '2009-05-07T03:05:24-08:00'
+  content: |-
+    <p>"Rails seems to assume that you want to expose your database object model transparently through your API.  "<br>
+    Rails doesn't assume this, like it doesn't assume that you should have an isomorphic mapping between models and controllers. It's all about exposing resources: the fact that most developers seem to equate resources with models (and, therefore, tend to expose their object model through their APIs) has nothing to do with Rails (well, maybe the guilt is partly to lay on scaffolding, which may have encouraged this mindset)</p>
+- id: 496
+  author: "clibou"
+  url: "http://cliveboulton.com"
+  date: '2009-05-10T21:21:58-08:00'
+  content: |-
+    <p>checkout Twitter API dev Alex @ Stanford<br>
+    RT @Al3x Slides from talk today: <a href="http://bit.ly/68cej" rel="nofollow ugc">http://bit.ly/68cej</a>. And video (WMV): <a href="http://bit.ly/QrLfS" rel="nofollow ugc">http://bit.ly/QrLfS</a>. Of interest if you're into API design.</p>
+linked_from:
+- id: 494
+  title: "Double Shot #447 « A Fresh Cup"
+  url: "http://afreshcup.com/2009/05/07/double-shot-447/"
+  date: '2009-05-07T02:23:43-08:00'
+- id: 497
+  title: "Dev Blog AF83 » Blog Archive » Veille technologique : Infrastructure Ruby Rails, HTML, Javascript, Tutoriels, Git, Regexp"
+  url: "http://dev.af83.com/veille-technologique/veille-technologique-infrastructure-ruby-rails-html-javascript-tutoriels-git-regexp/2009/05/12/"
+  date: '2009-05-11T14:16:46-08:00'

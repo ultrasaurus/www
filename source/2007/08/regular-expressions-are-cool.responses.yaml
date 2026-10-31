@@ -1,0 +1,10 @@
+comments:
+- id: 290
+  author: "Ian Wojtowicz"
+  url: "http://woj.com"
+  date: '2007-08-23T17:51:36-08:00'
+  content: |-
+    <p>Combining regular expressions with email archives and speech synthesis can be a fun way to recall the past, and reflect on aspects of one's personality or relationships with others.</p>
+    <p>I wrote a little app a few years ago that would read aloud all self-referential statements from my email archives.</p>
+    <p><a href="http://woj.com/whispers/" rel="nofollow ugc">http://woj.com/whispers/</a></p>
+    <p>It's a very solipsistic art app, but the point is that there are some interesting interaction possibilities when you intersect a few powerful tools.</p>

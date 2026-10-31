@@ -1,0 +1,10 @@
+comments:
+- id: 327
+  author: "Samuel Wan"
+  date: '2008-11-26T09:36:43-08:00'
+  content: |-
+    <p>Hi Sarah!</p>
+    <p>What comes next might be a phase of lots of  experimentation made possible by open source unstructured databases like CouchDB.</p>
+    <p>CouchDB is an up-and-coming schema-less document database that just ended its incubation status and reached top-level project status in the Apache organization. The API is HTTP-based, the default GUI is HTTP-based (though you can proxy it), and information is serialized in the JSON format. Because CouchDB applies higher order functions in the map-reduce pattern incrementally on the data, it has the potential to handle search and retrieval of large data sets at a logarithmic rate of performance.</p>
+    <p>If the UI is just data stored with in the same way as the data manipulated by the UI, you might get a paradigmatic example like this: <a href="http://jchris.mfdz.com/posts/128" rel="nofollow ugc">http://jchris.mfdz.com/posts/128</a></p>
+    <p>-Sam</p>

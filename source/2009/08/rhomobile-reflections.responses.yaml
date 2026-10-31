@@ -1,0 +1,13 @@
+comments:
+- id: 589
+  author: "Adam Blum"
+  date: '2009-08-15T10:04:32-08:00'
+  content: |-
+    <p>Sarah,</p>
+    <p>Nice post. As far as robust examples go, click on the Customers page on our website where we link to the source code for Vdg Group's Issues To Go app and Wikipedia's app. Otherwise I liked it and we think you'll really love rhohub when it's ready to release.</p>
+    <p>Adam</p>
+- id: 590
+  author: "Rob Levin"
+  date: '2009-09-28T13:22:32-08:00'
+  content: |-
+    <p>Thanks for the article Sarah! It's great to hear from someone who's been actually "using" the technology. I went to the East Bay Ruby and Adam (above) gave a very compelling overview of his technology. Having went from knowing nothing about Objective C &amp; Cocoa to building a Timesheet/Expense tracking productivity application earlier this year, the idea of "ramping up" on Android, Blackberry, etc., terrifies me! Perhaps, when the time comes (which may be soon), I'll give Rhodes a try and see if I can roll out my project with success. My current project is very Javascript'ie - CSS intensive so it may be a perfect fit. Thanks again for the 411 Sarah!</p>

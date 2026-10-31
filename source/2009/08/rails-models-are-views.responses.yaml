@@ -1,0 +1,52 @@
+comments:
+- id: 613
+  author: "Jacob Rothstein"
+  url: "http://www.jacobrothstein.com/"
+  date: '2009-08-31T21:31:35-08:00'
+  content: |-
+    <p>I agree wholeheartedly about the inappropriateness of the to_json and to_xml methods.  As soon as you want to start messing with them, you're putting view code into the model layer, which is just wrong.  I was surprised there wasn't a JSON builder/template handler, so I hacked one out.  It's up on github at <a href="http://github.com/jbr/argonaut" rel="nofollow ugc">http://github.com/jbr/argonaut</a>.  I'm not certain that I feel the builder pattern is more elegant than just building up a Ruby hash and calling to_json on it, but it was certainly fun to build.  Yay Rails!</p>
+- id: 614
+  author: "Robin Curry"
+  url: "http://blog.robincurry.com"
+  date: '2009-08-31T21:35:30-08:00'
+  content: |-
+    <p>It definitely feels like a glaring omission that there is not a JSON builder similar to xml builder. The way I've gotten around this in an app where I had a similar issue was to create an erb template (i.e. index.json.erb) and build the json response inside by hand. Then just render the template in the format.json block instead. Seems like a kludge though.</p>
+- id: 615
+  author: "seth"
+  date: '2009-09-01T00:00:39-08:00'
+  content: |-
+    <p>fresh out of rails rumble, a haml-like json generation language: <a href="http://rozenbom.r09.railsrumble.com/tequila" rel="nofollow ugc">http://rozenbom.r09.railsrumble.com/tequila</a>.</p>
+- id: 616
+  author: "Michael Hines"
+  date: '2010-04-13T23:29:56-08:00'
+  content: |-
+    <p>I think you're misunderstanding MVC.  It's not the controller's job to "mediate" the interaction between models and views.  What you are describing is a model-view-adapter paradigm.  In MVC the role of a model is to represent the data in a machine-readable format, the role of the view is to make the model easy for the user to understand by renderering data into a human-understandable form based directly on the models, and the role of the controller is to respond to events by telling the view and/or the model what to do with that event (what, not how).  Note that the controller's job is not to translate the model for the view, that's the view's job.  Classically, you should not be joining strings or totaling numbers for the view in your controller.</p>
+    <p>MVC was designed to be appropriate for creating end-user applications in the 70s.  It was not designed with inter-process communication in mind, and so it's not surprising that the concept doesn't fit well.  Therefore there are two appropriate ways to deal with this.  The first is to consider the machine requesting data as a user, and give it a response as a view designed to represent its expected representation of the data.  This is appropriate for example when you need to conform to an arbitrary xml doctype that is not well represented by the internal state of your model.  For example, if you need to manipulate the data from the model to represent new things that are only useful to the consumer.</p>
+    <p>When you have control over the consumer or are defining your own API, it's more appropriate to expect that the internal representations of the model are/will be the same on both ends.  With this in mind, when a consumer makes a REST API request the controller receives this event and understands it as a request for a machine-representation of the data.  This is the model's job, so it's entirely appropriate for the controller to respond by returning the model.  JSON or XML is just your chosen text-serialized representation of the internal data of your model, it's not a "view" in this case.</p>
+    <p>Note also, that the concept of a RESTful interface favors the second option when your resources are well represented by you models, which they are in most Rails apps.  You should be thinking twice when you do this:<br>
+          xml.sku product.sku<br>
+          xml.name product.name<br>
+          xml.brand product.brand<br>
+    And it's appropriate to expect that your client already knows how to find a basic action, since you're using RESTful URIs, so you just need to give them a key (not necessarily the one in your database).  You don't need to offer them this:<br>
+          xml.img_url url_for(:controller =&gt; :products, :action =&gt; :show, :format=&gt;:png, :id =&gt;</p>
+    <p>Also, you say URIs "belong in the view layer".  A URI is actually a request on the controller, not the view.  Just because your .erb files are in the folders that correspond to your URIs doesn't mean that the request for a URI is a request for a representation of that view.  The fact that the structure of views might mimic the structure of your controllers and models is not something inherently MVC.  It's actually a sign that you might have a poor user interface, since the point of MVC is to let views represent data in a structure more appropriate for user interaction than the model representation can.</p>
+- id: 617
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2010-04-14T11:34:36-08:00'
+  content: |-
+    <p>Micheal,</p>
+    <p>Thanks for your thoughtful response to my post. I agree that the Controller's primary role is to mediate interaction with the user, but in Rails the standard pattern is for the controller to pick out the URL params and find which model to act on and then render a specific view for that model.</p>
+    <p>The issue I was raising in the first code example was that there is no view if the controller simple calls .to_json on the model.  You suggest that this is one viable option when we are creating machine-to-machine communication and we control both ends.  You have a point that I think many would agree with.  However, I believe that it is the better pattern to think of machine-to-machine communication as a user interface. In defining the ways in which machines communication, we define protocols.  I would argue that it is never a good idea to directly expose an internal data structure in a protocol -- that may be a starting point, but at minimum you will want to add a version field!  By exposing the internal data structures of one subsystem, it can make it easy to accidentally break another subsystem when you optimize the implementation and make other non-functional changes.</p>
+    <p>That said, in thinking about this further, I wonder if the right approach to the problem I describe above would be to have the model define a custom to_json implementation with an optional version argument, so it can maintain multiple representations of its data.</p>
+    <p>Sarah</p>
+- id: 618
+  author: "Dmitry"
+  url: "http://dmitry.eu"
+  date: '2010-09-01T17:35:19-08:00'
+  content: |-
+    <p>What do you think to use something like that: <a href="http://github.com/nothingmuch/template-plugin-json" rel="nofollow ugc">http://github.com/nothingmuch/template-plugin-json</a></p>
+    <p>Actually I have the same problem right now, I don't want to use hard things like haml like style, argonaut or .json.erb. I want something simple, embedded in rails, but I think there aren't anykind of possibility. What can I think it's possible to create hash array in helper method, then add it into a format.json { render :json =&gt; json_generation_helper_method(@object) }</p>
+    <p>Anyway I will use plugin that I have told you in the beginning. It will be easier to move to the rails3 in the future, because rails3 now have easier api to add such kind of things, like template handlers.</p>
+    <p>Thanks,<br>
+    Dmitry</p>

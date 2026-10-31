@@ -1,0 +1,19 @@
+comments:
+- id: 660
+  author: "clibou"
+  date: '2010-02-22T11:37:35-08:00'
+  content: |-
+    <p>Mobile app dev across 7 mobile platforms looks unsustainable. How could this shake out?</p>
+    <p>* Mobile OS consolidation *<br>
+    7 become 4: iPhone, Android, Web OS, Windows Mobile. (RIM buys Palm), (Microsoft buys Nokia).</p>
+    <p>* Mobile HTML5 *<br>
+    No software installed on phone. Browser based cache db provides the user experience during the disconnected state. Already <a href="http://m.ebay.com" rel="nofollow ugc">http://m.ebay.com</a></p>
+    <p>* Mobile Android Development * <br>
+    Write once, recompile code for other mobile app platforms. Active research projects via O’Reilly Inside Mobile Conference. <a href="http://360mobileconf.com/2009/08/insidemobile-awesome-write-up-from-clive-boulton/" rel="nofollow ugc">http://360mobileconf.com/2009/08/insidemobile-awesome-write-up-from-clive-boulton/</a></p>
+    <p>Just some thoughts...</p>
+- id: 661
+  author: "Clara Young"
+  url: "http://www.rapidsofttechnologies.com"
+  date: '2010-09-04T04:10:58-08:00'
+  content: |-
+    <p>Its true, that 71% of all Android users want to have an Android phone as their next phone. Though the iPhone users are even more loyal, their 89% number is quite normal for Apple users in General. However, there is not just one phone with an Android OS – there are a lot by now! Therefore, it is hard for Google / Android to provide the very same user experience on every Android phone.</p>

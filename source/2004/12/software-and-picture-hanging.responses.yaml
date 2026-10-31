@@ -1,0 +1,41 @@
+comments:
+- id: 197
+  author: "damo"
+  url: "http://www.makemagic.com"
+  date: '2004-12-08T21:56:09-08:00'
+  content: |-
+    <p>well said!</p>
+- id: 198
+  author: "Karen"
+  url: "http://www.hoofnagle.org"
+  date: '2005-01-22T18:29:05-08:00'
+  content: |-
+    <p>The sad part, as you try to make yourself go write stuff up is that even if you write up your best practices, you still also need to be working with a team that's mature enough in its sense of software engineering to remember to use the guidelines provided without being stood over. (I gather laszlo is such a place, which is great.)</p>
+    <p>If an institution has sloppy habits, documentation of proper behavior is just the tip of the iceberg in effecting real change.</p>
+- id: 199
+  author: "Sarah Allen"
+  url: "https://www.ultrasaurus.com"
+  date: '2005-01-23T13:24:03-08:00'
+  content: |-
+    <p>It's true that Laszlo has a really good culture of striving for best practices and following reasonable guidelines.  I think the number one thing that keeps us headed in the right direction is frequent code reviews.</p>
+    <p>We have a policy that all code is reviewed before it gets checked in.  Sometimes, at crunch time, minor code changes don't get reviewed and some code is reviewed post-checkin, but it works well in general.  The code reviews accomplish a few very different goals (in order of importance, imho):</p>
+    <p>1 - Spread the knowledge of the code base.  If every check in has a code reviewer, there are always two people who have domain knowledge for fixing any bug.<br>
+    2 - When you go over the code with someone else, you often see problems that you missed while coding.  A code review forces you to review your own code.<br>
+    3 - The code reviewer can help remind you about coding guidelines and best practices.</p>
+    <p>It's easy to get code reviews started because of #1.  If someone else reviews your code than you aren't the only one responsible for it.  This aspect appeals to just about every programmer.  After people are used to doing code reviews, they usually start to see other benefits.</p>
+- id: 200
+  author: "Karen"
+  url: "http://www.hoofnagle.org"
+  date: '2005-01-24T12:49:18-08:00'
+  content: |-
+    <p>Interesting. We use code review in my organization and design review. We never have trouble getting people to actually *DO* design reviews and making them successful, but code reviews are harder to make happen.</p>
+    <p>They tend to happen late in the life of a largish block of code, which I know is part of our problem. Then everybody says "more javadoc, please" and sloughs off doing the real reading.</p>
+    <p>But if you *had* to check in, say on a feature by feature basis, and you had to do code review for each checkin, it would change the dynamic.</p>
+    <p>What's the size of a checkin for your team? How much is a developer asked to review at a sitting? Can you talk about that? Would you mind? I'd love to see an analytical post about the cultural nuts and bolts of this and how you make it work, and I bet a lot of other people would too.</p>
+    <p>I think we have some good basics where I work for keeping code reviews from getting personal, but we're not good at making sure they actually happen and making them a necessary event.</p>
+- id: 202
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2013-05-22T04:12:53-08:00'
+  content: |-
+    <p>Odd to read this article 9 years later.  These days I find pair programming more effective than pre-checkin code reviews.  When solo work is needed/wanted for various (good) reasons, then I'm fond of the "pair integrations" when you work with someone else for at least a few hours to finish up or incrementally improve some part of the code you just wrote.  It is much more active than a code review, which I believe is much more effective and certainly more fun.</p>

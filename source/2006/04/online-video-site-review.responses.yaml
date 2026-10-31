@@ -1,0 +1,14 @@
+comments:
+- id: 271
+  author: "JabbyPanda"
+  date: '2006-04-04T06:18:16-08:00'
+  content: |-
+    <p>I liked your approach, useful stats gathered.</p>
+    <p>ps Tooltips are shown after quite a considerable delay, is there in Laszlo a way to control the delay rendering time for tooltips?</p>
+    <p>Flex built-in tooltips can not be customize, thus just wondering about Laszlo.</p>
+- id: 272
+  author: "Sarah Allen"
+  url: "https://www.ultrasaurus.com"
+  date: '2006-04-04T09:28:17-08:00'
+  content: |-
+    <p>The tooltip delay is a half-second, which felt like the right amount of time to me.  (I wrote the component for Laszlo Mail and contributed to the OpenLaszlo platform a while back.) All the code is available so you can do what you like.  The tooltip controller class is less than 100 lines of code, with another 50 lines of code for the tooltip view which is designed to be easily replaced if you want to chage the look of the component.</p>

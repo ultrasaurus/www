@@ -1,0 +1,37 @@
+comments:
+- id: 5491
+  author: "balsamiqval"
+  url: "http://www.balsamiq.com"
+  date: '2017-02-20T12:03:59-08:00'
+  content: |-
+    <p>As usual, I love hearing how you think about complex issues. Motivation is complex! And while it's likely that complex perspectives are shared by a large number of people, they must be explained in detail, ipso facto, as they say. :-)</p>
+    <p>So: when you say Good engineers will build something that works for a wider audience, I think you're already expecting Good equals super complex thinkers who track and comprehend your vision.</p>
+    <p>Which means you all need to have it pretty baked.</p>
+    <p>It's like playing Team Chess!</p>
+    <p>For me, it's interesting to compare when considering this in the context of an existing team one might be corralling, or when putting together a new team of unknowns.</p>
+    <p>xoxo</p>
+- id: 5492
+  author: "TMS"
+  date: '2017-02-20T15:19:00-08:00'
+  content: |-
+    <p>Strangely this way of thinking is not uncommon among female engineers. I know entire post-graduate classes in sustainability engineering and bio-medical engineering that are female and yet almost no women attending lots of the tech events in London and elsewhere (look at the pictures they tweet) .</p>
+- id: 5493
+  author: "Ilmari Kontulainen"
+  url: "https://deveo.com"
+  date: '2017-02-21T04:32:23-08:00'
+  content: |-
+    <p>Good read! We have tried to overcome the above obstacles with added transparency and communication.</p>
+    <p>bugs or not working software -&gt; code reviews and quality gates<br>
+    product not successful -&gt; follow customer feedback more<br>
+    happy customer and cancelled product -&gt; better communication with project sponsors (hasn't happened)</p>
+- id: 5494
+  author: "sarah"
+  date: '2017-02-21T09:26:01-08:00'
+  content: |-
+    <p>I never thought of this as a gender-based philosophy.  When I think of this kind of vision, I think of Steve Jobs' "reality distortion field" where his vision convinced engineers to make something incredibly good, Doug Engelbart's "mother of all demos" which illustrated his vision for the future of computing, and the famous Alan Kay quote "the best way to predict the future is to invent it."  The fact that I don't have women on that list probably has more to do with an imbalanced coverage of history, where women are less likely to be quoted or credited for their vision or leadership.</p>
+- id: 5497
+  author: "moislearning"
+  url: "http://moislearning.wordpress.com"
+  date: '2017-03-02T09:56:24-08:00'
+  content: |-
+    <p>Great article, I think there are multiple stereotypes including "Coders don't need to know business" that need to change. Regardless, to solve our problems with this, we keep our UX/UI and product meetings open to everyone and once in a week (usually fridays) we go over our vision for the product, where it is headed and how the things we did this week effects it.</p>

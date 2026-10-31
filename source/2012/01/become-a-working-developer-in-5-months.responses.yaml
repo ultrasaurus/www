@@ -1,0 +1,29 @@
+comments:
+- id: 779
+  author: "Jeff Casimir"
+  url: "http://jumpstartlab.com"
+  date: '2012-01-03T07:06:18-08:00'
+  content: |-
+    <p>Sarah,</p>
+    <p>I won't lie -- I'm a little nervous. It's definitely quite a challenge from a teaching perspective. My solace is that people in the program will have every resource one could ask for -- instruction, support, mentorship, an experienced team, an awesome physical environment -- you name it.</p>
+    <p>Back in the day, so many of us learned Rails, stumbling through Ruby at the same time, and would use the mailing list when you got stuck. There's value in struggling on your own, but when I talk to learners I over and over hear "I started, got stuck, worked on it for awhile, then moved on to other projects."</p>
+    <p>I think we can dramatically accelerate learning. Only 12 hours/week will be in a classroom environment, the rest will be working in teams on projects and contributing back to the community. My hope is that the classroom provides the baseline fundamentals and the projects allow the space to fly.</p>
+    <p>Thanks for your support and we'll surely talk more as the program gets started!</p>
+- id: 780
+  author: "Michael Ruescher"
+  url: "http://Ruemic.com"
+  date: '2012-03-31T11:24:37-08:00'
+  content: |-
+    <p>This is pretty cool, Jeff I really liked your codeschool course and think you will make a really great teacher. I'm often get stuck in rails, last night for example I spent 3 hours trying to deploy to heroku and always got some obscure error. I know someone with experience could have probably solved it in seconds. But I feel like like I don't want to waste people's time asking. So this kind of thing will really accelerate people learning. Wish I could go!</p>
+- id: 781
+  author: "Ari Falkner"
+  url: "http://jujutsugo.com"
+  date: '2012-08-20T21:34:04-08:00'
+  content: |-
+    <p>Hmmm, I was able C++ relatively well in a month or so, and then Java took me about 3 hours from nil to GUI. Took me about a month to learn ASP.NET MVC. Seems totally doable to me, if not a little slow.</p>
+- id: 1494
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2013-12-07T20:29:00-08:00'
+  content: |-
+    <p>An a software developer, I can learn new technology in weeks or months with no problem.  However, for someone with no coding experience to become someone who can write quality production code takes more than just learning the syntax of the language.</p>

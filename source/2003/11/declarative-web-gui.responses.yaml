@@ -1,0 +1,18 @@
+comments:
+- id: 122
+  author: "Michael Williams"
+  date: '2003-11-24T15:17:32-08:00'
+  content: |-
+    <p>I was looking at the demos on the lazlo site and the auction video perplexed me a bit. It shows the app running in the windows IE browser and then there is a step where you choose your picture and the dialog that comes up is a MacOS file dialog... strange. I assume you will have to do this via an embeded html form that sends the data to the lazlo server and then back to Flash since the web player does not support this as of yet.</p>
+- id: 123
+  author: "anonymous"
+  url: "http://anonymous"
+  date: '2003-12-18T07:17:36-08:00'
+  content: |-
+    <p>LZX does not have a Tree widget?</p>
+- id: 124
+  author: "Evergreen Colorado Home for Sale"
+  url: "http://coloradoabode.com/home_for_sale/Evergreen.html"
+  date: '2005-03-28T22:13:24-08:00'
+  content: |-
+    <p>If you drink, don't drive. Don't even putt. Dean Martin</p>

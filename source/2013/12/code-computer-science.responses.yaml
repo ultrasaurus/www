@@ -1,0 +1,261 @@
+comments:
+- id: 3174
+  author: "Foo"
+  date: '2013-12-23T18:01:01-08:00'
+  content: |-
+    <p>The Google informs me that Ryan Carson got his degree at Colorado State University.</p>
+- id: 3188
+  author: "amonshiz"
+  date: '2013-12-23T18:19:41-08:00'
+  content: |-
+    <p>I would argue that engineering or other applied science degrees fit this criteria. It is the process of learning to learn that is gained from a quality BS degree. CS provides some quality instruction specific to the field, but knowing how to learn and find the sources to learn from is the most important part.</p>
+- id: 3210
+  author: "Yamada"
+  date: '2013-12-23T18:46:53-08:00'
+  content: |-
+    <p>I'd say the bigger issue is that academia is different than knowledge (or though for that matter). For me it seems to mean, while a formal education can obviously be a great thing, that it's not mandatory to be a good engineer/computer scientist. Most of all, even the best education won't guarantee anything.</p>
+    <p>Some people benefit from it, others have methods which work better for them and my impression is a considerable amount of people actually are held back by the academia - and I mean the fundamental aspects of it, those which are inherent to the institutionalization of education.</p>
+    <p>That being said and though I don't mean to disagree entirely with you, there often seems to be this almost defensive idea, whenever "learning to program" reaches the mainstream, to preserve the community's "seriousness" with comments as yours. The learning process is something that happens organically and very differently for each person. There should be no undermining of this process simply because the formalized idea of it expects there to be a stage 'a' or 'b' towards reaching expertise.</p>
+    <p>Cheers. (I'd rather have this discussion on twitter or some other platform, if you want. @yamadapc )</p>
+- id: 3213
+  author: "MattB"
+  date: '2013-12-23T18:51:27-08:00'
+  content: |-
+    <p>"everyone doesn’t have to be a software engineer"  != "not everyone has to be a software engineer'</p>
+- id: 3250
+  author: "Ryan S."
+  date: '2013-12-23T20:34:23-08:00'
+  content: |-
+    <p>Also paraphrased as:</p>
+    <p>"A CS degree is important because, hey, I have one and look how great I am."</p>
+    <p>Sorry bro, not buying it. Your shit probably smells great to you but I think it stinks.</p>
+- id: 3251
+  author: "Ryan S."
+  date: '2013-12-23T20:36:13-08:00'
+  content: |-
+    <p>@amonshiz And exactly what has the human ability to learn got to do with formal credentials?</p>
+- id: 3260
+  author: "sarah"
+  date: '2013-12-23T20:58:13-08:00'
+  content: |-
+    <p>Ryan S: My point was that a CS degree helped me get started and the stuff I learned then still helps me today.  Other people may want to or need to learn on their own.  Your paraphrasing isn't accurate at all.</p>
+- id: 3273
+  author: "Rizwan"
+  date: '2013-12-23T21:31:19-08:00'
+  content: |-
+    <p>Ryan S, don't be rude now just because you lack a degree.  No need to be insecure.  You are allowed to code too, degree or no degree :)</p>
+- id: 3280
+  author: "mark e"
+  date: '2013-12-23T21:50:04-08:00'
+  content: |-
+    <p>i think a degree simply tells a future employer "look for 4 years i was told by bosses (ie teachers) to go learn this or that fairly difficult task or subject and be able to regurgitate it on demand next week with a good degree of accuracy and/or understanding"</p>
+    <p>this is a very useful entry level skill for any industry.</p>
+    <p>if you really think about it, that's really all high school is too...that you prove to your task-masters that you can get up early and go to somewhere you really kinda don't want to be and integrate socially in a well-defined manner.</p>
+    <p>you are never "educated" by these places...95% all real education is done by you alone with a book, a computer, or a small group of like minded focused individuals.</p>
+- id: 3283
+  author: "Amos"
+  date: '2013-12-23T21:58:43-08:00'
+  content: |-
+    <p><strong>"his focus has been web development where you rarely need computer science"</strong></p>
+    <p>Which actually proves that you don't know anything at all</p>
+- id: 3294
+  author: "Zack B."
+  date: '2013-12-23T22:35:18-08:00'
+  content: |-
+    <p>I've been 'coding' for more than half of my life now. More recently (the past 5 years or so) I started doing so full time. I never finished college. I could've started my 'career' as a programmer much earlier than I did. The reasons why I didn't are varied, though finishing college may have accelerated it. Then again, it might not have.</p>
+    <p>One issue that seems (to me anyway) to be lost in the general discussion (let's call it the Learn To Code discussion/debate) is the non-economic incentives in Science, Mathematics, and Computer Science. In other words, what ever happened to pursuit of knowledge for it's own sake? I know - the point gets addressed. But I think in a shallow way when everyone is just ultimately clamoring for money or credentials. Competing in a marketplace, basically.</p>
+    <p>So yes, Computer Science is important. And you should learn it because it's not just useful, but beautiful. And so is Math. And probably any other interest you have. As Keynes said, "Practical men, who believe themselves to be quite exempt from any intellectual influence, are usually the slaves of some defunct economist"</p>
+- id: 3302
+  author: "Liviu Macsen"
+  date: '2013-12-23T22:54:42-08:00'
+  content: |-
+    <p>Degrees are to introduce you a thin layer about that science. A layer that if you are just a little curious and passionate you can discover at your own.</p>
+    <p>Ok then. "If people learn on their own" are the magic words... that mean that CS degree become irrelevant  in that context. :)</p>
+- id: 3303
+  author: "Phillip Haydon"
+  url: "http://www.philliphaydon.com"
+  date: '2013-12-23T22:56:02-08:00'
+  content: |-
+    <p>I don't have a degree, intact I dropped out of school at 16. Going to uni would have been a waste of time for me because I can't sit and focus and read and study.</p>
+    <p>I started programming at 8 from a book on my commadore 64, then didn't code again till about 14 when I was building an Ulima Online server with a friend. I coded for that and taught myself PHP/Html/Css/JavaScript.</p>
+    <p>A degree isn't what is needed. Passion is. So many devs lack passion for what they do. If you love programming. Your job is your hobby. After 10 years I wouldn't trade in my career or go back and do a degree.</p>
+- id: 3306
+  author: "James"
+  date: '2013-12-23T23:02:43-08:00'
+  content: |-
+    <p>I as well am grateful for my CS degree because it gave me exposure to a lot of things that I wouldn't have been exposed to and/or wouldn't have investigated on my own, for example, much of the work in my Theory of Computing, Operating Systems, and Computer Architecture classes.</p>
+    <p>The perfect CS program would have a balance of the practical and theory.  I've come across a lot of engineers that had an education weighed too much in one direction and either could code but had no theory/algorithms knowledge or had all the algo knowledge in the world but couldn't convert it to code. They rested on their laurels and stopped learning instead of seeing the degree as a headstart in a marathon and realizing that they can't stop running.</p>
+    <p>The point that amonshiz brought up is also prevalent. Just as it is easier to pick up a third spoken language after picking up a second, the same can be said of programming languages. By graduation, I had real exposure to 6 languages with substantial coursework in 2-3 so it was really to pick up additional languages post-grad. The hard work of learning how to learn a new programming language was mostly done and I could get a quick start by doing a mental diff(oh this concept is like this language, that concept is close to this other one, etc).</p>
+    <p>I believe it to be harder to get a balanced education through self-study but NOT impossible. However you made it to the table, as long as the code is clean and well-reasoned, I couldn't care less if you have a degree or not.</p>
+- id: 3346
+  author: "Michael Pope"
+  date: '2013-12-24T00:44:22-08:00'
+  content: |-
+    <p>Plugging 2 + 2 into a pocket calculator and seeing 4 pop onto the screen isn't science.  Coding is simply writing instructions that are pretty damn specific, and then feeding them into an overgrown calculator.  Maybe that's why programming reminds me of math?</p>
+- id: 3354
+  author: "Jameson"
+  date: '2013-12-24T01:01:34-08:00'
+  content: |-
+    <p>The degree is worthless from the perspective that you can spend four years of your life with a group of smart people without getting the degree. The degree itself is useless. Spending time with smart people and hanging out and building projects isn't the thing that is worthless. If you "hack" it, then you can build a group of people or some group that educates people for an affordable price in any subject, and do it without handing out any degrees.</p>
+- id: 3393
+  author: "Cagin"
+  url: "http://cagin.ghost.io"
+  date: '2013-12-24T02:33:45-08:00'
+  content: |-
+    <p>Arguing that a CS degree is a ripoff would be foolish. I know dozens of people who can define a variable in a programming language but has no idea what the variable represents in the memory. That's where computer science kicks in.</p>
+- id: 3401
+  author: "Dennis Groves"
+  date: '2013-12-24T02:56:36-08:00'
+  content: |-
+    <p>A CS degree doesn't make you a scientist. However, we do have many computer artists; they write code, and many are able to learn it without formal education. Many get formal education and it masquerades as a CS degree. However, the ability to write code doesn't qualify one as a scientist or engineer! Science and engineering are far more structured and disciplined that the average 'computer science'</p>
+    <p>There are three very different concepts. Ability to Code, Computer Science, Software Engineering.</p>
+    <p>Just because I can do some maths, doesn't make me a mathematician! And while there are many mathematicians, there are even fewer who have invented (engineered) new maths! Similarly, code today is literacy, its just like knowing maths. Many people have this skill, and some are better at it than others. However, they ignorantly confuse themselves with mathematicians and math engineers.</p>
+    <p>Can you imagine getting a physics degree and not knowing the history of physics? And yet this is a very common situation with people whom can code (or teach themselves to code) - they reinvent the past more poorly because they haven't a clue about what anybody has done before them! In fact they figure themselves clever for reinventing a flat-tire!</p>
+- id: 3428
+  author: "Bill Wixon"
+  date: '2013-12-24T04:01:08-08:00'
+  content: |-
+    <p>I think the point you are trying to make doesn't require a CS degree or at least a traditional one. As a developer with an undergrad in SE and a Masters in it I think traditional CS degrees are not worth the money for what we do. In many traditional CS degrees you leave college with a lot of theory and a math minor. I would rather students get a CS degree with a business minor and far less math or theory. Most of us don't write compilers or heavily-optimized algorithms. The hard part is understanding process and turning business requirements into software.</p>
+    <p>As someone else stated, what we get out of college is how to learn and teach ourselves.</p>
+- id: 3435
+  author: "Ravi Vooda"
+  url: "http://themafian.com/blog"
+  date: '2013-12-24T04:12:28-08:00'
+  content: |-
+    <p>I being a CS graduate would agree about the point you are trying to make. Best phrase -</p>
+    <p>"The technologies I used for coding when I was in college are now obsolete, but the ways of thinking and problem-solving techniques are pretty much the same"</p>
+    <p>But you don't need to so pessimistic!</p>
+- id: 3470
+  author: "Josip Bakić"
+  date: '2013-12-24T05:52:58-08:00'
+  content: |-
+    <p>Reading some of these comments only cements my belief that we should NOT be encouraging people to learn coding. The world does not need more jerks ;)</p>
+- id: 3510
+  author: "0dayz"
+  date: '2013-12-24T07:48:35-08:00'
+  content: |-
+    <p>If you can answer ‘yes’ to all of the questions below, then by all means feel free to think of yourself as equal to or better than these ~el8 guys. Otherwise, please stop speaking down to people who are obviously much more technically skilled than your ignorance will ever allow you to be.</p>
+    <p>* Do you know how to program in C? Are you intimately familiar with ISO C89? C99? While other people in your neighbourhood were out partying, were you sitting at home in bed making an almost biblical study of the POSIX standards? What about those from The Open Group?</p>
+    <p>Do you know how to write hash tables? Balanced trees? Do you know the art of algorithms? Do you know Knuth’s work like the back of your hand? Did you teach yourself everything about computers that one would otherwise only learn by paying thousands of dollars for in Computer Science tuition?<br>
+    Do you know how to juggle assembly code in your head for multiple architectures, such as MIPS, SPARC, x86? Do you understand the peculiarities of each architecture down to the nittiest, grittiest details? Can you optimize your own assembly routines? Can you take advantage of things such as Pentium instruction pairing or the delay slots in various RISC architectures? Do you understand the deal with the I-Cache on MIPS? Are you fluent in assembly language? Hell, do you even know what SPARC stands for? Quadrants in PA-RISC, make sense?<br>
+    Do you know how to write your own exploits? Do you know how to audit software with surgical precision for the most intricate bugs imaginable? Do you know how to take advantage of buffer overflows? Do you know how to exploit off-by-one errors on a little-endian machine? Do you know about integer overflows and signedness issues? Can you exploit format string vulnerabilities? Can you gain control of a process vulnerable to a heap overflow via a deep knowledge of the malloc implementation on the target host? Do you know how to bypass the “security” afforded by crap like Openwall, StackGuard, PaX? Or is your knowledge of these things limited to the papers that non-hackers publish? You probably think the people trying to help the security community with bullshit patches/fixes like this are hackers, when in fact no hacker would ever publish any such thing that aims to improve security.<br>
+    Have you studied the UNIX kernel with as much fervour as some would have for physical pursuits such as basketball or baseball? Do you know the data structures and organization in the kernels of various operating systems? Have you read books on UNIX internals cover to cover? Do you know how Linux works under the hood? Can you write your own kernel modules for both defense and offense? Ever written a kld on FreeBSD? Can you write a device driver for a peripheral that your OS doesn’t support? Can you find flaws in kernel src trees that allow you to compromise a machine given local access?<br>
+    What do you know about evading (N)IDS? Your knowledge isn’t limited to what Thomas Ptacek &amp; Tim Newsham have said years ago, right? Surely you don’t rely on tools written by people like Dug Song who like to think of themselves as hackers, when in fact they are traitors to the underground, assuming they were ever a part of it to begin with.<br>
+    What do you know about defeating firewalls? What techniques have you innovated and pioneered on your own? What tools have you written that allow you to toy with firewalls? Hell, the fucktard security community is probably limited to lameass crap like Firewalk.<br>
+    What do you know about web security? Do you sit back and laugh at the “cross-site scripting” revolution governed by an idea that has been around well before the CSS/XSS sensation that literally blew the dumbass security community apart? Must’ve wasted a lot of brain cells with that gigantic stretch of the imagination. Do you laugh at all these “SQL injection” papers and how most of them overlook the blatantly obvious: they have you believe you have to fumble around with all kinds of convoluted queries to achieve something that can be done with minimal typing if only they’d read the fucking documentation for various DBMS. Their CGI experts like RFP and Zenomorph call certain script conditions non-exploitable, e.g. when you can’t get arguments supplied to a binary that you’ve managed to trick a Perl script into running — RFP mentions this in his Phrack article — yet any moron can easily figure out that you can use the POST method, make the script run /usr/bin/perl for instance, and have it run a script of your choice that is fed as stdin from the HTTP request’s POST data. Oh God, sorry for pushing the realm of web security forward with this INCREDIBLY COMPLEX revelation.<br>
+    Have you written your own tools that exploit protocol weaknesses? Have you written your own tools for routing protocol weaknesses, e.g. RIP, BGP? Have you written your own tools that play games with DNS? Have you written your own ARP cache poisoning / mitm tools? Your own tools for shit like icmp redirects and router advertisements? Can you write a tool that will exploit the TCP sequence number prediction + IP spoofing vulnerability of older days? Or can you only mock Mitnick for his 1994 attack, calling him a scriptkiddy? Or utter useless banter about ISNs and cookies that you digested from some textfile? Who are you kidding? Fuck, have you read all 3 volumes of the glorious TCP/IP Illustrated, or can you just mumble some useless crap about a 3-way handshake? Do you know Net/3 code? TCP algorithms? TCP extensions? Perhaps you’re some fucking security expert because you’ve memorized /etc/services — a walking fucking getservbyport, a la 70% of the Vuln-Dev subscription base.</p>
+    <p>Take homeless man off street and teach him code ruby app ... GREAT.</p>
+    <p>BUT take homeless man and teach him exploit USE AFTER FREE TECHNIQUE or maybe INT TOO BIG ATTACK? Will homeless man be able to grasp PTMALLOC HEAP FUENG SHEI teqneeq? I dont think so.</p>
+- id: 3512
+  author: "sarah"
+  date: '2013-12-24T07:54:58-08:00'
+  content: |-
+    <p>@0dayz The detail in your post about the kinds of things you should know to really consider yourself a good software developer are fabulous.</p>
+    <p>I don't really understand the angry tone of your post, but the only correction I have is that homelessness in no way equates to a lack of aptitude for coding techniques or computer science concepts.  I know some coders who so lack skills in navigating the world that they might well have become homeless if they had not found their way into software development as a profession.</p>
+- id: 3517
+  author: "0dayz"
+  date: '2013-12-24T08:07:05-08:00'
+  content: |-
+    <p>In a world dominate by NODEJS and RUBY dev which dismiss true computer science knowledge make 0dayz wake up very grumpy and I apologize.</p>
+    <p>I have seen guys cover the full spectrum of everything discussed above. 95% of the people replying cant even code a helloworld.c.</p>
+- id: 3531
+  author: "raqqun0101"
+  date: '2013-12-24T08:58:17-08:00'
+  content: |-
+    <p>sorry but for me having a CS degree was very important. for example i remember when i learned SQL and databases that i didn't understand a lots thinks. when i take the course for databases and SQL in college and learn about relational algebra and theory behind relationals databases i was able to understand the concepts. i just want  to say that having a CS degree is important for understand the key concept in theory of computer science.</p>
+- id: 3535
+  author: "LifeRuiner"
+  date: '2013-12-24T09:21:49-08:00'
+  content: |-
+    <p>@Ryan S</p>
+    <p>You sound resentful.  It is my opinion that you can be a brilliant developer without a degree.  You can be a high earning code monkey without a degree.  You can be a network admin, database admin, etc without a degree. You can call yourself a scientist without a degree.  You CANNOT call yourself an engineer without a degree.  And engineer explicitly implies you have formal training.</p>
+    <p>I work as a network admin. I have a bachelors degree in computer science.  I started coding at 13, learned how to write enterprise applications as an intern, and worked as a developer for a short time after college.  The CS degree did not teach my software development, it did not teach me anything about networks or systems or servers, etc.  I learned math, logic, scientific computing, and natural science.  I would not trade my degree for any amount of experience.  I see it like this:</p>
+    <p>A computer science degree doesn't make you a legitimate technologist.  80% of my classmates were not technologically savvy.  However, the degree does legitimize you as a professional ONLY AFTER you demonstrate your abilities.  When you have the proven abilities, coupled with the formal education, you are extremely employable.</p>
+- id: 3537
+  author: "0dayzisascrub"
+  date: '2013-12-24T09:34:10-08:00'
+  content: |-
+    <p>@0dayz you probably haven't even written a ROP chain by hand, don't talk about this like you know anything, kill yourself. sounds like some old fucker who knows jack shit about the real exploit environment. srsly top kek @ all that art of code and ~i have no social life~ sperging</p>
+- id: 3543
+  author: "Ryan S"
+  date: '2013-12-24T09:59:49-08:00'
+  content: |-
+    <p>@Rizwan I have a degree, although not in CS, but I don't think for a second that a degree the only way to develop a body or knowledge or to "learn how to learn" as suggested by the comment I was replying to.</p>
+- id: 3548
+  author: "Ricardo Bánffy"
+  url: "http://about.me/rbanffy"
+  date: '2013-12-24T10:19:47-08:00'
+  content: |-
+    <p>"[Computer science] is not really about computers -- and it's not about computers in the same sense that physics is not really about particle accelerators, and biology is not about microscopes and Petri dishes...and geometry isn't really about using surveying instruments. Now the reason that we think computer science is about computers is pretty much the same reason that the Egyptians thought geometry was about surveying instruments: when some field is just getting started and you don't really understand it very well, it's very easy to confuse the essence of what you're doing with the tools that you use."</p>
+    <p>-- Hal Abelson</p>
+- id: 3558
+  author: "Sergio"
+  url: "http://www.sergiotapia.me"
+  date: '2013-12-24T10:54:32-08:00'
+  content: |-
+    <p>@0days 95% of the people replying will never need to learn C - at all.</p>
+- id: 3567
+  author: "Jerry"
+  url: "http://www.dada.com"
+  date: '2013-12-24T11:20:14-08:00'
+  content: |-
+    <p>I've worked for a huge traveling website based in chicago.</p>
+    <p>You can easily tell between java monkeys and java people with degrees/ experience.</p>
+    <p>Everybody knows this , everybody that have worked in big companies at least.</p>
+- id: 3595
+  author: "nnnn"
+  date: '2013-12-24T12:41:24-08:00'
+  content: |-
+    <p>0dayz, I'm pretty surprised that learning throughout the years since young and having a cs degree and still learning I can do most of the things you mentioned and some other things I don't want to mention. But you are right these nodejs and ruby, yajsmvc types don't write basic code anymore and reuse every piece of crap without thinking or no matter however crappy and the acronyms spewed out by these type of people. Mock testing crap do you have to give that a name, dependency injection wt argggg so your code is testable argggggg whatever way you write code you can test it, if you can't you're a ...</p>
+- id: 3606
+  author: "Ridley"
+  date: '2013-12-24T13:05:26-08:00'
+  content: |-
+    <p>For every code monkey out there churning out slow, insecure code because they don't understand CS fundamentals, there are ten CS graduates writing equally unmaintainable code because they haven't found the right balance between NIH and FOTM framework obsession... or writing java-style code in ruby, because it's all they know... or starting a new rails app and going "What's with all this magic? All I really need is a simple presenter delegator factory factory factory"...</p>
+- id: 3614
+  author: "Ridley"
+  date: '2013-12-24T13:11:34-08:00'
+  content: |-
+    <p>@LifeRuiner</p>
+    <p>Eh, I'll call myself whatever I want, thanks. And plenty of people would agree that if I design integrated circuits, and my job title is "electrical engineer"... then I'm an engineer.</p>
+- id: 3684
+  author: "Alan"
+  date: '2013-12-24T16:54:34-08:00'
+  content: |-
+    <p>I have a degree in computer science from a university whose computer science department is consistently rated in the top 10 in the United States.  I'm not a web developer.  (There, does that make me relevant to you?)  The computer science courses were (with one exception) the worst classes I took during my 4 years there, and not by a small margin.</p>
+    <p>Who needs to pay tens of thousands of dollars to sit in a gigantic auditorium while some postdoc reads from the textbook, in an accent so thick I can barely understand?  That's what most computer science classes were -- I can't imagine what an 'average' school is like.</p>
+    <p>I won't say that a degree is worthless -- every degree has value -- but I do believe I would be exactly as good a developer today if I had gotten my major in mathematics or physics or engineering or Attic Greek.  Most of the best developers I know don't have degrees in computer science, and most of the computer science I know didn't come from computer science classes.</p>
+    <p>I would advise anyone going to school today to not get a degree in computer science, even if they want to be a computer programmer.  Get it in physics, or mathematics, or linguistics, or Mandarin literature, or whatever excites you.  It won't stop you from learning programming or computer science, and there are a million possible programming-related side projects in every department.  Sure, take a couple computer science courses, if the course happens to be something that especially interests you, and if it's being taught by a full professor who is recommended for their teaching ability.</p>
+    <p>But do yourself a favor and don't waste any hours of your college years sitting in an auditorium listening to some postdoc try to read "CLR", and being unable to answer any questions about it.  And whatever you do, don't lock yourself into a degree program where you have to waste 50% of your college career in such nonsense.  Maybe at MIT and Berkeley it's better, but you don't have to go down the list of schools very far at all to get into truly terrible CS teaching.</p>
+- id: 3992
+  author: "0dayz"
+  date: '2013-12-25T07:24:52-08:00'
+  content: |-
+    <p>Just for the record I don't have a computer science degree :-p . I taught my self computer science through books written by people like Donald Knuth and Richard Stevens. Formal vs Informal education - it doesn't matter as long as at the end of day you actually understand how computers work under the hood. For those people taking pride that they will never have to learn how to write C or ASM, I hope you also take pride that you will go through life having nothing but a shallow understanding of technology and computers. Speaking for my self I rather be a computer scientists who solves REAL problems instead of coding apps compromised of nothing but simplistic business logic written in what looks like pseudo code. It may be difficult for hipster to accept but tools like Linux, chrome, firefox, ruby/php/python interperters, *SQL, you know like all the tools you use everyday to do your job? Are all programmed and maintained by hardcore C/C++ developers. SHOCKING I KNOW.</p>
+- id: 4292
+  author: "stolzlos"
+  date: '2013-12-25T22:42:47-08:00'
+  content: |-
+    <p>I completely agree with your title. The two things have nothing to do with each other. Yet, I would argue that coding has nothing to do with software development. To code is nothing but to express oneself in a high-level language. It is the content that counts, not the ability that you can express yourself. Being able to write does not make you a writer ... unfortunately.</p>
+    <p>I agree with comments that the degree is worthless in the technical sense. You can and should learn by yourself using the available resources instead of being fed the mainstream ideas of software and software development that make so many people stumble and get stuck. Nevertheless it has some worth when you want to get a specific job. As much as I dislike that fact, this has to be accepted.</p>
+    <p>Coding is important but only in an absolute sense. Relatively speaking I allow myself that you can actually ignore it. To develop software, that is to truly understand the problem to be solved, the separation into ever smaller sub features, the evaluation of effort and functional risk are always by far more important. Because these things are hardly taught and most of the people are not aware of how important they are, people try to find salvation in ever better coding ... which they will never find.</p>
+    <p>Having at least a basic understanding of software development will make people in general actually very wary about coding. They will ignore the noise, not swayed by the hype and only go for the one thing that is important, produce results. It does not matter how.</p>
+- id: 4790
+  author: "Jonah Kirangi"
+  url: "http://www.jonahkirangi.com"
+  date: '2014-01-10T23:28:18-08:00'
+  content: |-
+    <p>Great post. I am just beginning my programming career and will take this advice with me. Thank you.</p>
+linked_from:
+- id: 3161
+  title: "Code != computer science | Enjoying The Moment"
+  url: "http://jeremiahtillman.wordpress.com/2013/12/24/code-computer-science/"
+  date: '2013-12-23T17:43:50-08:00'
+- id: 4266
+  title: "OTR Links 12/26/2013 | doug --- off the record"
+  url: "http://dougpete.wordpress.com/2013/12/26/otr-links-12262013/"
+  date: '2013-12-25T21:31:15-08:00'
+- id: 4769
+  title: "Why every entrepreneur needs to learn to code (something) | SoshiTech"
+  url: "http://soshitech.com/2013/12/27/why-every-entrepreneur-needs-to-learn-to-code-something/"
+  date: '2013-12-26T17:33:11-08:00'

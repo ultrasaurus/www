@@ -1,0 +1,10 @@
+comments:
+- id: 18539
+  author: "Kornel"
+  date: '2019-10-13T10:03:06-07:00'
+  content: |-
+    <p>I hoped it'd be an easy to fix it by just saying "enum variant" (since you shouldn't need to care what kind of variant it is - the message should be suggesting the right one), but unfortunately it's coming from a general-purpose error message:</p>
+    <p><a href="https://github.com/rust-lang/rust/blob/aa2ae564d391a3da10bca2a79ab529a9925fbe58/src/librustc_resolve/diagnostics.rs#L61-L66" rel="nofollow ugc">https://github.com/rust-lang/rust/blob/aa2ae564d391a3da10bca2a79ab529a9925fbe58/src/librustc_resolve/diagnostics.rs#L61-L66</a></p>
+    <p>that uses descr() of whatever it finds:</p>
+    <p><a href="https://github.com/rust-lang/rust/blob/aa2ae564d391a3da10bca2a79ab529a9925fbe58/src/librustc/hir/def.rs#L85-L95" rel="nofollow ugc">https://github.com/rust-lang/rust/blob/aa2ae564d391a3da10bca2a79ab529a9925fbe58/src/librustc/hir/def.rs#L85-L95</a></p>
+    <p>and descr() makes a distinction between enum and different kinds of enum variants (and there's "unit variant", ugh!)</p>

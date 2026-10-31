@@ -1,0 +1,16 @@
+comments:
+- id: 164
+  author: "Victor Laszlo"
+  url: "http://laszlosystems.com/~adam/blog"
+  date: '2004-04-07T08:35:12-08:00'
+  content: |-
+    <p>Interesting topic, and one I've been thinking about a lot lately as I've been working on a project for a customer, which is mostly a snazzy user interface for some fairly simple functionality.</p>
+    <p>I think that the most difficult thing about GUI programming is that the 'correctness' of a GUI lies in the very minutiae of its details, but it's not always easy to identify which details are the ones that aren't right. In this way, GUI programming is a true art: you have to be able to step back from your work and look at it critically, and have to iterate quickly over alternatives.</p>
+- id: 165
+  author: "Eric Hancock"
+  url: "http://eric.weblogs.com/"
+  date: '2004-04-10T18:12:54-08:00'
+  content: |-
+    <p>I think the most difficult thing about GUI design is that too many people confuse "I don't like it" with "it isn't useable."  Well-designed GUI isn't always immediately evident.  Often, good GUI is highly adapted to the task at hand.</p>
+    <p>With GUI, <i>learnable</i> is often more important than <i>intuitive</i>.</p>
+    <p>Of course, this depends entirely on the task at hand.</p>

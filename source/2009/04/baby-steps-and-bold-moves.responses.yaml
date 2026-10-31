@@ -1,0 +1,89 @@
+comments:
+- id: 476
+  author: "Meep"
+  url: "http://soycow.org/meep"
+  date: '2009-04-29T18:51:01-08:00'
+  content: |-
+    <p>I'm a Chicana (ahem, Hispanic female), and I know that I have to work 10 times harder than every other developer. It's hard to work on things when you feel like you're at the bottom of the totem pole. And honestly, I would love to see more radical Chican@s in open source development.</p>
+- id: 477
+  author: "Matt Aimonetti"
+  url: "http://merbist.com"
+  date: '2009-04-29T19:08:50-08:00'
+  content: |-
+    <p>Great ideas.  Gangplank <a href="http://gangplankhq.com" rel="nofollow ugc">http://gangplankhq.com</a> (Phoenix, AZ) has a "Learn to Program" day for kids, next one:<br>
+    <a href="http://www.google.com/calendar/event?eid=XzhrcTRjZGk2NnNyMzBiOWk2OTEzOGI5azhrcmsyYjlvODkyamNiOWs2MTIzMGNoaTZrczM4ZDFvNnMgZ2FuZ3BsYW5raHEuY29tXzBmZ2NuYmUyanVnMGIxYmk0M201cXY4NnM4QGc&amp;ctz=America/Phoenix" rel="nofollow ugc">http://www.google.com/calendar/event?eid=XzhrcTRjZGk2NnNyMzBiOWk2OTEzOGI5azhrcmsyYjlvODkyamNiOWs2MTIzMGNoaTZrczM4ZDFvNnMgZ2FuZ3BsYW5raHEuY29tXzBmZ2NuYmUyanVnMGIxYmk0M201cXY4NnM4QGc&amp;ctz=America/Phoenix</a></p>
+    <p>You might want to talk with them about sharing material etc...</p>
+    <p>- Matt</p>
+- id: 478
+  author: "Aaron Quint"
+  url: "http://www.quirkey.com"
+  date: '2009-04-29T19:56:44-08:00'
+  content: |-
+    <p>I'm really glad that I was able to do something to get something started on this front. Whether or not *everyone* agrees I think getting more women involved in the current community and more kids involved in the future community is a great goal.</p>
+    <p>I also think the idea of volunteer workshops is great, and I think a lot of our fellow Rubyists wouldn't mind spending an afternoon teaching or mentoring.</p>
+    <p>Also, Id like some help and guidance from everyone on where to direct the money that gets collected. There have been a couple of ideas/suggestions already, but I'm looking for everyone's ideas.</p>
+    <p>Maybe its worthwhile to set up a dedicated mailing list for this cause? I dont want to overdo it, but I also think it would be neat to have a way to spread the word about events or get group feedback on initiatives like this little fund.</p>
+    <p>On another note - It's interesting you took the music video so litteraly. I think my intention was to play against this whole 'Rails is a Ghetto' meme and hoped that people got the whole 'if you want to break free you need to change your mindset first'.</p>
+- id: 479
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2009-04-29T20:06:15-08:00'
+  content: |-
+    <p>It wasn't so much that I took the music video literally, but rather took the opportunity to clearly illustrate that the diversity issue goes beyond gender imbalance, and , with the hub-bub in the blog-o-sphere and twitterverse, I thought it a good way to put the whole thing in perspective.</p>
+    <p>I think the Anita Borg foundation could be a great resource.  They may even have some on-going projects that would fit.  I also love the idea of a fund to help women speakers travel to events.  It would be cool to have a mailing list for folks who donate to the fund, then we could all decide how to focus efforts.</p>
+- id: 480
+  author: "Greg Borenstein"
+  url: "http://ideasfordozens.com"
+  date: '2009-04-29T23:32:50-08:00'
+  content: |-
+    <p>I'm both flattered and thrilled that you found my Ruby Arduino project inspiring on the learning programming front. I definitely think that being able to write a program that actually causes something to blink or move in the real world is thrilling and motivating in a whole different way than what happens on the screen, especially for people who are more hands-on thinkers than your typical programmer. One of my big motivations for writing RAD is to make learning physical computing as easy for beginners as it can possibly be. Arduino is a great project from an educational standpoint and it's taken this stuff from the deeply technical to the human, but I think the beauty and elegance of Ruby can take it even further. For beginners, all the "program junk" (type declarations, curly braces, etc) can be a pretty big obstacle when they're just trying to concentrate on the basics.</p>
+    <p>Anyway, if I can help in anyway with your attempts to learn or teach Arduino please don't hesitate to contact me. In addition to myself, I've got access to a very vibrant community around this stuff up in Portland (including the creator of the Dorkboard) that has put on a ton of great educational events and could definitely help with educational materials.</p>
+- id: 481
+  author: "clibou"
+  url: "http:cliveboulton.com"
+  date: '2009-04-30T19:01:05-08:00'
+  content: |-
+    <p>Big Bold Steps, But Baby Steps...</p>
+    <p>Is Ruby jumping the gun?</p>
+    <p>Consider the brightest most select group of students I can imagine learn programing at Stanford and many other top universities by starting with Karel the Robot. <a href="http://www.youtube.com/watch?v=0LoKDDRlfZc" rel="nofollow ugc">http://www.youtube.com/watch?v=0LoKDDRlfZc</a></p>
+    <p>Karel - "By initially limiting the student's language repertoire to easily grasped imperative commands whose actions are visually displayed, the Karel approach quickly introduces students to such concepts as procedures and the major control structures." <a href="http://en.wikipedia.org/wiki/Karel_(programming_language" rel="nofollow ugc">http://en.wikipedia.org/wiki/Karel_(programming_language</a>)</p>
+    <p>As proof, at last years SV Codecamp <a href="http://www.siliconvalley-codecamp.com/" rel="nofollow ugc">http://www.siliconvalley-codecamp.com/</a> wI volunteered at GAE session <a href="http://tinyurl.com/csj49v" rel="nofollow ugc">http://tinyurl.com/csj49v</a> and due to huge demand, later at a Bebo day for teen kids run by SVWebBuilder.org. But in both cases, those kids who already had programing experience excelled, those without were left behind.</p>
+    <p>Bottom line, find a simple Ruby project designed for teaching programming, or use Karel to reach new programmers.</p>
+    <p>However accomplished<br>
+    Props @ All</p>
+    <p>I will back for TA ops</p>
+- id: 482
+  author: "John Haltiwanger"
+  date: '2009-05-03T13:06:47-08:00'
+  content: |-
+    <p>Perhaps a summer program might be a good way to start? It seems like it might be easier to set up, and would select from a wider potential pool (district versus school). Might be more affordable too. I may be available as a volunteer/organizer and/or fundraiser, as I have no plans for a real job this summer, only a vague desire to go West and meet cool people.</p>
+- id: 483
+  author: "John Haltiwanger"
+  date: '2009-05-03T13:23:28-08:00'
+  content: |-
+    <p>Well, it's a little more sophisticated than that, but still vague. I'd like to spend significant time volunteering at FreeGeek centers when I return to the WC (specifically Oly, PTown, and SeaTac but hopfully CA as well) this summer. (Please forgive the repost, but what I had submitted previously sounded stupidly naive.)</p>
+    <p>I'm sending the donate box around. Has the mailing list started yet?</p>
+- id: 484
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2009-05-03T15:54:52-08:00'
+  content: |-
+    <p>FreeGeek sounds like an awesome program.  Wish there was one in SF.  It would be a great place to hold summer classes.  It may be a little late to do something this summer unless we latch on the an existing program... although it may be worth looking around for one.    Great ideas!</p>
+    <p>Saraf</p>
+linked_from:
+- id: 485
+  title: "Sarah Mei » My drop in the bucket"
+  url: "http://www.sarahmei.com/blog/?p=75"
+  date: '2009-05-04T06:38:00-08:00'
+- id: 486
+  title: "Chrononautic Log 改 » Blog Archive » GeekGenderFail ’09 postscript"
+  url: "http://www.chrononaut.org/log/?p=1483"
+  date: '2009-05-05T02:27:14-08:00'
+- id: 487
+  title: "links for 2009-05-05 « Amy G. Dala"
+  url: "http://amygdala.wordpress.com/2009/05/06/links-for-2009-05-05/"
+  date: '2009-05-05T06:02:10-08:00'
+- id: 488
+  title: "open source workshop"
+  url: "/2009/06/open-source-workshop/"
+  date: '2009-06-17T21:02:50-08:00'

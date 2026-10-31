@@ -1,0 +1,43 @@
+comments:
+- id: 723
+  author: "Maria"
+  date: '2010-11-18T10:04:45-08:00'
+  content: |-
+    <p>Sarah, great advice! I went to a Diaspora meetup recently, as you encouraged me to do. I still don't feel ready to contribute, but I've been playing around with their source code &amp; will hopefully be up to speed soon. I'm also helping a friend go through an existing Rails app &amp; modify it for some experiments he's running at Berkeley. I definitely think that working on open source projects &amp; meeting more people from the community are good next steps.</p>
+- id: 724
+  author: "Arshad Syed"
+  date: '2010-11-18T19:02:03-08:00'
+  content: |-
+    <p>Thank you so much! I will be using these for myself and also forward to others.</p>
+- id: 726
+  author: "bits sahani"
+  date: '2010-12-08T01:20:56-08:00'
+  content: |-
+    <p>Hi Sarah,</p>
+    <p>great advice ! need some of your pearls of wisdom. I have a yearning to learn Ruby on Rails , but have no web development experience. Just wondering, if you could share your experience &amp; suggest te best way to move forward....(books, tutorials , coaching..giving up first born ....<br>
+    I am based in bay area..)</p>
+    <p>Thanks so much, <br>
+    Bits</p>
+- id: 727
+  author: "Diana Blaine"
+  date: '2011-03-11T22:41:59-08:00'
+  content: |-
+    <p>Bits,</p>
+    <p>I wanted to put in my 2 cents because I've been in the same position in regard to Ruby on Rails. I'm still a newbie and have a ways to go but here's how my journey began. Took a Web Development class which covered front/back end technologies, tools &amp; servers (HTML, CSS, Javascript, J2EE, JDBC, MySQL, Eclipse, Dreamweaver, Apache, Tomcat). Obtained a basic knowlege but no work experience. Started to join meetups and came across SF Ruby Meetup where they held a RoR Workshop for Women. Men can attend if a women invites you as a guest. They have volunteer teachers to assist in installing the required software and then a workshop where you learn some commands to produce an app.  At this point, RoR was still foreign to me and most RoR meetups had topics or classes that were too advanced. I found one meetup that was geared towards the newbie and I received assistance in installing a VM(virtual machine using Ubuntu) on my Windows Vista OS since Windows OS is known to be problematic. Next, taking a RoR class at Blazing Cloud where Sarah is the head and teaches.  There are tons of books, tutorials on RoR so I can't advise which is the best. Sarah is writing a technical RoR book which she's been using in class. Not sure when it will be published but it's worth getting.</p>
+    <p>A little more on the Blazing Cloud class, for me it's fast paced but packed with alot of good RoR stuff. They are now recording the class so that has been my crunch in learning. After the class, I basically take it over via the recording except I can pause it and take notes to figure things out.  Once the class is over, I'll have a better foundation and will go over everything by coding only until I'm fluent in what I've learned.</p>
+    <p>My approach is painstaking but it's the only way I can upgrade my skillset.</p>
+    <p>Hope this helps!</p>
+- id: 728
+  author: "Kyle Barry"
+  url: "http://teksystems.com"
+  date: '2011-05-10T09:51:33-08:00'
+  content: |-
+    <p>Afternoon all,<br>
+    First I would like to say that working with developers in the area I felt the article Sarah put together was accurate and a stigma that follows new scripting languages. I currently have multiple clients looking for strong developers in Javascript and Rails who are motivated and looking to join there thriving environments. My problem is I can not seem to locate the developers. I know you are all out there but there seems to be a loss connection between myself and all of you. Lots of my emails about positions whether contract, contract to hire, or FTE go on silent ears. Sarah do you have any suggestions as to how I can effectively reach these developers who are looking to break into the world and get real industry experience?</p>
+    <p>Kyle Barry<br>
+    [email removed]</p>
+linked_from:
+- id: 725
+  title: "A Smattering of Selenium #33 « Official Selenium Blog"
+  url: "http://seleniumhq.wordpress.com/2010/11/22/a-smattering-of-selenium-33/"
+  date: '2010-11-22T04:28:51-08:00'

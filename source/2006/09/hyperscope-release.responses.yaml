@@ -1,0 +1,24 @@
+comments:
+- id: 277
+  author: "Jonathan Boutelle"
+  url: "http://www.jonathanboutelle.com"
+  date: '2006-09-05T19:07:55-08:00'
+  content: |-
+    <p>Heya Sarah!</p>
+    <p>That hyperscope link took me to a scary place that said</p>
+    <p>"HyperScope.com is for sale. To purchase this domain<br>
+    contact [redacted] at [redacted]"</p>
+    <p>These urls made me feel safe again:<br>
+    <a href="http://hyperscope.org/" rel="nofollow ugc">http://hyperscope.org/</a><br>
+    <a href="http://blueoxen.net/c/hyperscope/wiki.pl" rel="nofollow ugc">http://blueoxen.net/c/hyperscope/wiki.pl</a></p>
+- id: 278
+  author: "SigmundUrp"
+  date: '2006-09-15T00:05:08-08:00'
+  content: |-
+    <p>hyperscope.org, not .com.</p>
+- id: 279
+  author: "Sarah Allen"
+  url: "https://www.ultrasaurus.com"
+  date: '2006-09-18T22:53:44-08:00'
+  content: |-
+    <p>sorry about that.  fixed now.</p>

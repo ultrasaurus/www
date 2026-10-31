@@ -1,0 +1,49 @@
+comments:
+- id: 5483
+  author: "khangdinh"
+  url: "http://khangdinh.wordpress.com"
+  date: '2017-01-05T04:48:39-08:00'
+  content: |-
+    <p>this helped me :) Thanks for sharing!</p>
+- id: 8057
+  author: "Bernardo Gomes"
+  date: '2018-06-24T07:15:20-07:00'
+  content: |-
+    <p>Hi,</p>
+    <p>I found some erro in second code:</p>
+    <p>this -&gt; for (modelName in sails.models).</p>
+    <p>When the function is executed the last model is used for all models.</p>
+    <p>(each loop override the value of variable.)</p>
+    <p>For fix this I change the function for this: FOR TO MAP.</p>
+    <p>afterEach(function(done) {</p>
+    <p>function createDestroyCallbackFunction(element, index, array) {</p>
+    <p>return function(callback) {</p>
+    <p>sails.models[element].destroy({})</p>
+    <p>.exec(function(err) {</p>
+    <p>callback(null, err)</p>
+    <p>});</p>
+    <p>};</p>
+    <p>}</p>
+    <p>var destroyFuncs = Object.keys(sails.models).map(createDestroyCallbackFunction);</p>
+    <p>async.parallel(destroyFuncs, function(err, results) {</p>
+    <p>done(err);</p>
+    <p>});</p>
+    <p>});</p>
+- id: 8058
+  author: "Bernardo Gomes"
+  date: '2018-06-24T07:16:13-07:00'
+  content: |-
+    <p>afterEach(function(done) {</p>
+    <p>function createDestroyCallbackFunction(element, index, array) {</p>
+    <p>return function(callback) {</p>
+    <p>sails.models[element].destroy({})</p>
+    <p>.exec(function(err) {</p>
+    <p>callback(null, err)</p>
+    <p>});</p>
+    <p>};</p>
+    <p>}</p>
+    <p>var destroyFuncs = Object.keys(sails.models).map(createDestroyCallbackFunction);</p>
+    <p>async.parallel(destroyFuncs, function(err, results) {</p>
+    <p>done(err);</p>
+    <p>});</p>
+    <p>});</p>

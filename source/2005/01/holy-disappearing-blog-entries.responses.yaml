@@ -1,0 +1,31 @@
+comments:
+- id: 206
+  author: "Jade Rubick"
+  url: "http://www.rubick.com"
+  date: '2005-01-04T04:34:03-08:00'
+  content: |-
+    <p>This is the main reason MySQL is problematic as a database. It's great for many applications, but it doesn't pass the ACID test (<a href="http://www.archwing.com/technet/technet_ACID.html" rel="nofollow ugc">http://www.archwing.com/technet/technet_ACID.html</a>).</p>
+    <p>So I think it's not your fault. :)</p>
+- id: 207
+  author: "Scott Evans"
+  url: "http://www.antisleep.com"
+  date: '2005-01-04T20:29:06-08:00'
+  content: |-
+    <p>I like to couple my techno-savvy with an uncomfortable paranoia about losing my work.</p>
+    <p>So I have a really simple MT template (in the "archive-related templates" section) that writes XML versions of all my blog entries every time I rebuild the site.  Then I have a cron job at home that pulls down copies of all these files nightly.  So if my server burns down, I'm covered, or if I just switch blog engines, I should have an easy-ish migration path.  (that second part is a lesson learned from my move to MT from a home-grown system: don't throw away the raw data.)</p>
+    <p>The template is here:<br>
+    <a href="http://www.antisleep.com/templates/backup-all-xml.tmpl" rel="nofollow ugc">http://www.antisleep.com/templates/backup-all-xml.tmpl</a></p>
+    <p>And in MT's weblog config/archiving page, I use an archive filename template like this:<br>
+    xml/&lt;$MTEntryDate format="%Y-%m-%d"$&gt;_&lt;$MTEntryID zero_pad="4"$&gt;.xml</p>
+    <p>The cron stuff is a little more complicated for other reasons but a simple rsync command will do ya.</p>
+- id: 208
+  author: "sam"
+  url: "http://www.kapshow.com/newcities"
+  date: '2005-04-05T03:31:49-08:00'
+  content: |-
+    <p>Thanks ever-so-much for this post.  I'm much less tech-savvy than you, but I managed to fix the problem I was having with my blogs thanks to your documentation.  Thanks!!!</p>
+- id: 209
+  author: "Jennifer"
+  date: '2005-04-19T07:44:25-08:00'
+  content: |-
+    <p>Another hearty thanks.  The overview you presented of the solution was exactly the fix that I needed.  My life was definitely flashing before my eyes as well.</p>

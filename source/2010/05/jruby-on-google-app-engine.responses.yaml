@@ -1,0 +1,40 @@
+comments:
+- id: 685
+  author: "John Woodell"
+  url: "http://jruby-appengine.blogspot.com/"
+  date: '2010-05-04T22:58:34-08:00'
+  content: |-
+    <p>Very nice post. I have a couple clarifications:<br>
+    - The JRuby Runtime and Rails can each take several seconds to spin-up,<br>
+       but new instances hitting a simple Java servlet spin-up a second or so.<br>
+    - The tools that setup the environment (populate WEB-INF) run under MRI, <br>
+       but the local dev_appserver is always running your app using JRuby. <br>
+       The JRuby Runtime is one of the jars in WEB-INF/lib.</p>
+- id: 686
+  author: "John Woodell"
+  url: "http://jruby-appengine.blogspot.com/"
+  date: '2010-05-04T23:06:21-08:00'
+  content: |-
+    <p>John Wang @johntwang did a blog post:<br>
+    <a href="http://www.johntwang.com/blog/2010/04/23/json-with-ruby-on-rails-on-google-appengine/" rel="nofollow ugc">http://www.johntwang.com/blog/2010/04/23/json-with-ruby-on-rails-on-google-appengine/</a></p>
+    <p>Gist also available: <a href="http://gist.github.com/377353" rel="nofollow ugc">http://gist.github.com/377353</a></p>
+- id: 687
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2010-05-05T04:44:19-08:00'
+  content: |-
+    <p>Thanks for the clarifications, John!</p>
+- id: 689
+  author: "roy"
+  url: "http://www.muhadib.com"
+  date: '2010-08-04T09:19:08-08:00'
+  content: |-
+    <p>I've chosen to use Rails on App Engine  I think its' definitely the future.<br>
+    <a href="http://www.muhadib.com" rel="nofollow ugc">http://www.muhadib.com</a> is one of the project's I've put on app engine (using the twitter api).<br>
+    it's not alway smooth sailing especially when trying to use GEM that don't support it.</p>
+    <p>The Guys at google and outside that are running this effort are amazing and i'm sure the Rails Community will eventually choose this as a default way to get a site up.</p>
+linked_from:
+- id: 688
+  title: "pinboard July 12, 2010 — arghh.net"
+  url: "http://www.blog.arghh.net/aj/?p=550"
+  date: '2010-07-12T09:46:11-08:00'

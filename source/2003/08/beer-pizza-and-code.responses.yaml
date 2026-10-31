@@ -1,0 +1,14 @@
+comments:
+- id: 66
+  author: "AndyEd"
+  url: "http://surfmind.com/lab/hive/"
+  date: '2003-08-12T12:08:19-08:00'
+  content: |-
+    <p>Nifty tree app -- the timing on the animation seems just about right.  The dissolve/collapse is quick enough not to interfere with the next mouse motion.</p>
+    <p>On the other hand, I dispute the notion that the +/- is the best way to enable expand collapse in a tree widget.  See my take at "redefining the tree" in the  name link.</p>
+- id: 67
+  author: "Beer"
+  url: "http://www.crystalgiftsworld.com/beer-mugs.html"
+  date: '2004-03-18T13:01:28-08:00'
+  content: |-
+    <p>Sometimes matters are solved best when drinking beer with some pizza...</p>

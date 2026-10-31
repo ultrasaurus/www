@@ -1,0 +1,9 @@
+comments:
+- id: 501
+  author: "P T Withington"
+  url: "http://pt.withy.org"
+  date: '2009-05-18T08:53:46-08:00'
+  content: |-
+    <p>I like to use different terminal windows for my different playpens, so I can keep multiple states and easily toggle between them by switching windows.  In emacs, I can use shell buffers with different names, but most terminal programs will display your current directory.  So here's how I do it:</p>
+    <p><a href="http://svn.openlaszlo.org/sandbox/ptw/.openlaszlorc" rel="nofollow ugc">http://svn.openlaszlo.org/sandbox/ptw/.openlaszlorc</a></p>
+    <p>I use a shell function, set-lps, that I just need to execute once in the shell window once I have cd-ed to the playpen I want to work in.</p>

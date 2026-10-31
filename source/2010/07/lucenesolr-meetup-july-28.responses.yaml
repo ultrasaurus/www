@@ -1,0 +1,18 @@
+comments:
+- id: 697
+  author: "Jon Gifford"
+  url: "http://www.loggly.com"
+  date: '2010-08-09T13:17:54-08:00'
+  content: |-
+    <p>Hi Sarah,</p>
+    <p>Thanks for the write-up, and apologies for the high-density talk :-)</p>
+    <p>I wanted to clarify one point in your writeup, though, to make sure people don't get the wrong idea about 0MQ. Yes, our implementation of 0MQ has a potential "leak", where we can lose messages, but its a very uncommon case, and the impact is small. Specifically, if one of the solr nodes dies hard, we potentially lose any events that were sent to it in the last batch (0MQ batches to minimize comms overhead).   In steady state, 0MQ is rock solid, 100% reliable, and faaaaaast.</p>
+    <p>Pieter (at iMatrix) and I are currently discussing ways to solve the hard death problem, and I don't anticipate it being a problem very long. As I said in the talk, 0MQ is unbelievably cool - if you haven't got a project that needs it, make one up!</p>
+    <p>I'll be posting on our blog in a day or so with the slides and some further clarification on a few of the things I (hurriedly) said in the talk.</p>
+    <p>Thanks again for the writeup,</p>
+    <p>Jon</p>
+linked_from:
+- id: 698
+  title: "Our Solr system | Loggly"
+  url: "http://www.loggly.com/2010/08/our-solr-system/"
+  date: '2010-08-09T18:42:42-08:00'

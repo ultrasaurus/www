@@ -347,3 +347,58 @@ code {
     float: right;
     padding-left: 20px;
 }
+
+/* Comments and "Linked from" (pingbacks), after the post nav */
+.comments,
+.linked-from {
+    clear: both;
+    margin-top: 2rem;
+}
+
+.comment {
+    border-top: 1px solid var(--code-border);
+    padding-top: .75rem;
+    margin-bottom: 1rem;
+}
+
+.comment-meta {
+    margin-bottom: .5rem;
+}
+
+.comment-meta .date {
+    color: var(--muted);
+    font-size: .875rem;
+    margin-left: .5rem;
+}
+
+/* a reply sits under the comment it answers */
+.comment .replies {
+    margin-left: 1.5rem;
+    border-left: 3px solid var(--gold);
+    padding-left: 1rem;
+}
+
+.comment .replies .comment:first-child {
+    border-top: 0;
+}
+
+#content .linked-from ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#content .linked-from li {
+    margin-bottom: .5rem;
+}
+
+#content .linked-from a {
+    text-decoration: none;
+}
+
+#content .linked-from a:hover {
+    text-decoration: underline;
+}
+
+.linked-from .date {
+    font-size: .875rem;
+}

@@ -1,0 +1,37 @@
+comments:
+- id: 529
+  author: "Tom Rossi"
+  date: '2009-06-22T11:51:51-08:00'
+  content: |-
+    <p>Is there a way to actually do this in your functional test rather than using curl?  In other words, rather than calling:</p>
+    <p>post :create, params</p>
+    <p>Can we call something like:</p>
+    <p>post :create, :xml =&gt; (object.to_xml)?</p>
+    <p>That would be nice just so we can jump into a functional test and look at the response.body for debugging.</p>
+    <p>Thanks,<br>
+    Tom</p>
+- id: 530
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2009-06-22T12:07:31-08:00'
+  content: |-
+    <p>I absolutely agree that this kind of thing belongs in your test suite.  Thanks for pointing that out.  I'm fond of cucumber for testing this kind of thing (since it also provides docs for the APIs that you could give to another developer).  However, I did this because my tests were failing when they used to succeed and I didn't understand why... it turned out that there was some syntax change in a version upgrade that led to the http header not being set correctly.  In any case, I found that getting back to basics helped me isolate the issue.</p>
+- id: 531
+  author: "Tom Rossi"
+  date: '2009-06-22T12:18:12-08:00'
+  content: |-
+    <p>This method of testing with cron is definitely valuable!  I was just wondering how I could test (preferably without a plugin).  It would seem like with all the emphasis on REST and on testing, that the framework would make it a little easier to test something like your app responding to an xml post.</p>
+- id: 532
+  author: "jgpawletko"
+  date: '2011-02-06T17:56:46-08:00'
+  content: |-
+    <p>Many thanks from a Rails noob.<br>
+    Your write-up helped me solve a problem I was having with POSTing XML to a <br>
+    Rails 3.0 app I'm developing.</p>
+- id: 533
+  author: "Ed"
+  date: '2012-02-20T10:41:14-08:00'
+  content: |-
+    <p>I'm new to Rails and plans eventually include providing web services from/to a simple Rails app.  I'm amazed at what you've described here.  You're issuing your curl commands on the same machine that's running Rails.  Can you point me to a good resource that covers "getting in the door" to Rails from another machine to issue equivalent commands?  Thanks much!</p>
+    <p>Ed<br>
+    Philadelphia</p>

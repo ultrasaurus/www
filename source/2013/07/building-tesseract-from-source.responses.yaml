@@ -1,0 +1,9 @@
+comments:
+- id: 4902
+  author: "Luke Dyson (@dualcyclone)"
+  url: "http://twitter.com/dualcyclone"
+  date: '2014-03-23T16:36:51-07:00'
+  content: |-
+    <p>I just had a problem installing this, seems you need to install this first on OSX:</p>
+    <p><a href="http://www.leptonica.com/download.html" rel="nofollow ugc">http://www.leptonica.com/download.html</a></p>
+    <p>I needed v1.70 at least</p>

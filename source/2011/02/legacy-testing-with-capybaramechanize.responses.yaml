@@ -1,0 +1,10 @@
+comments:
+- id: 735
+  author: "Hedgehog"
+  url: "http://hedgehogshiatus.com"
+  date: '2011-02-22T13:17:37-08:00'
+  content: |-
+    <p>&gt; I wanted to use vanilla http and not have the overhead of launching a browser and was frustrated that Capybara didn’t have a driver to suit my needs.</p>
+    <p>Hopes this helps you....</p>
+    <p>Akephalos[0]: "Akephalos is a full-stack headless browser for integration testing with Capybara. It is built on top of HtmlUnit, a GUI-less browser for the Java platform, but can be run on both JRuby and MRI with no need for JRuby to be installed on the system."</p>
+    <p>[0]: <a href="https://github.com/bernerdschaefer/akephalos" rel="nofollow ugc">https://github.com/bernerdschaefer/akephalos</a></p>

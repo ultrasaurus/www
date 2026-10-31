@@ -1,0 +1,12 @@
+comments:
+- id: 639
+  author: "clayton"
+  url: "http://www.integrumtech.com"
+  date: '2009-12-15T20:04:16-08:00'
+  content: |-
+    <p>Small, frequent deployments are a great thing. I try to deploy as often as possible keeping in mind that my software should always be deployable and never stuck in a "well it's kinda broken" state.</p>
+linked_from:
+- id: 640
+  title: "The AboutUs Buzz: December Edition"
+  url: "http://blog.aboutus.org/2009/12/21/the-aboutus-buzz-december-edition/"
+  date: '2009-12-21T12:55:35-08:00'

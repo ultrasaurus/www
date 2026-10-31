@@ -1,0 +1,32 @@
+comments:
+- id: 765
+  author: "Gary"
+  date: '2011-11-25T07:01:21-08:00'
+  content: |-
+    <p>Isn't an EC2 micro instance free for a year, not a small instance?<br>
+    Make sure you're not getting charged more than you think!<br>
+    Micro probably doesn't have consistent enough CPU for gaming, unfortunately.</p>
+- id: 766
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2011-11-25T07:44:38-08:00'
+  content: |-
+    <p>Wow -- nice catch, Gary!</p>
+    <p>Oddly Amazon shows no charges for this billing period, but I don't trust their reporting:  <a href="https://skitch.com/ultrasaurus/gmcrh/amazon-web-services" rel="nofollow ugc">https://skitch.com/ultrasaurus/gmcrh/amazon-web-services</a></p>
+    <p>I'm going to run thru the steps again for a micro instance -- we're only planning on hosting a few players, so I figured it was worth a try.</p>
+- id: 767
+  author: "Grigory V."
+  url: "http://floatboth.com"
+  date: '2011-11-27T14:00:33-08:00'
+  content: |-
+    <p>Hmm. Micro instances automatically scale to 2 “elastic CPU units” or whatever they call them when the load is high. I wonder if using Java 7 and a different server would help.</p>
+    <p>“ssh -i ubuntu@ec2.pem ec2-” wait, what. Do you mean “ssh -i ec2.pem ubuntu@ec2-”?</p>
+    <p>&gt; Ubuntu takes up too much disk space by default to fit into a micro instance<br>
+    Micro instances only work with EBS, 8 GB one is free. Ubuntu Server doesn't take that much space.</p>
+    <p>Also, you don't *have* to install Amazon's command line tools, you can use the web interface to control instances. And screen isn't cool, tmux is :-)</p>
+- id: 768
+  author: "Steven Soroka"
+  url: "http://twitter.com/ssoroka"
+  date: '2012-01-03T07:29:17-08:00'
+  content: |-
+    <p>Any feedback on small instance costs and ec2 performance?</p>

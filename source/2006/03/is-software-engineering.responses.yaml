@@ -1,0 +1,19 @@
+comments:
+- id: 268
+  author: "Rafhael Cedeno"
+  url: "http://www.multiverse.net"
+  date: '2006-03-08T23:30:09-08:00'
+  content: |-
+    <p>I don't quite understand how you can say software design is the source code.  You can often write code without spending a whole lot of time designing, but you can also build a table without spending a lot of time designing.  Building a skyscraper, however, requires tremendous amounts of design, same as building an operating system, or new crytographic routine, etc.  Many RFCs are just that, designs that often have no implementations.</p>
+    <p>Compiling code is not like 'building' hardware.  Building something, as in 'give form to, from a plan', is actually the coding process.  Your plan is the design and it could be described mathematically, or through diagrams, or just in plain English.  Someone has to build that now, make it the program.</p>
+    <p>How would you apply the compile/link analogy to byte-compiled language? or perhaps to an interpreted language.  In that case, you dont even have a compiler/linker, its just reading lisp code and interpreting it.  Does that mean you cannot build Lisp code?</p>
+    <p>Still interesting, thanks for a distraction :)</p>
+    <p>Say hi to Pablo for me.</p>
+- id: 269
+  author: "Sarah Allen"
+  url: "https://www.ultrasaurus.com"
+  date: '2006-03-12T07:31:53-08:00'
+  content: |-
+    <p>I'm not completely convinced by the code-as-design theory either; however, I think the authors point is exactly that "compiling code is not like 'building' hardware."  With production codes so low, it changes how we think about building stuff.  You can build a tree house without spending a lot of time designing too -- and it may fall apart next year -- just like some software built with little thought to design.</p>
+    <p>I do like his thoughts on how a lot of testing-and-debugging is done at the coding stage and how it is similar to testing done on the design of a bridge or a skyscraper.</p>
+    <p>Sarah</p>

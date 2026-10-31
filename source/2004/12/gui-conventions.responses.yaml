@@ -1,0 +1,19 @@
+comments:
+- id: 204
+  author: "gse"
+  url: "http://www.antisleep.com"
+  date: '2004-12-27T11:13:32-08:00'
+  content: |-
+    <p>My grandparents are in their mid-80's and have a computer.  My grandfather uses it the most, doing basic word processing and email.  And despite the fact that he was quite the technologist in his younger years, using "the machine" is always immensely frustrating for him.  I believe it's because most of the metaphors have never sunk in.</p>
+    <p>He gets the "click the blue underlined text" thing, and maybe even the "the mouse cursor changes" thing... but even the simple metaphors that go along with word processing, drawing, etc have never clicked.  So every time he's at the computer, he's relearning most everything from scratch.  I'd have pitched the thing out the window already.</p>
+- id: 205
+  author: "Steve K"
+  date: '2005-01-01T19:08:07-08:00'
+  content: |-
+    <p>I mostly agree, Sarah.  Unfortunately, most mortals (not the ones you or I would generally run into at work or in our field) don't know HTML, don't know how to make web sites, and even if they can pick up a WYSIWYG (sic) editor, don't generally understand the corrolation between what they are doing, the resulting HTML, and many problems, including layout and compatibility differences across browsers.</p>
+    <p>What Apple was doing with Newton when we met was right on.  I kinda got distracted by that stuff, because it was so much better than most of what we have today.  Yes, Laszlo is neat, but it's actually much harder for "mere mortals" to stomach XML (I consider myself one of those for the purpose of this case) instead of the JavaScript syntax.</p>
+    <p>An architecture like Newton, which is not so different in theory and many concepts from LZX, is better for UI design because you no longer have to do "hard, mostly static work" to implement UI controls.  You simple, a la HyperCard, override certain methods/hooks/handlers to implement functionality.  You can rapidly and interatively build, try, and inspect your creation "from within" instead of jumping contexts back and forth between an IDE/development environment and what you're working on, and UI programming no longer becomes an arduous task that you (sic) "have to debug the same way you debug your other stuff."</p>
+    <p>Instead, you provide an environment where rapid iteration and experimentation are very simple.  This widens your audience and user base and overcomes many if not most of the problems inherent in web design and development.</p>
+    <p>What do you think?</p>
+    <p>Happy New Year.  I really like your articles, and try to check in frequently to read what you have to say.</p>
+    <p>Steve</p>

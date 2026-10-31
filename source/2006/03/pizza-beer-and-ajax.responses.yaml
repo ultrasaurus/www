@@ -1,0 +1,27 @@
+comments:
+- id: 264
+  author: "Jonathan Boutelle"
+  url: "http://www.jonathanboutelle.com"
+  date: '2006-03-05T10:24:58-08:00'
+  content: |-
+    <p>Oh man,</p>
+    <p>My kind of party, and here I am, stuck on the wrong side of the world!</p>
+    <p>-Jon</p>
+- id: 265
+  author: "Simon O'Connor"
+  date: '2006-03-05T16:16:30-08:00'
+  content: |-
+    <p>Awwww, I too am on the wrong side of the world. Any chance of some webinars showing this? This is pretty exciting news that would be great to learn more about over here in Australia!</p>
+- id: 266
+  author: "ron k jeffries"
+  url: "http://blog.eronj.com"
+  date: '2006-03-08T07:38:11-08:00'
+  content: |-
+    <p>Great stuff! May a thousand LZX flowers bloom.<br>
+    <a href="http://blog.eronj.com/2006/03/08/lzx-now-targets-flash-or-ajax/" rel="nofollow ugc">http://blog.eronj.com/2006/03/08/lzx-now-targets-flash-or-ajax/</a></p>
+- id: 267
+  author: "Sarah Allen"
+  url: "https://www.ultrasaurus.com"
+  date: '2006-03-12T07:23:08-08:00'
+  content: |-
+    <p>I expect we'll do some webinars when it gets closer to release.  In the meantime, you can now see the demos online at <a href="http://www.openlaszlo.org/" rel="nofollow ugc">http://www.openlaszlo.org/</a></p>

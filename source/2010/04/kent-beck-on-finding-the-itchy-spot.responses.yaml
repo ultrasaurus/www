@@ -1,0 +1,35 @@
+comments:
+- id: 679
+  author: "Adam Wolff"
+  url: "http://openmsjs.blogspot.com/"
+  date: '2010-04-24T19:58:39-08:00'
+  content: |-
+    <p>Gosh, I don't know about this Sarah. This attitude is similar to the hardcore TDD stance, which I also struggle with. I guess I agree that sometimes rapid, hacky iteration is the best thing, but I think there are certain problems that are worth solving correctly, even if it takes more time.</p>
+    <p>I think TDD often produces verbose, paradoxically bug laden software, precisely because the process encourages myopia. Similarly, I think that there a lot of questions that can't really be answered until you've developed a proper solution for them. People say they don't like the new feature, but is that because it's buggy and slow?</p>
+- id: 680
+  author: "Sarah"
+  url: "https://www.ultrasaurus.com"
+  date: '2010-04-24T20:09:04-08:00'
+  content: |-
+    <p>The point is to have a hypothesis that you are trying to prove with your code.  Anyone who does TDD without a vision of what the software should do is missing the point.  There was a lot of talk at the conference about having a big idea and how to find the right expression of it.  If a feature needs to be fast, you need to do the engineering to make it so, but I've often seen (or been) an engineer who adds detailed options because someone might need them when something else (like performance or a different feature entirely) is actually what is needed.</p>
+    <p>The key thing is to keep asking the high level question -- *sometimes* the answer is a hack or a paper mockup or simply a phone call to a customer to understand what is really needed before creating a complete, robust, performant implementation.</p>
+- id: 681
+  author: "John Sundman"
+  url: "http://www.wetmachine.com"
+  date: '2010-04-25T05:27:29-08:00'
+  content: |-
+    <p>I'm thinking about this post not in the context of creating code, but in the context of the overhaul of my website (a redesign &amp; port to a new blogging platform; recruiting new writers), nearly complete-- a process which took months.</p>
+    <p>I write &amp; sell novels that generally appeal to hardcore geeks &amp; hackers. I'm trying to sell more of them. My website is my main vehicle for making these books known to the world. But right now, the book-promotion parts of the site are not even implemented yet. There was too much other work to do first.</p>
+    <p>But let's assume that I'll have some kind landing pages and shopping cart done soon, within the next few days.</p>
+    <p>What then? What itch am I trying to scratch? What problem am I trying to solve for Wetmachine's readers? And what connection is there, if any, between the value readers get from interacting with my site and the value they would get from buying one of my books?</p>
+    <p>And now that I have a nifty site with 8 quality writers and a big backlog of articles, many of them still relevant, and more new ones coming virtually every day, what other opportunities lie before me, beyond just selling books?</p>
+    <p>I'm thinking. . . where's the itchy spot? I dunno. I'm going to keep looking for it. . .</p>
+linked_from:
+- id: 682
+  title: "SKMurphy » Startup Lessons Learned Conference Coverage Roundup"
+  url: "http://www.skmurphy.com/blog/2010/04/25/startup-lessons-learned-conference-coverage-roundup/"
+  date: '2010-04-25T22:43:06-08:00'
+- id: 683
+  title: "April 27, 2010, Now Writing About Cucumbers « Rails Test Prescriptions Blog"
+  url: "http://railsrx.com/2010/04/27/april-27-2010-now-writing-about-cucumbers/"
+  date: '2010-04-27T03:48:17-08:00'

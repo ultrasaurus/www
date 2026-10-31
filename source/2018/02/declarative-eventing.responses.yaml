@@ -1,0 +1,22 @@
+comments:
+- id: 7235
+  author: "Chris Lichti"
+  date: '2018-02-23T13:31:27-08:00'
+  content: |-
+    <p>Interesting.  When you say "very specific events", are you referring to the schema of the data included in the event, or to some filter conditions that must be met for the event to reach the consumer, or both?  What is getting more specific?</p>
+    <p>I'm reminded of two things: percolators in elasticsearch, and separately, something we're doing now; event streams are flowing through stages of normalization and enrichment, but also through light weight functions as intermediary consumers that carve out events of interest to specialized consumers.  We don't quite have it automated to the point of being declarative, but the intermediary consumers are extremely lightweight, only taking a few minutes to create and deploy.</p>
+    <p>Maybe there's an opportunity to refine PaaS offerings in this space...?</p>
+- id: 7248
+  author: "Sarah"
+  date: '2018-02-25T08:08:39-08:00'
+  content: |-
+    <p>I've written a bit more detail on what I mean by very specific events, in terms of the conditions that trigger the events: <a href="https://www.ultrasaurus.com/2018/02/listening-to-very-specific-events/" rel="nofollow ugc">https://www.ultrasaurus.com/2018/02/listening-to-very-specific-events/</a></p>
+    <p>CNCF Serverless WG is facilitating a process to formalize the event types with the CloudEvent specification: <a href="https://github.com/cloudevents/spec" rel="nofollow ugc">https://github.com/cloudevents/spec</a></p>
+    <p>There is indeed an opportunity to refine PaaS offerings.  There's a lot of discussion about events in the context of Functions-as-a-Service (FaaS), yet I think these kinds of events have a place in the broader ecosystem as well.</p>
+- id: 7249
+  author: "Clifford Heath"
+  url: "http://dataconstellation.com"
+  date: '2018-02-25T14:01:09-08:00'
+  content: |-
+    <p>GUIs did not typically support or encourage event isolation, where every event carries all context required to process it - until we did this in OpenUI in 1990 - that made for a revolutionary UI dev experience. HP's SoftBench also used a patented pub/sub messaging architecture for CASE tool integration, with pattern-matching for subscriptions.</p>
+    <p>However the real devils in these systems are the methods for discovering, subscribing and routing messages reliably. If every message is "very specific" and you have to know where to subscribe, then at scale you can't manage faults and end up with a massive tangle of spaghetti that hinders rearchitecting.</p>

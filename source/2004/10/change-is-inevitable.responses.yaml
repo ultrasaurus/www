@@ -1,0 +1,28 @@
+comments:
+- id: 189
+  author: "Danese Cooper"
+  url: "http://danesecooper.blogs.com/divablog"
+  date: '2005-07-27T22:24:28-08:00'
+  content: |-
+    <p>Sarah,</p>
+    <p>Happened on your notes from our panel last year while I was assembling my blog on women at Apache yesterday.  It's been more than 6 months.  Are you enjoying open source?</p>
+    <p>Danese</p>
+- id: 190
+  author: "Sarah Allen"
+  url: "https://www.ultrasaurus.com"
+  date: '2005-07-29T22:13:53-08:00'
+  content: |-
+    <p>Danese,</p>
+    <p>Yes!  I am absolutely enjoying open source.  I am a regular contributor to the OpenLaszlo platform, even though my main gig at Laszlo these days is working on Laszlo Mail which is licensed software.</p>
+    <p>With the encouragement of my colleagues at Laszlo who had more open source experience when we dove in, I regularly post to the OpenLaszlo developer list and participate in API design and coding in-the-open.  It's fun to be a part of something that is bigger than the company I work for.  It's a great experience.  I'm happy to report that OpenLaszlo contributors appear to have a better gender balance than the industry with about 10% women so far.  Perhaps over time we can do even better than that.</p>
+    <p>To any techie or designer woman who may be reading this, all I can say is "come on in the water's fine!"</p>
+    <p>Sarah</p>
+linked_from:
+- id: 191
+  title: "Open Source Initiative : All about Open Source Software » изменения неизбежны"
+  url: "http://www.opensourceinitiative.net/2011/12/08/%d0%b8%d0%b7%d0%bc%d0%b5%d0%bd%d0%b5%d0%bd%d0%b8%d1%8f-%d0%bd%d0%b5%d0%b8%d0%b7%d0%b1%d0%b5%d0%b6%d0%bd%d1%8b/19/"
+  date: '2011-12-08T07:30:13-08:00'
+- id: 1195
+  title: "the grim meathook kind of future | the evolving ultrasaurus"
+  url: "https://www.ultrasaurus.com/sarahblog/2008/12/the-grim-meathook-kind-of-future/"
+  date: '2013-10-05T08:56:58-08:00'

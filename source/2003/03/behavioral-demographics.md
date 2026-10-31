@@ -23,4 +23,6 @@ of chat. I find it interesting to think in terms of a behavioral demographic.
 If you don’t spend much of your time sitting in front of a connected  
 PC, then Instant Messaging certainly loses its appeal.
 
-\[Update: the end of this post seems to have been lost in the mists of time, along with my observation that the icons looked like little ducks, which provides a little context for Sam’s comment\]
+With my archaic Win2K system, I can’t try 3° myself, but I checked out the online [feature tour](http://www.msnbc.com/modules/Newsweek/msoft_three_degrees/3degrees.asp). The musicmix reminded me of the Shockwave [musicjam](http://www.ss7x7.com/) by SS7X7. I love this stuff. I don’t know why — I just think it is fun. However, for me it is a rare experience, rather than regular activity. Will the easy creation of personal on-line spaces complete with winks and desktop icons popularize this kind of experience? I’m not sure. Maybe I’m not NetGen-enough, but I still believe we need to work on a more diverse set of compelling applications.
+
+![MSN people icon](/uploads/2003/03/msn_ducks.gif) Is it just me, or does anyone else think that the MSN people icons look like little ducks?

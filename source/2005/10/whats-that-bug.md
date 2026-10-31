@@ -4,7 +4,7 @@ date: '2005-10-24T08:02:36-07:00'
 exported_permalink: /2005/10/whats-that-bug
 id: 195
 ---
-I can’t tell you the number of times I’ve been unable to identify some cool new specimen. Unlike linguistic questions, like the [history of the letter C](https://www.ultrasaurus.com/sarahblog/archives/000051.html), identifying creatures by sight is pretty near impossible to research on the internet, or even with a book for the non-biologist. Now I’ve found: [whatsthatbug.com](http://www.whatsthatbug.com/).  
+I can’t tell you the number of times I’ve been unable to identify some cool new specimen. Unlike linguistic questions, like the [history of the letter C](/2003/08/the-history-of-the-letter-c/), identifying creatures by sight is pretty near impossible to research on the internet, or even with a book for the non-biologist. Now I’ve found: [whatsthatbug.com](http://www.whatsthatbug.com/).  
 ![](http://www.whatsthatbug.com/images/japanese_beetle_orgy.jpg)  
 The picture on the right comes from the [bug love](http://www.whatsthatbug.com/love_among_bugs.html) section. Not sure I quite understand the biology behind that, but it is entertaining. I can’t wait till our next trip to the park!
 

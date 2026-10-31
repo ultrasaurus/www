@@ -20,7 +20,7 @@ I was in high school in the mid-80s. At the time most people believed that you h
 
 A computer science degree does not just teach you to code in a specific programming language that may be obsolete in ten years. You learn a specific way of thinking: problem solving, debugging, patterns of solutions to technical problems. This way of thinking makes you more adept with modern tools and can be applied in any job you might have in the future. There are also a wide array of jobs that you will then be qualified for from standard IT and software development to scientific research to web publishing.
 
-I believe that every child should have a semester or two of learning a programming language and that every college freshman should be encouraged to take a computer science course that teaches practical software engineering as well as some of the more abstract concepts. These basic skills can then be applied to problem solving for research, whether it be journalism, chemistry or just to learn more about the world (like Jon Udell’s (like Jon Udell’s [question about us oil imports](https://www.ultrasaurus.com/sarahblog/archives/000507.html)).
+I believe that every child should have a semester or two of learning a programming language and that every college freshman should be encouraged to take a computer science course that teaches practical software engineering as well as some of the more abstract concepts. These basic skills can then be applied to problem solving for research, whether it be journalism, chemistry or just to learn more about the world (like Jon Udell’s (like Jon Udell’s [question about us oil imports](/2008/11/data-mining-for-oil-sources/)).
 
 Many thanks to my friend [ptw](http://pt.withy.org/ptalk/) who sent me this article and regularly alerts me to similar ones. I’ve always been puzzled and frustrated about the minority of women in my chosen field, while at the same time understanding intuitively that it make sense that this is so.
 
@@ -31,7 +31,7 @@ Here’s my take on the problem and what we should do about it. Note: this is no
 2\) **Computer Science has a marketing problem**. (This is a quote from a Grace Hopper talk. I’m sorry I don’t have the reference.)  
  2a) see #1 above  
  2b) the geek image really needs to be reclaimed in a positive light  
- 2c) women in computer history need be be recognized (e.g. the [eniac programmers](https://www.ultrasaurus.com/sarahblog/archives/000498.html) and the like)  
+ 2c) women in computer history need be be recognized (e.g. the [eniac programmers](/2008/10/jean-bartik-at-the-computer-history-museum/) and the like)  
  2d) Computer Science curriculum should include real-world applications, not just prepare folks to be computer science professors. Working in the industry offers significantly different challenges than academic research which tends to be pretty abstract. (an insight from a conversation with [Oliver Steel](http://osteele.com/))
 
 3\) **Sexist behavior needs to be eliminated**. This is even more important if you are a man. Don’t let those comment slide. If there is only one woman in the room, see if you can make sure she is heard as much as the guys. But don’t overdo it, being heard \*because\* you are a woman is almost as bad as not being heard because you are a woman. Make it so everyone feels welcome to participate.

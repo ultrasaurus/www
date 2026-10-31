@@ -12,4 +12,4 @@ I may be an anomoly in the blogosphere, but I don’t read the so-called A-list 
 
 I always felt that the internet was the inverse of mass media. Instead of a few information sources braodcast to the masses, there are a huge number of publishers. Frankly the credibility of TV news is not any better than your average web site. Even with digital cable hooked up to the TV, I’ve got way more channels on my laptop.
 
-[read more](https://www.ultrasaurus.com/sarahblog/archives/000063.html) top ten reasons for a web log
+[read more](/2003/09/top-ten-reasons-for-a-web-log/) top ten reasons for a web log

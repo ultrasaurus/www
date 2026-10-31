@@ -12,4 +12,4 @@ Most of the men I know don’t have websites, and I read many sites clearly auth
 
 This perceived gender disparity was the #2 reason I created this blog. I don’t write about gender issues much, because I don’t think about them much. However, I cannot immerse myself in this thriving technical ecosystem without occasionally noticing that I’m the only woman in the room. I’m thrilled that there are so many other technical women out there. I hope that I will see a day when there as a many women as there are men who are involved in this fun and exciting work (and play).
 
-[read more](https://www.ultrasaurus.com/sarahblog/archives/000063.html) top ten reasons for a web log
+[read more](/2003/09/top-ten-reasons-for-a-web-log/) top ten reasons for a web log

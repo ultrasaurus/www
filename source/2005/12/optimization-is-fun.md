@@ -8,4 +8,4 @@ I spent some time last week optimizing startup time for [Laszlo Mail](http://www
 
 So, after spending some time one weekend optimizing, I came into the office and said gleefully: “Optimization is fun!” A few of my colleagues looked at me sideways. It struck me that I haven’t always thought that optimization was fun. In fact, I used to feel sorry for the engineer on the team who was tasked with optimization. I always thought “please, god, don’t pick me,” whenever the subject came up.
 
-Over the past couple of years, though, I’ve changed my attitude. Part of it is changing my attitude toward hard tasks at work and learning to [make them fun](https://www.ultrasaurus.com/sarahblog/archives/000129.html). A lot of it is just about setting my own expectations. A lot of optimizing is understanding the code and experimenting with tools and
+Over the past couple of years, though, I’ve changed my attitude. Part of it is changing my attitude toward hard tasks at work and learning to [make them fun](/2004/07/work-as-play/). A lot of it is just about setting my own expectations. A lot of optimizing is understanding the code and experimenting with tools and

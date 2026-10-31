@@ -6,7 +6,7 @@ id: 378
 tag:
     - learning
 ---
-In reading more about the [spacing effect](https://www.ultrasaurus.com/sarahblog/archives/000444.html), I found some interesting research on incidental learning, which maps more closely on how I learn best and how I enjoy learning.
+In reading more about the [spacing effect](/2008/05/extreme-learning-overcoming-the-spacing-effect/), I found some interesting research on incidental learning, which maps more closely on how I learn best and how I enjoy learning.
 
 “For cued-memory tasks (e.g. recognition memory, frequency estimation tasks), which rely more on item information and less on contextual information, Greene (1989) proposed that the spacing effect is due to the deficient processing of the second occurrence of a massed item. This deficient processing is due to the increased amount of voluntary rehearsal of spaced items. This account is supported by findings that the spacing effect is not found when items are studied through incidental learning.” — Wikipedia on the [spacing effect](http://en.wikipedia.org/wiki/Spacing_effect)
 

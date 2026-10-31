@@ -12,4 +12,4 @@ It is good to have a place to play. There’s a lot I can do right here on my ow
 
 A blog is a comfortable sidebar for my experiment of the moment. The only comparable forum is the cube-side demo — grabbing a colleague for an impromptu “hey check this out” — which acheives a similar camraderie, but lacks the temporal independence and low impact of a blog entry.
 
-[read more](https://www.ultrasaurus.com/sarahblog/archives/000063.html) top ten reasons for a web log
+[read more](/2003/09/top-ten-reasons-for-a-web-log/) top ten reasons for a web log

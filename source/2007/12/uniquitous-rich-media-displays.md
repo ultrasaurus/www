@@ -7,7 +7,7 @@ id: 343
 Rich media displays are becoming ubiquitous.
 
 albertson’s:  
-https://www.ultrasaurus.com/sarahblog/archives/000222.html
+/2005/09/the-albertsons-channel/
 
 cafe…
 

@@ -24,7 +24,7 @@ The [API documentation](http://browserplus.yahoo.com/services/) is available, bu
 BrowserPlus also has a plugin architecture, so the features can be updated without restarting the browser or even refreshing the page! This will put them in a very good position when it comes to adoption, but the way they present the plugins is a bit odd from an end user perspective. I can dig allowing Yahoo to install an image editor, but do I really care that the app I’m using is written in Ruby? I’ve got a little security geek background and I don’t even understand implications of allowing a “RubyInterpreter” to be installed — is it sandboxed? does it allow file system access? This is weird territory from a usability perspective. How’s a normal person to tell what’s safe or not? Hard to tell what the model is here… am I trusting the site or trusting the software vendor? Right now they are the same for BrowserPlus, but they’ll need to clarify this before they open it up
 
 **Installation Experience**  
-Continuing with my series evaluating the initial experience for [Adobe Air and Gears](https://www.ultrasaurus.com/sarahblog/archives/000424.html), here’s a click-through slide show of getting started with BrowserPlus:
+Continuing with my series evaluating the initial experience for [Adobe Air and Gears](/2008/02/emerging-trend-offline-web-applications/), here’s a click-through slide show of getting started with BrowserPlus:
 
 Slides: [SlideShare](http://static.slideshare.net/swf/logo_embd.png)<small>Privacy Policy</small>
 

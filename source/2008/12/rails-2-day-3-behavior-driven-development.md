@@ -14,7 +14,7 @@ Now that we have learned some basic Ruby syntax and gained some understanding ab
 3. Write the code to make it pass
 4. Goto step 1
 
-After [reading a bit](https://www.ultrasaurus.com/sarahblog/archives/000543.html) about test- and behavior-driven development, I decided to use a relatively new framework called [cucumber](http://github.com/aslakhellesoy/cucumber/wikis) which uses natural language to describe features.
+After [reading a bit](/2008/12/test-and-behavior-driven-development/) about test- and behavior-driven development, I decided to use a relatively new framework called [cucumber](http://github.com/aslakhellesoy/cucumber/wikis) which uses natural language to describe features.
 
 Today we will:
 

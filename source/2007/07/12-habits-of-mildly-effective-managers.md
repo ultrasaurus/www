@@ -14,7 +14,7 @@ Like many folks, I have to learn the same lessons over and over again. To help m
 
 \#4 Don’t outsource the fun stuff.
 
-\#5: Don’t lie. (in stark contrast to rule #4 in “[work as play](https://www.ultrasaurus.com/sarahblog/archives/000129.html)“) There’s a fine line between setting aggressive schedules and setting your team up to fail. Make sure you know the difference.
+\#5: Don’t lie. (in stark contrast to rule #4 in “[work as play](/2004/07/work-as-play/)“) There’s a fine line between setting aggressive schedules and setting your team up to fail. Make sure you know the difference.
 
 \#6: Don’t release on a Friday.
 

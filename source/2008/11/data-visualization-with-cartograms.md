@@ -6,7 +6,7 @@ id: 450
 tag:
     - visualization
 ---
-Jon Udell [writes about visual numeracy](http://blog.jonudell.net/2008/11/18/visual-numeracy-for-collective-survival/), introducing a new graph to continue the [conversation](https://www.ultrasaurus.com/sarahblog/archives/000507.html) about where the [US gets its oil](http://blog.jonudell.net/2008/11/09/where-the-oil-comes-from-not-from-where-i-thought/).
+Jon Udell [writes about visual numeracy](http://blog.jonudell.net/2008/11/18/visual-numeracy-for-collective-survival/), introducing a new graph to continue the [conversation](/2008/11/data-mining-for-oil-sources/) about where the [US gets its oil](http://blog.jonudell.net/2008/11/09/where-the-oil-comes-from-not-from-where-i-thought/).
 
 Here’s his original map of US oil imports by region:  
 [  

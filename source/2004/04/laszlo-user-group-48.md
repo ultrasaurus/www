@@ -18,5 +18,5 @@ Agenda:
 Lot’s of working code explained by the developers themselves!
 
 \* Max Carlson will demo his Particle Systems code  
-\* Sarah Allen will demo the [Laszlo Inspector ](/sarahblog/archives/000124.html)  
+\* Sarah Allen will demo the [Laszlo Inspector ](/2004/03/laszlo-inspector/)  
 \* Grig Bilham will demo [PhotoBlox](http://photoblox.blogspot.com/)

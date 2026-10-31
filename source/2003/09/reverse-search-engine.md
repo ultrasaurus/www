@@ -15,4 +15,4 @@ Interesting sites I’ve found:
 
 People really do make the best librarians.
 
-[read more](https://www.ultrasaurus.com/sarahblog/archives/000063.html) top ten reasons for a web log
+[read more](/2003/09/top-ten-reasons-for-a-web-log/) top ten reasons for a web log

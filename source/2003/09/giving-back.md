@@ -10,4 +10,4 @@ The internet has a wonderful history of people freely sharing their creations. A
 
 It wanted to do more than simply lurk, but become a participating citizen this strange community of bloggers. I enjoy my small presence in an obscure corner of the blogosphere.
 
-[read more](https://www.ultrasaurus.com/sarahblog/archives/000063.html) top ten reasons for a web log
+[read more](/2003/09/top-ten-reasons-for-a-web-log/) top ten reasons for a web log

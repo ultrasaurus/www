@@ -18,4 +18,4 @@ I was going to sign up anyhow and even filled out most-of the form (using one of
 
 Normally I save my blog for writing about fun, happy things, and I started this entry because I hoped funchain would be one of them. I publish this in hopes that someone over there might notice and fix some of these issues.
 
-(via [What is Not](http://migs.paraz.com/wordpress/index.php?p=95) via a comment on [26 countries](https://www.ultrasaurus.com/sarahblog/archives/000115.html). I haven’t been to the Philippines since 1977 and I’m sure it has changed a lot. It’s fun to be reminded that this really is the \*world wide\* web.)
+(via [What is Not](http://migs.paraz.com/wordpress/index.php?p=95) via a comment on [26 countries](/2004/02/26-countries/). I haven’t been to the Philippines since 1977 and I’m sure it has changed a lot. It’s fun to be reminded that this really is the \*world wide\* web.)

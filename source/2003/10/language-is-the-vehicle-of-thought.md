@@ -14,4 +14,4 @@ I agree with Chris Crawford that communication develops thought. The passage abo
 
 “A clearer view of human intelligence and cognitive development emerges if human-class intelligence is recognized as inherently a socially distributed phenomenon.” ([Daniel Bullock](http://www.utc.fr/arco/publications/intellectica/n26_27/26_05_Bullock.pdf))
 
-[read more](https://www.ultrasaurus.com/sarahblog/archives/000063.html) top ten reasons for a web log
+[read more](/2003/09/top-ten-reasons-for-a-web-log/) top ten reasons for a web log

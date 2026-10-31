@@ -4,7 +4,7 @@ date: '2008-12-01T21:07:24-08:00'
 exported_permalink: /2008/12/snaptell-identifies-media-from-captured-images
 id: 453
 ---
-Ok, I haven’t raved about my iPhone yet, because, aside from the awesome [cinematic interface](https://www.ultrasaurus.com/sarahblog/archives/000352.html), my favorite feature has been that I can listen to my voice mail in any order with a graphical UI, which is, frankly, not so remarkable…. but today I read about a remarkable app from [SnapTell](http://www.snaptell.com/) which made me feel like I’m living in the future….
+Ok, I haven’t raved about my iPhone yet, because, aside from the awesome [cinematic interface](/2007/07/iphones-cinematic-ui/), my favorite feature has been that I can listen to my voice mail in any order with a graphical UI, which is, frankly, not so remarkable…. but today I read about a remarkable app from [SnapTell](http://www.snaptell.com/) which made me feel like I’m living in the future….
 
 [Alan Levine has detailed the SnapTell experience](http://cogdogblog.com/2008/10/19/mobile-magic/) (via blog [comment](http://ouseful.wordpress.com/2008/10/25/printing-out-online-course-materials-with-embedded-movie-links/#comment-450)). With my iPhone I took a photo of 3 random books on my side table and they were quickly cataloged with wikipedia references and google searches.
 

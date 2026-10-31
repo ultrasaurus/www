@@ -6,7 +6,7 @@ id: 358
 ---
 I posted to the gears group earlier today about the glitches in the Google Reader install experience and got a [nice response](http://groups.google.com/group/google-gears/msg/fdfda07ba2971fa1) from Aaron Boodman who suggested I check out [remember the milk](http://www.rememberthemilk.com/) which has a nice offline experience implemented with Gears.
 
-So, I uninstalled Gears and gave it a whirl. In so doing, I realized I had not done an apples-to-apples comparison since what I captured for Google Reader was the upgrade experience *not*  the initial download experience, so I’ve updated my [previous post](https://www.ultrasaurus.com/sarahblog/archives/000424.html) with the info below.
+So, I uninstalled Gears and gave it a whirl. In so doing, I realized I had not done an apples-to-apples comparison since what I captured for Google Reader was the upgrade experience *not*  the initial download experience, so I’ve updated my [previous post](/2008/02/emerging-trend-offline-web-applications/) with the info below.
 
 Remember the Milk has really done a nice job with this. The installation took just a few minutes. After setting it up initially, I could go back and forth between online and offline without really thinking about it.
 

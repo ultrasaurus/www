@@ -14,4 +14,4 @@ The folks at the [Internet Archive](http://www.archive.org/) are working to ensu
 
 Weblogs capture the passage of time. Fundamentally different from traditional website publishing, every entry has a date and time, and achiving is automatic. The experience changes for both the reader and the publisher. Its a small place in my grown up life of software development and internet time where I can recapture the feeling of scissors and construction paper, glitter and glue. As I write an entry, time can stand still for days. My desktop is strewn with web pages, useful references and distractions. I collect and discard links. I read and I think. I string together ideas as paragraphs in a web form. It is one of those unexpected reasons to keep a web log.
 
-[read more](https://www.ultrasaurus.com/sarahblog/archives/000063.html) top ten reasons for a web log
+[read more](/2003/09/top-ten-reasons-for-a-web-log/) top ten reasons for a web log

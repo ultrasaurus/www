@@ -22,4 +22,4 @@ One of the reasons I keep a web log is for writing practice.
 
 (this quote from a now obsolete web page was resurrected thru the magic of the [wayback machine](http://www.archive.org/))
 
-[read more](https://www.ultrasaurus.com/sarahblog/archives/000063.html) top ten reasons for a web log
+[read more](/2003/09/top-ten-reasons-for-a-web-log/) top ten reasons for a web log

@@ -20,6 +20,6 @@ Handy Tutorials:
 \* [awk](http://www.vectorsite.net/tsawk.html)
 
 Bits of Wisdom:  
-\* [xargs is your friend](https://www.ultrasaurus.com/sarahblog/archives/000457.html)
+\* [xargs is your friend](/2008/06/bash-xargs-is-your-friend/)
 
 Many thanks to my bash mentors: Eric Bloch, [Scott Evans](http://www.antisleep.com/), [ptw](http://pt.withy.org/) and Pablo Kang.

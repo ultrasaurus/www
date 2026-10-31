@@ -6,7 +6,7 @@ id: 119
 tag:
     - learning
 ---
-This is the second part of my response to Anna Fels’ thought-provoking, yet unfortunately titled article that was discussed in my [last post](https://www.ultrasaurus.com/sarahblog/archives/000136.html).
+This is the second part of my response to Anna Fels’ thought-provoking, yet unfortunately titled article that was discussed in my [last post](/2004/04/different-kinds-of-ambition/).
 
 **Psychological Foundations of Ambition**
 

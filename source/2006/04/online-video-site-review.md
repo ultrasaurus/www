@@ -9,12 +9,12 @@ Lately I’ve been touring the hopping online video neighborhood. It seemed to b
 I was curious how popular the various sites were and how long they had been around. Popularity is not always an indicator of quality or even ‘interestingness.’ Long lived sites have had time to mature their features but newcomer can bring fresh ideas and innovation. Overwhelmed by the sheer number of sites, and my random walk through them, I side-tracked into coding up a questionable comparison. Based on the premise of the entertaining [googlefight](www.googlefight.com/), I used the google APIs to gage how frequently a site was linked to and built a simple graph using [OpenLaszlo](http://www.openlaszlo.org). This is a work-in-progress — I’d be happy to share the code and tell more details of its making if anyone is interested. You can rollover the bar or name of a site to see the actual numbers and click to open the site in a new window:
 
 Below are the sites I’ve actually taken a good look at and links to reviews on this blog:  
-[Grouper](http://www.grouper.com), Sept 2004, P2P file sharing, I like their web site best for its “lean back” experience ([more](https://www.ultrasaurus.com/sarahblog/archives/000254.html))  
-[YouTube](http://www.youtube.com), Feb 2005, very fast, very usable, [well-loved](http://customerevangelists.typepad.com/blog/2006/03/10_reasons_why_.html). Flash video starts fast and plays well. ([more](https://www.ultrasaurus.com/sarahblog/archives/000257.html))  
-[Sharkle](http://www.sharkle.com), Sept 2005, nice Flash video, sometimes starts slow but then plays well ([more](https://www.ultrasaurus.com/sarahblog/archives/000256.html))  
-[ClipShack](http://www.clipshack.com), June 2005, nice content, mediocre quality ([more](https://www.ultrasaurus.com/sarahblog/archives/000252.html))  
+[Grouper](http://www.grouper.com), Sept 2004, P2P file sharing, I like their web site best for its “lean back” experience ([more](/2006/03/grouper-video-wall/))  
+[YouTube](http://www.youtube.com), Feb 2005, very fast, very usable, [well-loved](http://customerevangelists.typepad.com/blog/2006/03/10_reasons_why_.html). Flash video starts fast and plays well. ([more](/2006/03/youtube-does-social-video-well/))  
+[Sharkle](http://www.sharkle.com), Sept 2005, nice Flash video, sometimes starts slow but then plays well ([more](/2006/03/sharkle-yet-another-social-video-site/))  
+[ClipShack](http://www.clipshack.com), June 2005, nice content, mediocre quality ([more](/2006/03/clipshack-hot-coffee-dance/))  
 <a>TagWorld</a>: a few weeks ago it seemed like a good place to go if you like watch young girls dance and lip-sync, now it seems to have more varied content, but it too slow to review
 
 - - - - - -
 
-[Revver](http://www.revver.com): revenue sharing, QT, nice simple interface ([more](https://www.ultrasaurus.com/sarahblog/archives/000255.html))
+[Revver](http://www.revver.com): revenue sharing, QT, nice simple interface ([more](/2006/03/videos-make-money-with-revver/))

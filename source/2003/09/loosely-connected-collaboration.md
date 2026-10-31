@@ -10,7 +10,7 @@ It all started back in July – August when [Marc Canter](http://blogs.it/010019
 
 Meanwhile Mark Davis was working on something completely different for his blog. A [nav toy](http://drdreff.blogspot.com/2003_09_07_drdreff_archive.html#106305830618139273) that could be paramterized to display a list of links. The project included one hand-painted gradient png and about a hundred lines of LZX code. Dan Lewis spotted it and handily provided some new gradients and a “powered by Laszlo” footer.
 
-I thought it was neat and and [wrote about it](https://www.ultrasaurus.com/sarahblog/archives/000072.html). Then I noticed an opportunity. I saw a small improvement that would cause me to want to put it on my blog (adding an XML config file). I set out to make that one change, then got excited and added a few others. Later that night I had morphed it into an [OPML viewer](https://www.ultrasaurus.com/sarahblog/archives/000074.html). Since I was coding quickly I took out all the parameterization and hard-coded the colors.
+I thought it was neat and and [wrote about it](/2003/09/laszlo-blog-fun/). Then I noticed an opportunity. I saw a small improvement that would cause me to want to put it on my blog (adding an XML config file). I set out to make that one change, then got excited and added a few others. Later that night I had morphed it into an [OPML viewer](/2003/09/laszlo-opml-viewer/). Since I was coding quickly I took out all the parameterization and hard-coded the colors.
 
 Marc Canter sees it and e-mails me: “I want one of those – NOW! I can’t wait. What do I have to do?” Lyndon Wong tells me that he wants one too.
 

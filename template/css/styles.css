@@ -97,6 +97,19 @@ blockquote {
     color: var(--muted);
 }
 
+/* only seen in `dev --drafts`; drafts are never published */
+.draft-label {
+    background: var(--green);
+    color: var(--on-green);
+    font-size: .75rem;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: .05em;
+    padding: .1rem .4rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
 /* Keep lines short enough to read, about 85 characters.
    Centred, so the side margins grow as the window gets wider */
 #content {

@@ -1,0 +1,15 @@
+---
+title: 'individuality and space design'
+date: '2005-09-21T00:04:22-07:00'
+status: draft
+id: 187
+---
+&gt;&gt; the question is whether there is any value in the effort and money  
+&gt;&gt; used to make a utilitarian space aesthetically pleasing, and if so,  
+&gt;&gt; does this translate to the Web and other interactive spaces?
+
+&gt; Of course.
+
+“And if you want to save the world, paradoxically, you’ve got to pay more attention to individuals, not less. It won’t work any other way.”
+
+http://www.inc.com/magazine/20050901/bill-strickland.html

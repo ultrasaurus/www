@@ -1,0 +1,7 @@
+---
+title: 'Do mothers make better managers?'
+date: '2006-05-27T21:22:09-07:00'
+status: draft
+id: 243
+---
+I heard a lot of discussion recently about the USA today article “[do mom’s make better managers?](http://www.usatoday.com/money/companies/management/2006-05-11-women-leaders-usat_x.htm)”

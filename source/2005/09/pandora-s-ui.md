@@ -1,0 +1,9 @@
+---
+title: 'Pandora&#8217;s UI'
+date: '2005-09-14T07:05:45-07:00'
+status: draft
+id: 184
+---
+In the interface the music is foremost, appropriately taking up most of the screen real-estate. The controls are effectively tucked into the borders, with the most important ‘pause’ and ‘play’ displayed prominently in the upper-right.
+
+side note: I think that the [Anthropomorphized Brushed Metal User Interface Theme](http://daringfireball.net/2005/09/anthropomorphized) (via Tucker) would be pleased to be part of the Pandora launch.

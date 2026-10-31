@@ -1,0 +1,8 @@
+---
+title: freemium
+date: '2009-07-05T09:33:44-07:00'
+status: draft
+id: 1705
+category: general
+---
+http://www.avc.com/a\_vc/2009/07/freemium-and-freeconomics.html (via http://twitter.com/timoreilly/status/2482425661)

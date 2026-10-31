@@ -1,0 +1,7 @@
+---
+title: 'Spore PNG encoding'
+date: '2008-12-07T13:31:13-08:00'
+status: draft
+id: 455
+---
+http://nedbatchelder.com/blog/200806/spore\_creature\_creator\_and\_steganography.html

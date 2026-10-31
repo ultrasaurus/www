@@ -1,0 +1,10 @@
+---
+title: 'learning language just by listening to it'
+date: '2010-06-12T15:36:19-07:00'
+status: draft
+id: 2739
+category: general
+---
+A while ago I read [an article](http://www.victoria.ac.nz/home/about/newspubs/news/ViewNews.aspx?id=2455&newslabel=hn) about some research from Victoria University PhD graduate Paul Sulzberger. “Dr Sulzberger has found that the best way to learn a language is through frequent exposure to its sound patterns—even if you haven’t a clue what it all means.”
+
+I’ve decided to test this theory in learning Japanese. I don’t want to learn just any Japanese. I aspire to be able to understand tech talks at the Japanese Ruby conference, Ruby Kaigi.

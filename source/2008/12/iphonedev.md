@@ -1,0 +1,19 @@
+---
+title: iPhonedev
+date: '2008-12-07T12:39:59-08:00'
+status: draft
+id: 454
+---
+http://dblog.com.au/iphone-development/iphone-sdk-tutorial-build-your-very-own-web-browser/
+
+iPhone OCR  
+http://kuei.com/2008/06/17/ocr-engine-for-iphone/
+
+http://justanotheriphoneblog.com/wordpress/2008/04/22/the-iphone-means-never-having-to-take-handwritten-notes-againpart-2/
+
+ocr open source engine:  
+http://code.google.com/p/tesseract-ocr/
+
+http://www.tuaw.com/2008/10/09/apples-iphone-tech-talk-world-tour/  
+http://furbo.org/2008/10/01/redacted/  
+http://www.tuaw.com/2008/10/08/pdf-version-of-iphone-cookbook-available/

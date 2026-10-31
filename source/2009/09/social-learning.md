@@ -1,0 +1,9 @@
+---
+title: 'social learning'
+date: '2009-09-22T03:50:02-07:00'
+status: draft
+id: 2082
+category: general
+---
+article about teaching and collaborative learning http://bit.ly/ub7A1 makes me think about learning theories of Vygotzy, Lave and Wenger  
+http://en.wikipedia.org/wiki/Situated\_learning

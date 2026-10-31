@@ -1,0 +1,13 @@
+---
+title: 'subjective verb form: mood not tense'
+date: '2017-04-11T14:37:03-07:00'
+status: draft
+id: 6217
+---
+[Sometimes the subjunctive matters. That won’t stop it dying.](https://motivatedgrammar.wordpress.com/2012/02/15/sometimes-the-subjunctive-matters-that-wont-stop-it-dying/)
+
+Tim Minchin – [If I Didn’t Have You](https://www.youtube.com/watch?v=Zn6gV2sdl38)
+
+[If I were a rich man](https://www.youtube.com/watch?v=RBHZFYpQ6nc)
+
+Spanish subjective: http://studyspanish.com/grammar/lessons/subj1

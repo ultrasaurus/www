@@ -1,0 +1,11 @@
+---
+title: 'open source: Laszlo vs. Flex'
+date: '2009-02-12T04:42:10-08:00'
+status: draft
+id: 795
+category: general
+---
+http://blog.simb.net/2009/01/12/source-does-not-open-source-make/  
+http://blog.simb.net/2009/02/10/introducing-the-flex-sdk-community-committee/
+
+The other Sim’s post?

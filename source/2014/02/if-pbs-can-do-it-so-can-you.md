@@ -1,0 +1,9 @@
+---
+title: 'if pbs can do it, so can you'
+date: '2014-02-08T14:25:20-08:00'
+status: draft
+id: 5003
+---
+http://www.theguardian.com/media/2013/sep/11/jason-seiken-telegraph-chief-pbs
+
+http://blogs.hbr.org/2013/09/how-i-got-my-team-to-fail-more/

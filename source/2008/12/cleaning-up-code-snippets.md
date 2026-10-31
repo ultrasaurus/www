@@ -1,0 +1,19 @@
+---
+title: 'cleaning up code snippets'
+date: '2008-12-15T07:40:00-08:00'
+status: draft
+id: 565
+---
+pre.code {  
+font-size: 120%;  
+border: solid 1px #aaa;  
+padding: 6px;  
+background-color: #eee;  
+color: inherit;  
+overflow:auto;  
+margin: 10px 0px;  
+}
+
+```
+<p>from a comment on http://andrzejonsoftware.blogspot.com/2007/05/15-tdd-steps-to-create-rails.html</p>
+```

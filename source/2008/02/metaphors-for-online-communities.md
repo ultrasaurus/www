@@ -1,0 +1,9 @@
+---
+title: 'metaphors for online communities'
+date: '2008-02-24T09:45:57-08:00'
+status: draft
+id: 359
+---
+How do we make online communities work as effectively as real-world interactions? It’s rather obvious to borrow guidelines of how we make real-world group interactions effective. Simply inviting a bunch of folks does not automatically result in a good party.
+
+ServiceUntitled writes about [communities as parties](http://www.serviceuntitled.com/communities-as-parties/2008/02/13/) (via [Marc Canter](http://blog.broadbandmechanics.com/)), exploring the metaphor raised by Matt Mullenweg at the New Marketing Summit.

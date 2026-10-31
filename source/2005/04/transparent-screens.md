@@ -1,0 +1,8 @@
+---
+title: 'transparent screens'
+date: '2005-04-03T13:33:37-07:00'
+status: draft
+id: 163
+---
+[![DSC_0343s.jpg](https://live.staticflickr.com/4/7436258_0533a1de59_z.jpg)](http://www.flickr.com/photos/benseese/7436258/in/pool-transparentscreens/)  
+http://www.flickr.com/photos/w00kie/7564998/in/set-180637/

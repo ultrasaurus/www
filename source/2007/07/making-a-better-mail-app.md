@@ -1,0 +1,11 @@
+---
+title: 'making a better mail app'
+date: '2007-07-06T13:53:51-07:00'
+status: draft
+id: 288
+---
+http://blog.eronj.com/2007/07/05/ionut-alex-chitu-about-paul-buchheit-the-man-behind-gmail/
+
+http://googlesystem.blogspot.com/2007/07/paul-buchheit-man-behind-gmail.html
+
+http://googleblog.blogspot.com/2005/10/guess-what-just-turned-34.html

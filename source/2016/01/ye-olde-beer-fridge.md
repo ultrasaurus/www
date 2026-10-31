@@ -1,0 +1,7 @@
+---
+title: 'ye olde beer fridge'
+date: '2016-01-06T21:14:54-08:00'
+status: draft
+id: 5858
+---
+Someone asked me a couple of years ago if I still had the dedication I wrote to the beer fridge that I brought in for our team at Laszlo Systems. I just found a copy of it…

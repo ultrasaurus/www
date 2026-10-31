@@ -1,0 +1,12 @@
+---
+title: 'stupid is powerful'
+date: '2009-07-27T05:47:45-07:00'
+status: draft
+id: 1858
+category: general
+---
+“For too long now, email has remained oddly stupid”(via http://www.brucemacvarish.com/2009/07/enterprise-flow.html)
+
+Traditional Web apps with HTTP form post -&gt; HTML response and full page refresh are also stupid, but they won over their more complex forbears: InterMedia, Augment, etc.
+
+![](http://img.skitch.com/20090727-bthp8qpp2aggcrfsc5jpjrkqjj.jpg)

@@ -1,0 +1,9 @@
+---
+title: 'behind every detail there&#8217;s a detail'
+date: '2009-02-21T14:32:07-08:00'
+status: draft
+id: 761
+category: general
+---
+[LexusES video](http://www.lexus.com/models/ES/features/performance/88_vibration_reducing_measures.html?launchOverlay=true&filepath=OverlayFiles.ES_CARDS&cards=1)  
+via [@erict](http://twitter.com/erict)

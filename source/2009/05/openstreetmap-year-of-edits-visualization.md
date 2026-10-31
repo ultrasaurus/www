@@ -1,0 +1,12 @@
+---
+title: 'openstreetmap year of edits visualization'
+date: '2009-05-08T04:15:38-07:00'
+status: draft
+id: 807
+category: general
+---
+[OSM 2008: A Year of Edits](http://vimeo.com/2598878) from [ItoWorld](http://vimeo.com/itoworld) on [Vimeo](http://vimeo.com).
+
+Graphics were created by [Hal Bertram](http://www.halbertram.com), CTO of …, based on data from openstreetmaps.org with music by
+
+The music is ‘Open Electro’ by Vincent Girès’ jamendo.com/en/artist/silence and can be downloaded from archive.org/details/silence-silence.

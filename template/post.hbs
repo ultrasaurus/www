@@ -5,7 +5,7 @@
 {{> _topbar}}
     <div class="row" id="content">
         <h1>{{{ title }}}</h1>
-        <p class="post-date"><em>{{date_format date "%B %-d, %Y"}}</em></p>
+        <p class="post-date"><em>{{date_format date "%B %-d, %Y"}}</em> {{> _draft-label}}</p>
         {{{ body }}}
         {{> _post-nav}}
         {{> _comments}}

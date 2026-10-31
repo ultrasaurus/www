@@ -35,6 +35,22 @@ a:hover {
     text-decoration: underline;
 }
 
+/* All · Code · General at the top of the archive pages; the current
+   one is bold, not a link */
+.archive-nav {
+    margin-bottom: 1.5rem;
+}
+
+.archive-nav a,
+.archive-nav strong {
+    padding: 0 .25rem;
+}
+
+.archive-nav a:first-child,
+.archive-nav strong:first-child {
+    padding-left: 0;
+}
+
 /* ...except lists that are all links, like the archives */
 #content .archive-list a {
     text-decoration: none;

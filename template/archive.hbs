@@ -5,6 +5,7 @@
 {{> _topbar}}
     <div class="row" id="content">
         <h1>{{{ title }}}</h1>
+        {{> _archive-nav}}
         {{#each posts_by_month}}
         <h2>{{date_format month}}</h2>
         <ul class="archive-list">

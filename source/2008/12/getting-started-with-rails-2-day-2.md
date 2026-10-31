@@ -5,9 +5,9 @@ exported_permalink: /2008/12/getting-started-with-rails-2-day-2
 id: 598
 category: code
 ---
-In [Day 1](https://www.ultrasaurus.com/code/2008/12/getting-started-with-rails.html) with Rails, we built a simple application that let us manage a list of categories using the powerful generate scaffold script. Today, we’ll look under the hood and learn about the code that was created for us, so that we can modify the application to do just what we want (or, rather, what the tutorial [Four Days on Rails](http://rails.homelinux.org/) tutorial did, as I continue to update that tutorial for Rails 2.)
+In [Day 1](/2008/12/getting-started-with-rails-2-day-1/) with Rails, we built a simple application that let us manage a list of categories using the powerful generate scaffold script. Today, we’ll look under the hood and learn about the code that was created for us, so that we can modify the application to do just what we want (or, rather, what the tutorial [Four Days on Rails](http://rails.homelinux.org/) tutorial did, as I continue to update that tutorial for Rails 2.)
 
-You’ll get the most out of Day 2, if you already know Ruby or you first read chapters 0-3 of the [humble little Ruby book](https://www.ultrasaurus.com/code/2008/12/great-ruby-book.html) or some other introduction to the language. Or, of course, you can just wing it.
+You’ll get the most out of Day 2, if you already know Ruby or you first read chapters 0-3 of the [humble little Ruby book](/2008/12/great-ruby-book/) or some other introduction to the language. Or, of course, you can just wing it.
 
 You also should know about the MVC (Model View Controller) design pattern. Although if you don’t know MVC already, you’ll get the hang of it soon, at least from the Rails perspective. The Getting Started Guide has a [nice intro](http://guides.rubyonrails.org/getting_started_with_rails.html#_the_mvc_architecture) to MVC and elaborates on how Rails applies this venerated pattern:
 
@@ -78,7 +78,7 @@ Active Record is one of the “gems” installed with Rails. Looking in the [Rub
 
 An instance of the class Category could be called anything but the Rails convention is to use a variable named category or @category. The :: symbol is the Ruby scope operator. In ActiveRecord::Base it means that you are referring to the Base of ActiveRecord and not some other base.
 
-note: I’ve adapted this nice explanation from [Fairleads](http://fairleads.blogspot.com/2007/12/rails-20-and-scaffolding-step-by-step.html) along with language note from the [humble little ruby book](https://www.ultrasaurus.com/code/2008/12/great-ruby-book.html))
+note: I’ve adapted this nice explanation from [Fairleads](http://fairleads.blogspot.com/2007/12/rails-20-and-scaffolding-step-by-step.html) along with language note from the [humble little ruby book](/2008/12/great-ruby-book/))
 
 We will customize our Model by adding code here.
 

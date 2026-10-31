@@ -9,7 +9,7 @@ I’ve been periodically trying to fix comments on this weblog with no luck. Sin
 
 This morning I decided to completely recreate this blog and the comment system does seem to work. If you have posted a comment in the last couple of years I made you a trusted commenter. If you are a new friend (or one of my old friends who reads this and then never says anything), the next time you comment I will make you trusted. If you are a trusted commenter, then comments will be posted immediately. If the new MT is better at spam prevention, then maybe I’ll just let anyone comment, but I had over 7000 spam comments that I just deleted so it has been a bit of a problem.
 
-Please post a comment to help me test. Feel free to give me any feedback on blog design. I plan to bring back in elements of the [old design](https://www.ultrasaurus.com/backup-2009-01-03/) after ensuring that the functionality is working. Do folks like the new three-column layout or is it too cluttered? Should I post an image of me with my new purple hair?
+Please post a comment to help me test. Feel free to give me any feedback on blog design. I plan to bring back in elements of the [old design](http://web.archive.org/web/20030425081135/http://www.ultrasaurus.com/sarahblog/) after ensuring that the functionality is working. Do folks like the new three-column layout or is it too cluttered? Should I post an image of me with my new purple hair?
 
 The tag cloud is obviously broken. I’ll tackle that next. Please let me know if you see anything else funky.
 

@@ -5,7 +5,7 @@ exported_permalink: /2013/07/responsive-design-prototyping
 id: 4180
 category: general
 ---
-[A Response-Able Process to Responsive Design](http://capitalcamp.org/content/response-able-process-responsive-design) talk by Mal Jones ([@skeletonjones](@skeletonjones)), Brian Verhoeven ([@beverhoeven](https://twitter.com/beverhoeven)) and Corey Lafferty ([@coreylafferty](https://twitter.com/coreylafferty)) introduced their agile process and a new open source prototyping tool that they built.
+[A Response-Able Process to Responsive Design](http://capitalcamp.org/content/response-able-process-responsive-design) talk by Mal Jones ([@skeletonjones](https://twitter.com/skeletonjones)), Brian Verhoeven ([@beverhoeven](https://twitter.com/beverhoeven)) and Corey Lafferty ([@coreylafferty](https://twitter.com/coreylafferty)) introduced their agile process and a new open source prototyping tool that they built.
 
 In 2011, they made responsive default for advocacy sites and content sites. **We’re no longer building cars, we’re building transformers**. How did they change their process?
 

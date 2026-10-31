@@ -9,10 +9,9 @@ Using git (and witnessing other people’s use of it through github’s social c
 
 I’ve been thinking about this after reading a conversation on the RailsBridge list last week about whether the groups was “forking” the Rails community and negative perceptions by some and fears of divisiveness. I prefer thinking about it as a way to invigorate a part of the Rails community.
 
-“Forking something doesn’t have to be negative and divisive – it can actually be positive and beneficial, generating new ideas and interest.” [](http://groups.google.com/group/railsbridge/msg/c48490b6286b0b36?hl=en)
+“Forking something doesn’t have to be negative and divisive – it can actually be positive and beneficial, generating new ideas and interest.”
 
 “We’re creating a fork in order to develop and submit patches back, but with  
 community models instead of code.”
 
-via [RailsBridge discussion](http://groups.google.com/group/railsbridge/msg/c48490b6286b0b36?hl=en)  
-[](http://groups.google.com/group/railsbridge/msg/c48490b6286b0b36?hl=en)
+via [RailsBridge discussion](https://groups.google.com/g/bridgefoundry/c/cG9tvgCdUk4/m/61eLxO71sl8J)

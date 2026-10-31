@@ -5,7 +5,7 @@ exported_permalink: /2008/12/rails-2-day-3-behavior-driven-development
 id: 599
 category: code
 ---
-Now that we have learned some basic Ruby syntax and gained some understanding about what the Rails generate scaffold script does, it is high time we started using a more modern approach to coding. In fact, if you recall at the end of [day 2](https://www.ultrasaurus.com/code/2008/12/rails-day2.html), I realized with horror that we had actually modified code and added features without developing the tests first. This defied everything I had ever heard about good coding practices from the Ruby crowd and I set off to mend my ways.
+Now that we have learned some basic Ruby syntax and gained some understanding about what the Rails generate scaffold script does, it is high time we started using a more modern approach to coding. In fact, if you recall at the end of [day 2](/2008/12/getting-started-with-rails-2-day-2/), I realized with horror that we had actually modified code and added features without developing the tests first. This defied everything I had ever heard about good coding practices from the Ruby crowd and I set off to mend my ways.
 
 [Rick Denatale](http://www.ruby-forum.com/topic/94721#264483) describes the process of test-driven/behavior-driven development as:
 

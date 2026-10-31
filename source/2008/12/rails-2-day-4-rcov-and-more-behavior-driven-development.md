@@ -13,7 +13,7 @@ Today, we’ll follow modified steps, as recommended by [Matt Wynne](http://blog
 4. Refactor
 5. Go to step 2
 
-Also, since we’re using the generate scaffold command, we should remove unused code when refactoring as suggested in the original [Four Days on Rails](http://rails.homelinux.org/) tutorial. I’ll also be using RCov to look at how much the feature description covers the code. I think this is a helpful way of digging into what the scaffold command actually did. This tutorial picks up where [day 3](https://www.ultrasaurus.com/code/2008/12/rails-2-day-3.html) finished. You can skip day 1 or 2, if you already have installed Ruby on Rails and know a little bit about it.
+Also, since we’re using the generate scaffold command, we should remove unused code when refactoring as suggested in the original [Four Days on Rails](http://rails.homelinux.org/) tutorial. I’ll also be using RCov to look at how much the feature description covers the code. I think this is a helpful way of digging into what the scaffold command actually did. This tutorial picks up where [day 3](/2008/12/rails-2-day-3-behavior-driven-development/) finished. You can skip day 1 or 2, if you already have installed Ruby on Rails and know a little bit about it.
 
 Today we will:
 
@@ -74,7 +74,7 @@ We can see that we don’t have complete coverage in two files: webrat.rb and ta
 
 [![](http://farm4.static.flickr.com/3093/3145974882_e734e02fd4.jpg)](http://farm4.static.flickr.com/3093/3145974882_6c91b6a2a2_o.png)
 
-It is unsurprising that we’re covering just 40% of this file, since we’ve written just [a single of scenario so far](https://www.ultrasaurus.com/code/2008/12/rails-2-day-3.html).
+It is unsurprising that we’re covering just 40% of this file, since we’ve written just [a single of scenario so far](/2008/12/rails-2-day-3-behavior-driven-development/).
 
 <a name="more"></a>
 
@@ -117,7 +117,7 @@ rake features
 
 ![](http://farm4.static.flickr.com/3248/3146011820_a801cc35ac_o.png)
 
-You’ll see that all of the new steps that I just wrote for the “add a Task” scenario magically worked. What just happened? You can see from the output of “rake features” that the first step was already defined in tasklist\_steps.rb ([see day 3](https://www.ultrasaurus.com/code/2008/12/rails-2-day-3.html)), but each of the others is defined in webrat\_steps.rb. With a little practice you’ll learn the webrat lingo, and it’ll save you a bunch of time. Pretty cool, huh?
+You’ll see that all of the new steps that I just wrote for the “add a Task” scenario magically worked. What just happened? You can see from the output of “rake features” that the first step was already defined in tasklist\_steps.rb ([see day 3](/2008/12/rails-2-day-3-behavior-driven-development/)), but each of the others is defined in webrat\_steps.rb. With a little practice you’ll learn the webrat lingo, and it’ll save you a bunch of time. Pretty cool, huh?
 
 Now if we go back to look at our code coverage (http://localhost/todolist/coverage/), the tasks\_controller.rb coverage is at 64.7%.  
 [![](http://farm4.static.flickr.com/3098/3145039593_9c48642385.jpg)](http://farm4.static.flickr.com/3098/3145039593_eafa164a16_o.png)  
@@ -153,7 +153,7 @@ As expected, the new scenario fails. Time to write the code! The list of tasks c
 
 As you can see that I’ve modified line 10 to link the description to the edit task page. Note that (h task.description) needs to be enclosed in parens. We want to keep the h, just to make sure that the description is properly escaped, in case it has special characters like ‘&lt;'. I also removed show and edit links. Now, when I run 'rake features' all of my steps pass. Yay!
 
-But wait! I still have the “show” method in my controller. What’s up with that? If I look at my coverage report, it shows that it is being called. In my controller, both create and update redirect to @task (which is the “show” page), like I did in [day 2](https://www.ultrasaurus.com/code/2008/12/rails-day2.html#edit-controller), I’ll modify those to redirect to index instead.
+But wait! I still have the “show” method in my controller. What’s up with that? If I look at my coverage report, it shows that it is being called. In my controller, both create and update redirect to @task (which is the “show” page), like I did in [day 2](/2008/12/getting-started-with-rails-2-day-2/#edit-controller), I’ll modify those to redirect to index instead.
 
 in **`app/controllers/task_controller.rb`**
 

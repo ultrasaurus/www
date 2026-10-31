@@ -5,7 +5,7 @@ exported_permalink: /2013/10/rails-4-twitter-omniauth-with-mongodb
 id: 4686
 category: code
 ---
-If you are brand new to MongoDB and Rails 4, take a quick look at my very basic [rails 4 mongodb tutorial](https://www.ultrasaurus.com/sarahblog/code/) before diving into this one.
+If you are brand new to MongoDB and Rails 4, take a quick look at my very basic [rails 4 mongodb tutorial](/category/code/) before diving into this one.
 
 Gems: [mongoid](http://mongoid.org), [omniauth](http://www.omniauth.org/), [figaro](https://github.com/laserlemon/figaro)
 

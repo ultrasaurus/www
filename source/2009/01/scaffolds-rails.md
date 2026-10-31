@@ -5,7 +5,7 @@ exported_permalink: /2009/01/scaffolds-rails
 id: 601
 category: code
 ---
-In pretty much every blog tutorial generate scaffold plays a central role; however, the rails guides don’t say much about scaffolding. I wasn’t sure where to go next in my development, as I asked in my [last post](https://www.ultrasaurus.com/code/2008/12/rails-2-day-4-rcov-and-bdd.html#review): “Adding attributes and other models: do I scaffold again or just write code?”
+In pretty much every blog tutorial generate scaffold plays a central role; however, the rails guides don’t say much about scaffolding. I wasn’t sure where to go next in my development, as I asked in my [last post](/2008/12/rails-2-day-4-rcov-and-more-behavior-driven-development/#review): “Adding attributes and other models: do I scaffold again or just write code?”
 
 I’ve spent some time reading about scaffolding on the Rails lists, and have saved some enlightening posts from various folks. Most of the interesting discussion took place just a few months after the introduction of Rails 2 when the generated scaffold code apparently underwent significant changes to become more REST-like and the dynamic scaffold command was removed from the core of Rails (but is still available as a plugin).
 

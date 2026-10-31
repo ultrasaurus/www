@@ -9,7 +9,7 @@ The only way that the Realtime Web is going to happen is for the tech to be adop
 
 We do need to invent new stuff. We need to invent common paradigms of how people interact in real-time. We need to make web applications more responsive and proactive. Perhaps presence and the threaded chat conversation are the blue underlined links of the Realtime Web, but I think that the world is ready for more.
 
-Zac Bowling leads an [interesting discussion](http://zbowling.com/blog/2009/01/01/push-technologies/) using seesmic about the technologies used for real-time communication the Web. As I have [said before](https://www.ultrasaurus.com/sarahblog/archives/2008/01/comet-a-new-term.html), these are old technologies being used in a new way with more shared code via open source.
+Zac Bowling leads an [interesting discussion](http://zbowling.com/blog/2009/01/01/push-technologies/) using seesmic about the technologies used for real-time communication the Web. As I have [said before](/2008/01/comet-a-new-term-for-an-old-technique/), these are old technologies being used in a new way with more shared code via open source.
 
 What I expect to happen next is for realtime applications (chat, push, etc.) to become so ubiquitous on the Web that it will be only natural for browsers and Web servers to expose APIs that support this next generation of applications. Just as people have come to expect professional applications on the Web to give immediate feedback without a full-page-refresh, so they will come to expect dynamic updates.
 

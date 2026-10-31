@@ -7,7 +7,7 @@ id: 451
 [Papervision Augmented Reality](http://interactive.digitalpictures.com.au/?p=392) (via [OUseful](http://ouseful.wordpress.com/2008/11/30/steps-towards-making-augmented-reality-a-reality/))
 
 By printing a little square pattern, using my webcam, I got this little creature to appear on my desk:  
-![](https://www.ultrasaurus.com/images/blog/papervision-creature.png)
+(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/papervision-creature.png -->
 
 It was a little fragile — I couldn’t get it to appear reliably and it disappeared when I moved it.
 

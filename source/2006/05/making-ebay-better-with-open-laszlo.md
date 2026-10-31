@@ -14,4 +14,4 @@ There’s a nice [zdnet article](http://blogs.zdnet.com/Stewart/?p=25) about [co
 I found the app compelling, and imediately got sucked into shopping-mode by the “photo collage” view. It must be a very successful application where I can get distracted by my usual analysis of the UI and Web 2.0-iness of it all to instead be enticed to actually \*use\* the application :)
 
 I’m thinking of buying a few pounds of legos:  
-![](https://www.ultrasaurus.com/images/blog/cooqy.jpg)
+(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/cooqy.jpg -->

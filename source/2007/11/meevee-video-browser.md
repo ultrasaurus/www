@@ -8,8 +8,8 @@ id: 328
 
 I really like when you click on a category in the left navigation panel, how the options at the top change using a visual transition that animates up. It makes a nice connection between the user action and the consequence, which contributes to the usability of the site.
 
-[![](https://www.ultrasaurus.com/images/blog/meevee/meevee-tv-small.png)](https://www.ultrasaurus.com/images/blog/meevee/meevee-tv.png)
+(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/meevee/meevee-tv-small.png -->
 
 I also just had to check out the “cute overload” category, which is accurately named. After watching 11 seconds of [baby squirrel on a fence](http://www.youtube.com/watch?v=CF3kwyO4N6A), I reached my baby squirrel capacity. I did, however, fast forward a few times and we both laughed at the shot below. Jack laughed even harder when I declared that I must take a picture of it:
 
-![](https://www.ultrasaurus.com/images/blog/meevee/baby-squirrel.png)
+(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/meevee/baby-squirrel.png -->

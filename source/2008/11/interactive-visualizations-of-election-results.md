@@ -11,17 +11,16 @@ Like many folks in America, I watched the election results stream in through tel
 Each of the sites I looked at was well done. The production values were high and I can imagine what kind of prep went in making these interactive visualizations happen. I was dismayed to see no credits to the individuals who created these pieces. Every photo in the New York Times has a credit, why not the information graphics and interactive charts? If anyone knows the stories behind these, please let me know. I’m very interested in the people who made them and the stories behind the work, whether it be the design process or the data feeds. With any luck, some of these folk are bloggers.
 
 Daily Kos (click for full size images):  
-[  
-![](https://www.ultrasaurus.com/images/blog/2008election/dailykos-map-sm.png)](https://www.ultrasaurus.com/images/blog/2008election/dailykos-map.png)
+(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/2008election/dailykos-map-sm.png -->
 
 clicking on a state would zoom into election results per county:  
-[![](https://www.ultrasaurus.com/images/blog/2008election/dailykos-zoom-sm.png)](https://www.ultrasaurus.com/images/blog/2008election/dailykos-zoom.png)
+(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/2008election/dailykos-zoom-sm.png -->
 
 [NYTimes](http://elections.nytimes.com/2008/results/president/map.html)  
-![](https://www.ultrasaurus.com/images/blog/2008election/nytimes.png)
+(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/2008election/nytimes.png -->
 
 [CNN](http://www.cnn.com/ELECTION/2008/results/president/)  
-![](https://www.ultrasaurus.com/images/blog/2008election/cnn.png)
+(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/2008election/cnn.png -->
 
 [CBS News](http://election.cbsnews.com/election2008/)  
-![](https://www.ultrasaurus.com/images/blog/2008election/cbsnews.png)
+(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/2008election/cbsnews.png -->

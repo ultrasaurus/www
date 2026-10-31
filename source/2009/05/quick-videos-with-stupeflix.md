@@ -29,6 +29,6 @@ I was screwing around with the UI and seeing what would happen if I dragged an i
 
 Nevertheless, I persisted in my quest for a quick video fix. I re-imported the images and put together a video in about 20 minutes, then spent 15 minutes looking for a sound track. (Thank you, [Internet Archive](http://www.archive.org) and [Liquid Stranger](http://www.archive.org/details/SPORESEP). The music is “Quota Tapeloader.”)
 
-You can check out my [final video](http://www.stupeflix.com/editor/beta/5FLKfESGc8m9161qZzqz/) and the [xml](https://www.ultrasaurus.com/images/blog/stupeflix-ktvu.xml) that describes it. The effect are semi-randomly generated (with some effects depending on the number of photos in a group). I could control them, if I were motivated, by editing the xml by hand. It’s a neat way to give your early adopters a ton of control while your UI catches up.
+You can check out my [final video](http://www.stupeflix.com/editor/beta/5FLKfESGc8m9161qZzqz/) and the xml<!-- lost file: https://www.ultrasaurus.com/images/blog/stupeflix-ktvu.xml --> that describes it. The effect are semi-randomly generated (with some effects depending on the number of photos in a group). I could control them, if I were motivated, by editing the xml by hand. It’s a neat way to give your early adopters a ton of control while your UI catches up.
 
 Overall, this is really neat. Kudos to the [Stupeflix team](http://www.stupeflix.com/about/)!

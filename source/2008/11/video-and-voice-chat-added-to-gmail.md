@@ -17,7 +17,7 @@ OK, kindly big brother google is now tracking my every thought. Not an issue for
 
 Friend agrees to participate in my random technology experience. I tell him to hang on and I choose the video option. Ack! now I need to install…
 
-![](https://www.ultrasaurus.com/images/blog/google-video-chat/install.png)
+(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/google-video-chat/install.png -->
 
 Good thing I’m running Windows XP. It actually takes more than a few seconds to install…
 
@@ -27,17 +27,17 @@ but then I need to restart my browser.
 
 Whew! I’m back. I login to gmail… and …
 
-![](https://www.ultrasaurus.com/images/blog/google-video-chat/not-yet-available.png)
+(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/google-video-chat/not-yet-available.png -->
 
 oh, gee. Not only do I need to have XP, but my friend does too. Time to find another friend.
 
 Ok, now I’ve pinged another friend (via AIM) who has XP. He signs up for a gmail account. We add each other to our buddy lists. Then he installs the software. Whew.
 
 Now we’re ready to chat… after one weird interaction (or lack thereof):  
-![](https://www.ultrasaurus.com/images/blog/google-video-chat/invite.png)
+(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/google-video-chat/invite.png -->
 
 We’re actually communicating:  
-![](https://www.ultrasaurus.com/images/blog/google-video-chat/pic-in-pic.png)
+(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/google-video-chat/pic-in-pic.png -->
 
 It’s a bit weird that it doesn’t seem to know he doesn’t have a camera — I really don’t need a large blank box on my screen while we have an audio conversation, but the quality of the audio is really quite good. I’m using the sucky built-in mic on my laptop but it doesn’t seem to be an issue like it is on some systems.
 

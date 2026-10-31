@@ -10,4 +10,4 @@ I find this blogging phenomenon peculiarly compelling, primarily because of its 
 
 In addition to owning my little slice of cyberspace with the blog itself, I’ve staked a claim via [Technorati](http://technorati.com/claim/hd4eub3ytw) and [BlogShares](http://blogshares.com/blogs.php?blog=http%3A%2F%2Fwww.ultrasaurus.com%2F). I was amused to see how ultrasaurus valuation has recently plummeted. I don’t quite understand why the stock price has continued to rise, despite intermittent activity and no significant market traffic, but I’m not quite interested enough to wade through this info on their site and see how these things are measured. Blogshares has provided the graph below, which oddly implies that it displays my personal valuation rather than that of this blog. LOL (Didn’t anyone ever teach them to label their axes?)
 
-![](https://www.ultrasaurus.com/images/blog/07-June-blogshares.png)
+(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/07-June-blogshares.png -->

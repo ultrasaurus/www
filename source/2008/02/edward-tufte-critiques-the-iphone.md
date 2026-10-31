@@ -8,10 +8,10 @@ Edward Tufte has produced a nice [video critique of the iPhone](http://www.edwar
 
 With several applications, he notes that the paradigm of panning across a space that is larger than the screen of the phone allows is effective for quick access to many different options. In the photo app overview screen you can scan through 150 images on the same surface. In the weather app you can slide across cities. Likewise when looking at a collection of photos, it is not “one damn thing after another, as in a stack on images, rather you are sliding across a surface.”
 
-[![](https://www.ultrasaurus.com/images/blog/et-iphone/sm-stock-alt.png)&lt;/a  
-Tufte's alternate stock app mockup](https://www.ultrasaurus.com/images/blog/et-iphone/stock-alt.png)
+(image lost — Tufte's alternate stock app mockup)<!-- lost image: https://www.ultrasaurus.com/images/blog/et-iphone/sm-stock-alt.png -->
+<!-- lost image: https://www.ultrasaurus.com/images/blog/et-iphone/stock-alt.png -->
 
-[![](https://www.ultrasaurus.com/images/blog/et-iphone/sm-stock.png)](https://www.ultrasaurus.com/images/blog/et-iphone/stock.png)  
+(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/et-iphone/sm-stock.png -->  
 iPhone stock app
 
 When looking at a single photo, web browsing or text messaging on the iPhone, “the content is the interface” with no “adminstrative debris.”
@@ -20,7 +20,7 @@ He critiques the stock app as having a cartoon interface, and suggests that they
 
 Although he likes the weather app, he also suggests that it would be more effective, if it provided more information, taking advantage of image resolution:
 
-[![](https://www.ultrasaurus.com/images/blog/et-iphone/sm-weather-app.png)](https://www.ultrasaurus.com/images/blog/et-iphone/weather-app.png)
+(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/et-iphone/sm-weather-app.png -->
 
 iPhone weather app (left), Tufte’s alternate mockup (right)
 

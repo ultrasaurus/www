@@ -11,5 +11,5 @@ Verizon [announced ](http://newscenter.verizon.com/press-releases/verizon/2007/v
 
 It is exciting to be finally be able to talk about this project which has been in the works for quite some time. Webtop was released earlier this year and we’ve been busy making Laszlo Mail a webtop app. This transition to developing mail within a flexible framework will allow us to develop (and [Laszlo](http://www.laszlosystems.com) customers to deliver) new applications that integrate smoothly together with only incremental changes to the existing apps. For now, this is yet another [Laszlo Mail](http://www.laszlomail.com) deployment — millions of new folks who will be using this new webmail experience.
 
-![](https://www.ultrasaurus.com/images/blog/webtop/webtop-small.png)  
+(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/webtop/webtop-small.png -->  
 Here’s the new “look” for the webtop mail app. The Verizon one looks a bit different, having been adjusted to match the Verizon brand and has additional customizations using Webtop’s customization fetaures and [OpenLaszlo](http://www.openlaszlo.org)‘s LZX and CSS.

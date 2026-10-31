@@ -11,7 +11,7 @@ But once upon a time, I was like most folk. I thought that computer programmers 
 
 I just got this letter in the mail yesterday. I have no words to express how much this means to me…
 
-![](/images/thankyou.png)
+(image lost)<!-- lost image: /images/thankyou.png -->
 
 The letter actually came in a package. I have 9 more letters to deliver to my former colleagues. I’m going to enjoy hunting them down — I think I am only in touch with two of them. If you know them, if you are them, let me know:
 

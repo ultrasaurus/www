@@ -6,9 +6,9 @@ id: 399
 ---
 In honor of the valiant battle for great design and our recent checkbox experience, I made a t-shirt last week for my friend and colleague:
 
-![](https://www.ultrasaurus.com/images/blog/checkbox/checkboxes-front.png)
+(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/checkbox/checkboxes-front.png -->
 
-![](https://www.ultrasaurus.com/images/blog/checkbox/checkboxes-back.png)
+(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/checkbox/checkboxes-back.png -->
 
 I created it in about ten minutes with the fabulous [click-shirt](http://www.click-shirt.com/) app (created in [OpenLaszlo](http://www.openlaszlo.org) by the awe-inspiring [Bret Victor](http://worrydream.com/)).
 

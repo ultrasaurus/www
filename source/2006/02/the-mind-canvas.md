@@ -14,12 +14,12 @@ Unsurprisingly people like this stuff. I love this quote from someone who took o
 
 In addition to providing a nice graphic experience for standard survey questions, Uzanto has created innovative online interactions for collecting information about higher level concepts. Of particular interest are their methods of collecting data about how people categorize information which can be helpful for determining appropriate information architecture for a web site or testing existing categories. My favorite is how they’ve implemented an “open sort” technique using drag and drop and free-form naming to get people to provide their own categories and names for them (pictured below).
 
-![](https://www.ultrasaurus.com/images/blog/mindcanvas/opensort.png)
+(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/mindcanvas/opensort.png -->
 
 The best part of The Mind Canvas happens behind the scenese. They have wonderful interactive visualizations of the data that is collected.
 
-![](https://www.ultrasaurus.com/images/blog/mindcanvas/listmap.jpg)
+(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/mindcanvas/listmap.jpg -->
 
-![](https://www.ultrasaurus.com/images/blog/mindcanvas/weightmap.jpg)
+(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/mindcanvas/weightmap.jpg -->
 
 For now, it is available as a service and you can [get in touch with them](http://www.themindcanvas.com/2005/12/19/mindcanvas-currently-available/) to set up a study.

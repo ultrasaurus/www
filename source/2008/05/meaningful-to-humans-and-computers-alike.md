@@ -14,7 +14,6 @@ Publishing structured data with today’s software is evolving to be a fairly na
 
 Larry Cannell discusses [critical mass syndication](http://cannell.org/blog/calendar-syndication-and-critical-mass) by applying the technology to the needs of parents. Using Google Calendar, it is quite easy to register and create a calendar with events. The software makes it possible to publish a snippet of html that can be embedded in a website to syndicate the data. This enables a PTA website to publish events in an automatic fashion.
 
-[  
-![](https://www.ultrasaurus.com/images/blog/pta-website.png)](http://www.sunset-pta.org/)
+[(image lost)<!-- lost image: https://www.ultrasaurus.com/images/blog/pta-website.png -->](http://www.sunset-pta.org/)
 
 The calendar can be maintained by someone who does not know any details of html or ics, but it still needs to be set up by the technical crew. Likewise in the blog world, you need to be exposed to XML feeds and non-human-readable gobbledygook to connect your feedreader to the right source. The next step in the evolution of the web will be to provide more usable connections between applications.

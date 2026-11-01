@@ -1,0 +1,323 @@
+# Movable Type URL -> current post, from the Wayback Machine
+# (map_movable_type.py); `redirect` = WordPress's own redirect,
+# `title` = matched by the old page's title
+/sarahblog/archives/000001.html: /2003/03/brand-new-weblog/  # title: Brand New Weblog
+/sarahblog/archives/000002.html: /2003/03/are-blogs-the-vanity-press-of-the-internet/  # redirect
+/sarahblog/archives/000003.html: /2003/03/behavioral-demographics/  # title: behavioral demographics
+/sarahblog/archives/000004.html: /2003/03/web-page-presence/  # title: web page presence
+/sarahblog/archives/000005.html: /2003/03/rules-and-freedom/  # title: rules and freedom
+/sarahblog/archives/000008.html: /2003/03/frogs-rodeos-and-human-nature/  # title: frogs, rodeos and human nature
+/sarahblog/archives/000011.html: /2003/03/wikis-are-cool/  # title: wikis are cool
+/sarahblog/archives/000012.html: /2003/03/the-people-dont-want-war/  # title: the people don't want war
+/sarahblog/archives/000013.html: /2003/03/what-is-a-rich-internet-application/  # title: what is a "Rich Internet Application?"
+/sarahblog/archives/000015.html: /2003/04/intellijnot-just-for-java/  # title: IntelliJ...not just for Java
+/sarahblog/archives/000016.html: /2003/04/anita-borgs-influence/  # redirect
+/sarahblog/archives/000019.html: /2003/04/optimize-world-class-vortals/  # title: optimize world-class vortals
+/sarahblog/archives/000021.html: /2003/04/peldis-new-blog/  # title: Peldi's new blog
+/sarahblog/archives/000022.html: /2003/05/speaking-about-laszlo-on-tues-56/  # title: Speaking about Laszlo on  Tues 5/6
+/sarahblog/archives/000023.html: /2003/05/why-laszlo-is-cool/  # title: why Laszlo is cool
+/sarahblog/archives/000024.html: /2003/05/japanese-emoticons/  # title: Japanese Emoticons
+/sarahblog/archives/000025.html: /2003/05/social-translucence/  # title: Social Translucence
+/sarahblog/archives/000026.html: /2003/05/blogging-is-social/  # title: blogging is social
+/sarahblog/archives/000027.html: /2003/05/2-horses-3-cows/  # redirect
+/sarahblog/archives/000028.html: /2003/06/fun-with-maps/  # title: fun with maps
+/sarahblog/archives/000030.html: /2003/06/popup-ads-suck/  # title: popup ads suck
+/sarahblog/archives/000031.html: /2003/06/behr-paint-color-browser/  # redirect
+/sarahblog/archives/000032.html: /2003/06/animated-napkin-sketch/  # title: animated napkin sketch
+/sarahblog/archives/000033.html: /2003/06/notes-on-how-lzx-becomes-a-swf/  # title: Notes on how LZX becomes a SWF
+/sarahblog/archives/000034.html: /2003/06/blogs-and-gutters/  # title: blogs and gutters
+/sarahblog/archives/000037.html: /2003/06/surfing-lessons/  # title: surfing lessons
+/sarahblog/archives/000038.html: /2003/06/viral-reading-list/  # title: viral reading list
+/sarahblog/archives/000039.html: /2003/07/imperfection-is-the-price-of-admission/  # title: imperfection is the price of admission
+/sarahblog/archives/000040.html: /2003/07/why-are-scrollbars-on-the-right/  # title: why are scrollbars on the right?
+/sarahblog/archives/000041.html: /2003/07/flash_usability-true/  # title: flash_usability = true
+/sarahblog/archives/000049.html: /2003/07/beyond-desktop-ui/  # redirect
+/sarahblog/archives/000050.html: /2003/08/groups-are-a-run-time-effect/  # title: groups are a run-time effect
+/sarahblog/archives/000051.html: /2003/08/the-history-of-the-letter-c/  # redirect
+/sarahblog/archives/000052.html: /2003/08/cyberspace-impersonation/  # title: cyberspace impersonation
+/sarahblog/archives/000053.html: /2003/08/laszlo-app-development/  # redirect
+/sarahblog/archives/000054.html: /2003/08/beer-pizza-and-code/  # title: beer, pizza, and code
+/sarahblog/archives/000055.html: /2003/08/design-patterns-for-web-apps/  # title: design patterns for web apps
+/sarahblog/archives/000056.html: /2003/08/the-shape-of-ideas/  # title: the shape of ideas
+/sarahblog/archives/000057.html: /2003/08/discoverable-ui/  # title: discoverable ui
+/sarahblog/archives/000058.html: /2003/08/xml-defined/  # title: XML defined
+/sarahblog/archives/000060.html: /2003/08/acts-of-the-apostles/  # title: Acts of the Apostles
+/sarahblog/archives/000063.html: /2003/09/top-ten-reasons-for-a-web-log/  # redirect
+/sarahblog/archives/000064.html: /2003/09/participatory-geekiness/  # title: participatory geekiness
+/sarahblog/archives/000067.html: /2003/09/gender-issues/  # title: gender issues
+/sarahblog/archives/000068.html: /2003/09/information-foraging/  # title: information foraging
+/sarahblog/archives/000069.html: /2003/09/giving-back/  # title: giving back
+/sarahblog/archives/000070.html: /2004/07/design-is-the-art-of-making-choices/  # title: design is the art of making choices
+/sarahblog/archives/000072.html: /2003/09/laszlo-blog-fun/  # title: Laszlo blog fun
+/sarahblog/archives/000074.html: /2003/09/laszlo-opml-viewer/  # title: Laszlo OPML viewer
+/sarahblog/archives/000075.html: /2003/09/xml-and-apple-pie/  # title: XML and apple pie
+/sarahblog/archives/000076.html: /2003/09/sbc-yahoo-laszlo-experience/  # title: SBC Yahoo Laszlo experience
+/sarahblog/archives/000077.html: /2003/09/other-blog-widgets/  # title: other blog widgets
+/sarahblog/archives/000078.html: /2003/09/steal-this-widget/  # title: steal this widget
+/sarahblog/archives/000079.html: /2003/09/loosely-connected-collaboration/  # redirect
+/sarahblog/archives/000081.html: /2003/09/reverse-search-engine/  # redirect
+/sarahblog/archives/000082.html: /2003/09/giving-back-2/  # title: giving back
+/sarahblog/archives/000083.html: /2003/10/itunes-blogging-widget/  # title: iTunes blogging widget
+/sarahblog/archives/000084.html: /2003/10/experimental-widgetizer/  # title: experimental widgetizer
+/sarahblog/archives/000085.html: /2003/10/interactive-booklist-application/  # title: interactive booklist application
+/sarahblog/archives/000086.html: /2003/10/language-is-the-vehicle-of-thought/  # title: language is the vehicle of thought
+/sarahblog/archives/000087.html: /2003/10/bite-me-said-c/  # title: Bite me! said C
+/sarahblog/archives/000088.html: /2003/10/processing/  # title: processing
+/sarahblog/archives/000089.html: /2004/02/fortune-cookie-spammers/  # title: fortune cookie spammers
+/sarahblog/archives/000090.html: /2003/10/foobar-the-barbarian/  # title: Foobar the Barbarian
+/sarahblog/archives/000091.html: /2003/10/parrots-and-abstract-thought/  # title: parrots and abstract thought
+/sarahblog/archives/000093.html: /2003/10/studies-in-color/  # title: studies in color
+/sarahblog/archives/000094.html: /2003/11/dean-for-america-ria/  # title: Dean for America RIA
+/sarahblog/archives/000095.html: /2003/11/anonymous-programming/  # title: anonymous programming
+/sarahblog/archives/000096.html: /2003/11/declarative-web-gui/  # title: declarative web GUI
+/sarahblog/archives/000097.html: /2003/12/historical-perspective-on-links-and-trails/  # title: historical perspective on links and trails
+/sarahblog/archives/000099.html: /2003/11/earthlink-personal-start-page/  # redirect
+/sarahblog/archives/000100.html: /2003/12/swallowed-up/  # title: swallowed up
+/sarahblog/archives/000101.html: /2003/12/marking-the-passage-of-time/  # title: marking the passage of time
+/sarahblog/archives/000103.html: /2004/02/negotiation-and-the-gender-divide/  # title: Negotiation and the Gender Divide
+/sarahblog/archives/000104.html: /2004/01/mars-landing-of-spirit-rover/  # title: Mars landing of "Spirit" Rover
+/sarahblog/archives/000105.html: /2004/01/more-interaction-equals-more-value/  # title: More Interaction Equals More Value
+/sarahblog/archives/000107.html: /2004/01/laszlo-preview-release/  # title: Laszlo preview release
+/sarahblog/archives/000108.html: /2004/01/language-for-math/  # title: Language for Math
+/sarahblog/archives/000109.html: /2004/01/john-perry-barlow/  # title: John Perry Barlow
+/sarahblog/archives/000110.html: /2004/02/knowledge-is-the-asset-of-the-future/  # title: knowledge is the asset of the future
+/sarahblog/archives/000111.html: /2004/01/victor-laszlo-moholy/  # title: Victor Laszlo Moholy
+/sarahblog/archives/000112.html: /2004/02/feb-11-laszlo-at-svjug/  # title: feb 11: laszlo at svjug
+/sarahblog/archives/000115.html: /2004/02/26-countries/  # title: 26 countries
+/sarahblog/archives/000117.html: /2004/02/no-fun-registering-for-funchain/  # title: no fun registering for funchain
+/sarahblog/archives/000118.html: /2004/02/laszlo-mugs/  # title: Laszlo Mugs
+/sarahblog/archives/000119.html: /2004/03/better-ui-for-big-screens/  # redirect
+/sarahblog/archives/000122.html: /2004/03/just-do-it/  # title: just do it
+/sarahblog/archives/000123.html: /2004/03/code-is-like-cinema/  # title: code is like cinema?
+/sarahblog/archives/000124.html: /2004/03/laszlo-inspector/  # title: Laszlo inspector
+/sarahblog/archives/000125.html: /2004/03/creativity-and-play/  # title: creativity and play
+/sarahblog/archives/000128.html: /2004/03/why-is-xml-good-for-gui/  # title: why is XML good for GUI?
+/sarahblog/archives/000129.html: /2004/07/work-as-play/  # title: work as play
+/sarahblog/archives/000131.html: /2004/04/laszlo-is-xml-tech/  # title: Laszlo is XML tech...
+/sarahblog/archives/000132.html: /2004/04/gui-programming-is-hard/  # redirect
+/sarahblog/archives/000133.html: /2004/04/laszlo-user-group-48/  # title: Laszlo User Group 4/8
+/sarahblog/archives/000136.html: /2004/04/different-kinds-of-ambition/  # by hand: old title 'I am ambitous', same date (April 30, 2004)
+/sarahblog/archives/000137.html: /2004/05/roots-of-ambition/  # title: roots of ambition
+/sarahblog/archives/000139.html: /2004/05/la-quinta-mapping-application/  # title: La Quinta mapping application
+/sarahblog/archives/000140.html: /2004/05/declarative-gui-comparison/  # redirect
+/sarahblog/archives/000141.html: /2004/05/on-gardening-and-code/  # title: on gardening and code
+/sarahblog/archives/000142.html: /2004/06/enabling-freedom-of-expression/  # title: enabling freedom of expression
+/sarahblog/archives/000146.html: /2004/06/im-not-a-feminist-but/  # title: I'm not a feminist, but...
+/sarahblog/archives/000147.html: /2004/07/firefox-is-nice/  # title: Firefox is nice
+/sarahblog/archives/000148.html: /2004/07/baychi-talk/  # title: BayCHI talk
+/sarahblog/archives/000150.html: /2004/08/mental-models-of-persistence/  # title: mental models of persistence
+/sarahblog/archives/000152.html: /2004/08/comment-spam-hell/  # title: comment spam hell
+/sarahblog/archives/000153.html: /2004/08/ria-panel/  # title: RIA panel
+/sarahblog/archives/000154.html: /2004/08/clean-and-tidy/  # title: clean and tidy
+/sarahblog/archives/000155.html: /2004/09/words-bullet-points-semantic-capitalism/  # by hand: old title had the typo 'sematic', same date (September 2, 2004)
+/sarahblog/archives/000156.html: /2004/09/good-vs-great-ui/  # title: good vs. great UI
+/sarahblog/archives/000157.html: /2004/09/dinosaurs-and-memory/  # title: dinosaurs and memory
+/sarahblog/archives/000158.html: /2004/09/art-walking-on-the-beach/  # title: art walking on the beach
+/sarahblog/archives/000159.html: /2004/10/laszlo-goes-open-source/  # title: Laszlo goes open source
+/sarahblog/archives/000160.html: /2004/10/agile-web-site-development/  # title: agile web site development
+/sarahblog/archives/000161.html: /2004/10/change-is-inevitable/  # title: change is inevitable
+/sarahblog/archives/000162.html: /2004/10/ui-for-staying-in-the-flow/  # title: UI for staying in the flow
+/sarahblog/archives/000163.html: /2004/10/do-what-i-mean-not-what-i-say/  # title: do what I mean, not what I say
+/sarahblog/archives/000164.html: /2004/10/web-based-gui-editor/  # title: web based GUI editor
+/sarahblog/archives/000165.html: /2004/10/a-glimpse-of-the-semantic-web/  # title: a glimpse of the semantic web
+/sarahblog/archives/000169.html: /2005/01/science-is-fun/  # title: science is fun
+/sarahblog/archives/000170.html: /2005/11/laszlo-mail/  # title: Laszlo Mail
+/sarahblog/archives/000171.html: /2004/12/software-and-picture-hanging/  # title: Software and Picture Hanging
+/sarahblog/archives/000173.html: /2004/12/pictures-of-algebra/  # redirect
+/sarahblog/archives/000174.html: /2004/12/gui-conventions/  # title: GUI conventions
+/sarahblog/archives/000176.html: /2005/11/five-stages-of-yu-gi-oh/  # title: Five Stages of Yu-Gi-Oh
+/sarahblog/archives/000177.html: /2005/01/holy-disappearing-blog-entries/  # title: holy disappearing blog entries
+/sarahblog/archives/000184.html: /2005/01/debugging/  # title: debugging
+/sarahblog/archives/000185.html: /2005/01/laszlo-at-sdforum/  # title: Laszlo at SDForum
+/sarahblog/archives/000187.html: /2005/01/mlks-american-dream/  # title: MLK's American Dream
+/sarahblog/archives/000188.html: /2005/01/paint-on-computing/  # title: paint-on computing
+/sarahblog/archives/000189.html: /2005/01/dont-worry-your-pretty-little-head/  # title: Don't Worry Your Pretty Little Head
+/sarahblog/archives/000190.html: /2005/03/less-grammar-more-play/  # redirect
+/sarahblog/archives/000194.html: /2005/04/earthlink-announces-laszlo-webmail-ria/  # title: EarthLink announces Laszlo Webmail RIA
+/sarahblog/archives/000195.html: /2005/03/writing-more-learning-more/  # title: writing more, learning more
+/sarahblog/archives/000197.html: /2005/04/openlaszlo-30-released/  # title: OpenLaszlo 3.0 released
+/sarahblog/archives/000198.html: /2005/05/role-models/  # redirect
+/sarahblog/archives/000201.html: /2005/06/geek-user-interface/  # title: Geek User Interface
+/sarahblog/archives/000202.html: /2005/07/subjective-performance/  # title: subjective performance
+/sarahblog/archives/000203.html: /2005/07/blogher/  # title: blogher
+/sarahblog/archives/000204.html: /2005/08/feminist-hip-hop-blogger/  # title: Feminist hip-hop blogger
+/sarahblog/archives/000205.html: /2005/08/the-value-of-conversation/  # redirect
+/sarahblog/archives/000209.html: /2005/08/linguistic-profiling/  # title: linguistic profiling
+/sarahblog/archives/000210.html: /2005/09/a-new-kind-of-radio-station/  # title: a new kind of radio station
+/sarahblog/archives/000211.html: /2005/09/time-as-a-design-element/  # redirect
+/sarahblog/archives/000212.html: /2005/09/fewer-women-undergrads-in-computer-science/  # title: fewer women undergrads in computer science
+/sarahblog/archives/000213.html: /2005/09/wanna-work-with-me-at-laszlo/  # title: wanna work with me at Laszlo?
+/sarahblog/archives/000214.html: /2005/09/programmers-walk-into-a-bar/  # title: programmers walk into a bar...
+/sarahblog/archives/000217.html: /2005/09/the-value-of-consistency/  # title: the value of consistency
+/sarahblog/archives/000221.html: /2005/09/conversation-with-david-temkin/  # title: conversation with David Temkin
+/sarahblog/archives/000222.html: /2005/09/the-albertsons-channel/  # title: the Albertson's channel
+/sarahblog/archives/000226.html: /2005/10/change-blindness/  # title: change blindness
+/sarahblog/archives/000227.html: /2005/10/whats-that-bug/  # title: What's that bug?
+/sarahblog/archives/000229.html: /2005/10/laszlo-digital-life/  # title: Laszlo Digital Life
+/sarahblog/archives/000230.html: /2005/11/omit-needless-words/  # title: omit needless words
+/sarahblog/archives/000231.html: /2005/12/missing-in-sf/  # title: Missing in SF
+/sarahblog/archives/000233.html: /2005/12/still-no-sign-of-jerry/  # title: still no sign of Jerry
+/sarahblog/archives/000234.html: /2005/12/evolving-development-style/  # title: evolving development style
+/sarahblog/archives/000235.html: /2006/01/memory-enhanced-by-experience/  # redirect
+/sarahblog/archives/000238.html: /2006/01/draw-your-own-comics/  # title: draw your own comics
+/sarahblog/archives/000239.html: /2006/01/how-it-looks-from-the-outside/  # title: how it looks from the outside
+/sarahblog/archives/000240.html: /2006/01/phish-and-the-esther-video/  # title: Phish and the Esther video
+/sarahblog/archives/000241.html: /2006/01/laszlo-mail-available-for-your-own-server/  # title: Laszlo Mail available for your own server
+/sarahblog/archives/000244.html: /2006/02/the-mind-canvas/  # title: The Mind Canvas
+/sarahblog/archives/000246.html: /2006/03/pizza-beer-and-ajax/  # title: Pizza, Beer and AJAX
+/sarahblog/archives/000248.html: /2006/03/is-software-engineering/  # title: is software engineering?
+/sarahblog/archives/000249.html: /2006/03/sim-faux-interactive-news-network-at-laszlo-developer-meetup/  # title: Sim Faux: interactive news network at Laszlo Developer Meetup
+/sarahblog/archives/000251.html: /2006/03/shiny-orbs/  # title: shiny orbs
+/sarahblog/archives/000252.html: /2006/03/clipshack-hot-coffee-dance/  # title: ClipShack: hot coffee dance
+/sarahblog/archives/000253.html: /2006/04/online-video-site-review/  # redirect
+/sarahblog/archives/000254.html: /2006/03/grouper-video-wall/  # title: Grouper Video Wall
+/sarahblog/archives/000255.html: /2006/03/videos-make-money-with-revver/  # title: videos make money with Revver
+/sarahblog/archives/000256.html: /2006/03/sharkle-yet-another-social-video-site/  # title: Sharkle: yet another social video site
+/sarahblog/archives/000257.html: /2006/03/youtube-does-social-video-well/  # title: YouTube does social video well
+/sarahblog/archives/000259.html: /2006/03/why-i-wont-work-at-google/  # title: Why I won't work at Google
+/sarahblog/archives/000262.html: /2006/04/dcamp/  # title: DCamp
+/sarahblog/archives/000263.html: /2006/04/putting-the-fun-in-functional/  # title: Putting the Fun in Functional
+/sarahblog/archives/000264.html: /2006/04/geekcorps/  # redirect
+/sarahblog/archives/000265.html: /2006/04/stage-fright/  # title: stage fright
+/sarahblog/archives/000268.html: /2006/04/puppylike-accessibility/  # title: puppylike accessibility
+/sarahblog/archives/000272.html: /2006/05/jack-launches-his-first-website/  # title: Jack launches his first website
+/sarahblog/archives/000274.html: /2006/05/ease-at-work-kent-beck/  # title: Ease at Work (Kent Beck)
+/sarahblog/archives/000275.html: /2006/05/innovation-can-only-come-from-the-bottom/  # title: innovation can only come from the bottom
+/sarahblog/archives/000277.html: /2006/05/making-ebay-better-with-open-laszlo/  # title: Making eBay Better with Open Laszlo
+/sarahblog/archives/000280.html: /2006/05/quick-effective-diagrams-with-gliffy/  # redirect
+/sarahblog/archives/000282.html: /2006/06/gnome-women-of-code/  # title: GNOME women of code
+/sarahblog/archives/000283.html: /2006/07/bruce-sterling-on-story-telling-and-game-design/  # title: Bruce Sterling on Story Telling and Game Design
+/sarahblog/archives/000284.html: /2006/07/thoughtless-acts/  # title: thoughtless acts?
+/sarahblog/archives/000285.html: /2006/07/reflections-on-email/  # title: reflections on email
+/sarahblog/archives/000286.html: /2006/07/the-coding-offsite/  # title: the coding offsite
+/sarahblog/archives/000316.html: /2006/09/hyperscope-release/  # by hand: old title 'HyperScope release party tonight', same date
+/sarahblog/archives/000318.html: /2006/09/practical-web-20/  # title: practical web 2.0
+/sarahblog/archives/000319.html: /2006/10/first-openlaszlo-book/  # title: first OpenLaszlo book
+/sarahblog/archives/000320.html: /2006/10/sudden-spike-in-evolution/  # title: sudden spike in evolution?
+/sarahblog/archives/000321.html: /2006/10/openlaszlo-on-j2me/  # title: OpenLaszlo on J2ME
+/sarahblog/archives/000322.html: /2006/10/qa-with-great-programmers/  # title: Q&A with great programmers
+/sarahblog/archives/000323.html: /2006/10/anybody-got-a-slide-rule/  # title: anybody got a slide rule?
+/sarahblog/archives/000327.html: /2006/12/hr-block-home-page-in-openlaszlo/  # title: H&R Block home page in OpenLaszlo
+/sarahblog/archives/000330.html: /2007/01/seeking-innovative-and-passionate-engineers/  # title: seeking innovative and passionate engineers...
+/sarahblog/archives/000331.html: /2007/01/parking-meter-ui/  # title: parking meter UI
+/sarahblog/archives/000333.html: /2007/02/software-is-challenging/  # title: software is challenging
+/sarahblog/archives/000334.html: /2007/02/frances-allen-first-woman-to-win-acms-turing-award/  # title: Frances Allen: first woman to win ACM's Turing award
+/sarahblog/archives/000335.html: /2007/04/laszlo-systems-named-cool-vendor/  # title: Laszlo Systems named "Cool Vendor"
+/sarahblog/archives/000336.html: /2007/04/housing-prices-roller-coaster/  # title: housing prices roller coaster
+/sarahblog/archives/000337.html: /2007/04/the-line-between-the-desktop-and-the-browser-has-blurred/  # title: The Line Between the Desktop and the Browser has Blurred
+/sarahblog/archives/000338.html: /2007/04/why-women-arent-interested-in-computer-science/  # title: why women aren't interested in computer science
+/sarahblog/archives/000339.html: /2007/05/software-has-a-voice/  # title: software has a voice
+/sarahblog/archives/000340.html: /2007/05/shift-happens/  # title: shift happens
+/sarahblog/archives/000342.html: /2007/06/feast-of-st-laszlo/  # title: feast of St. Laszlo
+/sarahblog/archives/000343.html: /2007/06/too-old-for-facebook/  # title: too old for Facebook?
+/sarahblog/archives/000344.html: /2007/07/what-is-a-normal-age/  # title: what is a "normal" age?
+/sarahblog/archives/000347.html: /2007/07/simpsons-power-of-ten/  # title: Simpsons' power of ten
+/sarahblog/archives/000348.html: /2007/08/finding-my-voice/  # title: finding my voice
+/sarahblog/archives/000349.html: /2007/07/when-you-cant-search-for-an-answer/  # title: when you can't search for an answer...
+/sarahblog/archives/000350.html: /2007/07/trust-your-dna/  # title: Trust your DNA
+/sarahblog/archives/000352.html: /2007/07/iphones-cinematic-ui/  # title: iPhone's cinematic UI
+/sarahblog/archives/000354.html: /2007/07/minority-report-interface/  # title: minority report interface
+/sarahblog/archives/000357.html: /2007/07/openlaszlo-and-the-iphone/  # title: OpenLaszlo and the iPhone
+/sarahblog/archives/000358.html: /2007/10/i-love-comic-sans/  # title: i love comic sans
+/sarahblog/archives/000359.html: /2007/07/when-faces-are-like-rocks/  # title: when faces are like rocks
+/sarahblog/archives/000360.html: /2007/09/analog-video-effects/  # title: analog video effects
+/sarahblog/archives/000362.html: /2007/07/seeking-beyond-the-accountants-truth/  # title: seeking beyond the accountant's truth
+/sarahblog/archives/000363.html: /2007/07/emotional-design-of-the-iphone/  # title: emotional design of the iPhone
+/sarahblog/archives/000365.html: /2007/07/smart-meet-beautiful/  # title: smart meet beautiful
+/sarahblog/archives/000366.html: /2007/08/anyone-up-for-a-squishee/  # title: anyone up for a squishee?
+/sarahblog/archives/000368.html: /2007/07/understanding-engineers/  # title: understanding engineers
+/sarahblog/archives/000369.html: /2007/07/visualization-of-word-frequency/  # title: visualization of word frequency
+/sarahblog/archives/000370.html: /2007/07/black-is-for-grownups/  # title: black is for grownups
+/sarahblog/archives/000371.html: /2007/07/san-francisco-rent/  # title: San Francisco rent
+/sarahblog/archives/000373.html: /2007/07/interaction08-call-for-submissions/  # title: Interaction08 call for submissions
+/sarahblog/archives/000374.html: /2007/08/snap-shots/  # title: snap shots
+/sarahblog/archives/000375.html: /2007/08/convergence/  # title: convergence
+/sarahblog/archives/000376.html: /2007/08/bullets-dont-kill-learning/  # title: Bullets don't kill Learning...
+/sarahblog/archives/000377.html: /2007/08/regular-expressions-are-cool/  # title: regular expressions are cool
+/sarahblog/archives/000378.html: /2007/09/verizon-adopts-laszlo-webtop/  # title: Verizon adopts Laszlo Webtop
+/sarahblog/archives/000380.html: /2008/06/learning-bash/  # title: learning bash
+/sarahblog/archives/000381.html: /2007/10/closed-to-open-source-sucess-story/  # title: closed-to-open source sucess story
+/sarahblog/archives/000382.html: /2007/09/upexpectedly-pratical-lessons-from-college/  # title: upexpectedly pratical lessons from college
+/sarahblog/archives/000383.html: /2007/09/law-of-software-envelopment/  # title: Law of Software Envelopment
+/sarahblog/archives/000384.html: /2007/10/wireframe-really/  # title: wireframe (really)
+/sarahblog/archives/000385.html: /2007/11/simplicity-more-joy-less-work/  # title: simplicity = more joy + less work
+/sarahblog/archives/000388.html: /2007/10/nov-8-the-untold-story-of-the-eniac-programmers/  # title: Nov 8: The Untold Story of the ENIAC Programmers
+/sarahblog/archives/000390.html: /2007/10/visualizing-time/  # title: visualizing time
+/sarahblog/archives/000391.html: /2007/10/gas-station-error-ui/  # title: gas station error UI
+/sarahblog/archives/000392.html: /2007/10/the-ultrasaurus-challenge-cool-public-school-projects/  # title: the ultrasaurus challenge: cool public school projects
+/sarahblog/archives/000393.html: /2007/11/meevee-video-browser/  # title: meevee video browser
+/sarahblog/archives/000394.html: /2007/11/eniac-event-postponed/  # title: ENIAC event postponed
+/sarahblog/archives/000395.html: /2007/11/zdnet-on-laszlo-webtop/  # title: ZDNet on Laszlo Webtop
+/sarahblog/archives/000399.html: /2007/12/wiki-interface-for-public-domain-video/  # title: wiki interface for public domain video
+/sarahblog/archives/000403.html: /2007/11/awesome-bbq-bread-on-north-101/  # title: awesome bbq & bread on north 101
+/sarahblog/archives/000404.html: /2007/12/rias-to-rule-the-world/  # title: RIAs to rule the world
+/sarahblog/archives/000407.html: /2007/12/rosie-the-riveter-meets-bill-gates/  # redirect
+/sarahblog/archives/000410.html: /2007/12/touchscreens-in-taxicabs/  # title: touchscreens in taxicabs
+/sarahblog/archives/000412.html: /2007/12/interaction08/  # title: Interaction08
+/sarahblog/archives/000413.html: /2008/01/dinosaurs-that-dont-pee/  # title: dinosaurs that don't pee?
+/sarahblog/archives/000415.html: /2008/01/women-talk-about-mentoring-open-source/  # title: women talk about mentoring open source
+/sarahblog/archives/000416.html: /2008/02/edward-tufte-critiques-the-iphone/  # title: Edward Tufte critiques the iPhone
+/sarahblog/archives/000418.html: /2008/01/comet-a-new-term-for-an-old-technique/  # by hand: old title 'a new term for an old technique' (WordPress-era page)
+/sarahblog/archives/000420.html: /2008/02/new-technical-trends-which-have-no-future/  # title: new technical trends which have no future
+/sarahblog/archives/000421.html: /2008/02/notes-from-interaction08/  # title: notes from Interaction08
+/sarahblog/archives/000422.html: /2008/02/interaction-08-cinematic-interaction-design/  # title: Interaction 08: Cinematic Interaction Design
+/sarahblog/archives/000424.html: /2008/02/emerging-trend-offline-web-applications/  # title: emerging trend: offline web applications
+/sarahblog/archives/000425.html: /2008/02/google-gears-installation-experience/  # title: google gears installation experience
+/sarahblog/archives/000427.html: /2008/02/gears-installation-experience-part-3/  # title: gears installation experience (part 3)
+/sarahblog/archives/000428.html: /2008/03/origins-of-the-cinematic-user-experience/  # title: origins of the cinematic user experience
+/sarahblog/archives/000431.html: /2008/03/openlaszlo-code-exchange/  # title: OpenLaszlo code exchange
+/sarahblog/archives/000432.html: /2008/04/improving-interface-design/  # title: improving interface design
+/sarahblog/archives/000433.html: /2008/05/give-them-what-they-need-not-what-they-want/  # title: give them what they need, not what they want
+/sarahblog/archives/000434.html: /2008/05/meaningful-to-humans-and-computers-alike/  # title: meaningful to humans and computers alike
+/sarahblog/archives/000435.html: /2008/05/simplicity-in-software-design/  # title: simplicity in software design
+/sarahblog/archives/000436.html: /2008/05/extreme-programming-vs-interaction-design/  # title: extreme programming vs. interaction design?
+/sarahblog/archives/000437.html: /2008/05/moveabletype-4-and-dealing-with-comment-spam/  # title: moveabletype 4 and dealing with comment spam
+/sarahblog/archives/000438.html: /2008/05/introducing-laszlo-calendar/  # title: introducing Laszlo Calendar...
+/sarahblog/archives/000440.html: /2008/05/sketching-in-air/  # title: sketching in air
+/sarahblog/archives/000441.html: /2008/12/abcd-book/  # title: ABCD book
+/sarahblog/archives/000442.html: /2008/05/gender-diversity-in-web-conferences/  # title: Gender Diversity in Web Conferences
+/sarahblog/archives/000443.html: /2008/05/nndb-maps-relationships-between-the-famous/  # title: NNDB maps relationships between the famous
+/sarahblog/archives/000444.html: /2008/05/extreme-learning-overcoming-the-spacing-effect/  # redirect
+/sarahblog/archives/000445.html: /2008/05/incidental-learning/  # title: incidental learning
+/sarahblog/archives/000446.html: /2008/06/video-game-play-danger-or-not/  # title: video game play: danger or not?
+/sarahblog/archives/000447.html: /2008/05/charles-babbages-difference-engine-running-today/  # title: Charles Babbage's Difference Engine running today!
+/sarahblog/archives/000448.html: /2008/05/xo-collaborative-features/  # title: xo collaborative features
+/sarahblog/archives/000451.html: /2008/06/js-meetup-jon-boutelle-flash-or-ajax/  # title: js meetup, jon boutelle: Flash or Ajax?
+/sarahblog/archives/000452.html: /2008/06/js-meetup-paul-sowden-client-side-storage/  # title: js meetup, paul sowden, client-side storage
+/sarahblog/archives/000453.html: /2008/06/js-meetup-keyboard-shortcuts/  # title: js meetup: keyboard shortcuts
+/sarahblog/archives/000454.html: /2008/06/js-meetup-screwunit/  # title: js meetup: ScrewUnit
+/sarahblog/archives/000455.html: /2008/06/yahoos-browserplus-sneek-peek/  # title: Yahoo's BrowserPlus sneek peek
+/sarahblog/archives/000456.html: /2008/06/openlaszlo-swf9-progress/  # title: OpenLaszlo SWF9 progress
+/sarahblog/archives/000457.html: /2008/06/bash-xargs-is-your-friend/  # title: bash: xargs is your friend
+/sarahblog/archives/000458.html: /2008/06/pipes-redirects-and-awk-v/  # title: pipes, redirects and awk -v
+/sarahblog/archives/000459.html: /2008/06/design-for-the-expression-on-someones-face/  # title: design for the expression on someone's face
+/sarahblog/archives/000461.html: /2008/07/application-personality/  # title: application personality
+/sarahblog/archives/000462.html: /2008/07/adventures-in-technicolor/  # title: adventures in technicolor
+/sarahblog/archives/000463.html: /2008/07/checkboxes-legacy-or-innovation/  # title: checkboxes: legacy or innovation?
+/sarahblog/archives/000466.html: /2008/07/when-there-is-an-html-fallback-why-compromise/  # title: when there is an HTML fallback, why compromise?
+/sarahblog/archives/000471.html: /2008/09/on-snail-mail-and-the-virtual-office/  # title: on snail mail and the virtual office
+/sarahblog/archives/000474.html: /2008/08/not-so-secret-for-success/  # title: not so secret for success
+/sarahblog/archives/000476.html: /2008/08/on-motion-design-for-mobile-interfaces/  # title: on motion design for mobile interfaces
+/sarahblog/archives/000477.html: /2008/08/love-and-authentication/  # title: love and authentication
+/sarahblog/archives/000478.html: /2008/09/tangible-time-tracking-with-legos/  # title: tangible time tracking with legos
+/sarahblog/archives/000479.html: /2008/09/tagging-brand-associations/  # title: tagging brand associations
+/sarahblog/archives/000480.html: /2008/09/physical-illusions-trick-your-brain/  # title: physical illusions trick your brain
+/sarahblog/archives/000481.html: /2008/09/on-getting-the-details-right/  # title: on getting the details right...
+/sarahblog/archives/000483.html: /2008/09/the-soul-of-a-man-made-creation/  # title: the soul of a man-made creation
+/sarahblog/archives/000484.html: /2008/09/firefox-is-now-the-dominant-browser/  # title: firefox is now the dominant browser
+/sarahblog/archives/000485.html: /2008/09/stand-between-order-and-chaos/  # title: stand between order and chaos
+/sarahblog/archives/000486.html: /2008/10/1022-an-evening-with-jean-jennings-bartik-1945-eniac-programming-pioneer/  # title: 10/22 An Evening with Jean Jennings Bartik - 1945 ENIAC Programming Pioneer
+/sarahblog/archives/000488.html: /2008/10/kinetic-sculpture-by-theo-jansen/  # title: kinetic sculpture by theo jansen
+/sarahblog/archives/000492.html: /2008/10/ustream/  # title: ustream
+/sarahblog/archives/000498.html: /2008/10/jean-bartik-at-the-computer-history-museum/  # redirect
+/sarahblog/archives/000507.html: /2008/11/data-mining-for-oil-sources/  # redirect
+/sarahblog/archives/000543.html: /2008/12/test-and-behavior-driven-development/  # redirect
+/sarahblog/archives/000548.html: /2008/12/situated-learning-through-open-source/  # redirect
+
+# not found:
+# /sarahblog/archives/000143.html: not in the Wayback Machine
+# /sarahblog/archives/000345.html: not in the Wayback Machine
+# /sarahblog/archives/000417.html: not in the Wayback Machine
+# /sarahblog/archives/000449.html: not in the Wayback Machine
+# /sarahblog/archives/000467.html: not in the Wayback Machine
+# /sarahblog/archives/000510.html: not in the Wayback Machine

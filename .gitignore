@@ -6,6 +6,11 @@ export/
 .dist/
 .build/
 
+# migration: generated report, Python cache
+migration/link-report.md
+__pycache__/
+.DS_Store
+
 # Logs
 logs
 *.log
